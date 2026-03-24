@@ -1,9 +1,5 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { useState } from "react";
+import { ChevronDown } from "lucide-react";
 
 const faqItems = [
   {
@@ -69,6 +65,8 @@ const faqItems = [
 ];
 
 export function FAQ() {
+  const [openId, setOpenId] = useState<string | null>(null);
+
   return (
     <section className="py-20 md:py-32 bg-gradient-to-b from-ennis-darker to-ennis-dark">
       <div className="container mx-auto px-4 max-w-3xl">
@@ -81,24 +79,36 @@ export function FAQ() {
           </p>
         </div>
 
-        <Accordion type="single" collapsible className="w-full space-y-3">
+        <div className="space-y-3">
           {faqItems.map((item) => (
-            <AccordionItem
+            <div
               key={item.id}
-              value={item.id}
-              className="border border-gray-700 rounded-lg px-6 overflow-hidden data-[state=open]:border-ennis-orange/50 transition-colors"
+              className={`border rounded-lg overflow-hidden transition-all ${
+                openId === item.id ? "border-ennis-orange/50 bg-ennis-orange/5" : "border-gray-700"
+              }`}
             >
-              <AccordionTrigger className="py-4 hover:no-underline hover:text-ennis-orange transition-colors">
-                <h3 className="text-lg font-bold text-left text-white hover:text-ennis-orange transition-colors">
+              <button
+                onClick={() => setOpenId(openId === item.id ? null : item.id)}
+                className="w-full px-6 py-4 text-left hover:bg-gray-900/50 transition-colors flex items-center justify-between"
+              >
+                <h3 className="text-lg font-bold text-white">
                   {item.question}
                 </h3>
-              </AccordionTrigger>
-              <AccordionContent className="text-gray-300 pb-4 pt-2 leading-relaxed">
-                {item.answer}
-              </AccordionContent>
-            </AccordionItem>
+                <ChevronDown
+                  className={`w-5 h-5 text-ennis-orange flex-shrink-0 ml-4 transition-transform ${
+                    openId === item.id ? "rotate-180" : ""
+                  }`}
+                />
+              </button>
+
+              {openId === item.id && (
+                <div className="px-6 pb-4 pt-2 text-gray-300 leading-relaxed border-t border-gray-700">
+                  {item.answer}
+                </div>
+              )}
+            </div>
           ))}
-        </Accordion>
+        </div>
 
         {/* Additional Info */}
         <div className="mt-12 bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg p-8">

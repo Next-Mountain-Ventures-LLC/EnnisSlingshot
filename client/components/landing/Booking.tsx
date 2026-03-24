@@ -1,14 +1,12 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { Label } from "@/components/ui/label";
 import { useState } from "react";
 
 export function Booking() {
-  const [riderCount, setRiderCount] = useState("1");
+  const [riderCount, setRiderCount] = useState(1);
 
   const pricePerRider = 79;
-  const totalPrice = parseInt(riderCount) * pricePerRider;
+  const totalPrice = riderCount * pricePerRider;
 
   return (
     <section className="py-20 md:py-32 bg-gradient-to-b from-ennis-darker to-ennis-dark">
@@ -50,27 +48,41 @@ export function Booking() {
             {/* Rider Selection */}
             <div className="mb-8">
               <h4 className="text-lg font-bold text-white mb-4">Select Your Package</h4>
-              <RadioGroup value={riderCount} onValueChange={setRiderCount}>
-                <div className="space-y-3">
-                  <div className="flex items-center space-x-2 p-4 border border-gray-700 rounded-lg hover:border-ennis-orange/50 cursor-pointer transition-colors">
-                    <RadioGroupItem value="1" id="one-rider" />
-                    <Label htmlFor="one-rider" className="flex-1 cursor-pointer">
+              <div className="space-y-3">
+                <button
+                  onClick={() => setRiderCount(1)}
+                  className={`w-full text-left p-4 border rounded-lg transition-colors ${
+                    riderCount === 1
+                      ? "border-ennis-orange bg-ennis-orange/10"
+                      : "border-gray-700 hover:border-ennis-orange/50"
+                  }`}
+                >
+                  <div className="flex items-center justify-between">
+                    <div>
                       <div className="font-bold text-white">1 Rider</div>
                       <div className="text-sm text-gray-400">You + Professional Driver</div>
-                    </Label>
+                    </div>
                     <div className="text-ennis-orange font-bold">${pricePerRider}</div>
                   </div>
+                </button>
 
-                  <div className="flex items-center space-x-2 p-4 border border-gray-700 rounded-lg hover:border-ennis-orange/50 cursor-pointer transition-colors">
-                    <RadioGroupItem value="2" id="two-riders" />
-                    <Label htmlFor="two-riders" className="flex-1 cursor-pointer">
+                <button
+                  onClick={() => setRiderCount(2)}
+                  className={`w-full text-left p-4 border rounded-lg transition-colors ${
+                    riderCount === 2
+                      ? "border-ennis-orange bg-ennis-orange/10"
+                      : "border-gray-700 hover:border-ennis-orange/50"
+                  }`}
+                >
+                  <div className="flex items-center justify-between">
+                    <div>
                       <div className="font-bold text-white">2 Riders</div>
                       <div className="text-sm text-gray-400">You + 1 Guest</div>
-                    </Label>
+                    </div>
                     <div className="text-ennis-orange font-bold">${pricePerRider * 2}</div>
                   </div>
-                </div>
-              </RadioGroup>
+                </button>
+              </div>
             </div>
 
             {/* Duration Info */}
@@ -110,7 +122,7 @@ export function Booking() {
             {/* Price Summary */}
             <div className="border-t border-gray-700 pt-4 mb-6">
               <div className="flex justify-between mb-2">
-                <span className="text-gray-400">Base Price ({riderCount} Rider{parseInt(riderCount) > 1 ? 's' : ''})</span>
+                <span className="text-gray-400">Base Price ({riderCount} Rider{riderCount > 1 ? 's' : ''})</span>
                 <span className="text-white font-bold">${totalPrice}</span>
               </div>
               <div className="flex justify-between text-lg font-bold text-white pt-2">
