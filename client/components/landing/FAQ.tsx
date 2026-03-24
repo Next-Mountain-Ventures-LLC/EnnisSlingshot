@@ -1,12 +1,11 @@
 import { useState } from "react";
-import { ChevronDown } from "lucide-react";
 
 const faqItems = [
   {
     id: "pricing",
     question: "How much does the experience cost?",
     answer:
-      "The Slingshot rental is $79 per rider for a 2-hour experience. This includes the vehicle rental, all fuel, comprehensive insurance coverage, and a 2026 Bluebonnet Trail Map. The experience accommodates 1 rider and 1 driver (you can book as either role).",
+      "Our slingshot experience starts at $79 per rider for a 2-hour rental. The experience includes one driver and one passenger. All rides include the vehicle rental, all fuel, comprehensive insurance coverage, and a 2026 Bluebonnet Trail Map.",
   },
   {
     id: "drivers",
@@ -18,31 +17,31 @@ const faqItems = [
     id: "approval",
     question: "What is the driver approval process?",
     answer:
-      "After you book, we'll send a verification link to your email. You'll need to complete our insurance approval process to be cleared as a driver. This typically takes 1-2 business days. If for any reason you don't meet our insurance requirements, your booking will be fully refunded.",
+      "After you book, we'll send a verification link to your email. You'll need to complete our insurance approval process to be cleared as a driver. This typically approves within 24 hours. If for any reason you don't meet our insurance requirements, your booking will be fully refunded.",
   },
   {
     id: "insurance",
     question: "What insurance coverage is included?",
     answer:
-      "Comprehensive insurance coverage is included with every rental. This protects you from liability and damage claims. Our insurance is tailored for Slingshot experiences and provides peace of mind while you focus on the thrill of the ride.",
+      "Comprehensive insurance coverage is included with every rental. This protects you from liability and damage claims. With standard coverage, there is a $500 max out of pocket for vehicle damage or theft. Our insurance is tailored for Slingshot experiences and provides peace of mind while you focus on the thrill of the ride.",
   },
   {
     id: "reschedule",
     question: "Can I reschedule my booking?",
     answer:
-      "Yes! While all rides are non-refundable, they are fully reschedulable. If you need to change your booking date or time, simply contact us and we'll help you find another available slot—subject to availability.",
+      "Yes! Bookings can be rescheduled up to 7 days prior to the scheduled date. If you need to change your booking date or time, simply contact us and we'll help you find another available slot—subject to availability.",
   },
   {
     id: "cancel",
     question: "What is your cancellation policy?",
     answer:
-      "All bookings are non-refundable. However, you can reschedule to another available date at no additional charge. If we need to cancel due to weather or mechanical issues, we'll provide a full refund or reschedule option.",
+      "Bookings can be rescheduled within 7 days prior to the experience date at no additional charge. If there are weather or mechanical issues, no refunds will be offered, but a full reschedule will be offered instead.",
   },
   {
     id: "riders",
     question: "Can I bring a friend? How does the 2-person setup work?",
     answer:
-      "Absolutely! The Slingshot accommodates both a rider and a driver. You can book as either role. If you book 2 riders, one will be the passenger/rider, and the other will be the driver. Both must complete our driver approval process before the experience.",
+      "Absolutely! You can enjoy a solo experience with one driver, or you can bring a rider for an additional cost. Both participants must complete our driver approval process before the experience.",
   },
   {
     id: "duration",
@@ -100,11 +99,13 @@ export function FAQ() {
                   <h3 className="text-lg font-bold text-white">
                     {item.question}
                   </h3>
-                  <ChevronDown
-                    className={`w-5 h-5 text-ennis-orange flex-shrink-0 ml-4 transition-transform ${
+                  <span
+                    className={`text-ennis-orange flex-shrink-0 ml-4 transition-transform inline-block ${
                       isOpen ? "rotate-180" : ""
                     }`}
-                  />
+                  >
+                    ▼
+                  </span>
                 </button>
 
                 {isOpen && (

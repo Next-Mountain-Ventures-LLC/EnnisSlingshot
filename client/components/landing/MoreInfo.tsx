@@ -1,6 +1,3 @@
-import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 
 const blogPosts = [
@@ -70,21 +67,20 @@ export function MoreInfo() {
                 </p>
               </div>
               <div>
-                <Button className="px-6 py-2 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold rounded-lg transition-all duration-300 hover:scale-105">
+                <button className="px-6 py-2 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold rounded-lg transition-all duration-300 hover:scale-105">
                   Read More →
-                </Button>
+                </button>
               </div>
             </div>
 
             {/* Navigation Controls */}
             <div className="flex items-center justify-between mt-8">
-              <Button
+              <button
                 onClick={goToPrevious}
-                variant="outline"
-                className="rounded-full w-12 h-12 p-0 border-gray-700 hover:border-ennis-orange hover:bg-ennis-orange/10 transition-colors"
+                className="rounded-full w-12 h-12 p-0 border border-gray-700 hover:border-ennis-orange hover:bg-ennis-orange/10 transition-colors text-gray-300 font-bold text-lg"
               >
-                <ChevronLeft className="w-6 h-6 text-gray-300" />
-              </Button>
+                ‹
+              </button>
 
               {/* Dots */}
               <div className="flex gap-2">
@@ -99,28 +95,20 @@ export function MoreInfo() {
                 ))}
               </div>
 
-              <Button
+              <button
                 onClick={goToNext}
-                variant="outline"
-                className="rounded-full w-12 h-12 p-0 border-gray-700 hover:border-ennis-orange hover:bg-ennis-orange/10 transition-colors"
+                className="rounded-full w-12 h-12 p-0 border border-gray-700 hover:border-ennis-orange hover:bg-ennis-orange/10 transition-colors text-gray-300 font-bold text-lg"
               >
-                <ChevronRight className="w-6 h-6 text-gray-300" />
-              </Button>
+                ›
+              </button>
             </div>
           </div>
 
           {/* Post Counter */}
-          <p className="text-center text-gray-500 text-sm mt-6">
-            {currentIndex + 1} of {blogPosts.length}
-          </p>
-        </div>
-
-        {/* Info Box */}
-        <div className="mt-16 bg-gradient-to-r from-ennis-orange/10 to-transparent border border-ennis-orange/30 rounded-lg p-8 max-w-4xl mx-auto">
-          <p className="text-gray-300 text-center">
-            <span className="text-ennis-orange font-bold">Coming Soon:</span> Connect to our live WordPress blog for the latest articles and stories. For now, check back regularly for updates!
-          </p>
-        </div>
+        <p className="text-center text-gray-500 text-sm mt-6">
+          {currentIndex + 1} of {blogPosts.length}
+        </p>
+      </div>
       </div>
     </section>
   );

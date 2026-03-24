@@ -2,6 +2,7 @@ import { useState } from "react";
 
 export function Booking() {
   const [riderCount, setRiderCount] = useState(1);
+  const [videoMuted, setVideoMuted] = useState(true);
 
   const pricePerRider = 79;
   const totalPrice = riderCount * pricePerRider;
@@ -20,10 +21,10 @@ export function Booking() {
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto items-start">
           {/* Video */}
-          <div className="w-full aspect-video lg:aspect-square bg-gray-900 rounded-lg border border-gray-700 overflow-hidden">
+          <div className="w-full aspect-video lg:aspect-square bg-gray-900 rounded-lg border border-gray-700 overflow-hidden relative group">
             <video
               autoPlay
-              muted
+              muted={videoMuted}
               loop
               playsInline
               preload="auto"
@@ -32,6 +33,15 @@ export function Booking() {
               <source src="https://videos.files.wordpress.com/HvuZEn7E/1744504370711.mov" type="video/quicktime" />
               <source src="https://videos.files.wordpress.com/HvuZEn7E/1744504370711.mov" type="video/mp4" />
             </video>
+
+            {/* Mute/Unmute Button */}
+            <button
+              onClick={() => setVideoMuted(!videoMuted)}
+              className="absolute bottom-4 right-4 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold py-2 px-4 rounded-lg transition-all opacity-0 group-hover:opacity-100"
+              title={videoMuted ? "Unmute audio" : "Mute audio"}
+            >
+              {videoMuted ? "🔊 Unmute" : "🔇 Mute"}
+            </button>
           </div>
 
           {/* Booking Card */}
@@ -61,7 +71,7 @@ export function Booking() {
                   <div className="flex items-center justify-between">
                     <div>
                       <div className="font-bold text-white">1 Rider</div>
-                      <div className="text-sm text-gray-400">You + Professional Driver</div>
+                      <div className="text-sm text-gray-400">Solo Experience</div>
                     </div>
                     <div className="text-ennis-orange font-bold">${pricePerRider}</div>
                   </div>
@@ -78,7 +88,7 @@ export function Booking() {
                   <div className="flex items-center justify-between">
                     <div>
                       <div className="font-bold text-white">2 Riders</div>
-                      <div className="text-sm text-gray-400">You + 1 Guest</div>
+                      <div className="text-sm text-gray-400">You + One Rider</div>
                     </div>
                     <div className="text-ennis-orange font-bold">${pricePerRider * 2}</div>
                   </div>
@@ -103,7 +113,7 @@ export function Booking() {
               <ul className="space-y-2 text-gray-300 text-sm">
                 <li className="flex items-start gap-2">
                   <span className="text-ennis-orange font-bold">✓</span>
-                  <span>Polaris Slingshot SL Rental (2 hours)</span>
+                  <span>Polaris Slingshot SLR Rental (2 hours)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-ennis-orange font-bold">✓</span>
@@ -130,7 +140,7 @@ export function Booking() {
                 <span>Total</span>
                 <span className="text-ennis-orange">${totalPrice}</span>
               </div>
-              <p className="text-xs text-gray-500 mt-2">Non-refundable but fully reschedulable</p>
+              <p className="text-xs text-gray-500 mt-2">Fully rescheduled 7 days prior to booking</p>
             </div>
 
             {/* CTA Button */}

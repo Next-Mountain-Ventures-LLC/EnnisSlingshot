@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slinghotImages = [
   "https://cdn.builder.io/o/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2Fe39c4213da65452e98b5548910b3b284?alt=media&token=a5d3f0be-0184-4efe-8aca-0d18dce4f391&apiKey=5193f7a05d654f0c98a0a70f48ef2387",
@@ -37,9 +36,8 @@ export function YourRide() {
     { label: "Torque", value: "144 lb-ft" },
     { label: "Transmission", value: "Automatic CVT" },
     { label: "0-60 MPH", value: "~5.2 seconds" },
-    { label: "Top Speed", value: "125+ MPH" },
     { label: "Seats", value: "2 (Driver + Rider)" },
-    { label: "License Required", value: "Valid Driver's License" },
+    { label: "License Required", value: "Valid Driver's License", fullWidth: true },
   ];
 
   return (
@@ -67,15 +65,15 @@ export function YourRide() {
               {/* Navigation Buttons */}
               <button
                 onClick={goToPrevious}
-                className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-black/50 hover:bg-black/75 text-white p-2 rounded-full transition-all"
+                className="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-black/50 hover:bg-black/75 text-white p-2 rounded-full transition-all text-xl font-bold"
               >
-                <ChevronLeft className="w-6 h-6" />
+                ‹
               </button>
               <button
                 onClick={goToNext}
-                className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-black/50 hover:bg-black/75 text-white p-2 rounded-full transition-all"
+                className="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-black/50 hover:bg-black/75 text-white p-2 rounded-full transition-all text-xl font-bold"
               >
-                <ChevronRight className="w-6 h-6" />
+                ›
               </button>
             </div>
 
@@ -90,7 +88,7 @@ export function YourRide() {
             <h3 className="text-2xl font-bold text-white mb-6">Specifications</h3>
             <div className="grid grid-cols-2 gap-4">
               {specs.map((spec, idx) => (
-                <div key={idx} className="bg-gray-900/50 border border-gray-700 rounded-lg p-4 hover:border-ennis-orange/50 transition-colors">
+                <div key={idx} className={`bg-gray-900/50 border border-gray-700 rounded-lg p-4 hover:border-ennis-orange/50 transition-colors ${spec.fullWidth ? 'col-span-2' : ''}`}>
                   <p className="text-gray-400 text-sm uppercase tracking-widest mb-1">{spec.label}</p>
                   <p className="text-white font-bold text-lg">{spec.value}</p>
                 </div>
@@ -112,7 +110,7 @@ export function YourRide() {
             <div>
               <h4 className="text-ennis-orange font-bold mb-2 text-lg">🛡️ Safety First</h4>
               <p className="text-gray-300">
-                All riders benefit from comprehensive insurance coverage included with your rental. All drivers must be approved before booking.
+                All riders benefit from comprehensive insurance coverage included with your rental, with a $500 max out of pocket for vehicle damage or theft. All drivers must be approved before booking.
               </p>
             </div>
             <div>
