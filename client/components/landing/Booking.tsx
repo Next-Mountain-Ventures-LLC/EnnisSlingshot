@@ -144,9 +144,14 @@ export function Booking() {
             </div>
 
             {/* CTA Button */}
-            <button className="w-full py-6 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-base rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl">
+            <a
+              href={riderCount === 1 ? "https://ennissling.as.me/?appointmentType=91042979" : "https://ennissling.as.me/?appointmentType=91043037"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full py-6 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-base rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl text-center"
+            >
               Continue to Booking
-            </button>
+            </a>
           </div>
         </div>
 
