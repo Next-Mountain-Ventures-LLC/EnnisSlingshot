@@ -14,13 +14,15 @@ export function Hero({ onBookingClick }: HeroProps) {
           muted
           loop
           playsInline
-          preload="metadata"
+          preload="auto"
           className="absolute inset-0 w-full h-full object-cover"
+          style={{ background: "#1a1a1a" }}
         >
-          <source src="https://blog.nxtmt.ventures/1744504370711-mov/" type="video/mp4" />
+          <source src="https://blog.nxtmt.ventures/1744504370711-mov" type="video/quicktime" />
+          <source src="https://blog.nxtmt.ventures/1744504370711-mov/" />
         </video>
-        {/* Overlay gradient for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/45 to-black/50"></div>
+        {/* Overlay gradient for text readability - lighter to show video better */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/45"></div>
       </div>
 
       {/* Content */}
@@ -46,7 +48,7 @@ export function Hero({ onBookingClick }: HeroProps) {
         </h1>
 
         <p className="mb-8 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-          Buckle up for an adrenaline-pumping ride in a Polaris Slingshot SL. Feel the rush as you navigate the stunning bluebonnet trails of Ennis, Texas—the Bluebonnet Capital of Texas.
+          Buckle up for an adrenaline-pumping ride in a Polaris Slingshot SLR. Feel the rush as you navigate the stunning bluebonnet trails of Ennis, Texas—the Bluebonnet Capital of Texas.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
