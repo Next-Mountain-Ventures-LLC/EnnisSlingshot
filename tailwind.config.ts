@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        heading: ['Archivo', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +60,14 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        ennis: {
+          dark: "#0a0f0f",
+          darker: "#050808",
+          orange: "#ffa000",
+          "orange-bright": "#ffb300",
+          red: "#e63946",
+          gray: "#4a4a4a",
         },
       },
       borderRadius: {
