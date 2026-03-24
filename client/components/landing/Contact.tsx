@@ -1,5 +1,3 @@
-import { Facebook, Mail, Phone } from "lucide-react";
-
 export function Contact() {
   const facebookUrl = "https://www.facebook.com/profile.php?id=61575229691240";
 
@@ -26,8 +24,7 @@ export function Contact() {
             onClick={handleFacebookShare}
             className="px-8 py-6 bg-[#1877F2] hover:bg-[#165FE5] text-white font-bold text-lg rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl inline-flex items-center gap-3"
           >
-            <Facebook className="w-5 h-5" />
-            Share on Facebook
+            📘 Share on Facebook
           </button>
         </div>
       </section>
@@ -38,8 +35,8 @@ export function Contact() {
           <div className="grid md:grid-cols-3 gap-12 mb-16">
             {/* Email */}
             <div className="text-center">
-              <div className="inline-block p-4 bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg mb-4">
-                <Mail className="w-8 h-8 text-ennis-orange" />
+              <div className="inline-block p-4 bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg mb-4 text-4xl">
+                📧
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Email</h3>
               <a
@@ -52,8 +49,8 @@ export function Contact() {
 
             {/* Phone */}
             <div className="text-center">
-              <div className="inline-block p-4 bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg mb-4">
-                <Phone className="w-8 h-8 text-ennis-orange" />
+              <div className="inline-block p-4 bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg mb-4 text-4xl">
+                📱
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Phone</h3>
               <a
@@ -66,8 +63,8 @@ export function Contact() {
 
             {/* Social */}
             <div className="text-center">
-              <div className="inline-block p-4 bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg mb-4">
-                <Facebook className="w-8 h-8 text-ennis-orange" />
+              <div className="inline-block p-4 bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg mb-4 text-4xl">
+                📘
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Follow Us</h3>
               <a
