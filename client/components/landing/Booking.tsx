@@ -1,4 +1,3 @@
-import { Card } from "@/components/ui/card";
 import { useState } from "react";
 
 export function Booking() {
@@ -33,7 +32,7 @@ export function Booking() {
           </div>
 
           {/* Booking Card */}
-          <Card className="bg-gray-900/60 border-gray-700 p-8 h-fit">
+          <div className="bg-gray-900/60 border border-gray-700 rounded-lg p-8 h-fit">
             <h3 className="text-2xl font-bold text-white mb-6">Your Experience</h3>
 
             {/* Faux Booking Embed Placeholder */}
@@ -135,7 +134,7 @@ export function Booking() {
             <button className="w-full py-6 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-base rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl">
               Continue to Booking
             </button>
-          </Card>
+          </div>
         </div>
 
         {/* Important Note */}
