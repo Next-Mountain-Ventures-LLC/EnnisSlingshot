@@ -2,9 +2,12 @@ import { Button } from "@/components/ui/button";
 import { Facebook, Mail, Phone } from "lucide-react";
 
 export function Contact() {
+  const facebookUrl = "https://www.facebook.com/profile.php?id=61575229691240";
+
   const handleFacebookShare = () => {
-    // Facebook share URL - will be updated with actual Facebook page URL
-    const shareUrl = "https://facebook.com/share";
+    // Share to Facebook
+    const currentUrl = window.location.href;
+    const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
     window.open(shareUrl, "_blank", "width=600,height=400");
   };
 
@@ -69,7 +72,7 @@ export function Contact() {
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Follow Us</h3>
               <a
-                href="https://facebook.com"
+                href={facebookUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-ennis-orange transition-colors"
