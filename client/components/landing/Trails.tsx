@@ -49,15 +49,15 @@ export function Trails() {
               </div>
             </div>
 
-            <button
-              onClick={() => {
-                // Replace with actual PDF URL when available
-                alert("PDF download link will be configured with your hosted PDF file");
-              }}
+            <a
+              href="https://www.bluebonnettrail.org/_files/ugd/5b7b72_6ae57502cb62463dbaebe65e45571eaa.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-6 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-base rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl"
             >
               ⬇️ Download 2026 Trail Map
-            </button>
+            </a>
           </div>
 
           {/* Trail Map Image */}
