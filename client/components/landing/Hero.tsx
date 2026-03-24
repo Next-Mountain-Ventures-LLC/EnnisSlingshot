@@ -6,7 +6,7 @@ interface HeroProps {
 
 export function Hero({ onBookingClick }: HeroProps) {
   return (
-    <section className="relative min-h-screen w-full overflow-hidden bg-ennis-dark flex items-center justify-center">
+    <section className="relative min-h-[80vh] w-full overflow-hidden bg-ennis-dark flex items-center justify-center">
       {/* Video Background */}
       <div className="absolute inset-0 w-full h-full overflow-hidden bg-gradient-to-b from-gray-800 to-black">
         <video
@@ -21,8 +21,8 @@ export function Hero({ onBookingClick }: HeroProps) {
           <source src="https://videos.files.wordpress.com/HvuZEn7E/1744504370711.mov" type="video/quicktime" />
           <source src="https://videos.files.wordpress.com/HvuZEn7E/1744504370711.mov" type="video/mp4" />
         </video>
-        {/* Overlay gradient for text readability - lighter to show video better */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/45"></div>
+        {/* Light overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/25 to-black/30"></div>
       </div>
 
       {/* Content */}

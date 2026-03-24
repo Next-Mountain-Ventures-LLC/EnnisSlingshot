@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import { Header } from "@/components/landing/Header";
 import { Hero } from "@/components/landing/Hero";
 import { YourRide } from "@/components/landing/YourRide";
 import { Trails } from "@/components/landing/Trails";
@@ -17,9 +16,6 @@ export default function Index() {
 
   return (
     <div className="w-full bg-ennis-dark">
-      {/* Header with Logo */}
-      <Header />
-
       {/* Hero Section */}
       <Hero onBookingClick={scrollToBooking} />
 
