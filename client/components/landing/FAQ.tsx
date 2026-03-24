@@ -67,6 +67,10 @@ const faqItems = [
 export function FAQ() {
   const [openId, setOpenId] = useState<string | null>(null);
 
+  const toggleOpen = (id: string) => {
+    setOpenId(openId === id ? null : id);
+  };
+
   return (
     <section className="py-20 md:py-32 bg-gradient-to-b from-ennis-darker to-ennis-dark">
       <div className="container mx-auto px-4 max-w-3xl">
@@ -80,34 +84,37 @@ export function FAQ() {
         </div>
 
         <div className="space-y-3">
-          {faqItems.map((item) => (
-            <div
-              key={item.id}
-              className={`border rounded-lg overflow-hidden transition-all ${
-                openId === item.id ? "border-ennis-orange/50 bg-ennis-orange/5" : "border-gray-700"
-              }`}
-            >
-              <button
-                onClick={() => setOpenId(openId === item.id ? null : item.id)}
-                className="w-full px-6 py-4 text-left hover:bg-gray-900/50 transition-colors flex items-center justify-between"
+          {faqItems.map((item) => {
+            const isOpen = openId === item.id;
+            return (
+              <div
+                key={item.id}
+                className={`border rounded-lg overflow-hidden transition-all ${
+                  isOpen ? "border-ennis-orange/50 bg-ennis-orange/5" : "border-gray-700"
+                }`}
               >
-                <h3 className="text-lg font-bold text-white">
-                  {item.question}
-                </h3>
-                <ChevronDown
-                  className={`w-5 h-5 text-ennis-orange flex-shrink-0 ml-4 transition-transform ${
-                    openId === item.id ? "rotate-180" : ""
-                  }`}
-                />
-              </button>
+                <button
+                  onClick={() => toggleOpen(item.id)}
+                  className="w-full px-6 py-4 text-left hover:bg-gray-900/50 transition-colors flex items-center justify-between"
+                >
+                  <h3 className="text-lg font-bold text-white">
+                    {item.question}
+                  </h3>
+                  <ChevronDown
+                    className={`w-5 h-5 text-ennis-orange flex-shrink-0 ml-4 transition-transform ${
+                      isOpen ? "rotate-180" : ""
+                    }`}
+                  />
+                </button>
 
-              {openId === item.id && (
-                <div className="px-6 pb-4 pt-2 text-gray-300 leading-relaxed border-t border-gray-700">
-                  {item.answer}
-                </div>
-              )}
-            </div>
-          ))}
+                {isOpen && (
+                  <div className="px-6 pb-4 pt-2 text-gray-300 leading-relaxed border-t border-gray-700">
+                    {item.answer}
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
 
         {/* Additional Info */}

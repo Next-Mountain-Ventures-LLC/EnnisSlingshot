@@ -8,18 +8,19 @@ export function Hero({ onBookingClick }: HeroProps) {
   return (
     <section className="relative min-h-screen w-full overflow-hidden bg-ennis-dark flex items-center justify-center">
       {/* Video Background */}
-      <div className="absolute inset-0 w-full h-full overflow-hidden bg-black">
+      <div className="absolute inset-0 w-full h-full overflow-hidden bg-gradient-to-b from-gray-800 to-black">
         <video
           autoPlay
           muted
           loop
           playsInline
-          preload="auto"
+          preload="metadata"
           className="absolute inset-0 w-full h-full object-cover"
-          src="https://blog.nxtmt.ventures/1744504370711-mov/"
-        />
-        {/* Overlay gradient for text readability - lighter to show video */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/50 to-black/60"></div>
+        >
+          <source src="https://blog.nxtmt.ventures/1744504370711-mov/" type="video/mp4" />
+        </video>
+        {/* Overlay gradient for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/35 via-black/45 to-black/50"></div>
       </div>
 
       {/* Content */}

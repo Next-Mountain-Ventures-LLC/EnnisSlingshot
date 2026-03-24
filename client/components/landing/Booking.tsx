@@ -1,5 +1,4 @@
 import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
 export function Booking() {
@@ -133,9 +132,9 @@ export function Booking() {
             </div>
 
             {/* CTA Button */}
-            <Button className="w-full py-6 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-base rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl">
+            <button className="w-full py-6 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-base rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl">
               Continue to Booking
-            </Button>
+            </button>
           </Card>
         </div>
 
