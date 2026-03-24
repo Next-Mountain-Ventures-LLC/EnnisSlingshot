@@ -23,12 +23,16 @@ export function Booking() {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto items-start">
-          {/* Video Placeholder */}
-          <div className="w-full aspect-video lg:aspect-square bg-gray-900 rounded-lg border border-gray-700 overflow-hidden flex items-center justify-center">
-            <div className="w-full h-full bg-gradient-to-br from-gray-700 to-black flex items-center justify-center text-gray-500 flex-col gap-4">
-              <div className="text-6xl">🎥</div>
-              [Slingshot Trail Video]
-            </div>
+          {/* Video */}
+          <div className="w-full aspect-video lg:aspect-square bg-gray-900 rounded-lg border border-gray-700 overflow-hidden">
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-full object-cover"
+              src="https://blog.nxtmt.ventures/1744504370711-mov/"
+            />
           </div>
 
           {/* Booking Card */}

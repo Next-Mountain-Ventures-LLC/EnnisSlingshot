@@ -7,17 +7,18 @@ interface HeroProps {
 export function Hero({ onBookingClick }: HeroProps) {
   return (
     <section className="relative min-h-screen w-full overflow-hidden bg-ennis-dark flex items-center justify-center">
-      {/* Video Background Placeholder */}
-      <div className="absolute inset-0 w-full h-full">
-        <div className="absolute inset-0 bg-gradient-to-b from-ennis-dark/80 via-ennis-dark/90 to-ennis-dark bg-cover bg-center"
-          style={{
-            backgroundImage: "linear-gradient(135deg, #0a0f0f 0%, #1a1a2e 50%, #16213e 100%)"
-          }}>
-        </div>
-        {/* Placeholder for video background - User will provide video URL */}
-        <div className="absolute inset-0 bg-black/40 flex items-center justify-center text-muted-foreground text-sm">
-          [Video Background - Slingshot Action]
-        </div>
+      {/* Video Background */}
+      <div className="absolute inset-0 w-full h-full overflow-hidden">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+          src="https://blog.nxtmt.ventures/1744504370711-mov/"
+        />
+        {/* Overlay gradient for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/70 to-ennis-dark/90"></div>
       </div>
 
       {/* Content */}
