@@ -49,13 +49,15 @@ export function Trails() {
               </div>
             </div>
 
-            <a
-              href="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2Ffbc16199876c45a1a4d9e84a3bb43061?format=pdf"
-              download="2026-Bluebonnet-Trails.pdf"
+            <button
+              onClick={() => {
+                // Replace with actual PDF URL when available
+                alert("PDF download link will be configured with your hosted PDF file");
+              }}
               className="inline-flex items-center gap-2 px-6 py-6 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-base rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl"
             >
               ⬇️ Download 2026 Trail Map
-            </a>
+            </button>
           </div>
 
           {/* Trail Map Image */}
