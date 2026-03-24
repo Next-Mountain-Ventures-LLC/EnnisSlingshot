@@ -1,6 +1,3 @@
-import { Button } from "@/components/ui/button";
-import { Download } from "lucide-react";
-
 export function Trails() {
   return (
     <section className="py-20 md:py-32 bg-ennis-dark relative overflow-hidden">
@@ -52,23 +49,22 @@ export function Trails() {
               </div>
             </div>
 
-            <Button
-              asChild
-              className="px-6 py-6 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-base rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl"
+            <a
+              href="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2Ffbc16199876c45a1a4d9e84a3bb43061?format=pdf"
+              download="2026-Bluebonnet-Trails.pdf"
+              className="inline-flex items-center gap-2 px-6 py-6 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-base rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl"
             >
-              <a href="#" download className="flex items-center gap-2">
-                <Download className="w-5 h-5" />
-                Download 2026 Trail Map
-              </a>
-            </Button>
+              ⬇️ Download 2026 Trail Map
+            </a>
           </div>
 
-          {/* Image Placeholder */}
-          <div className="w-full aspect-square bg-gray-900 rounded-lg border border-gray-700 overflow-hidden flex items-center justify-center">
-            <div className="w-full h-full bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center text-gray-500 flex-col gap-4">
-              <div className="text-6xl">🗺️</div>
-              [Bluebonnet Trail Map / Scenic Landscape]
-            </div>
+          {/* Trail Map Image */}
+          <div className="w-full aspect-square bg-gray-900 rounded-lg border border-gray-700 overflow-hidden">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2Ffbc16199876c45a1a4d9e84a3bb43061?format=webp&width=600"
+              alt="2026 Ennis Bluebonnet Trails Map"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
 
