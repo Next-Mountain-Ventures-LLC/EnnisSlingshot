@@ -1,8 +1,7 @@
-import { Card } from "@/components/ui/card";
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const slingshotImages = [
+const slinghotImages = [
   "https://cdn.builder.io/o/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2Fe39c4213da65452e98b5548910b3b284?alt=media&token=a5d3f0be-0184-4efe-8aca-0d18dce4f391&apiKey=5193f7a05d654f0c98a0a70f48ef2387",
   "https://cdn.builder.io/o/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2F0d546bc2ae0a43c18613bd973d2952af?alt=media&token=66fa2bc5-8074-4746-a7a6-4f997d5a3601&apiKey=5193f7a05d654f0c98a0a70f48ef2387",
   "https://cdn.builder.io/o/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2F2c39661ec4ae4209a6daf64d41cdc94c?alt=media&token=4f7921d1-1e47-4490-8d93-eb50f44835f7&apiKey=5193f7a05d654f0c98a0a70f48ef2387",
@@ -91,10 +90,10 @@ export function YourRide() {
             <h3 className="text-2xl font-bold text-white mb-6">Specifications</h3>
             <div className="grid grid-cols-2 gap-4">
               {specs.map((spec, idx) => (
-                <Card key={idx} className="bg-gray-900/50 border-gray-700 p-4 hover:border-ennis-orange/50 transition-colors">
+                <div key={idx} className="bg-gray-900/50 border border-gray-700 rounded-lg p-4 hover:border-ennis-orange/50 transition-colors">
                   <p className="text-gray-400 text-sm uppercase tracking-widest mb-1">{spec.label}</p>
                   <p className="text-white font-bold text-lg">{spec.value}</p>
-                </Card>
+                </div>
               ))}
             </div>
           </div>
