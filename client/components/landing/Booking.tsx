@@ -26,9 +26,12 @@ export function Booking() {
               muted
               loop
               playsInline
+              preload="auto"
               className="w-full h-full object-cover"
-              src="https://blog.nxtmt.ventures/1744504370711-mov/"
-            />
+            >
+              <source src="https://videos.files.wordpress.com/HvuZEn7E/1744504370711.mov" type="video/quicktime" />
+              <source src="https://videos.files.wordpress.com/HvuZEn7E/1744504370711.mov" type="video/mp4" />
+            </video>
           </div>
 
           {/* Booking Card */}

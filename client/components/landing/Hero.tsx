@@ -18,8 +18,8 @@ export function Hero({ onBookingClick }: HeroProps) {
           className="absolute inset-0 w-full h-full object-cover"
           style={{ background: "#1a1a1a" }}
         >
-          <source src="https://blog.nxtmt.ventures/1744504370711-mov" type="video/quicktime" />
-          <source src="https://blog.nxtmt.ventures/1744504370711-mov/" />
+          <source src="https://videos.files.wordpress.com/HvuZEn7E/1744504370711.mov" type="video/quicktime" />
+          <source src="https://videos.files.wordpress.com/HvuZEn7E/1744504370711.mov" type="video/mp4" />
         </video>
         {/* Overlay gradient for text readability - lighter to show video better */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/45"></div>
