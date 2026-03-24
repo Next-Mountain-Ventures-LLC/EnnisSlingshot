@@ -6,7 +6,7 @@ interface HeroProps {
 
 export function Hero({ onBookingClick }: HeroProps) {
   return (
-    <section className="relative min-h-[60vh] w-full overflow-hidden bg-ennis-dark flex items-center justify-center">
+    <section className="relative min-h-[51vh] w-full overflow-hidden bg-ennis-dark flex items-center justify-center">
       {/* Video Background */}
       <div className="absolute inset-0 w-full h-full overflow-hidden bg-gradient-to-b from-gray-800 to-black">
         <video

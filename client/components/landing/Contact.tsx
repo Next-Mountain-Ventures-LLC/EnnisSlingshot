@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Facebook, Mail, Phone } from "lucide-react";
 
 export function Contact() {
@@ -23,13 +22,13 @@ export function Contact() {
             Invite your friends and family to experience the adrenaline rush of a lifetime. Let them book their Slingshot adventure today.
           </p>
 
-          <Button
+          <button
             onClick={handleFacebookShare}
             className="px-8 py-6 bg-[#1877F2] hover:bg-[#165FE5] text-white font-bold text-lg rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl inline-flex items-center gap-3"
           >
             <Facebook className="w-5 h-5" />
             Share on Facebook
-          </Button>
+          </button>
         </div>
       </section>
 
