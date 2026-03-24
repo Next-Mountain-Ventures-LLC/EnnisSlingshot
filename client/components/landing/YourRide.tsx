@@ -37,7 +37,7 @@ export function YourRide() {
     { label: "Torque", value: "144 lb-ft" },
     { label: "Transmission", value: "Automatic CVT" },
     { label: "0-60 MPH", value: "~5.2 seconds" },
-    { label: "Top Speed", value: "120+ MPH" },
+    { label: "Top Speed", value: "125+ MPH" },
     { label: "Seats", value: "2 (Driver + Rider)" },
     { label: "License Required", value: "Valid Driver's License" },
   ];
@@ -47,7 +47,7 @@ export function YourRide() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
-            Your Ride: <span className="text-ennis-orange">Polaris Slingshot SL</span>
+            Your Ride: <span className="text-ennis-orange">Polaris Slingshot SLR</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             The ultimate 3-wheeled adrenaline machine. Engineered for performance, designed for thrills.
@@ -60,7 +60,7 @@ export function YourRide() {
             <div className="w-full aspect-video md:aspect-square bg-gray-900 rounded-lg border border-gray-700 overflow-hidden relative">
               <img
                 src={slinghotImages[currentImageIndex]}
-                alt={`Polaris Slingshot SL ${currentImageIndex + 1}`}
+                alt={`Polaris Slingshot SLR ${currentImageIndex + 1}`}
                 className="w-full h-full object-cover"
               />
 
@@ -101,7 +101,7 @@ export function YourRide() {
 
         {/* Features */}
         <div className="bg-gray-900/40 border border-gray-700 rounded-lg p-8 md:p-12">
-          <h3 className="text-2xl font-bold text-white mb-6">Why Choose Slingshot SL?</h3>
+          <h3 className="text-2xl font-bold text-white mb-6">Why Choose Slingshot SLR?</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div>
               <h4 className="text-ennis-orange font-bold mb-2 text-lg">⚡ High Performance</h4>
@@ -128,10 +128,16 @@ export function YourRide() {
         <div className="mt-16">
           <h3 className="text-2xl font-bold text-white mb-6 text-center">See It in Action</h3>
           <div className="w-full aspect-video bg-gray-900 rounded-lg border border-gray-700 overflow-hidden">
-            <div className="w-full h-full bg-gradient-to-br from-gray-700 to-black flex items-center justify-center text-gray-500 flex-col gap-4">
-              <div className="text-4xl">▶️</div>
-              [Polaris Slingshot SL Video - YouTube Embed]
-            </div>
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/agWSnFYUvGI?si=BP2d6OCmL4XXWm5n"
+              title="Polaris Slingshot SLR"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="w-full h-full"
+            />
           </div>
         </div>
       </div>
