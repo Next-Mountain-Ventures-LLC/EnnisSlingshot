@@ -9,7 +9,7 @@ export function Hero({ onBookingClick }: HeroProps) {
     <section className="relative min-h-screen w-full overflow-hidden bg-ennis-dark flex items-center justify-center">
       {/* Video Background Placeholder */}
       <div className="absolute inset-0 w-full h-full">
-        <div className="absolute inset-0 bg-gradient-to-b from-ennis-dark/80 via-ennis-dark/90 to-ennis-dark bg-cover bg-center" 
+        <div className="absolute inset-0 bg-gradient-to-b from-ennis-dark/80 via-ennis-dark/90 to-ennis-dark bg-cover bg-center"
           style={{
             backgroundImage: "linear-gradient(135deg, #0a0f0f 0%, #1a1a2e 50%, #16213e 100%)"
           }}>
@@ -21,7 +21,16 @@ export function Hero({ onBookingClick }: HeroProps) {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 py-20 text-center max-w-3xl">
+      <div className="relative z-10 container mx-auto px-4 py-20 text-center max-w-4xl">
+        {/* Logo */}
+        <div className="mb-8 flex justify-center">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2F700b36c4a653482c8265f6619a61ea23?format=webp&width=300"
+            alt="Ennis Slingshot Experience Logo"
+            className="h-32 md:h-40 w-auto drop-shadow-2xl"
+          />
+        </div>
+
         <div className="mb-6 inline-block">
           <span className="inline-block px-3 py-1 bg-ennis-orange/20 border border-ennis-orange rounded-full text-ennis-orange text-xs font-semibold tracking-widest uppercase">
             ENNIS, TEXAS
