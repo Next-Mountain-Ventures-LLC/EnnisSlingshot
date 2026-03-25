@@ -2,9 +2,8 @@ export function Contact() {
   const facebookUrl = "https://www.facebook.com/profile.php?id=61575229691240";
 
   const handleFacebookShare = () => {
-    // Share to Facebook
-    const currentUrl = window.location.href;
-    const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
+    // Share Facebook page to Facebook
+    const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(facebookUrl)}`;
     window.open(shareUrl, "_blank", "width=600,height=400");
   };
 
@@ -29,55 +28,9 @@ export function Contact() {
         </div>
       </section>
 
-      {/* Contact Information */}
+      {/* Footer Bottom Bar */}
       <section className="py-16 md:py-20">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-12 mb-16">
-            {/* Email */}
-            <div className="text-center">
-              <div className="inline-block p-4 bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg mb-4 text-4xl">
-                📧
-              </div>
-              <h3 className="text-xl font-bold text-white mb-2">Email</h3>
-              <a
-                href="mailto:info@example.com"
-                className="text-gray-400 hover:text-ennis-orange transition-colors break-all"
-              >
-                [Your Email]
-              </a>
-            </div>
-
-            {/* Phone */}
-            <div className="text-center">
-              <div className="inline-block p-4 bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg mb-4 text-4xl">
-                📱
-              </div>
-              <h3 className="text-xl font-bold text-white mb-2">Phone</h3>
-              <a
-                href="tel:+14155551234"
-                className="text-gray-400 hover:text-ennis-orange transition-colors"
-              >
-                [Your Phone]
-              </a>
-            </div>
-
-            {/* Social */}
-            <div className="text-center">
-              <div className="inline-block p-4 bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg mb-4 text-4xl">
-                📘
-              </div>
-              <h3 className="text-xl font-bold text-white mb-2">Follow Us</h3>
-              <a
-                href={facebookUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-ennis-orange transition-colors"
-              >
-                Facebook Page
-              </a>
-            </div>
-          </div>
-
           {/* Bottom Bar */}
           <div className="border-t border-gray-700 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
