@@ -61,6 +61,12 @@ const faqItems = [
     answer:
       "The 2026 Bluebonnet Trail Map features our expert-curated scenic routes throughout Ennis and the surrounding areas. The map includes recommended trails with varying difficulty levels and stunning wildflower viewing locations. It comes in your glove box during your rental.",
   },
+  {
+    id: "helmets",
+    question: "Are helmets available for rent?",
+    answer:
+      "Helmets are not required by law, but we strongly suggest wearing one for your safety and protection. We offer Bluetooth communication helmets available for rent at $25 per helmet. These helmets allow both you and your passenger to hear each other clearly while riding, enhancing communication and safety on the trails.",
+  },
 ];
 
 export function FAQ() {

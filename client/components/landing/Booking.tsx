@@ -4,8 +4,11 @@ export function Booking() {
   const [riderCount, setRiderCount] = useState(1);
   const [videoMuted, setVideoMuted] = useState(true);
   const [showScheduler, setShowScheduler] = useState(false);
+  const [helmetCount, setHelmetCount] = useState(0);
 
-  const totalPrice = riderCount === 1 ? 79 : 149;
+  const basePrice = riderCount === 1 ? 79 : 149;
+  const helmetCost = helmetCount * 25;
+  const totalPrice = basePrice + helmetCost;
 
   // Load the Acuity embed script when scheduler is shown
   useEffect(() => {
@@ -148,12 +151,43 @@ export function Booking() {
                   </ul>
                 </div>
 
+                {/* Helmet Rentals Add-On */}
+                <div className="mb-8 bg-gray-800/50 border border-gray-700 rounded-lg p-4">
+                  <h4 className="font-bold text-white mb-3">Add Bluetooth Communication Helmets</h4>
+                  <p className="text-gray-400 text-sm mb-4">
+                    Helmets are suggested for safety and protection. Our Bluetooth communication helmets let both riders hear each other clearly. $25 per helmet.
+                  </p>
+                  <div className="flex gap-3">
+                    <button
+                      onClick={() => setHelmetCount(Math.max(0, helmetCount - 1))}
+                      className="px-4 py-2 border border-gray-600 text-gray-300 rounded hover:border-ennis-orange hover:text-ennis-orange transition-colors"
+                    >
+                      −
+                    </button>
+                    <div className="flex-1 flex items-center justify-center">
+                      <span className="text-white font-bold">{helmetCount} {helmetCount === 1 ? 'Helmet' : 'Helmets'}</span>
+                    </div>
+                    <button
+                      onClick={() => setHelmetCount(helmetCount + 1)}
+                      className="px-4 py-2 border border-gray-600 text-gray-300 rounded hover:border-ennis-orange hover:text-ennis-orange transition-colors"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
+
                 {/* Price Summary */}
                 <div className="border-t border-gray-700 pt-4 mb-6">
                   <div className="flex justify-between mb-2">
                     <span className="text-gray-400">Base Price ({riderCount} Rider{riderCount > 1 ? 's' : ''})</span>
-                    <span className="text-white font-bold">${totalPrice}</span>
+                    <span className="text-white font-bold">${basePrice}</span>
                   </div>
+                  {helmetCost > 0 && (
+                    <div className="flex justify-between mb-2">
+                      <span className="text-gray-400">Helmet Rentals ({helmetCount})</span>
+                      <span className="text-white font-bold">${helmetCost}</span>
+                    </div>
+                  )}
                   <div className="flex justify-between text-lg font-bold text-white pt-2">
                     <span>Total</span>
                     <span className="text-ennis-orange">${totalPrice}</span>
