@@ -153,9 +153,9 @@ export function Booking() {
 
                 {/* Helmet Rentals Add-On */}
                 <div className="mb-8 bg-gray-800/50 border border-gray-700 rounded-lg p-4">
-                  <h4 className="font-bold text-white mb-3">Add Bluetooth Communication Helmets</h4>
+                  <h4 className="font-bold text-white mb-3">🎧 Bluetooth Communication Helmets</h4>
                   <p className="text-gray-400 text-sm mb-4">
-                    Helmets are suggested for safety and protection. Our Bluetooth communication helmets let both riders hear each other clearly. $25 per helmet.
+                    Upgrade your experience with our Bluetooth communication helmets. These helmets allow you and your rider to hear each other better while providing enhanced protection during your ride. You can add them to your booking during the checkout process for $25 per helmet.
                   </p>
                   <div className="flex gap-3">
                     <button
@@ -200,7 +200,7 @@ export function Booking() {
                   onClick={handleContinueClick}
                   className="w-full py-6 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-base rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl"
                 >
-                  Continue to Scheduling
+                  Continue to Booking
                 </button>
               </>
             ) : (
