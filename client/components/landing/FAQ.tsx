@@ -5,7 +5,7 @@ const faqItems = [
     id: "pricing",
     question: "How much does the experience cost?",
     answer:
-      "Our slingshot experience starts at $149 per rider for a 2-hour rental. The experience includes one driver and one passenger. All rides include the vehicle rental, all fuel, comprehensive insurance coverage, and a 2026 Bluebonnet Trail Map.",
+      "Our slingshot experience pricing is $79 for a solo experience (one driver) and $149 for the experience with one driver and one additional rider. Both include the 2-hour rental, all fuel, comprehensive insurance coverage, and a 2026 Bluebonnet Trail Map.",
   },
   {
     id: "drivers",

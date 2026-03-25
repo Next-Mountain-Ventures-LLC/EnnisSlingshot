@@ -5,8 +5,7 @@ export function Booking() {
   const [videoMuted, setVideoMuted] = useState(true);
   const [showScheduler, setShowScheduler] = useState(false);
 
-  const pricePerRider = 149;
-  const totalPrice = riderCount * pricePerRider;
+  const totalPrice = riderCount === 1 ? 79 : 149;
 
   // Load the Acuity embed script when scheduler is shown
   useEffect(() => {
@@ -92,7 +91,7 @@ export function Booking() {
                           <div className="font-bold text-white">1 Rider</div>
                           <div className="text-sm text-gray-400">Solo Experience</div>
                         </div>
-                        <div className="text-ennis-orange font-bold">${pricePerRider}</div>
+                        <div className="text-ennis-orange font-bold">$79</div>
                       </div>
                     </button>
 
@@ -109,7 +108,7 @@ export function Booking() {
                           <div className="font-bold text-white">2 Riders</div>
                           <div className="text-sm text-gray-400">You + One Rider</div>
                         </div>
-                        <div className="text-ennis-orange font-bold">${pricePerRider * 2}</div>
+                        <div className="text-ennis-orange font-bold">$149</div>
                       </div>
                     </button>
                   </div>
@@ -175,7 +174,7 @@ export function Booking() {
                 {/* Back Button */}
                 <button
                   onClick={handleBackClick}
-                  className="mb-6 px-4 py-2 border border-ennis-orange text-ennis-orange hover:bg-ennis-orange hover:text-ennis-dark font-bold rounded-lg transition-all"
+                  className="mb-2 px-4 py-2 border border-ennis-orange text-ennis-orange hover:bg-ennis-orange hover:text-ennis-dark font-bold rounded-lg transition-all"
                 >
                   ← Back to Selection
                 </button>
