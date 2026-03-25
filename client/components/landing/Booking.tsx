@@ -103,12 +103,16 @@ export function Booking() {
                           : "border-gray-700 hover:border-ennis-orange/50"
                       }`}
                     >
-                      <div className="flex items-center justify-between">
+                      <div className="flex items-center justify-between mb-2">
                         <div>
                           <div className="font-bold text-white">2 Riders</div>
                           <div className="text-sm text-gray-400">You + One Rider</div>
                         </div>
                         <div className="text-ennis-orange font-bold">$149</div>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <span className="text-xs text-gray-500 line-through">$158</span>
+                        <span className="inline-block px-2 py-1 bg-ennis-orange/20 border border-ennis-orange rounded text-ennis-orange text-xs font-semibold">Save $9</span>
                       </div>
                     </button>
                   </div>
