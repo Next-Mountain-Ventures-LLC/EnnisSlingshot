@@ -41,7 +41,7 @@ const faqItems = [
     id: "riders",
     question: "Can I bring a friend? How does the 2-person setup work?",
     answer:
-      "Absolutely! You can enjoy a solo experience with one driver, or you can bring a rider for an additional cost. Both participants must complete our driver approval process before the experience.",
+      "Absolutely! You can enjoy a solo experience with one driver, or bring a rider for an additional cost. There is one driver and one rider. Only the driver needs to complete our approval process before the experience—your passenger does not need to be approved.",
   },
   {
     id: "duration",
