@@ -1,11 +1,37 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export function Booking() {
   const [riderCount, setRiderCount] = useState(1);
   const [videoMuted, setVideoMuted] = useState(true);
+  const [showScheduler, setShowScheduler] = useState(false);
 
   const pricePerRider = 79;
   const totalPrice = riderCount * pricePerRider;
+
+  // Load the Acuity embed script when scheduler is shown
+  useEffect(() => {
+    if (showScheduler) {
+      const script = document.createElement('script');
+      script.src = 'https://embed.acuityscheduling.com/js/embed.js';
+      script.type = 'text/javascript';
+      document.body.appendChild(script);
+    }
+  }, [showScheduler]);
+
+  const handleBackClick = () => {
+    setShowScheduler(false);
+  };
+
+  const handleContinueClick = () => {
+    setShowScheduler(true);
+    // Scroll to the scheduler section
+    setTimeout(() => {
+      const schedulerElement = document.getElementById('acuity-scheduler');
+      if (schedulerElement) {
+        schedulerElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100);
+  };
 
   return (
     <section className="py-20 md:py-32 bg-gradient-to-b from-ennis-darker to-ennis-dark">
@@ -19,9 +45,9 @@ export function Booking() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto items-start">
-          {/* Video */}
-          <div className="w-full aspect-video lg:aspect-square bg-gray-900 rounded-lg border border-gray-700 overflow-hidden relative group">
+        <div className="max-w-5xl mx-auto">
+          {/* Video - Over */}
+          <div className="w-full aspect-video bg-gray-900 rounded-lg border border-gray-700 overflow-hidden relative group mb-12">
             <video
               autoPlay
               muted={videoMuted}
@@ -44,114 +70,132 @@ export function Booking() {
             </button>
           </div>
 
-          {/* Booking Card */}
-          <div className="bg-gray-900/60 border border-gray-700 rounded-lg p-8 h-fit">
-            <h3 className="text-2xl font-bold text-white mb-6">Your Experience</h3>
+          {/* Scheduling Section - Under */}
+          <div id="acuity-scheduler" className="bg-gray-900/60 border border-gray-700 rounded-lg p-8">
+            {!showScheduler ? (
+              <>
+                {/* Selection UI */}
+                <h3 className="text-2xl font-bold text-white mb-6">Your Experience</h3>
 
-            {/* Faux Booking Embed Placeholder */}
-            <div className="bg-black/40 border border-dashed border-gray-600 rounded-lg p-8 mb-8">
-              <div className="text-center text-gray-500 text-sm">
-                <p className="mb-4">📅 Real booking embed will appear here</p>
-                <p className="text-xs">This is a placeholder for the actual booking system</p>
-              </div>
-            </div>
+                {/* Rider Selection */}
+                <div className="mb-8">
+                  <h4 className="text-lg font-bold text-white mb-4">Select Your Package</h4>
+                  <div className="space-y-3">
+                    <button
+                      onClick={() => setRiderCount(1)}
+                      className={`w-full text-left p-4 border rounded-lg transition-colors ${
+                        riderCount === 1
+                          ? "border-ennis-orange bg-ennis-orange/10"
+                          : "border-gray-700 hover:border-ennis-orange/50"
+                      }`}
+                    >
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <div className="font-bold text-white">1 Rider</div>
+                          <div className="text-sm text-gray-400">Solo Experience</div>
+                        </div>
+                        <div className="text-ennis-orange font-bold">${pricePerRider}</div>
+                      </div>
+                    </button>
 
-            {/* Rider Selection */}
-            <div className="mb-8">
-              <h4 className="text-lg font-bold text-white mb-4">Select Your Package</h4>
-              <div className="space-y-3">
-                <button
-                  onClick={() => setRiderCount(1)}
-                  className={`w-full text-left p-4 border rounded-lg transition-colors ${
-                    riderCount === 1
-                      ? "border-ennis-orange bg-ennis-orange/10"
-                      : "border-gray-700 hover:border-ennis-orange/50"
-                  }`}
-                >
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <div className="font-bold text-white">1 Rider</div>
-                      <div className="text-sm text-gray-400">Solo Experience</div>
-                    </div>
-                    <div className="text-ennis-orange font-bold">${pricePerRider}</div>
+                    <button
+                      onClick={() => setRiderCount(2)}
+                      className={`w-full text-left p-4 border rounded-lg transition-colors ${
+                        riderCount === 2
+                          ? "border-ennis-orange bg-ennis-orange/10"
+                          : "border-gray-700 hover:border-ennis-orange/50"
+                      }`}
+                    >
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <div className="font-bold text-white">2 Riders</div>
+                          <div className="text-sm text-gray-400">You + One Rider</div>
+                        </div>
+                        <div className="text-ennis-orange font-bold">${pricePerRider * 2}</div>
+                      </div>
+                    </button>
                   </div>
-                </button>
-
-                <button
-                  onClick={() => setRiderCount(2)}
-                  className={`w-full text-left p-4 border rounded-lg transition-colors ${
-                    riderCount === 2
-                      ? "border-ennis-orange bg-ennis-orange/10"
-                      : "border-gray-700 hover:border-ennis-orange/50"
-                  }`}
-                >
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <div className="font-bold text-white">2 Riders</div>
-                      <div className="text-sm text-gray-400">You + One Rider</div>
-                    </div>
-                    <div className="text-ennis-orange font-bold">${pricePerRider * 2}</div>
-                  </div>
-                </button>
-              </div>
-            </div>
-
-            {/* Duration Info */}
-            <div className="bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg p-4 mb-8">
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="text-gray-400 text-sm">Duration</p>
-                  <p className="text-white font-bold">2 Hours</p>
                 </div>
-                <div className="text-3xl">⏱️</div>
-              </div>
-            </div>
 
-            {/* What's Included */}
-            <div className="mb-8">
-              <h4 className="font-bold text-white mb-3">What's Included</h4>
-              <ul className="space-y-2 text-gray-300 text-sm">
-                <li className="flex items-start gap-2">
-                  <span className="text-ennis-orange font-bold">✓</span>
-                  <span>Polaris Slingshot SLR Rental (2 hours)</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-ennis-orange font-bold">✓</span>
-                  <span>All Fuel Included</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-ennis-orange font-bold">✓</span>
-                  <span>Comprehensive Insurance Coverage</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-ennis-orange font-bold">✓</span>
-                  <span>2026 Bluebonnet Trail Map</span>
-                </li>
-              </ul>
-            </div>
+                {/* Duration Info */}
+                <div className="bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg p-4 mb-8">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <p className="text-gray-400 text-sm">Duration</p>
+                      <p className="text-white font-bold">2 Hours</p>
+                    </div>
+                    <div className="text-3xl">⏱️</div>
+                  </div>
+                </div>
 
-            {/* Price Summary */}
-            <div className="border-t border-gray-700 pt-4 mb-6">
-              <div className="flex justify-between mb-2">
-                <span className="text-gray-400">Base Price ({riderCount} Rider{riderCount > 1 ? 's' : ''})</span>
-                <span className="text-white font-bold">${totalPrice}</span>
-              </div>
-              <div className="flex justify-between text-lg font-bold text-white pt-2">
-                <span>Total</span>
-                <span className="text-ennis-orange">${totalPrice}</span>
-              </div>
-              <p className="text-xs text-gray-500 mt-2">Fully rescheduled 7 days prior to booking</p>
-            </div>
+                {/* What's Included */}
+                <div className="mb-8">
+                  <h4 className="font-bold text-white mb-3">What's Included</h4>
+                  <ul className="space-y-2 text-gray-300 text-sm">
+                    <li className="flex items-start gap-2">
+                      <span className="text-ennis-orange font-bold">✓</span>
+                      <span>Polaris Slingshot SLR Rental (2 hours)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-ennis-orange font-bold">✓</span>
+                      <span>All Fuel Included</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-ennis-orange font-bold">✓</span>
+                      <span>Comprehensive Insurance Coverage</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-ennis-orange font-bold">✓</span>
+                      <span>2026 Bluebonnet Trail Map</span>
+                    </li>
+                  </ul>
+                </div>
 
-            {/* CTA Button */}
-            <a
-              href={riderCount === 1 ? "https://ennissling.as.me/?appointmentType=91042979" : "https://ennissling.as.me/?appointmentType=91043037"}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full py-6 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-base rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl text-center"
-            >
-              Continue to Booking
-            </a>
+                {/* Price Summary */}
+                <div className="border-t border-gray-700 pt-4 mb-6">
+                  <div className="flex justify-between mb-2">
+                    <span className="text-gray-400">Base Price ({riderCount} Rider{riderCount > 1 ? 's' : ''})</span>
+                    <span className="text-white font-bold">${totalPrice}</span>
+                  </div>
+                  <div className="flex justify-between text-lg font-bold text-white pt-2">
+                    <span>Total</span>
+                    <span className="text-ennis-orange">${totalPrice}</span>
+                  </div>
+                  <p className="text-xs text-gray-500 mt-2">Fully rescheduled 7 days prior to booking</p>
+                </div>
+
+                {/* CTA Button */}
+                <button
+                  onClick={handleContinueClick}
+                  className="w-full py-6 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-base rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl"
+                >
+                  Continue to Scheduling
+                </button>
+              </>
+            ) : (
+              <>
+                {/* Back Button */}
+                <button
+                  onClick={handleBackClick}
+                  className="mb-6 px-4 py-2 border border-ennis-orange text-ennis-orange hover:bg-ennis-orange hover:text-ennis-dark font-bold rounded-lg transition-all"
+                >
+                  ← Back to Selection
+                </button>
+
+                {/* Acuity Scheduling Embed */}
+                <div className="bg-gray-800/50 rounded-lg overflow-hidden">
+                  <iframe
+                    src={riderCount === 1 ? "https://app.acuityscheduling.com/schedule.php?owner=13113355&appointmentType=91042979&ref=embedded_csp" : "https://app.acuityscheduling.com/schedule.php?owner=13113355&appointmentType=91043037&ref=embedded_csp"}
+                    title="Schedule Appointment"
+                    width="100%"
+                    height="800"
+                    frameBorder="0"
+                    allow="payment"
+                    style={{ display: 'block' }}
+                  />
+                </div>
+              </>
+            )}
           </div>
         </div>
 
