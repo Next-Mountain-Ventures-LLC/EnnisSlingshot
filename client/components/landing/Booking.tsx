@@ -5,7 +5,7 @@ export function Booking() {
   const [videoMuted, setVideoMuted] = useState(true);
   const [showScheduler, setShowScheduler] = useState(false);
 
-  const pricePerRider = 79;
+  const pricePerRider = 149;
   const totalPrice = riderCount * pricePerRider;
 
   // Load the Acuity embed script when scheduler is shown
