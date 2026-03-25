@@ -39,9 +39,9 @@ export function MoreInfo() {
   };
 
   return (
-    <section className="py-20 md:py-32 bg-ennis-dark">
+    <section className="py-12 md:py-20 bg-ennis-dark">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
             More <span className="text-ennis-orange">Information</span>
           </h2>
@@ -54,12 +54,12 @@ export function MoreInfo() {
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             {/* Blog Card Display */}
-            <div className="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden p-8 md:p-12 min-h-80 flex flex-col justify-between">
-              <div className="mb-6">
-                <span className="inline-block px-3 py-1 bg-ennis-orange/20 border border-ennis-orange rounded-full text-ennis-orange text-xs font-semibold tracking-widest uppercase mb-4">
+            <div className="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden p-6 md:p-8 min-h-80 flex flex-col justify-between">
+              <div className="mb-4">
+                <span className="inline-block px-3 py-1 bg-ennis-orange/20 border border-ennis-orange rounded-full text-ennis-orange text-xs font-semibold tracking-widest uppercase mb-3">
                   {blogPosts[currentIndex].category}
                 </span>
-                <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                <h3 className="text-3xl md:text-4xl font-bold text-white mb-3">
                   {blogPosts[currentIndex].title}
                 </h3>
                 <p className="text-gray-300 text-lg">
@@ -74,7 +74,7 @@ export function MoreInfo() {
             </div>
 
             {/* Navigation Controls */}
-            <div className="flex items-center justify-between mt-8">
+            <div className="flex items-center justify-between mt-6">
               <button
                 onClick={goToPrevious}
                 className="rounded-full w-12 h-12 p-0 border border-gray-700 hover:border-ennis-orange hover:bg-ennis-orange/10 transition-colors text-gray-300 font-bold text-lg"
@@ -105,7 +105,7 @@ export function MoreInfo() {
           </div>
 
           {/* Post Counter */}
-        <p className="text-center text-gray-500 text-sm mt-6">
+        <p className="text-center text-gray-500 text-sm mt-4">
           {currentIndex + 1} of {blogPosts.length}
         </p>
       </div>
