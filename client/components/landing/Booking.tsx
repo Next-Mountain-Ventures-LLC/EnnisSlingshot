@@ -47,7 +47,7 @@ export function Booking() {
           </p>
         </div>
 
-        <div className="max-w-5xl mx-auto">
+        <div>
           {/* Video - Over */}
           <div className="w-full aspect-video bg-gray-900 rounded-lg border border-gray-700 overflow-hidden relative group mb-12">
             <video
@@ -231,7 +231,7 @@ export function Booking() {
         </div>
 
         {/* Important Note */}
-        <div className="mt-12 bg-blue-900/20 border border-blue-500/30 rounded-lg p-6 max-w-5xl mx-auto">
+        <div className="mt-12 bg-blue-900/20 border border-blue-500/30 rounded-lg p-6">
           <p className="text-blue-200 text-sm leading-relaxed">
             <strong>Note:</strong> All riders must be approved by our insurance company to drive. A verification link will be sent to your email after booking. If approval is not granted, your booking will be fully refunded.
           </p>
