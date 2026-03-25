@@ -75,11 +75,9 @@ export function Booking() {
             {!showScheduler ? (
               <>
                 {/* Selection UI */}
-                <h3 className="text-2xl font-bold text-white mb-6">Your Experience</h3>
-
                 {/* Rider Selection */}
                 <div className="mb-8">
-                  <h4 className="text-lg font-bold text-white mb-4">Select Your Package</h4>
+                  <h4 className="text-lg font-bold text-white mb-4 text-center">Book Your Experience</h4>
                   <div className="space-y-3">
                     <button
                       onClick={() => setRiderCount(1)}
