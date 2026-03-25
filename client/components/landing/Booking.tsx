@@ -4,11 +4,8 @@ export function Booking() {
   const [riderCount, setRiderCount] = useState(1);
   const [videoMuted, setVideoMuted] = useState(true);
   const [showScheduler, setShowScheduler] = useState(false);
-  const [helmetCount, setHelmetCount] = useState(0);
 
-  const basePrice = riderCount === 1 ? 79 : 149;
-  const helmetCost = helmetCount * 25;
-  const totalPrice = basePrice + helmetCost;
+  const totalPrice = riderCount === 1 ? 79 : 149;
 
   // Load the Acuity embed script when scheduler is shown
   useEffect(() => {
@@ -151,48 +148,20 @@ export function Booking() {
                   </ul>
                 </div>
 
-                {/* Helmet Rentals Add-On */}
+                {/* Helmet Rentals Add-On Info */}
                 <div className="mb-8 bg-gray-800/50 border border-gray-700 rounded-lg p-4">
-                  <h4 className="font-bold text-white mb-3">🎧 Bluetooth Communication Helmets</h4>
-                  <p className="text-gray-400 text-sm mb-4">
-                    Upgrade your experience with our Bluetooth communication helmets. These helmets allow you and your rider to hear each other better while providing enhanced protection during your ride. You can add them to your booking during the checkout process for $25 per helmet.
+                  <p className="text-gray-400 text-sm">
+                    🎧 Bluetooth communication helmets available for add-on.
                   </p>
-                  <div className="flex gap-3">
-                    <button
-                      onClick={() => setHelmetCount(Math.max(0, helmetCount - 1))}
-                      className="px-4 py-2 border border-gray-600 text-gray-300 rounded hover:border-ennis-orange hover:text-ennis-orange transition-colors"
-                    >
-                      −
-                    </button>
-                    <div className="flex-1 flex items-center justify-center">
-                      <span className="text-white font-bold">{helmetCount} {helmetCount === 1 ? 'Helmet' : 'Helmets'}</span>
-                    </div>
-                    <button
-                      onClick={() => setHelmetCount(helmetCount + 1)}
-                      className="px-4 py-2 border border-gray-600 text-gray-300 rounded hover:border-ennis-orange hover:text-ennis-orange transition-colors"
-                    >
-                      +
-                    </button>
-                  </div>
                 </div>
 
                 {/* Price Summary */}
                 <div className="border-t border-gray-700 pt-4 mb-6">
-                  <div className="flex justify-between mb-2">
-                    <span className="text-gray-400">Base Price ({riderCount} Rider{riderCount > 1 ? 's' : ''})</span>
-                    <span className="text-white font-bold">${basePrice}</span>
-                  </div>
-                  {helmetCost > 0 && (
-                    <div className="flex justify-between mb-2">
-                      <span className="text-gray-400">Helmet Rentals ({helmetCount})</span>
-                      <span className="text-white font-bold">${helmetCost}</span>
-                    </div>
-                  )}
-                  <div className="flex justify-between text-lg font-bold text-white pt-2">
-                    <span>Total</span>
+                  <div className="flex justify-between text-lg font-bold text-white mb-4">
+                    <span>Total Price</span>
                     <span className="text-ennis-orange">${totalPrice}</span>
                   </div>
-                  <p className="text-xs text-gray-500 mt-2">Fully rescheduled 7 days prior to booking</p>
+                  <p className="text-xs text-gray-500">Fully rescheduled 7 days prior to booking</p>
                 </div>
 
                 {/* CTA Button */}
