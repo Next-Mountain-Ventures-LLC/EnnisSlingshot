@@ -53,7 +53,7 @@ const faqItems = [
     id: "weather",
     question: "What happens if there's bad weather?",
     answer:
-      "We operate rain or shine, as the Slingshot is equipped to handle various weather conditions. However, if conditions are unsafe (severe storms, dangerous winds), we'll reach out to reschedule your experience at no cost.",
+      "We operate rain or shine, as the Slingshot is equipped to handle various weather conditions. However, if conditions are unsafe (rain, severe storms, dangerous winds), we'll reach out to reschedule your experience at no cost.",
   },
   {
     id: "map",
@@ -63,7 +63,7 @@ const faqItems = [
   },
   {
     id: "helmets",
-    question: "Are helmets available for rent?",
+    question: "Do I need a helmet?",
     answer:
       "Helmets are not required by law, but we strongly suggest wearing one for your safety and protection. We offer Bluetooth communication helmets available for rent at $25 per helmet. These helmets allow both you and your passenger to hear each other clearly while riding, enhancing communication and safety on the trails.",
   },
