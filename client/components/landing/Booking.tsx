@@ -1,9 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export function Booking() {
   const [riderCount, setRiderCount] = useState(1);
   const [videoMuted, setVideoMuted] = useState(true);
   const [showScheduler, setShowScheduler] = useState(false);
+  const headerRef = useRef<HTMLDivElement>(null);
 
   const totalPrice = riderCount === 1 ? 79 : 149;
 
@@ -61,7 +62,7 @@ export function Booking() {
           </div>
 
           {/* Book Your Experience Header */}
-          <div className="text-center mb-12">
+          <div ref={headerRef} id="booking-header" className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
               Book Your <span className="text-ennis-orange">Experience</span>
             </h2>

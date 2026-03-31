@@ -11,7 +11,11 @@ export default function Index() {
   const bookingRef = useRef<HTMLDivElement>(null);
 
   const scrollToBooking = () => {
-    bookingRef.current?.scrollIntoView({ behavior: "smooth" });
+    // Scroll to the booking header (which is below the video)
+    const bookingHeader = document.getElementById('booking-header');
+    if (bookingHeader) {
+      bookingHeader.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
   };
 
   return (
