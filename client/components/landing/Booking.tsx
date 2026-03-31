@@ -35,15 +35,6 @@ export function Booking() {
   return (
     <section className="py-20 md:py-32 bg-gradient-to-b from-ennis-darker to-ennis-dark">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
-            Book Your <span className="text-ennis-orange">Experience</span>
-          </h2>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Choose your adventure and reserve your Slingshot rental today
-          </p>
-        </div>
-
         <div>
           {/* Video - Over */}
           <div className="w-full aspect-video bg-gray-900 rounded-lg border border-gray-700 overflow-hidden relative group mb-12">
@@ -67,6 +58,16 @@ export function Booking() {
             >
               {videoMuted ? "🔊 Unmute" : "🔇 Mute"}
             </button>
+          </div>
+
+          {/* Book Your Experience Header */}
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
+              Book Your <span className="text-ennis-orange">Experience</span>
+            </h2>
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+              Choose your adventure and reserve your Slingshot rental today
+            </p>
           </div>
 
           {/* Scheduling Section - Under */}
