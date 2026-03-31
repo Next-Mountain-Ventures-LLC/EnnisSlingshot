@@ -90,7 +90,7 @@ export function Booking() {
                     >
                       <div className="flex items-center justify-between">
                         <div>
-                          <div className="font-bold text-white">1 Rider</div>
+                          <div className="font-bold text-white">1 Driver</div>
                           <div className="text-sm text-gray-400">Solo Experience</div>
                         </div>
                         <div className="text-ennis-orange font-bold">$79</div>
@@ -107,8 +107,8 @@ export function Booking() {
                     >
                       <div className="flex items-center justify-between mb-2">
                         <div>
-                          <div className="font-bold text-white">2 Riders</div>
-                          <div className="text-sm text-gray-400">You + One Rider</div>
+                          <div className="font-bold text-white">1 Driver + 1 Rider</div>
+                          <div className="text-sm text-gray-400">Two Person Experience</div>
                         </div>
                         <div className="text-ennis-orange font-bold">$149</div>
                       </div>
