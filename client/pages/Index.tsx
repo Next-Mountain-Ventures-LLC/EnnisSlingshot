@@ -3,7 +3,7 @@ import { Hero } from "@/components/landing/Hero";
 import { YourRide } from "@/components/landing/YourRide";
 import { Trails } from "@/components/landing/Trails";
 import { Booking } from "@/components/landing/Booking";
-import { MoreInfo } from "@/components/landing/MoreInfo";
+// import { MoreInfo } from "@/components/landing/MoreInfo"; // Hidden for now
 import { FAQ } from "@/components/landing/FAQ";
 import { Contact } from "@/components/landing/Contact";
 
@@ -30,8 +30,8 @@ export default function Index() {
         <Booking />
       </div>
 
-      {/* More Info Section */}
-      <MoreInfo />
+      {/* More Info Section - Hidden for now */}
+      {/* <MoreInfo /> */}
 
       {/* FAQ Section */}
       <FAQ />
