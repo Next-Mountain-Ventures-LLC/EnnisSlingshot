@@ -1,3 +1,5 @@
+import { Facebook } from "lucide-react";
+
 export function Contact() {
   const facebookUrl = "https://www.facebook.com/profile.php?id=61575229691240";
 
@@ -23,7 +25,8 @@ export function Contact() {
             onClick={handleFacebookShare}
             className="px-8 py-6 bg-[#1877F2] hover:bg-[#165FE5] text-white font-bold text-lg rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl inline-flex items-center gap-3"
           >
-            📘 Share on Facebook
+            <Facebook className="w-6 h-6" />
+            Share on Facebook
           </button>
         </div>
       </section>

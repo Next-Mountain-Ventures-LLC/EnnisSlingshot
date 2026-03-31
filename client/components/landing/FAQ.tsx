@@ -124,8 +124,8 @@ export function FAQ() {
           })}
         </div>
 
-        {/* Additional Info */}
-        <div className="mt-12 bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg p-8">
+        {/* Additional Info - Hidden for now */}
+        {/* <div className="mt-12 bg-ennis-orange/10 border border-ennis-orange/30 rounded-lg p-8">
           <h3 className="text-xl font-bold text-white mb-3">Still have questions?</h3>
           <p className="text-gray-300 mb-4">
             We're here to help! Reach out to us and we'll answer any additional questions about your Slingshot experience.
@@ -134,7 +134,7 @@ export function FAQ() {
             <p>📧 Email: <span className="text-ennis-orange font-semibold">[Your Email]</span></p>
             <p>📱 Phone: <span className="text-ennis-orange font-semibold">[Your Phone]</span></p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
