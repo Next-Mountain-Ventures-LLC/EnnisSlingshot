@@ -23,11 +23,11 @@ export function Booking() {
 
   const handleContinueClick = () => {
     setShowScheduler(true);
-    // Scroll to the scheduler section
+    // Scroll to the scheduler section (centered in viewport)
     setTimeout(() => {
       const schedulerElement = document.getElementById('acuity-scheduler');
       if (schedulerElement) {
-        schedulerElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        schedulerElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     }, 100);
   };
