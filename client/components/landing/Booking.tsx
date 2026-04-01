@@ -23,6 +23,11 @@ export function Booking() {
   };
 
   const handleContinueClick = () => {
+    // Track InitiateCheckout event for Meta Pixel
+    if (window.fbq) {
+      fbq('track', 'InitiateCheckout');
+    }
+
     setShowScheduler(true);
     // Scroll to the scheduler section (centered in viewport)
     setTimeout(() => {
