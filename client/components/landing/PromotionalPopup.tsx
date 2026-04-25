@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { X, ChevronUp } from "lucide-react";
+import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface PromotionalPopupProps {
@@ -9,24 +9,15 @@ interface PromotionalPopupProps {
 export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
   const [isVisible, setIsVisible] = useState(false);
   const [isMinimized, setIsMinimized] = useState(false);
-  const [hasBeenClosed, setHasBeenClosed] = useState(false);
 
   useEffect(() => {
     // Show popup after 8 seconds of page load
     const showTimer = setTimeout(() => {
-      if (!hasBeenClosed) {
-        setIsVisible(true);
-      }
+      setIsVisible(true);
     }, 8000);
 
     return () => clearTimeout(showTimer);
-  }, [hasBeenClosed]);
-
-  const handleClose = () => {
-    setHasBeenClosed(true);
-    setIsMinimized(false);
-    onClose?.();
-  };
+  }, []);
 
   const handleMinimize = () => {
     setIsMinimized(!isMinimized);
@@ -43,9 +34,6 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
       fbq('track', 'Schedule');
     }
   };
-
-  // If completely closed (X button), don't show anything
-  if (hasBeenClosed) return null;
 
   // If not visible yet (waiting for 8 second delay), don't show anything
   if (!isVisible) return null;
@@ -70,17 +58,26 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm">
       <div className="bg-gradient-to-b from-ennis-dark to-ennis-darker rounded-lg border border-ennis-orange/30 shadow-2xl max-w-md w-full overflow-hidden">
-        {/* Header with close button */}
-        <div className="relative bg-gradient-to-r from-ennis-orange to-ennis-orange-bright p-6">
+        {/* Header with minimize button */}
+        <div
+          className="relative bg-cover bg-center p-6"
+          style={{
+            backgroundImage: 'url(https://images.pexels.com/photos/18554232/pexels-photo-18554232.jpeg)',
+            backgroundPosition: 'center'
+          }}
+        >
+          {/* Overlay for text readability */}
+          <div className="absolute inset-0 bg-black/40"></div>
+
           <button
-            onClick={handleClose}
-            className="absolute top-4 right-4 p-1 hover:bg-white/20 rounded transition-colors"
+            onClick={handleMinimize}
+            className="absolute top-4 right-4 p-1 hover:bg-white/20 rounded transition-colors relative z-10"
           >
             <X className="w-6 h-6 text-white" />
           </button>
 
           {/* Logo */}
-          <div className="flex justify-center mb-4">
+          <div className="flex justify-center mb-4 relative z-10">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2F700b36c4a653482c8265f6619a61ea23?format=webp&width=200"
               alt="Ennis Slingshot Experience Logo"
@@ -89,7 +86,7 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
           </div>
 
           {/* Urgency banner */}
-          <div className="text-center mb-3">
+          <div className="text-center mb-3 relative z-10">
             <div className="inline-block bg-white/20 px-3 py-1 rounded-full mb-2">
               <p className="text-white font-bold text-sm">TODAY ONLY - APRIL 25TH</p>
             </div>
@@ -149,15 +146,6 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
           >
             Book Now
           </Button>
-
-          {/* Minimize option */}
-          <button
-            onClick={handleMinimize}
-            className="w-full flex items-center justify-center gap-2 text-gray-400 hover:text-white text-sm transition-colors"
-          >
-            <ChevronUp className="w-4 h-4" />
-            Minimize
-          </button>
         </div>
       </div>
     </div>
