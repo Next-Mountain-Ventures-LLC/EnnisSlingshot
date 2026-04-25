@@ -45,9 +45,9 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
         onClick={handleMinimize}
         className="fixed bottom-4 right-4 z-50 cursor-pointer"
       >
-        <div className="bg-ennis-orange text-white rounded-full shadow-lg hover:bg-ennis-orange-bright transition-colors flex items-center justify-center w-14 h-14">
-          <span className="text-xs font-bold text-center px-1">
-            Limited<br />Offer
+        <div className="bg-ennis-orange text-white rounded-full shadow-lg hover:bg-ennis-orange-bright transition-colors flex items-center justify-center w-32 h-32">
+          <span className="text-sm font-bold text-center px-2">
+            Limited<br />Time<br />Offer
           </span>
         </div>
       </div>
@@ -60,18 +60,18 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
       <div className="bg-gradient-to-b from-ennis-dark to-ennis-darker rounded-lg border border-ennis-orange/30 shadow-2xl max-w-md w-full overflow-hidden">
         {/* Header with minimize button */}
         <div
-          className="relative bg-cover bg-center p-6"
+          className="relative bg-cover bg-center p-4 py-8"
           style={{
             backgroundImage: 'url(https://images.pexels.com/photos/18554232/pexels-photo-18554232.jpeg)',
             backgroundPosition: 'center'
           }}
         >
           {/* Overlay for text readability */}
-          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 bg-black/60"></div>
 
           <button
             onClick={handleMinimize}
-            className="absolute top-4 right-4 p-1 hover:bg-white/20 rounded transition-colors relative z-10"
+            className="absolute top-3 right-3 p-2 hover:bg-white/20 rounded transition-colors z-20"
           >
             <X className="w-6 h-6 text-white" />
           </button>
