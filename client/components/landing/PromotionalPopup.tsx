@@ -45,8 +45,8 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
         onClick={handleMinimize}
         className="fixed bottom-4 right-4 z-50 cursor-pointer"
       >
-        <div className="bg-ennis-orange text-white rounded-full shadow-lg hover:bg-ennis-orange-bright transition-colors flex items-center justify-center w-32 h-32">
-          <span className="text-sm font-bold text-center px-2">
+        <div className="bg-ennis-orange text-white rounded-full shadow-lg hover:bg-ennis-orange-bright transition-colors flex items-center justify-center w-24 h-24">
+          <span className="text-xs font-bold text-center px-2">
             Limited<br />Time<br />Offer
           </span>
         </div>
