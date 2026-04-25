@@ -7,18 +7,19 @@ interface PromotionalPopupProps {
 }
 
 export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
+  const [isVisible, setIsVisible] = useState(false);
   const [isMinimized, setIsMinimized] = useState(false);
   const [hasBeenClosed, setHasBeenClosed] = useState(false);
 
   useEffect(() => {
-    // Auto-minimize popup after 8 seconds (rather than showing full for 8 seconds)
-    const timer = setTimeout(() => {
+    // Show popup after 8 seconds of page load
+    const showTimer = setTimeout(() => {
       if (!hasBeenClosed) {
-        setIsMinimized(true);
+        setIsVisible(true);
       }
     }, 8000);
 
-    return () => clearTimeout(timer);
+    return () => clearTimeout(showTimer);
   }, [hasBeenClosed]);
 
   const handleClose = () => {
@@ -45,6 +46,9 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
 
   // If completely closed (X button), don't show anything
   if (hasBeenClosed) return null;
+
+  // If not visible yet (waiting for 8 second delay), don't show anything
+  if (!isVisible) return null;
 
   // Minimized tab version
   if (isMinimized) {
@@ -75,6 +79,15 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
             <X className="w-6 h-6 text-white" />
           </button>
 
+          {/* Logo */}
+          <div className="flex justify-center mb-4">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2F700b36c4a653482c8265f6619a61ea23?format=webp&width=200"
+              alt="Ennis Slingshot Experience Logo"
+              className="h-20 w-auto drop-shadow-lg"
+            />
+          </div>
+
           {/* Urgency banner */}
           <div className="text-center mb-3">
             <div className="inline-block bg-white/20 px-3 py-1 rounded-full mb-2">
@@ -93,7 +106,7 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
           {/* Price and availability */}
           <div className="text-center">
             <p className="text-5xl font-black text-ennis-orange mb-2">$69.99</p>
-            <p className="text-ennis-orange text-lg font-bold">ALL SLOTS AVAILABLE</p>
+            <p className="text-ennis-orange text-lg font-bold">while slots last</p>
           </div>
 
           {/* Features */}
