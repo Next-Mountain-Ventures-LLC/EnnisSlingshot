@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { Hero } from "@/components/landing/Hero";
 import { YourRide } from "@/components/landing/YourRide";
 import { Trails } from "@/components/landing/Trails";
@@ -6,9 +6,11 @@ import { Booking } from "@/components/landing/Booking";
 // import { MoreInfo } from "@/components/landing/MoreInfo"; // Hidden for now
 import { FAQ } from "@/components/landing/FAQ";
 import { Contact } from "@/components/landing/Contact";
+import { PromotionalPopup } from "@/components/landing/PromotionalPopup";
 
 export default function Index() {
   const bookingRef = useRef<HTMLDivElement>(null);
+  const [showPopup, setShowPopup] = useState(true);
 
   const scrollToBooking = () => {
     // Scroll to the booking header with title at the top of the viewport
@@ -20,6 +22,9 @@ export default function Index() {
 
   return (
     <div className="w-full bg-ennis-dark">
+      {/* Promotional Popup */}
+      {showPopup && <PromotionalPopup onClose={() => setShowPopup(false)} />}
+
       {/* Hero Section */}
       <Hero onBookingClick={scrollToBooking} />
 
