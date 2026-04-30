@@ -22,8 +22,8 @@ export default function Index() {
 
   return (
     <div className="w-full bg-ennis-dark">
-      {/* Promotional Popup */}
-      {showPopup && <PromotionalPopup onClose={() => setShowPopup(false)} />}
+      {/* Promotional Popup - Disabled for now, can be re-enabled later */}
+      {/* {showPopup && <PromotionalPopup onClose={() => setShowPopup(false)} />} */}
 
       {/* Hero Section */}
       <Hero onBookingClick={scrollToBooking} />
