@@ -52,8 +52,8 @@ export function Booking() {
               preload="auto"
               className="w-full h-full object-cover"
             >
-              <source src="https://res.cloudinary.com/dkqgoo4zw/video/upload/q_auto/f_auto/v1779970038/rallyshot_bacground_tjqpyd.mov" type="video/quicktime" />
-              <source src="https://res.cloudinary.com/dkqgoo4zw/video/upload/q_auto/f_auto/v1779970038/rallyshot_bacground_tjqpyd.mov" type="video/mp4" />
+              <source src="https://videos.files.wordpress.com/4OmQurFA/rallyshot_bacground_tjqpyd.mov" type="video/quicktime" />
+              <source src="https://videos.files.wordpress.com/4OmQurFA/rallyshot_bacground_tjqpyd.mov" type="video/mp4" />
             </video>
 
             {/* Mute/Unmute Button */}

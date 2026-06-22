@@ -18,8 +18,8 @@ export function Hero({ onBookingClick }: HeroProps) {
           className="absolute inset-0 w-full h-full object-cover"
           style={{ background: "#1a1a1a" }}
         >
-          <source src="https://res.cloudinary.com/dkqgoo4zw/video/upload/q_auto/f_auto/v1779970038/rallyshot_bacground_tjqpyd.mov" type="video/quicktime" />
-          <source src="https://res.cloudinary.com/dkqgoo4zw/video/upload/q_auto/f_auto/v1779970038/rallyshot_bacground_tjqpyd.mov" type="video/mp4" />
+          <source src="https://videos.files.wordpress.com/4OmQurFA/rallyshot_bacground_tjqpyd.mov" type="video/quicktime" />
+          <source src="https://videos.files.wordpress.com/4OmQurFA/rallyshot_bacground_tjqpyd.mov" type="video/mp4" />
         </video>
         {/* Light overlay for text readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/25 to-black/30"></div>
