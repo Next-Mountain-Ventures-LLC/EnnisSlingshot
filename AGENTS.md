@@ -1,3 +1,6 @@
+> **Open work:** see [`TODO.md`](./TODO.md) for pending tasks (currently: cookie
+> consent / Google Consent Mode v2 for the GA4 tag and Meta Pixel).
+
 # Fusion Starter
 
 A production-ready full-stack React application template with integrated Express server, featuring React Router 6 SPA mode, TypeScript, Vitest, Zod and modern tooling.
