@@ -9,9 +9,11 @@ import type { SitePage } from "@/lib/pages";
 import { TrailMapPage } from "./TrailMapPage";
 import { BloomTrackerPage } from "./BloomTrackerPage";
 import { WeatherPage } from "./WeatherPage";
+import { EventsPage } from "./EventsPage";
 
-export const ISLAND_PAGES: Partial<Record<IslandName, ComponentType<{ page: SitePage }>>> = {
+export const ISLAND_PAGES: Record<IslandName, ComponentType<{ page: SitePage }>> = {
   TrailMap: TrailMapPage,
   BloomTracker: BloomTrackerPage,
   Weather: WeatherPage,
+  EventsCalendar: EventsPage,
 };
