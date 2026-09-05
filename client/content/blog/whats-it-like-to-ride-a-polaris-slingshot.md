@@ -4,7 +4,7 @@ description: "A first-timer's minute-by-minute account of driving a Polaris Slin
 excerpt: "A first-timer's minute-by-minute account of driving a Polaris Slingshot in Ennis, TX — the nerves, the first AutoDrive shift, and the open trail."
 slug: "whats-it-like-to-ride-a-polaris-slingshot"
 pubDate: "2026-03-25T03:51:36+00:00"
-updatedDate: "2026-09-05T18:02:16+00:00"
+updatedDate: "2026-09-05T18:13:44+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/03/image-4.webp?fit=1024%2C768&ssl=1"
@@ -32,7 +32,7 @@ postId: 195
 permalink: "https://blog.nxtmt.ventures/2026/03/25/whats-it-like-to-ride-a-polaris-slingshot/"
 guid: "https://blog.nxtmt.ventures/?p=195"
 commentCount: 0
-wordCount: 463
+wordCount: 476
 readingTime: 3
 ---
 
@@ -42,7 +42,7 @@ Nervous for the first five minutes, grinning by the first turn. That's the patte
 
 ## The Five Minutes Before You Drive
 
-Expectation-setting is what actually reduces first-drive anxiety, more than anything I could say once you're behind the wheel. Orientation covers the pedals, the wheel, the mirrors, and AutoDrive basics before you ever sit down to drive.
+Expectation-setting is what actually reduces first-drive anxiety, more than anything I could say once you're behind the wheel. Orientation covers the pedals, the wheel, the mirrors, and AutoDrive basics before you ever sit down to drive. Want the full numbered walkthrough of that sequence? See our [step-by-step how-to-drive guide](https://ennisslingshot.com/blog/how-to-drive-a-polaris-slingshot/).
 
 ## Pulling Out of the Welcome Center Lot
 
