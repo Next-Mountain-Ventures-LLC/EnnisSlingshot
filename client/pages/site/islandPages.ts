@@ -8,8 +8,10 @@ import type { IslandName } from "@shared/content/page-schema";
 import type { SitePage } from "@/lib/pages";
 import { TrailMapPage } from "./TrailMapPage";
 import { BloomTrackerPage } from "./BloomTrackerPage";
+import { WeatherPage } from "./WeatherPage";
 
 export const ISLAND_PAGES: Partial<Record<IslandName, ComponentType<{ page: SitePage }>>> = {
   TrailMap: TrailMapPage,
   BloomTracker: BloomTrackerPage,
+  Weather: WeatherPage,
 };
