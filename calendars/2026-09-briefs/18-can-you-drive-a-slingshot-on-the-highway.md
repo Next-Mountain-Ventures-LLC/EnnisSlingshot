@@ -4,7 +4,7 @@
 **Slug:** `/blog/can-you-drive-a-slingshot-on-the-highway/`
 **Cluster:** Polaris Slingshot 101 (Driving & Operation) · **Hub:** `/blog/polaris-slingshot-101/` · **Template:** faq-knowledge · **~1,500w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Polaris Slingshot 101` · tags: Slingshot highway driving, Polaris Slingshot on I-45, Slingshot wind buffeting, Slingshot 101, Ennis Bluebonnet Trail route · schedule `future` @ 2026-09-18 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 929, 2026-09-18 08:00 America/Chicago.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
 > Cannibalization precondition: keep this post focused on legality and real-world highway *behavior* (wind, comfort, following distance). Top-speed specs belong to the separate `LATER(publishes 2026-10-05):/blog/polaris-slingshot-top-speed/` page (1,300 US search volume, per `seo/strategy/cluster-slingshot-rental.md`) — reference it, don't duplicate its 0–60 and trim-spec content here.
