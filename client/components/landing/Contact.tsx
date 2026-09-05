@@ -16,11 +16,14 @@ const FOOTER_LINKS = {
     { label: "Bluebonnet Festival", to: "/bluebonnets/festival/" },
     { label: "Date Night", to: "/slingshot-rental/date-night/" },
     { label: "Gift Cards", to: "/slingshot-rental/gift-cards/" },
-    { label: "Texas Slingshot Laws", to: "/blog/texas-slingshot-laws/" },
+    // TODO(2026-09-15): switch to "/blog/texas-slingshot-laws/" once that post has synced from WordPress (it is scheduled for Sep 15) — until then it would 404.
+    { label: "Texas Slingshot Laws", to: "/faq/" },
   ],
   support: [
     { label: "About", to: "/about/" },
     { label: "FAQ", to: "/faq/" },
+    { label: "Reviews", to: "/reviews/" },
+    { label: "Gallery", to: "/gallery/" },
     { label: "Contact", to: "/contact/" },
     { label: "Book", to: "/book/" },
     { label: "Privacy", to: "/privacy/" },
