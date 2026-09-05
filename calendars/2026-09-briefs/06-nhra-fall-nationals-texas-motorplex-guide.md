@@ -4,7 +4,7 @@
 **Slug:** `/blog/nhra-fall-nationals-texas-motorplex-guide/`
 **Cluster:** Ennis & DFW Things to Do (Hub 3) · **Hub:** `/ennis/` · **Template:** how-to-guide · **~2,200w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Ennis & DFW Things to Do` · tags: texas motorplex, nhra fall nationals, ennis events, drag racing, ellis county · schedule `future` @ 2026-09-06 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 908, 2026-09-06 08:00 America/Chicago. Verified current 2026 dates via texasmotorplex.com + stampedeofspeed.com/schedule before publishing (NHRA portion Oct 14–18, Stampede of Speed festival Oct 9–18); gate times not published this far out, post points readers to stampedeofspeed.com/schedule rather than guessing, per brief guardrail.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
 > Publish window is wide (earliest 2026-09-05, latest 2026-10-02, ideal 2026-09-12) — this is scheduled Day 2 to get it indexed well before the event window (early–mid October 2026). Verify the exact 2026 NHRA Fall Nationals dates and gate times against texasmotorplex.com before publishing; do not lock in a specific date/time from this brief without confirming on the official site, since none of our research files captured the 2026 schedule.

@@ -227,7 +227,7 @@ function main() {
   );
 
   console.log(
-    `[seo-files] wrote sitemap.xml (${routes.filter((r) => !r.noindex && !r.paginated && r.path !== "/404").length} urls), robots.txt, llms.txt, dist/route-manifest.json (${routes.length} routes)`,
+    `[seo-files] wrote sitemap.xml (${routes.filter((r) => !r.noindex && !r.paginated && r.path !== "/404").length} urls), robots.txt, llms.txt, bloom-status.json, dist/route-manifest.json (${routes.length} routes)`,
   );
   if (missing.length) {
     console.warn(`[seo-files] ${missing.length} SITE-STRUCTURE URL(s) without a content file yet:\n  ${missing.join("\n  ")}`);

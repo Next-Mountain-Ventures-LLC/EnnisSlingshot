@@ -4,7 +4,7 @@
 **Slug:** `/blog/outdoor-date-ideas-dallas/`
 **Cluster:** Dallas Date Ideas (Hub 4) · **Hub:** `/blog/dallas-date-ideas/` · **Template:** listicle · **~1,700w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Dallas Date Ideas` · tags: date ideas dallas, outdoor dates, couples activities, bluebonnets, dallas date night · schedule `future` @ 2026-09-11 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 915, 2026-09-11 08:00 America/Chicago. Title changed from "22 Outdoor Date Ideas" to "A Season-by-Season Guide" because the post doesn't enumerate 22 sourced named venues (none were available in research files, and the brief explicitly bars padding with unverified filler) — adjusted the count claim rather than inventing venues, per the brief's own guardrail.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
 > Publishes ahead of the future `/blog/dallas-date-ideas/` pillar (not yet on the September calendar) — this spoke can stand alone on its own keyword now and link up to the pillar once it publishes. Note in the brief for whoever writes the pillar: this post should be added to its spoke list and linked down to when the pillar goes live.

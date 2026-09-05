@@ -4,7 +4,7 @@
 **Slug:** `/blog/fall-things-to-do-ellis-county/`
 **Cluster:** Ennis & DFW Things to Do (Hub 3) · **Hub:** `/ennis/` · **Template:** roundup · **~1,600w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Ennis & DFW Things to Do` · tags: ellis county, fall events, pumpkin patches, waxahachie, ennis texas · schedule `future` @ 2026-09-07 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 909, 2026-09-07 08:00 America/Chicago. Sourced real farm names (Hidden Honey Farm, downtown Ennis pumpkin patch/hay maze) via live web search rather than inventing any; all dates/hours flagged "check ahead" per brief guardrail since none were confirmable for 2026 at write time.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
 > Living/seasonal roundup post — every specific date, hours, and admission price named must be verified against the venue's own site or Facebook page at write time; several Ellis County pumpkin patches and farms change dates year to year and are not covered in our research files. Where a specific 2026 date can't be confirmed, say "check ahead" rather than inventing one. Feeds the future `/ennis/events/` [BUILD] page per `seo/strategy/SITE-STRUCTURE.md`.

@@ -2,8 +2,41 @@
 
 ## Cookie consent / Google Consent Mode v2
 
-**Status:** not started
+**Status:** DONE — 2026-09-05 (site rebuild T24). Kept below as the record of
+what was built and the one open decision.
 **Added:** 2026-08-17
+
+### Implemented
+
+- `index.html`: inline `gtag('consent','default', …)` block sits directly after
+  `<meta charset>`/viewport and **above** the gtag.js `<script async>`. It reads
+  the stored choice (localStorage `ennis-consent` = `granted` | `denied`) and
+  defaults `ad_storage`, `ad_user_data`, `ad_personalization`,
+  `analytics_storage` to that state (denied when nothing is stored, with
+  `wait_for_update: 500`); `functionality_storage`/`security_storage` stay
+  granted.
+- Meta Pixel: `fbq('consent','revoke')` runs before `fbq('init')` unless the
+  stored choice is `granted`; events queue until `fbq('consent','grant')`. The
+  un-gateable `<noscript>` pixel `<img>` was removed.
+- `client/components/shared/ConsentBanner.tsx` (mounted in `SiteLayout`):
+  Accept / Reject → `gtag('consent','update', …)` **and**
+  `fbq('consent','grant'|'revoke')`, persisted in localStorage, hidden once
+  answered, keyboard-focusable, re-openable via `openConsentBanner()`.
+- `client/lib/consent.ts`: `readConsent`, `applyConsent`, `trackPixel` —
+  every `fbq('track', …)` call site (`Booking.tsx`, `PromotionalPopup.tsx`)
+  goes through `trackPixel`, which is a no-op without consent.
+
+### Still open
+
+- **Scope decision (item 1 below):** the gate is currently global (every
+  visitor sees the banner and tags default to denied until answered). To gate
+  only EEA/UK traffic, add a `region: [...]` array to the `gtag('consent',
+  'default', …)` call in `index.html` and only mount `ConsentBanner` for those
+  regions (needs a geo signal — e.g. Netlify's `x-country` header via an edge
+  function). The site-wide default is the safer choice until that exists.
+- **Verify (item 5):** confirm with GA4 DebugView + Meta Pixel Helper on the
+  deployed site that nothing fires before consent.
+- Link the banner from `/privacy/` ("Cookie settings" → `openConsentBanner()`).
 
 The GA4 tag (`G-MN5MEYR77J`) and the Meta Pixel (`1547801854018398`) are both
 live in `index.html` and currently fire unconditionally on page load, with no

@@ -4,7 +4,7 @@
 **Slug:** `/blog/what-is-a-slingshot-experience/`
 **Cluster:** Polaris Slingshot 101 (cornerstone positioning) · **Hub:** `/blog/polaris-slingshot-101/` · **Template:** thought-leadership · **~1,700w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Polaris Slingshot 101` · tags: Slingshot experience, Slingshot rental vs experience, Ennis Slingshot, Polaris Slingshot pricing, Slingshot 101 · schedule `future` @ 2026-09-13 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 918, 2026-09-13 08:00 America/Chicago.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
 > Slot note: this is the cornerstone positioning piece — publish before `/slingshot-rental/` (the transactional hub) goes live so the definitional argument exists before the commercial page needs it. Cannibalization precondition: the exact phrase "slingshot experience" (50 US / 20 TX, KD 1) is targeted by the **home page**, not this post — this post owns the definitional long-tail ("what is a slingshot experience") and must not compete with the home page's H1/title for the bare term. Keep the home page's brand positioning primary; this post is the deep explainer the home page can link out to.

@@ -4,7 +4,7 @@
 **Slug:** `/blog/how-the-ennis-bluebonnet-trails-actually-work-3-loops-40-miles-one-simple-system/`
 **Cluster:** Ennis Bluebonnets (Trail Map & Getting There) · **Hub:** `/bluebonnets/` · **Template:** how-to-guide · **~2,200w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Ennis Bluebonnets` · tags: Ennis Bluebonnet Trails, bluebonnet trail map, Ennis Garden Club, bluebonnet season, Texas wildflower drives · schedule `future` @ 2026-09-14 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 919, 2026-09-14 08:00 America/Chicago. First use of the Ennis Bluebonnets category (94). Loop-by-loop "character/known for" descriptions are general, sourced-consistent characterizations, not claimed as official Garden Club copy — flagged here since no per-loop breakdown was in the research corpus beyond "3 loops, 40+ miles."
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
 > Slot note: this post exists to give search traffic somewhere to land ahead of the interactive Trail Map tool build (`/bluebonnets/trail-map/`, planned Jan 2027 per `seo/strategy/SITE-STRUCTURE.md`). Write it as a standalone, complete explainer — not a stub waiting for the tool. Cannibalization precondition: this is distinct from the future `/bluebonnets/trail-map/` interactive asset (that page will be a Leaflet map + downloadable PDF; this post is the plain-language "how the system works" narrative) and from `/bluebonnets/history/` and the Sep 26 origin-story post (`the-founding-of-the-ennis-bluebonnet-trails...`), which cover the 1951 founding, not the current loop structure — reference both, don't duplicate.

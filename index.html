@@ -4,18 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--
+      Google Consent Mode v2 defaults — MUST stay above the gtag.js <script async>
+      and above the Meta Pixel bootstrap (TODO.md → done). Plain inline script,
+      not React: the bundle loads far too late. The visitor's stored choice
+      (localStorage "ennis-consent" = "granted" | "denied", written by
+      client/components/shared/ConsentBanner.tsx) is applied here on every
+      page load; with no stored choice everything except functionality /
+      security storage defaults to denied until the banner is answered.
+    -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      (function () {
+        var KEY = "ennis-consent";
+        var stored = null;
+        try {
+          stored = window.localStorage.getItem(KEY);
+        } catch (e) {}
+        var granted = stored === "granted";
+        var answered = granted || stored === "denied";
+        var state = granted ? "granted" : "denied";
+        gtag("consent", "default", {
+          ad_storage: state,
+          ad_user_data: state,
+          ad_personalization: state,
+          analytics_storage: state,
+          functionality_storage: "granted",
+          security_storage: "granted",
+          // Give the banner a moment to send an update before the first hit
+          // when nothing is stored yet.
+          wait_for_update: answered ? 0 : 500
+        });
+        window.__ennisConsent = stored;
+      })();
+    </script>
+
     <!-- Google tag (gtag.js) -->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-MN5MEYR77J"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
       gtag("js", new Date());
-
       gtag("config", "G-MN5MEYR77J");
     </script>
     <!-- End Google tag -->
@@ -29,16 +62,15 @@
     <link rel="icon" href="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2F700b36c4a653482c8265f6619a61ea23?format=webp&width=64" type="image/webp" />
     <link rel="alternate" type="application/rss+xml" title="Ennis Slingshot Experience Blog" href="/rss.xml" />
 
-    <!-- Meta Pixel Code -->
+    <!-- Meta Pixel Code — gated: fbq('consent','revoke') runs before init unless consent is stored as granted; ConsentBanner calls fbq('consent','grant'|'revoke') on answer -->
     <script>
       !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      if (window.__ennisConsent !== 'granted') { fbq('consent', 'revoke'); }
       fbq('init', '1547801854018398');
       fbq('track', 'PageView');
       fbq('track', 'ViewContent');
     </script>
-    <noscript>
-      <img height="1" width="1" src="https://www.facebook.com/tr?id=1547801854018398&ev=PageView&noscript=1"/>
-    </noscript>
+    <!-- The old <noscript> tracking pixel was removed: it cannot be consent-gated (and <img> inside <noscript> in <head> is invalid HTML). -->
     <!-- End Meta Pixel Code -->
   </head>
 

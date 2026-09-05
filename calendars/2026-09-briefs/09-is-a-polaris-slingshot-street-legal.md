@@ -4,7 +4,7 @@
 **Slug:** `/blog/is-a-polaris-slingshot-street-legal/`
 **Cluster:** Slingshot 101 (Hub 2) — Legal & Safety cluster · **Hub:** `/blog/polaris-slingshot-101/` · **Template:** faq-knowledge · **~1,500w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Polaris Slingshot 101` · tags: polaris slingshot, street legal, registration, texas law, autocycle · schedule `future` @ 2026-09-09 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 911, 2026-09-09 08:00 America/Chicago. Added the required cross-link back into Day 4's post 910 ("is a Slingshot street legal everywhere?") via posts.update the same session.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
 > Publishes the day after Day 4's "What Is an Autocycle?" — link back to it for the classification explanation rather than re-deriving the autocycle definition here. This post's job is narrower: confirm street-legal status everywhere in the US, then explain the one nuance people trip over (it's titled/registered as a motorcycle, which affects plates/inspection/toll tags).

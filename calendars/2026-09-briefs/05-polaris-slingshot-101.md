@@ -4,7 +4,7 @@
 **Slug:** `/blog/polaris-slingshot-101/`
 **Cluster:** Slingshot 101 (Hub 2, informational) · **Hub:** `/blog/polaris-slingshot-101/` (this post *is* the hub) · **Template:** pillar-page · **~3,500w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Polaris Slingshot 101` · tags: polaris slingshot, what is a slingshot, autocycle, slingshot specs, first-timer guide · schedule `future` @ 2026-09-05 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 907, 2026-09-05 08:00 America/Chicago. Section 6 (first-hand orientation detail) published with owner-input passage omitted per requires_onsite; tagged Needs Attention (category 76) for follow-up. Post 195 flagged in-content as superseded, not edited/redirected (separate WordPress task per brief).
 **Flags:** requires_onsite: yes · conditional: no · reactive: no · needs_attention: yes
 
 > **Cannibalization precondition — check before writing.** WordPress post 195, "What's it like to ride a Polaris Slingshot?" (`client/content/blog/whats-it-like-to-ride-a-polaris-slingshot.md`, postId 195, published 2026-03-25, 28 words, category "About"), already exists. It is a placeholder stub, not real content. This pillar **supersedes it**: do not reuse or duplicate its title ("What's it like to ride a Polaris Slingshot?"); this post's H1 is "Polaris Slingshot 101: The First-Timer's Complete Guide." Flag post 195 for the owner as a future refresh/redirect candidate — either fold its one line into this pillar's "what it's like to drive" section (with attribution that it originated there) or 301 it to `/blog/polaris-slingshot-101/` once this is live. Do not delete or edit post 195 as part of this brief; that is a separate WordPress task.

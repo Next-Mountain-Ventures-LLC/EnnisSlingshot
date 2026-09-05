@@ -1,12 +1,13 @@
 /**
  * Layout wrapping every route: global Header nav, page content (<Outlet/>),
- * mobile StickyBookBar and the Contact footer (NAP). Breadcrumbs are rendered
+ * mobile StickyBookBar, the Contact footer (NAP) and the ConsentBanner. Breadcrumbs are rendered
  * by the individual page templates (they know their hub), not here.
  */
 import { Outlet } from "react-router-dom";
 import { Header } from "@/components/landing/Header";
 import { Contact } from "@/components/landing/Contact";
 import { StickyBookBar } from "@/components/layout/StickyBookBar";
+import { ConsentBanner } from "@/components/shared/ConsentBanner";
 import { Seo } from "@/components/seo/Seo";
 import { business } from "@shared/business";
 
@@ -25,6 +26,7 @@ export function SiteLayout({ children }: { children?: React.ReactNode }) {
       </main>
       <Contact />
       <StickyBookBar />
+      <ConsentBanner />
     </div>
   );
 }

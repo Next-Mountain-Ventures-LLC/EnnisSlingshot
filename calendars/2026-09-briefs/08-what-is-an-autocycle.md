@@ -4,7 +4,7 @@
 **Slug:** `/blog/what-is-an-autocycle/`
 **Cluster:** Slingshot 101 (Hub 2) — Legal & Safety cluster · **Hub:** `/blog/polaris-slingshot-101/` · **Template:** faq-knowledge · **~1,700w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Polaris Slingshot 101` · tags: autocycle, autocycle definition, polaris slingshot, texas law, three wheel vehicle · schedule `future` @ 2026-09-08 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 910, 2026-09-08 08:00 America/Chicago. Cross-link to this post was already included in the Day 1 pillar's Section 2 at write time (both written same session), so no retroactive edit to post 907 was needed.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
 > Must publish **before** any future `/blog/texas-slingshot-laws/` pillar-adjacent post so that post can link back to this definition rather than re-deriving it. This post owns the *definitional* question ("what is an autocycle"); it must not re-answer "do you need a motorcycle license" in depth — that is a separate, higher-volume keyword (590 US) reserved for the future `/blog/texas-slingshot-laws/` spoke per `cluster-slingshot-rental.md`. Keep the license mention here to one sentence with a forward pointer.

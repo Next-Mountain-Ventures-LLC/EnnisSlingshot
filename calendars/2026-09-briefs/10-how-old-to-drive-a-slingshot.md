@@ -4,7 +4,7 @@
 **Slug:** `/blog/how-old-to-drive-a-slingshot/`
 **Cluster:** Slingshot 101 (Hub 2) — Legal & Safety cluster · **Hub:** `/blog/polaris-slingshot-101/` · **Template:** faq-knowledge · **~1,500w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Polaris Slingshot 101` · tags: polaris slingshot, age requirement, texas law, rental requirements, helmet law · schedule `future` @ 2026-09-10 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 913, 2026-09-10 08:00 America/Chicago. Added the required cross-link back into Day 5's post 911 ("how old do you have to be to drive one?") via posts.update the same session. Did not state Ennis Slingshot's own specific rental-age policy on this page — pointed to /slingshot-rental/requirements/ instead, per brief guardrail.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
 > This post targets the **legal-age** question and industry norms, not Ennis Slingshot's own rental policy — `slingshot rental age requirement` (~10 US/mo) is assigned to `/slingshot-rental/requirements/`, not this post. Do not state Ennis Slingshot's specific minimum renter age here as if it were the answer to the legal question; if the owner's specific rental-age policy needs to appear, frame it clearly as "our policy" in Section 6 and link to `/slingshot-rental/requirements/` for the authoritative page — do not let the two pages compete for the same query.

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { vehicleSpec } from "@shared/vehicle-spec";
+import { trackPixel } from "@/lib/consent";
 
 interface PromotionalPopupProps {
   onClose?: () => void;
@@ -30,10 +31,8 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
       "https://ennissling.as.me/?appointmentType=92391639",
       "_blank"
     );
-    // Track the Schedule event for Meta Pixel
-    if (window.fbq) {
-      fbq('track', 'Schedule');
-    }
+    // Meta Pixel Schedule — only sent with marketing consent (client/lib/consent.ts)
+    trackPixel('Schedule');
   };
 
   // If not visible yet (waiting for 8 second delay), don't show anything

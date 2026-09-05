@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { ClickToPlayVideo } from "@/components/shared/ClickToPlayVideo";
 import { HERO_VIDEO } from "@/lib/media";
+import { trackPixel } from "@/lib/consent";
 
 export function Booking() {
   const [riderCount, setRiderCount] = useState(1);
@@ -24,10 +25,8 @@ export function Booking() {
   };
 
   const handleContinueClick = () => {
-    // Track InitiateCheckout event for Meta Pixel
-    if (window.fbq) {
-      fbq('track', 'InitiateCheckout');
-    }
+    // Meta Pixel InitiateCheckout — only sent with marketing consent (client/lib/consent.ts)
+    trackPixel('InitiateCheckout');
 
     setShowScheduler(true);
     // Scroll to the scheduler section (centered in viewport)
