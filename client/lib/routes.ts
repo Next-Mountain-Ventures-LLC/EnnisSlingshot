@@ -4,8 +4,9 @@
  * Node scripts reproduce for sitemap.xml / assert-prerendered.
  *
  * Sources: static site routes from SITE-STRUCTURE.md that have a content file
- * (client/content/pages/**), the blog index, the five category pages, every
- * published post, and /404. See shared/content/site-routes.ts for the pure
+ * (client/content/pages/**), the blog index, the five category pages (plus
+ * /blog/page/N/ and /blog/category/<slug>/page/N/ when there are more than
+ * BLOG_PAGE_SIZE posts), every published post, and /404. See shared/content/site-routes.ts for the pure
  * builder and the SITE_STRUCTURE_URLS inventory.
  */
 import {
@@ -31,6 +32,8 @@ export function getRouteManifest(): { routes: RouteEntry[]; missing: string[] } 
       slug: getPostSlug(post),
       updatedDate: post.data.updatedDate,
       pubDate: post.data.pubDate,
+      categories: post.data.categories,
+      categorySlugs: post.data.categorySlugs,
     })),
   });
   return cached;

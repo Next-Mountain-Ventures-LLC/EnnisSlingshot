@@ -2,6 +2,10 @@
  * Markdown renderer shared by blog posts and site pages (react-markdown +
  * remark-gfm). Internal links become <Link> (client-side navigation); external
  * links open in a new tab with rel="noopener".
+ *
+ * HTML comments (`<!-- IMAGE: … -->` production notes the writers leave in
+ * synced post bodies) are stripped before rendering: react-markdown v9 has raw
+ * HTML disabled and would otherwise print them as escaped literal text.
  */
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -34,7 +38,13 @@ function MarkdownLink({
   );
 }
 
+/** Remove HTML comments (including multi-line ones) so they never reach the renderer. */
+export function stripHtmlComments(markdown: string): string {
+  return markdown.replace(/<!--[\s\S]*?-->/g, "").replace(/\n{3,}/g, "\n\n");
+}
+
 export function MarkdownBody({ children, className }: { children: string; className?: string }) {
+  const source = stripHtmlComments(children);
   return (
     <div
       className={cn(
@@ -44,7 +54,7 @@ export function MarkdownBody({ children, className }: { children: string; classN
       )}
     >
       <ReactMarkdown remarkPlugins={[remarkGfm]} components={{ a: MarkdownLink }}>
-        {children}
+        {source}
       </ReactMarkdown>
     </div>
   );

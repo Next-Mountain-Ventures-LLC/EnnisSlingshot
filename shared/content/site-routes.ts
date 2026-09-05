@@ -57,6 +57,30 @@ export const SITE_STRUCTURE_URLS = [
   "/terms/",
 ] as const;
 
+/**
+ * The WordPress routing category (ID 34) that tells the sync plugin a post
+ * belongs to this site. It must NEVER be displayed, linked, put in JSON-LD
+ * `articleSection`, or emitted in the RSS feed. See CLAUDE.md.
+ */
+export const ROUTING_CATEGORY_NAME = "EnnisSlingshot.com";
+export const ROUTING_CATEGORY_SLUG = "ennisslingshot-com";
+
+/** True for the hidden routing category, matched by slug or (case-insensitive) name. */
+export function isRoutingCategory(term: { name?: string; slug?: string }): boolean {
+  const slug = term.slug?.toLowerCase().trim();
+  const name = term.name?.toLowerCase().trim();
+  return (
+    slug === ROUTING_CATEGORY_SLUG ||
+    slug === "ennisslingshot" ||
+    slug === "ennisslingshotcom" ||
+    name === ROUTING_CATEGORY_NAME.toLowerCase() ||
+    name === "ennisslingshot"
+  );
+}
+
+/** Posts per page on /blog/ and /blog/category/<slug>/ (SITE-REBUILD-PLAN.md §6). */
+export const BLOG_PAGE_SIZE = 12;
+
 /** The five visible blog categories (routing category "EnnisSlingshot.com" is hidden). */
 export const BLOG_CATEGORIES = [
   {
@@ -85,14 +109,15 @@ export const BLOG_CATEGORIES = [
     name: "Polaris Slingshot 101",
     description:
       "Everything a first-timer wants to know about the Polaris Slingshot: what it is, how it drives, Texas laws, and what to expect.",
-    aliases: ["polaris-slingshot-101", "slingshot-101", "about"],
+    aliases: ["polaris-slingshot-101", "slingshot-101"],
   },
   {
     slug: "news",
     name: "Ennis Slingshot News",
     description:
       "Business updates, season announcements, and recaps from Ennis Slingshot Experience.",
-    aliases: ["ennis-slingshot-news", "news"],
+    /** Legacy WordPress "About" category (pre-rebuild posts) is treated as news. */
+    aliases: ["ennis-slingshot-news", "news", "about"],
   },
 ] as const;
 
@@ -117,6 +142,21 @@ export function blogCategoryPath(slug: string): string {
   return `/blog/category/${slug}/`;
 }
 
+/** /blog/ for page 1, /blog/page/<n>/ afterwards. */
+export function blogIndexPath(page = 1): string {
+  return page <= 1 ? "/blog/" : `/blog/page/${page}/`;
+}
+
+/** /blog/category/<slug>/ for page 1, /blog/category/<slug>/page/<n>/ afterwards. */
+export function blogCategoryPagePath(slug: string, page = 1): string {
+  return page <= 1 ? blogCategoryPath(slug) : `${blogCategoryPath(slug)}page/${page}/`;
+}
+
+/** Number of pages needed for `count` posts (always ≥ 1). */
+export function blogPageCount(count: number, pageSize = BLOG_PAGE_SIZE): number {
+  return Math.max(1, Math.ceil(count / pageSize));
+}
+
 export function blogPostPath(slug: string): string {
   return `/blog/${slug}/`;
 }
@@ -126,7 +166,9 @@ export type RouteKind =
   | "hub"
   | "page"
   | "blog-index"
+  | "blog-index-page"
   | "blog-category"
+  | "blog-category-page"
   | "blog-post"
   | "not-found";
 
@@ -140,6 +182,8 @@ export interface RouteEntry {
   priority?: number;
   /** Excluded from sitemap.xml (noindex pages, /404). */
   noindex?: boolean;
+  /** Page ≥ 2 of a paginated index: prerendered and indexable, but not listed in sitemap.xml. */
+  paginated?: boolean;
 }
 
 export interface ManifestInputs {
@@ -151,10 +195,39 @@ export interface ManifestInputs {
     publishDate?: Date;
     noindex?: boolean;
   }>;
-  /** Published blog posts. */
-  posts: Array<{ slug: string; updatedDate?: Date; pubDate: Date }>;
+  /**
+   * Published blog posts. `categorySlugs`/`categories` (raw WordPress terms)
+   * are used to size the per-category pagination; omit them and category
+   * pages get only page 1.
+   */
+  posts: Array<{
+    slug: string;
+    updatedDate?: Date;
+    pubDate: Date;
+    categories?: readonly string[];
+    categorySlugs?: readonly string[];
+  }>;
   /** Build date fallback for lastmod of component-backed routes. */
   now?: Date;
+}
+
+/** Does a post (by its raw WP terms) belong to the given SITE category slug? Routing category ignored. */
+export function postIsInCategory(
+  post: { categories?: readonly string[]; categorySlugs?: readonly string[] },
+  siteSlug: string,
+): boolean {
+  const names = post.categories ?? [];
+  const slugs = post.categorySlugs ?? [];
+  const n = Math.max(names.length, slugs.length);
+  for (let i = 0; i < n; i++) {
+    const term = { name: names[i], slug: slugs[i] };
+    if (isRoutingCategory(term)) continue;
+    const site =
+      (term.slug ? resolveBlogCategory(term.slug) : undefined) ??
+      (term.name ? resolveBlogCategory(term.name) : undefined);
+    if (site?.slug === siteSlug) return true;
+  }
+  return false;
 }
 
 function iso(d?: Date): string | undefined {
@@ -206,6 +279,17 @@ export function buildRouteManifest(input: ManifestInputs): {
     lastmod: iso(latestPost) ?? iso(now),
     priority: 0.8,
   });
+  // Paginated index pages (/blog/page/2/ …): prerendered + self-canonical,
+  // but `paginated: true` keeps them out of sitemap.xml (only page 1 is listed).
+  for (let page = 2; page <= blogPageCount(input.posts.length); page++) {
+    routes.set(blogIndexPath(page), {
+      path: blogIndexPath(page),
+      kind: "blog-index-page",
+      lastmod: iso(latestPost) ?? iso(now),
+      priority: 0.3,
+      paginated: true,
+    });
+  }
 
   for (const cat of BLOG_CATEGORIES) {
     routes.set(blogCategoryPath(cat.slug), {
@@ -214,6 +298,18 @@ export function buildRouteManifest(input: ManifestInputs): {
       lastmod: iso(latestPost) ?? iso(now),
       priority: 0.6,
     });
+    const inCategory = input.posts.filter((p) =>
+      postIsInCategory(p, cat.slug),
+    ).length;
+    for (let page = 2; page <= blogPageCount(inCategory); page++) {
+      routes.set(blogCategoryPagePath(cat.slug, page), {
+        path: blogCategoryPagePath(cat.slug, page),
+        kind: "blog-category-page",
+        lastmod: iso(latestPost) ?? iso(now),
+        priority: 0.3,
+        paginated: true,
+      });
+    }
   }
 
   for (const post of input.posts) {

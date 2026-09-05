@@ -60,6 +60,8 @@ function loadPosts() {
         description: parsed.data.description ?? parsed.data.excerpt,
         pubDate: parsed.data.pubDate,
         updatedDate: parsed.data.updatedDate,
+        categories: parsed.data.categories,
+        categorySlugs: parsed.data.categorySlugs,
       };
     })
     .filter((p): p is NonNullable<typeof p> => p !== null)
@@ -104,7 +106,8 @@ function xmlEscape(s: string): string {
 
 function sitemapXml(routes: RouteEntry[]): string {
   const urls = routes
-    .filter((r) => !r.noindex && r.path !== "/404" && !/\/page\/\d+\/$/.test(r.path))
+    // Only page 1 of each paginated index is listed (SITE-REBUILD-PLAN.md §6).
+    .filter((r) => !r.noindex && !r.paginated && r.path !== "/404" && !/\/page\/\d+\/$/.test(r.path))
     .map((r) => {
       const lines = [`    <loc>${xmlEscape(SITE_URL + r.path)}</loc>`];
       if (r.lastmod) lines.push(`    <lastmod>${r.lastmod}</lastmod>`);
@@ -219,7 +222,7 @@ function main() {
   );
 
   console.log(
-    `[seo-files] wrote sitemap.xml (${routes.filter((r) => !r.noindex).length} urls), robots.txt, llms.txt, dist/route-manifest.json (${routes.length} routes)`,
+    `[seo-files] wrote sitemap.xml (${routes.filter((r) => !r.noindex && !r.paginated && r.path !== "/404").length} urls), robots.txt, llms.txt, dist/route-manifest.json (${routes.length} routes)`,
   );
   if (missing.length) {
     console.warn(`[seo-files] ${missing.length} SITE-STRUCTURE URL(s) without a content file yet:\n  ${missing.join("\n  ")}`);

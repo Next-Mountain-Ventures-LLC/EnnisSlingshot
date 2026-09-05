@@ -63,7 +63,9 @@ export const routes: RouteRecord[] = [
     children: [
       { index: true, element: <Index /> },
       { path: "blog", element: <BlogIndexTemplate /> },
+      { path: "blog/page/:page", element: <BlogIndexTemplate /> },
       { path: "blog/category/:slug", element: <BlogCategoryTemplate /> },
+      { path: "blog/category/:slug/page/:page", element: <BlogCategoryTemplate /> },
       { path: "blog/:slug", element: <BlogTemplate /> },
       ...contentRoutes,
       { path: "404", element: <NotFound /> },
