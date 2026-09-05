@@ -38,3 +38,10 @@ _Living document. Newest entries at the top. Full documents live in `seo/`; this
 - Every post: 8+ sourced facts/stats for factual topics, 3–8 external tier 1–3 links, ≥3 internal links per `/LINKING-CONVENTIONS.md`, one CTA to a package.
 - Quality gate: `/blog analyze` score ≥ 80 before publishing.
 - Freshness: seasonal pages refreshed each January; festival page updated the day dates are announced; bloom tracker weekly Mar 15–May 1.
+
+## Build log — 2026-09-05 overnight (branch `seo-rebuild`)
+- **Site:** static prerender via vite-react-ssg (50 routes; CI gate `assert-prerendered`), three hubs + 46 markdown pages, `<Seo>` + JSON-LD on every page, sitemap/robots/llms.txt/rss, real 404, Netlify www→apex + security headers/CSP, blog system (hidden routing category, category pages, pagination, author/related/prev-next, hero-image prebuild), Consent Mode v2 + Pixel gating, hero poster + image dimensions, corrected vehicle spec, NAP block with `TODO` phone/address. Interactive: trail map (Leaflet, `?embed=1`), bloom tracker + badge, Open-Meteo weather, events calendar (Event schema), drive-time picker.
+- **Content:** 239/239 briefs (≈321k words of briefs) in `calendars/`, validated for format, link paths against the built route manifest, and the no-forward-link rule (`LATER(publishes …)` markers). 8 core Slingshot-101 spokes swapped in on Oct 5/14/19/24 and Nov 8/16/24/25; 14 displaced topics benched in `calendars/bench/`.
+- **Writer:** Weeks 1–2 scheduled on the engine (posts 907–929; 907 auto-published Sep 5), Week 3 released; owner took over the writer session from here. `Needs Attention` posts to review: 907, 917, 926, 927.
+- **Open owner items:** phone/address (`shared/business.ts`), hero video file swap (poster in place), 2027 festival dates (festival.md, events.json, Event schema), Chamber/Polaris Adventures/Garden Club sign-ups, late-March soft-open + Date Night pricing decisions, footer "Texas Slingshot Laws" link → `/blog/texas-slingshot-laws/` after Sep 15 sync.
+- **Push/PR:** blocked by the session's permission classifier — owner runs `git push -u origin seo-rebuild` and `gh pr create` (PR body in `seo/strategy/PR-BODY.md`).

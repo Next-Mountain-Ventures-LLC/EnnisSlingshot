@@ -4,7 +4,7 @@
 **Slug:** `/blog/texas-motorplex-parking-and-traffic/`
 **Cluster:** Ennis & DFW Things to Do (Texas Motorplex) · **Hub:** `/ennis/` · **Template:** faq-knowledge · **~1,600w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Ennis & DFW Things to Do` · tags: Texas Motorplex parking, Texas Motorplex directions, NHRA race weekend traffic, I-45 Ennis, Texas Motorplex gate times · schedule `future` @ 2026-09-19 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 932, 2026-09-19 08:00 America/Chicago. Written in Joshua's Voice DNA (first applied this post). No exit numbers/gate times/parking prices invented — all flagged "verify directly" per brief guardrail; Needs Attention kept.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: yes
 
 > **needs_attention:** none of the following are confirmed in the research corpus and must be verified directly (texasmotorplex.com, TxDOT, or an on-the-ground check) before publishing: specific I-45 exit numbers, the US-287 alternate route, gate/lot opening times, parking prices, and downtown Ennis lot locations. This brief supplies the sourced macro facts (Motorplex identity, season, search-demand seasonality, regional highway access) and the article's structure; do not publish invented exit numbers or times.

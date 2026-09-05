@@ -57,8 +57,8 @@ Cover: a Slingshot parked on an Ennis backroad with bluebonnets, text-overlay st
 In-body: 1 image / 1 table — (1) the three-year festival-date comparison table (Section 2), (2) a simple April calendar graphic marking the two candidate weekends (Section 3).
 
 ## Internal Links
-**TO (≥3):** `/bluebonnets/` "the Ennis Bluebonnet Trails hub" (hub) · `/bluebonnets/festival/` "the full festival guide" (spoke_link) · `/slingshot-rental/bluebonnet-trail-experience/` "book the 2-Hour Bluebonnet Trail Experience" (commercial_link) · `/blog/70-years-of-the-ennis-bluebonnet-trails-festival-a-decade-by-decade-timeline/` "70 years of festival history" (earlier post, 2026-10-14).
-**FROM (update these the week this publishes):** `/bluebonnets/festival/` site page "when the 2027 dates are estimated" · `/bluebonnets/` hub · `/blog/70-years-of-the-ennis-bluebonnet-trails-festival-a-decade-by-decade-timeline/` "see our 2027 estimate."
+**TO (≥3):** `/bluebonnets/` "the Ennis Bluebonnet Trails hub" (hub) · `/bluebonnets/festival/` "the full festival guide" (spoke_link) · `/slingshot-rental/bluebonnet-trail-experience/` "book the 2-Hour Bluebonnet Trail Experience" (commercial_link) · `/bluebonnets/history/` "70 years of festival history" (earlier post, 2026-10-14).
+**FROM (update these the week this publishes):** `/bluebonnets/festival/` site page "when the 2027 dates are estimated" · `/bluebonnets/` hub · `/bluebonnets/history/` "see our 2027 estimate."
 **Cluster position:** Spoke of the Ennis Bluebonnets pillar. Bridges the historical-timeline content (Sept–Oct posts) and the eventual dates-confirmed posts (Jan 2027).
 
 ## E-E-A-T
