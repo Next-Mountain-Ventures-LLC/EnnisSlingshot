@@ -105,7 +105,7 @@ export function YourRide() {
 
         {/* Features */}
         <div className="bg-gray-900/40 border border-gray-700 rounded-lg p-8 md:p-12">
-          <h3 className="text-2xl font-bold text-white mb-6">Why Choose Slingshot SLR?</h3>
+          <h3 className="text-2xl font-bold text-white mb-6">Why Choose the Polaris Slingshot?</h3>
           <div className="grid md:grid-cols-3 gap-6">
             <div>
               <h4 className="text-ennis-orange font-bold mb-2 text-lg">⚡ High Performance</h4>
@@ -136,7 +136,7 @@ export function YourRide() {
               width="100%"
               height="100%"
               src="https://www.youtube.com/embed/agWSnFYUvGI?si=BP2d6OCmL4XXWm5n"
-              title="Polaris Slingshot SLR"
+              title="Polaris Slingshot"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen

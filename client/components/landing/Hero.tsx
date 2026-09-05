@@ -47,7 +47,7 @@ export function Hero({ onBookingClick }: HeroProps) {
         </h1>
 
         <p className="mb-8 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-          Buckle up for an adrenaline-pumping ride in a Polaris Slingshot SLR. Feel the rush as you navigate the stunning bluebonnet trails of Ennis, Texas—the Bluebonnet Capital of Texas.
+          Buckle up for an adrenaline-pumping ride in a Polaris Slingshot. Feel the rush as you navigate the stunning bluebonnet trails of Ennis, Texas—the Bluebonnet Capital of Texas.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -62,7 +62,7 @@ export function Hero({ onBookingClick }: HeroProps) {
         {/* Badge */}
         <div className="mt-12 pt-8 border-t border-gray-600">
           <p className="text-sm text-gray-400 uppercase tracking-widest">
-            🔥 Wild rides available April 2026
+            🔥 2027 bluebonnet season: April 1–30 — bookings open this winter
           </p>
         </div>
       </div>

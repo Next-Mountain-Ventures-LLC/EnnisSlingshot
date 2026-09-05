@@ -137,7 +137,7 @@ export function Contact() {
 
               <div className="text-gray-500 text-sm text-center">
                 <p>© 2026 Ennis Slingshot Experience. All rights reserved.</p>
-                <p className="mt-2">🌸 Wild rides available April 2026</p>
+                <p className="mt-2">🌸 2027 bluebonnet season: April 1–30 — bookings open this winter</p>
               </div>
             </div>
           </div>

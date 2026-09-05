@@ -128,7 +128,7 @@ export function Booking() {
                   <ul className="space-y-2 text-gray-300 text-sm">
                     <li className="flex items-start gap-2">
                       <span className="text-ennis-orange font-bold">✓</span>
-                      <span>Polaris Slingshot SLR Rental (2 hours)</span>
+                      <span>Polaris Slingshot Experience (2 hours)</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-ennis-orange font-bold">✓</span>
