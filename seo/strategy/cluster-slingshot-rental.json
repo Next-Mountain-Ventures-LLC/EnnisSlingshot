@@ -1,0 +1,1225 @@
+{
+  "version": "2.2.5",
+  "seed_keyword": "slingshot rental",
+  "created_at": "2026-09-04",
+  "hubs": [
+    {
+      "pillar": {
+        "id": "t-pillar",
+        "title": "Slingshot Rental & Experiences Near Dallas\u2013Fort Worth",
+        "keyword": "slingshot rental",
+        "secondary": [
+          "polaris slingshot rental",
+          "rent a slingshot",
+          "slingshot rental near me",
+          "slingshot experience"
+        ],
+        "volume_tx": 2400,
+        "volume_us": 14800,
+        "kd": 28,
+        "intent": "Transactional",
+        "template": "pillar-page",
+        "wordCount": 3200,
+        "url": "/slingshot-rental/",
+        "status": "planned"
+      },
+      "clusters": [
+        {
+          "name": "DFW Area Pages",
+          "id": "t-area",
+          "posts": [
+            {
+              "id": "t-area-dallas",
+              "title": "Slingshot Rental Near Dallas, TX",
+              "keyword": "slingshot rental dallas",
+              "secondary": [
+                "rent a slingshot dallas"
+              ],
+              "volume_tx": 880,
+              "volume_us": null,
+              "kd": 2,
+              "intent": "Transactional",
+              "template": "faq-knowledge",
+              "wordCount": 1400,
+              "url": "/slingshot-rental/near-dallas/",
+              "status": "planned"
+            },
+            {
+              "id": "t-area-fw",
+              "title": "Slingshot Rental Near Fort Worth, TX",
+              "keyword": "slingshot rental fort worth",
+              "secondary": [
+                "polaris slingshot rental fort worth"
+              ],
+              "volume_tx": 40,
+              "volume_us": null,
+              "kd": 0,
+              "intent": "Transactional",
+              "template": "faq-knowledge",
+              "wordCount": 1300,
+              "url": "/slingshot-rental/near-fort-worth/",
+              "status": "planned"
+            },
+            {
+              "id": "t-area-arl",
+              "title": "Slingshot Rental Near Arlington, TX",
+              "keyword": "slingshot rental arlington tx",
+              "secondary": [],
+              "volume_tx": 40,
+              "volume_us": null,
+              "kd": null,
+              "intent": "Transactional",
+              "template": "faq-knowledge",
+              "wordCount": 1200,
+              "url": "/slingshot-rental/near-arlington/",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "name": "Extended Reach",
+          "id": "t-reach",
+          "posts": [
+            {
+              "id": "t-reach-waxahachie",
+              "title": "Slingshot Rental Near Waxahachie & Ellis County",
+              "keyword": "slingshot rental waxahachie",
+              "secondary": [
+                "things to do in waxahachie"
+              ],
+              "volume_tx": 0,
+              "volume_us": null,
+              "kd": null,
+              "intent": "Transactional",
+              "template": "faq-knowledge",
+              "wordCount": 1200,
+              "url": "/slingshot-rental/waxahachie-ellis-county/",
+              "status": "planned"
+            },
+            {
+              "id": "t-reach-texas",
+              "title": "Slingshot Rental in Texas: Plan Your Trip to Ennis",
+              "keyword": "texas slingshot",
+              "secondary": [
+                "slingshot texas",
+                "slingshot rental texas"
+              ],
+              "volume_tx": 10,
+              "volume_us": 90,
+              "kd": null,
+              "intent": "Transactional",
+              "template": "faq-knowledge",
+              "wordCount": 1300,
+              "url": "/slingshot-rental/texas/",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "name": "Packages",
+          "id": "t-packages",
+          "posts": [
+            {
+              "id": "t-pkg-driveandgo",
+              "title": "1-Hour Drive & Go \u2014 $69.99",
+              "keyword": "drive a slingshot",
+              "secondary": [
+                "slingshot test drive"
+              ],
+              "volume_tx": null,
+              "volume_us": 140,
+              "kd": null,
+              "intent": "Transactional",
+              "template": "product-review",
+              "wordCount": 1300,
+              "url": "/slingshot-rental/drive-and-go/",
+              "status": "planned"
+            },
+            {
+              "id": "t-pkg-trail",
+              "title": "2-Hour Bluebonnet Trail Experience \u2014 Solo $79 / Two-Person $149",
+              "keyword": "slingshot tour",
+              "secondary": [
+                "bluebonnet tours texas"
+              ],
+              "volume_tx": 10,
+              "volume_us": 20,
+              "kd": null,
+              "intent": "Transactional",
+              "template": "product-review",
+              "wordCount": 1500,
+              "url": "/slingshot-rental/bluebonnet-trail-experience/",
+              "status": "planned"
+            },
+            {
+              "id": "t-pkg-datenight",
+              "title": "Date Night Slingshot Experience (Proposed)",
+              "keyword": "date night ideas dallas",
+              "secondary": [
+                "unique date ideas dallas"
+              ],
+              "volume_tx": 2900,
+              "volume_us": null,
+              "kd": 0,
+              "intent": "Commercial",
+              "template": "product-review",
+              "wordCount": 1500,
+              "url": "/slingshot-rental/date-night/",
+              "status": "planned"
+            },
+            {
+              "id": "t-pkg-groups",
+              "title": "Group & Occasion Slingshot Rides (Proposed)",
+              "keyword": "birthday ideas dallas",
+              "secondary": [
+                "bachelorette party ideas dallas"
+              ],
+              "volume_tx": 320,
+              "volume_us": null,
+              "kd": 0,
+              "intent": "Commercial",
+              "template": "product-review",
+              "wordCount": 1300,
+              "url": "/slingshot-rental/groups/",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "name": "Booking & Trust",
+          "id": "t-trust",
+          "posts": [
+            {
+              "id": "t-trust-pricing",
+              "title": "Slingshot Rental Pricing & What's Included",
+              "keyword": "how much is it to rent a slingshot",
+              "secondary": [
+                "slingshot rental prices"
+              ],
+              "volume_tx": 20,
+              "volume_us": null,
+              "kd": null,
+              "intent": "Transactional",
+              "template": "faq-knowledge",
+              "wordCount": 1300,
+              "url": "/slingshot-rental/pricing/",
+              "status": "planned"
+            },
+            {
+              "id": "t-trust-requirements",
+              "title": "Requirements, Insurance & Approval",
+              "keyword": "polaris slingshot rental requirements",
+              "secondary": [
+                "do you need insurance to rent a slingshot"
+              ],
+              "volume_tx": null,
+              "volume_us": null,
+              "kd": null,
+              "intent": "Transactional",
+              "template": "faq-knowledge",
+              "wordCount": 1600,
+              "url": "/slingshot-rental/requirements/",
+              "status": "planned"
+            },
+            {
+              "id": "t-trust-gifts",
+              "title": "Slingshot Experience Gift Cards",
+              "keyword": "experience gifts dallas",
+              "secondary": [
+                "slingshot gift card"
+              ],
+              "volume_tx": 90,
+              "volume_us": null,
+              "kd": null,
+              "intent": "Commercial",
+              "template": "product-review",
+              "wordCount": 1200,
+              "url": "/slingshot-rental/gift-cards/",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pillar": {
+        "id": "i-pillar",
+        "title": "Polaris Slingshot 101: The First-Timer's Complete Guide",
+        "keyword": "what is a polaris slingshot",
+        "secondary": [
+          "polaris slingshot",
+          "polaris slingshot 3 wheel"
+        ],
+        "volume_tx": null,
+        "volume_us": 170,
+        "kd": 2,
+        "intent": "Informational",
+        "template": "pillar-page",
+        "wordCount": 3000,
+        "url": "/blog/polaris-slingshot-101/",
+        "status": "planned"
+      },
+      "clusters": [
+        {
+          "name": "Legal & Safety",
+          "id": "i-legal",
+          "posts": [
+            {
+              "id": "i-legal-license",
+              "title": "Do You Need a Motorcycle License for a Slingshot in Texas?",
+              "keyword": "do you need a motorcycle license for a slingshot in texas",
+              "secondary": [
+                "do you need a motorcycle license for a slingshot"
+              ],
+              "volume_tx": null,
+              "volume_us": 590,
+              "kd": 5,
+              "intent": "Informational",
+              "template": "faq-knowledge",
+              "wordCount": 1800,
+              "url": "/blog/texas-slingshot-laws/",
+              "status": "planned",
+              "priority": 1
+            },
+            {
+              "id": "i-legal-safe",
+              "title": "Is a Polaris Slingshot Safe? What First-Time Drivers Should Know",
+              "keyword": "is a polaris slingshot safe",
+              "secondary": [],
+              "volume_tx": null,
+              "volume_us": 10,
+              "kd": null,
+              "intent": "Informational",
+              "template": "faq-knowledge",
+              "wordCount": 1500,
+              "url": "/blog/is-a-polaris-slingshot-safe/",
+              "status": "planned"
+            },
+            {
+              "id": "i-legal-autocycle",
+              "title": "Is a Polaris Slingshot a Motorcycle? (Autocycle Classification Explained)",
+              "keyword": "is a polaris slingshot a motorcycle",
+              "secondary": [],
+              "volume_tx": null,
+              "volume_us": 90,
+              "kd": null,
+              "intent": "Informational",
+              "template": "faq-knowledge",
+              "wordCount": 1300,
+              "url": "/blog/is-a-polaris-slingshot-a-motorcycle/",
+              "status": "planned"
+            },
+            {
+              "id": "i-legal-insurance",
+              "title": "Is Slingshot Insurance Expensive? What Renters Should Know",
+              "keyword": "is insurance high on a slingshot",
+              "secondary": [
+                "do you need insurance to rent a slingshot"
+              ],
+              "volume_tx": null,
+              "volume_us": null,
+              "kd": null,
+              "intent": "Informational",
+              "template": "faq-knowledge",
+              "wordCount": 1300,
+              "url": "/blog/polaris-slingshot-insurance-cost/",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "name": "Driving & Operation",
+          "id": "i-driving",
+          "posts": [
+            {
+              "id": "i-drive-howto",
+              "title": "How to Drive a Polaris Slingshot: A Beginner's Step-by-Step Guide",
+              "keyword": "how to drive a slingshot",
+              "secondary": [
+                "how to drive a polaris slingshot"
+              ],
+              "volume_tx": null,
+              "volume_us": 40,
+              "kd": 5,
+              "intent": "Informational",
+              "template": "how-to-guide",
+              "wordCount": 1700,
+              "url": "/blog/how-to-drive-a-polaris-slingshot/",
+              "status": "planned"
+            },
+            {
+              "id": "i-drive-autodrive",
+              "title": "Polaris Slingshot AutoDrive Explained: Automatic vs Manual",
+              "keyword": "polaris slingshot autodrive",
+              "secondary": [],
+              "volume_tx": null,
+              "volume_us": 110,
+              "kd": null,
+              "intent": "Informational",
+              "template": "tutorial",
+              "wordCount": 1400,
+              "url": "/blog/polaris-slingshot-autodrive-explained/",
+              "status": "planned"
+            },
+            {
+              "id": "i-drive-rain",
+              "title": "Driving a Polaris Slingshot in the Rain: What to Expect",
+              "keyword": "polaris slingshot in rain",
+              "secondary": [],
+              "volume_tx": null,
+              "volume_us": 40,
+              "kd": 0,
+              "intent": "Informational",
+              "template": "how-to-guide",
+              "wordCount": 1300,
+              "url": "/blog/polaris-slingshot-in-rain/",
+              "status": "planned"
+            },
+            {
+              "id": "i-drive-wear",
+              "title": "What to Wear When You Drive a Polaris Slingshot",
+              "keyword": "what to wear driving a slingshot",
+              "secondary": [],
+              "volume_tx": null,
+              "volume_us": null,
+              "kd": null,
+              "intent": "Informational",
+              "template": "listicle",
+              "wordCount": 1200,
+              "url": "/blog/what-to-wear-driving-a-slingshot/",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "name": "Specs & Decision",
+          "id": "i-specs",
+          "posts": [
+            {
+              "id": "i-specs-topspeed",
+              "title": "Polaris Slingshot Top Speed and Performance Specs",
+              "keyword": "polaris slingshot top speed",
+              "secondary": [],
+              "volume_tx": null,
+              "volume_us": 1300,
+              "kd": null,
+              "intent": "Informational",
+              "template": "data-research",
+              "wordCount": 1500,
+              "url": "/blog/polaris-slingshot-top-speed/",
+              "status": "planned",
+              "priority": 3
+            },
+            {
+              "id": "i-specs-vsryker",
+              "title": "Polaris Slingshot vs. Can-Am Ryker: Which Should You Drive First?",
+              "keyword": "polaris slingshot vs can-am ryker",
+              "secondary": [],
+              "volume_tx": null,
+              "volume_us": 20,
+              "kd": null,
+              "intent": "Commercial",
+              "template": "comparison",
+              "wordCount": 1500,
+              "url": "/blog/polaris-slingshot-vs-can-am-ryker/",
+              "status": "planned"
+            },
+            {
+              "id": "i-specs-rentvsbuy",
+              "title": "Renting vs. Buying a Polaris Slingshot: What First-Timers Should Know",
+              "keyword": "polaris slingshot price",
+              "secondary": [
+                "polaris slingshot cost"
+              ],
+              "volume_tx": null,
+              "volume_us": 6600,
+              "kd": 14,
+              "intent": "Commercial",
+              "template": "comparison",
+              "wordCount": 1700,
+              "url": "/blog/renting-vs-buying-a-polaris-slingshot/",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "from": "t-pillar",
+      "to": "t-area-dallas",
+      "type": "mandatory",
+      "anchor": "slingshot rental dallas"
+    },
+    {
+      "from": "t-area-dallas",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "t-pillar",
+      "to": "t-area-fw",
+      "type": "mandatory",
+      "anchor": "slingshot rental fort worth"
+    },
+    {
+      "from": "t-area-fw",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "t-pillar",
+      "to": "t-area-arl",
+      "type": "mandatory",
+      "anchor": "slingshot rental arlington tx"
+    },
+    {
+      "from": "t-area-arl",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "t-pillar",
+      "to": "t-reach-waxahachie",
+      "type": "mandatory",
+      "anchor": "slingshot rental waxahachie"
+    },
+    {
+      "from": "t-reach-waxahachie",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "t-pillar",
+      "to": "t-reach-texas",
+      "type": "mandatory",
+      "anchor": "texas slingshot"
+    },
+    {
+      "from": "t-reach-texas",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "t-pillar",
+      "to": "t-pkg-driveandgo",
+      "type": "mandatory",
+      "anchor": "drive a slingshot"
+    },
+    {
+      "from": "t-pkg-driveandgo",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "t-pillar",
+      "to": "t-pkg-trail",
+      "type": "mandatory",
+      "anchor": "slingshot tour"
+    },
+    {
+      "from": "t-pkg-trail",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "t-pillar",
+      "to": "t-pkg-datenight",
+      "type": "mandatory",
+      "anchor": "date night ideas dallas"
+    },
+    {
+      "from": "t-pkg-datenight",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "t-pillar",
+      "to": "t-pkg-groups",
+      "type": "mandatory",
+      "anchor": "birthday ideas dallas"
+    },
+    {
+      "from": "t-pkg-groups",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "t-pillar",
+      "to": "t-trust-pricing",
+      "type": "mandatory",
+      "anchor": "how much is it to rent a slingshot"
+    },
+    {
+      "from": "t-trust-pricing",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "t-pillar",
+      "to": "t-trust-requirements",
+      "type": "mandatory",
+      "anchor": "polaris slingshot rental requirements"
+    },
+    {
+      "from": "t-trust-requirements",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "t-pillar",
+      "to": "t-trust-gifts",
+      "type": "mandatory",
+      "anchor": "experience gifts dallas"
+    },
+    {
+      "from": "t-trust-gifts",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "i-pillar",
+      "to": "i-legal-license",
+      "type": "mandatory",
+      "anchor": "do you need a motorcycle license for a slingshot in texas"
+    },
+    {
+      "from": "i-legal-license",
+      "to": "i-pillar",
+      "type": "mandatory",
+      "anchor": "Polaris Slingshot 101 guide"
+    },
+    {
+      "from": "i-pillar",
+      "to": "i-legal-safe",
+      "type": "mandatory",
+      "anchor": "is a polaris slingshot safe"
+    },
+    {
+      "from": "i-legal-safe",
+      "to": "i-pillar",
+      "type": "mandatory",
+      "anchor": "Polaris Slingshot 101 guide"
+    },
+    {
+      "from": "i-pillar",
+      "to": "i-legal-autocycle",
+      "type": "mandatory",
+      "anchor": "is a polaris slingshot a motorcycle"
+    },
+    {
+      "from": "i-legal-autocycle",
+      "to": "i-pillar",
+      "type": "mandatory",
+      "anchor": "Polaris Slingshot 101 guide"
+    },
+    {
+      "from": "i-pillar",
+      "to": "i-legal-insurance",
+      "type": "mandatory",
+      "anchor": "is insurance high on a slingshot"
+    },
+    {
+      "from": "i-legal-insurance",
+      "to": "i-pillar",
+      "type": "mandatory",
+      "anchor": "Polaris Slingshot 101 guide"
+    },
+    {
+      "from": "i-pillar",
+      "to": "i-drive-howto",
+      "type": "mandatory",
+      "anchor": "how to drive a slingshot"
+    },
+    {
+      "from": "i-drive-howto",
+      "to": "i-pillar",
+      "type": "mandatory",
+      "anchor": "Polaris Slingshot 101 guide"
+    },
+    {
+      "from": "i-pillar",
+      "to": "i-drive-autodrive",
+      "type": "mandatory",
+      "anchor": "polaris slingshot autodrive"
+    },
+    {
+      "from": "i-drive-autodrive",
+      "to": "i-pillar",
+      "type": "mandatory",
+      "anchor": "Polaris Slingshot 101 guide"
+    },
+    {
+      "from": "i-pillar",
+      "to": "i-drive-rain",
+      "type": "mandatory",
+      "anchor": "polaris slingshot in rain"
+    },
+    {
+      "from": "i-drive-rain",
+      "to": "i-pillar",
+      "type": "mandatory",
+      "anchor": "Polaris Slingshot 101 guide"
+    },
+    {
+      "from": "i-pillar",
+      "to": "i-drive-wear",
+      "type": "mandatory",
+      "anchor": "what to wear driving a slingshot"
+    },
+    {
+      "from": "i-drive-wear",
+      "to": "i-pillar",
+      "type": "mandatory",
+      "anchor": "Polaris Slingshot 101 guide"
+    },
+    {
+      "from": "i-pillar",
+      "to": "i-specs-topspeed",
+      "type": "mandatory",
+      "anchor": "polaris slingshot top speed"
+    },
+    {
+      "from": "i-specs-topspeed",
+      "to": "i-pillar",
+      "type": "mandatory",
+      "anchor": "Polaris Slingshot 101 guide"
+    },
+    {
+      "from": "i-pillar",
+      "to": "i-specs-vsryker",
+      "type": "mandatory",
+      "anchor": "polaris slingshot vs can-am ryker"
+    },
+    {
+      "from": "i-specs-vsryker",
+      "to": "i-pillar",
+      "type": "mandatory",
+      "anchor": "Polaris Slingshot 101 guide"
+    },
+    {
+      "from": "i-pillar",
+      "to": "i-specs-rentvsbuy",
+      "type": "mandatory",
+      "anchor": "polaris slingshot price"
+    },
+    {
+      "from": "i-specs-rentvsbuy",
+      "to": "i-pillar",
+      "type": "mandatory",
+      "anchor": "Polaris Slingshot 101 guide"
+    },
+    {
+      "from": "t-area-dallas",
+      "to": "t-area-fw",
+      "type": "recommended",
+      "anchor": "slingshot rental fort worth"
+    },
+    {
+      "from": "t-area-dallas",
+      "to": "t-area-arl",
+      "type": "recommended",
+      "anchor": "slingshot rental arlington tx"
+    },
+    {
+      "from": "t-area-fw",
+      "to": "t-area-dallas",
+      "type": "recommended",
+      "anchor": "slingshot rental dallas"
+    },
+    {
+      "from": "t-area-fw",
+      "to": "t-area-arl",
+      "type": "recommended",
+      "anchor": "slingshot rental arlington tx"
+    },
+    {
+      "from": "t-area-arl",
+      "to": "t-area-dallas",
+      "type": "recommended",
+      "anchor": "slingshot rental dallas"
+    },
+    {
+      "from": "t-area-arl",
+      "to": "t-area-fw",
+      "type": "recommended",
+      "anchor": "slingshot rental fort worth"
+    },
+    {
+      "from": "t-pkg-driveandgo",
+      "to": "t-pkg-trail",
+      "type": "recommended",
+      "anchor": "slingshot tour"
+    },
+    {
+      "from": "t-pkg-driveandgo",
+      "to": "t-pkg-datenight",
+      "type": "recommended",
+      "anchor": "date night ideas dallas"
+    },
+    {
+      "from": "t-pkg-driveandgo",
+      "to": "t-pkg-groups",
+      "type": "recommended",
+      "anchor": "birthday ideas dallas"
+    },
+    {
+      "from": "t-pkg-trail",
+      "to": "t-pkg-driveandgo",
+      "type": "recommended",
+      "anchor": "drive a slingshot"
+    },
+    {
+      "from": "t-pkg-trail",
+      "to": "t-pkg-datenight",
+      "type": "recommended",
+      "anchor": "date night ideas dallas"
+    },
+    {
+      "from": "t-pkg-trail",
+      "to": "t-pkg-groups",
+      "type": "recommended",
+      "anchor": "birthday ideas dallas"
+    },
+    {
+      "from": "t-pkg-datenight",
+      "to": "t-pkg-driveandgo",
+      "type": "recommended",
+      "anchor": "drive a slingshot"
+    },
+    {
+      "from": "t-pkg-datenight",
+      "to": "t-pkg-trail",
+      "type": "recommended",
+      "anchor": "slingshot tour"
+    },
+    {
+      "from": "t-pkg-datenight",
+      "to": "t-pkg-groups",
+      "type": "recommended",
+      "anchor": "birthday ideas dallas"
+    },
+    {
+      "from": "t-pkg-groups",
+      "to": "t-pkg-driveandgo",
+      "type": "recommended",
+      "anchor": "drive a slingshot"
+    },
+    {
+      "from": "t-pkg-groups",
+      "to": "t-pkg-trail",
+      "type": "recommended",
+      "anchor": "slingshot tour"
+    },
+    {
+      "from": "t-pkg-groups",
+      "to": "t-pkg-datenight",
+      "type": "recommended",
+      "anchor": "date night ideas dallas"
+    },
+    {
+      "from": "t-trust-pricing",
+      "to": "t-trust-requirements",
+      "type": "recommended",
+      "anchor": "polaris slingshot rental requirements"
+    },
+    {
+      "from": "t-trust-pricing",
+      "to": "t-trust-gifts",
+      "type": "recommended",
+      "anchor": "experience gifts dallas"
+    },
+    {
+      "from": "t-trust-requirements",
+      "to": "t-trust-pricing",
+      "type": "recommended",
+      "anchor": "how much is it to rent a slingshot"
+    },
+    {
+      "from": "t-trust-requirements",
+      "to": "t-trust-gifts",
+      "type": "recommended",
+      "anchor": "experience gifts dallas"
+    },
+    {
+      "from": "t-trust-gifts",
+      "to": "t-trust-pricing",
+      "type": "recommended",
+      "anchor": "how much is it to rent a slingshot"
+    },
+    {
+      "from": "t-trust-gifts",
+      "to": "t-trust-requirements",
+      "type": "recommended",
+      "anchor": "polaris slingshot rental requirements"
+    },
+    {
+      "from": "i-legal-license",
+      "to": "i-legal-safe",
+      "type": "recommended",
+      "anchor": "is a polaris slingshot safe"
+    },
+    {
+      "from": "i-legal-license",
+      "to": "i-legal-autocycle",
+      "type": "recommended",
+      "anchor": "is a polaris slingshot a motorcycle"
+    },
+    {
+      "from": "i-legal-license",
+      "to": "i-legal-insurance",
+      "type": "recommended",
+      "anchor": "is insurance high on a slingshot"
+    },
+    {
+      "from": "i-legal-safe",
+      "to": "i-legal-license",
+      "type": "recommended",
+      "anchor": "do you need a motorcycle license for a slingshot in texas"
+    },
+    {
+      "from": "i-legal-safe",
+      "to": "i-legal-autocycle",
+      "type": "recommended",
+      "anchor": "is a polaris slingshot a motorcycle"
+    },
+    {
+      "from": "i-legal-safe",
+      "to": "i-legal-insurance",
+      "type": "recommended",
+      "anchor": "is insurance high on a slingshot"
+    },
+    {
+      "from": "i-legal-autocycle",
+      "to": "i-legal-license",
+      "type": "recommended",
+      "anchor": "do you need a motorcycle license for a slingshot in texas"
+    },
+    {
+      "from": "i-legal-autocycle",
+      "to": "i-legal-safe",
+      "type": "recommended",
+      "anchor": "is a polaris slingshot safe"
+    },
+    {
+      "from": "i-legal-autocycle",
+      "to": "i-legal-insurance",
+      "type": "recommended",
+      "anchor": "is insurance high on a slingshot"
+    },
+    {
+      "from": "i-legal-insurance",
+      "to": "i-legal-license",
+      "type": "recommended",
+      "anchor": "do you need a motorcycle license for a slingshot in texas"
+    },
+    {
+      "from": "i-legal-insurance",
+      "to": "i-legal-safe",
+      "type": "recommended",
+      "anchor": "is a polaris slingshot safe"
+    },
+    {
+      "from": "i-legal-insurance",
+      "to": "i-legal-autocycle",
+      "type": "recommended",
+      "anchor": "is a polaris slingshot a motorcycle"
+    },
+    {
+      "from": "i-drive-howto",
+      "to": "i-drive-autodrive",
+      "type": "recommended",
+      "anchor": "polaris slingshot autodrive"
+    },
+    {
+      "from": "i-drive-howto",
+      "to": "i-drive-rain",
+      "type": "recommended",
+      "anchor": "polaris slingshot in rain"
+    },
+    {
+      "from": "i-drive-howto",
+      "to": "i-drive-wear",
+      "type": "recommended",
+      "anchor": "what to wear driving a slingshot"
+    },
+    {
+      "from": "i-drive-autodrive",
+      "to": "i-drive-howto",
+      "type": "recommended",
+      "anchor": "how to drive a slingshot"
+    },
+    {
+      "from": "i-drive-autodrive",
+      "to": "i-drive-rain",
+      "type": "recommended",
+      "anchor": "polaris slingshot in rain"
+    },
+    {
+      "from": "i-drive-autodrive",
+      "to": "i-drive-wear",
+      "type": "recommended",
+      "anchor": "what to wear driving a slingshot"
+    },
+    {
+      "from": "i-drive-rain",
+      "to": "i-drive-howto",
+      "type": "recommended",
+      "anchor": "how to drive a slingshot"
+    },
+    {
+      "from": "i-drive-rain",
+      "to": "i-drive-autodrive",
+      "type": "recommended",
+      "anchor": "polaris slingshot autodrive"
+    },
+    {
+      "from": "i-drive-rain",
+      "to": "i-drive-wear",
+      "type": "recommended",
+      "anchor": "what to wear driving a slingshot"
+    },
+    {
+      "from": "i-drive-wear",
+      "to": "i-drive-howto",
+      "type": "recommended",
+      "anchor": "how to drive a slingshot"
+    },
+    {
+      "from": "i-drive-wear",
+      "to": "i-drive-autodrive",
+      "type": "recommended",
+      "anchor": "polaris slingshot autodrive"
+    },
+    {
+      "from": "i-drive-wear",
+      "to": "i-drive-rain",
+      "type": "recommended",
+      "anchor": "polaris slingshot in rain"
+    },
+    {
+      "from": "i-specs-topspeed",
+      "to": "i-specs-vsryker",
+      "type": "recommended",
+      "anchor": "polaris slingshot vs can-am ryker"
+    },
+    {
+      "from": "i-specs-topspeed",
+      "to": "i-specs-rentvsbuy",
+      "type": "recommended",
+      "anchor": "polaris slingshot price"
+    },
+    {
+      "from": "i-specs-vsryker",
+      "to": "i-specs-topspeed",
+      "type": "recommended",
+      "anchor": "polaris slingshot top speed"
+    },
+    {
+      "from": "i-specs-vsryker",
+      "to": "i-specs-rentvsbuy",
+      "type": "recommended",
+      "anchor": "polaris slingshot price"
+    },
+    {
+      "from": "i-specs-rentvsbuy",
+      "to": "i-specs-topspeed",
+      "type": "recommended",
+      "anchor": "polaris slingshot top speed"
+    },
+    {
+      "from": "i-specs-rentvsbuy",
+      "to": "i-specs-vsryker",
+      "type": "recommended",
+      "anchor": "polaris slingshot vs can-am ryker"
+    },
+    {
+      "from": "t-reach-waxahachie",
+      "to": "t-reach-texas",
+      "type": "recommended",
+      "anchor": "texas slingshot"
+    },
+    {
+      "from": "t-reach-texas",
+      "to": "t-reach-waxahachie",
+      "type": "recommended",
+      "anchor": "slingshot rental waxahachie"
+    },
+    {
+      "from": "t-area-dallas",
+      "to": "t-reach-texas",
+      "type": "optional",
+      "anchor": "Slingshot rental across Texas"
+    },
+    {
+      "from": "t-pkg-trail",
+      "to": "t-reach-waxahachie",
+      "type": "optional",
+      "anchor": "Slingshot rental near Waxahachie & Ellis County"
+    },
+    {
+      "from": "t-pkg-driveandgo",
+      "to": "t-area-fw",
+      "type": "optional",
+      "anchor": "Slingshot rental near Fort Worth"
+    },
+    {
+      "from": "t-pkg-datenight",
+      "to": "t-trust-gifts",
+      "type": "optional",
+      "anchor": "Slingshot experience gift cards"
+    },
+    {
+      "from": "t-pkg-groups",
+      "to": "t-trust-pricing",
+      "type": "optional",
+      "anchor": "Slingshot rental pricing"
+    },
+    {
+      "from": "i-legal-license",
+      "to": "i-drive-howto",
+      "type": "optional",
+      "anchor": "how to drive a Polaris Slingshot"
+    },
+    {
+      "from": "i-drive-howto",
+      "to": "i-legal-license",
+      "type": "optional",
+      "anchor": "Texas Slingshot license laws"
+    },
+    {
+      "from": "i-legal-insurance",
+      "to": "i-specs-rentvsbuy",
+      "type": "optional",
+      "anchor": "renting vs buying a Polaris Slingshot"
+    },
+    {
+      "from": "i-specs-rentvsbuy",
+      "to": "i-legal-insurance",
+      "type": "optional",
+      "anchor": "is Slingshot insurance expensive"
+    },
+    {
+      "from": "t-pillar",
+      "to": "i-pillar",
+      "type": "recommended",
+      "anchor": "Polaris Slingshot 101: First-Timer's Guide"
+    },
+    {
+      "from": "i-pillar",
+      "to": "t-pillar",
+      "type": "recommended",
+      "anchor": "book your Slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "i-legal-license",
+      "to": "t-trust-requirements",
+      "type": "mandatory",
+      "anchor": "requirements & insurance"
+    },
+    {
+      "from": "i-legal-license",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "book a Slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "i-legal-safe",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "book a Slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "i-legal-safe",
+      "to": "t-trust-requirements",
+      "type": "mandatory",
+      "anchor": "requirements & insurance"
+    },
+    {
+      "from": "i-legal-autocycle",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "book a Slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "i-legal-insurance",
+      "to": "t-trust-requirements",
+      "type": "mandatory",
+      "anchor": "insurance included with every rental"
+    },
+    {
+      "from": "i-drive-howto",
+      "to": "t-pkg-driveandgo",
+      "type": "mandatory",
+      "anchor": "1-Hour Drive & Go"
+    },
+    {
+      "from": "i-drive-autodrive",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "book a Slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "i-drive-rain",
+      "to": "t-trust-requirements",
+      "type": "mandatory",
+      "anchor": "weather & rescheduling policy"
+    },
+    {
+      "from": "i-drive-wear",
+      "to": "t-trust-requirements",
+      "type": "mandatory",
+      "anchor": "what to bring & wear"
+    },
+    {
+      "from": "i-drive-wear",
+      "to": "t-pkg-driveandgo",
+      "type": "mandatory",
+      "anchor": "1-Hour Drive & Go"
+    },
+    {
+      "from": "i-specs-topspeed",
+      "to": "t-pkg-trail",
+      "type": "mandatory",
+      "anchor": "2-Hour Bluebonnet Trail Experience"
+    },
+    {
+      "from": "i-specs-vsryker",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "book a Slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "i-specs-rentvsbuy",
+      "to": "t-pillar",
+      "type": "mandatory",
+      "anchor": "book a Slingshot rental in Ennis, TX"
+    },
+    {
+      "from": "i-specs-rentvsbuy",
+      "to": "t-trust-gifts",
+      "type": "mandatory",
+      "anchor": "give the Slingshot experience as a gift"
+    }
+  ],
+  "scorecard": {
+    "totalPosts": 25,
+    "totalLinks": 128,
+    "avgIncomingLinks": 5.12,
+    "orphanPages": 0,
+    "cannibalization": 0
+  }
+}
