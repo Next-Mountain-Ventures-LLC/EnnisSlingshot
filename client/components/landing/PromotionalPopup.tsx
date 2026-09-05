@@ -82,6 +82,9 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2F700b36c4a653482c8265f6619a61ea23?format=webp&width=200"
               alt="Ennis Slingshot Experience Logo"
+              width={200}
+              height={200}
+              decoding="async"
               className="h-20 w-auto drop-shadow-lg"
             />
           </div>

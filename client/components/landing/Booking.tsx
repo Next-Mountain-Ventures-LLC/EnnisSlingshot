@@ -1,8 +1,9 @@
 import { useState, useEffect, useRef } from "react";
+import { ClickToPlayVideo } from "@/components/shared/ClickToPlayVideo";
+import { HERO_VIDEO } from "@/lib/media";
 
 export function Booking() {
   const [riderCount, setRiderCount] = useState(1);
-  const [videoMuted, setVideoMuted] = useState(true);
   const [showScheduler, setShowScheduler] = useState(false);
   const headerRef = useRef<HTMLDivElement>(null);
 
@@ -42,29 +43,15 @@ export function Booking() {
     <section className="py-20 md:py-32 bg-gradient-to-b from-ennis-darker to-ennis-dark">
       <div className="container mx-auto px-4">
         <div>
-          {/* Video - Over */}
-          <div className="w-full aspect-video bg-gray-900 rounded-lg border border-gray-700 overflow-hidden relative group mb-12">
-            <video
-              autoPlay
-              muted={videoMuted}
-              loop
-              playsInline
-              preload="auto"
-              className="w-full h-full object-cover"
-            >
-              <source src="https://videos.files.wordpress.com/4OmQurFA/rallyshot_bacground_tjqpyd.mov" type="video/quicktime" />
-              <source src="https://videos.files.wordpress.com/4OmQurFA/rallyshot_bacground_tjqpyd.mov" type="video/mp4" />
-            </video>
-
-            {/* Mute/Unmute Button */}
-            <button
-              onClick={() => setVideoMuted(!videoMuted)}
-              className="absolute bottom-4 right-4 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold py-2 px-4 rounded-lg transition-all opacity-0 group-hover:opacity-100"
-              title={videoMuted ? "Unmute audio" : "Mute audio"}
-            >
-              {videoMuted ? "🔊 Unmute" : "🔇 Mute"}
-            </button>
-          </div>
+          {/* Video — click-to-play so the (shared) hero file is only fetched once, and only on demand here */}
+          <ClickToPlayVideo
+            sources={HERO_VIDEO.sources}
+            poster={HERO_VIDEO.poster}
+            width={HERO_VIDEO.width}
+            height={HERO_VIDEO.height}
+            label="Play the Ennis Slingshot Experience video"
+            className="mb-12"
+          />
 
           {/* Book Your Experience Header */}
           <div ref={headerRef} id="booking-header" className="text-center mb-12">

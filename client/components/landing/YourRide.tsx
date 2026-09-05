@@ -60,7 +60,11 @@ export function YourRide() {
             <div className="w-full aspect-video md:aspect-square bg-gray-900 rounded-lg border border-gray-700 overflow-hidden relative">
               <img
                 src={slinghotImages[currentImageIndex]}
-                alt={`Polaris Slingshot SLR ${currentImageIndex + 1}`}
+                alt={`Polaris Slingshot — photo ${currentImageIndex + 1} of ${slinghotImages.length}`}
+                width={1242}
+                height={745}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover"
               />
 

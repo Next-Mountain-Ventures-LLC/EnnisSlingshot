@@ -67,6 +67,10 @@ export function Trails() {
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2Ffbc16199876c45a1a4d9e84a3bb43061?format=webp&width=600"
               alt="2026 Ennis Bluebonnet Trails Map"
+              width={600}
+              height={600}
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover"
             />
           </div>

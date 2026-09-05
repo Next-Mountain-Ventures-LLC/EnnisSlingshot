@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getPublishedPosts, getPostUrl, getPostExcerpt } from '../../lib/blog';
+import { resolveHeroImage } from '@/lib/blogImages';
 
 interface BlogCarouselProps {
   limit?: number;
@@ -27,6 +28,7 @@ export function BlogCarousel({ limit = 4 }: BlogCarouselProps) {
   }
 
   const currentPost = posts[currentIndex];
+  const hero = resolveHeroImage(currentPost);
   const formattedDate = currentPost.data.pubDate.toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'short',
@@ -41,18 +43,22 @@ export function BlogCarousel({ limit = 4 }: BlogCarouselProps) {
         <div className="bg-gray-900 border border-gray-700 rounded-lg overflow-hidden min-h-80">
           <div className="flex flex-col md:flex-row h-full">
             {/* Featured Image */}
-            {currentPost.data.heroImage && (
+            {hero && (
               <div className="w-full md:w-1/3 h-64 md:h-auto bg-gray-800 overflow-hidden">
                 <img
-                  src={currentPost.data.heroImage}
+                  src={hero}
                   alt={currentPost.data.heroImageAlt || currentPost.data.title}
+                  width={800}
+                  height={450}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>
             )}
 
             {/* Content */}
-            <div className={`flex flex-col justify-between p-6 md:p-8 ${currentPost.data.heroImage ? 'md:w-2/3' : 'w-full'}`}>
+            <div className={`flex flex-col justify-between p-6 md:p-8 ${hero ? 'md:w-2/3' : 'w-full'}`}>
               <div className="mb-4">
                 <div className="flex items-center gap-3 mb-4">
                   <span className="text-xs text-gray-400 uppercase tracking-wider">
