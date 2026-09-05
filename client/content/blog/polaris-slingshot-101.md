@@ -4,7 +4,7 @@ description: "What is a Polaris Slingshot? Specs, license rules, safety, AutoDri
 excerpt: "What is a Polaris Slingshot? Specs, license rules, safety, AutoDrive, and what it's really like to drive one, from an Ennis, TX operator."
 slug: "polaris-slingshot-101"
 pubDate: "2026-09-05T13:00:00+00:00"
-updatedDate: "2026-09-05T12:40:25+00:00"
+updatedDate: "2026-09-05T17:32:34+00:00"
 draft: false
 status: "publish"
 tags:
@@ -33,7 +33,7 @@ postId: 907
 permalink: "https://blog.nxtmt.ventures/2026/09/05/polaris-slingshot-101/"
 guid: "https://blog.nxtmt.ventures/?p=907"
 commentCount: 0
-wordCount: 1500
+wordCount: 1585
 readingTime: 8
 ---
 
@@ -84,15 +84,15 @@ One tip that helps first-timers: don't fight the transmission. When you lift off
 
 ## What It's Like to Drive One for the First Time
 
-Every renter goes through a short orientation and supervised test loop at the Ennis Welcome Center before heading out on the trails — no one is handed the keys cold. Broadly, first-timers notice three things right away: the seating position is much lower than a car, so the road feels faster than the speedometer suggests; the steering is far more direct than a typical car's, so small inputs matter; and because there's no roof or windshield, wind, sun, and the attention of other drivers are all part of the ride from the first minute.
+I've been on powersports machinery since I was ten years old — four-wheelers, then motorcycles, pretty much nonstop since — and the first time I really opened up a Slingshot, it still caught me off guard. The steering is almost twitchy, way more responsive than a car has any business being, and it feels less like driving and more like piloting something built for a rally stage. The engine vibration comes straight up through the frame, the wind actually hits you because there's no windshield, and it adds up to a different kind of adrenaline than anything else I've driven — motorcycles included.
 
-*[Owner's note: this section is intentionally brief — we want to add a real first-hand account of what it's like to run the orientation for a first-timer, in Josh's own words, before this page is considered finished. Flagged for follow-up.]*
+First-timers at our orientation notice the same three things every time: the seating position is much lower than a car, so the road feels faster than the speedometer suggests; the steering is far more direct, so small inputs matter; and because there's no roof or windshield, wind, sun, and the attention of other drivers are all part of the ride from the first minute. Nervous for the first five minutes, grinning by the first turn — that's the pattern I see with almost every renter.
 
 ## Safety Features (and What's Not There)
 
 A Slingshot is engineered more like a modern car than most people expect: standard equipment includes ABS, traction control, electronic stability control, electronic power steering, three-point seat belts, LED lighting, and a rear roll hoop (not a roll cage). What it doesn't have is just as important to know before you drive one — no airbags, no crumple zone, and no doors.
 
-The framing that shows up consistently in search results for "is a Polaris Slingshot safe" is a reasonable one to borrow, with attribution: it's generally considered safer than a motorcycle (seat belts, more stability, no risk of dropping it at a stop) but less safe than an enclosed car (no airbags, no roof, more exposure in a crash).
+The framing that shows up consistently in search results for "is a Polaris Slingshot safe" is a reasonable one to borrow, with attribution: it's generally considered safer than a motorcycle (seat belts, more stability, no risk of dropping it at a stop) but less safe than an enclosed car (no airbags, no roof, more exposure in a crash). That belt-and-roll-hoop setup is actually a big part of why I ride with my own kids in a Slingshot and wouldn't put them on a motorcycle — same open-air thrill, meaningfully different risk profile.
 
 ## What to Wear and Weather to Expect
 
