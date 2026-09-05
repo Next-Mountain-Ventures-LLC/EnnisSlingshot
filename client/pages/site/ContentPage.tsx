@@ -13,11 +13,19 @@ import { FaqAccordion } from "@/components/shared/FaqAccordion";
 import { PackagePriceTable } from "@/components/shared/PackagePriceTable";
 import NotFound from "@/pages/NotFound";
 import { pageBreadcrumbs, pageJsonLd } from "./pageSeo";
+import { ISLAND_PAGES } from "./islandPages";
 
 export function ContentPage() {
   const { pathname } = useLocation();
   const page = getPage(pathname);
   if (!page) return <NotFound />;
+
+  // Pages hosting an interactive island (frontmatter `island:`) render through
+  // their dedicated page component (client/pages/site/islandPages.ts).
+  if (page.data.island && ISLAND_PAGES[page.data.island]) {
+    const IslandPage = ISLAND_PAGES[page.data.island];
+    return <IslandPage page={page} />;
+  }
 
   const { data } = page;
   const hub = page.hub ? getHubPage(page.hub) : undefined;
