@@ -57,7 +57,7 @@ for (const { path: route } of routes) {
   checked.push(route);
 }
 
-for (const required of ["sitemap.xml", "robots.txt", "llms.txt", "404.html"]) {
+for (const required of ["sitemap.xml", "robots.txt", "llms.txt", "rss.xml", "404.html"]) {
   if (!fs.existsSync(path.join(OUT, required))) failures.push(`missing dist/spa/${required}`);
 }
 

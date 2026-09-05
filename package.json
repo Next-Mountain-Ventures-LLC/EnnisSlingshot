@@ -13,7 +13,9 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run build:client && npm run build:server",
-    "build:client": "vite-react-ssg build && tsx scripts/generate-seo-files.ts && node scripts/split-404.mjs && node scripts/assert-prerendered.mjs",
+    "prebuild": "node scripts/fetch-blog-images.mjs",
+    "prebuild:client": "node scripts/fetch-blog-images.mjs",
+    "build:client": "vite-react-ssg build && tsx scripts/generate-seo-files.ts && tsx scripts/generate-rss.ts && node scripts/split-404.mjs && node scripts/assert-prerendered.mjs",
     "build:client:ssg": "vite-react-ssg build",
     "build:server": "vite build --config vite.config.server.ts",
     "start": "node dist/server/node-build.mjs",

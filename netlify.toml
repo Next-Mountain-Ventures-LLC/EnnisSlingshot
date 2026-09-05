@@ -82,12 +82,24 @@ for = "/assets/*"
   [headers.values]
   Cache-Control = "public, max-age=31536000, immutable"
 
+# Prebuilt blog hero images (scripts/fetch-blog-images.mjs) — keyed by WP post id, refetched per build
+[[headers]]
+for = "/blog-images/*"
+  [headers.values]
+  Cache-Control = "public, max-age=604800"
+
 # Generated machine-readable files: short cache so updates propagate
 [[headers]]
 for = "/sitemap.xml"
   [headers.values]
   Cache-Control = "public, max-age=3600"
   Content-Type = "application/xml; charset=utf-8"
+
+[[headers]]
+for = "/rss.xml"
+  [headers.values]
+  Cache-Control = "public, max-age=3600"
+  Content-Type = "application/rss+xml; charset=utf-8"
 
 [[headers]]
 for = "/llms.txt"

@@ -10,18 +10,18 @@
  */
 import type { BlogPost } from "./blog";
 
-// Vite resolves this to "/blog-images/<id>.webp" for every file present at build/dev time.
-const localImages = import.meta.glob("../../public/blog-images/*.{webp,jpg,jpeg,png,avif}", {
+// The prebuild script writes public/blog-images/manifest.json = { "<postId>": "/blog-images/<file>" }.
+// A glob import (not a direct import) so a missing manifest (e.g. `pnpm dev`
+// without prebuild) means "no local images" instead of a build error, and the
+// SSR + client bundles read the same plain URLs (no hashed-asset rewriting).
+const manifests = import.meta.glob("../../public/blog-images/manifest.json", {
   eager: true,
-  query: "?url",
   import: "default",
-}) as Record<string, string>;
+}) as Record<string, Record<string, string>>;
 
 const byId = new Map<string, string>();
-for (const [file, url] of Object.entries(localImages)) {
-  const base = file.split("/").pop()!;
-  const id = base.replace(/\.[a-z0-9]+$/i, "");
-  byId.set(id, url);
+for (const manifest of Object.values(manifests)) {
+  for (const [id, url] of Object.entries(manifest)) byId.set(id, url);
 }
 
 /** Local (prebuilt) hero URL for a post, or undefined when none was fetched. */

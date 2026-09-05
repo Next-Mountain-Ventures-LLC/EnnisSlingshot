@@ -216,6 +216,11 @@ function main() {
   fs.writeFileSync(path.join(OUT, "sitemap.xml"), sitemapXml(routes));
   fs.writeFileSync(path.join(OUT, "robots.txt"), robotsTxt());
   fs.writeFileSync(path.join(OUT, "llms.txt"), llmsTxt(pages, posts));
+  // Public JSON endpoint for the bloom tracker (BloomTrackerIsland "Add this to your site").
+  fs.copyFileSync(
+    path.join(ROOT, "client", "content", "data", "bloom-status.json"),
+    path.join(OUT, "bloom-status.json"),
+  );
   fs.writeFileSync(
     path.join(ROOT, "dist", "route-manifest.json"),
     JSON.stringify({ generatedAt: new Date().toISOString(), routes, missing }, null, 2),

@@ -12,6 +12,7 @@ import { FaqAccordion } from "@/components/shared/FaqAccordion";
 import { PackagePriceTable } from "@/components/shared/PackagePriceTable";
 import NotFound from "@/pages/NotFound";
 import { CtaBanner } from "./ContentPage";
+import { BloomBadge } from "@/components/islands/BloomBadge";
 import { pageBreadcrumbs, pageJsonLd } from "./pageSeo";
 
 export function HubPage() {
@@ -40,6 +41,7 @@ export function HubPage() {
         <header className="mb-10">
           <h1 className="text-4xl md:text-6xl font-black text-white mb-4">{data.h1}</h1>
           <p className="text-gray-400 text-lg max-w-3xl">{data.metaDescription}</p>
+          {page.hub === "bluebonnets" && <BloomBadge className="mt-4" />}
         </header>
 
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_280px]">
