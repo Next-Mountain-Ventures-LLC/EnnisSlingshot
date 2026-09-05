@@ -1,46 +1,20 @@
 /**
  * Blog content collection
  * Reads markdown posts (with frontmatter) from client/content/blog at build/dev
- * time via Vite's import.meta.glob. No network requests, no build-time
+ * time via Vite's import.meta.glob. The frontmatter schema + parser live in
+ * shared/content/blog-schema.ts so the Node build scripts parse identically. No network requests, no build-time
  * credentials — the WordPress export plugin commits markdown files directly
  * into this repo and that's the only input this module needs.
  */
-import { z } from 'zod';
-import yaml from 'js-yaml';
+import {
+  blogFrontmatterSchema,
+  parseFrontmatter,
+  isPublishedFrontmatter,
+  type BlogFrontmatter,
+} from '@shared/content/blog-schema';
+import { blogPostPath } from '@shared/content/site-routes';
 
-const blogFrontmatterSchema = z.object({
-  // Only these two are guaranteed on every post.
-  title: z.string(),
-  pubDate: z.coerce.date(),
-  // Everything else may or may not be sent by the WordPress plugin —
-  // keep all of it optional/coerced so a post missing a field doesn't
-  // break the build.
-  description: z.string().optional(),
-  excerpt: z.string().optional(),
-  slug: z.string().optional(),
-  updatedDate: z.coerce.date().optional(),
-  draft: z.coerce.boolean().default(false),
-  status: z.string().optional(),
-  heroImage: z.string().url().optional(),
-  heroImageAlt: z.string().optional(),
-  tags: z.array(z.string()).default([]),
-  tagSlugs: z.array(z.string()).default([]),
-  categories: z.array(z.string()).default([]),
-  categorySlugs: z.array(z.string()).default([]),
-  author: z.string().optional(),
-  authorEmail: z.string().email().optional(),
-  authorUrl: z.string().url().optional(),
-  authorBio: z.string().optional(),
-  authorId: z.coerce.number().optional(),
-  postId: z.coerce.number().optional(),
-  permalink: z.string().url().optional(),
-  guid: z.string().optional(),
-  commentCount: z.coerce.number().optional(),
-  wordCount: z.coerce.number().optional(),
-  readingTime: z.coerce.number().optional(),
-});
-
-export type BlogFrontmatter = z.infer<typeof blogFrontmatterSchema>;
+export type { BlogFrontmatter };
 
 export interface BlogPost {
   /** Filename-derived id, used as the URL slug fallback */
@@ -61,16 +35,6 @@ function slugify(value: string): string {
     .trim()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
-}
-
-function parseFrontmatter(raw: string): { data: Record<string, unknown>; body: string } {
-  const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/.exec(raw);
-  if (!match) {
-    return { data: {}, body: raw };
-  }
-  const [, yamlBlock, body] = match;
-  const data = (yaml.load(yamlBlock) as Record<string, unknown>) ?? {};
-  return { data, body };
 }
 
 const rawPostModules = import.meta.glob('../content/blog/*.md', {
@@ -95,13 +59,7 @@ const allPosts: BlogPost[] = Object.entries(rawPostModules)
 /** All posts where draft is false (and status is publish/published, if set), newest first */
 export function getPublishedPosts(): BlogPost[] {
   return allPosts
-    .filter((post) => {
-      if (post.data.draft) return false;
-      if (post.data.status && !['publish', 'published'].includes(post.data.status.toLowerCase())) {
-        return false;
-      }
-      return true;
-    })
+    .filter((post) => isPublishedFrontmatter(post.data))
     .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 }
 
@@ -110,9 +68,9 @@ export function getPostSlug(post: BlogPost): string {
   return post.data.slug || post.id;
 }
 
-/** Full path for a post link (this site's convention: no trailing slash) */
+/** Full path for a post link. Site convention (LINKING-CONVENTIONS.md): trailing slash. */
 export function getPostUrl(post: BlogPost): string {
-  return `/blog/${getPostSlug(post)}`;
+  return blogPostPath(getPostSlug(post));
 }
 
 export function getPostBySlug(slug: string): BlogPost | undefined {

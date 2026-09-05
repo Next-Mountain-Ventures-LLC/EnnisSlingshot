@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { vehicleSpec, horsepowerRangeLabel, torqueRangeLabel } from "@shared/vehicle-spec";
 
 const slinghotImages = [
   "https://cdn.builder.io/o/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2Fe39c4213da65452e98b5548910b3b284?alt=media&token=a5d3f0be-0184-4efe-8aca-0d18dce4f391&apiKey=5193f7a05d654f0c98a0a70f48ef2387",
@@ -30,14 +31,15 @@ export function YourRide() {
       prev === slinghotImages.length - 1 ? 0 : prev + 1
     );
   };
+  // Specs come from shared/vehicle-spec.ts (single source of truth).
   const specs = [
-    { label: "Engine", value: "1.5L Twin-Cylinder" },
-    { label: "Horsepower", value: "203 HP" },
-    { label: "Torque", value: "144 lb-ft" },
-    { label: "Transmission", value: "Automatic CVT" },
-    { label: "0-60 MPH", value: "~5.2 seconds" },
-    { label: "Seats", value: "2 (Driver + Rider)" },
-    { label: "License Required", value: "Valid Driver's License", fullWidth: true },
+    { label: "Engine", value: vehicleSpec.engineShort },
+    { label: "Horsepower", value: horsepowerRangeLabel() },
+    { label: "Torque", value: torqueRangeLabel() },
+    { label: "Transmission", value: "AutoDrive automated manual (no clutch)" },
+    { label: "Wheels", value: `${vehicleSpec.wheels} (2 front, 1 rear)` },
+    { label: "Seats", value: vehicleSpec.seatingLabel },
+    { label: "License Required", value: vehicleSpec.licenseNote, fullWidth: true },
   ];
 
   return (
@@ -45,7 +47,7 @@ export function YourRide() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
-            Your Ride: <span className="text-ennis-orange">Polaris Slingshot SLR</span>
+            Your Ride: <span className="text-ennis-orange">{vehicleSpec.displayName}</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             The ultimate 3-wheeled adrenaline machine. Engineered for performance, designed for thrills.

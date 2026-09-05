@@ -1,31 +1,19 @@
 import { useParams, Link } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
 import { ArrowLeft } from 'lucide-react';
-import { getPostBySlug, getCategoryTerms, getTagTerms } from '../../lib/blog';
+import { getPostBySlug, getPostUrl, getCategoryTerms, getTagTerms, getPostExcerpt } from '../../lib/blog';
+import { resolveBlogCategory, blogCategoryPath } from '@shared/content/site-routes';
+import { Seo } from '@/components/seo/Seo';
+import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
+import { MarkdownBody } from '@/components/shared/MarkdownBody';
+import { blogPostingStack, organization } from '@/lib/schema';
+import NotFound from '@/pages/NotFound';
 
 export function BlogTemplate() {
   const { slug } = useParams<{ slug: string }>();
   const post = slug ? getPostBySlug(slug) : undefined;
 
   if (!post) {
-    return (
-      <div className="min-h-screen bg-ennis-dark">
-        <div className="container mx-auto px-4 py-12">
-          <Link
-            to="/blog"
-            className="inline-flex items-center gap-2 text-ennis-orange hover:text-ennis-orange-bright transition-colors mb-8"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            Back to Blog
-          </Link>
-
-          <div className="bg-red-900/20 border border-red-500/30 rounded-lg p-6">
-            <h1 className="text-2xl font-bold text-red-400 mb-2">Post Not Found</h1>
-            <p className="text-gray-300">Post "{slug}" not found.</p>
-          </div>
-        </div>
-      </div>
-    );
+    return <NotFound />;
   }
 
   const formattedDate = post.data.pubDate.toLocaleDateString('en-US', {
@@ -36,13 +24,38 @@ export function BlogTemplate() {
 
   const categories = getCategoryTerms(post);
   const tags = getTagTerms(post);
+  const path = getPostUrl(post);
+  const siteCategory = categories.map((c) => resolveBlogCategory(c.slug) ?? resolveBlogCategory(c.name)).find(Boolean);
 
   return (
     <div className="min-h-screen bg-ennis-dark">
+      <Seo
+        title={post.data.title}
+        description={getPostExcerpt(post)}
+        canonicalPath={path}
+        ogType="article"
+        ogImage={post.data.heroImage}
+        article={{
+          publishedTime: post.data.pubDate.toISOString(),
+          modifiedTime: (post.data.updatedDate ?? post.data.pubDate).toISOString(),
+          author: post.data.author,
+          tags: post.data.tags,
+        }}
+        jsonLd={[...blogPostingStack({ data: post.data, path, body: post.body }), organization()]}
+      />
       <div className="container mx-auto px-4 py-12">
+        <Breadcrumbs
+          items={[
+            { label: 'Home', path: '/' },
+            { label: 'Blog', path: '/blog/' },
+            ...(siteCategory ? [{ label: siteCategory.name, path: blogCategoryPath(siteCategory.slug) }] : []),
+            { label: post.data.title },
+          ]}
+          className="mb-6"
+        />
         {/* Back Button */}
         <Link
-          to="/blog"
+          to="/blog/"
           className="inline-flex items-center gap-2 text-ennis-orange hover:text-ennis-orange-bright transition-colors mb-8"
         >
           <ArrowLeft className="w-4 h-4" />
@@ -55,6 +68,8 @@ export function BlogTemplate() {
             <img
               src={post.data.heroImage}
               alt={post.data.heroImageAlt || post.data.title}
+              width={1200}
+              height={630}
               className="w-full h-auto object-cover max-h-96"
             />
           </div>
@@ -76,23 +91,26 @@ export function BlogTemplate() {
 
           {categories.length > 0 && (
             <div className="flex gap-2 flex-wrap">
-              {categories.map((cat) => (
-                <span
-                  key={cat.slug}
-                  className="inline-block px-3 py-1 bg-ennis-orange/20 border border-ennis-orange rounded-full text-ennis-orange text-xs font-semibold tracking-widest uppercase"
-                >
-                  {cat.name}
-                </span>
-              ))}
+              {categories.map((cat) => {
+                const site = resolveBlogCategory(cat.slug) ?? resolveBlogCategory(cat.name);
+                const cls = 'inline-block px-3 py-1 bg-ennis-orange/20 border border-ennis-orange rounded-full text-ennis-orange text-xs font-semibold tracking-widest uppercase';
+                return site ? (
+                  <Link key={cat.slug} to={blogCategoryPath(site.slug)} className={cls}>
+                    {site.name}
+                  </Link>
+                ) : (
+                  <span key={cat.slug} className={cls}>
+                    {cat.name}
+                  </span>
+                );
+              })}
             </div>
           )}
         </div>
 
         {/* Post Content */}
         <div className="max-w-3xl">
-          <div className="prose prose-invert max-w-none text-gray-300 leading-relaxed">
-            <ReactMarkdown>{post.body}</ReactMarkdown>
-          </div>
+          <MarkdownBody>{post.body}</MarkdownBody>
         </div>
 
         {/* Tags */}

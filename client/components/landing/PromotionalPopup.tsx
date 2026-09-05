@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { vehicleSpec } from "@shared/vehicle-spec";
 
 interface PromotionalPopupProps {
   onClose?: () => void;
@@ -111,8 +112,8 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
             <div className="flex items-start gap-3">
               <div className="text-ennis-orange text-xl mt-1">✓</div>
               <div>
-                <p className="font-bold text-white">Fully Automatic</p>
-                <p className="text-gray-300 text-sm">Drives like a car</p>
+                <p className="font-bold text-white">AutoDrive — No Clutch</p>
+                <p className="text-gray-300 text-sm">{vehicleSpec.transmissionShort.replace(/^AutoDrive — no clutch, /, "").replace(/^d/, "D")}</p>
               </div>
             </div>
             <div className="flex items-start gap-3">
