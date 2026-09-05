@@ -52,7 +52,7 @@ Optional FAQ (2 Qs, PAA-sourced) · Conclusion (~90w) + CTA → `/slingshot-rent
 Cover: couple on a Slingshot mid-morning with bluebonnets or Ennis backdrop; alt: "A morning-to-afternoon date night idea for parents: a Slingshot ride through the Ennis Bluebonnet Trails." In-body: 3 images — (1) coffee/quick-date photo, (2) Slingshot day-trip photo, (3) evening dinner-date photo.
 
 ## Internal Links
-**TO (≥3):** `/blog/dallas-date-ideas/` "see all Dallas date ideas" (hub) · `/slingshot-rental/date-night/` "explore the Date Night package" (spoke_link) · `/slingshot-rental/bluebonnet-trail-experience/` "book the 2-Hour Bluebonnet Trail Experience" (commercial_link) · `/blog/anniversary-ideas-dallas/` "25 anniversary dates worth remembering" (Day 35, earlier calendar post) · `/blog/things-to-do-in-dallas-for-couples/` (not yet published at this date — do not link forward).
+**TO (≥3):** `/blog/dallas-date-ideas/` "see all Dallas date ideas" (hub) · `/slingshot-rental/date-night/` "explore the Date Night package" (spoke_link) · `/slingshot-rental/bluebonnet-trail-experience/` "book the 2-Hour Bluebonnet Trail Experience" (commercial_link) · `/blog/anniversary-ideas-dallas/` "25 anniversary dates worth remembering" (Day 35, earlier calendar post) · `LATER(publishes 2026-10-30):/blog/things-to-do-in-dallas-for-couples/` (not yet published at this date — do not link forward).
 **FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` (hub) · `/blog/anniversary-ideas-dallas/` (Day 35) · `/slingshot-rental/date-night/`.
 **Cluster position:** Spoke of the Dallas Date Ideas hub; bridges to the Slingshot rental Date Night package.
 

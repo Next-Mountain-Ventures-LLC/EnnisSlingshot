@@ -2,7 +2,7 @@
 
 **Day / Date:** Day 21 — Friday, September 25, 2026
 **Slug:** `/blog/unique-things-to-do-in-dallas/`
-**Cluster:** Date Ideas · **Hub:** `/blog/dallas-date-ideas/` · **Template:** listicle · **~2,000w**
+**Cluster:** Date Ideas · **Hub:** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` · **Template:** listicle · **~2,000w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Dallas Date Ideas` · tags: unique things to do in dallas, unusual dallas activities, dallas experiences, group activities dallas, unique dallas ideas · schedule `future` @ 2026-09-25 08:00 America/Chicago
 **Status:** BRIEFED
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
@@ -53,8 +53,8 @@ Optional FAQ (2 Qs, PAA-sourced) · Conclusion (~100w) + CTA → `/slingshot-ren
 Cover: collage of unique Dallas experiences (Meow Wolf-style immersive art + a Slingshot on the trail); alt: "Unique things to do in Dallas, from immersive art to a Slingshot ride through the Bluebonnet Trails." In-body: 5 images — (1) indoor immersive-art venue, (2) outdoor preserve/kayak, (3) Texas Motorplex, (4) Slingshot on the trail, (5) group food/drink experience.
 
 ## Internal Links
-**TO (≥3):** `/blog/dallas-date-ideas/` "see all Dallas date ideas" (hub) · `/slingshot-rental/groups/` "book for a group of up to 4" (spoke_link) · `/slingshot-rental/` "explore Slingshot experiences" (commercial_link) · `/blog/adventurous-date-ideas/` "20 more adrenaline dates near Dallas" (Day 13, earlier calendar post) · `/blog/things-to-do-in-dallas-this-weekend/` "find something to do this weekend" (Day 19, earlier calendar post).
-**FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` (hub) · `/blog/adventurous-date-ideas/` (Day 13) · `/blog/things-to-do-in-dallas-this-weekend/` (Day 19).
+**TO (≥3):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` "see all Dallas date ideas" (hub) · `/slingshot-rental/groups/` "book for a group of up to 4" (spoke_link) · `/slingshot-rental/` "explore Slingshot experiences" (commercial_link) · `/blog/adventurous-date-ideas/` "20 more adrenaline dates near Dallas" (Day 13, earlier calendar post) · `/blog/things-to-do-in-dallas-this-weekend/` "find something to do this weekend" (Day 19, earlier calendar post).
+**FROM (update these the week this publishes):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` (hub) · `/blog/adventurous-date-ideas/` (Day 13) · `/blog/things-to-do-in-dallas-this-weekend/` (Day 19).
 **Cluster position:** Spoke of the Dallas Date Ideas hub; bridges to the Ennis/Slingshot rental cluster via the "drive-worthy" section.
 
 ## E-E-A-T

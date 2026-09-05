@@ -7,7 +7,7 @@
 **Status:** BRIEFED
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
-> Slot notes: **Cannibalization precondition — check before writing.** `bb-014` "Best Camera Settings for Bluebonnet Photos: A Beginner's Guide for Phone and DSLR" (`/blog/best-camera-settings-for-bluebonnet-photos-a-beginners-guide-for-phone-and-dslr/`, published 2026-11-08, three days earlier) already covers the technical/gear side of bluebonnet photography. This post is the **wardrobe/styling** angle only — do not repeat camera-settings advice; link to `bb-014` for the technical half and keep this post's scope to clothing, color, fabric, and family-coordination decisions. Two future companion posts not yet published (no forward link needed) will cover mini-session booking logistics and getting toddlers to sit still — do not attempt those angles here either.
+> Slot notes: **Cannibalization precondition — check before writing.** `bb-014` "Best Camera Settings for Bluebonnet Photos: A Beginner's Guide for Phone and DSLR" (`/bluebonnets/photo-spots/`, published 2026-11-08, three days earlier) already covers the technical/gear side of bluebonnet photography. This post is the **wardrobe/styling** angle only — do not repeat camera-settings advice; link to `bb-014` for the technical half and keep this post's scope to clothing, color, fabric, and family-coordination decisions. Two future companion posts not yet published (no forward link needed) will cover mini-session booking logistics and getting toddlers to sit still — do not attempt those angles here either.
 
 ## Target Keyword
 **what to wear for bluebonnet photos** — **no measurable US/TX search volume returned** *(DataForSEO, kw_data_google_ads_search_volume, "Texas,United States", pulled 2026-09-05 — below reporting threshold; PAA/entity-driven topic, not a volume play)*
@@ -56,8 +56,8 @@ Cover: family of four in coordinated neutral/rust tones standing in a bluebonnet
 In-body: 4 images / 1 table — (1) wide family shot showing coordination (Section 1), (2) color/why-it-works table (Section 2), (3) close-up of fabric/texture example, flowy skirt or dress in the field (Section 4), (4) couple beside a parked Slingshot in bluebonnets (Section 7).
 
 ## Internal Links
-**TO (≥3):** `/bluebonnets/` "the full Ennis Bluebonnet Trails guide" (hub) · `/bluebonnets/photo-spots/` "the best bluebonnet photo spots in Ennis" (spoke_link) · `/slingshot-rental/date-night/` "add a Slingshot photo stop to your Golden Hour Date Night" (commercial_link) · `/blog/best-camera-settings-for-bluebonnet-photos-a-beginners-guide-for-phone-and-dslr/` "the technical side: camera settings for bluebonnet photos" (earlier calendar post, 2026-11-08).
-**FROM (update these the week this publishes):** `/bluebonnets/photo-spots/` "what to wear for your photos" · `/blog/best-camera-settings-for-bluebonnet-photos-a-beginners-guide-for-phone-and-dslr/` "pair this with our outfit guide" · `/blog/dallas-date-ideas/` (date-ideas pillar) "planning a bluebonnet photo date" · `/bluebonnets/` hub "what to wear" card.
+**TO (≥3):** `/bluebonnets/` "the full Ennis Bluebonnet Trails guide" (hub) · `/bluebonnets/photo-spots/` "the best bluebonnet photo spots in Ennis" (spoke_link) · `/slingshot-rental/date-night/` "add a Slingshot photo stop to your Golden Hour Date Night" (commercial_link) · `/bluebonnets/photo-spots/` "the technical side: camera settings for bluebonnet photos" (earlier calendar post, 2026-11-08).
+**FROM (update these the week this publishes):** `/bluebonnets/photo-spots/` "what to wear for your photos" · `/bluebonnets/photo-spots/` "pair this with our outfit guide" · `/blog/dallas-date-ideas/` (date-ideas pillar) "planning a bluebonnet photo date" · `/bluebonnets/` hub "what to wear" card.
 **Cluster position:** Spoke of `/bluebonnets/` (Cluster 4 — Bluebonnet Photography & Etiquette per `cluster-ennis-bluebonnets.md`).
 
 ## E-E-A-T

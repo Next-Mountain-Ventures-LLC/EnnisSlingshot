@@ -2,7 +2,7 @@
 
 **Day / Date:** Day 25 — Tuesday, September 29, 2026
 **Slug:** `/blog/birthday-ideas-dallas/`
-**Cluster:** Date Ideas · **Hub:** `/blog/dallas-date-ideas/` · **Template:** listicle · **~1,900w**
+**Cluster:** Date Ideas · **Hub:** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` · **Template:** listicle · **~1,900w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Dallas Date Ideas` · tags: birthday ideas dallas, adult birthday ideas, dallas birthday activities, 30th birthday dallas, 40th birthday dallas · schedule `future` @ 2026-09-29 08:00 America/Chicago
 **Status:** BRIEFED
 **Flags:** requires_onsite: yes · conditional: no · reactive: no · needs_attention: yes
@@ -56,8 +56,8 @@ Optional FAQ (2 Qs, PAA-sourced) · Conclusion (~100w) + CTA → `/slingshot-ren
 Cover: birthday-celebration collage with a Slingshot entry featured; alt: "Birthday ideas in Dallas, including a Slingshot ride through the Ennis Bluebonnet Trails." In-body: 4 images — (1) solo spa/treat-yourself photo, (2) couple on a Slingshot, (3) group-of-4 photo, (4) milestone-birthday celebration photo.
 
 ## Internal Links
-**TO (≥3):** `/blog/dallas-date-ideas/` "see all Dallas date ideas" (hub) · `/slingshot-rental/groups/` "book for a group of up to 4" (spoke_link and commercial_link — same target per calendar data) · `/blog/unique-things-to-do-in-dallas/` "35 more unique Dallas experiences" (Day 21, earlier calendar post) · `/blog/our-story-why-experience-not-rental/` "read our story" (Day 17, earlier calendar post, if the shared birthday story is cross-referenced).
-**FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` (hub) · `/blog/unique-things-to-do-in-dallas/` (Day 21) · `/slingshot-rental/groups/`.
+**TO (≥3):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` "see all Dallas date ideas" (hub) · `/slingshot-rental/groups/` "book for a group of up to 4" (spoke_link and commercial_link — same target per calendar data) · `/blog/unique-things-to-do-in-dallas/` "35 more unique Dallas experiences" (Day 21, earlier calendar post) · `/blog/our-story-why-experience-not-rental/` "read our story" (Day 17, earlier calendar post, if the shared birthday story is cross-referenced).
+**FROM (update these the week this publishes):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` (hub) · `/blog/unique-things-to-do-in-dallas/` (Day 21) · `/slingshot-rental/groups/`.
 **Cluster position:** Spoke of the Dallas Date Ideas hub; bridges to the Slingshot rental groups package.
 
 ## E-E-A-T

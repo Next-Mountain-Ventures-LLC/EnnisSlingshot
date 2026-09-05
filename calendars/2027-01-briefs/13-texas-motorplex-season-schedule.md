@@ -53,7 +53,7 @@ Cover: a Texas Motorplex track photo (drag strip, if available/licensed) or a st
 In-body: 1 schedule table (Section 1, the core asset), 1 image (Section 3, downtown Ennis or the Welcome Center).
 
 ## Internal Links
-**TO (≥3):** `/ennis/` "everything to do in Ennis" (hub) · `/ennis/texas-motorplex/` "the full Texas Motorplex visitor guide" (spoke_link, site page) · `/slingshot-rental/bluebonnet-trail-experience/` "book the 2-hour Bluebonnet Trail Experience" (commercial_link) · `/blog/nhra-fall-nationals-texas-motorplex-guide/` "our October Fall Nationals guide" (earlier post, 2026-09-06) · `/blog/what-to-bring-to-texas-motorplex/` "what to bring to a race weekend" (earlier post, 2026-10-05).
+**TO (≥3):** `/ennis/` "everything to do in Ennis" (hub) · `/ennis/texas-motorplex/` "the full Texas Motorplex visitor guide" (spoke_link, site page) · `/slingshot-rental/bluebonnet-trail-experience/` "book the 2-hour Bluebonnet Trail Experience" (commercial_link) · `/blog/nhra-fall-nationals-texas-motorplex-guide/` "our October Fall Nationals guide" (earlier post, 2026-09-06) · `/ennis/texas-motorplex/` "what to bring to a race weekend" (earlier post, 2026-10-05).
 **FROM (update these the week this publishes):** `/ennis/texas-motorplex/` "see the full 2027 schedule" · `/ennis/` hub · blog category index `/blog/category/ennis-dfw/`.
 **Cluster position:** Spoke of the `/ennis/` Things to Do hub (Hub 3), reactive/news-analysis format.
 

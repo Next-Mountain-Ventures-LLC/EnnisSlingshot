@@ -52,8 +52,8 @@ Conclusion + CTA → `/drive-and-go/`
 Cover: a close-up of a driver's license and phone showing a booking confirmation next to a parked Slingshot; alt: "A driver's license and booking confirmation beside a Polaris Slingshot before a rental." · In-body: 1 "questions to ask" checklist graphic + 1 image of the Welcome Center check-in.
 
 ## Internal Links
-**TO (≥4):** `/blog/polaris-slingshot-101/` "Polaris Slingshot 101" · `/requirements/` "our requirements and approval process" · `/drive-and-go/` "try the 1-hour Drive & Go" · `/blog/how-slingshot-rental-insurance-works/` (2026-10-23) "how our included insurance works" · `/blog/slingshot-rental-deposit/` (2026-11-18) "how deposits and deductibles compare"
-**FROM (update these the week this publishes):** `/blog/polaris-slingshot-101/` hub · `/requirements/` spoke · `/blog/how-slingshot-rental-insurance-works/` (reciprocal link) · `/blog/slingshot-rental-deposit/` (reciprocal link)
+**TO (≥4):** `/blog/polaris-slingshot-101/` "Polaris Slingshot 101" · `/requirements/` "our requirements and approval process" · `/drive-and-go/` "try the 1-hour Drive & Go" · `/blog/slingshot-rental-insurance-explained/` (2026-10-23) "how our included insurance works" · `/blog/slingshot-rental-deposit/` (2026-11-18) "how deposits and deductibles compare"
+**FROM (update these the week this publishes):** `/blog/polaris-slingshot-101/` hub · `/requirements/` spoke · `/blog/slingshot-rental-insurance-explained/` (reciprocal link) · `/blog/slingshot-rental-deposit/` (reciprocal link)
 **Cluster position:** Spoke of `/blog/polaris-slingshot-101/`, Legal & Safety cluster
 
 ## E-E-A-T

@@ -7,7 +7,7 @@
 **Status:** BRIEFED
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
-> Keep this distinct from `/blog/how-to-drive-a-polaris-slingshot/` (a separate spoke, per `cluster-slingshot-rental.md` §3, owning general driving how-to) by isolating braking specifically — don't re-cover general driving mechanics here.
+> Keep this distinct from `LATER(publishes 2026-10-14):/blog/how-to-drive-a-polaris-slingshot/` (a separate spoke, per `cluster-slingshot-rental.md` §3, owning general driving how-to) by isolating braking specifically — don't re-cover general driving mechanics here.
 
 ## Target Keyword
 **polaris slingshot brakes** — 20 US / KD 8 / peak April 30 *(DataForSEO, 2026-09-05)*

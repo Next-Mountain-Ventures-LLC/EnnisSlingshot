@@ -54,7 +54,7 @@ Conclusion + CTA → `/gift-cards/`
 Cover: two people mid-laugh in an open-cockpit Slingshot on a tree-lined road, gift-box graphic overlay optional; alt: "Two people in a Polaris Slingshot on an Ennis road, framed as a couples experience gift." · In-body: 2 images (a wrapped gift card mockup; a couple at a photo-stop) + 1 price-band table.
 
 ## Internal Links
-**TO (≥4):** `/blog/dallas-date-ideas/` "75 Dallas date ideas" · `/date-night/` "the golden-hour Slingshot date" · `/gift-cards/` "give a Slingshot gift card" · `/blog/experience-gifts-dallas/` (2026-11-01) "30 experience gifts in Dallas" · `/blog/gift-cards-are-here/` (2026-11-13) "gift cards are here"
+**TO (≥4):** `/blog/dallas-date-ideas/` "75 Dallas date ideas" · `/date-night/` "the golden-hour Slingshot date" · `/gift-cards/` "give a Slingshot gift card" · `/blog/experience-gifts-dallas/` (2026-11-01) "30 experience gifts in Dallas" · `/blog/gift-cards-launch/` (2026-11-13) "gift cards are here"
 **FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` hub · `/gift-cards/` page · `/blog/experience-gifts-dallas/` (reciprocal link) · `/blog/category/date-ideas/` index
 **Cluster position:** Spoke of `/blog/dallas-date-ideas/`
 

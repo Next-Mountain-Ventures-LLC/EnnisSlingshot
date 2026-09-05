@@ -33,7 +33,7 @@ Answer-first intro (~100w, TL;DR box: gift cards are live, three price points, r
 1. **H2: Gift Cards Are Live — Here's What You Can Give** — Point: state the news plainly. Cover: launch date, the three (or four, if custom is supported) denominations and what each includes, where to buy (`/gift-cards/`).
 2. **H2: Who This Is For** — Point: name the buyer directly. Cover: the "Surprise Planner" persona (per `audience-market-research.md`) — someone buying for a partner's birthday or anniversary, plus the December experience-gift shopper (90 TX/mo average, spiking to 480 in December).
 3. **H2: How Redemption Works** — Point: remove the season-mismatch anxiety. Cover: buy any time, recipient books their own April 2027 date once bookings open, no motorcycle license needed, insurance included. Table: card type → price → what's included → who books.
-4. **H2: How to Give It (Without a Boring Email)** — Point: light presentation tip, one short section only — do not duplicate the dedicated `/blog/how-to-gift-an-experience/` post's full scope (2026-12-02); one or two lines and a link there instead.
+4. **H2: How to Give It (Without a Boring Email)** — Point: light presentation tip, one short section only — do not duplicate the dedicated `LATER(publishes 2026-12-02):/blog/how-to-gift-an-experience/` post's full scope (2026-12-02); one or two lines and a link there instead.
 5. **H2: Buy a Gift Card** — Point: convert. Cover: direct CTA card with the three prices, link to `/book/`.
 Optional FAQ (3 Qs, PAA-sourced — see below) · Conclusion (~60w) + CTA → `/book/`
 

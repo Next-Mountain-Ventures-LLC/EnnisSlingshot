@@ -4,7 +4,7 @@
 **Slug:** `/blog/texas-slingshot-laws/`
 **Cluster:** Polaris Slingshot 101 (Legal & Safety) · **Hub:** `/blog/polaris-slingshot-101/` · **Template:** pillar-page · **~3,200w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Polaris Slingshot 101` · tags: Texas autocycle law, Slingshot license Texas, Slingshot helmet law, Texas Transportation Code, Slingshot insurance · schedule `future` @ 2026-09-15 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 920, 2026-09-15 08:00 America/Chicago. Cross-linked both directions with posts 907 (pillar), 910 (autocycle), 911 (street-legal), 913 (age), and 917 (helmet) via posts.update the same session, per this brief's FROM list and the SEO session's explicit follow-up instruction.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
 > Slot note: this is the single highest-priority AI-Overview-citation opportunity in the entire content calendar (see `seo/strategy/cluster-slingshot-rental.md` §8, opportunity #1) — Google's AI Overview on this exact query currently cites a competitor FAQ (slingshotrentalssa.com) alongside a source (fullthrottlehouston.com) whose own body text contradicts the AI Overview's answer. Write this to be the unambiguous, statute-cited, quotable source. Cannibalization precondition: this post absorbs and supersedes the narrower Sep 12 helmet post (`/blog/do-i-need-a-helmet-for-a-polaris-slingshot/`) as the *comprehensive* legal reference — link both directions once this publishes; the Sep 12 post stays live as the deep-dive on the helmet question specifically, this pillar covers the full statute set (license, autocycle definition, helmet, age, insurance, passengers) in one place.

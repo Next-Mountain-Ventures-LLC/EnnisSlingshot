@@ -50,8 +50,8 @@ Conclusion + CTA → `/slingshot-rental/bluebonnet-trail-experience/`
 Cover: a flat-lay of trail-day essentials (sunscreen, water bottle, sunglasses, hat) with a bluebonnet field in the background; alt: "Packing checklist essentials — sunscreen, water, hat — laid out in front of an Ennis bluebonnet field" · In-body: 1 packing checklist table · 2 supporting photos.
 
 ## Internal Links
-**TO (≥3):** `/bluebonnets/` "the full Ennis Bluebonnet Trails guide" · `/welcome-center/` "grab a paper trail map before you go" · `/slingshot-rental/bluebonnet-trail-experience/` "ride the trails with us" · earlier post `/blog/the-complete-bluebonnet-photography-gear-checklist-what-to-pack-before-you-go/` "the photography-specific gear checklist" (bb-010, Oct 24) · earlier post `/blog/bluebonnets-and-fire-ants-how-to-avoid-ruining-your-photos-and-your-day/` "fire ant safety" (bb-020, Dec 15) · earlier post `/blog/bluebonnets-and-snakes-what-to-know-before-you-walk-into-a-texas-field/` "snake safety" (bb-019, Dec 10)
-**FROM (update these the week this publishes):** `/bluebonnets/` (hub) · `/blog/the-complete-bluebonnet-photography-gear-checklist-what-to-pack-before-you-go/` (add cross-link to distinguish the two lists) · `/welcome-center/` (add cross-link)
+**TO (≥3):** `/bluebonnets/` "the full Ennis Bluebonnet Trails guide" · `/welcome-center/` "grab a paper trail map before you go" · `/slingshot-rental/bluebonnet-trail-experience/` "ride the trails with us" · earlier post `/bluebonnets/photo-spots/` "the photography-specific gear checklist" (bb-010, Oct 24) · earlier post `/blog/bluebonnets-and-fire-ants-how-to-avoid-ruining-your-photos-and-your-day/` "fire ant safety" (bb-020, Dec 15) · earlier post `/blog/bluebonnets-and-snakes-what-to-know-before-you-walk-into-a-texas-field/` "snake safety" (bb-019, Dec 10)
+**FROM (update these the week this publishes):** `/bluebonnets/` (hub) · `/bluebonnets/photo-spots/` (add cross-link to distinguish the two lists) · `/welcome-center/` (add cross-link)
 **Cluster position:** Spoke of `/bluebonnets/` (Trail Map & Getting There cluster)
 
 ## E-E-A-T

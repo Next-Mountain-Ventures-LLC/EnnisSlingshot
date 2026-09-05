@@ -7,7 +7,7 @@
 **Status:** BRIEFED
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
-> Slot notes: **Cannibalization precondition.** `di-030` "Day Trips From Dallas With Kids" (`/blog/day-trips-from-dallas-with-kids/`, published 2026-11-16) covers a broader North Texas family day-trip list; this post is Ennis-specific, going deeper on one town than that post can. `s1-007` "Can Kids Ride in a Slingshot?" (`/blog/can-kids-ride-in-a-slingshot/`, published 2026-10-07) already answers the vehicle-eligibility question — cross-link to it rather than re-explaining passenger age/weight rules. **Do not promise a family-of-four Slingshot ride** — the vehicle seats 2 total, so any Slingshot mention here should be framed as "parents get a turn" (one adult drives, one rides along) while older kids or a second parent wait, consistent with the guardrail already established in `di-030`.
+> Slot notes: **Cannibalization precondition.** `di-030` "Day Trips From Dallas With Kids" (`/ennis/day-trip-from-dallas/`, published 2026-11-16) covers a broader North Texas family day-trip list; this post is Ennis-specific, going deeper on one town than that post can. `s1-007` "Can Kids Ride in a Slingshot?" (`/blog/can-kids-ride-in-a-slingshot/`, published 2026-10-07) already answers the vehicle-eligibility question — cross-link to it rather than re-explaining passenger age/weight rules. **Do not promise a family-of-four Slingshot ride** — the vehicle seats 2 total, so any Slingshot mention here should be framed as "parents get a turn" (one adult drives, one rides along) while older kids or a second parent wait, consistent with the guardrail already established in `di-030`.
 
 ## Target Keyword
 **things to do in ennis tx with kids** — **no measurable US/TX search volume returned** *(DataForSEO, kw_data_google_ads_search_volume, "Texas,United States", pulled 2026-09-05 — below reporting threshold; family long-tail of "things to do in ennis tx," 390 TX/mo avg, KD 0, per keywords.md)*
@@ -56,8 +56,8 @@ Cover: a family walking through downtown Ennis or at Bluebonnet Park, kid-friend
 In-body: 5 images / 0 tables — one representative photo per major section (1–5), plus the "grown-ups" bonus photo for Section 6.
 
 ## Internal Links
-**TO (≥3):** `/ennis/` "the full guide to things to do in Ennis, TX" (hub) · `/ennis/events/` "the Ennis events calendar" (spoke_link) · `/slingshot-rental/near-dallas/` "plan your family day trip" (commercial_link) · `/blog/day-trips-from-dallas-with-kids/` "more North Texas family day trips" (earlier calendar post, 2026-11-16) · `/blog/can-kids-ride-in-a-slingshot/` "can kids ride along?" (earlier calendar post, 2026-10-07).
-**FROM (update these the week this publishes):** `/ennis/` hub "things to do with kids" card · `/blog/day-trips-from-dallas-with-kids/` "the Ennis-specific version of this list" · `/blog/can-kids-ride-in-a-slingshot/` "more family activities in Ennis."
+**TO (≥3):** `/ennis/` "the full guide to things to do in Ennis, TX" (hub) · `/ennis/events/` "the Ennis events calendar" (spoke_link) · `/slingshot-rental/near-dallas/` "plan your family day trip" (commercial_link) · `/ennis/day-trip-from-dallas/` "more North Texas family day trips" (earlier calendar post, 2026-11-16) · `/blog/can-kids-ride-in-a-slingshot/` "can kids ride along?" (earlier calendar post, 2026-10-07).
+**FROM (update these the week this publishes):** `/ennis/` hub "things to do with kids" card · `/ennis/day-trip-from-dallas/` "the Ennis-specific version of this list" · `/blog/can-kids-ride-in-a-slingshot/` "more family activities in Ennis."
 **Cluster position:** Spoke of `/ennis/` (Hub 3, tourism listicle pillar).
 
 ## E-E-A-T

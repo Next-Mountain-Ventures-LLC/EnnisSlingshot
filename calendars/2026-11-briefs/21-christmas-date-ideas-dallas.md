@@ -43,7 +43,7 @@ Conclusion + CTA → `/gift-cards/`
 - Ennis Slingshot Experience season runs April 1–30 only — `business-context.md`
 - Bluetooth communication helmet add-on ($25/helmet) lets a couple talk during the ride — `business-context.md`
 - Driver + Rider two-person package: $149, 2 hours, insurance included, no deposit — `business-context.md`
-- Gift cards launched for the 2027 season (link to the announcement post, do not re-describe the launch in detail) — `business-context.md` / `/blog/gift-cards-are-here/`
+- Gift cards launched for the 2027 season (link to the announcement post, do not re-describe the launch in detail) — `business-context.md` / `/blog/gift-cards-launch/`
 - Experience gifts see a measured December search spike for the adjacent term "experience gifts for couples" (90 → 480/mo) — DataForSEO, 2026-09-05
 - *(Venue-specific facts — Vitruvian Park, Highland Park, Gaylord ICE, Zoo Lights dates/prices — to be pulled fresh from each venue's own site at time of writing; not included here as fixed facts because they change annually)*
 
@@ -51,8 +51,8 @@ Conclusion + CTA → `/gift-cards/`
 Cover: a couple walking through a lit-up outdoor holiday display, warm string lights; alt: "A couple walking through a Dallas holiday light display on a December date." · In-body: 2–3 images (a light display, an ice rink, a wrapped gift card with a bluebonnet-season teaser) + 1 cost/indoor-outdoor table.
 
 ## Internal Links
-**TO (≥4):** `/blog/dallas-date-ideas/` "75 Dallas date ideas" · `/gift-cards/` "give a Slingshot gift card for April" · `/blog/gift-cards-are-here/` (2026-11-13) "gift cards are here" · `/blog/fall-date-ideas-in-dallas-25-dates-for-the-best-weather-of-the-year/` (2026-09-22) "the fall edition of this series"
-**FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` hub · `/gift-cards/` page · `/blog/gift-cards-are-here/` (reciprocal link) · `/blog/category/date-ideas/` index
+**TO (≥4):** `/blog/dallas-date-ideas/` "75 Dallas date ideas" · `/gift-cards/` "give a Slingshot gift card for April" · `/blog/gift-cards-launch/` (2026-11-13) "gift cards are here" · `/blog/fall-date-ideas-dallas/` (2026-09-22) "the fall edition of this series"
+**FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` hub · `/gift-cards/` page · `/blog/gift-cards-launch/` (reciprocal link) · `/blog/category/date-ideas/` index
 **Cluster position:** Spoke of `/blog/dallas-date-ideas/`, seasonal companion to the Fall Date Ideas post
 
 ## E-E-A-T

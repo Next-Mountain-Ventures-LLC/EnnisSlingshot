@@ -2,12 +2,12 @@
 
 **Day / Date:** Day 13 — Thursday, September 17, 2026
 **Slug:** `/blog/adventurous-date-ideas/`
-**Cluster:** Dallas Date Ideas · **Hub:** `/blog/dallas-date-ideas/` · **Template:** listicle · **~1,800w**
+**Cluster:** Dallas Date Ideas · **Hub:** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` · **Template:** listicle · **~1,800w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Dallas Date Ideas` · tags: adventurous date ideas, adrenaline dates Dallas, thrill seeker date ideas, Dallas couples activities, Texas Motorplex · schedule `future` @ 2026-09-17 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 927, 2026-09-17 08:00 America/Chicago. Retitled (dropped "20") for the same reason as brief 11 — didn't enumerate 20 sourced named venues. Wrote 5 activity categories by type rather than naming unverified specific operators (per brief guardrail); only iFLY Frisco (independently verified) and Texas Motorplex/Ennis Slingshot (sourced) are named specifically. Tagged Needs Attention (76) since every other category needs current operator/pricing verification before being finalized.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: yes
 
-> Precondition: `/blog/dallas-date-ideas/` (the pillar) and `/blog/outdoor-date-ideas-dallas/` (Sep 11) both live in the same category — this post's differentiator is *adrenaline/thrill* specifically, not "outdoor" broadly; cross-link, don't overlap in item selection. **needs_attention:** this brief supplies only sourced facts for Texas Motorplex and Ennis Slingshot's own offering. The other ~18 activities (skydiving/iFly, hot-air ballooning, helicopter tours, Dinosaur Valley, escape rooms, etc.) are **not verified in the research corpus** — the writer must independently confirm current operating status, pricing, minimum age and any license/waiver requirement for every non-Slingshot activity before publishing.
+> Precondition: `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` (the pillar) and `/blog/outdoor-date-ideas-dallas/` (Sep 11) both live in the same category — this post's differentiator is *adrenaline/thrill* specifically, not "outdoor" broadly; cross-link, don't overlap in item selection. **needs_attention:** this brief supplies only sourced facts for Texas Motorplex and Ennis Slingshot's own offering. The other ~18 activities (skydiving/iFly, hot-air ballooning, helicopter tours, Dinosaur Valley, escape rooms, etc.) are **not verified in the research corpus** — the writer must independently confirm current operating status, pricing, minimum age and any license/waiver requirement for every non-Slingshot activity before publishing.
 
 ## Target Keyword
 **adventurous date ideas** — **30 TX/mo / KD 0 / peak Oct 50** *(DataForSEO, 2026-09-05)*
@@ -55,9 +55,9 @@ Cover: Collage-style graphic of adrenaline activity icons (skydiving, driving, b
 In-body: 1 table (scare factor / skill / license grid) · 3–4 activity photos (verify licensing/usage rights for any stock imagery used)
 
 ## Internal Links
-**TO (≥3):** `/blog/dallas-date-ideas/` "75 Dallas date ideas, ranked by vibe" (hub) · `/requirements/` "what you need to book a Slingshot" (spoke) · `/slingshot-rental/drive-and-go/` "try the 1-hour Drive & Go" (commercial_link) · `/blog/outdoor-date-ideas-dallas/` "22 outdoor date ideas near Dallas" (earlier post, Sep 11)
-**FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` (hub, link from its "adventurous" section) · `/blog/outdoor-date-ideas-dallas/` (cross-link, differentiate outdoor vs. adrenaline) · `/requirements/` (add a "featured in" cross-reference)
-**Cluster position:** Spoke of `/blog/dallas-date-ideas/`, sibling of the Sep 11 outdoor date ideas post and the Sep 22 fall date ideas post
+**TO (≥3):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` "75 Dallas date ideas, ranked by vibe" (hub) · `/requirements/` "what you need to book a Slingshot" (spoke) · `/slingshot-rental/drive-and-go/` "try the 1-hour Drive & Go" (commercial_link) · `/blog/outdoor-date-ideas-dallas/` "22 outdoor date ideas near Dallas" (earlier post, Sep 11)
+**FROM (update these the week this publishes):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` (hub, link from its "adventurous" section) · `/blog/outdoor-date-ideas-dallas/` (cross-link, differentiate outdoor vs. adrenaline) · `/requirements/` (add a "featured in" cross-reference)
+**Cluster position:** Spoke of `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/`, sibling of the Sep 11 outdoor date ideas post and the Sep 22 fall date ideas post
 
 ## E-E-A-T
 - Byline: Joshua Ford. Credibility: one of the 20 entries is written from direct operational knowledge (pricing, policy, route, license requirements stated firsthand) rather than secondhand aggregation, which anchors the whole list's trustworthiness even where other entries require standard verification.

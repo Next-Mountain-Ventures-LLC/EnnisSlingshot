@@ -50,7 +50,7 @@ Cover: split/comparison image — same trail stretch shot at midday vs. golden h
 
 ## Internal Links
 **TO (≥3):** `/bluebonnets/` "the full Ennis Bluebonnet Trails guide" (hub) · `/bluebonnets/photo-spots/` "the best photo spots on the trails" (spoke) · `/slingshot-rental/date-night/` "book a golden-hour Slingshot ride" (commercial) · `/blog/how-to-plan-your-ennis-bluebonnet-trip-around-peak-bloom-not-too-early-not-too-late/` "plan your visit around peak bloom" (earlier post, bb-031, Jan 11 2027)
-**FROM (update these the week this publishes):** `/bluebonnets/photo-spots/` · `/blog/how-to-plan-your-ennis-bluebonnet-trip-around-peak-bloom-not-too-early-not-too-late/` · `/blog/the-complete-bluebonnet-photography-gear-checklist-what-to-pack-before-you-go/` (bb-010, Oct 24 2026)
+**FROM (update these the week this publishes):** `/bluebonnets/photo-spots/` · `/blog/how-to-plan-your-ennis-bluebonnet-trip-around-peak-bloom-not-too-early-not-too-late/` · `/bluebonnets/photo-spots/` (bb-010, Oct 24 2026)
 **Cluster position:** Spoke of `/bluebonnets/`, sibling to the peak-bloom timing and photography-gear posts.
 
 ## E-E-A-T

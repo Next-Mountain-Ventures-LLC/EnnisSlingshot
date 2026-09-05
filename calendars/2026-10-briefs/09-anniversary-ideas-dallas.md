@@ -2,7 +2,7 @@
 
 **Day / Date:** Day 35 — Friday, October 9, 2026
 **Slug:** `/blog/anniversary-ideas-dallas/`
-**Cluster:** date-ideas · **Hub:** `/blog/dallas-date-ideas/` · **Template:** listicle · **~1,800w**
+**Cluster:** date-ideas · **Hub:** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` · **Template:** listicle · **~1,800w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Dallas Date Ideas` · tags: anniversary, date ideas, Dallas, couples, date night · schedule `future` @ 2026-10-09 08:00 America/Chicago
 **Status:** BRIEFED
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
@@ -47,9 +47,9 @@ Answer-first intro (~120w, TL;DR: 25 anniversary date ideas organized by year an
 Cover: couple at golden hour in Dallas (licensed stock, or Slingshot-specific if available). Alt: "Couple celebrating an anniversary in Dallas at golden hour." · In-body: 5–6 photos across year-tier sections + 1 anniversary-theme reference table.
 
 ## Internal Links
-**TO (≥3):** `/blog/dallas-date-ideas/` "more Dallas date ideas" · `/slingshot-rental/bluebonnet-trail-experience/` "book the two-person bluebonnet ride" (or `/date-night/` once confirmed live) · `/slingshot-rental/date-night/` (same caveat) · `/blog/birthday-ideas-dallas/` (Sep 29) "for birthday-specific ideas" · `/blog/unique-things-to-do-in-dallas/` (Sep 25) "for more unique picks"
-**FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` · `/blog/birthday-ideas-dallas/` · `/blog/unique-things-to-do-in-dallas/` · `/slingshot-rental/date-night/` (once live)
-**Cluster position:** Spoke of `/blog/dallas-date-ideas/`, Dallas Date Ideas category.
+**TO (≥3):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` "more Dallas date ideas" · `/slingshot-rental/bluebonnet-trail-experience/` "book the two-person bluebonnet ride" (or `/date-night/` once confirmed live) · `/slingshot-rental/date-night/` (same caveat) · `/blog/birthday-ideas-dallas/` (Sep 29) "for birthday-specific ideas" · `/blog/unique-things-to-do-in-dallas/` (Sep 25) "for more unique picks"
+**FROM (update these the week this publishes):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` · `/blog/birthday-ideas-dallas/` · `/blog/unique-things-to-do-in-dallas/` · `/slingshot-rental/date-night/` (once live)
+**Cluster position:** Spoke of `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/`, Dallas Date Ideas category.
 
 ## E-E-A-T
 - Byline Joshua Ford. Credibility: documented real 2026-season customer occasions include at least one anniversary booking (aggregate reference per `business-context.md`, not a fabricated named quote).

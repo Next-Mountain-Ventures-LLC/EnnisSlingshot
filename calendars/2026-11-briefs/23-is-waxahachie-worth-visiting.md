@@ -51,8 +51,8 @@ Conclusion + CTA → `/waxahachie-ellis-county/`
 Cover: the Ellis County Courthouse in downtown Waxahachie; alt: "The historic Ellis County Courthouse in downtown Waxahachie, Texas." · In-body: 1 image (a Scarborough Faire scene, seasonal) + 1 simple map/graphic showing the Ennis–Waxahachie 15-mile pairing.
 
 ## Internal Links
-**TO (≥4):** `/ennis/` "things to do in Ennis, TX" · `/weekend-itinerary/` "the Ennis + Waxahachie weekend guide" · `/waxahachie-ellis-county/` "Slingshot rentals near Waxahachie and Ellis County" · `/blog/25-things-to-do-in-waxahachie-tx-courthouse-to-gingerbread-houses/` (2026-10-02) "the full Waxahachie attraction list" · `/blog/12-small-towns-near-dallas-worth-a-day-trip-ranked-by-drive-time/` (2026-10-08) "how it ranks against other small towns"
-**FROM (update these the week this publishes):** `/ennis/` hub · `/waxahachie-ellis-county/` spoke · `/blog/25-things-to-do-in-waxahachie-tx-courthouse-to-gingerbread-houses/` (reciprocal link) · `/blog/category/ennis-dfw/` index
+**TO (≥4):** `/ennis/` "things to do in Ennis, TX" · `/weekend-itinerary/` "the Ennis + Waxahachie weekend guide" · `/waxahachie-ellis-county/` "Slingshot rentals near Waxahachie and Ellis County" · `/blog/things-to-do-in-waxahachie/` (2026-10-02) "the full Waxahachie attraction list" · `/blog/small-towns-near-dallas/` (2026-10-08) "how it ranks against other small towns"
+**FROM (update these the week this publishes):** `/ennis/` hub · `/waxahachie-ellis-county/` spoke · `/blog/things-to-do-in-waxahachie/` (reciprocal link) · `/blog/category/ennis-dfw/` index
 **Cluster position:** Spoke of `/ennis/` (Hub 3), sibling to the full Waxahachie attraction listicle
 
 ## E-E-A-T

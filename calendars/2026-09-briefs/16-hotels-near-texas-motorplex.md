@@ -4,7 +4,7 @@
 **Slug:** `/blog/hotels-near-texas-motorplex/`
 **Cluster:** Ennis & DFW Things to Do (Texas Motorplex) · **Hub:** `/ennis/` · **Template:** roundup · **~1,700w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Ennis & DFW Things to Do` · tags: Texas Motorplex, Ennis TX hotels, NHRA race weekend, Corsicana hotels, Ellis County lodging · schedule `future` @ 2026-09-16 08:00 America/Chicago
-**Status:** BRIEFED
+**Status:** WRITTEN AND SCHEDULED — WordPress post 926, 2026-09-16 08:00 America/Chicago. Verified real hotel names/distances (Quality Inn, Holiday Inn Express, Comfort Suites, La Quinta, Motel 6 — all Ennis) and Texas Motorplex's actual trackside camping policy via live web search rather than carrying forward placeholders; tagged Needs Attention (76) since distances are third-party-sourced, not independently re-measured to the gate, and camping pricing must be reconfirmed with the track directly.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: yes
 
 > Precondition: distinct from the planned `/where-to-stay/` site page (general Ennis lodging) by its event-weekend framing — link to it, don't duplicate its content. **needs_attention:** no specific hotel/RV park names, addresses, room rates or camping policies are confirmed in the research corpus (`seo/research/*`). The writer must independently verify every named property (via the property's own site or a booking platform, at time of writing) and Texas Motorplex's own trackside-camping policy directly from texasmotorplex.com before publishing — do not carry forward any placeholder names from this brief. This brief supplies the *structure and drive-time framing* only; property specifics are marked "verify."

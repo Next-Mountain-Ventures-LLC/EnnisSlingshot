@@ -2,12 +2,12 @@
 
 **Day / Date:** Day 7 — Friday, September 11, 2026
 **Slug:** `/blog/outdoor-date-ideas-dallas/`
-**Cluster:** Dallas Date Ideas (Hub 4) · **Hub:** `/blog/dallas-date-ideas/` · **Template:** listicle · **~1,700w**
+**Cluster:** Dallas Date Ideas (Hub 4) · **Hub:** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` · **Template:** listicle · **~1,700w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Dallas Date Ideas` · tags: date ideas dallas, outdoor dates, couples activities, bluebonnets, dallas date night · schedule `future` @ 2026-09-11 08:00 America/Chicago
 **Status:** WRITTEN AND SCHEDULED — WordPress post 915, 2026-09-11 08:00 America/Chicago. Title changed from "22 Outdoor Date Ideas" to "A Season-by-Season Guide" because the post doesn't enumerate 22 sourced named venues (none were available in research files, and the brief explicitly bars padding with unverified filler) — adjusted the count claim rather than inventing venues, per the brief's own guardrail.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
-> Publishes ahead of the future `/blog/dallas-date-ideas/` pillar (not yet on the September calendar) — this spoke can stand alone on its own keyword now and link up to the pillar once it publishes. Note in the brief for whoever writes the pillar: this post should be added to its spoke list and linked down to when the pillar goes live.
+> Publishes ahead of the future `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` pillar (not yet on the September calendar) — this spoke can stand alone on its own keyword now and link up to the pillar once it publishes. Note in the brief for whoever writes the pillar: this post should be added to its spoke list and linked down to when the pillar goes live.
 
 ## Target Keyword
 **outdoor date ideas dallas** — **30 TX/mo / KD 0 / peak Sep 70** *(DataForSEO, 2026-09-04, via `keywords.md` Cluster D and `seo/research/keyword-research-summary.md`)*
@@ -58,9 +58,9 @@ Cover: a couple in a Slingshot driving through Ennis bluebonnets, golden-hour li
 In-body: 3 images / 1 table — (1) fall patio/trail photo (Section 3), (2) bluebonnet photo-spot image (Section 6), (3) Lake Bardwell photo (Section 7), (4) month-by-month quick-pick table (Section 8).
 
 ## Internal Links
-**TO (≥3):** `/blog/dallas-date-ideas/` "see all our Dallas date idea guides" (hub — not yet published; link as a planned cross-reference and add once the pillar goes live) · `/bluebonnets/photo-spots/` "find the best bluebonnet photo spots" (spoke_link) · `/slingshot-rental/bluebonnet-trail-experience/` "book the 2-Hour Bluebonnet Trail Experience" (commercial_link) · `/blog/polaris-slingshot-101/` "not sure what a Polaris Slingshot even is? Start here" (earlier post — Day 1, published 2026-09-05).
+**TO (≥3):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` "see all our Dallas date idea guides" (hub — not yet published; link as a planned cross-reference and add once the pillar goes live) · `/bluebonnets/photo-spots/` "find the best bluebonnet photo spots" (spoke_link) · `/slingshot-rental/bluebonnet-trail-experience/` "book the 2-Hour Bluebonnet Trail Experience" (commercial_link) · `/blog/polaris-slingshot-101/` "not sure what a Polaris Slingshot even is? Start here" (earlier post — Day 1, published 2026-09-05).
 **FROM (update these the week this publishes):** `/bluebonnets/photo-spots/` (once built) "looking for a full date-night list? Read our outdoor date ideas guide" · home page date-ideas teaser (if applicable) · `/slingshot-rental/bluebonnet-trail-experience/` (once built) "see this featured on our outdoor date ideas list" · `/blog/polaris-slingshot-101/` (optional cross-link back).
-**Cluster position:** Spoke of `/blog/dallas-date-ideas/` (Hub 4, not yet published — flag for the pillar's future spoke list), with a mandatory cross-cluster bridge to `/bluebonnets/photo-spots/` per `LINKING-CONVENTIONS.md` ("Date/occasion content → `/slingshot-rental/date-night/` and `/gift-cards/`" — adapted here to the bluebonnet trail experience since date-night package doesn't exist yet).
+**Cluster position:** Spoke of `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` (Hub 4, not yet published — flag for the pillar's future spoke list), with a mandatory cross-cluster bridge to `/bluebonnets/photo-spots/` per `LINKING-CONVENTIONS.md` ("Date/occasion content → `/slingshot-rental/date-night/` and `/gift-cards/`" — adapted here to the bluebonnet trail experience since date-night package doesn't exist yet).
 
 ## E-E-A-T
 - Byline Joshua Ford. Credibility comes from first-hand knowledge of when the Ennis bluebonnet drive is actually good (April only, not a year-round claim) and honest, sourced facts about the other seasonal outdoor spots rather than generic AI-listicle filler.

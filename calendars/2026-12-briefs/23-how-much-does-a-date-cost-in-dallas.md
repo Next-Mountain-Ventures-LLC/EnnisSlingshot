@@ -56,7 +56,7 @@ Cover: flat-lay or graphic of a "date night receipt" concept — stylized itemiz
 In-body: 1 large sortable table (Section 2, the core asset), 1 bar chart (cost-per-hour comparison, Section 5), 1 image (Section 3, a free/low-cost date spot).
 
 ## Internal Links
-**TO (≥3):** `/blog/dallas-date-ideas/` "our full Dallas date ideas guide" (hub) · `/slingshot-rental/pricing/` "Slingshot rental pricing and what's included" (spoke_link and commercial_link) · `/blog/experience-gift-statistics/` "why experience dates beat things" (earlier post, 2026-11-02) · `/blog/cheap-date-ideas-dallas/` if published, else `/blog/first-date-ideas-dallas/` "budget-friendly first dates" (earlier post, 2026-10-18).
+**TO (≥3):** `/blog/dallas-date-ideas/` "our full Dallas date ideas guide" (hub) · `/slingshot-rental/pricing/` "Slingshot rental pricing and what's included" (spoke_link and commercial_link) · `/blog/experience-gift-statistics/` "why experience dates beat things" (earlier post, 2026-11-02) · `LATER(publishes 2027-03-27):/blog/cheap-date-ideas-dallas/` if published, else `/blog/first-date-ideas-dallas/` "budget-friendly first dates" (earlier post, 2026-10-18).
 **FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` pillar "see what 25 real Dallas dates cost" · `/slingshot-rental/pricing/` "how we compare to a typical date night" · blog category index `/blog/category/date-ideas/`.
 **Cluster position:** Spoke of the Dallas Date Ideas pillar (data-research asset, new sub-cluster: budgeting/cost content).
 

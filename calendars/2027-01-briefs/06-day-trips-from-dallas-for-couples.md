@@ -52,8 +52,8 @@ For each town entry: one clear reason to go, the best season/month, and a photo 
 Cover: a split/collage image suggesting a road trip — open road with a small town skyline in the distance; alt: "Scenic road trip from Dallas, Texas for couples." In-body: drive-time comparison table; 1 photo per featured town (15 total, licensed/CC-BY where possible); a highlighted photo for the Ennis entry (Slingshot in bluebonnets).
 
 ## Internal Links
-**TO (≥3):** `/blog/dallas-date-ideas/` (hub, "more Dallas date ideas") · `/ennis/day-trip-from-dallas/` "the full Dallas-to-Ennis day-trip guide" · `/slingshot-rental/near-dallas/` (commercial) · `/blog/things-to-do-in-waxahachie/` (ed-039, Oct 2, earlier post) · `/blog/houston-to-dallas-i-45-stops/` (ed-047, Oct 17, earlier post) · `/blog/day-trips-from-dallas-with-kids/` (ed-022, Nov 16, earlier post — cross-link as the family-focused sibling)
-**FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` hub (add to its roundup section) · `/ennis/day-trip-from-dallas/` site page · `/blog/day-trips-from-dallas-with-kids/` (ed-022, add "planning a trip without kids? see our couples version")
+**TO (≥3):** `/blog/dallas-date-ideas/` (hub, "more Dallas date ideas") · `/ennis/day-trip-from-dallas/` "the full Dallas-to-Ennis day-trip guide" · `/slingshot-rental/near-dallas/` (commercial) · `/blog/things-to-do-in-waxahachie/` (ed-039, Oct 2, earlier post) · `/blog/houston-to-dallas-i-45-stops/` (ed-047, Oct 17, earlier post) · `/ennis/day-trip-from-dallas/` (ed-022, Nov 16, earlier post — cross-link as the family-focused sibling)
+**FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` hub (add to its roundup section) · `/ennis/day-trip-from-dallas/` site page · `/ennis/day-trip-from-dallas/` (ed-022, add "planning a trip without kids? see our couples version")
 **Cluster position:** Spoke of `/blog/dallas-date-ideas/` (blog pillar per `SITE-STRUCTURE.md`), bridging to the `/ennis/` tourism hub per `LINKING-CONVENTIONS.md` cross-hub bridge rule.
 
 ## E-E-A-T

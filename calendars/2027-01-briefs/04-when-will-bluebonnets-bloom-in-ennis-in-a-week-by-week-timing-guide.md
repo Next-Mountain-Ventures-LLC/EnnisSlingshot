@@ -55,7 +55,7 @@ Cover: a bloom-progression composite (three small photos: early / peak / late Ap
 
 ## Internal Links
 **TO (≥3):** `/bluebonnets/` "Ennis Bluebonnet Trails hub" · `/bluebonnets/bloom-tracker/` "check the live bloom tracker" · `/slingshot-rental/bluebonnet-trail-experience/` (commercial) · `/blog/bluebonnet-season-texas/` (bb-027, Jan 2, earlier post — statewide context) · `/blog/bluebonnet-bloom-predictions-for-what-the-fall-rain-and-winter-weather-suggest/` (bb-025, Dec 31, earlier post — forecast reasoning)
-**FROM (update these the week this publishes):** `/blog/bluebonnet-season-texas/` (bb-027 — add a link down to this Ennis-specific detail post) · `/bluebonnets/` hub · `/blog/bluebonnet-bloom-predictions-.../` (bb-025)
+**FROM (update these the week this publishes):** `/blog/bluebonnet-season-texas/` (bb-027 — add a link down to this Ennis-specific detail post) · `/bluebonnets/` hub · `/blog/bluebonnet-bloom-predictions-for-what-the-fall-rain-and-winter-weather-suggest/` (bb-025)
 **Cluster position:** Spoke of `/bluebonnets/`, Cluster 3 (Bloom Timing & Season Tracker) per `cluster-ennis-bluebonnets.md`.
 
 ## E-E-A-T

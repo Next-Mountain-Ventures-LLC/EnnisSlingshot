@@ -2,12 +2,12 @@
 
 **Day / Date:** Day 44 — Sunday, October 18, 2026
 **Slug:** `/blog/first-date-ideas-dallas/`
-**Cluster:** date-ideas · **Hub:** `/blog/dallas-date-ideas/` · **Template:** listicle · **~1,700w**
+**Cluster:** date-ideas · **Hub:** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` · **Template:** listicle · **~1,700w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Dallas Date Ideas` · tags: first date ideas, Dallas dating, low-key dates, Drive and Go, casual dates Dallas · schedule `future` @ 2026-10-18 08:00 America/Chicago
 **Status:** BRIEFED
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
-> **Precondition — forward-link issue, check before writing:** this post's stated hub, `/blog/dallas-date-ideas/` (the "75 Dallas Date Ideas" pillar, post `di-001`), does not publish until **October 22, 2026** — four days after this post. Per the no-forward-links rule, **do not link to `di-001`/`/blog/dallas-date-ideas/` in this brief's version.** Link instead to `/blog/category/date-ideas/` (the always-live category index) and to earlier-published date-ideas posts (`di-014`, `di-025`, `di-005`, `di-006`, `di-033`, `di-035`). If the actual publish order slips and the pillar goes live first, add the pillar link back in.
+> **Precondition — forward-link issue, check before writing:** this post's stated hub, `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` (the "75 Dallas Date Ideas" pillar, post `di-001`), does not publish until **October 22, 2026** — four days after this post. Per the no-forward-links rule, **do not link to `di-001`/`LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` in this brief's version.** Link instead to `/blog/category/date-ideas/` (the always-live category index) and to earlier-published date-ideas posts (`di-014`, `di-025`, `di-005`, `di-006`, `di-033`, `di-035`). If the actual publish order slips and the pillar goes live first, add the pillar link back in.
 > **Cannibalization check:** overlaps in topic with the not-yet-published pillar `di-001` and with `di-006` *Anniversary Ideas in Dallas* (Oct 9, 2026) and `di-005` *Birthday Ideas in Dallas* (Sep 29, 2026) — all "occasion-based date list" posts. This one is scoped specifically to **first dates** (low-commitment, exit-friendly), a distinct angle; say so explicitly in the intro so it doesn't read as a re-skin.
 
 ## Target Keyword

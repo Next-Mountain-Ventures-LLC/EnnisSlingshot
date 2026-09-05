@@ -54,7 +54,7 @@ For each H2: the point it must make, what to verify on-site, and the map/photo t
 Cover: a charging station or gas pump sign with an Ennis street/highway marker in frame; alt: "Gas station and EV charging sign near Ennis, Texas on I-45." In-body: a simple annotated map (Ennis + I-45 corridor) pinning verified gas/charging locations; 1–2 photos of the actual signage taken on-site.
 
 ## Internal Links
-**TO (≥3):** `/ennis/` "Things to Do in Ennis hub" · `/ennis/day-trip-from-dallas/` "planning a day trip from Dallas" · `/slingshot-rental/near-dallas/` (commercial) · `/blog/houston-to-dallas-i-45-stops/` (ed-047, Oct 17, earlier post — sibling I-45 logistics content) · `/blog/what-to-bring-to-texas-motorplex/` (ed-004, Oct 5, earlier post)
+**TO (≥3):** `/ennis/` "Things to Do in Ennis hub" · `/ennis/day-trip-from-dallas/` "planning a day trip from Dallas" · `/slingshot-rental/near-dallas/` (commercial) · `/blog/houston-to-dallas-i-45-stops/` (ed-047, Oct 17, earlier post — sibling I-45 logistics content) · `/ennis/texas-motorplex/` (ed-004, Oct 5, earlier post)
 **FROM (update these the week this publishes):** `/ennis/` hub (add a "trip logistics" link) · `/ennis/texas-motorplex/` site page (link for race-weekend planners) · `/blog/houston-to-dallas-i-45-stops/`
 **Cluster position:** Spoke of `/ennis/`, standalone logistics post (not part of a formal 3-post sub-cluster in the current cluster plans).
 

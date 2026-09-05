@@ -2,7 +2,7 @@
 
 **Day / Date:** Day 38 — Monday, October 12, 2026
 **Slug:** `/blog/things-to-do-with-friends-dallas/`
-**Cluster:** Date Ideas · **Hub:** `/blog/dallas-date-ideas/` · **Template:** listicle · **~1,900w**
+**Cluster:** Date Ideas · **Hub:** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` · **Template:** listicle · **~1,900w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Dallas Date Ideas` · tags: things to do with friends dallas, small group activities dallas, friends day out dallas, dfw group activities, dallas friend group ideas · schedule `future` @ 2026-10-12 08:00 America/Chicago
 **Status:** BRIEFED
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
@@ -51,8 +51,8 @@ Optional FAQ (2 Qs, PAA-sourced) · Conclusion (~100w) + CTA → `/slingshot-ren
 Cover: group of 3–4 friends photo, ideally with a Slingshot in frame; alt: "Friend group activities in Dallas, including a Slingshot ride through the Ennis Bluebonnet Trails." In-body: 4 images — (1) active/axe-throwing group photo, (2) brewery crawl photo, (3) budget picnic photo, (4) two Slingshots running together on the trail.
 
 ## Internal Links
-**TO (≥3):** `/blog/dallas-date-ideas/` "see all Dallas date ideas" (hub) · `/slingshot-rental/groups/` "book for a group of up to 4" (spoke_link and commercial_link — same target per calendar data) · `/blog/unique-things-to-do-in-dallas/` "35 more unique Dallas experiences" (Day 21, earlier calendar post) · `/blog/birthday-ideas-dallas/` "birthday ideas for a group of 4" (Day 25, earlier calendar post).
-**FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` (hub) · `/blog/unique-things-to-do-in-dallas/` (Day 21) · `/slingshot-rental/groups/`.
+**TO (≥3):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` "see all Dallas date ideas" (hub) · `/slingshot-rental/groups/` "book for a group of up to 4" (spoke_link and commercial_link — same target per calendar data) · `/blog/unique-things-to-do-in-dallas/` "35 more unique Dallas experiences" (Day 21, earlier calendar post) · `/blog/birthday-ideas-dallas/` "birthday ideas for a group of 4" (Day 25, earlier calendar post).
+**FROM (update these the week this publishes):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` (hub) · `/blog/unique-things-to-do-in-dallas/` (Day 21) · `/slingshot-rental/groups/`.
 **Cluster position:** Spoke of the Dallas Date Ideas hub; bridges to the Slingshot rental groups package.
 
 ## E-E-A-T

@@ -53,7 +53,7 @@ Conclusion (~90w) + CTA → `/slingshot-rental/bluebonnet-trail-experience/`
 - Bluebonnet trails cover 40+ mapped miles across three official loops — bluebonnettrail.org, per `audience-market-research.md` §4a.
 - Google's Knowledge Graph names the trails "Ennis Bluebonnet Trails" — per `serp-intelligence.md` §1 ("ennis bluebonnet trail" SERP breakdown).
 - TxDOT roadside-mowing practices around wildflower season — txdot.gov (writer to cite the specific current page).
-- Picking-legality summary line — cross-reference `/blog/is-it-illegal-to-pick-bluebonnets-in-texas/` (published 2027-01-21, later in this same batch).
+- Picking-legality summary line — cross-reference `LATER(publishes 2027-01-21):/blog/is-it-illegal-to-pick-bluebonnets-in-texas/` (published 2027-01-21, later in this same batch).
 
 ## Visuals
 Cover: a close-up macro shot of a bluebonnet cluster with the Ennis trail visible in the background. Alt: "A close-up of Texas bluebonnets on the Ennis Bluebonnet Trail."

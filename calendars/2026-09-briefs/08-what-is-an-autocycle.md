@@ -7,7 +7,7 @@
 **Status:** WRITTEN AND SCHEDULED — WordPress post 910, 2026-09-08 08:00 America/Chicago. Cross-link to this post was already included in the Day 1 pillar's Section 2 at write time (both written same session), so no retroactive edit to post 907 was needed.
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
-> Must publish **before** any future `/blog/texas-slingshot-laws/` pillar-adjacent post so that post can link back to this definition rather than re-deriving it. This post owns the *definitional* question ("what is an autocycle"); it must not re-answer "do you need a motorcycle license" in depth — that is a separate, higher-volume keyword (590 US) reserved for the future `/blog/texas-slingshot-laws/` spoke per `cluster-slingshot-rental.md`. Keep the license mention here to one sentence with a forward pointer.
+> Must publish **before** any future `LATER(publishes 2026-09-15):/blog/texas-slingshot-laws/` pillar-adjacent post so that post can link back to this definition rather than re-deriving it. This post owns the *definitional* question ("what is an autocycle"); it must not re-answer "do you need a motorcycle license" in depth — that is a separate, higher-volume keyword (590 US) reserved for the future `LATER(publishes 2026-09-15):/blog/texas-slingshot-laws/` spoke per `cluster-slingshot-rental.md`. Keep the license mention here to one sentence with a forward pointer.
 
 ## Target Keyword
 **what is an autocycle** — **590 US / KD 0 / peak Mar 2026 1,900 (steady 260–590 most months)** *(DataForSEO, 2026-09-05)*
@@ -59,7 +59,7 @@ In-body: 1 image / 1 table — (1) statute pull-quote graphic or cockpit detail 
 ## Internal Links
 **TO (≥3):** `/blog/polaris-slingshot-101/` "read the full first-timer's guide" (hub, also earlier post — Day 1, published 2026-09-05) · `/faq/` "see our full legal FAQ" (spoke_link) · `/slingshot-rental/drive-and-go/` "try one in Ennis" (commercial_link).
 **FROM (update these the week this publishes):** `/blog/polaris-slingshot-101/` "what is an autocycle, exactly?" (add this link to the Day 1 pillar's Section 2 the week this publishes) · `/faq/` "what is an autocycle?" · home page (if a Slingshot-101 teaser exists).
-**Cluster position:** Spoke of `/blog/polaris-slingshot-101/` (Hub 2), Legal & Safety cluster, alongside this month's Day 5 (`is-a-polaris-slingshot-street-legal`) and Day 6 (`how-old-to-drive-a-slingshot`) posts and the future `/blog/texas-slingshot-laws/` spoke.
+**Cluster position:** Spoke of `/blog/polaris-slingshot-101/` (Hub 2), Legal & Safety cluster, alongside this month's Day 5 (`is-a-polaris-slingshot-street-legal`) and Day 6 (`how-old-to-drive-a-slingshot`) posts and the future `LATER(publishes 2026-09-15):/blog/texas-slingshot-laws/` spoke.
 
 ## E-E-A-T
 - Byline Joshua Ford. Credibility comes from quoting the actual statute text rather than paraphrasing secondhand, and from operating a business that depends on getting this classification right for every renter.

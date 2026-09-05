@@ -7,7 +7,7 @@
 **Status:** BRIEFED
 **Flags:** requires_onsite: no · conditional: yes · reactive: no · needs_attention: no
 
-> **Conditional post — verify before writing:** confirm the actual March 2027 Texas Motorplex race dates against `/blog/texas-motorplex-2027-schedule/` (ed-005, published Jan 13, 2027, four days before this post's ideal window) before publishing a specific weekend. Do not guess a date.
+> **Conditional post — verify before writing:** confirm the actual March 2027 Texas Motorplex race dates against `/blog/texas-motorplex-season-schedule/` (ed-005, published Jan 13, 2027, four days before this post's ideal window) before publishing a specific weekend. Do not guess a date.
 > Precondition/cannibalization check: `ed-005` already owns the full 2027 season schedule — this post must not re-list every race weekend. It's the narrower, seasonal companion piece: what March specifically looks like (weather, crowds) plus the "bluebonnets are 2–4 weeks out" hook that `ed-005` doesn't cover. Also check `ed-003` ("Texas Motorplex Parking, Traffic and Gate Times," Sep 19 2026) before writing the logistics section — link to it rather than duplicating parking advice.
 
 ## Target Keyword
@@ -51,8 +51,8 @@ Conclusion + CTA → `/slingshot-rental/bluebonnet-trail-experience/`
 Cover: Texas Motorplex track shot (early spring, if available) or a generic drag-strip image with proper licensing; alt: "Texas Motorplex race weekend in March, before the Ennis bluebonnets bloom in April." · In-body: 2 images (track/crowd shot; an early-bloom bluebonnet close-up if available) + 1 simple timeline graphic (March race weekend → April bluebonnet peak).
 
 ## Internal Links
-**TO (≥3):** `/ennis/` "more things to do in Ennis" (hub) · `/ennis/texas-motorplex/` "the full Texas Motorplex guide" (spoke) · `/slingshot-rental/bluebonnet-trail-experience/` "book your April return trip" (commercial) · `/blog/texas-motorplex-2027-schedule/` "see every 2027 race weekend" (earlier post, ed-005, Jan 13 2027) · `/blog/texas-motorplex-parking-and-traffic-what-nobody-tells-you/` "parking and gate-time tips" (earlier post, ed-003, Sep 19 2026)
-**FROM (update these the week this publishes):** `/ennis/texas-motorplex/` · `/blog/texas-motorplex-2027-schedule/` · `/blog/texas-motorplex-parking-and-traffic-what-nobody-tells-you/`
+**TO (≥3):** `/ennis/` "more things to do in Ennis" (hub) · `/ennis/texas-motorplex/` "the full Texas Motorplex guide" (spoke) · `/slingshot-rental/bluebonnet-trail-experience/` "book your April return trip" (commercial) · `/blog/texas-motorplex-season-schedule/` "see every 2027 race weekend" (earlier post, ed-005, Jan 13 2027) · `/blog/texas-motorplex-parking-and-traffic/` "parking and gate-time tips" (earlier post, ed-003, Sep 19 2026)
+**FROM (update these the week this publishes):** `/ennis/texas-motorplex/` · `/blog/texas-motorplex-season-schedule/` · `/blog/texas-motorplex-parking-and-traffic/`
 **Cluster position:** Spoke of `/ennis/`; bridges to the `/bluebonnets/` cluster via the "come back in April" CTA.
 
 ## E-E-A-T

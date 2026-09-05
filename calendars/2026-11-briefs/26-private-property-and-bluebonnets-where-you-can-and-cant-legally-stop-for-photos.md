@@ -55,7 +55,7 @@ In-body: 3 images / 1 diagram — (1) fence-line/public-vs-private visual explai
 
 ## Internal Links
 **TO (≥3):** `/bluebonnets/` "the full Ennis Bluebonnet Trails guide" (hub) · `/bluebonnets/photo-spots/` "the best bluebonnet photo spots in Ennis" (spoke_link) · `/slingshot-rental/bluebonnet-trail-experience/` "see the trails from a guided route" (commercial_link) · `/blog/what-to-wear-for-bluebonnet-photos-outfit-ideas-that-wont-fight-the-flowers/` "planning a bluebonnet photo trip" (earlier calendar post, 2026-11-11).
-**FROM (update these the week this publishes):** `/bluebonnets/photo-spots/` "where it's legal to stop" · `/bluebonnets/` hub "photo etiquette and the law" card · `/blog/what-to-wear-for-bluebonnet-photos-outfit-ideas-that-wont-fight-the-flowers/` "know before you go" · `/blog/best-camera-settings-for-bluebonnet-photos-a-beginners-guide-for-phone-and-dslr/` "where you're legally allowed to shoot."
+**FROM (update these the week this publishes):** `/bluebonnets/photo-spots/` "where it's legal to stop" · `/bluebonnets/` hub "photo etiquette and the law" card · `/blog/what-to-wear-for-bluebonnet-photos-outfit-ideas-that-wont-fight-the-flowers/` "know before you go" · `/bluebonnets/photo-spots/` "where you're legally allowed to shoot."
 **Cluster position:** Spoke of `/bluebonnets/` (Cluster 4 — Bluebonnet Photography & Etiquette per `cluster-ennis-bluebonnets.md`).
 
 ## E-E-A-T

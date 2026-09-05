@@ -53,8 +53,8 @@ Conclusion + CTA → `/pricing/`
 Cover: close-up of a hand signing a rental waiver/tablet next to a parked Slingshot; alt: "Renter reviewing a Slingshot rental agreement before a ride in Ennis, Texas." · In-body: 1 comparison table (deposits by operator) + 1 image of the Ennis Welcome Center check-in area.
 
 ## Internal Links
-**TO (≥4):** `/blog/polaris-slingshot-101/` "Polaris Slingshot 101" · `/requirements/` "our requirements and insurance policy" · `/pricing/` "see our pricing" · `/blog/how-slingshot-rental-insurance-works/` (2026-10-23) "how our included insurance works"
-**FROM (update these the week this publishes):** `/blog/polaris-slingshot-101/` hub · `/requirements/` spoke · `/blog/how-slingshot-rental-insurance-works/` (reciprocal link) · `/blog/category/slingshot-101/` index
+**TO (≥4):** `/blog/polaris-slingshot-101/` "Polaris Slingshot 101" · `/requirements/` "our requirements and insurance policy" · `/pricing/` "see our pricing" · `/blog/slingshot-rental-insurance-explained/` (2026-10-23) "how our included insurance works"
+**FROM (update these the week this publishes):** `/blog/polaris-slingshot-101/` hub · `/requirements/` spoke · `/blog/slingshot-rental-insurance-explained/` (reciprocal link) · `/blog/category/slingshot-101/` index
 **Cluster position:** Spoke of `/blog/polaris-slingshot-101/`
 
 ## E-E-A-T

@@ -2,12 +2,12 @@
 
 **Day / Date:** Day 32 — Tuesday, October 6, 2026
 **Slug:** `/blog/dallas-bucket-list/`
-**Cluster:** date-ideas · **Hub:** `/blog/dallas-date-ideas/` · **Template:** listicle · **~2,000w**
+**Cluster:** date-ideas · **Hub:** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` · **Template:** listicle · **~2,000w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Dallas Date Ideas` · tags: Dallas bucket list, couples, things to do, DFW, checklist · schedule `future` @ 2026-10-06 08:00 America/Chicago
 **Status:** BRIEFED
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
-> Cannibalization precondition: adjacent to `/blog/unique-things-to-do-in-dallas/` (Sep 25, curated-for-novelty framing) and `/blog/things-to-do-in-dallas-this-weekend/` (Sep 23, a living/updated post) and the future `/blog/dallas-date-ideas/` pillar. Differentiate explicitly: this is a **checklist/bucket-list** framing (40 items, done-it-or-not, "locals skip this / tourists love it" honesty flags), not a curated novelty list or a weekly-updated post — say so in the intro so readers understand why three similar-sounding posts exist.
+> Cannibalization precondition: adjacent to `/blog/unique-things-to-do-in-dallas/` (Sep 25, curated-for-novelty framing) and `/blog/things-to-do-in-dallas-this-weekend/` (Sep 23, a living/updated post) and the future `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` pillar. Differentiate explicitly: this is a **checklist/bucket-list** framing (40 items, done-it-or-not, "locals skip this / tourists love it" honesty flags), not a curated novelty list or a weekly-updated post — say so in the intro so readers understand why three similar-sounding posts exist.
 
 ## Target Keyword
 **dallas bucket list** — 210 TX/mo avg / KD 5 / Dec 2025 peak 590, Apr 2026 210 *(DataForSEO, 2026-09-05)*
@@ -47,9 +47,9 @@ Answer-first intro (~130w, TL;DR: 40 Dallas essentials organized by category, ea
 Cover: Dallas skyline at dusk (licensed stock). Alt: "Dallas, Texas skyline at dusk." · In-body: 5–6 photos across sections + 1 printable-style 40-item checklist table (item / category / flag / distance from downtown).
 
 ## Internal Links
-**TO (≥3):** `/blog/dallas-date-ideas/` "more Dallas date ideas" · `/day-trip-from-dallas/` "make the Ennis bluebonnet run part of your bucket list" · `/slingshot-rental/near-dallas/` "Slingshot rides near Dallas" · `/blog/unique-things-to-do-in-dallas/` (Sep 25) "for more offbeat picks" · `/blog/things-to-do-in-dallas-this-weekend/` (Sep 23) "for what's happening this exact weekend"
-**FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` · `/day-trip-from-dallas/` · `/blog/unique-things-to-do-in-dallas/` · `/blog/things-to-do-in-dallas-this-weekend/`
-**Cluster position:** Spoke of `/blog/dallas-date-ideas/`, Dallas Date Ideas category.
+**TO (≥3):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` "more Dallas date ideas" · `/day-trip-from-dallas/` "make the Ennis bluebonnet run part of your bucket list" · `/slingshot-rental/near-dallas/` "Slingshot rides near Dallas" · `/blog/unique-things-to-do-in-dallas/` (Sep 25) "for more offbeat picks" · `/blog/things-to-do-in-dallas-this-weekend/` (Sep 23) "for what's happening this exact weekend"
+**FROM (update these the week this publishes):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` · `/day-trip-from-dallas/` · `/blog/unique-things-to-do-in-dallas/` · `/blog/things-to-do-in-dallas-this-weekend/`
+**Cluster position:** Spoke of `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/`, Dallas Date Ideas category.
 
 ## E-E-A-T
 - Byline Joshua Ford, compiled with the Ennis Slingshot team — DFW-based operators with firsthand knowledge of the region, honest about which items are personal picks vs. well-documented public attractions.

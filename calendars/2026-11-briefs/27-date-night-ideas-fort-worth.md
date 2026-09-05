@@ -54,8 +54,8 @@ Cover: a Fort Worth Water Gardens or Stockyards evening shot alongside a Slingsh
 In-body: 5 images / 1 table — one representative photo per section (2–5), plus the Fort Worth-to-Ennis drive-time table for Section 6.
 
 ## Internal Links
-**TO (≥3):** `/blog/dallas-date-ideas/` "more Dallas-area date ideas" (hub) · `/slingshot-rental/near-fort-worth/` "Slingshot rental near Fort Worth" (spoke_link/commercial_link) · `/blog/what-is-ennis-texas-known-for/` "what makes Ennis worth the drive" (earlier calendar post, 2026-11-12) · `/blog/hidden-gems-near-dallas/` "more under-the-radar day trips" (earlier calendar post, 2026-11-25).
-**FROM (update these the week this publishes):** `/slingshot-rental/near-fort-worth/` "date night ideas in Fort Worth" · `/blog/dallas-date-ideas/` pillar "Fort Worth date ideas" card · `/blog/hidden-gems-near-dallas/` "more Fort Worth-area ideas."
+**TO (≥3):** `/blog/dallas-date-ideas/` "more Dallas-area date ideas" (hub) · `/slingshot-rental/near-fort-worth/` "Slingshot rental near Fort Worth" (spoke_link/commercial_link) · `/blog/what-is-ennis-texas-known-for/` "what makes Ennis worth the drive" (earlier calendar post, 2026-11-12) · `/ennis/day-trip-from-dallas/` "more under-the-radar day trips" (earlier calendar post, 2026-11-25).
+**FROM (update these the week this publishes):** `/slingshot-rental/near-fort-worth/` "date night ideas in Fort Worth" · `/blog/dallas-date-ideas/` pillar "Fort Worth date ideas" card · `/ennis/day-trip-from-dallas/` "more Fort Worth-area ideas."
 **Cluster position:** Spoke of `/blog/dallas-date-ideas/` (date-ideas category); cross-hub bridge to `/slingshot-rental/near-fort-worth/`.
 
 ## E-E-A-T

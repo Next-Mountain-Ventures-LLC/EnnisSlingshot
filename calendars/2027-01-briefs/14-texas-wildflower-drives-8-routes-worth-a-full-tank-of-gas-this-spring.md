@@ -7,7 +7,7 @@
 **Status:** BRIEFED
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
-> **Cannibalization check:** distinct from `bb-029` ("Every Texas Bluebonnet Festival," festival-focused) and the earlier `the-7-best-bluebonnet-trails-in-texas-ranked-for-a-dfw-day-trip` (already published 2027-01-01) — that post ranks bluebonnet-specific trails only; this is the broader statewide **wildflower** roundup (Indian paintbrush, Hill Country loops, other species beyond bluebonnets) that `keywords.md` explicitly targets as `/blog/texas-wildflower-drives/`. Do not just re-rank the same 7 bluebonnet trails — genuinely broaden scope to other wildflower drives while still making Ennis the featured, easiest-in-a-Slingshot entry.
+> **Cannibalization check:** distinct from `bb-029` ("Every Texas Bluebonnet Festival," festival-focused) and the earlier `the-7-best-bluebonnet-trails-in-texas-ranked-for-a-dfw-day-trip` (already published 2027-01-01) — that post ranks bluebonnet-specific trails only; this is the broader statewide **wildflower** roundup (Indian paintbrush, Hill Country loops, other species beyond bluebonnets) that `keywords.md` explicitly targets as `/blog/texas-wildflower-drives-8-routes-worth-a-full-tank-of-gas-this-spring/`. Do not just re-rank the same 7 bluebonnet trails — genuinely broaden scope to other wildflower drives while still making Ennis the featured, easiest-in-a-Slingshot entry.
 
 ## Target Keyword
 **texas wildflower drives** — **30 TX (Apr 70)** *(keywords.md Cluster B)*. Companion terms: `wildflower trails texas` (10 TX), `bluebonnet road trip` (10 TX).
@@ -52,7 +52,7 @@ In-body: 1 Texas map graphic pinning all 8 routes with drive times from Dallas, 
 ## Internal Links
 **TO (≥3):** `/bluebonnets/` "the Ennis Bluebonnet Trails hub" (hub) · `/bluebonnets/where-to-see-bluebonnets-near-dallas/` "more places to see bluebonnets near Dallas" (spoke_link, site page) · `/slingshot-rental/bluebonnet-trail-experience/` "book the 2-hour Bluebonnet Trail Experience" (commercial_link) · `/blog/the-7-best-bluebonnet-trails-in-texas-ranked-for-a-dfw-day-trip/` "our ranked bluebonnet-trail list" (earlier post, 2027-01-01) · `/blog/bluebonnet-trail-etiquette-10-rules-every-visitor-should-know-before-they-go/` "trail etiquette" (earlier post, 2026-12-03).
 **FROM (update these the week this publishes):** `/bluebonnets/` hub "more wildflower drives" · `/bluebonnets/where-to-see-bluebonnets-near-dallas/` cross-link · blog category index `/blog/category/bluebonnets/`.
-**Cluster position:** Spoke of the Ennis Bluebonnets pillar; the explicit `/blog/texas-wildflower-drives/`-style target named in `keywords.md` Cluster B.
+**Cluster position:** Spoke of the Ennis Bluebonnets pillar; the explicit `/blog/texas-wildflower-drives-8-routes-worth-a-full-tank-of-gas-this-spring/`-style target named in `keywords.md` Cluster B.
 
 ## E-E-A-T
 - Byline Joshua Ford, owner-operator of Ennis Slingshot Experience. Credibility comes from genuine, sourced statewide coverage rather than an Ennis-only post disguised as a broader roundup.

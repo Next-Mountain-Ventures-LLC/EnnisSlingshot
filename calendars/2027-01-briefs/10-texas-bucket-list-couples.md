@@ -52,7 +52,7 @@ Cover: a montage-style graphic representing a few iconic Texas destinations (Big
 In-body: 1 Texas map graphic pinning all 30 entries by region, 2–3 images spaced through the list (including one Ennis bluebonnet photo).
 
 ## Internal Links
-**TO (≥3):** `/blog/dallas-date-ideas/` "our full Dallas date ideas guide" (hub) · `/bluebonnets/bluebonnet-capital-of-texas/` "why Ennis is the Bluebonnet Capital of Texas" (spoke_link, site page) · `/slingshot-rental/texas/` "plan your Texas bluebonnet trip" (commercial_link) · `/blog/day-trips-from-dallas-for-couples/` "more DFW day trips" (earlier post, 2027-01-06) · `/blog/romantic-getaways-near-dallas/` if published earlier, else `/blog/anniversary-ideas-dallas/` "anniversary trip ideas" (earlier post, 2026-10-09).
+**TO (≥3):** `/blog/dallas-date-ideas/` "our full Dallas date ideas guide" (hub) · `/bluebonnets/bluebonnet-capital-of-texas/` "why Ennis is the Bluebonnet Capital of Texas" (spoke_link, site page) · `/slingshot-rental/texas/` "plan your Texas bluebonnet trip" (commercial_link) · `/blog/day-trips-from-dallas-for-couples/` "more DFW day trips" (earlier post, 2027-01-06) · `LATER(publishes 2027-01-19):/blog/romantic-getaways-near-dallas/` if published earlier, else `/blog/anniversary-ideas-dallas/` "anniversary trip ideas" (earlier post, 2026-10-09).
 **FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` pillar "see the full Texas couples bucket list" · `/bluebonnets/bluebonnet-capital-of-texas/` "featured on this statewide bucket list" · blog category index `/blog/category/date-ideas/`.
 **Cluster position:** Spoke of the Dallas Date Ideas pillar, first statewide-scope post in the cluster.
 

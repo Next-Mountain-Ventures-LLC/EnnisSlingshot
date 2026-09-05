@@ -59,8 +59,8 @@ Cover: a couple loading a car for a road trip, budget-getaway framing. Alt: "Che
 In-body: 10 images / 1 pricing table per entry — one representative photo per destination, plus each entry's line-item cost table.
 
 ## Internal Links
-**TO (≥3):** `/ennis/` "the full guide to things to do in Ennis, TX" (hub) · `/ennis/weekend-itinerary/` "the full Ennis + Waxahachie weekend itinerary" (spoke_link) · `/slingshot-rental/bluebonnet-trail-experience/` "book the 2-hour Bluebonnet Trail Experience" (commercial_link) · `/blog/hidden-gems-near-dallas/` "more affordable day trips" (earlier calendar post, 2026-11-25) · `/blog/is-ennis-tx-worth-visiting/` "why Ennis is worth the trip" (earlier calendar post, 2026-11-30).
-**FROM (update these the week this publishes):** `/ennis/weekend-itinerary/` "the budget version of this trip" · `/ennis/` hub "cheap getaways" card · `/blog/hidden-gems-near-dallas/` "more budget-friendly picks."
+**TO (≥3):** `/ennis/` "the full guide to things to do in Ennis, TX" (hub) · `/ennis/weekend-itinerary/` "the full Ennis + Waxahachie weekend itinerary" (spoke_link) · `/slingshot-rental/bluebonnet-trail-experience/` "book the 2-hour Bluebonnet Trail Experience" (commercial_link) · `/ennis/day-trip-from-dallas/` "more affordable day trips" (earlier calendar post, 2026-11-25) · `/blog/is-ennis-tx-worth-visiting/` "why Ennis is worth the trip" (earlier calendar post, 2026-11-30).
+**FROM (update these the week this publishes):** `/ennis/weekend-itinerary/` "the budget version of this trip" · `/ennis/` hub "cheap getaways" card · `/ennis/day-trip-from-dallas/` "more budget-friendly picks."
 **Cluster position:** Spoke of `/ennis/` (Hub 3, tourism listicle pillar).
 
 ## E-E-A-T

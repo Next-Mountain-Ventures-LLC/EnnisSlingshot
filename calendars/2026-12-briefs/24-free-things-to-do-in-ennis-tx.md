@@ -57,7 +57,7 @@ Cover: downtown Ennis brick street storefront view, or the Welcome Center exteri
 In-body: 3 images (Welcome Center, Bluebonnet Park/Meadow View, Lake Bardwell shoreline), 1 simple route map graphic tying the 12 stops into a half-day loop.
 
 ## Internal Links
-**TO (≥3):** `/ennis/` "everything to do in Ennis" (hub) · `/ennis/downtown/` "historic downtown Ennis" (spoke_link) · `/slingshot-rental/drive-and-go/` "add a Slingshot for $69.99" (commercial_link) · `/blog/texas-historical-markers-along-the-ennis-bluebonnet-trails-a-self-guided-stop-list/` "self-guided historical markers" (earlier post, 2026-10-19) · `/blog/how-the-ennis-bluebonnet-trails-actually-work-3-loops-40-miles-one-simple-system/` "how the trails work" (earlier post, 2026-09-14).
+**TO (≥3):** `/ennis/` "everything to do in Ennis" (hub) · `/ennis/downtown/` "historic downtown Ennis" (spoke_link) · `/slingshot-rental/drive-and-go/` "add a Slingshot for $69.99" (commercial_link) · `/bluebonnets/history/` "self-guided historical markers" (earlier post, 2026-10-19) · `/blog/how-the-ennis-bluebonnet-trails-actually-work-3-loops-40-miles-one-simple-system/` "how the trails work" (earlier post, 2026-09-14).
 **FROM (update these the week this publishes):** `/ennis/` hub "12 free things to do" · `/ennis/downtown/` "free downtown activities" · blog category index `/blog/category/ennis-dfw/`.
 **Cluster position:** Spoke of the `/ennis/` Things to Do hub (Hub 3).
 

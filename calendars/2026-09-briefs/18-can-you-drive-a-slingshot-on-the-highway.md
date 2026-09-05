@@ -7,7 +7,7 @@
 **Status:** BRIEFED
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
-> Cannibalization precondition: keep this post focused on legality and real-world highway *behavior* (wind, comfort, following distance). Top-speed specs belong to the separate `/blog/polaris-slingshot-top-speed/` page (1,300 US search volume, per `seo/strategy/cluster-slingshot-rental.md`) — reference it, don't duplicate its 0–60 and trim-spec content here.
+> Cannibalization precondition: keep this post focused on legality and real-world highway *behavior* (wind, comfort, following distance). Top-speed specs belong to the separate `LATER(publishes 2026-10-05):/blog/polaris-slingshot-top-speed/` page (1,300 US search volume, per `seo/strategy/cluster-slingshot-rental.md`) — reference it, don't duplicate its 0–60 and trim-spec content here.
 
 ## Target Keyword
 **can you drive a polaris slingshot on the highway** — **40 US/mo / KD 0 / peak May–Jul 70** *(DataForSEO, 2026-09-05)*

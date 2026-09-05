@@ -7,7 +7,7 @@
 **Status:** BRIEFED
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
 
-> **Cannibalization precondition — check before writing.** Distinct from the future `/blog/texas-wildflower-drives/` post (bluebonnet-season-specific, per `keywords.md` Cluster B, "texas wildflower drives" 30 TX) — this post is the **year-round** counterpart, covering roads worth driving in every season, with a note on which ones peak in bluebonnet season rather than being exclusively about spring. Do not duplicate the wildflower-drives post's seasonal framing; this one earns its "year-round" claim by including fall/winter-worthy roads too (e.g., fall foliage or winter-quiet backroads), not just repeating the same April routes with a disclaimer.
+> **Cannibalization precondition — check before writing.** Distinct from the future `LATER(publishes 2027-01-14):/blog/texas-wildflower-drives-8-routes-worth-a-full-tank-of-gas-this-spring/` post (bluebonnet-season-specific, per `keywords.md` Cluster B, "texas wildflower drives" 30 TX) — this post is the **year-round** counterpart, covering roads worth driving in every season, with a note on which ones peak in bluebonnet season rather than being exclusively about spring. Do not duplicate the wildflower-drives post's seasonal framing; this one earns its "year-round" claim by including fall/winter-worthy roads too (e.g., fall foliage or winter-quiet backroads), not just repeating the same April routes with a disclaimer.
 
 ## Target Keyword
 **scenic drives near dallas** — **30 TX / KD 0 / peak Jul 40 (also Aug, Sep, Dec, Nov 40)** *(DataForSEO, 2026-09-05)*

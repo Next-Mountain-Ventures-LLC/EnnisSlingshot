@@ -53,7 +53,7 @@ In-body: 5 images/table — (1)–(4) close-up identification photos per species
 
 ## Internal Links
 **TO (≥3):** `/bluebonnets/` "the full Ennis Bluebonnet Trails guide" (hub) · `/bluebonnets/where-to-see-bluebonnets-near-dallas/` "where to see the most variety near Dallas" (spoke_link) · `/slingshot-rental/bluebonnet-trail-experience/` "see them all from an open cockpit" (commercial_link) · "the wildflowers you'll see on the same drive" → `/blog/beyond-bluebonnets-6-other-texas-wildflowers-youll-see-on-the-same-drive/` (earlier post, 2027-02-02).
-**FROM (update these the week this publishes):** `/bluebonnets/` hub · `/bluebonnets/photo-spots/` site page · the Feb 2 "Beyond Bluebonnets" post (add a forward link to this ID guide) · `/blog/best-camera-settings-for-bluebonnet-photos-a-beginners-guide-for-phone-and-dslr/` (2026-11-08).
+**FROM (update these the week this publishes):** `/bluebonnets/` hub · `/bluebonnets/photo-spots/` site page · the Feb 2 "Beyond Bluebonnets" post (add a forward link to this ID guide) · `/bluebonnets/photo-spots/` (2026-11-08).
 **Cluster position:** Spoke of `/bluebonnets/` hub, Photography & Etiquette cluster (per `cluster-ennis-bluebonnets.md` Cluster 4).
 
 ## E-E-A-T

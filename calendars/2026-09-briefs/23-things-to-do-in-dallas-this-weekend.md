@@ -59,8 +59,8 @@ Optional FAQ (3 Qs, PAA-sourced) · Conclusion (~120w) + CTA → `/slingshot-ren
 Cover: Dallas skyline or a DFW weekend-activity collage; alt: "Guide to things to do in Dallas this weekend, updated weekly." In-body: 5 images/1 "last updated" callout — (1) this-week's-picks banner graphic, (2) free-activity photo, (3) Ennis Bluebonnet Trails/Texas Motorplex photo (Section 6), (4) family-friendly photo, (5) nightlife photo.
 
 ## Internal Links
-**TO (≥3):** `/ennis/` "explore everything to do in Ennis" (hub) · `/ennis/day-trip-from-dallas/` "plan your Ennis day trip" (spoke_link) · `/slingshot-rental/near-dallas/` "drive a Slingshot 35 minutes from Dallas" (commercial_link) · `/blog/dallas-date-ideas/` "browse Dallas date ideas" (Day 1 cluster hub, published earlier in the site build) · `/blog/fall-date-ideas-dallas/` "see fall-specific picks" (Day 18, earlier calendar post) · `/blog/nhra-fall-nationals-texas-motorplex-guide/` (Day 2, earlier calendar post).
-**FROM (update these the week this publishes):** `/ennis/` (hub, feature prominently) · home page `/` · `/blog/` index (feature as a living resource) · `/blog/dallas-date-ideas/`.
+**TO (≥3):** `/ennis/` "explore everything to do in Ennis" (hub) · `/ennis/day-trip-from-dallas/` "plan your Ennis day trip" (spoke_link) · `/slingshot-rental/near-dallas/` "drive a Slingshot 35 minutes from Dallas" (commercial_link) · `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` "browse Dallas date ideas" (Day 1 cluster hub, published earlier in the site build) · `/blog/fall-date-ideas-dallas/` "see fall-specific picks" (Day 18, earlier calendar post) · `/blog/nhra-fall-nationals-texas-motorplex-guide/` (Day 2, earlier calendar post).
+**FROM (update these the week this publishes):** `/ennis/` (hub, feature prominently) · home page `/` · `/blog/` index (feature as a living resource) · `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/`.
 **Cluster position:** Living pillar-adjacent post under the `/ennis/` hub; the primary funnel from the single highest-volume DFW keyword in the whole program into the day-trip and near-Dallas commercial pages.
 
 ## E-E-A-T

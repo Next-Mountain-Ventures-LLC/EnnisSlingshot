@@ -22,7 +22,7 @@ Intent: Informational — a shopper or first-timer wants a direct yes/no on lega
 
 ## Deliberate omissions / guardrails
 - Do not re-explain the full autocycle legal definition — link to the Day 4 post ("What Is an Autocycle?") for that; this post assumes the reader already knows or can click through.
-- State the license requirement in one sentence (Class C license, no motorcycle endorsement) with a citation — do not duplicate the full FAQ treatment reserved for the future `/blog/texas-slingshot-laws/` post.
+- State the license requirement in one sentence (Class C license, no motorcycle endorsement) with a citation — do not duplicate the full FAQ treatment reserved for the future `LATER(publishes 2026-09-15):/blog/texas-slingshot-laws/` post.
 - Do not claim toll-tag or inspection specifics beyond what's sourced; if a specific TxDMV process detail isn't confirmed in our research, say "check with TxDMV" rather than inventing a procedure.
 - No claims about street-legal status in states other than Texas beyond the general "autocycle laws exist in 49 states" fact already sourced on Day 4 — do not state Massachusetts's rules here since it's out of scope for a Texas-focused post; if mentioned, keep it to one line and cite the Day 4 post.
 - Renters at Ennis Slingshot Experience never need to register or title anything themselves — make this reassurance explicit and accurate; do not imply renters take on registration paperwork.

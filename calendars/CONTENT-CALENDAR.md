@@ -33,7 +33,7 @@ _239 daily posts. One post per day, authored and scheduled in WordPress (blog.nx
 | 2026-09-29 | Tue | Birthday Ideas in Dallas for Adults: 30 Ways to Celebrate (Solo, Couple, or Group of 4) | Dallas Date Ideas | listicle | birthday ideas dallas | 1900 | `calendars/2026-09-briefs/29-birthday-ideas-dallas.md` |
 | 2026-09-30 | Wed | How Ennis Became the Official Bluebonnet City of Texas: The 1997 Legislature Story | Ennis Bluebonnets | faq-knowledge | how did ennis become the bluebonnet capital of texas | 1600 | `calendars/2026-09-briefs/30-how-ennis-became-the-official-bluebonnet-city-of-texas-the-1997-legislature-story.md` |
 
-## 2026-10 — 31 posts  (slingshot-101 10, ennis-dfw 7, date-ideas 7, bluebonnets 4, news 3)
+## 2026-10 — 31 posts  (slingshot-101 14, date-ideas 7, ennis-dfw 6, news 3, bluebonnets 1)
 
 | Date | Day | Title | Pillar / SEO category | Template | Primary keyword | Words | Brief |
 |---|---|---|---|---|---|---|---|
@@ -41,7 +41,7 @@ _239 daily posts. One post per day, authored and scheduled in WordPress (blog.nx
 | 2026-10-02 | Fri | 25 Things to Do in Waxahachie, TX (Courthouse to Gingerbread Houses) | Ennis & DFW Things to Do | listicle | things to do in waxahachie | 2000 | `calendars/2026-10-briefs/02-things-to-do-in-waxahachie.md` |
 | 2026-10-03 | Sat | Riding as a Passenger in a Slingshot: The Two-Up Guide 📍 | Polaris Slingshot 101 | how-to-guide | polaris slingshot passenger | 2000 | `calendars/2026-10-briefs/03-slingshot-passenger-guide.md` |
 | 2026-10-04 | Sun | How Slingshot Brakes Feel (and Why to Leave More Room Than You Would in a Car) | Polaris Slingshot 101 | how-to-guide | polaris slingshot brakes | 2000 | `calendars/2026-10-briefs/04-polaris-slingshot-brakes.md` |
-| 2026-10-05 | Mon | What to Bring to a Drag Race at Texas Motorplex: The 25-Item Packing List | Ennis & DFW Things to Do | listicle | what to bring to a drag race | 1600 | `calendars/2026-10-briefs/05-what-to-bring-to-texas-motorplex.md` |
+| 2026-10-05 | Mon | Polaris Slingshot Top Speed: What It Will Really Do (By Trim) | Polaris Slingshot 101 | faq-knowledge | polaris slingshot top speed | 1600 | `calendars/2026-10-briefs/05-polaris-slingshot-top-speed.md` |
 | 2026-10-06 | Tue | The Dallas Bucket List: 40 Things Every Couple Should Do Before Moving Away | Dallas Date Ideas | listicle | dallas bucket list | 2000 | `calendars/2026-10-briefs/06-dallas-bucket-list.md` |
 | 2026-10-07 | Wed | Can Kids Ride in a Polaris Slingshot? Texas Rules and Operator Policies | Polaris Slingshot 101 | faq-knowledge | can a child ride in a polaris slingshot | 1500 | `calendars/2026-10-briefs/07-can-kids-ride-in-a-slingshot.md` |
 | 2026-10-08 | Thu | 12 Small Towns Near Dallas Worth a Day Trip (Ranked by Drive Time) | Ennis & DFW Things to Do | listicle | small towns near dallas | 1900 | `calendars/2026-10-briefs/08-small-towns-near-dallas.md` |
@@ -50,17 +50,17 @@ _239 daily posts. One post per day, authored and scheduled in WordPress (blog.nx
 | 2026-10-11 | Sun | Polaris Slingshot Weight Limit, Seating and Who Fits | Polaris Slingshot 101 | faq-knowledge | polaris slingshot weight limit | 1500 | `calendars/2026-10-briefs/11-polaris-slingshot-weight-limit.md` |
 | 2026-10-12 | Mon | Fun Things to Do With Friends in Dallas: 30 Ideas for a Group of 3 or 4 | Dallas Date Ideas | listicle | things to do with friends in dallas | 1900 | `calendars/2026-10-briefs/12-things-to-do-with-friends-dallas.md` |
 | 2026-10-13 | Tue | Scenic Drives Near Dallas: 9 Roads Worth the Gas (Year-Round) | Ennis & DFW Things to Do | listicle | scenic drives near dallas | 1900 | `calendars/2026-10-briefs/13-scenic-drives-near-dallas.md` |
-| 2026-10-14 | Wed | 70+ Years of the Ennis Bluebonnet Trails Festival: A Decade-by-Decade Timeline | Ennis Bluebonnets | data-research | ennis bluebonnet festival history timeline | 2400 | `calendars/2026-10-briefs/14-70-years-of-the-ennis-bluebonnet-trails-festival-a-decade-by-decade-timeline.md` |
+| 2026-10-14 | Wed | How to Drive a Polaris Slingshot: A First-Timer's Step-by-Step | Polaris Slingshot 101 | how-to-guide | how to drive a slingshot | 2200 | `calendars/2026-10-briefs/14-how-to-drive-a-polaris-slingshot.md` |
 | 2026-10-15 | Thu | 2026 Polaris Slingshot Specs by Trim: S, SL, SLR, R, Signature and Grand Touring | Polaris Slingshot 101 | data-research | polaris slingshot specs | 2400 | `calendars/2026-10-briefs/15-polaris-slingshot-specs.md` |
 | 2026-10-16 | Fri | Our 2027 Packages, Explained: Drive & Go, Bluebonnet Trail Experience, Golden Hour Date Night and Group Convoys ⚠️cond | Ennis Slingshot News | faq-knowledge | ennis slingshot prices | 1800 | `calendars/2026-10-briefs/16-2027-packages-explained.md` |
 | 2026-10-17 | Sat | Houston to Dallas on I-45: The 9 Best Stops (and Why Ennis Is the One to Plan Around) | Ennis & DFW Things to Do | listicle | houston to dallas road trip stops | 1900 | `calendars/2026-10-briefs/17-houston-to-dallas-i-45-stops.md` |
 | 2026-10-18 | Sun | First Date Ideas in Dallas: 20 Low-Pressure Plans That Actually Work | Dallas Date Ideas | listicle | first date ideas dallas | 1700 | `calendars/2026-10-briefs/18-first-date-ideas-dallas.md` |
-| 2026-10-19 | Mon | Texas Historical Markers Along the Ennis Bluebonnet Trails: A Self-Guided Stop List | Ennis Bluebonnets | how-to-guide | ennis bluebonnet trails historical markers | 2100 | `calendars/2026-10-briefs/19-texas-historical-markers-along-the-ennis-bluebonnet-trails-a-self-guided-stop-list.md` |
+| 2026-10-19 | Mon | Polaris Slingshot AutoDrive Explained: How the No-Clutch Transmission Works | Polaris Slingshot 101 | faq-knowledge | polaris slingshot autodrive | 1600 | `calendars/2026-10-briefs/19-polaris-slingshot-autodrive-explained.md` |
 | 2026-10-20 | Tue | Christmas in Waxahachie: Bethlehem Revisited, Candlelight Homes Tour and Courthouse Lights | Ennis & DFW Things to Do | roundup | christmas in waxahachie | 1600 | `calendars/2026-10-briefs/20-christmas-in-waxahachie.md` |
 | 2026-10-21 | Wed | Why Does the Slingshot Have Three Wheels? Reverse-Trike Engineering Explained | Polaris Slingshot 101 | faq-knowledge | why does the slingshot have 3 wheels | 1800 | `calendars/2026-10-briefs/21-why-does-the-slingshot-have-3-wheels.md` |
 | 2026-10-22 | Thu | 75 Dallas Date Ideas, Ranked by Vibe (Romantic, Adventurous, Cheap, Unique) | Dallas Date Ideas | pillar-page | date ideas dallas | 3500 | `calendars/2026-10-briefs/22-dallas-date-ideas.md` |
 | 2026-10-23 | Fri | How Slingshot Rental Insurance Works (and Why Ours Is Included) | Ennis Slingshot News | faq-knowledge | how does slingshot rental insurance work | 1700 | `calendars/2026-10-briefs/23-slingshot-rental-insurance-explained.md` |
-| 2026-10-24 | Sat | The Complete Bluebonnet Photography Gear Checklist: What to Pack Before You Go | Ennis Bluebonnets | how-to-guide | bluebonnet photography gear checklist | 2100 | `calendars/2026-10-briefs/24-the-complete-bluebonnet-photography-gear-checklist-what-to-pack-before-you-go.md` |
+| 2026-10-24 | Sat | Is a Polaris Slingshot Safe? Honest Answers on Belts, Stability, Helmets and Crash Data | Polaris Slingshot 101 | faq-knowledge | is a polaris slingshot safe | 1700 | `calendars/2026-10-briefs/24-is-a-polaris-slingshot-safe.md` |
 | 2026-10-25 | Sun | Polaris Slingshot 0-60 Times by Trim (and What They Feel Like From the Driver's Seat) | Polaris Slingshot 101 | data-research | polaris slingshot 0-60 | 2000 | `calendars/2026-10-briefs/25-polaris-slingshot-0-60.md` |
 | 2026-10-26 | Mon | Date Night Ideas for Parents in Dallas: 20 Dates That Fit Between Drop-Off and Pickup | Dallas Date Ideas | listicle | date night ideas for parents | 1700 | `calendars/2026-10-briefs/26-date-night-ideas-for-parents-dallas.md` |
 | 2026-10-27 | Tue | Christmas in Ennis, TX and Around Ellis County: Parades, Lights and Small-Town Holiday Markets | Ennis & DFW Things to Do | listicle | christmas in ennis tx | 1500 | `calendars/2026-10-briefs/27-christmas-in-ennis-tx.md` |
@@ -69,7 +69,7 @@ _239 daily posts. One post per day, authored and scheduled in WordPress (blog.nx
 | 2026-10-30 | Fri | 30 Things to Do in Dallas for Couples (That Aren't Just Dinner) | Dallas Date Ideas | listicle | things to do in dallas for couples | 2000 | `calendars/2026-10-briefs/30-things-to-do-in-dallas-for-couples.md` |
 | 2026-10-31 | Sat | Ennis Slingshot Experience Joins the Greater Ennis Chamber: Ribbon-Cutting Recap 📍 ⚠️cond ⚡react | Ennis Slingshot News | news-analysis | greater ennis chamber of commerce | 800 | `calendars/2026-10-briefs/31-ennis-chamber-ribbon-cutting.md` |
 
-## 2026-11 — 30 posts  (date-ideas 10, slingshot-101 7, bluebonnets 5, ennis-dfw 5, news 3)
+## 2026-11 — 30 posts  (slingshot-101 11, date-ideas 10, bluebonnets 3, ennis-dfw 3, news 3)
 
 | Date | Day | Title | Pillar / SEO category | Template | Primary keyword | Words | Brief |
 |---|---|---|---|---|---|---|---|
@@ -80,7 +80,7 @@ _239 daily posts. One post per day, authored and scheduled in WordPress (blog.nx
 | 2026-11-05 | Thu | Experience Gifts for Him in Dallas: 25 Gifts for the Guy Who Has Everything | Dallas Date Ideas | listicle | experience gifts for him dallas | 1800 | `calendars/2026-11-briefs/05-experience-gifts-for-him-dallas.md` |
 | 2026-11-06 | Fri | Polaris Slingshot Gas Mileage, Tank Size and Range: How Far Can It Go on a Full Tank? | Polaris Slingshot 101 | faq-knowledge | polaris slingshot gas mileage | 1500 | `calendars/2026-11-briefs/06-polaris-slingshot-gas-mileage.md` |
 | 2026-11-07 | Sat | 25 Unique Date Ideas in Dallas Most Couples Haven't Tried | Dallas Date Ideas | listicle | unique date ideas dallas | 1800 | `calendars/2026-11-briefs/07-unique-date-ideas-dallas.md` |
-| 2026-11-08 | Sun | Best Camera Settings for Bluebonnet Photos: A Beginner's Guide for Phone and DSLR | Ennis Bluebonnets | how-to-guide | best camera settings for bluebonnet photos | 2200 | `calendars/2026-11-briefs/08-best-camera-settings-for-bluebonnet-photos-a-beginners-guide-for-phone-and-dslr.md` |
+| 2026-11-08 | Sun | Can You Drive a Polaris Slingshot in the Rain? What Actually Happens | Polaris Slingshot 101 | faq-knowledge | polaris slingshot in rain | 1500 | `calendars/2026-11-briefs/08-polaris-slingshot-in-the-rain.md` |
 | 2026-11-09 | Mon | Slingshot vs Convertible: Miata, Mustang or Three Wheels for a Texas Back-Road Drive? | Polaris Slingshot 101 | comparison | slingshot vs convertible | 1700 | `calendars/2026-11-briefs/09-slingshot-vs-convertible.md` |
 | 2026-11-10 | Tue | Experience Gifts for Her in Dallas: 25 Gifts That Beat Another Candle | Dallas Date Ideas | listicle | experience gifts for her dallas | 1800 | `calendars/2026-11-briefs/10-experience-gifts-for-her-dallas.md` |
 | 2026-11-11 | Wed | What to Wear for Bluebonnet Photos: Outfit Ideas That Won't Fight the Flowers | Ennis Bluebonnets | listicle | what to wear for bluebonnet photos | 1700 | `calendars/2026-11-briefs/11-what-to-wear-for-bluebonnet-photos-outfit-ideas-that-wont-fight-the-flowers.md` |
@@ -88,7 +88,7 @@ _239 daily posts. One post per day, authored and scheduled in WordPress (blog.nx
 | 2026-11-13 | Fri | Gift Cards Are Here: Give an April Slingshot Ride Through the Bluebonnets ⚠️cond | Ennis Slingshot News | news-analysis | ennis slingshot gift card | 900 | `calendars/2026-11-briefs/13-gift-cards-launch.md` |
 | 2026-11-14 | Sat | 12 Polaris Slingshot Myths, Busted (Motorcycle License, Tipping Over, Rain and More) | Polaris Slingshot 101 | listicle | polaris slingshot myths | 1900 | `calendars/2026-11-briefs/14-polaris-slingshot-myths.md` |
 | 2026-11-15 | Sun | How to Plan a Surprise Date (or Surprise Experience Gift) Without Ruining the Surprise | Dallas Date Ideas | how-to-guide | how to plan a surprise date | 2100 | `calendars/2026-11-briefs/15-how-to-plan-a-surprise-date.md` |
-| 2026-11-16 | Mon | Day Trips From Dallas With Kids: 15 Ideas Under an Hour Away | Ennis & DFW Things to Do | listicle | day trips from dallas with kids | 1800 | `calendars/2026-11-briefs/16-day-trips-from-dallas-with-kids.md` |
+| 2026-11-16 | Mon | Polaris Slingshot vs Can-Am Ryker: Which Three-Wheeler Should You Try First? | Polaris Slingshot 101 | comparison | polaris slingshot vs can am ryker | 1800 | `calendars/2026-11-briefs/16-polaris-slingshot-vs-can-am-ryker.md` |
 | 2026-11-17 | Tue | Experience Gifts for Couples in Dallas: 20 Gifts You Can Do Together | Dallas Date Ideas | listicle | experience gifts for couples | 1700 | `calendars/2026-11-briefs/17-experience-gifts-for-couples-dallas.md` |
 | 2026-11-18 | Wed | Slingshot Rental Deposits and Damage: Why They Range From $150 to $1,500 | Polaris Slingshot 101 | faq-knowledge | slingshot rental deposit | 1600 | `calendars/2026-11-briefs/18-slingshot-rental-deposit.md` |
 | 2026-11-19 | Thu | Booking a Bluebonnet Mini Session in Ennis: What to Ask Your Photographer First | Ennis Bluebonnets | how-to-guide | bluebonnet mini session ennis | 2000 | `calendars/2026-11-briefs/19-booking-a-bluebonnet-mini-session-in-ennis-what-to-ask-your-photographer-first.md` |
@@ -96,8 +96,8 @@ _239 daily posts. One post per day, authored and scheduled in WordPress (blog.nx
 | 2026-11-21 | Sat | Christmas Date Ideas in Dallas: Holiday Lights, Ice, and 20 Festive Nights Out | Dallas Date Ideas | listicle | christmas date ideas dallas | 1800 | `calendars/2026-11-briefs/21-christmas-date-ideas-dallas.md` |
 | 2026-11-22 | Sun | Do You Need Your Own Insurance to Rent a Slingshot? How Rental Coverage Actually Works | Polaris Slingshot 101 | faq-knowledge | do you need insurance to rent a slingshot | 1700 | `calendars/2026-11-briefs/22-do-you-need-insurance-to-rent-a-slingshot.md` |
 | 2026-11-23 | Mon | Is Waxahachie Worth Visiting? What It's Known For and Who Will Love It | Ennis & DFW Things to Do | faq-knowledge | is waxahachie worth visiting | 1500 | `calendars/2026-11-briefs/23-is-waxahachie-worth-visiting.md` |
-| 2026-11-24 | Tue | How to Get Toddlers and Kids to Sit Still for Bluebonnet Photos: 9 Tricks That Work | Ennis Bluebonnets | listicle | kids bluebonnet photos tips | 1600 | `calendars/2026-11-briefs/24-how-to-get-toddlers-and-kids-to-sit-still-for-bluebonnet-photos-9-tricks-that-work.md` |
-| 2026-11-25 | Wed | Hidden Gems Near Dallas: 14 Places Most Locals Have Never Been | Ennis & DFW Things to Do | listicle | hidden gems near dallas | 1800 | `calendars/2026-11-briefs/25-hidden-gems-near-dallas.md` |
+| 2026-11-24 | Tue | How Much Does a Polaris Slingshot Cost? Buying vs Renting vs a 2-Hour Experience | Polaris Slingshot 101 | comparison | polaris slingshot price | 2000 | `calendars/2026-11-briefs/24-how-much-does-a-polaris-slingshot-cost.md` |
+| 2026-11-25 | Wed | What to Wear to Drive a Polaris Slingshot (Spring, Summer and Cold Mornings) | Polaris Slingshot 101 | listicle | what to wear slingshot ride | 1500 | `calendars/2026-11-briefs/25-what-to-wear-to-drive-a-slingshot.md` |
 | 2026-11-26 | Thu | Private Property and Bluebonnets: Where You Can (and Can't) Legally Stop for Photos | Ennis Bluebonnets | faq-knowledge | bluebonnet private property trespassing | 1800 | `calendars/2026-11-briefs/26-private-property-and-bluebonnets-where-you-can-and-cant-legally-stop-for-photos.md` |
 | 2026-11-27 | Fri | Date Night Ideas in Fort Worth: 25 Dates From the Stockyards to the Countryside | Dallas Date Ideas | listicle | date night ideas fort worth | 1900 | `calendars/2026-11-briefs/27-date-night-ideas-fort-worth.md` |
 | 2026-11-28 | Sat | First-Time Slingshot Rental Checklist: What to Bring, What to Leave, What to Do the Night Before 📍 | Polaris Slingshot 101 | how-to-guide | what to bring slingshot rental | 2000 | `calendars/2026-11-briefs/28-first-time-slingshot-rental-checklist.md` |
@@ -288,9 +288,17 @@ _239 daily posts. One post per day, authored and scheduled in WordPress (blog.nx
 
 ## Unscheduled (bench)
 
-- ed-024 — Outdoor Things to Do Near Dallas: 20 Ways to Get Out of the City
-- ed-046 — How Far Is Ennis From Dallas? Drive Times From Every DFW Suburb (With Traffic)
-- ed-050 — We Timed the Dallas-to-Ennis Saturday Drive: Real Traffic, Gas Stops and the Route That Won
-- s1-023 — Polaris Slingshot Grand Touring Review: Is the Roof Worth $41,999?
-- s1-024 — Polaris Slingshot Sound System: Rockford Fosgate, RIDE COMMAND, CarPlay and What You Can Hear at Speed
-- s1-026 — Can You Drive a Slingshot in the Winter? Cold-Weather Driving in North Texas
+- ed-024 — ed-024
+- ed-046 — ed-046
+- ed-050 — ed-050
+- s1-023 — s1-023
+- s1-024 — s1-024
+- s1-026 — s1-026
+- ed-004 — What to Bring to a Drag Race at Texas Motorplex: The 25-Item Packing List
+- bb-008 — 70+ Years of the Ennis Bluebonnet Trails Festival: A Decade-by-Decade Timeline
+- bb-007 — Texas Historical Markers Along the Ennis Bluebonnet Trails: A Self-Guided Stop List
+- bb-010 — The Complete Bluebonnet Photography Gear Checklist: What to Pack Before You Go
+- bb-012 — Best Camera Settings for Bluebonnet Photos: A Beginner's Guide for Phone and DSLR
+- ed-022 — Day Trips From Dallas With Kids: 15 Ideas Under an Hour Away
+- bb-014 — How to Get Toddlers and Kids to Sit Still for Bluebonnet Photos: 9 Tricks That Work
+- ed-026 — Hidden Gems Near Dallas: 14 Places Most Locals Have Never Been

@@ -53,7 +53,7 @@ Conclusion + CTA → `/date-night/`
 Cover: a family posed in a bluebonnet field with a photographer's silhouette in the foreground (no identifiable branding); alt: "A family mini session in an Ennis, Texas bluebonnet field." · In-body: 2 images (a public photo-spot field; the Welcome Center) + 1 printable "6 questions to ask" checklist graphic.
 
 ## Internal Links
-**TO (≥4):** `/bluebonnets/` "the Ennis Bluebonnet Trails guide" · `/bluebonnets/photo-spots/` "best bluebonnet photo spots in Ennis" · `/date-night/` "make it a full Ennis day with a Slingshot ride" · `/blog/what-to-wear-for-bluebonnet-photos-outfit-ideas-that-wont-fight-the-flowers/` (2026-11-11) "what to wear" · `/blog/best-camera-settings-for-bluebonnet-photos-a-beginners-guide-for-phone-and-dslr/` (2026-11-08) "shooting it yourself instead"
+**TO (≥4):** `/bluebonnets/` "the Ennis Bluebonnet Trails guide" · `/bluebonnets/photo-spots/` "best bluebonnet photo spots in Ennis" · `/date-night/` "make it a full Ennis day with a Slingshot ride" · `/blog/what-to-wear-for-bluebonnet-photos-outfit-ideas-that-wont-fight-the-flowers/` (2026-11-11) "what to wear" · `/bluebonnets/photo-spots/` (2026-11-08) "shooting it yourself instead"
 **FROM (update these the week this publishes):** `/bluebonnets/` hub · `/bluebonnets/photo-spots/` spoke · `/blog/what-to-wear-for-bluebonnet-photos-outfit-ideas-that-wont-fight-the-flowers/` (reciprocal link) · `/blog/category/bluebonnets/` index
 **Cluster position:** Spoke of `/bluebonnets/`
 

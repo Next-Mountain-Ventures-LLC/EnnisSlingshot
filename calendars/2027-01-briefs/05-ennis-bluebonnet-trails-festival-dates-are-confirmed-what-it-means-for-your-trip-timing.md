@@ -52,7 +52,7 @@ Cover: festival crowd/downtown Ennis photo (if available/licensed) or a Slingsho
 
 ## Internal Links
 **TO (≥3):** `/bluebonnets/` "Ennis Bluebonnet Trails hub" · `/bluebonnets/festival/` "full festival guide" · `/slingshot-rental/bluebonnet-trail-experience/` (commercial) · `/blog/when-will-bluebonnets-bloom-in-ennis-in-a-week-by-week-timing-guide/` (bb-028, Jan 4, earlier post) · `/blog/the-ennis-bluebonnet-festival-before-the-dates-are-announced-what-history-tells-us/` (bb-021, Dec 18, earlier post — update its intro to note dates are now confirmed)
-**FROM (update these the week this publishes):** `/bluebonnets/festival/` site page (update with the real date the moment it's known — this is the highest-priority page to update, same day) · `/bluebonnets/` hub · `/blog/the-ennis-bluebonnet-festival-before-the-dates-are-announced-.../` (bb-021, add "dates are now confirmed — read here")
+**FROM (update these the week this publishes):** `/bluebonnets/festival/` site page (update with the real date the moment it's known — this is the highest-priority page to update, same day) · `/bluebonnets/` hub · `/blog/the-ennis-bluebonnet-festival-before-the-dates-are-announced-what-history-tells-us/` (bb-021, add "dates are now confirmed — read here")
 **Cluster position:** Spoke of `/bluebonnets/`, timely companion to the `/bluebonnets/festival/` site page.
 
 ## E-E-A-T

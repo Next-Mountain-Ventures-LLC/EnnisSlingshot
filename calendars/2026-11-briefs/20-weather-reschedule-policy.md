@@ -51,8 +51,8 @@ Conclusion + CTA → `/book/`
 Cover: a Slingshot on a wet road with light rain visible, driver in rain gear; alt: "A Polaris Slingshot driving on a damp Ennis, Texas road during a light rain." · In-body: 1 April climate table (high/low/rain chance by week) + 1 image of the open cockpit showing the lack of a roof.
 
 ## Internal Links
-**TO (≥4):** `/slingshot-rental/` "our Slingshot rental and experience hub" · `/weather/` "Ennis bluebonnet weather" · `/book/` "book your ride" · `/blog/how-slingshot-rental-insurance-works/` (2026-10-23) "how our included insurance works"
-**FROM (update these the week this publishes):** `/slingshot-rental/` hub · `/requirements/` (policy cross-reference) · `/blog/how-slingshot-rental-insurance-works/` (reciprocal link) · `/blog/category/news/` index
+**TO (≥4):** `/slingshot-rental/` "our Slingshot rental and experience hub" · `/weather/` "Ennis bluebonnet weather" · `/book/` "book your ride" · `/blog/slingshot-rental-insurance-explained/` (2026-10-23) "how our included insurance works"
+**FROM (update these the week this publishes):** `/slingshot-rental/` hub · `/requirements/` (policy cross-reference) · `/blog/slingshot-rental-insurance-explained/` (reciprocal link) · `/blog/category/news/` index
 **Cluster position:** Trust/policy spoke, bridges `/slingshot-rental/` hub and the future `/weather/` build
 
 ## E-E-A-T

@@ -2,7 +2,7 @@
 
 **Day / Date:** Day 18 — Tuesday, September 22, 2026
 **Slug:** `/blog/fall-date-ideas-dallas/`
-**Cluster:** Date Ideas · **Hub:** `/blog/dallas-date-ideas/` · **Template:** listicle · **~1,800w**
+**Cluster:** Date Ideas · **Hub:** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` · **Template:** listicle · **~1,800w**
 **WordPress:** categories `EnnisSlingshot.com` (ID 34) + `Dallas Date Ideas` · tags: fall date ideas dallas, state fair of texas, dallas arboretum autumn, texas motorplex fall nationals, october dallas dates · schedule `future` @ 2026-09-22 08:00 America/Chicago
 **Status:** BRIEFED
 **Flags:** requires_onsite: no · conditional: no · reactive: no · needs_attention: no
@@ -53,8 +53,8 @@ Optional FAQ (2 Qs, PAA-sourced) · Conclusion (~100w) + CTA → `/slingshot-ren
 Cover: fall foliage or State Fair Midway at dusk (licensed stock; original photo not available); alt: "Couple walking through the State Fair of Texas at dusk, a fall date idea in Dallas." In-body: 4 images — (1) pumpkin display, (2) Texas Motorplex race action, (3) cozy indoor date setting, (4) scenic fall road.
 
 ## Internal Links
-**TO (≥3):** `/blog/dallas-date-ideas/` "see all Dallas date ideas" (hub) · `/ennis/texas-motorplex/` "plan a Fall Nationals weekend" (spoke_link) · `/slingshot-rental/` "put a Slingshot ride on your spring calendar" (commercial_link) · `/blog/nhra-fall-nationals-texas-motorplex-guide/` "the full Fall Nationals first-timer's guide" (Day 2, earlier calendar post) · `/blog/texas-motorplex-parking-and-traffic/` "parking and gate times explained" (Day 15, earlier calendar post) · `/blog/what-to-bring-to-texas-motorplex/` (not yet published — do not link forward; add once Day 31/Oct 5 goes live).
-**FROM (update these the week this publishes):** `/blog/dallas-date-ideas/` (hub) · `/blog/nhra-fall-nationals-texas-motorplex-guide/` · `/blog/outdoor-date-ideas-dallas/` (Day 7).
+**TO (≥3):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` "see all Dallas date ideas" (hub) · `/ennis/texas-motorplex/` "plan a Fall Nationals weekend" (spoke_link) · `/slingshot-rental/` "put a Slingshot ride on your spring calendar" (commercial_link) · `/blog/nhra-fall-nationals-texas-motorplex-guide/` "the full Fall Nationals first-timer's guide" (Day 2, earlier calendar post) · `/blog/texas-motorplex-parking-and-traffic/` "parking and gate times explained" (Day 15, earlier calendar post) · `/ennis/texas-motorplex/` (not yet published — do not link forward; add once Day 31/Oct 5 goes live).
+**FROM (update these the week this publishes):** `LATER(publishes 2026-10-22):/blog/dallas-date-ideas/` (hub) · `/blog/nhra-fall-nationals-texas-motorplex-guide/` · `/blog/outdoor-date-ideas-dallas/` (Day 7).
 **Cluster position:** Spoke of the Dallas Date Ideas hub; cross-links into the Ennis/DFW cluster via the Motorplex entries.
 
 ## E-E-A-T
