@@ -2,6 +2,7 @@
 title: "Slingshot Rental Near Dallas, TX | Ennis Slingshot Experience"
 metaDescription: "A Polaris Slingshot experience 35 miles south of Dallas. 37-minute drive from downtown, insurance included, no motorcycle license needed. Book from Ennis."
 canonicalPath: "/slingshot-rental/near-dallas/"
+widget: "DriveTimes"
 h1: "Slingshot Rental Near Dallas, TX"
 hub: "slingshot-rental"
 schemaType: "Service"

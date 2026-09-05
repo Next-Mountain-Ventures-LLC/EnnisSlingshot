@@ -2,6 +2,7 @@
 title: "Slingshot Rental in Texas: Plan Your Trip to Ennis | Ennis Slingshot Experience"
 metaDescription: "Planning a Slingshot rental trip in Texas? Drive the Ennis Bluebonnet Trails from Houston, Austin, San Antonio, or Waco. Insurance included, no deposit."
 canonicalPath: "/slingshot-rental/texas/"
+widget: "DriveTimes"
 h1: "Slingshot Rental in Texas: Plan Your Trip to Ennis"
 hub: "slingshot-rental"
 schemaType: "Service"

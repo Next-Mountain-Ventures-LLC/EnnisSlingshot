@@ -2,6 +2,7 @@
 title: "Slingshot Rental Near Fort Worth, TX | Ennis Slingshot Experience"
 metaDescription: "A Polaris Slingshot experience about 57 miles from Fort Worth. Insurance included, no motorcycle license needed. Drive the Ennis Bluebonnet Trails."
 canonicalPath: "/slingshot-rental/near-fort-worth/"
+widget: "DriveTimes"
 h1: "Slingshot Rental Near Fort Worth, TX"
 hub: "slingshot-rental"
 schemaType: "Service"

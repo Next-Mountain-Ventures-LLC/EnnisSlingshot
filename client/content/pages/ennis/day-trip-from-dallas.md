@@ -2,6 +2,7 @@
 title: "Ennis Day Trip from Dallas: Hour-by-Hour Itinerary (35 Miles / ~37 Min)"
 metaDescription: "Plan a day trip from Dallas to Ennis, TX — 35 miles south on I-45, about 37 minutes. Three hour-by-hour itineraries: date day, family day, car-enthusiast day."
 canonicalPath: "/ennis/day-trip-from-dallas/"
+widget: "DriveTimes"
 h1: "Ennis Day Trip from Dallas"
 hub: "ennis"
 schemaType: "Article"

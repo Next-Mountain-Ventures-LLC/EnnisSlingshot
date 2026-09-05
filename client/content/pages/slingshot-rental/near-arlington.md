@@ -2,6 +2,7 @@
 title: "Slingshot Rental Near Arlington, TX | Ennis Slingshot Experience"
 metaDescription: "Skip the city rental lot. A Polaris Slingshot experience about 52 miles from Arlington, on the Ennis Bluebonnet Trails. Insurance included, no deposit."
 canonicalPath: "/slingshot-rental/near-arlington/"
+widget: "DriveTimes"
 h1: "Slingshot Rental Near Arlington, TX"
 hub: "slingshot-rental"
 schemaType: "Service"

@@ -14,6 +14,7 @@ import { PackagePriceTable } from "@/components/shared/PackagePriceTable";
 import NotFound from "@/pages/NotFound";
 import { pageBreadcrumbs, pageJsonLd } from "./pageSeo";
 import { ISLAND_PAGES } from "./islandPages";
+import { DriveTimePicker } from "@/components/islands/DriveTimes";
 
 export function ContentPage() {
   const { pathname } = useLocation();
@@ -59,6 +60,8 @@ export function ContentPage() {
         </header>
 
         <MarkdownBody>{page.body}</MarkdownBody>
+
+        {data.widget === "DriveTimes" && <DriveTimePicker defaultOriginPath={page.path} className="my-12" />}
 
         {data.packagePrice && data.packagePrice.length > 0 && (
           <PackagePriceTable packages={data.packagePrice} />

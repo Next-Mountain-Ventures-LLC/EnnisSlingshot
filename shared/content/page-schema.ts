@@ -39,6 +39,10 @@ export const ISLANDS = [
 ] as const;
 export type IslandName = (typeof ISLANDS)[number];
 
+/** Small static widgets a page can opt into (rendered after the body). */
+export const WIDGETS = ["DriveTimes"] as const;
+export type WidgetName = (typeof WIDGETS)[number];
+
 const sitePath = z
   .string()
   .regex(/^\/([a-z0-9-]+\/)*$/, {
@@ -73,6 +77,7 @@ export const pageFrontmatterSchema = z.object({
   faqs: z.array(faqSchema).optional(),
   packagePrice: z.array(packagePriceSchema).optional(),
   island: z.enum(ISLANDS).optional(),
+  widget: z.enum(WIDGETS).optional(),
   updatedDate: z.coerce.date().optional(),
   publishDate: z.coerce.date().optional(),
   ogImage: z.string().optional(),
