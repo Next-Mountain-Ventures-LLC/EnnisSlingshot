@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { vehicleSpec } from "@shared/vehicle-spec";
+import { trackPixel } from "@/lib/consent";
 
 interface PromotionalPopupProps {
   onClose?: () => void;
@@ -29,10 +31,8 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
       "https://ennissling.as.me/?appointmentType=92391639",
       "_blank"
     );
-    // Track the Schedule event for Meta Pixel
-    if (window.fbq) {
-      fbq('track', 'Schedule');
-    }
+    // Meta Pixel Schedule — only sent with marketing consent (client/lib/consent.ts)
+    trackPixel('Schedule');
   };
 
   // If not visible yet (waiting for 8 second delay), don't show anything
@@ -81,6 +81,9 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2F700b36c4a653482c8265f6619a61ea23?format=webp&width=200"
               alt="Ennis Slingshot Experience Logo"
+              width={200}
+              height={200}
+              decoding="async"
               className="h-20 w-auto drop-shadow-lg"
             />
           </div>
@@ -111,8 +114,8 @@ export function PromotionalPopup({ onClose }: PromotionalPopupProps) {
             <div className="flex items-start gap-3">
               <div className="text-ennis-orange text-xl mt-1">✓</div>
               <div>
-                <p className="font-bold text-white">Fully Automatic</p>
-                <p className="text-gray-300 text-sm">Drives like a car</p>
+                <p className="font-bold text-white">AutoDrive — No Clutch</p>
+                <p className="text-gray-300 text-sm">{vehicleSpec.transmissionShort.replace(/^AutoDrive — no clutch, /, "").replace(/^d/, "D")}</p>
               </div>
             </div>
             <div className="flex items-start gap-3">

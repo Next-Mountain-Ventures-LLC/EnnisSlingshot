@@ -25,3 +25,7 @@ dist-ssr
 
 .config/
 !.env
+
+# Prebuilt blog hero images (scripts/fetch-blog-images.mjs) — regenerated on every build
+public/blog-images/*
+!public/blog-images/.gitkeep

@@ -1,0 +1,2300 @@
+{
+  "pillar": "bluebonnets",
+  "category_slug": "bluebonnets",
+  "topics": [
+    {
+      "id": "bb-001",
+      "title": "Are Dogs Allowed on the Ennis Bluebonnet Trails? A Pet Owner's Guide",
+      "primary_keyword": "dogs allowed ennis bluebonnet trails",
+      "volume_note": "n/a \u2014 PAA/entity: PAA-style, no volume found but recurring family/pet-owner question",
+      "secondary_keywords": [
+        "dog friendly bluebonnet fields",
+        "pets bluebonnet trail"
+      ],
+      "paa_questions": [
+        "Can you bring your dog to see bluebonnets in Texas?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1600,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2026-09-26",
+        "ideal": "2026-09-05"
+      },
+      "seasonal_hook": "Evergreen planning content for pet owners booking ahead",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Clear guidance on leash rules, private-land boundaries and heat safety for visitors who want their dog in the bluebonnet photo.",
+      "slug": "are-dogs-allowed-on-the-ennis-bluebonnet-trails-a-pet-owners-guide"
+    },
+    {
+      "id": "bb-002",
+      "title": "The Founding of the Ennis Bluebonnet Trails: How a 1951 Idea Became 40 Miles of Roads",
+      "primary_keyword": "ennis bluebonnet trails founding history",
+      "volume_note": "n/a \u2014 PAA/entity: no standalone volume; supports 'ennis bluebonnet trails an april driving route' (18,100 US Apr) origin-story angle",
+      "secondary_keywords": [
+        "ennis bluebonnet trails history",
+        "oldest bluebonnet trail texas"
+      ],
+      "paa_questions": [
+        "What is the oldest bluebonnet trail in Texas?"
+      ],
+      "intent": "informational",
+      "template": "case-study",
+      "word_count": 1800,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/history/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2026-09-29",
+        "ideal": "2026-09-08"
+      },
+      "seasonal_hook": "Evergreen origin story, writable any time; sets up the whole history spoke ahead of season",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Narrative origin story of how the Ennis Garden Club mapped the first trail in 1951, distinct from the site's reference-style /bluebonnets/history/ page.",
+      "slug": "the-founding-of-the-ennis-bluebonnet-trails-how-a-1951-idea-became-40-miles-of-roads"
+    },
+    {
+      "id": "bb-003",
+      "title": "How the Ennis Bluebonnet Trails Actually Work: 3 Loops, 40 Miles, One Simple System",
+      "primary_keyword": "ennis bluebonnet trails loops explained",
+      "volume_note": "n/a \u2014 PAA/entity: supports 'ennis bluebonnet trail map' (1,000 TX Apr) with a plain-language explainer",
+      "secondary_keywords": [
+        "ennis bluebonnet trail map",
+        "north south west loop"
+      ],
+      "paa_questions": [
+        "How many bluebonnet trail loops are there in Ennis?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2200,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/trail-map/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2026-10-06",
+        "ideal": "2026-09-15"
+      },
+      "seasonal_hook": "Evergreen how-it-works explainer ahead of map launch (Jan 2027)",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Plain-language walkthrough of the North/South/West loop system before the interactive map tool exists, so search traffic has somewhere to land in the fall.",
+      "slug": "how-the-ennis-bluebonnet-trails-actually-work-3-loops-40-miles-one-simple-system"
+    },
+    {
+      "id": "bb-004",
+      "title": "The Ennis Garden Club: Meet the Volunteers Who've Mapped the Trails for 70+ Years",
+      "primary_keyword": "ennis garden club bluebonnet trails",
+      "volume_note": "n/a \u2014 PAA/entity: E-E-A-T authority profile, no direct search volume",
+      "secondary_keywords": [
+        "who maps the ennis bluebonnet trails"
+      ],
+      "paa_questions": [
+        "Who is responsible for the Ennis Bluebonnet Trails?"
+      ],
+      "intent": "informational",
+      "template": "case-study",
+      "word_count": 1700,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/history/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2026-10-13",
+        "ideal": "2026-09-22"
+      },
+      "seasonal_hook": "Evergreen, positions the site as a good-faith supporter of the Garden Club ahead of season",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Profile of the all-volunteer Garden Club that has driven and reported on the trails weekly for decades \u2014 the human source behind the bloom-tracker data.",
+      "slug": "the-ennis-garden-club-meet-the-volunteers-whove-mapped-the-trails-for-70-years"
+    },
+    {
+      "id": "bb-005",
+      "title": "The Texas State Flower Debate: How the Bluebonnet Beat Five Other Flowers in 1901",
+      "primary_keyword": "texas state flower history",
+      "volume_note": "n/a \u2014 PAA/entity: supports 'texas bluebonnet' (12,100 US) as background context",
+      "secondary_keywords": [
+        "why is the bluebonnet the texas state flower",
+        "texas state flower vote"
+      ],
+      "paa_questions": [
+        "Why did Texas choose the bluebonnet as its state flower?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1600,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/history/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-09-08",
+        "latest": "2026-10-20",
+        "ideal": "2026-09-29"
+      },
+      "seasonal_hook": "Evergreen statewide-history angle, no seasonal tie needed",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "The 1901 legislative floor fight over the state flower (cotton boll and cactus both lost) as color for why the flower carries civic weight in Texas.",
+      "slug": "the-texas-state-flower-debate-how-the-bluebonnet-beat-five-other-flowers-in-1901"
+    },
+    {
+      "id": "bb-006",
+      "title": "How Ennis Became the Official Bluebonnet City of Texas: The 1997 Legislature Story",
+      "primary_keyword": "how did ennis become the bluebonnet capital of texas",
+      "volume_note": "n/a \u2014 PAA/entity: supports 'bluebonnet capital of texas' (210 TX Mar) with the legislative narrative",
+      "secondary_keywords": [
+        "ennis official bluebonnet city of texas",
+        "texas legislature bluebonnet designation"
+      ],
+      "paa_questions": [
+        "When did Ennis become the Bluebonnet Capital of Texas?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1600,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bluebonnet-capital-of-texas/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-09-15",
+        "latest": "2026-10-27",
+        "ideal": "2026-10-06"
+      },
+      "seasonal_hook": "Evergreen legislative-history narrative feeding the entity page",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "The specific 1997 resolution and the case Ennis made for it, told as a story rather than the entity page's summary claim.",
+      "slug": "how-ennis-became-the-official-bluebonnet-city-of-texas-the-1997-legislature-story"
+    },
+    {
+      "id": "bb-007",
+      "title": "Texas Historical Markers Along the Ennis Bluebonnet Trails: A Self-Guided Stop List",
+      "primary_keyword": "ennis bluebonnet trails historical markers",
+      "volume_note": "n/a \u2014 PAA/entity: niche history-tourism long tail",
+      "secondary_keywords": [
+        "ennis texas historical markers",
+        "hmdb ennis bluebonnet"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2100,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/history/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-09-22",
+        "latest": "2026-11-03",
+        "ideal": "2026-10-13"
+      },
+      "seasonal_hook": "Evergreen, writable from historical-marker records without visiting",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Maps out the historical markers a driver passes on the trail loops, giving history-minded visitors a reason to stop beyond photos.",
+      "slug": "texas-historical-markers-along-the-ennis-bluebonnet-trails-a-self-guided-stop-list"
+    },
+    {
+      "id": "bb-008",
+      "title": "70+ Years of the Ennis Bluebonnet Trails Festival: A Decade-by-Decade Timeline",
+      "primary_keyword": "ennis bluebonnet festival history timeline",
+      "volume_note": "n/a \u2014 PAA/entity: supports 'ennis bluebonnet trails an april driving route' KG entity depth",
+      "secondary_keywords": [
+        "ennis bluebonnet festival history",
+        "69th ennis bluebonnet festival"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "data-research",
+      "word_count": 2400,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/history/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-09-29",
+        "latest": "2026-11-10",
+        "ideal": "2026-10-20"
+      },
+      "seasonal_hook": "Evergreen research piece, good digital-PR/linkbait candidate",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Year-by-year timeline of festival milestones (1952 first trails, 1997 designation, attendance growth) built as a linkable reference asset.",
+      "slug": "70-years-of-the-ennis-bluebonnet-trails-festival-a-decade-by-decade-timeline"
+    },
+    {
+      "id": "bb-009",
+      "title": "What Was Ennis Like Before the Bluebonnet Trails? A Cotton and Railroad Town's History",
+      "primary_keyword": "ennis texas history before bluebonnets",
+      "volume_note": "n/a \u2014 PAA/entity: background E-E-A-T history",
+      "secondary_keywords": [
+        "ennis texas railroad history",
+        "ennis texas founding"
+      ],
+      "paa_questions": [
+        "What is Ennis, Texas known for besides bluebonnets?"
+      ],
+      "intent": "informational",
+      "template": "case-study",
+      "word_count": 1700,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/history/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-10-06",
+        "latest": "2026-11-17",
+        "ideal": "2026-10-27"
+      },
+      "seasonal_hook": "Evergreen background piece, no seasonal tie",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Context on Ennis's pre-bluebonnet identity as a Gulf, Colorado and Santa Fe Railway cotton town, to explain why the flower became the town's second act.",
+      "slug": "what-was-ennis-like-before-the-bluebonnet-trails-a-cotton-and-railroad-towns-history"
+    },
+    {
+      "id": "bb-010",
+      "title": "The Complete Bluebonnet Photography Gear Checklist: What to Pack Before You Go",
+      "primary_keyword": "bluebonnet photography gear checklist",
+      "volume_note": "n/a \u2014 PAA/entity: supports 'bluebonnet photoshoot' (720 TX Mar) with a pre-trip prep angle",
+      "secondary_keywords": [
+        "what to bring for bluebonnet photos",
+        "bluebonnet photo gear"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2100,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/date-night/",
+      "publish_window": {
+        "earliest": "2026-10-13",
+        "latest": "2026-11-24",
+        "ideal": "2026-11-03"
+      },
+      "seasonal_hook": "Evergreen prep content, useful year-round for planning ahead of March",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A packable checklist (lenses, reflectors, knee pads for the flowers, bug spray) distinct from the site page's location list.",
+      "slug": "the-complete-bluebonnet-photography-gear-checklist-what-to-pack-before-you-go"
+    },
+    {
+      "id": "bb-011",
+      "title": "Ennis vs. Chappell Hill: Which Texas Bluebonnet Trail Should You Drive?",
+      "primary_keyword": "ennis vs chappell hill bluebonnets",
+      "volume_note": "n/a \u2014 PAA/entity: comparison long tail supporting 'best bluebonnet trails in texas' (590 TX)",
+      "secondary_keywords": [
+        "chappell hill bluebonnet festival",
+        "best bluebonnet trails in texas"
+      ],
+      "paa_questions": [],
+      "intent": "commercial",
+      "template": "comparison",
+      "word_count": 1800,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/texas-bluebonnet-festivals/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-10-15",
+        "latest": "2026-11-26",
+        "ideal": "2026-11-05"
+      },
+      "seasonal_hook": "Evergreen comparison, writable without visiting Chappell Hill",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Head-to-head comparison for DFW-based readers weighing the closer Ennis trip against the more famous Chappell Hill/Brenham corridor near Houston.",
+      "slug": "ennis-vs-chappell-hill-which-texas-bluebonnet-trail-should-you-drive"
+    },
+    {
+      "id": "bb-012",
+      "title": "Best Camera Settings for Bluebonnet Photos: A Beginner's Guide for Phone and DSLR",
+      "primary_keyword": "best camera settings for bluebonnet photos",
+      "volume_note": "n/a \u2014 PAA/entity: supports 'bluebonnet photos' (4,400 TX Mar) with technique long-tail",
+      "secondary_keywords": [
+        "how to photograph bluebonnets",
+        "bluebonnet photography tips"
+      ],
+      "paa_questions": [
+        "What camera settings are best for bluebonnet photos?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2200,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/date-night/",
+      "publish_window": {
+        "earliest": "2026-10-20",
+        "latest": "2026-12-01",
+        "ideal": "2026-11-10"
+      },
+      "seasonal_hook": "Evergreen skills content, writable and useful before season",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A beginner-friendly settings walkthrough (aperture for that blurred-field look, backlighting at golden hour) for phone and DSLR shooters alike.",
+      "slug": "best-camera-settings-for-bluebonnet-photos-a-beginners-guide-for-phone-and-dslr"
+    },
+    {
+      "id": "bb-013",
+      "title": "What to Wear for Bluebonnet Photos: Outfit Ideas That Won't Fight the Flowers",
+      "primary_keyword": "what to wear for bluebonnet photos",
+      "volume_note": "n/a \u2014 PAA/entity: supports 'bluebonnet family photos' (720 TX) styling angle",
+      "secondary_keywords": [
+        "bluebonnet photo outfits",
+        "bluebonnet family photo outfits"
+      ],
+      "paa_questions": [
+        "What should you wear for bluebonnet pictures?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1700,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/date-night/",
+      "publish_window": {
+        "earliest": "2026-10-27",
+        "latest": "2026-12-08",
+        "ideal": "2026-11-17"
+      },
+      "seasonal_hook": "Evergreen, families start planning outfits months ahead",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Color and fabric guidance (why white and denim read best against blue) for families and couples planning outfits weeks in advance.",
+      "slug": "what-to-wear-for-bluebonnet-photos-outfit-ideas-that-wont-fight-the-flowers"
+    },
+    {
+      "id": "bb-014",
+      "title": "How to Get Toddlers and Kids to Sit Still for Bluebonnet Photos: 9 Tricks That Work",
+      "primary_keyword": "kids bluebonnet photos tips",
+      "volume_note": "n/a \u2014 PAA/entity: supports 'bluebonnet family photos' (720 TX) family-specific pain point",
+      "secondary_keywords": [
+        "toddler bluebonnet photos",
+        "family bluebonnet photo tips"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1600,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/date-night/",
+      "publish_window": {
+        "earliest": "2026-11-03",
+        "latest": "2026-12-15",
+        "ideal": "2026-11-24"
+      },
+      "seasonal_hook": "Evergreen family-planning content",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Field-tested tricks (snacks, a second adult off-camera, shooting in short bursts) for parents dreading the toddler-in-a-flower-field photo.",
+      "slug": "how-to-get-toddlers-and-kids-to-sit-still-for-bluebonnet-photos-9-tricks-that-work"
+    },
+    {
+      "id": "bb-015",
+      "title": "Booking a Bluebonnet Mini Session in Ennis: What to Ask Your Photographer First",
+      "primary_keyword": "bluebonnet mini session ennis",
+      "volume_note": "n/a \u2014 PAA/entity: supports statewide 'bluebonnet mini sessions' UGC demand noted in audience-market-research.md \u00a71c",
+      "secondary_keywords": [
+        "bluebonnet mini session texas",
+        "ennis bluebonnet photographer"
+      ],
+      "paa_questions": [
+        "How much does a bluebonnet mini session cost?"
+      ],
+      "intent": "commercial",
+      "template": "how-to-guide",
+      "word_count": 2000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/date-night/",
+      "publish_window": {
+        "earliest": "2026-11-10",
+        "latest": "2026-12-22",
+        "ideal": "2026-12-01"
+      },
+      "seasonal_hook": "Evergreen booking-prep content, photographers' calendars fill by January",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A buyer's guide to booking a local mini-session photographer \u2014 questions on permits, timing and backup dates \u2014 that a rental business can host without competing with photographers.",
+      "slug": "booking-a-bluebonnet-mini-session-in-ennis-what-to-ask-your-photographer-first"
+    },
+    {
+      "id": "bb-016",
+      "title": "Private Property and Bluebonnets: Where You Can (and Can't) Legally Stop for Photos",
+      "primary_keyword": "bluebonnet private property trespassing",
+      "volume_note": "n/a \u2014 PAA/entity: laws/etiquette, distinct from the picking-legality question (trespassing vs. picking)",
+      "secondary_keywords": [
+        "is it trespassing to stop for bluebonnet photos",
+        "roadside bluebonnet photos legal"
+      ],
+      "paa_questions": [
+        "Can you legally pull over to take bluebonnet photos in Texas?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1800,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-11-14",
+        "latest": "2026-12-26",
+        "ideal": "2026-12-05"
+      },
+      "seasonal_hook": "Evergreen laws content, pairs with the picking-legality post but a distinct legal question (trespass, not the flower itself)",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Answers the trespassing question \u2014 separate from 'is picking illegal' \u2014 since most roadside bluebonnet fields sit on private land, a distinction almost no competing content makes clearly.",
+      "slug": "private-property-and-bluebonnets-where-you-can-and-cant-legally-stop-for-photos"
+    },
+    {
+      "id": "bb-017",
+      "title": "Are Drones Allowed Over the Bluebonnet Trails? Texas Drone Photography Rules",
+      "primary_keyword": "drone rules bluebonnet trails texas",
+      "volume_note": "n/a \u2014 PAA/entity: laws/etiquette long tail, no direct volume found",
+      "secondary_keywords": [
+        "can you fly a drone over bluebonnets",
+        "texas drone laws wildflowers"
+      ],
+      "paa_questions": [
+        "Can you fly a drone over a bluebonnet field in Texas?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1600,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-11-17",
+        "latest": "2026-12-29",
+        "ideal": "2026-12-08"
+      },
+      "seasonal_hook": "Evergreen laws content, useful ahead of season for drone-owning visitors",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "FAA and Texas privacy-law basics for flying over private farmland and public trail land, a gap none of the tourism sites currently address.",
+      "slug": "are-drones-allowed-over-the-bluebonnet-trails-texas-drone-photography-rules"
+    },
+    {
+      "id": "bb-018",
+      "title": "Bluebonnet Trail Etiquette: 10 Rules Every Visitor Should Know Before They Go",
+      "primary_keyword": "bluebonnet trail etiquette rules",
+      "volume_note": "n/a \u2014 PAA/entity: laws/etiquette bucket, supports 'is it illegal to pick a bluebonnet' cluster contextually",
+      "secondary_keywords": [
+        "bluebonnet field etiquette",
+        "bluebonnet photo etiquette"
+      ],
+      "paa_questions": [
+        "What is proper etiquette when visiting a bluebonnet field?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1700,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-11-24",
+        "latest": "2027-01-05",
+        "ideal": "2026-12-15"
+      },
+      "seasonal_hook": "Evergreen etiquette primer ahead of the picking-legality post in Feb",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A practical ten-rule etiquette list (stay off private land, don't trample for the shot, pack out trash) that pairs with the photo-taking activity per the cluster plan's own interlink note.",
+      "slug": "bluebonnet-trail-etiquette-10-rules-every-visitor-should-know-before-they-go"
+    },
+    {
+      "id": "bb-019",
+      "title": "Bluebonnets and Snakes: What to Know Before You Walk Into a Texas Field",
+      "primary_keyword": "bluebonnets and snakes texas",
+      "volume_note": "n/a \u2014 PAA/entity: safety long tail referenced in audience-market-research.md \u00a74c recurring visitor tip",
+      "secondary_keywords": [
+        "snake safety bluebonnet field",
+        "texas wildflower field safety"
+      ],
+      "paa_questions": [
+        "Are there snakes in Texas bluebonnet fields?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-12-01",
+        "latest": "2027-01-12",
+        "ideal": "2026-12-22"
+      },
+      "seasonal_hook": "Evergreen safety prep, useful well ahead of season",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Straightforward field-safety advice for the snake worry that shows up repeatedly in visitor reviews, without being alarmist.",
+      "slug": "bluebonnets-and-snakes-what-to-know-before-you-walk-into-a-texas-field"
+    },
+    {
+      "id": "bb-020",
+      "title": "Bluebonnets and Fire Ants: How to Avoid Ruining Your Photos (and Your Day)",
+      "primary_keyword": "fire ants bluebonnet field texas",
+      "volume_note": "n/a \u2014 PAA/entity: safety long tail referenced in audience-market-research.md \u00a74c recurring visitor tip",
+      "secondary_keywords": [
+        "fire ant mounds texas wildflower field"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-12-08",
+        "latest": "2027-01-19",
+        "ideal": "2026-12-29"
+      },
+      "seasonal_hook": "Evergreen safety prep, pairs with the snake post",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Practical, non-alarmist advice on spotting and avoiding fire ant mounds before you kneel down for the shot \u2014 the other recurring safety tip from visitor reviews.",
+      "slug": "bluebonnets-and-fire-ants-how-to-avoid-ruining-your-photos-and-your-day"
+    },
+    {
+      "id": "bb-021",
+      "title": "The Ennis Bluebonnet Festival Before the Dates Are Announced: What History Tells Us",
+      "primary_keyword": "ennis bluebonnet festival 2027 expected dates",
+      "volume_note": "n/a \u2014 PAA/entity: bridges the pillar post and the reactive dates-announced post while 2027 dates remain unconfirmed",
+      "secondary_keywords": [
+        "ennis bluebonnet festival dates pattern",
+        "when is the ennis bluebonnet festival usually"
+      ],
+      "paa_questions": [
+        "When is the Ennis Bluebonnet Festival usually held?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 1100,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/festival/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-12-18",
+        "latest": "2027-01-23",
+        "ideal": "2027-01-05"
+      },
+      "seasonal_hook": "Depends on 2027 dates still being unannounced at publish time",
+      "requires_onsite": false,
+      "conditional": true,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Uses the 2021-2026 date pattern (2nd/3rd weekend of April) to give planners a working estimate while the official 2027 weekend is still unconfirmed, explicitly flagged as provisional.",
+      "slug": "the-ennis-bluebonnet-festival-before-the-dates-are-announced-what-history-tells-us"
+    },
+    {
+      "id": "bb-022",
+      "title": "Ennis vs. the Willow City Loop: North Texas Trails vs. Hill Country Bluebonnets",
+      "primary_keyword": "ennis vs willow city loop bluebonnets",
+      "volume_note": "n/a \u2014 PAA/entity: comparison long tail supporting 'best bluebonnet trails in texas' (590 TX)",
+      "secondary_keywords": [
+        "willow city loop bluebonnets",
+        "hill country bluebonnet drives"
+      ],
+      "paa_questions": [],
+      "intent": "commercial",
+      "template": "comparison",
+      "word_count": 1900,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/texas-bluebonnet-festivals/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-12-21",
+        "latest": "2027-01-26",
+        "ideal": "2027-01-08"
+      },
+      "seasonal_hook": "Season-prep comparison as DFW readers start planning April trips",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Compares the famously scenic but far-flung Hill Country loop against the closer, festival-anchored Ennis trip for a Dallas-based reader.",
+      "slug": "ennis-vs-the-willow-city-loop-north-texas-trails-vs-hill-country-bluebonnets"
+    },
+    {
+      "id": "bb-023",
+      "title": "Ennis vs. Brenham: Comparing Texas's Two Biggest Bluebonnet Road Trips",
+      "primary_keyword": "ennis vs brenham bluebonnets",
+      "volume_note": "n/a \u2014 PAA/entity: comparison long tail",
+      "secondary_keywords": [
+        "brenham bluebonnet trail",
+        "chappell hill bluebonnets"
+      ],
+      "paa_questions": [],
+      "intent": "commercial",
+      "template": "comparison",
+      "word_count": 1800,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/texas-bluebonnet-festivals/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-12-24",
+        "latest": "2027-01-29",
+        "ideal": "2027-01-11"
+      },
+      "seasonal_hook": "Season-prep comparison",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Puts Ennis's DFW proximity against Brenham's bigger acreage and Houston-area draw, aimed at readers weighing which weekend trip to book first.",
+      "slug": "ennis-vs-brenham-comparing-texass-two-biggest-bluebonnet-road-trips"
+    },
+    {
+      "id": "bb-024",
+      "title": "Ennis vs. Marble Falls: Which Bluebonnet Festival Is Worth the Drive From Dallas?",
+      "primary_keyword": "ennis vs marble falls bluebonnet festival",
+      "volume_note": "n/a \u2014 PAA/entity: comparison long tail vs. Burnet-area festival (Burnet bluebonnet festival 12,100 US Apr per keyword-research-summary.md)",
+      "secondary_keywords": [
+        "burnet bluebonnet festival",
+        "marble falls bluebonnets"
+      ],
+      "paa_questions": [],
+      "intent": "commercial",
+      "template": "comparison",
+      "word_count": 1900,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/texas-bluebonnet-festivals/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-12-27",
+        "latest": "2027-02-01",
+        "ideal": "2027-01-14"
+      },
+      "seasonal_hook": "Season-prep comparison",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Direct drive-time and experience comparison against the Burnet/Marble Falls festival corridor, the strongest 'Bluebonnet Capital' rival to Ennis.",
+      "slug": "ennis-vs-marble-falls-which-bluebonnet-festival-is-worth-the-drive-from-dallas"
+    },
+    {
+      "id": "bb-025",
+      "title": "Bluebonnet Bloom Predictions for 2027: What the Fall Rain and Winter Weather Suggest",
+      "primary_keyword": "2027 bluebonnet season forecast",
+      "volume_note": "n/a \u2014 PAA/entity: mirrors 2026's 'moderate season' coverage pattern from FOX 7 Austin (audience-market-research.md \u00a74a)",
+      "secondary_keywords": [
+        "bluebonnet forecast texas",
+        "will 2027 be a good year for bluebonnets"
+      ],
+      "paa_questions": [
+        "Will 2027 be a good year for bluebonnets in Texas?"
+      ],
+      "intent": "informational",
+      "template": "data-research",
+      "word_count": 2100,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-12-28",
+        "latest": "2027-02-02",
+        "ideal": "2027-01-15"
+      },
+      "seasonal_hook": "Depends on fall 2026/winter 2027 rainfall data being available to analyze",
+      "requires_onsite": false,
+      "conditional": true,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Reads the same fall-rain and winter-temperature signals statewide wildflower experts use each January to give readers an early, honest expectation-setting read on the coming season.",
+      "slug": "bluebonnet-bloom-predictions-for-what-the-fall-rain-and-winter-weather-suggest"
+    },
+    {
+      "id": "bb-026",
+      "title": "The 7 Best Bluebonnet Trails in Texas, Ranked for a DFW Day Trip",
+      "primary_keyword": "best bluebonnet trails in texas",
+      "volume_note": "590 TX (Mar peak) \u2014 keyword-research-summary.md; cluster-ennis-bluebonnets.md Cluster 5 comparison spoke",
+      "secondary_keywords": [
+        "texas bluebonnet trail",
+        "bluebonnet road trip texas"
+      ],
+      "paa_questions": [
+        "What are the best bluebonnet trails in Texas?"
+      ],
+      "intent": "commercial",
+      "template": "listicle",
+      "word_count": 1900,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/texas-bluebonnet-festivals/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-12-31",
+        "latest": "2027-02-05",
+        "ideal": "2027-01-18"
+      },
+      "seasonal_hook": "Season-prep roundup as searches for trip planning begin climbing",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "A ranked, drive-time-weighted list that puts Ennis first for a DFW audience while still giving an honest statewide ranking, distinct from the three one-on-one comparison posts.",
+      "slug": "the-7-best-bluebonnet-trails-in-texas-ranked-for-a-dfw-day-trip"
+    },
+    {
+      "id": "bb-027",
+      "title": "Texas Bluebonnet Season 2027: When, Where, and How to See Them",
+      "primary_keyword": "bluebonnet season texas",
+      "volume_note": "1,300 TX (Mar peak); texas bluebonnet 27,100 Mar US; bluebonnet flower 6,600 US \u2014 keyword-research-summary.md",
+      "secondary_keywords": [
+        "texas bluebonnet",
+        "when do bluebonnets bloom",
+        "bluebonnet flower",
+        "where to see bluebonnets in texas"
+      ],
+      "paa_questions": [
+        "What is the best time of year to see bluebonnets in Texas?",
+        "Are Texas bluebonnets in bloom now?"
+      ],
+      "intent": "informational",
+      "template": "pillar-page",
+      "word_count": 3600,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-12-01",
+        "latest": "2027-02-15",
+        "ideal": "2027-01-20"
+      },
+      "seasonal_hook": "Publish 6-8 weeks before the March bloom-search spike so it's aged and indexed",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "The single statewide entry point for 'bluebonnet season' searches \u2014 timing by region, this year's outlook, and why Ennis is the one stop worth building a trip around \u2014 linking out to every spoke in this pillar.",
+      "slug": "bluebonnet-season-texas"
+    },
+    {
+      "id": "bb-028",
+      "title": "When Will Bluebonnets Bloom in Ennis in 2027? A Week-by-Week Timing Guide",
+      "primary_keyword": "when will bluebonnets bloom in ennis 2027",
+      "volume_note": "n/a \u2014 PAA/entity: Ennis-specific complement to the statewide 'when do bluebonnets bloom' (1,300 TX) site page",
+      "secondary_keywords": [
+        "ennis bluebonnet bloom timing",
+        "best week to see bluebonnets in ennis"
+      ],
+      "paa_questions": [
+        "What week do bluebonnets peak in Ennis, Texas?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1800,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-04",
+        "latest": "2027-02-09",
+        "ideal": "2027-01-22"
+      },
+      "seasonal_hook": "Season-prep, published just after the pillar post to funnel Ennis-specific searches",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Narrows the statewide bloom-timing pillar down to Ennis specifically, week by week, so a reader can pick an actual travel date rather than a season.",
+      "slug": "when-will-bluebonnets-bloom-in-ennis-in-a-week-by-week-timing-guide"
+    },
+    {
+      "id": "bb-029",
+      "title": "Every Texas Bluebonnet Festival in April 2027, Compared by Date and Distance From Dallas",
+      "primary_keyword": "texas bluebonnet festivals april 2027",
+      "volume_note": "2,900 US (bluebonnet festival, Apr 18,100) \u2014 keyword-research-summary.md",
+      "secondary_keywords": [
+        "texas bluebonnet festival",
+        "bluebonnet festivals in texas"
+      ],
+      "paa_questions": [
+        "What bluebonnet festivals happen in Texas in April?"
+      ],
+      "intent": "informational",
+      "template": "roundup",
+      "word_count": 1800,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/texas-bluebonnet-festivals/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-07",
+        "latest": "2027-02-12",
+        "ideal": "2027-01-25"
+      },
+      "seasonal_hook": "Season-prep roundup timed just before the pillar post",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A dated, at-a-glance festival calendar (Ennis, Burnet, Chappell Hill, Marble Falls) with drive times from Dallas, framed as trip-planning logistics rather than a static comparison.",
+      "slug": "every-texas-bluebonnet-festival-in-april-compared-by-date-and-distance-from-dallas"
+    },
+    {
+      "id": "bb-030",
+      "title": "12 Bluebonnet Facts Most Texans Get Wrong",
+      "primary_keyword": "bluebonnet facts texas",
+      "volume_note": "n/a \u2014 PAA/entity: listicle format matching mickeyshannon.com-style content that already wins AI Overview citations per serp-intelligence.md \u00a73",
+      "secondary_keywords": [
+        "texas bluebonnet facts",
+        "bluebonnet myths"
+      ],
+      "paa_questions": [
+        "Is the bluebonnet the only state flower of Texas?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1700,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-09",
+        "latest": "2027-02-14",
+        "ideal": "2027-01-27"
+      },
+      "seasonal_hook": "Season-prep, positioned to compete for the same AI Overview citation slots as mickeyshannon.com",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "A shareable myth-busting facts list (six state flowers, not one; not actually illegal to touch; Ennis vs. Burnet) written in the same location-specific, dated style Google's own AI Overview already cites.",
+      "slug": "12-bluebonnet-facts-most-texans-get-wrong"
+    },
+    {
+      "id": "bb-031",
+      "title": "How to Plan Your Ennis Bluebonnet Trip Around Peak Bloom (Not Too Early, Not Too Late)",
+      "primary_keyword": "when to visit ennis bluebonnets peak",
+      "volume_note": "n/a \u2014 PAA/entity: trip-planning long tail",
+      "secondary_keywords": [
+        "best time to see bluebonnets in ennis",
+        "ennis bluebonnet peak week"
+      ],
+      "paa_questions": [
+        "What is the best week to visit the Ennis Bluebonnet Trails?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2100,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-11",
+        "latest": "2027-02-16",
+        "ideal": "2027-01-29"
+      },
+      "seasonal_hook": "Season-prep planning guide",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A decision framework (bloom-tracker link, historical average peak week, festival-weekend trade-offs) for choosing an actual visit date months in advance.",
+      "slug": "how-to-plan-your-ennis-bluebonnet-trip-around-peak-bloom-not-too-early-not-too-late"
+    },
+    {
+      "id": "bb-032",
+      "title": "2027 Ennis Bluebonnet Trails Festival Dates Are Confirmed: What It Means for Your Trip Timing",
+      "primary_keyword": "ennis bluebonnet trails festival 2027 confirmed dates",
+      "volume_note": "720 TX (2026 proxy avg; Mar/Apr 3,600) \u2014 keywords.md Cluster B",
+      "secondary_keywords": [
+        "ennis bluebonnet festival 2027",
+        "bluebonnet festival 2027"
+      ],
+      "paa_questions": [
+        "When is the Ennis Bluebonnet Festival in 2027?"
+      ],
+      "intent": "navigational",
+      "template": "news-analysis",
+      "word_count": 850,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/festival/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-05",
+        "latest": "2027-02-28",
+        "ideal": "2027-02-01"
+      },
+      "seasonal_hook": "Publish within hours of the Ennis Garden Club / Visit Ennis announcement",
+      "requires_onsite": false,
+      "conditional": true,
+      "reactive": true,
+      "priority": 1,
+      "angle": "Bluebonnets-hub companion to the News-category announcement post: confirms the dates against the bloom-timing and crowd-planning guides already on the hub, rather than the booking angle nw-016 covers.",
+      "slug": "ennis-bluebonnet-trails-festival-dates-are-confirmed-what-it-means-for-your-trip-timing"
+    },
+    {
+      "id": "bb-033",
+      "title": "Texas Wildflower Drives: 8 Routes Worth a Full Tank of Gas This Spring",
+      "primary_keyword": "texas wildflower drives",
+      "volume_note": "30 TX (Apr 70) / wildflower trails texas 10 / bluebonnet road trip 10 \u2014 keywords.md Cluster B",
+      "secondary_keywords": [
+        "wildflower trails texas",
+        "bluebonnet road trip"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "roundup",
+      "word_count": 1900,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/where-to-see-bluebonnets-near-dallas/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-14",
+        "latest": "2027-02-19",
+        "ideal": "2027-02-01"
+      },
+      "seasonal_hook": "Season-prep, explicit /blog/texas-wildflower-drives/ target per keywords.md, timed ahead of March bloom",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Statewide wildflower-drive roundup (not just bluebonnets \u2014 Indian paintbrush, Texas Hill Country loops) that positions the Ennis trail as the easiest one to do in an open-cockpit Slingshot.",
+      "slug": "texas-wildflower-drives-8-routes-worth-a-full-tank-of-gas-this-spring"
+    },
+    {
+      "id": "bb-034",
+      "title": "Best Time of Day to Visit the Ennis Bluebonnet Trails: Golden Hour vs. Midday Crowds",
+      "primary_keyword": "best time of day ennis bluebonnet trails",
+      "volume_note": "n/a \u2014 PAA/entity: trip-planning long tail",
+      "secondary_keywords": [
+        "golden hour bluebonnet photos",
+        "ennis bluebonnet trails crowds"
+      ],
+      "paa_questions": [
+        "What time of day is best to see bluebonnets in Ennis?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/date-night/",
+      "publish_window": {
+        "earliest": "2027-01-16",
+        "latest": "2027-02-21",
+        "ideal": "2027-02-03"
+      },
+      "seasonal_hook": "Season-prep planning guide",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Weighs golden-hour light quality against midday convenience and crowd levels, aimed at photographers deciding when to schedule their drive.",
+      "slug": "best-time-of-day-to-visit-the-ennis-bluebonnet-trails-golden-hour-vs-midday-crowds"
+    },
+    {
+      "id": "bb-035",
+      "title": "Is It Illegal to Pick Bluebonnets in Texas?",
+      "primary_keyword": "is it illegal to pick a bluebonnet in texas",
+      "volume_note": "2,400 US (Mar 12,100), KD 0 \u2014 keyword-research-summary.md; top-ranked opportunity per cluster-ennis-bluebonnets.md \u00a78",
+      "secondary_keywords": [
+        "is it a felony to pick bluebonnets",
+        "can you pick bluebonnets in texas"
+      ],
+      "paa_questions": [
+        "Is it illegal to pick bluebonnets in Texas?",
+        "Is it a felony to pick bluebonnets in Texas?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 2000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-18",
+        "latest": "2027-02-23",
+        "ideal": "2027-02-05"
+      },
+      "seasonal_hook": "Explicit /blog/ target per keywords.md, published ahead of peak March search demand",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Directly answers the highest-volume, currently thin-sourced PAA question in the whole cluster with the actual statute basis, aiming to be cited in the AI Overview that already misfires on this query.",
+      "slug": "is-it-illegal-to-pick-bluebonnets-in-texas"
+    },
+    {
+      "id": "bb-036",
+      "title": "Beyond Bluebonnets: 6 Other Texas Wildflowers You'll See on the Same Drive",
+      "primary_keyword": "texas wildflowers besides bluebonnets",
+      "volume_note": "n/a \u2014 PAA/entity: supports 'texas wildflower drives' cluster with a plant-ID long tail",
+      "secondary_keywords": [
+        "indian paintbrush texas",
+        "texas spring wildflowers"
+      ],
+      "paa_questions": [
+        "What other wildflowers bloom with bluebonnets in Texas?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1600,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/where-to-see-bluebonnets-near-dallas/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-21",
+        "latest": "2027-02-26",
+        "ideal": "2027-02-08"
+      },
+      "seasonal_hook": "Season-prep identification guide ahead of the drive",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "A quick plant-ID guide (Indian paintbrush, primrose, coreopsis) so first-time visitors know what they're photographing besides bluebonnets.",
+      "slug": "beyond-bluebonnets-6-other-texas-wildflowers-youll-see-on-the-same-drive"
+    },
+    {
+      "id": "bb-037",
+      "title": "Ennis Bluebonnet Trails: Weekday vs. Weekend Crowd Guide",
+      "primary_keyword": "ennis bluebonnet trails weekday vs weekend",
+      "volume_note": "n/a \u2014 PAA/entity: trip-planning long tail",
+      "secondary_keywords": [
+        "ennis bluebonnet trails crowds",
+        "least crowded time bluebonnet trails"
+      ],
+      "paa_questions": [
+        "Are the Ennis Bluebonnet Trails less crowded on weekdays?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1700,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/welcome-center/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-23",
+        "latest": "2027-02-28",
+        "ideal": "2027-02-10"
+      },
+      "seasonal_hook": "Season-prep planning guide",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Sets expectations on weekday-vs-weekend crowd levels using the Garden Club's own visitor patterns, useful for anyone with flexible scheduling.",
+      "slug": "ennis-bluebonnet-trails-weekday-vs-weekend-crowd-guide"
+    },
+    {
+      "id": "bb-038",
+      "title": "Can You Scatter Bluebonnet Seeds? Planting, Pots, and Mowing Myths, Answered",
+      "primary_keyword": "can you scatter bluebonnet seeds",
+      "volume_note": "n/a \u2014 PAA/entity: grouped PAA cluster from serp-intelligence.md \u00a72 (seeds/pots/mowing sub-questions, ~10/mo each)",
+      "secondary_keywords": [
+        "do bluebonnets grow in pots",
+        "is it illegal to mow over bluebonnets",
+        "will bluebonnets come back every year"
+      ],
+      "paa_questions": [
+        "Can you scatter bluebonnet seeds?",
+        "Do bluebonnets grow in pots?",
+        "Is it illegal to mow over bluebonnets in Texas?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1700,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-25",
+        "latest": "2027-03-02",
+        "ideal": "2027-02-12"
+      },
+      "seasonal_hook": "Season-prep FAQ ahead of March search spike",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "One consolidated answer to three related low-volume PAA questions the picking-legality post doesn't cover, aimed at gardeners rather than trail visitors.",
+      "slug": "can-you-scatter-bluebonnet-seeds-planting-pots-and-mowing-myths-answered"
+    },
+    {
+      "id": "bb-039",
+      "title": "What to Pack for an Ennis Bluebonnet Trail Day: The Complete Checklist",
+      "primary_keyword": "what to pack for bluebonnet trail day",
+      "volume_note": "n/a \u2014 PAA/entity: overlaps 'what to bring to texas motorplex' (ed-004) format but distinct topic",
+      "secondary_keywords": [
+        "ennis bluebonnet trail day checklist",
+        "what to bring bluebonnet trails"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1600,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/welcome-center/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-28",
+        "latest": "2027-03-05",
+        "ideal": "2027-02-15"
+      },
+      "seasonal_hook": "Season-prep packing guide",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "A trail-day packing list (sunscreen, water, closed-toe shoes, cash for the festival) distinct from the photography-specific gear checklist published in November.",
+      "slug": "what-to-pack-for-an-ennis-bluebonnet-trail-day-the-complete-checklist"
+    },
+    {
+      "id": "bb-040",
+      "title": "Ennis Bluebonnet Trails Accessibility Guide: Wheelchairs, Strollers, and Mobility",
+      "primary_keyword": "ennis bluebonnet trails accessibility",
+      "volume_note": "n/a \u2014 PAA/entity: underserved accessibility long tail, no competing content found",
+      "secondary_keywords": [
+        "wheelchair accessible bluebonnet fields",
+        "stroller friendly bluebonnet trail"
+      ],
+      "paa_questions": [
+        "Are the Ennis Bluebonnet Trails wheelchair accessible?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1700,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/welcome-center/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-30",
+        "latest": "2027-03-07",
+        "ideal": "2027-02-17"
+      },
+      "seasonal_hook": "Season-prep accessibility guide, none of the competing sites cover this",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Fills a real content gap on which named photo spots (Meadow View, Bluebonnet Park) have paved paths versus rough field terrain, for visitors with mobility needs.",
+      "slug": "ennis-bluebonnet-trails-accessibility-guide-wheelchairs-strollers-and-mobility"
+    },
+    {
+      "id": "bb-041",
+      "title": "Bluebonnet Capital of Texas: Why the Ennis-Burnet Debate Still Matters in 2027",
+      "primary_keyword": "bluebonnet capital of texas debate 2027",
+      "volume_note": "210 TX (Mar) 'bluebonnet capital of texas' \u2014 keyword-research-summary.md addendum",
+      "secondary_keywords": [
+        "is ennis the bluebonnet capital of texas",
+        "burnet bluebonnet capital"
+      ],
+      "paa_questions": [
+        "What city in Texas has the most bluebonnets?"
+      ],
+      "intent": "informational",
+      "template": "thought-leadership",
+      "word_count": 1800,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bluebonnet-capital-of-texas/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-02-01",
+        "latest": "2027-03-09",
+        "ideal": "2027-02-19"
+      },
+      "seasonal_hook": "Season-prep opinion piece timed as search interest in the entity term climbs toward March",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A first-person, opinionated take on the ongoing Ennis-vs-Burnet claim (distinct from the entity page's factual statement) meant to be shared and debated.",
+      "slug": "bluebonnet-capital-of-texas-why-the-ennis-burnet-debate-still-matters-in"
+    },
+    {
+      "id": "bb-042",
+      "title": "Bluebonnet Season 2027 FAQ: 25 Questions Answered Before You Go",
+      "primary_keyword": "bluebonnet season 2027 faq",
+      "volume_note": "n/a \u2014 PAA/entity: consolidated FAQ roundup drawing on serp-intelligence.md \u00a72 Ennis/Bluebonnet PAA bank",
+      "secondary_keywords": [
+        "ennis bluebonnet trails faq",
+        "bluebonnet season questions"
+      ],
+      "paa_questions": [
+        "What should I know before visiting Texas bluebonnets?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1900,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-02-04",
+        "latest": "2027-03-12",
+        "ideal": "2027-02-22"
+      },
+      "seasonal_hook": "Season-prep, published just before season opens to catch last-minute planners",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "A single scannable FAQ pulling together the season's most common questions (timing, cost, kids, dogs, weather) with links out to the deep-dive post on each, as a hub-adjacent catch-all.",
+      "slug": "bluebonnet-season-faq-25-questions-answered-before-you-go"
+    },
+    {
+      "id": "bb-043",
+      "title": "Is 2027 a Good Year for Bluebonnets? Reading the Signs Before Season Opens",
+      "primary_keyword": "is 2027 a good year for bluebonnets",
+      "volume_note": "n/a \u2014 PAA/entity: direct PAA phrasing variant of the forecast post, timed later in the window",
+      "secondary_keywords": [
+        "2027 bluebonnet season outlook",
+        "bluebonnet bloom quality 2027"
+      ],
+      "paa_questions": [
+        "Will 2026 be a good year for bluebonnets?"
+      ],
+      "intent": "informational",
+      "template": "data-research",
+      "word_count": 2000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-02-06",
+        "latest": "2027-03-14",
+        "ideal": "2027-02-24"
+      },
+      "seasonal_hook": "Depends on early-February field-scouting reports being available",
+      "requires_onsite": false,
+      "conditional": true,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A follow-up to the January forecast post using fresher late-winter data and early Garden Club scouting notes to sharpen the outlook right before season opens.",
+      "slug": "is-a-good-year-for-bluebonnets-reading-the-signs-before-season-opens"
+    },
+    {
+      "id": "bb-044",
+      "title": "Bluebonnets vs. Other Texas Wildflowers: How to Tell Them Apart in Your Photos",
+      "primary_keyword": "bluebonnet vs other wildflowers identification",
+      "volume_note": "n/a \u2014 PAA/entity: identification long tail complementing the wildflower-drives roundup",
+      "secondary_keywords": [
+        "indian paintbrush vs bluebonnet",
+        "texas wildflower identification"
+      ],
+      "paa_questions": [
+        "What is the flower that grows with bluebonnets in Texas?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/where-to-see-bluebonnets-near-dallas/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-02-08",
+        "latest": "2027-03-16",
+        "ideal": "2027-02-26"
+      },
+      "seasonal_hook": "Season-prep identification guide, timed just before season opens",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "A visual identification guide so visitors can name the orange, pink and yellow wildflowers that show up alongside bluebonnets in their own photos.",
+      "slug": "bluebonnets-vs-other-texas-wildflowers-how-to-tell-them-apart-in-your-photos"
+    },
+    {
+      "id": "bb-045",
+      "title": "How the Ennis Bluebonnet Trails Festival Has Grown Since Its First Year",
+      "primary_keyword": "ennis bluebonnet festival growth history",
+      "volume_note": "n/a \u2014 PAA/entity: history/entity depth piece, distinct from the decade-timeline post published in October",
+      "secondary_keywords": [
+        "ennis bluebonnet festival attendance history",
+        "ennis bluebonnet trails 1952"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "case-study",
+      "word_count": 1700,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/history/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-02-10",
+        "latest": "2027-03-18",
+        "ideal": "2027-02-28"
+      },
+      "seasonal_hook": "Season-prep history piece published right as the season opens",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Traces attendance and route growth from roughly 1,000 visitors in the 1950s to today's tens of thousands, using the conflicting visitor-count sources noted in audience-market-research.md \u00a74b transparently.",
+      "slug": "how-the-ennis-bluebonnet-trails-festival-has-grown-since-its-first-year"
+    },
+    {
+      "id": "bb-046",
+      "title": "The Ennis Bluebonnet Trails Are Open: What to Expect on Opening Weekend",
+      "primary_keyword": "ennis bluebonnet trails opening weekend 2027",
+      "volume_note": "n/a \u2014 PAA/entity: season-opening news hook, no standalone volume",
+      "secondary_keywords": [
+        "ennis bluebonnet trails april 1",
+        "when do the ennis bluebonnet trails open"
+      ],
+      "paa_questions": [
+        "When do the Ennis Bluebonnet Trails open each year?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 1000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/welcome-center/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-02-19",
+        "latest": "2027-03-11",
+        "ideal": "2027-03-01"
+      },
+      "seasonal_hook": "Trails officially open April 1, but early-color scouting starts in March",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Season-opening dispatch on what's blooming, road conditions, and Welcome Center readiness as the official April window begins.",
+      "slug": "the-ennis-bluebonnet-trails-are-open-what-to-expect-on-opening-weekend"
+    },
+    {
+      "id": "bb-047",
+      "title": "Ennis Bluebonnet Trails Road Conditions: Potholes, Shoulders and What to Watch For in 2027",
+      "primary_keyword": "ennis bluebonnet trails road conditions",
+      "volume_note": "n/a \u2014 PAA/entity: recurring visitor tip per audience-market-research.md \u00a74c",
+      "secondary_keywords": [
+        "ennis bluebonnet trails driving conditions",
+        "rural road hazards ennis"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1500,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/trail-map/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-02-23",
+        "latest": "2027-03-15",
+        "ideal": "2027-03-05"
+      },
+      "seasonal_hook": "Fresh road-condition check right as trail traffic begins",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A first-hand check of the current year's rural-road conditions (potholes, narrow shoulders, blind curves) that TripAdvisor reviewers repeatedly flag as a surprise.",
+      "slug": "ennis-bluebonnet-trails-road-conditions-potholes-shoulders-and-what-to-watch-for-in"
+    },
+    {
+      "id": "bb-048",
+      "title": "Best Ennis Bluebonnet Photo Spots This Week: An Early-Season Scouting Report",
+      "primary_keyword": "ennis bluebonnet photo spots early season",
+      "volume_note": "n/a \u2014 PAA/entity: early-season scouting complement to the evergreen photo-spots site page",
+      "secondary_keywords": [
+        "ennis bluebonnet photo spots march",
+        "early bluebonnet color ennis"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "case-study",
+      "word_count": 1200,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/date-night/",
+      "publish_window": {
+        "earliest": "2027-02-26",
+        "latest": "2027-03-18",
+        "ideal": "2027-03-08"
+      },
+      "seasonal_hook": "Early-color scouting run before peak bloom, timed with bloom report week 1",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A dated scouting report naming which specific fields have color first this year, distinct from the evergreen photo-spots reference page.",
+      "slug": "best-ennis-bluebonnet-photo-spots-this-week-an-early-season-scouting-report"
+    },
+    {
+      "id": "bb-049",
+      "title": "How to Beat the Crowds During Ennis Bluebonnet Festival Weekend",
+      "primary_keyword": "how to beat crowds ennis bluebonnet festival",
+      "volume_note": "n/a \u2014 PAA/entity: trip-planning long tail, timed just before festival weekend",
+      "secondary_keywords": [
+        "ennis bluebonnet festival crowds",
+        "avoid crowds bluebonnet trails"
+      ],
+      "paa_questions": [
+        "How do I avoid crowds at the Ennis Bluebonnet Festival?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/welcome-center/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-02-28",
+        "latest": "2027-03-20",
+        "ideal": "2027-03-10"
+      },
+      "seasonal_hook": "Published two weeks before the (expected) festival weekend",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Practical, time-of-day and route-specific advice for dodging the festival weekend's worst congestion, aimed at the trail (not the downtown festival itself).",
+      "slug": "how-to-beat-the-crowds-during-ennis-bluebonnet-festival-weekend"
+    },
+    {
+      "id": "bb-050",
+      "title": "Where to Eat Near the Ennis Bluebonnet Trails Without Leaving Your Route",
+      "primary_keyword": "where to eat near ennis bluebonnet trails",
+      "volume_note": "n/a \u2014 PAA/entity: trail-adjacent dining, distinct from the general /ennis/where-to-eat/ site page",
+      "secondary_keywords": [
+        "food near ennis bluebonnet trail loops",
+        "ennis bluebonnet trail pit stops"
+      ],
+      "paa_questions": [],
+      "intent": "commercial",
+      "template": "roundup",
+      "word_count": 1500,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/trail-map/",
+      "commercial_link": "/slingshot-rental/date-night/",
+      "publish_window": {
+        "earliest": "2027-03-04",
+        "latest": "2027-03-24",
+        "ideal": "2027-03-14"
+      },
+      "seasonal_hook": "In-season practical roundup for a full trail day",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Picks specifically the stops that sit ON the three trail loops themselves (not all of downtown Ennis) so a driver doesn't have to detour off-route to eat.",
+      "slug": "where-to-eat-near-the-ennis-bluebonnet-trails-without-leaving-your-route"
+    },
+    {
+      "id": "bb-051",
+      "title": "Ennis Bluebonnet Bloom Report: Week of March 15 \u2014 First Color on the Trails",
+      "primary_keyword": "ennis bluebonnet trails week 1 status",
+      "volume_note": "n/a \u2014 PAA/entity: mirrors 'are the bluebonnets blooming' / 'bluebonnet report texas' demand (~10-110/mo TX) at a weekly, Ennis-specific grain the site page doesn't cover post-by-post",
+      "secondary_keywords": [
+        "are the bluebonnets blooming in ennis",
+        "bluebonnet report texas",
+        "ennis bluebonnet trails status"
+      ],
+      "paa_questions": [
+        "Are the bluebonnets blooming in Ennis now?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 750,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-03-15",
+        "latest": "2027-03-15",
+        "ideal": "2027-03-15"
+      },
+      "seasonal_hook": "In-season weekly status update mirroring the Ennis Garden Club's own reporting cadence",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "First-hand, dated bloom status for this specific week with photos from that week's drive, feeding the live /bluebonnets/bloom-tracker/ page and giving search + AI Overviews a fresh, citable weekly source.",
+      "slug": "ennis-bluebonnet-bloom-report-week-of-march-15-first-color-on-the-trails"
+    },
+    {
+      "id": "bb-052",
+      "title": "The Ennis Bluebonnet Trails at Sunrise: Is the Early Start Worth It?",
+      "primary_keyword": "ennis bluebonnet trails sunrise",
+      "volume_note": "n/a \u2014 PAA/entity: experiential long tail",
+      "secondary_keywords": [
+        "bluebonnet sunrise photos ennis",
+        "early morning bluebonnet trails"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "case-study",
+      "word_count": 1300,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/date-night/",
+      "publish_window": {
+        "earliest": "2027-03-06",
+        "latest": "2027-03-26",
+        "ideal": "2027-03-16"
+      },
+      "seasonal_hook": "Mid-season first-hand experiment, timed just after bloom report week 1",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "A first-hand account of a pre-dawn drive to see whether sunrise light and empty roads beat the golden-hour crowds everyone else chases.",
+      "slug": "the-ennis-bluebonnet-trails-at-sunrise-is-the-early-start-worth-it"
+    },
+    {
+      "id": "bb-053",
+      "title": "Rainy-Day Bluebonnet Trail Guide: What Changes When the Forecast Turns",
+      "primary_keyword": "rainy day bluebonnet trails guide",
+      "volume_note": "n/a \u2014 PAA/entity: weather contingency long tail, Ennis April ~26% rain-day chance per audience-market-research.md \u00a72d",
+      "secondary_keywords": [
+        "ennis bluebonnet trails rain",
+        "bluebonnet photos in the rain"
+      ],
+      "paa_questions": [
+        "Can you still see bluebonnets on a rainy day?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/weather/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-03-08",
+        "latest": "2027-03-28",
+        "ideal": "2027-03-18"
+      },
+      "seasonal_hook": "Published mid-season when a rained-out weekend is a live risk",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Sets honest expectations for what a rain-affected visit actually looks like (mud, gray-sky photos, still-open trails) and how to salvage the day.",
+      "slug": "rainy-day-bluebonnet-trail-guide-what-changes-when-the-forecast-turns"
+    },
+    {
+      "id": "bb-054",
+      "title": "Ennis Bluebonnet Trail Traffic Report: Real Wait Times From the Road",
+      "primary_keyword": "ennis bluebonnet trails traffic wait times",
+      "volume_note": "n/a \u2014 PAA/entity: live-data long tail",
+      "secondary_keywords": [
+        "ennis bluebonnet trails traffic",
+        "bluebonnet festival traffic"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 900,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/welcome-center/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-03-10",
+        "latest": "2027-03-30",
+        "ideal": "2027-03-20"
+      },
+      "seasonal_hook": "Timed to catch the first wave of heavy in-season traffic before festival weekend",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A first-hand, timestamped account of actual downtown and trail wait times on a mid-March Saturday, useful for anyone deciding when to leave home.",
+      "slug": "ennis-bluebonnet-trail-traffic-report-real-wait-times-from-the-road"
+    },
+    {
+      "id": "bb-055",
+      "title": "Ennis Bluebonnet Bloom Report: Week of March 22 \u2014 Fields Filling In",
+      "primary_keyword": "ennis bluebonnet trails week 2 status",
+      "volume_note": "n/a \u2014 PAA/entity: mirrors 'are the bluebonnets blooming' / 'bluebonnet report texas' demand (~10-110/mo TX) at a weekly, Ennis-specific grain the site page doesn't cover post-by-post",
+      "secondary_keywords": [
+        "are the bluebonnets blooming in ennis",
+        "bluebonnet report texas",
+        "ennis bluebonnet trails status"
+      ],
+      "paa_questions": [
+        "Are the bluebonnets blooming in Ennis now?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 750,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-03-22",
+        "latest": "2027-03-22",
+        "ideal": "2027-03-22"
+      },
+      "seasonal_hook": "In-season weekly status update mirroring the Ennis Garden Club's own reporting cadence",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "First-hand, dated bloom status for this specific week with photos from that week's drive, feeding the live /bluebonnets/bloom-tracker/ page and giving search + AI Overviews a fresh, citable weekly source.",
+      "slug": "ennis-bluebonnet-bloom-report-week-of-march-22-fields-filling-in"
+    },
+    {
+      "id": "bb-056",
+      "title": "We Drove All Three Ennis Bluebonnet Trail Loops in One Day: Here's What We'd Do Differently",
+      "primary_keyword": "drove all three ennis bluebonnet trail loops",
+      "volume_note": "n/a \u2014 PAA/entity: first-hand case-study, no direct keyword volume",
+      "secondary_keywords": [
+        "ennis bluebonnet trail loops one day",
+        "north south west loop ennis"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "case-study",
+      "word_count": 1600,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/trail-map/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-03-15",
+        "latest": "2027-04-04",
+        "ideal": "2027-03-25"
+      },
+      "seasonal_hook": "Peak-season first-hand account, timed just before festival weekend",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "An honest, timestamped account of attempting all three official loops in a single day \u2014 what worked, what we'd skip next time \u2014 that doubles as proof-of-experience E-E-A-T content.",
+      "slug": "we-drove-all-three-ennis-bluebonnet-trail-loops-in-one-day-heres-what-wed-do-differently"
+    },
+    {
+      "id": "bb-057",
+      "title": "Ennis Bluebonnet Festival Food and Vendors: What's New for 2027",
+      "primary_keyword": "ennis bluebonnet festival food vendors 2027",
+      "volume_note": "n/a \u2014 PAA/entity: festival-logistics long tail, complements the site page's parking/schedule sections",
+      "secondary_keywords": [
+        "ennis bluebonnet festival vendors",
+        "ennis bluebonnet festival food"
+      ],
+      "paa_questions": [
+        "What food is at the Ennis Bluebonnet Festival?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 1000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/festival/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-03-18",
+        "latest": "2027-04-07",
+        "ideal": "2027-03-28"
+      },
+      "seasonal_hook": "Depends on the Ennis Garden Club/Chamber publishing this year's vendor list",
+      "requires_onsite": false,
+      "conditional": true,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Previews this year's specific food trucks, Czech-heritage stands and craft vendors once the festival organizers publish their lineup.",
+      "slug": "ennis-bluebonnet-festival-food-and-vendors-whats-new-for"
+    },
+    {
+      "id": "bb-058",
+      "title": "Ennis Bluebonnet Bloom Report: Week of March 29 \u2014 Approaching Peak",
+      "primary_keyword": "ennis bluebonnet trails week 3 status",
+      "volume_note": "n/a \u2014 PAA/entity: mirrors 'are the bluebonnets blooming' / 'bluebonnet report texas' demand (~10-110/mo TX) at a weekly, Ennis-specific grain the site page doesn't cover post-by-post",
+      "secondary_keywords": [
+        "are the bluebonnets blooming in ennis",
+        "bluebonnet report texas",
+        "ennis bluebonnet trails status"
+      ],
+      "paa_questions": [
+        "Are the bluebonnets blooming in Ennis now?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 750,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-03-29",
+        "latest": "2027-03-29",
+        "ideal": "2027-03-29"
+      },
+      "seasonal_hook": "In-season weekly status update mirroring the Ennis Garden Club's own reporting cadence",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "First-hand, dated bloom status for this specific week with photos from that week's drive, feeding the live /bluebonnets/bloom-tracker/ page and giving search + AI Overviews a fresh, citable weekly source.",
+      "slug": "ennis-bluebonnet-bloom-report-week-of-march-29-approaching-peak"
+    },
+    {
+      "id": "bb-059",
+      "title": "Bluebonnet Trail Parking Guide: Where Locals Actually Park During Festival Weekend",
+      "primary_keyword": "ennis bluebonnet trail parking festival weekend",
+      "volume_note": "~10 TX (ennis bluebonnet festival parking, Apr 30) \u2014 keyword-research-summary.md addendum",
+      "secondary_keywords": [
+        "ennis bluebonnet festival parking",
+        "downtown ennis parking bluebonnet"
+      ],
+      "paa_questions": [
+        "Where do you park for the Ennis Bluebonnet Festival?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1500,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/festival/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-03-22",
+        "latest": "2027-04-11",
+        "ideal": "2027-04-01"
+      },
+      "seasonal_hook": "Published as festival weekend traffic and parking pressure builds",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Local, first-hand parking intel (which lots fill first, walk times, overflow options) that goes beyond the festival site page's static parking section.",
+      "slug": "bluebonnet-trail-parking-guide-where-locals-actually-park-during-festival-weekend"
+    },
+    {
+      "id": "bb-060",
+      "title": "Ennis Bluebonnet Bloom Report: Week of April 5 \u2014 Peak Bloom Watch",
+      "primary_keyword": "ennis bluebonnet trails week 4 status",
+      "volume_note": "n/a \u2014 PAA/entity: mirrors 'are the bluebonnets blooming' / 'bluebonnet report texas' demand (~10-110/mo TX) at a weekly, Ennis-specific grain the site page doesn't cover post-by-post",
+      "secondary_keywords": [
+        "are the bluebonnets blooming in ennis",
+        "bluebonnet report texas",
+        "ennis bluebonnet trails status"
+      ],
+      "paa_questions": [
+        "Are the bluebonnets blooming in Ennis now?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 750,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-04-05",
+        "latest": "2027-04-05",
+        "ideal": "2027-04-05"
+      },
+      "seasonal_hook": "In-season weekly status update mirroring the Ennis Garden Club's own reporting cadence",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "First-hand, dated bloom status for this specific week with photos from that week's drive, feeding the live /bluebonnets/bloom-tracker/ page and giving search + AI Overviews a fresh, citable weekly source.",
+      "slug": "ennis-bluebonnet-bloom-report-week-of-april-5-peak-bloom-watch"
+    },
+    {
+      "id": "bb-061",
+      "title": "The Best Bluebonnet Photos We Saw This Week: A Reader Photo Roundup",
+      "primary_keyword": "ennis bluebonnet reader photos",
+      "volume_note": "n/a \u2014 PAA/entity: UGC engagement piece, no direct keyword volume",
+      "secondary_keywords": [
+        "ennis bluebonnet trails photos this week"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 1000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/date-night/",
+      "publish_window": {
+        "earliest": "2027-03-29",
+        "latest": "2027-04-18",
+        "ideal": "2027-04-08"
+      },
+      "seasonal_hook": "Peak-bloom UGC roundup timed with bloom report week 4",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "A curated, credited roundup of visitor and social-media bluebonnet photos from this exact week, built as a shareable engagement piece and a UGC/backlink magnet.",
+      "slug": "the-best-bluebonnet-photos-we-saw-this-week-a-reader-photo-roundup"
+    },
+    {
+      "id": "bb-062",
+      "title": "Ennis Bluebonnet Bloom Report: Week of April 12 \u2014 Festival Week Preview",
+      "primary_keyword": "ennis bluebonnet trails week 5 status",
+      "volume_note": "n/a \u2014 PAA/entity: mirrors 'are the bluebonnets blooming' / 'bluebonnet report texas' demand (~10-110/mo TX) at a weekly, Ennis-specific grain the site page doesn't cover post-by-post",
+      "secondary_keywords": [
+        "are the bluebonnets blooming in ennis",
+        "bluebonnet report texas",
+        "ennis bluebonnet trails status"
+      ],
+      "paa_questions": [
+        "Are the bluebonnets blooming in Ennis now?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 750,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-04-12",
+        "latest": "2027-04-12",
+        "ideal": "2027-04-12"
+      },
+      "seasonal_hook": "In-season weekly status update mirroring the Ennis Garden Club's own reporting cadence",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "First-hand, dated bloom status for this specific week with photos from that week's drive, feeding the live /bluebonnets/bloom-tracker/ page and giving search + AI Overviews a fresh, citable weekly source.",
+      "slug": "ennis-bluebonnet-bloom-report-week-of-april-12-festival-week-preview"
+    },
+    {
+      "id": "bb-063",
+      "title": "How Crowded Is the Ennis Bluebonnet Festival, Really? A First-Timer's Honest Take",
+      "primary_keyword": "how crowded is ennis bluebonnet festival",
+      "volume_note": "n/a \u2014 PAA/entity: first-hand experience piece, complements the required festival-week live-coverage set",
+      "secondary_keywords": [
+        "ennis bluebonnet festival crowds honest review"
+      ],
+      "paa_questions": [
+        "Is the Ennis Bluebonnet Festival worth the crowds?"
+      ],
+      "intent": "informational",
+      "template": "case-study",
+      "word_count": 1300,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/festival/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-04-04",
+        "latest": "2027-04-24",
+        "ideal": "2027-04-14"
+      },
+      "seasonal_hook": "Published just before festival weekend, distinct from the day-of live-coverage posts",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A pre-festival expectation-setting piece built from past years' crowd patterns, written for the reader still deciding whether the festival itself (versus just the trails) is worth the trip.",
+      "slug": "how-crowded-is-the-ennis-bluebonnet-festival-really-a-first-timers-honest-take"
+    },
+    {
+      "id": "bb-064",
+      "title": "Ennis Bluebonnet Trails Festival 2027: Opening Night on Dallas Street",
+      "primary_keyword": "ennis bluebonnet festival 2027 opening night",
+      "volume_note": "n/a \u2014 PAA/entity: live event coverage of ennis bluebonnet festival (14,800 TX Apr) at a day-specific grain",
+      "secondary_keywords": [
+        "ennis bluebonnet festival 2027",
+        "ennis bluebonnet festival ennis tx"
+      ],
+      "paa_questions": [
+        "What's going on in Ennis this weekend?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 950,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/festival/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-04-16",
+        "latest": "2027-04-16",
+        "ideal": "2027-04-16"
+      },
+      "seasonal_hook": "Festival opening night, live on the ground",
+      "requires_onsite": true,
+      "conditional": true,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Same-day dispatch from Friday opening night downtown \u2014 vendor lineup, crowd size, first impressions \u2014 written and photographed on site, not pre-scripted.",
+      "slug": "ennis-bluebonnet-trails-festival-opening-night-on-dallas-street"
+    },
+    {
+      "id": "bb-065",
+      "title": "Ennis Bluebonnet Trails Festival 2027: Saturday Peak-Crowd Report",
+      "primary_keyword": "ennis bluebonnet festival 2027 saturday",
+      "volume_note": "n/a \u2014 PAA/entity: live event coverage, festival's highest-traffic day",
+      "secondary_keywords": [
+        "ennis bluebonnet festival parking",
+        "ennis bluebonnet festival schedule"
+      ],
+      "paa_questions": [
+        "How crowded does the Ennis Bluebonnet Festival get?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 950,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/festival/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-04-17",
+        "latest": "2027-04-17",
+        "ideal": "2027-04-17"
+      },
+      "seasonal_hook": "Festival Saturday \u2014 the single busiest day of the season",
+      "requires_onsite": true,
+      "conditional": true,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Real-time parking, line, and crowd conditions from the festival's busiest day, with practical timing advice for anyone still deciding when to go this weekend.",
+      "slug": "ennis-bluebonnet-trails-festival-saturday-peak-crowd-report"
+    },
+    {
+      "id": "bb-066",
+      "title": "Ennis Bluebonnet Trails Festival 2027: Sunday Wind-Down and Best Late-Weekend Photo Light",
+      "primary_keyword": "ennis bluebonnet festival 2027 sunday",
+      "volume_note": "n/a \u2014 PAA/entity: live event coverage, closing day",
+      "secondary_keywords": [
+        "ennis bluebonnet festival hours",
+        "ennis bluebonnet festival tickets"
+      ],
+      "paa_questions": [
+        "What time does the Ennis Bluebonnet Festival close on Sunday?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 900,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/festival/",
+      "commercial_link": "/slingshot-rental/date-night/",
+      "publish_window": {
+        "earliest": "2027-04-18",
+        "latest": "2027-04-18",
+        "ideal": "2027-04-18"
+      },
+      "seasonal_hook": "Closing day of the festival, quieter crowds and golden-hour light",
+      "requires_onsite": true,
+      "conditional": true,
+      "reactive": false,
+      "priority": 2,
+      "angle": "On-the-ground look at the festival's mellower final day, when crowds thin and the trails are still worth a golden-hour drive before the flowers fade.",
+      "slug": "ennis-bluebonnet-trails-festival-sunday-wind-down-and-best-late-weekend-photo-light"
+    },
+    {
+      "id": "bb-067",
+      "title": "Ennis Bluebonnet Bloom Report: Week of April 19 \u2014 Festival Weekend Status",
+      "primary_keyword": "ennis bluebonnet trails week 6 status",
+      "volume_note": "n/a \u2014 PAA/entity: mirrors 'are the bluebonnets blooming' / 'bluebonnet report texas' demand (~10-110/mo TX) at a weekly, Ennis-specific grain the site page doesn't cover post-by-post",
+      "secondary_keywords": [
+        "are the bluebonnets blooming in ennis",
+        "bluebonnet report texas",
+        "ennis bluebonnet trails status"
+      ],
+      "paa_questions": [
+        "Are the bluebonnets blooming in Ennis now?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 750,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-04-19",
+        "latest": "2027-04-19",
+        "ideal": "2027-04-19"
+      },
+      "seasonal_hook": "In-season weekly status update mirroring the Ennis Garden Club's own reporting cadence",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "First-hand, dated bloom status for this specific week with photos from that week's drive, feeding the live /bluebonnets/bloom-tracker/ page and giving search + AI Overviews a fresh, citable weekly source.",
+      "slug": "ennis-bluebonnet-bloom-report-week-of-april-19-festival-weekend-status"
+    },
+    {
+      "id": "bb-068",
+      "title": "Ennis Bluebonnet Trails Festival 2027: By the Numbers \u2014 Our Weekend Recap",
+      "primary_keyword": "ennis bluebonnet festival 2027 recap",
+      "volume_note": "n/a \u2014 PAA/entity: post-event wrap tying attendance, weather, and bloom status together",
+      "secondary_keywords": [
+        "ennis bluebonnet festival attendance",
+        "ennis bluebonnet trails festival"
+      ],
+      "paa_questions": [
+        "How many people attend the Ennis Bluebonnet Festival?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 1000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/festival/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-04-19",
+        "latest": "2027-04-19",
+        "ideal": "2027-04-19"
+      },
+      "seasonal_hook": "Monday-after wrap of festival weekend, still deep in bloom season",
+      "requires_onsite": true,
+      "conditional": true,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Data-flavored wrap-up of the weekend just finished \u2014 rough attendance, weather, bloom condition, our own booking volume \u2014 published while the season still has two more weeks to run.",
+      "slug": "ennis-bluebonnet-trails-festival-by-the-numbers-our-weekend-recap"
+    },
+    {
+      "id": "bb-069",
+      "title": "Post-Festival Bluebonnet Trails: Is It Still Worth Visiting After the Festival Ends?",
+      "primary_keyword": "bluebonnet trails after festival worth visiting",
+      "volume_note": "n/a \u2014 PAA/entity: late-season decision-making long tail",
+      "secondary_keywords": [
+        "ennis bluebonnet trails late april",
+        "are bluebonnets still blooming after the festival"
+      ],
+      "paa_questions": [
+        "Are bluebonnets still blooming after the Ennis Bluebonnet Festival?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1500,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-04-12",
+        "latest": "2027-05-01",
+        "ideal": "2027-04-22"
+      },
+      "seasonal_hook": "Answers the question search volume shows spiking right after the festival weekend passes",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Directly addresses the assumption that the season ends with the festival, using that week's actual bloom-tracker data to make the case for a quieter late-April visit.",
+      "slug": "post-festival-bluebonnet-trails-is-it-still-worth-visiting-after-the-festival-ends"
+    },
+    {
+      "id": "bb-070",
+      "title": "Last Call: Your Final Weekend to Catch the Ennis Bluebonnets in 2027",
+      "primary_keyword": "last weekend to see ennis bluebonnets 2027",
+      "volume_note": "n/a \u2014 PAA/entity: urgency-driven seasonal news post",
+      "secondary_keywords": [
+        "ennis bluebonnet trails closing",
+        "last chance bluebonnets 2027"
+      ],
+      "paa_questions": [
+        "When is the last weekend to see bluebonnets in Texas?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 850,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-04-14",
+        "latest": "2027-05-01",
+        "ideal": "2027-04-24"
+      },
+      "seasonal_hook": "Urgency post timed to the final viable weekend before trails wind down",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "A time-boxed urgency post using that week's actual bloom-tracker status to tell procrastinators exactly how many good days are left.",
+      "slug": "last-call-your-final-weekend-to-catch-the-ennis-bluebonnets-in"
+    },
+    {
+      "id": "bb-071",
+      "title": "What Happens to the Ennis Bluebonnets After April? A Late-Season Guide",
+      "primary_keyword": "what happens to bluebonnets after april texas",
+      "volume_note": "n/a \u2014 PAA/entity: late-season/off-topic-adjacent FAQ",
+      "secondary_keywords": [
+        "bluebonnet season end date",
+        "when do bluebonnets stop blooming"
+      ],
+      "paa_questions": [
+        "When do bluebonnets stop blooming in Texas?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1500,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-04-15",
+        "latest": "2027-05-01",
+        "ideal": "2027-04-25"
+      },
+      "seasonal_hook": "Late-season explainer as the trails wind down for the year",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Explains the plant's actual life cycle after bloom (seed pods, mowing timing, next year's germination) to satisfy curiosity as the visible season ends.",
+      "slug": "what-happens-to-the-ennis-bluebonnets-after-april-a-late-season-guide"
+    },
+    {
+      "id": "bb-072",
+      "title": "Ennis Bluebonnet Bloom Report: Week of April 26 \u2014 Late-Season Color",
+      "primary_keyword": "ennis bluebonnet trails week 7 status",
+      "volume_note": "n/a \u2014 PAA/entity: mirrors 'are the bluebonnets blooming' / 'bluebonnet report texas' demand (~10-110/mo TX) at a weekly, Ennis-specific grain the site page doesn't cover post-by-post",
+      "secondary_keywords": [
+        "are the bluebonnets blooming in ennis",
+        "bluebonnet report texas",
+        "ennis bluebonnet trails status"
+      ],
+      "paa_questions": [
+        "Are the bluebonnets blooming in Ennis now?"
+      ],
+      "intent": "informational",
+      "template": "news-analysis",
+      "word_count": 750,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/bloom-tracker/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-04-26",
+        "latest": "2027-04-26",
+        "ideal": "2027-04-26"
+      },
+      "seasonal_hook": "In-season weekly status update mirroring the Ennis Garden Club's own reporting cadence",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "First-hand, dated bloom status for this specific week with photos from that week's drive, feeding the live /bluebonnets/bloom-tracker/ page and giving search + AI Overviews a fresh, citable weekly source.",
+      "slug": "ennis-bluebonnet-bloom-report-week-of-april-26-late-season-color"
+    },
+    {
+      "id": "bb-073",
+      "title": "2027 Ennis Bluebonnet Festival Attendance: How This Year Compared",
+      "primary_keyword": "ennis bluebonnet festival 2027 attendance",
+      "volume_note": "n/a \u2014 PAA/entity: post-event data analysis using the disputed visitor-count sources noted in audience-market-research.md \u00a74b",
+      "secondary_keywords": [
+        "ennis bluebonnet festival attendance numbers",
+        "ennis bluebonnet festival 2027 recap"
+      ],
+      "paa_questions": [
+        "How many people attended the Ennis Bluebonnet Festival in 2027?"
+      ],
+      "intent": "informational",
+      "template": "data-research",
+      "word_count": 2000,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/festival/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-04-17",
+        "latest": "2027-05-01",
+        "ideal": "2027-04-27"
+      },
+      "seasonal_hook": "Depends on city/Chamber attendance figures being released after the event",
+      "requires_onsite": false,
+      "conditional": true,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A data-driven post-event analysis comparing this year's attendance and weather against the prior 5 years' publicly cited figures, clearly sourcing each number.",
+      "slug": "ennis-bluebonnet-festival-attendance-how-this-year-compared"
+    },
+    {
+      "id": "bb-074",
+      "title": "Bluebonnet Trail Photography: What We Learned Shooting Every Week This Season",
+      "primary_keyword": "bluebonnet trail photography lessons learned",
+      "volume_note": "n/a \u2014 PAA/entity: season-long case-study synthesizing the weekly bloom-report photo work",
+      "secondary_keywords": [
+        "ennis bluebonnet photography season recap"
+      ],
+      "paa_questions": [],
+      "intent": "informational",
+      "template": "case-study",
+      "word_count": 1400,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/photo-spots/",
+      "commercial_link": "/slingshot-rental/date-night/",
+      "publish_window": {
+        "earliest": "2027-04-19",
+        "latest": "2027-05-01",
+        "ideal": "2027-04-29"
+      },
+      "seasonal_hook": "Synthesizes the whole season's on-the-ground photo work right before the season recap",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A behind-the-scenes look back at seven straight weeks of bloom-report photography \u2014 what changed week to week, which spot photographed best each stage of bloom.",
+      "slug": "bluebonnet-trail-photography-what-we-learned-shooting-every-week-this-season"
+    },
+    {
+      "id": "bb-075",
+      "title": "The 2027 Ennis Bluebonnet Trails, Wrapped: Our Bloom Timeline and Photo Retrospective",
+      "primary_keyword": "ennis bluebonnet trails 2027 bloom retrospective",
+      "volume_note": "n/a \u2014 PAA/entity: end-of-season editorial recap, no direct search demand but high internal-link and PR value",
+      "secondary_keywords": [
+        "ennis bluebonnet trails 2027",
+        "ennis bluebonnet festival 2027"
+      ],
+      "paa_questions": [
+        "Was 2027 a good year for bluebonnets in Texas?"
+      ],
+      "intent": "informational",
+      "template": "case-study",
+      "word_count": 1600,
+      "hub": "/bluebonnets/",
+      "spoke_link": "/bluebonnets/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-05-01",
+        "latest": "2027-05-01",
+        "ideal": "2027-05-01"
+      },
+      "seasonal_hook": "First week after the trails close for the season",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Season-closing retrospective built from the seven weekly bloom reports \u2014 full bloom timeline, which named photo spots actually delivered, what we'd tell next year's first-timers \u2014 republished as evergreen planning reference until next January.",
+      "slug": "the-ennis-bluebonnet-trails-wrapped-our-bloom-timeline-and-photo-retrospective"
+    }
+  ]
+}

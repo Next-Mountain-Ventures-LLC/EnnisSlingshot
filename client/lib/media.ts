@@ -1,0 +1,36 @@
+/**
+ * Media constants shared by the landing components and blog templates.
+ */
+
+/**
+ * Hero / booking video. One source, referenced from HeroVideo (autoplay,
+ * preload="metadata") and ClickToPlayVideo (poster only until clicked) so the
+ * browser fetches the file at most once per page.
+ *
+ * TODO(owner): swap for a compressed self-hosted pair
+ *   public/videos/hero.mp4 (H.264, ≤ 8 MB) + public/videos/hero.webm
+ * The current WordPress-hosted .mov is ~51 MB and has burned-in third-party
+ * text (SITE-REBUILD-PLAN.md §4). When the new files land, set `sources` to
+ *   [{ src: "/videos/hero.webm", type: "video/webm" }, { src: "/videos/hero.mp4", type: "video/mp4" }]
+ * and add "/videos/*" caching headers in netlify.toml.
+ */
+export const HERO_VIDEO = {
+  sources: [
+    {
+      src: "https://videos.files.wordpress.com/4OmQurFA/rallyshot_bacground_tjqpyd.mov",
+      type: "video/mp4",
+    },
+  ],
+  /** Static 16:9 still (a Builder.io fleet photo, 1600×900) at public/videos/hero-poster.jpg — replace with a real first frame when the new video lands. */
+  poster: "/videos/hero-poster.jpg",
+  width: 1600,
+  height: 900,
+} as const;
+
+/**
+ * `fetchpriority="high"` for the page's LCP image. React 18 does not know the
+ * camelCase `fetchPriority` prop (it warns and would still lowercase it in
+ * HTML, but not in the DOM property path), so spread this lowercase
+ * attribute instead: `<img {...LCP_IMG_PROPS} />`.
+ */
+export const LCP_IMG_PROPS = { fetchpriority: "high" } as Record<string, string>;

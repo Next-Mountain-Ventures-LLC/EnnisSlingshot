@@ -1,0 +1,15 @@
+{
+  "updatedAt": "2026-09-05T00:00:00-05:00",
+  "season": 2027,
+  "status": "not-started",
+  "statusLabel": "Season starts April 1, 2027 — bloom reports begin mid-March",
+  "weeklyEntries": [],
+  "loops": {
+    "north": null,
+    "south": null,
+    "west": null
+  },
+  "sources": [
+    "https://www.bluebonnettrail.org/trailmap"
+  ]
+}

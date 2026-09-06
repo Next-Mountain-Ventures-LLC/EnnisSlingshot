@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import { HeroVideo } from "@/components/shared/HeroVideo";
+import { HERO_VIDEO } from "@/lib/media";
 
 interface HeroProps {
   onBookingClick: () => void;
@@ -9,18 +11,12 @@ export function Hero({ onBookingClick }: HeroProps) {
     <section className="relative min-h-[51vh] w-full overflow-hidden bg-ennis-dark flex items-center justify-center">
       {/* Video Background */}
       <div className="absolute inset-0 w-full h-full overflow-hidden bg-gradient-to-b from-gray-800 to-black">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          className="absolute inset-0 w-full h-full object-cover"
-          style={{ background: "#1a1a1a" }}
-        >
-          <source src="https://videos.files.wordpress.com/4OmQurFA/rallyshot_bacground_tjqpyd.mov" type="video/quicktime" />
-          <source src="https://videos.files.wordpress.com/4OmQurFA/rallyshot_bacground_tjqpyd.mov" type="video/mp4" />
-        </video>
+        <HeroVideo
+          sources={HERO_VIDEO.sources}
+          poster={HERO_VIDEO.poster}
+          width={HERO_VIDEO.width}
+          height={HERO_VIDEO.height}
+        />
         {/* Light overlay for text readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/25 to-black/30"></div>
       </div>
@@ -32,6 +28,9 @@ export function Hero({ onBookingClick }: HeroProps) {
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2F700b36c4a653482c8265f6619a61ea23?format=webp&width=300"
             alt="Ennis Slingshot Experience Logo"
+            width={300}
+            height={300}
+            decoding="async"
             className="h-32 md:h-40 w-auto drop-shadow-2xl"
           />
         </div>
@@ -48,7 +47,7 @@ export function Hero({ onBookingClick }: HeroProps) {
         </h1>
 
         <p className="mb-8 text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-          Buckle up for an adrenaline-pumping ride in a Polaris Slingshot SLR. Feel the rush as you navigate the stunning bluebonnet trails of Ennis, Texas—the Bluebonnet Capital of Texas.
+          Buckle up for an adrenaline-pumping ride in a Polaris Slingshot. Feel the rush as you navigate the stunning bluebonnet trails of Ennis, Texas—the Bluebonnet Capital of Texas.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -63,7 +62,7 @@ export function Hero({ onBookingClick }: HeroProps) {
         {/* Badge */}
         <div className="mt-12 pt-8 border-t border-gray-600">
           <p className="text-sm text-gray-400 uppercase tracking-widest">
-            🔥 Wild rides available April 2026
+            🔥 2027 bluebonnet season: April 1–30 — bookings open this winter
           </p>
         </div>
       </div>

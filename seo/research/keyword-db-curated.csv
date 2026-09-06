@@ -1,0 +1,382 @@
+keyword,volume,cpc,comp,kd,intent,src,m_2025-08,m_2025-09,m_2025-10,m_2025-11,m_2025-12,m_2026-01,m_2026-02,m_2026-03,m_2026-04,m_2026-05,m_2026-06,m_2026-07,peak_month,peak_vol
+slingshot,165000,1.01,LOW,31,transactional,ideas,201000,165000,135000,110000,110000,135000,135000,165000,165000,165000,165000,165000,2025-08,201000
+polaris slingshot,74000,1.17,LOW,20,transactional,sugg_polaris_slingshot,90500,74000,74000,40500,40500,40500,40500,74000,74000,90500,110000,90500,2026-06,110000
+polaris slingshot s,74000,1.17,LOW,,transactional,sugg_polaris_slingshot,90500,74000,74000,40500,40500,40500,40500,74000,74000,90500,110000,90500,2026-06,110000
+bluebonnet bluebonnet,40500,1.32,LOW,,informational,sugg_bluebonnet,40500,40500,33100,33100,27100,33100,40500,90500,74000,49500,33100,27100,2026-03,90500
+ennis tx usa,33100,0.61,LOW,46,navigational,sugg_ennis_tx,40500,33100,40500,33100,27100,27100,27100,40500,40500,40500,40500,40500,2025-08,40500
+slingshot polaris sale,27100,0.88,LOW,,transactional,sugg_polaris_slingshot,22200,18100,22200,18100,22200,14800,12100,22200,27100,40500,74000,27100,2026-06,74000
+slingshot ride,22200,1.61,LOW,,transactional,ideas,33100,27100,22200,14800,12100,14800,12100,22200,22200,27100,22200,27100,2025-08,33100
+ennis tx,22200,1.37,LOW,17,navigational,sugg_ennis_tx,18100,18100,22200,18100,18100,18100,22200,33100,33100,22200,22200,22200,2026-03,33100
+slingshot rental,14800,1.47,MEDIUM,28,transactional,sugg_slingshot_rental,22200,12100,9900,5400,4400,6600,6600,18100,18100,22200,33100,22200,2026-06,33100
+motorplex ennis tx,14800,1.74,LOW,7,navigational,sugg_ennis_tx,9900,14800,40500,12100,4400,5400,9900,49500,12100,9900,8100,6600,2026-03,49500
+texas motorplex ennis tx,14800,1.74,LOW,14,navigational,sugg_ennis_tx,9900,14800,40500,12100,4400,5400,9900,49500,12100,9900,8100,6600,2026-03,49500
+texas bluebonnet,12100,0.15,MEDIUM,8,informational,sugg_bluebonnet,8100,8100,6600,5400,5400,9900,9900,27100,22200,14800,9900,8100,2026-03,27100
+bluebonnet trail,8100,18.13,LOW,6,informational,sugg_bluebonnet,8100,8100,9900,6600,8100,8100,8100,12100,12100,8100,8100,8100,2026-03,12100
+bluebonnet services,8100,18.13,LOW,1,navigational,sugg_bluebonnet,8100,8100,9900,6600,8100,8100,8100,12100,12100,8100,8100,8100,2026-03,12100
+bluebonnet trails,8100,18.13,LOW,6,informational,sugg_bluebonnet,8100,8100,9900,6600,8100,8100,8100,12100,12100,8100,8100,8100,2026-03,12100
+bluebonnet service,8100,18.13,LOW,,navigational,sugg_bluebonnet,8100,8100,9900,6600,8100,8100,8100,12100,12100,8100,8100,8100,2026-03,12100
+slingshot rental near me,6600,1.53,MEDIUM,25,transactional,sugg_slingshot_rental,9900,6600,4400,2400,2400,1900,3600,6600,8100,8100,9900,8100,2025-08,9900
+polaris slingshot pricing,6600,1.55,LOW,14,commercial,sugg_polaris_slingshot,8100,6600,6600,3600,3600,2900,2900,4400,6600,9900,12100,12100,2026-06,12100
+bluebonnet flower,6600,0.16,MEDIUM,8,informational,sugg_bluebonnet,4400,5400,6600,5400,5400,6600,6600,12100,12100,8100,5400,4400,2026-03,12100
+bluebonnet flowers,6600,0.16,MEDIUM,,informational,sugg_bluebonnet,4400,5400,6600,5400,5400,6600,6600,12100,12100,8100,5400,4400,2026-03,12100
+3 wheeler polaris slingshot,5400,0.18,LOW,,transactional,sugg_polaris_slingshot,5400,9900,5400,4400,4400,2900,2900,9900,6600,5400,8100,3600,2025-09,9900
+polaris 3 wheel slingshot,5400,0.18,LOW,9,transactional,sugg_polaris_slingshot,5400,9900,5400,4400,4400,2900,2900,9900,6600,5400,8100,3600,2025-09,9900
+polaris slingshot 3 wheel car,5400,0.18,LOW,10,transactional,sugg_polaris_slingshot,5400,9900,5400,4400,4400,2900,2900,9900,6600,5400,8100,3600,2025-09,9900
+three wheeled polaris slingshot,5400,0.18,LOW,5,transactional,sugg_polaris_slingshot,5400,9900,5400,4400,4400,2900,2900,9900,6600,5400,8100,3600,2025-09,9900
+3 wheeled polaris slingshot,5400,0.18,LOW,9,transactional,sugg_polaris_slingshot,5400,9900,5400,4400,4400,2900,2900,9900,6600,5400,8100,3600,2025-09,9900
+three wheel polaris slingshot,5400,0.18,LOW,5,transactional,sugg_polaris_slingshot,5400,9900,5400,4400,4400,2900,2900,9900,6600,5400,8100,3600,2025-09,9900
+bluebonnet brunch house,4400,0.31,LOW,,navigational,sugg_bluebonnet,4400,3600,3600,3600,3600,3600,4400,4400,4400,5400,4400,4400,2026-05,5400
+bluebonnet bakery,4400,1.23,LOW,,navigational,sugg_bluebonnet,4400,3600,3600,4400,5400,3600,4400,4400,4400,4400,3600,3600,2025-12,5400
+bluebonnet learning,4400,8.66,LOW,2,informational,sugg_bluebonnet,12100,9900,6600,4400,2400,4400,4400,3600,3600,2400,2400,2900,2025-08,12100
+dr in ennis tx,4400,1.97,LOW,,navigational,sugg_ennis_tx,5400,4400,4400,3600,3600,2400,2900,3600,3600,4400,5400,4400,2025-08,5400
+drive in movie theater ennis tx,4400,1.97,LOW,,transactional,sugg_ennis_tx,5400,4400,4400,3600,3600,2400,2900,3600,3600,4400,5400,4400,2025-08,5400
+drive-in movie ennis tx,4400,1.97,LOW,,navigational,sugg_ennis_tx,5400,4400,4400,3600,3600,2400,2900,3600,3600,4400,5400,4400,2025-08,5400
+drive in movie theatre ennis tx,4400,1.97,LOW,,transactional,sugg_ennis_tx,5400,4400,4400,3600,3600,2400,2900,3600,3600,4400,5400,4400,2025-08,5400
+drive in ennis tx,4400,1.97,LOW,,navigational,sugg_ennis_tx,5400,4400,4400,3600,3600,2400,2900,3600,3600,4400,5400,4400,2025-08,5400
+ennis tx drive in theater,4400,1.97,LOW,,navigational,sugg_ennis_tx,5400,4400,4400,3600,3600,2400,2900,3600,3600,4400,5400,4400,2025-08,5400
+slingshot #polaris,3600,1.49,LOW,20,transactional,sugg_polaris_slingshot,4400,3600,3600,2400,2400,2400,2900,4400,4400,4400,3600,3600,2025-08,4400
+bluebonnet texas,3600,0.27,MEDIUM,8,informational,sugg_bluebonnet,2400,2400,2400,1900,1900,2900,3600,9900,6600,4400,2400,1600,2026-03,9900
+bluebonnet detention center,3600,13.21,LOW,,navigational,sugg_bluebonnet,3600,4400,4400,3600,4400,4400,3600,3600,3600,2900,2900,3600,2025-09,4400
+wyndham bluebonnet orlando,3600,1.35,MEDIUM,26,navigational,sugg_bluebonnet,2900,2900,3600,3600,3600,5400,4400,4400,4400,2900,2900,2900,2026-01,5400
+bluebonnet fields,3600,0.28,LOW,8,informational,sugg_bluebonnet,1900,1900,1600,1600,1900,2400,2400,9900,12100,2900,1900,1900,2026-04,12100
+bluebonnet field,3600,0.28,LOW,7,informational,sugg_bluebonnet,1900,1900,1600,1600,1900,2400,2400,9900,12100,2900,1900,1900,2026-04,12100
+slingshot motorcycle polaris,2900,1.27,LOW,6,transactional,sugg_polaris_slingshot,14800,9900,1000,1600,880,720,1000,1300,1300,2400,2400,590,2025-08,14800
+polaris slingshot bike,2900,1.27,LOW,21,transactional,sugg_polaris_slingshot,14800,9900,1000,1600,880,720,1000,1300,1300,2400,2400,590,2025-08,14800
+pictures of the bluebonnet,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+bluebonnet preserve,2900,1.91,LOW,,informational,sugg_bluebonnet,3600,2900,2900,2900,2900,2900,2400,2900,2900,2900,3600,2900,2025-08,3600
+bluebonnet festivals,2900,,LOW,12,informational,sugg_bluebonnet,590,480,720,480,590,880,1600,8100,18100,1000,1000,590,2026-04,18100
+texas bluebonnet festival,2900,,LOW,13,informational,sugg_bluebonnet,590,480,720,480,590,880,1600,8100,18100,1000,1000,590,2026-04,18100
+picture of a bluebonnet,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+images of bluebonnet,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+bluebonnet imaging,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+pictures of bluebonnet,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+bluebonnet festival of texas,2900,,LOW,11,informational,sugg_bluebonnet,590,480,720,480,590,880,1600,8100,18100,1000,1000,590,2026-04,18100
+bluebonnet bbq,2900,0.5,LOW,,navigational,sugg_bluebonnet,3600,2900,2900,2900,2900,2400,2400,3600,3600,3600,2900,2400,2025-08,3600
+picture of the bluebonnet,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+bluebonnet festival in texas,2900,,LOW,12,informational,sugg_bluebonnet,590,480,720,480,590,880,1600,8100,18100,1000,1000,590,2026-04,18100
+bluebonnet images,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+pictures of a bluebonnet,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+brec's bluebonnet swamp nature center,2900,0.98,LOW,9,navigational,sugg_bluebonnet,1900,1900,2900,2900,2400,2400,2900,3600,2900,2400,2400,2400,2026-03,3600
+bluebonnet image,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+bluebonnet pics,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+picture of bluebonnet,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+bluebonnet photo,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+bluebonnet barbecue,2900,0.5,LOW,,informational,sugg_bluebonnet,3600,2900,2900,2900,2900,2400,2400,3600,3600,3600,2900,2400,2025-08,3600
+bluebonnet photos,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+bluebonnet festival,2900,,LOW,13,informational,sugg_bluebonnet,590,480,720,480,590,880,1600,8100,18100,1000,1000,590,2026-04,18100
+bluebonnet pictures,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+bluebonnet picture,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+bluebonnet festivals in texas,2900,,LOW,13,informational,sugg_bluebonnet,590,480,720,480,590,880,1600,8100,18100,1000,1000,590,2026-04,18100
+bluebonnet pic,2900,0.4,HIGH,,informational,sugg_bluebonnet,2400,1900,1900,1900,1600,1900,2400,5400,4400,2900,1900,1900,2026-03,5400
+restaurant ennis tx,2900,0.41,LOW,,navigational,sugg_ennis_tx,3600,2900,3600,2900,2900,2400,2900,3600,4400,2900,2900,2900,2026-04,4400
+restaurants in ennis tx,2900,0.41,LOW,,commercial,sugg_ennis_tx,3600,2900,3600,2900,2900,2400,2900,3600,4400,2900,2900,2900,2026-04,4400
+h e b ennis tx,2900,2.28,LOW,12,navigational,sugg_ennis_tx,2900,2900,2400,2900,3600,2900,2400,2400,2900,2900,2400,2400,2025-12,3600
+heb ennis tx,2900,2.28,LOW,18,navigational,sugg_ennis_tx,2900,2900,2400,2900,3600,2900,2400,2400,2900,2900,2400,2400,2025-12,3600
+ennis tx restaurants,2900,0.41,LOW,,commercial,sugg_ennis_tx,3600,2900,3600,2900,2900,2400,2900,3600,4400,2900,2900,2900,2026-04,4400
+bluebonnet trail ennis,2400,5.85,LOW,12,navigational,sugg_bluebonnet,390,320,320,390,260,480,1300,6600,12100,1900,880,590,2026-04,12100
+the waters at bluebonnet,2400,0.97,LOW,,informational,sugg_bluebonnet,2400,1600,1600,1600,1600,2400,2400,2400,2900,2900,2900,3600,2026-07,3600
+bluebonnet massage spa dallas,2400,2.73,LOW,1,navigational,sugg_bluebonnet,1900,2400,1900,1900,2400,2400,2900,2900,2900,2900,2400,2900,2026-02,2900
+bluebonnet jeep,2400,2.33,HIGH,18,transactional,sugg_bluebonnet,3600,2900,2900,2900,2900,2900,2900,2400,1300,1300,1000,1000,2025-08,3600
+bluebonnet massage irving,2400,3.74,LOW,8,commercial,sugg_bluebonnet,2900,2900,2400,2400,2400,2400,2400,2400,2400,2400,2900,2900,2025-08,2900
+bluebonnet feeds,2400,1.23,HIGH,2,informational,sugg_bluebonnet,2400,2400,2400,2400,1900,2400,2400,2400,2400,1900,1900,1900,2025-08,2400
+bluebonnet trails ennis,2400,5.85,LOW,11,navigational,sugg_bluebonnet,390,320,320,390,260,480,1300,6600,12100,1900,880,590,2026-04,12100
+ennis bluebonnet trails an april driving route,2400,0.13,LOW,11,navigational,sugg_bluebonnet,390,390,480,390,320,390,720,5400,18100,1300,480,390,2026-04,18100
+bluebonnet swamp,2400,0.49,LOW,9,informational,sugg_bluebonnet,1900,1900,2400,2400,1900,1900,2400,2900,2400,1900,1900,1900,2026-03,2900
+bluebonnet park,2400,1.02,LOW,13,navigational,sugg_bluebonnet,1300,2400,1600,1900,880,720,1300,4400,8100,2400,2400,1300,2026-04,8100
+bluebonnet swamp nature center,2400,0.49,LOW,9,navigational,sugg_bluebonnet,1900,1900,2400,2400,1900,1900,2400,2900,2400,1900,1900,1900,2026-03,2900
+bluebonnet learning portal,2400,9.08,LOW,1,navigational,sugg_bluebonnet,3600,2900,2900,1900,1600,2400,2400,1900,1900,1300,1600,1900,2025-08,3600
+bluebonnet diner,2400,0.51,LOW,23,navigational,sugg_bluebonnet,2900,2400,2900,2900,2400,2400,2400,2900,2400,2900,2400,2900,2025-08,2900
+bluebonnet massage irving tx,2400,3.74,LOW,8,commercial,sugg_bluebonnet,2900,2900,2400,2400,2400,2400,2400,2400,2400,2400,2900,2900,2025-08,2900
+bluebonnet feed,2400,1.23,HIGH,2,informational,sugg_bluebonnet,2400,2400,2400,2400,1900,2400,2400,2400,2400,1900,1900,1900,2025-08,2400
+is it illegal to pick a bluebonnet in texas,2400,,LOW,,informational,sugg_bluebonnet,720,590,480,390,320,390,590,12100,8100,2400,1300,720,2026-03,12100
+fbm property ennis tx,2400,5.42,LOW,,navigational,sugg_ennis_tx,2900,2400,2400,1900,1900,2400,2400,2400,2400,2400,2400,2400,2025-08,2900
+ennis regional medical center ennis tx,2400,5.23,LOW,,navigational,sugg_ennis_tx,2400,2400,2400,1900,2400,2400,2900,2900,2400,2400,2400,2400,2026-02,2900
+fbm property management ennis tx,2400,5.42,LOW,,navigational,sugg_ennis_tx,2900,2400,2400,1900,1900,2400,2400,2400,2400,2400,2400,2400,2025-08,2900
+fbm properties ennis tx,2400,5.42,LOW,,navigational,sugg_ennis_tx,2900,2400,2400,1900,1900,2400,2400,2400,2400,2400,2400,2400,2025-08,2900
+polaris slingshot rental,1900,1.82,LOW,11,transactional,sugg_slingshot_rental,2900,1900,1300,880,1600,720,1000,2400,2400,2900,2900,2400,2025-08,2900
+slingshot miami rental,1900,1.93,HIGH,4,transactional,sugg_slingshot_rental,1600,1300,1600,1600,1600,1900,1900,2400,1900,1900,1600,1900,2026-03,2400
+slingshot polaris for rent,1900,1.82,LOW,22,transactional,sugg_polaris_slingshot,2900,1900,1300,880,1600,720,1000,2400,2400,2900,2900,2400,2025-08,2900
+rent a polaris slingshot,1900,1.82,LOW,22,transactional,sugg_polaris_slingshot,2900,1900,1300,880,1600,720,1000,2400,2400,2900,2900,2400,2025-08,2900
+renting a polaris slingshot,1900,1.82,LOW,22,transactional,sugg_polaris_slingshot,2900,1900,1300,880,1600,720,1000,2400,2400,2900,2900,2400,2025-08,2900
+polaris slingshot rentals,1900,1.82,LOW,11,commercial,sugg_polaris_slingshot,2900,1900,1300,880,1600,720,1000,2400,2400,2900,2900,2400,2025-08,2900
+renting polaris slingshot,1900,1.82,LOW,28,transactional,sugg_polaris_slingshot,2900,1900,1300,880,1600,720,1000,2400,2400,2900,2900,2400,2025-08,2900
+rent polaris slingshot,1900,1.82,LOW,22,transactional,sugg_polaris_slingshot,2900,1900,1300,880,1600,720,1000,2400,2400,2900,2900,2400,2025-08,2900
+bluebonnet dermatology,1900,2.9,LOW,,informational,sugg_bluebonnet,1600,1900,1600,1600,1900,1900,1600,1600,1900,1600,1900,1900,2025-09,1900
+bluebonnet vet south lamar,1900,10.52,LOW,,navigational,sugg_bluebonnet,1900,1900,1900,1600,1600,1900,1600,1900,1900,1900,1900,1900,2025-08,1900
+bend on bluebonnet,1900,1.76,LOW,,informational,sugg_bluebonnet,2400,1600,1600,1900,1900,2400,1900,1600,1900,1900,1900,1900,2025-08,2400
+bluebonnet festival ennis tx,1900,,LOW,10,informational,sugg_bluebonnet,110,110,170,110,210,390,1000,6600,14800,590,260,90,2026-04,14800
+bluebonnet festival ennis texas,1900,,LOW,9,navigational,sugg_bluebonnet,110,110,170,110,210,390,1000,6600,14800,590,260,90,2026-04,14800
+bluebonnet learning k-5 math,1900,6.44,LOW,,informational,sugg_bluebonnet,2900,4400,3600,2400,1300,1900,1600,1000,720,390,260,210,2025-09,4400
+ennis bluebonnet festival,1900,,LOW,7,informational,sugg_bluebonnet,110,110,170,110,210,390,1000,6600,14800,590,260,90,2026-04,14800
+bluebonnet vet austin,1900,10.52,LOW,,navigational,sugg_bluebonnet,1900,1900,1900,1600,1600,1900,1600,1900,1900,1900,1900,1900,2025-08,1900
+bluebonnet tattoo,1900,1.43,LOW,,informational,sugg_bluebonnet,2400,1900,1900,1600,1300,1600,1900,3600,2400,2400,1900,1900,2026-03,3600
+bluebonnet tattoos,1900,1.43,LOW,,informational,sugg_bluebonnet,2400,1900,1900,1600,1300,1600,1900,3600,2400,2400,1900,1900,2026-03,3600
+bluebonnet festival in ennis,1900,,LOW,10,informational,sugg_bluebonnet,110,110,170,110,210,390,1000,6600,14800,590,260,90,2026-04,14800
+hotels ennis tx,1900,3.7,HIGH,,navigational,sugg_ennis_tx,1600,2400,1900,1600,1000,1900,1900,4400,1900,1600,1900,1600,2026-03,4400
+hotels in ennis tx,1900,3.7,HIGH,,commercial,sugg_ennis_tx,1600,2400,1900,1600,1000,1900,1900,4400,1900,1600,1900,1600,2026-03,4400
+hotel ennis tx,1900,3.7,HIGH,,navigational,sugg_ennis_tx,1600,2400,1900,1600,1000,1900,1900,4400,1900,1600,1900,1600,2026-03,4400
+slingshot for rental,1600,1.29,MEDIUM,28,transactional,sugg_slingshot_rental,2400,1600,1000,590,480,590,720,2400,2400,2900,3600,2900,2026-06,3600
+slingshot car rental,1600,1.23,MEDIUM,27,transactional,sugg_slingshot_rental,2400,1600,1000,590,590,590,880,1900,1900,2400,2400,1900,2025-08,2400
+bluebonnet meat market,1600,1.37,LOW,,navigational,sugg_bluebonnet,2900,1900,1900,1900,1600,1000,1000,1600,1300,1300,1000,1000,2025-08,2900
+bluebonnet beer,1600,0.03,LOW,,informational,sugg_bluebonnet,1900,1600,1900,1300,1300,1600,1600,2400,1900,1900,1900,1900,2026-03,2400
+bluebonnet brewery,1600,0.03,LOW,,navigational,sugg_bluebonnet,1900,1600,1900,1300,1300,1600,1600,2400,1900,1900,1900,1900,2026-03,2400
+burnet bluebonnet festival,1600,,LOW,,informational,sugg_bluebonnet,210,260,260,210,390,590,1000,2900,12100,390,170,140,2026-04,12100
+bluebonnet meat co,1600,1.37,LOW,,navigational,sugg_bluebonnet,2900,1900,1900,1900,1600,1000,1000,1600,1300,1300,1000,1000,2025-08,2900
+bluebonnet festival burnet tx,1600,,LOW,2,informational,sugg_bluebonnet,210,260,260,210,390,590,1000,2900,12100,390,170,140,2026-04,12100
+party time bluebonnet,1600,12.53,LOW,9,informational,sugg_bluebonnet,1000,1300,3600,1600,1900,1900,1900,1600,1300,1600,1000,1000,2025-10,3600
+bluebonnet brewing,1600,0.03,LOW,,navigational,sugg_bluebonnet,1900,1600,1900,1300,1300,1600,1600,2400,1900,1900,1900,1900,2026-03,2400
+bluebonnet vitamins,1600,1.16,HIGH,,informational,sugg_bluebonnet,1600,1600,1600,1300,1600,1900,1600,1600,1600,1600,1300,1600,2026-01,1900
+bluebonnet flowers in texas,1600,0.06,HIGH,8,informational,sugg_bluebonnet,1000,1000,880,590,390,1600,6600,5400,1600,1000,590,480,2026-02,6600
+texas bluebonnet flowers,1600,0.06,HIGH,8,informational,sugg_bluebonnet,1000,1000,880,590,390,1600,6600,5400,1600,1000,590,480,2026-02,6600
+party time on bluebonnet,1600,12.53,LOW,8,informational,sugg_bluebonnet,1000,1300,3600,1600,1900,1900,1900,1600,1300,1600,1000,1000,2025-10,3600
+burnet texas bluebonnet festival,1600,,LOW,7,informational,sugg_bluebonnet,210,260,260,210,390,590,1000,2900,12100,390,170,140,2026-04,12100
+bluebonnet festival in burnet texas,1600,,LOW,3,informational,sugg_bluebonnet,210,260,260,210,390,590,1000,2900,12100,390,170,140,2026-04,12100
+texas flower bluebonnet,1600,0.06,HIGH,8,informational,sugg_bluebonnet,1000,1000,880,590,390,1600,6600,5400,1600,1000,590,480,2026-02,6600
+bluebonnet drawing,1600,0.08,HIGH,,informational,sugg_bluebonnet,1600,1600,1300,1600,1300,1300,1600,2400,2400,2400,720,590,2026-03,2400
+bluebonnet math,1600,4.95,LOW,6,informational,sugg_bluebonnet,3600,2900,1900,1600,1000,1600,1600,1300,1600,1000,1000,1000,2025-08,3600
+bluebonnet grill san antonio,1600,0.05,LOW,,commercial,sugg_bluebonnet,1900,1600,1600,1300,1600,1300,1600,1900,1600,1600,1600,1600,2025-08,1900
+blackland ennis tx,1600,1.36,LOW,,informational,sugg_ennis_tx,1600,1300,1600,1300,1300,1000,1300,1600,1300,1600,1900,1600,2026-06,1900
+ennis state bank ennis tx,1600,6.3,LOW,,navigational,sugg_ennis_tx,1900,1900,1900,1600,1900,1600,1300,1900,1600,1600,1300,1300,2025-08,1900
+silverton village ennis tx,1600,2.16,LOW,,navigational,sugg_ennis_tx,1900,1600,1600,1600,1600,1300,1300,1600,1600,1600,1900,1900,2025-08,1900
+keever mortuary ennis tx,1600,3.7,LOW,,navigational,sugg_ennis_tx,1900,1600,2400,1600,1600,1600,1000,1000,880,1300,1300,1300,2025-10,2400
+blackland building supply ennis tx,1600,1.36,LOW,,navigational,sugg_ennis_tx,1600,1300,1600,1300,1300,1000,1300,1600,1300,1600,1900,1600,2026-06,1900
+city of ennis tx,1600,,LOW,15,navigational,sugg_ennis_tx,1300,1300,1600,1300,1300,1600,1300,1600,1600,1300,1900,1600,2026-06,1900
+houston slingshot rental,1300,1.97,LOW,21,transactional,sugg_slingshot_rental,1600,1600,1600,1300,880,880,1000,2400,1600,1300,1600,1600,2026-03,2400
+slingshot rental las vegas,1300,3.08,HIGH,1,transactional,sugg_slingshot_rental,1600,1600,1600,1000,720,880,1300,1900,1600,1300,1300,1000,2026-03,1900
+slingshot rental houston texas,1300,1.97,LOW,2,transactional,sugg_slingshot_rental,1600,1600,1600,1300,880,880,1000,2400,1600,1300,1600,1600,2026-03,2400
+houston slingshot rental llc houston tx,1300,1.97,LOW,8,navigational,sugg_slingshot_rental,1600,1600,1600,1300,880,880,1000,2400,1600,1300,1600,1600,2026-03,2400
+slingshot rental in houston,1300,1.97,LOW,21,transactional,sugg_slingshot_rental,1600,1600,1600,1300,880,880,1000,2400,1600,1300,1600,1600,2026-03,2400
+top speed of polaris slingshot,1300,0.01,LOW,,informational,sugg_polaris_slingshot,1600,1300,1600,720,720,720,880,1300,1600,1900,1900,1600,2026-05,1900
+top speed polaris slingshot,1300,0.01,LOW,,transactional,sugg_polaris_slingshot,1600,1300,1600,720,720,720,880,1300,1600,1900,1900,1600,2026-05,1900
+top speed for polaris slingshot,1300,0.01,LOW,,informational,sugg_polaris_slingshot,1600,1300,1600,720,720,720,880,1300,1600,1900,1900,1600,2026-05,1900
+top speed of a polaris slingshot,1300,0.01,LOW,,informational,sugg_polaris_slingshot,1600,1300,1600,720,720,720,880,1300,1600,1900,1900,1600,2026-05,1900
+polaris slingshot 3 wheel motorcycle,1300,,LOW,,transactional,sugg_polaris_slingshot,1600,320,1600,1900,1000,210,320,720,3600,4400,320,480,2026-05,4400
+polaris slingshot second hand,1300,0.37,LOW,,transactional,sugg_polaris_slingshot,1600,1300,1000,720,720,720,880,1600,1600,1900,1600,1300,2026-05,1900
+polaris slingshot performance specs,1300,0.01,LOW,,informational,sugg_polaris_slingshot,1600,1300,1600,720,720,720,880,1300,1600,1900,1900,1600,2026-05,1900
+polaris slingshot autocycle,1300,0.02,LOW,22,transactional,sugg_polaris_slingshot,1600,1600,2400,390,1000,1300,590,1300,880,1300,1600,1000,2025-10,2400
+quality inn ennis tx,1300,3.05,LOW,,navigational,sugg_ennis_tx,590,1000,1300,1300,1000,1300,1600,2400,1300,1300,1600,1600,2026-03,2400
+planet fitness ennis tx,1300,1.43,LOW,,navigational,sugg_ennis_tx,170,140,140,12100,320,390,260,320,320,320,320,320,2025-11,12100
+motel 6 ennis tx,1300,3.37,MEDIUM,,navigational,sugg_ennis_tx,1300,1000,1300,1300,1000,1000,1000,1900,1600,1300,1600,1600,2026-03,1900
+tractor supply ennis tx,1300,0.22,LOW,,commercial,sugg_ennis_tx,1300,1300,1300,1300,1300,1900,1300,1600,1300,1600,1300,1300,2026-01,1900
+pizza hut ennis tx,1300,0.39,LOW,,navigational,sugg_ennis_tx,1300,1000,1300,1000,1300,1300,1000,1000,1000,1300,1000,1000,2025-08,1300
+polaris slingshot motorcycle rental las vegas las vegas nv,1000,2.6,HIGH,,transactional,sugg_slingshot_rental,1600,1600,1300,880,720,720,1000,1600,1300,1000,880,880,2025-08,1600
+las vegas polaris slingshot rental,1000,2.6,HIGH,,transactional,sugg_slingshot_rental,1600,1600,1300,880,720,720,1000,1600,1300,1000,880,880,2025-08,1600
+vegas slingshot rental,1000,2.6,HIGH,4,transactional,sugg_slingshot_rental,1600,1600,1300,880,720,720,1000,1600,1300,1000,880,880,2025-08,1600
+slingshot rental in las vegas,1000,2.6,HIGH,5,transactional,sugg_slingshot_rental,1600,1600,1300,880,720,720,1000,1600,1300,1000,880,880,2025-08,1600
+las vegas slingshot rental,1000,2.6,HIGH,,transactional,sugg_slingshot_rental,1600,1600,1300,880,720,720,1000,1600,1300,1000,880,880,2025-08,1600
+north atlanta slingshot rental,1000,2.74,LOW,3,transactional,sugg_slingshot_rental,2900,1600,880,260,260,260,390,1000,1600,1000,1900,720,2025-08,2900
+slingshot rental in vegas,1000,2.6,HIGH,,transactional,sugg_slingshot_rental,1600,1600,1300,880,720,720,1000,1600,1300,1000,880,880,2025-08,1600
+polaris slingshot motorcycle rental las vegas,1000,2.6,HIGH,1,transactional,sugg_slingshot_rental,1600,1600,1300,880,720,720,1000,1600,1300,1000,880,880,2025-08,1600
+polaris slingshot rentals las vegas,1000,2.6,HIGH,3,transactional,sugg_polaris_slingshot,1600,1600,1300,880,720,720,1000,1600,1300,1000,880,880,2025-08,1600
+cvs ennis tx,1000,0.42,LOW,,navigational,sugg_ennis_tx,1000,1300,1300,1000,1300,1000,1000,1000,880,1000,1000,880,2025-09,1300
+galaxy drive-in movie theatre ennis tx,1000,,LOW,,navigational,sugg_ennis_tx,1900,2400,1000,590,590,590,1300,590,720,1000,1600,1600,2025-09,2400
+galaxy drive in ennis tx,1000,,LOW,,navigational,sugg_ennis_tx,1900,2400,1000,590,590,590,1300,590,720,1000,1600,1600,2025-09,2400
+ennis tx rental homes,1000,1.05,MEDIUM,,transactional,sugg_ennis_tx,1300,1000,880,880,1000,1300,1300,1300,1300,1300,1000,1000,2025-08,1300
+galaxy drive in movie ennis tx,1000,,LOW,,transactional,sugg_ennis_tx,1900,2400,1000,590,590,590,1300,590,720,1000,1600,1600,2025-09,2400
+house for rent in ennis tx,1000,1.05,MEDIUM,,transactional,sugg_ennis_tx,1300,1000,880,880,1000,1300,1300,1300,1300,1300,1000,1000,2025-08,1300
+galaxy drive in theater ennis tx,1000,,LOW,,navigational,sugg_ennis_tx,1900,2400,1000,590,590,590,1300,590,720,1000,1600,1600,2025-09,2400
+house for rent ennis tx,1000,1.05,MEDIUM,,transactional,sugg_ennis_tx,1300,1000,880,880,1000,1300,1300,1300,1300,1300,1000,1000,2025-08,1300
+rent house ennis tx,1000,1.05,MEDIUM,,navigational,sugg_ennis_tx,1300,1000,880,880,1000,1300,1300,1300,1300,1300,1000,1000,2025-08,1300
+galaxy drive in movie theater ennis tx,1000,,LOW,,transactional,sugg_ennis_tx,1900,2400,1000,590,590,590,1300,590,720,1000,1600,1600,2025-09,2400
+walgreens ennis tx,1000,0.35,LOW,,navigational,sugg_ennis_tx,880,880,1000,1000,1300,1000,1000,1000,1000,1000,1000,1000,2025-12,1300
+rent homes ennis tx,1000,1.05,MEDIUM,,navigational,sugg_ennis_tx,1300,1000,880,880,1000,1300,1300,1300,1300,1300,1000,1000,2025-08,1300
+polaris slingshot rental myrtle beach,880,1.17,LOW,,transactional,sugg_slingshot_rental,320,170,20,10,10,10,10,20,30,3600,6600,70,2026-06,6600
+slingshot rental dallas,880,1.62,MEDIUM,2,transactional,sugg_slingshot_rental,880,720,720,480,320,260,480,880,590,1300,2900,1000,2026-06,2900
+slingshot rental atlanta,880,1.71,MEDIUM,,transactional,sugg_slingshot_rental,1300,1000,720,210,210,210,390,1000,1300,880,1600,1000,2026-06,1600
+polaris slingshot rental near me,880,1.61,MEDIUM,13,transactional,sugg_slingshot_rental,1600,880,1900,320,170,210,390,720,880,1300,1000,1000,2025-10,1900
+slingshot polaris 0 60,880,,LOW,,transactional,sugg_polaris_slingshot,1300,880,1000,590,480,480,590,720,720,880,880,880,2025-08,1300
+polaris slingshot zero to 60,880,,LOW,,transactional,sugg_polaris_slingshot,1300,880,1000,590,480,480,590,720,720,880,880,880,2025-08,1300
+2024 polaris slingshot,880,1.89,LOW,,transactional,sugg_polaris_slingshot,1300,1300,1000,1000,880,1000,880,390,480,390,320,320,2025-08,1300
+rent polaris slingshot near me,880,1.61,MEDIUM,1,transactional,sugg_polaris_slingshot,1600,880,1900,320,170,210,390,720,880,1300,1000,1000,2025-10,1900
+2023 polaris slingshot,880,1.41,LOW,,transactional,sugg_polaris_slingshot,1900,1300,1000,880,590,720,590,590,390,390,480,480,2025-08,1900
+polaris slingshot 0 to 60,880,,LOW,,transactional,sugg_polaris_slingshot,1300,880,1000,590,480,480,590,720,720,880,880,880,2025-08,1300
+polaris slingshot rentals myrtle beach,880,1.17,LOW,,transactional,sugg_polaris_slingshot,320,170,20,10,10,10,10,20,30,3600,6600,70,2026-06,6600
+polaris slingshot rentals near me,880,1.61,MEDIUM,,transactional,sugg_polaris_slingshot,1600,880,1900,320,170,210,390,720,880,1300,1000,1000,2025-10,1900
+polaris slingshot for rent near me,880,1.61,MEDIUM,7,transactional,sugg_polaris_slingshot,1600,880,1900,320,170,210,390,720,880,1300,1000,1000,2025-10,1900
+rent a polaris slingshot near me,880,1.61,MEDIUM,1,transactional,sugg_polaris_slingshot,1600,880,1900,320,170,210,390,720,880,1300,1000,1000,2025-10,1900
+polaris slingshot trike,880,,LOW,11,transactional,sugg_polaris_slingshot,2400,3600,1000,480,590,720,210,720,390,260,70,110,2025-09,3600
+ennis care center ennis tx,880,6.04,LOW,2,navigational,sugg_ennis_tx,720,720,720,720,590,720,720,880,720,880,1000,1300,2026-07,1300
+rental slingshot,720,1.37,MEDIUM,21,transactional,sugg_slingshot_rental,1000,720,590,320,170,210,320,880,1000,1000,1600,1000,2026-06,1600
+pocono slingshot rental,720,1.14,LOW,2,transactional,sugg_slingshot_rental,1600,1300,1000,210,140,140,170,260,390,720,1300,1300,2025-08,1600
+slingshot rental myrtle beach sc,720,1.48,LOW,,transactional,sugg_slingshot_rental,1000,880,390,170,90,170,260,1000,1300,1900,1000,880,2026-05,1900
+poconos slingshot rental,720,1.14,LOW,,commercial,sugg_slingshot_rental,1600,1300,1000,210,140,140,170,260,390,720,1300,1300,2025-08,1600
+galveston slingshot rental,720,0.81,LOW,4,navigational,sugg_slingshot_rental,1000,720,590,590,390,390,320,1000,1000,1000,1000,1000,2025-08,1000
+myrtle beach slingshot rental,720,1.14,LOW,,transactional,sugg_slingshot_rental,1000,590,320,170,170,170,210,720,1000,1300,1000,1300,2026-05,1300
+rental slingshot near me,720,1.36,MEDIUM,19,transactional,sugg_slingshot_rental,720,480,390,260,210,260,480,880,880,1000,1600,1000,2026-06,1600
+slingshot by polaris specs,720,0.14,LOW,8,transactional,sugg_polaris_slingshot,1000,880,720,590,390,390,480,590,590,880,1000,880,2025-08,1000
+polaris slingshot hp,720,0.14,LOW,,transactional,sugg_polaris_slingshot,1000,880,720,590,390,390,480,590,590,880,1000,880,2025-08,1000
+polaris slingshot horsepower,720,0.14,LOW,,transactional,sugg_polaris_slingshot,1000,880,720,590,390,390,480,590,590,880,1000,880,2025-08,1000
+how much is a polaris slingshot,720,1.37,LOW,9,informational,sugg_polaris_slingshot,1000,720,880,320,320,320,320,590,720,1000,1000,1000,2025-08,1000
+polaris slingshot 4 seat,720,1.2,LOW,1,transactional,sugg_polaris_slingshot,1300,880,720,390,390,390,480,880,1000,1000,1000,880,2025-08,1300
+polaris slingshot r,720,1.51,LOW,2,transactional,sugg_polaris_slingshot,720,590,590,390,880,390,390,720,720,1000,880,880,2026-05,1000
+2026 polaris slingshot,720,1.26,LOW,15,transactional,sugg_polaris_slingshot,320,320,590,390,590,480,590,1300,1300,1600,1000,720,2026-05,1600
+polaris slingshot specifications,720,0.14,LOW,2,informational,sugg_polaris_slingshot,1000,880,720,590,390,390,480,590,590,880,1000,880,2025-08,1000
+polaris slingshot specs,720,0.14,LOW,8,informational,sugg_polaris_slingshot,1000,880,720,590,390,390,480,590,590,880,1000,880,2025-08,1000
+how much for polaris slingshot,720,1.37,LOW,,commercial,sugg_polaris_slingshot,1000,720,880,320,320,320,320,590,720,1000,1000,1000,2025-08,1000
+how much are polaris slingshot,720,1.37,LOW,,informational,sugg_polaris_slingshot,1000,720,880,320,320,320,320,590,720,1000,1000,1000,2025-08,1000
+polaris slingshot how much,720,1.37,LOW,,commercial,sugg_polaris_slingshot,1000,720,880,320,320,320,320,590,720,1000,1000,1000,2025-08,1000
+4 seater polaris slingshot,720,1.2,LOW,2,transactional,sugg_polaris_slingshot,1300,880,720,390,390,390,480,880,1000,1000,1000,880,2025-08,1300
+how much is polaris slingshot,720,1.37,LOW,,commercial,sugg_polaris_slingshot,1000,720,880,320,320,320,320,590,720,1000,1000,1000,2025-08,1000
+panama city beach slingshot rental,590,0.74,HIGH,,transactional,sugg_slingshot_rental,880,590,480,170,210,140,260,880,880,720,1000,880,2026-06,1000
+engine in polaris slingshot,590,0.11,LOW,5,transactional,sugg_polaris_slingshot,880,590,720,480,320,320,320,480,590,720,880,880,2025-08,880
+gas mileage for polaris slingshot,590,,LOW,,commercial,sugg_polaris_slingshot,720,590,590,320,260,260,390,720,880,1300,1000,720,2026-05,1300
+mpg for polaris slingshot,590,,LOW,,informational,sugg_polaris_slingshot,720,590,590,320,260,260,390,720,880,1300,1000,720,2026-05,1300
+2016 slingshot polaris,590,0.66,LOW,,transactional,sugg_polaris_slingshot,720,720,590,480,480,390,480,720,720,720,720,720,2025-08,720
+slingshot polaris motor,590,0.11,LOW,7,transactional,sugg_polaris_slingshot,880,590,720,480,320,320,320,480,590,720,880,880,2025-08,880
+mpg on polaris slingshot,590,,LOW,,informational,sugg_polaris_slingshot,720,590,590,320,260,260,390,720,880,1300,1000,720,2026-05,1300
+polaris slingshot with 4 wheels,590,2.52,LOW,,transactional,sugg_polaris_slingshot,880,720,590,390,320,390,390,480,590,880,720,880,2025-08,880
+slingshot polaris engine,590,0.11,LOW,,transactional,sugg_polaris_slingshot,880,590,720,480,320,320,320,480,590,720,880,880,2025-08,880
+polaris slingshot roofs,590,0.6,LOW,,transactional,sugg_polaris_slingshot,880,720,720,390,320,390,390,720,590,720,720,590,2025-08,880
+slingshot polaris sl,590,0.58,LOW,25,transactional,sugg_polaris_slingshot,390,390,1900,260,1000,170,320,480,320,590,880,590,2025-10,1900
+4 wheeled polaris slingshot,590,2.52,LOW,,transactional,sugg_polaris_slingshot,880,720,590,390,320,390,390,480,590,880,720,880,2025-08,880
+polaris slingshot gas mileage,590,,LOW,1,informational,sugg_polaris_slingshot,720,590,590,320,260,260,390,720,880,1300,1000,720,2026-05,1300
+cycle trader polaris slingshot,590,4.63,LOW,,transactional,sugg_polaris_slingshot,880,880,1300,10,40,390,70,2900,1000,30,20,40,2026-03,2900
+gas mileage of polaris slingshot,590,,LOW,,commercial,sugg_polaris_slingshot,720,590,590,320,260,260,390,720,880,1300,1000,720,2026-05,1300
+polaris slingshot miles per gallon,590,,LOW,,informational,sugg_polaris_slingshot,720,590,590,320,260,260,390,720,880,1300,1000,720,2026-05,1300
+slingshot polaris mpg,590,,LOW,1,transactional,sugg_polaris_slingshot,720,590,590,320,260,260,390,720,880,1300,1000,720,2026-05,1300
+polaris slingshot rooftop,590,0.6,LOW,,transactional,sugg_polaris_slingshot,880,720,720,390,320,390,390,720,590,720,720,590,2025-08,880
+polaris slingshot 4 wheel,590,2.52,LOW,,transactional,sugg_polaris_slingshot,880,720,590,390,320,390,390,480,590,880,720,880,2025-08,880
+polaris slingshot fuel economy,590,,LOW,,commercial,sugg_polaris_slingshot,720,590,590,320,260,260,390,720,880,1300,1000,720,2026-05,1300
+polaris slingshot 4 wheels,590,2.52,LOW,,transactional,sugg_polaris_slingshot,880,720,590,390,320,390,390,480,590,880,720,880,2025-08,880
+polaris slingshot mileage,590,,LOW,,informational,sugg_polaris_slingshot,720,590,590,320,260,260,390,720,880,1300,1000,720,2026-05,1300
+polaris slingshot roof,590,0.6,LOW,,transactional,sugg_polaris_slingshot,880,720,720,390,320,390,390,720,590,720,720,590,2025-08,880
+2025 polaris slingshot,590,1.44,LOW,4,transactional,sugg_polaris_slingshot,1000,720,1000,480,390,260,1300,880,480,390,390,260,2026-02,1300
+daytona slingshot rental,480,2.39,LOW,,transactional,sugg_slingshot_rental,390,320,390,320,320,390,480,590,590,480,480,590,2026-03,590
+slingshot rental orlando,480,1.6,HIGH,2,transactional,sugg_slingshot_rental,480,390,480,320,260,390,390,720,720,590,590,590,2026-03,720
+slingshot rental in orlando,480,1.6,HIGH,2,transactional,sugg_slingshot_rental,480,390,480,320,260,390,390,720,720,590,590,590,2026-03,720
+cloud of goods slingshot rental,480,0.11,LOW,,transactional,sugg_slingshot_rental,3600,720,590,720,20,20,70,110,20,70,40,20,2025-08,3600
+slingshot rental galveston,390,1.07,LOW,1,transactional,sugg_slingshot_rental,590,390,320,320,140,140,210,590,590,590,590,480,2025-08,590
+slingshot car rental near me,390,1.38,MEDIUM,3,transactional,sugg_slingshot_rental,480,320,210,90,110,110,170,390,590,590,720,720,2026-06,720
+slingshot for rental near me,390,1.67,MEDIUM,25,transactional,sugg_slingshot_rental,480,320,210,170,110,110,170,390,590,590,720,480,2026-06,720
+slingshot rental chicago,390,1.71,MEDIUM,,transactional,sugg_slingshot_rental,590,320,70,40,30,40,90,390,480,880,1300,720,2026-06,1300
+slingshot rental san antonio,320,0.82,MEDIUM,12,transactional,sugg_slingshot_rental,590,320,390,210,140,170,260,260,110,320,720,480,2026-06,720
+slingshot rental gatlinburg tennessee,320,1.02,MEDIUM,,transactional,sugg_slingshot_rental,480,390,320,170,110,90,170,390,390,390,390,320,2025-08,480
+slingshot rental gatlinburg tn,320,1.02,MEDIUM,,transactional,sugg_slingshot_rental,480,390,320,170,110,90,170,390,390,390,390,320,2025-08,480
+gatlinburg slingshot rental,320,1.02,MEDIUM,,transactional,sugg_slingshot_rental,480,390,320,170,110,90,170,390,390,390,390,320,2025-08,480
+turo slingshot rental,320,0.73,LOW,13,transactional,sugg_slingshot_rental,480,1000,170,90,90,90,140,320,390,390,480,390,2025-09,1000
+slingshot rental california,320,1.94,MEDIUM,,transactional,sugg_slingshot_rental,390,260,320,140,140,210,390,480,320,320,320,390,2026-03,480
+slingshot rental in gatlinburg,320,1.02,MEDIUM,,transactional,sugg_slingshot_rental,480,390,320,170,110,90,170,390,390,390,390,320,2025-08,480
+slingshot rental los angeles,320,1.94,MEDIUM,,transactional,sugg_slingshot_rental,390,260,320,140,140,210,390,480,320,320,320,390,2026-03,480
+slingshot rental detroit,260,2.89,LOW,,commercial,sugg_slingshot_rental,590,210,90,20,30,30,50,90,260,480,880,720,2026-06,880
+gulf shores slingshot rental,260,1.39,LOW,20,transactional,sugg_slingshot_rental,320,260,210,140,90,110,170,320,320,390,480,480,2026-06,480
+slingshot rental pigeon forge,260,1.22,MEDIUM,,commercial,sugg_slingshot_rental,390,390,260,70,70,30,90,260,260,320,390,390,2025-08,390
+slingshot rental fort lauderdale,210,2.06,HIGH,,transactional,sugg_slingshot_rental,210,140,140,140,210,170,210,320,260,260,210,260,2026-03,320
+slingshot rental daytona,210,1.32,MEDIUM,,transactional,sugg_slingshot_rental,210,170,260,110,110,170,320,480,260,210,210,210,2026-03,480
+4 seater slingshot rental,210,1.79,MEDIUM,1,transactional,sugg_slingshot_rental,260,260,170,110,90,90,140,260,260,320,390,260,2026-06,390
+slingshot rental tampa,210,1.36,HIGH,,transactional,sugg_slingshot_rental,210,210,210,170,210,170,170,260,260,210,210,170,2026-03,260
+daytona beach slingshot rental,210,1.32,MEDIUM,2,transactional,sugg_slingshot_rental,210,170,260,110,110,170,320,480,260,210,210,210,2026-03,480
+slingshot rental turo,210,0.28,LOW,13,transactional,sugg_slingshot_rental,260,210,140,90,50,70,110,260,260,320,390,320,2026-06,390
+slingshot rental gulf shores,170,1.37,LOW,17,transactional,sugg_slingshot_rental,320,210,170,70,50,40,90,210,170,170,260,320,2025-08,320
+md slingshot rental,170,2.13,LOW,,transactional,sugg_slingshot_rental,320,140,110,30,20,30,50,140,320,260,390,320,2026-06,390
+slingshot rental puerto rico,170,2.14,LOW,,transactional,sugg_slingshot_rental,40,30,40,20,90,140,480,390,320,210,170,210,2026-02,480
+chicago slingshot rental,170,1.76,MEDIUM,,transactional,sugg_slingshot_rental,320,140,70,40,20,40,50,140,170,390,390,390,2026-05,390
+slingshot rental jacksonville fl,140,1.35,HIGH,2,transactional,sugg_slingshot_rental,140,140,140,140,70,50,110,210,210,140,210,210,2026-03,210
+cheap slingshot rental near me,140,1.39,MEDIUM,21,transactional,sugg_slingshot_rental,260,170,140,70,30,30,70,170,140,170,210,140,2025-08,260
+slingshot rental honolulu,140,2.29,HIGH,,transactional,sugg_slingshot_rental,170,170,170,110,90,170,110,110,140,110,170,70,2025-08,170
+slingshot rental virginia beach,140,1.12,LOW,,transactional,sugg_slingshot_rental,260,140,50,20,10,20,30,90,140,170,320,320,2026-06,320
+slingshot rental-philadelphia,140,1.65,MEDIUM,,commercial,sugg_slingshot_rental,260,170,50,30,10,30,20,140,170,320,320,170,2026-05,320
+slingshot rental south padre island,140,1.49,LOW,15,transactional,sugg_slingshot_rental,140,70,70,90,90,40,110,260,110,210,260,320,2026-07,320
+slingshot rental atlanta ga,140,1.85,HIGH,,transactional,sugg_slingshot_rental,110,70,70,30,30,50,70,260,210,140,320,210,2026-06,320
+gi jade slingshot rental,140,,LOW,,transactional,sugg_slingshot_rental,170,170,110,70,40,40,70,210,170,210,260,210,2026-06,260
+slingshot rental nyc,140,0.44,HIGH,,transactional,sugg_slingshot_rental,320,90,50,20,20,20,30,70,110,210,320,210,2025-08,320
+4 seater slingshot rental near me,140,1.55,MEDIUM,1,transactional,sugg_slingshot_rental,210,140,90,70,30,30,70,140,170,170,260,210,2026-06,260
+polaris slingshot rental panama city beach,140,0.93,MEDIUM,1,transactional,sugg_slingshot_rental,720,880,140,10,10,10,10,10,10,20,20,30,2025-09,880
+slingshot rental in philadelphia,140,1.65,MEDIUM,,transactional,sugg_slingshot_rental,260,170,50,30,10,30,20,140,170,320,320,170,2026-05,320
+polaris slingshot 4 seater rental,140,,LOW,23,transactional,sugg_slingshot_rental,210,260,90,20,50,140,140,260,90,140,170,40,2025-09,260
+cheapest slingshot rental near me,140,1.39,MEDIUM,21,transactional,sugg_slingshot_rental,260,170,140,70,30,30,70,170,140,170,210,140,2025-08,260
+slingshot rental nashville,140,2.55,MEDIUM,,commercial,sugg_slingshot_rental,260,140,110,70,40,20,50,170,260,210,260,210,2025-08,260
+slingshot rental san diego,110,2.04,MEDIUM,,transactional,sugg_slingshot_rental,170,90,90,70,50,110,90,140,170,90,140,210,2026-07,210
+slingshot rental new orleans,110,1.95,LOW,,transactional,sugg_slingshot_rental,110,110,110,90,70,70,90,140,110,110,110,90,2026-03,140
+slingshot rental poconos,110,1.68,MEDIUM,1,transactional,sugg_slingshot_rental,260,210,170,30,40,20,20,50,50,110,210,210,2025-08,260
+slingshot rental charlotte nc,110,2.66,LOW,,commercial,sugg_slingshot_rental,140,110,50,40,20,20,40,140,260,170,210,140,2026-04,260
+slingshot rental maui,110,2.02,HIGH,,transactional,sugg_slingshot_rental,110,90,110,90,110,170,110,90,110,170,170,140,2026-01,170
+slingshot rental pcb,110,0.72,HIGH,,transactional,sugg_slingshot_rental,140,90,70,20,20,40,40,170,170,170,210,210,2026-06,210
+slingshot rental destin fl,110,1.94,HIGH,,transactional,sugg_slingshot_rental,140,70,50,20,30,50,70,210,170,170,210,170,2026-03,210
+slingshot rental st augustine,110,1.24,HIGH,1,commercial,sugg_slingshot_rental,110,90,110,90,90,70,90,140,110,110,110,140,2026-03,140
+slingshot rental richmond va,110,1.33,LOW,,transactional,sugg_slingshot_rental,210,110,70,20,20,30,40,110,140,170,210,170,2025-08,210
+might as well ride slingshot rental,110,,LOW,,transactional,sugg_slingshot_rental,170,70,70,50,40,50,50,90,170,170,170,110,2025-08,170
+dfw slingshot rental,110,1.85,LOW,,transactional,sugg_slingshot_rental,70,90,110,70,50,50,110,110,90,140,210,170,2026-06,210
+cleveland slingshot rental,90,1.93,LOW,,commercial,sugg_slingshot_rental,170,70,40,10,20,20,30,30,70,170,260,140,2026-06,260
+slingshot rental milwaukee,90,1.74,LOW,,commercial,sugg_slingshot_rental,110,50,30,10,10,10,10,50,90,260,260,170,2026-05,260
+slingshot rental orlando florida,90,1.61,HIGH,6,transactional,sugg_slingshot_rental,50,30,50,30,20,40,50,110,140,170,170,170,2026-05,170
+slingshot atlanta rental,90,1.13,HIGH,,transactional,sugg_slingshot_rental,110,70,50,40,40,30,70,170,210,140,140,70,2026-04,210
+branson slingshot rental,90,0.56,LOW,,commercial,sugg_slingshot_rental,170,90,70,20,10,10,20,70,90,170,140,170,2025-08,170
+slingshot rental destin,90,1.8,MEDIUM,,transactional,sugg_slingshot_rental,140,110,50,30,10,30,20,140,110,110,110,140,2025-08,140
+slingshot rental orange beach,90,1.48,MEDIUM,1,transactional,sugg_slingshot_rental,170,110,90,30,30,20,50,110,110,110,110,170,2025-08,170
+slingshot car for rental,90,1.14,MEDIUM,27,transactional,sugg_slingshot_rental,110,90,50,40,30,70,70,110,140,170,140,140,2026-05,170
+turo slingshot rental near me,90,0.42,LOW,7,transactional,sugg_slingshot_rental,170,90,50,20,30,20,30,70,90,140,170,170,2025-08,170
+slingshot rental fort myers,90,0.96,HIGH,,transactional,sugg_slingshot_rental,40,50,50,90,90,90,70,210,90,70,70,70,2026-03,210
+slingshot rental nj,90,0.95,MEDIUM,,transactional,sugg_slingshot_rental,260,50,40,10,10,20,20,70,90,140,210,140,2025-08,260
+slingshot rental houston tx,90,3.22,HIGH,8,transactional,sugg_slingshot_rental,70,70,90,70,50,70,90,170,90,90,70,110,2026-03,170
+slingshot rental key west,90,1.12,MEDIUM,,transactional,sugg_slingshot_rental,70,70,70,70,70,90,70,140,110,90,110,90,2026-03,140
+slingshot rental miami beach,90,2.11,MEDIUM,2,transactional,sugg_slingshot_rental,110,70,70,50,50,70,90,110,90,90,40,170,2026-07,170
+slingshot rental austin,70,1.33,HIGH,,commercial,sugg_slingshot_rental,90,70,50,40,30,40,70,90,50,50,70,70,2025-08,90
+slingshot rental pensacola beach,70,1.24,LOW,,transactional,sugg_slingshot_rental,210,170,40,10,10,10,20,20,50,50,50,70,2025-08,210
+slingshot rental waikiki,70,2.51,HIGH,,transactional,sugg_slingshot_rental,70,90,50,70,70,90,70,50,70,90,70,110,2026-07,110
+6 seater slingshot rental,70,2.3,LOW,,transactional,sugg_slingshot_rental,40,10,10,10,10,10,10,30,40,110,480,110,2026-06,480
+slingshot rental greenville sc,70,2.5,LOW,,transactional,sugg_slingshot_rental,70,70,40,20,20,10,20,90,90,110,140,90,2026-06,140
+slingshot rental rhode island,70,3.53,LOW,,transactional,sugg_slingshot_rental,210,50,20,10,10,10,10,20,50,140,170,210,2025-08,210
+slingshot rental baltimore,70,2.27,LOW,,commercial,sugg_slingshot_rental,110,50,30,10,10,10,20,70,140,90,140,90,2026-04,140
+slingshot rental kansas city,70,2.19,LOW,,commercial,sugg_slingshot_rental,110,110,70,20,10,10,30,110,90,110,140,110,2026-06,140
+polaris slingshot rental in las vegas,70,2.91,HIGH,,transactional,sugg_slingshot_rental,70,50,50,40,50,30,40,110,90,90,70,70,2026-03,110
+slingshot rental obx,70,2.25,LOW,,transactional,sugg_slingshot_rental,170,110,40,10,10,10,10,30,70,90,140,110,2025-08,170
+slingshot rental ct,70,1.65,LOW,,transactional,sugg_slingshot_rental,110,50,20,10,10,10,10,50,70,90,170,140,2026-06,170
+slingshot rental birmingham al,70,2.5,LOW,,transactional,sugg_slingshot_rental,110,90,110,10,10,20,40,90,110,70,90,50,2025-08,110
+houston downtown slingshot rental,70,,MEDIUM,9,commercial,sugg_slingshot_rental,110,90,70,70,50,70,50,140,70,90,40,10,2026-03,140
+slingshot rental pensacola,70,4.32,LOW,,commercial,sugg_slingshot_rental,90,90,70,20,10,30,40,90,70,70,110,70,2026-06,110
+slingshot rental branson mo,70,0.56,LOW,,transactional,sugg_slingshot_rental,110,110,70,10,20,10,20,70,90,110,140,170,2026-07,170
+slingshot book rental,70,,LOW,16,transactional,sugg_slingshot_rental,170,90,70,40,70,90,40,40,50,70,90,50,2025-08,170
+slingshot rental near me cheap,70,1.49,LOW,21,transactional,sugg_slingshot_rental,110,50,40,20,10,10,30,70,70,140,140,110,2026-05,140
+florida slingshot rental,70,1.7,MEDIUM,15,transactional,sugg_slingshot_rental,70,50,40,40,50,70,70,140,70,110,70,50,2026-03,140
+cheap slingshot rental,70,1.62,MEDIUM,7,transactional,sugg_slingshot_rental,90,90,50,40,40,40,50,50,70,70,110,70,2026-06,110
+destin slingshot rental,70,1.35,LOW,,transactional,sugg_slingshot_rental,140,70,40,20,10,20,10,90,90,90,70,70,2025-08,140
+polaris slingshot las vegas rental,70,2.91,HIGH,,transactional,sugg_slingshot_rental,70,50,50,40,50,30,40,110,90,90,70,70,2026-03,110
+slingshot motorcycle rental,70,1.14,LOW,30,transactional,sugg_slingshot_rental,110,50,50,30,30,30,50,140,90,90,90,70,2026-03,140
+slingshot rental galveston tx,70,3.23,LOW,1,transactional,sugg_slingshot_rental,90,70,70,70,20,20,50,140,50,40,70,70,2026-03,140
+polaris slingshot rental vegas,70,2.91,HIGH,,commercial,sugg_slingshot_rental,70,50,50,40,50,30,40,110,90,90,70,70,2026-03,110
+slingshot rental in miami,70,2.17,HIGH,4,transactional,sugg_slingshot_rental,70,50,50,30,40,50,50,90,110,90,90,70,2026-04,110
+slingshot rental louisville ky,70,1.65,LOW,,transactional,sugg_slingshot_rental,110,70,40,10,10,10,20,110,140,90,90,110,2026-04,140
+slingshot rental in myrtle beach,70,2.1,LOW,,transactional,sugg_slingshot_rental,70,50,30,10,30,20,30,110,110,170,110,90,2026-05,170
+slingshot rental cleveland,70,1.83,LOW,,commercial,sugg_slingshot_rental,210,90,30,10,10,10,20,30,70,90,170,170,2025-08,210
+slingshot rental kissimmee,70,1.67,HIGH,7,transactional,sugg_slingshot_rental,30,40,50,20,40,30,50,110,170,70,90,70,2026-04,170
+slingshot bike rental,70,1.14,LOW,30,transactional,sugg_slingshot_rental,110,50,50,30,30,30,50,140,90,90,90,70,2026-03,140
+slingshot rental columbia sc,50,4.06,LOW,,transactional,sugg_slingshot_rental,70,50,30,10,10,30,10,90,140,90,90,50,2026-04,140
+slingshot rental in galveston,50,1.28,LOW,,transactional,sugg_slingshot_rental,70,50,50,40,20,20,40,70,70,90,70,90,2026-05,90
+slingshot rental in atlanta,50,1.35,MEDIUM,,transactional,sugg_slingshot_rental,50,50,40,30,20,20,30,110,110,50,90,50,2026-03,110
+slingshot rental las vegas strip,50,3.69,HIGH,4,transactional,sugg_slingshot_rental,70,90,70,20,20,20,20,70,50,40,50,30,2025-09,90
+slingshot rental memphis,50,1.68,LOW,4,transactional,sugg_slingshot_rental,90,50,30,10,,10,10,90,110,70,90,50,2026-04,110
+pigeon forge slingshot rental,50,1.08,MEDIUM,,commercial,sugg_slingshot_rental,90,90,50,20,20,10,40,50,70,50,70,50,2025-08,90
+slingshot rental fort walton beach,50,0.95,MEDIUM,,transactional,sugg_slingshot_rental,50,50,40,40,10,20,20,90,70,70,70,70,2026-03,90
+phoenix slingshot rental,50,1.87,MEDIUM,,commercial,sugg_slingshot_rental,50,40,50,40,40,30,30,90,90,50,30,30,2026-03,90
+slingshot rental charleston sc,50,1.97,LOW,2,transactional,sugg_slingshot_rental,30,40,30,10,30,20,30,50,70,90,70,70,2026-05,90
+4-seater slingshot rental las vegas,50,4.92,HIGH,9,transactional,sugg_slingshot_rental,40,50,70,20,20,30,40,70,50,50,70,40,2025-10,70
+slingshot rental st louis,50,2.63,LOW,2,transactional,sugg_slingshot_rental,90,70,30,10,10,10,10,70,50,70,110,110,2026-06,110
+slingshot rental broken bow,50,0.64,LOW,,transactional,sugg_slingshot_rental,50,70,90,70,30,20,30,50,40,70,70,90,2025-10,90
+slingshot rental north myrtle beach,50,4.39,LOW,,transactional,sugg_slingshot_rental,70,70,20,10,10,10,10,50,90,140,90,50,2026-05,140
+slingshot rental columbus ohio,50,2.54,LOW,,transactional,sugg_slingshot_rental,110,50,20,10,10,10,20,70,70,70,110,90,2025-08,110
+slingshot rental indianapolis,50,1.89,LOW,,transactional,sugg_slingshot_rental,90,50,20,10,10,10,20,70,110,90,110,110,2026-04,110
+slingshot rental in panama city beach,50,0.88,MEDIUM,,transactional,sugg_slingshot_rental,70,50,50,20,20,10,10,70,90,90,110,70,2026-06,110
+maui slingshot rental,50,2.53,HIGH,,transactional,sugg_slingshot_rental,40,40,30,30,40,50,40,50,50,50,50,70,2026-07,70
+slingshot rental clearwater,50,1.26,HIGH,,transactional,sugg_slingshot_rental,50,70,40,40,30,20,40,70,70,40,70,50,2025-09,70
+slingshot rental cocoa beach,50,1.66,HIGH,,transactional,sugg_slingshot_rental,40,30,50,40,40,40,50,90,50,50,50,50,2026-03,90
+slingshot rental okc,50,4.26,LOW,,transactional,sugg_slingshot_rental,70,50,50,20,10,10,30,50,40,50,140,170,2026-07,170
+slingshot rental mobile al,50,3.89,LOW,,transactional,sugg_slingshot_rental,40,70,50,30,30,70,90,70,50,40,50,50,2026-02,90
+polaris slingshot rental louisville,50,,,,transactional,sugg_slingshot_rental,320,260,,,,,,10,10,,,,2025-08,320
+slingshot rental sarasota,50,2.15,MEDIUM,,commercial,sugg_slingshot_rental,50,50,50,40,50,50,70,90,50,50,50,40,2026-03,90
+slingshot rental tampa fl,50,2.66,HIGH,,transactional,sugg_slingshot_rental,30,30,30,30,20,20,30,90,70,50,70,50,2026-03,90
+slingshot rental arlington tx,50,1.87,HIGH,5,transactional,sugg_slingshot_rental,50,30,20,10,10,10,10,30,30,90,170,90,2026-06,170
+polaris slingshot rental dallas,50,1.21,LOW,,transactional,sugg_slingshot_rental,40,20,20,10,,10,10,50,20,20,210,210,2026-06,210
+polaris slingshot rental miami,50,2.28,HIGH,2,transactional,sugg_slingshot_rental,50,30,30,50,50,40,50,90,40,70,20,40,2026-03,90
+slingshot rental ocean city md,50,2.33,LOW,,transactional,sugg_slingshot_rental,110,50,20,10,10,10,10,30,50,70,140,90,2026-06,140
+slingshot turo rental,40,0.08,LOW,,transactional,sugg_slingshot_rental,30,30,30,10,10,10,20,40,70,140,90,50,2026-05,140
+slingshot car rental miami,40,1.13,HIGH,,transactional,sugg_slingshot_rental,70,40,30,30,30,40,40,50,40,40,40,30,2025-08,70
+pcb slingshot rental,40,0.62,LOW,,transactional,sugg_slingshot_rental,30,40,10,10,10,10,20,70,50,70,50,70,2026-03,70
+tampa slingshot rental,40,0.94,HIGH,,transactional,sugg_slingshot_rental,40,20,40,30,30,40,30,50,70,50,50,40,2026-04,70
+4 seater slingshot rental myrtle beach,40,6.75,LOW,,transactional,sugg_slingshot_rental,50,30,10,10,10,10,10,70,70,90,70,90,2026-05,90
+va beach slingshot rental,40,2.23,LOW,,transactional,sugg_slingshot_rental,10,10,10,10,10,10,10,10,10,30,260,170,2026-06,260
+fort lauderdale slingshot rental,40,1.6,HIGH,,transactional,sugg_slingshot_rental,30,20,20,20,30,40,40,50,50,50,40,40,2026-03,50
+slingshot rental biloxi ms,40,2.7,LOW,1,transactional,sugg_slingshot_rental,70,40,40,10,10,10,20,40,70,50,70,70,2025-08,70
+slingshot rental denver,40,2.31,MEDIUM,,transactional,sugg_slingshot_rental,70,50,20,10,10,10,10,40,40,70,50,70,2025-08,70
+slingshot rental mcdonough ga,40,2.38,LOW,1,transactional,sugg_slingshot_rental,40,40,30,10,10,10,20,50,90,70,90,50,2026-04,90
+slingshot vegas rental,40,2.19,HIGH,3,transactional,sugg_slingshot_rental,40,50,40,20,30,30,20,50,50,30,30,30,2025-09,50
+maggie valley slingshot rental,40,2.05,LOW,,commercial,sugg_slingshot_rental,50,50,50,10,20,10,10,30,50,50,70,50,2026-06,70

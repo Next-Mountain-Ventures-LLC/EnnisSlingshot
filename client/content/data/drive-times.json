@@ -1,0 +1,24 @@
+{
+  "note": "no-traffic estimate; verify in Google Maps before publishing",
+  "destinations": [
+    { "originCity": "Dallas", "state": "TX", "miles": 34.8, "minutes": 40, "route": "I-45 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Fort Worth", "state": "TX", "miles": 57.2, "minutes": 70, "route": "I-20 E / US-287 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Arlington", "state": "TX", "miles": 51.7, "minutes": 60, "route": "I-20 E / I-45 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Plano", "state": "TX", "miles": 52.9, "minutes": 60, "route": "US-75 S / I-45 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Frisco", "state": "TX", "miles": 61.9, "minutes": 75, "route": "Dallas North Tollway S / I-45 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "McKinney", "state": "TX", "miles": 66.8, "minutes": 75, "route": "US-75 S / I-45 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Denton", "state": "TX", "miles": 74.8, "minutes": 90, "route": "I-35E S / I-45 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Irving", "state": "TX", "miles": 46.4, "minutes": 55, "route": "I-35E S / I-45 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Grand Prairie", "state": "TX", "miles": 46.5, "minutes": 55, "route": "I-20 E / I-45 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Mesquite", "state": "TX", "miles": 38.0, "minutes": 45, "route": "I-635 S / I-45 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Waxahachie", "state": "TX", "miles": 16.0, "minutes": 20, "route": "US-287 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Midlothian", "state": "TX", "miles": 27.1, "minutes": 35, "route": "US-287 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Corsicana", "state": "TX", "miles": 21.4, "minutes": 25, "route": "I-45 N", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Waco", "state": "TX", "miles": 71.9, "minutes": 90, "route": "I-35 N / TX-34 E", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Tyler", "state": "TX", "miles": 92.8, "minutes": 110, "route": "TX-31 W / I-45 N", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Austin", "state": "TX", "miles": 172.7, "minutes": 195, "route": "I-35 N / TX-34 E", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Houston", "state": "TX", "miles": 205.4, "minutes": 220, "route": "I-45 N", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "San Antonio", "state": "TX", "miles": 250.8, "minutes": 280, "route": "I-35 N / TX-34 E", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
+    { "originCity": "Oklahoma City", "state": "OK", "miles": 240.2, "minutes": 260, "route": "I-35 S / I-45 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" }
+  ]
+}

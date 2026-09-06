@@ -1,0 +1,1729 @@
+{
+  "pillar": "ennis-dfw",
+  "category_slug": "ennis-dfw",
+  "topics": [
+    {
+      "id": "ed-001",
+      "title": "NHRA Fall Nationals at Texas Motorplex: A First-Timer's Weekend Guide",
+      "slug": "nhra-fall-nationals-texas-motorplex-guide",
+      "primary_keyword": "nhra fall nationals texas motorplex",
+      "volume_note": "n/a \u2014 not pulled; rides the 'texas motorplex' spike (12,100 avg TX, Oct 33,100). Site page /ennis/texas-motorplex/ owns the head term; this post owns the October event itself.",
+      "secondary_keywords": [
+        "texas fallnationals",
+        "stampede of speed ennis",
+        "texas motorplex october",
+        "nhra ennis texas"
+      ],
+      "paa_questions": [
+        "What is the Stampede of Speed at Texas Motorplex?",
+        "How long does the NHRA Fall Nationals last?",
+        "What time do gates open at Texas Motorplex?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2200,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/texas-motorplex/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2026-10-02",
+        "ideal": "2026-09-12"
+      },
+      "seasonal_hook": "NHRA Fall Nationals / Stampede of Speed, early\u2013mid October 2026",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Hour-by-hour plan for a first Fall Nationals weekend (Thursday qualifying through Sunday eliminations) written by someone who lives 10 minutes from the track, with the honest note that our Slingshots run in April and a gift-card CTA for race fans who want to come back."
+    },
+    {
+      "id": "ed-002",
+      "title": "Where to Stay Near Texas Motorplex: Hotels, RV Parks and Camping Within 20 Minutes",
+      "slug": "hotels-near-texas-motorplex",
+      "primary_keyword": "hotels near texas motorplex",
+      "volume_note": "n/a \u2014 not pulled; long-tail of 'texas motorplex' (12,100 TX). Distinct from /ennis/where-to-stay/ (general Ennis lodging) by event-weekend framing and Corsicana/Waxahachie overflow.",
+      "secondary_keywords": [
+        "texas motorplex camping",
+        "rv parks near texas motorplex",
+        "hotels in ennis tx race weekend",
+        "corsicana hotels nhra"
+      ],
+      "paa_questions": [
+        "Can you camp at Texas Motorplex?",
+        "How far is Texas Motorplex from Dallas?",
+        "What hotels are closest to Texas Motorplex?"
+      ],
+      "intent": "commercial",
+      "template": "roundup",
+      "word_count": 1700,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/where-to-stay/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2026-10-05",
+        "ideal": "2026-09-15"
+      },
+      "seasonal_hook": "Race-weekend lodging sells out in October and March",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Ranks every lodging option by real drive time to the Motorplex gate (not to 'Ennis'), including the trackside camping rules most hotel roundups skip, and flags which weekends historically sell out."
+    },
+    {
+      "id": "ed-003",
+      "title": "Texas Motorplex Parking, Traffic and Gate Times: What Nobody Tells You",
+      "slug": "texas-motorplex-parking-and-traffic",
+      "primary_keyword": "texas motorplex parking",
+      "volume_note": "n/a \u2014 not pulled; supports 'texas motorplex schedule' (210 TX, Oct 590) logistics intent.",
+      "secondary_keywords": [
+        "texas motorplex directions",
+        "texas motorplex gate times",
+        "texas motorplex traffic",
+        "texas motorplex address ennis"
+      ],
+      "paa_questions": [
+        "How much is parking at Texas Motorplex?",
+        "What exit is Texas Motorplex off I-45?",
+        "How early should I get to Texas Motorplex?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/texas-motorplex/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2026-10-05",
+        "ideal": "2026-09-18"
+      },
+      "seasonal_hook": "October Fall Nationals traffic on I-45 / US-287",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "A local's map of the two I-45 exits, the US-287 back way in, where the line forms and which downtown Ennis lots to use if you'd rather eat first and shuttle in."
+    },
+    {
+      "id": "ed-004",
+      "title": "What to Bring to a Drag Race at Texas Motorplex: The 25-Item Packing List",
+      "slug": "what-to-bring-to-texas-motorplex",
+      "primary_keyword": "what to bring to a drag race",
+      "volume_note": "n/a \u2014 PAA/entity; long-tail of the Motorplex event spike.",
+      "secondary_keywords": [
+        "texas motorplex bag policy",
+        "texas motorplex ear protection",
+        "drag race packing list",
+        "texas motorplex cooler policy"
+      ],
+      "paa_questions": [
+        "Can you bring a cooler into Texas Motorplex?",
+        "Do you need ear protection at a drag race?",
+        "What should I wear to an NHRA race?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/texas-motorplex/",
+      "commercial_link": "/slingshot-rental/drive-and-go/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2026-10-05",
+        "ideal": "2026-09-20"
+      },
+      "seasonal_hook": "October race weekend prep",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Splits the list into 'stadium rules' (verify against the Motorplex bag policy) and 'Texas October weather' (heat then cold snaps), and closes with the try-before-you-buy pitch for Slingshot-curious race fans."
+    },
+    {
+      "id": "ed-005",
+      "title": "Texas Motorplex 2027 Schedule: Every Race Weekend and What Else Is On in Ennis",
+      "slug": "texas-motorplex-season-schedule",
+      "primary_keyword": "texas motorplex schedule",
+      "volume_note": "210 TX avg, Oct 590 (DataForSEO). Site page /ennis/texas-motorplex/ carries the evergreen guide; this is the dated season-release analysis.",
+      "secondary_keywords": [
+        "texas motorplex 2027",
+        "texas motorplex events",
+        "texas motorplex march",
+        "texas motorplex spring nationals"
+      ],
+      "paa_questions": [
+        "When is the next race at Texas Motorplex?",
+        "What events are at Texas Motorplex in March?"
+      ],
+      "intent": "navigational",
+      "template": "news-analysis",
+      "word_count": 1000,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/texas-motorplex/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-10",
+        "latest": "2027-02-20",
+        "ideal": "2027-02-05"
+      },
+      "seasonal_hook": "March 2027 Motorplex spike (40,500 TX searches in March 2026) + April bluebonnet overlap",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": true,
+      "priority": 1,
+      "angle": "Publishes the moment the 2027 season is released and maps each race weekend against Ellis County events, flagging which March/April weekends collide with bluebonnet peak and our April booking calendar."
+    },
+    {
+      "id": "ed-006",
+      "title": "Spring Race Weekend at Texas Motorplex: The March Guide (Weather, Crowds, Bluebonnets)",
+      "slug": "texas-motorplex-march-race-weekend",
+      "primary_keyword": "texas motorplex march",
+      "volume_note": "n/a \u2014 not pulled as a phrase; rides the March 40,500 TX 'texas motorplex' peak.",
+      "secondary_keywords": [
+        "texas motorplex spring",
+        "things to do in ennis in march",
+        "texas motorplex weather",
+        "early bluebonnets ennis"
+      ],
+      "paa_questions": [
+        "What is the weather like at Texas Motorplex in March?",
+        "Are bluebonnets blooming in March in Ennis?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2100,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/texas-motorplex/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-01-20",
+        "latest": "2027-03-01",
+        "ideal": "2027-02-12"
+      },
+      "seasonal_hook": "March 2027 Motorplex events, 2\u20134 weeks before April trails open",
+      "requires_onsite": false,
+      "conditional": true,
+      "reactive": false,
+      "priority": 1,
+      "angle": "The only March race guide that tells fans the bluebonnets are 2\u20134 weeks out and shows how to come back in April \u2014 links to the bloom tracker and pre-sells April Slingshot slots to the race crowd."
+    },
+    {
+      "id": "ed-007",
+      "title": "Scarborough Renaissance Festival Tips: A First-Timer's Guide to Faire Day",
+      "slug": "scarborough-renaissance-festival-tips",
+      "primary_keyword": "scarborough renaissance festival tips",
+      "volume_note": "n/a \u2014 not pulled; long-tail of 'scarborough renaissance festival' (27,100 TX avg, Apr 135,000). Cluster 5's April roundup covers 'what else is near'; this covers the faire day itself.",
+      "secondary_keywords": [
+        "scarborough faire tips",
+        "scarborough renaissance festival first time",
+        "how long to spend at scarborough faire",
+        "scarborough faire food"
+      ],
+      "paa_questions": [
+        "How long does it take to see Scarborough Renaissance Festival?",
+        "What is the best day to go to Scarborough Faire?",
+        "Is Scarborough Renaissance Festival worth it?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2300,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/weekend-itinerary/",
+      "commercial_link": "/slingshot-rental/waxahachie-ellis-county/",
+      "publish_window": {
+        "earliest": "2027-02-15",
+        "latest": "2027-04-05",
+        "ideal": "2027-03-01"
+      },
+      "seasonal_hook": "Scarborough opens April 10, 2027 (verify), runs weekends through Memorial Day",
+      "requires_onsite": false,
+      "conditional": true,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Arrive-early-to-jousting-to-exit timing written for Dallas day-trippers, with the 'faire Saturday, bluebonnets and a Slingshot Sunday' weekend plan built in."
+    },
+    {
+      "id": "ed-008",
+      "title": "What to Wear to Scarborough Faire: Costumes, Comfort and Texas April Heat",
+      "slug": "what-to-wear-to-scarborough-faire",
+      "primary_keyword": "what to wear to scarborough faire",
+      "volume_note": "n/a \u2014 not pulled; rides the April Scarborough spike.",
+      "secondary_keywords": [
+        "scarborough renaissance festival dress code",
+        "renaissance festival outfit ideas texas",
+        "scarborough faire costume rental",
+        "renaissance faire shoes"
+      ],
+      "paa_questions": [
+        "Do you have to dress up for Scarborough Renaissance Festival?",
+        "What shoes should I wear to a renaissance faire?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/weekend-itinerary/",
+      "commercial_link": "/slingshot-rental/waxahachie-ellis-county/",
+      "publish_window": {
+        "earliest": "2027-02-15",
+        "latest": "2027-04-10",
+        "ideal": "2027-03-08"
+      },
+      "seasonal_hook": "Scarborough 2027 season (April\u2013May)",
+      "requires_onsite": false,
+      "conditional": true,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Weather-first outfit guide (April normals ~78\u00b0F/55\u00b0F, 26% rain days) with a 'what survives a Slingshot ride afterward' section."
+    },
+    {
+      "id": "ed-009",
+      "title": "Scarborough Renaissance Festival Tickets, Parking and Hours (2027 FAQ)",
+      "slug": "scarborough-renaissance-festival-tickets-parking",
+      "primary_keyword": "scarborough renaissance festival tickets",
+      "volume_note": "n/a \u2014 not pulled; navigational long-tail of 27,100 TX head term.",
+      "secondary_keywords": [
+        "scarborough faire parking",
+        "scarborough renaissance festival hours",
+        "scarborough faire discount tickets",
+        "scarborough faire address waxahachie"
+      ],
+      "paa_questions": [
+        "How much are tickets to Scarborough Renaissance Festival?",
+        "Is parking free at Scarborough Faire?",
+        "What time does Scarborough Faire open?"
+      ],
+      "intent": "navigational",
+      "template": "faq-knowledge",
+      "word_count": 1500,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/weekend-itinerary/",
+      "commercial_link": "/slingshot-rental/waxahachie-ellis-county/",
+      "publish_window": {
+        "earliest": "2027-02-15",
+        "latest": "2027-04-10",
+        "ideal": "2027-03-05"
+      },
+      "seasonal_hook": "Scarborough 2027 ticket on-sale and opening weekend",
+      "requires_onsite": false,
+      "conditional": true,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Direct-answer FAQ built for AI Overviews, each answer dated and linked to the official source, with the FM-66 parking approach from the Ennis side that avoids the I-35E backup."
+    },
+    {
+      "id": "ed-010",
+      "title": "Scarborough Faire With Kids: Ages, Strollers, Shows and Survival Tips",
+      "slug": "scarborough-faire-with-kids",
+      "primary_keyword": "scarborough faire with kids",
+      "volume_note": "n/a \u2014 not pulled; family long-tail of the April Scarborough spike.",
+      "secondary_keywords": [
+        "scarborough renaissance festival kids",
+        "is scarborough faire kid friendly",
+        "renaissance festival with toddlers texas",
+        "scarborough faire children's tickets"
+      ],
+      "paa_questions": [
+        "Is Scarborough Renaissance Festival kid friendly?",
+        "Are strollers allowed at Scarborough Faire?",
+        "What age is free at Scarborough Faire?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2000,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/weekend-itinerary/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2027-02-20",
+        "latest": "2027-04-10",
+        "ideal": "2027-03-12"
+      },
+      "seasonal_hook": "Spring break and April weekends at Scarborough",
+      "requires_onsite": false,
+      "conditional": true,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Age-banded plan (toddlers, 6\u201310, teens) with a nap-window itinerary and the honest note that a Slingshot ride is a parents-only treat while grandparents take the kids to the bluebonnets."
+    },
+    {
+      "id": "ed-011",
+      "title": "Scarborough Faire vs. Texas Renaissance Festival: Which One Should You Go To?",
+      "slug": "scarborough-faire-vs-texas-renaissance-festival",
+      "primary_keyword": "scarborough faire vs texas renaissance festival",
+      "volume_note": "n/a \u2014 not pulled; comparison capture for Houston/Austin visitors weighing the two.",
+      "secondary_keywords": [
+        "texas renaissance festival vs scarborough",
+        "best renaissance festival in texas",
+        "renaissance festivals in texas",
+        "spring vs fall renaissance festival texas"
+      ],
+      "paa_questions": [
+        "What is the biggest renaissance festival in Texas?",
+        "How many renaissance festivals are in Texas?"
+      ],
+      "intent": "commercial",
+      "template": "comparison",
+      "word_count": 1800,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/weekend-itinerary/",
+      "commercial_link": "/slingshot-rental/texas/",
+      "publish_window": {
+        "earliest": "2027-02-10",
+        "latest": "2027-04-01",
+        "ideal": "2027-03-03"
+      },
+      "seasonal_hook": "Scarborough spring season vs. TRF fall season decision point",
+      "requires_onsite": false,
+      "conditional": true,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Side-by-side table (season, size, drive time from Dallas/Houston/Austin, price, crowds, nearby extras) that makes the case Scarborough wins in April because it pairs with bluebonnets and an open-cockpit drive."
+    },
+    {
+      "id": "ed-012",
+      "title": "Scarborough Renaissance Festival 2027: Opening Weekend, Themes and What's New",
+      "slug": "scarborough-renaissance-festival-season-preview",
+      "primary_keyword": "scarborough renaissance festival 2027",
+      "volume_note": "n/a \u2014 year variant not pulled; head term 27,100 TX avg / 135,000 in April. Stable slug (no year) per LINKING-CONVENTIONS; year lives in the title and the post is refreshed each season.",
+      "secondary_keywords": [
+        "scarborough faire 2027 dates",
+        "scarborough renaissance festival themed weekends 2027",
+        "scarborough faire opening day"
+      ],
+      "paa_questions": [
+        "When does Scarborough Renaissance Festival 2027 start?",
+        "What are the themed weekends at Scarborough Faire?"
+      ],
+      "intent": "navigational",
+      "template": "news-analysis",
+      "word_count": 1100,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/events/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-02-25",
+        "latest": "2027-04-08",
+        "ideal": "2027-03-15"
+      },
+      "seasonal_hook": "Scarborough opening day April 10, 2027 (verify) \u2014 3\u20134 weeks prior",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": true,
+      "priority": 1,
+      "angle": "Fast, sourced season-announcement post that maps each themed weekend to bluebonnet bloom stage and our April availability so readers can pick one weekend for both."
+    },
+    {
+      "id": "ed-013",
+      "title": "Kolaches and Czech Food in Ennis, TX: Where Locals Actually Eat",
+      "slug": "kolaches-czech-food-ennis-tx",
+      "primary_keyword": "kolaches ennis tx",
+      "volume_note": "n/a \u2014 not pulled; supports /ennis/where-to-eat/ ('restaurants in ennis tx' 2,900 US) and the Polka Festival spike (480 TX, May 3,600).",
+      "secondary_keywords": [
+        "czech bakery ennis texas",
+        "czech food ennis",
+        "best kolaches near dallas",
+        "klobasnek ennis"
+      ],
+      "paa_questions": [
+        "Why does Ennis, Texas have Czech food?",
+        "Where are the best kolaches near Dallas?"
+      ],
+      "intent": "commercial",
+      "template": "roundup",
+      "word_count": 1700,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/where-to-eat/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2027-03-20",
+        "latest": "2027-05-01",
+        "ideal": "2027-04-05"
+      },
+      "seasonal_hook": "National Polka Festival, Memorial Day weekend 2027 (4\u20138 weeks prior)",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Taste-tested bakery-by-bakery guide with photos, opening hours and the 'grab kolaches at 8am, drive the trails at 9am' move that only a local would write."
+    },
+    {
+      "id": "ed-014",
+      "title": "Why Ennis Is the Czech Capital of North Texas: Heritage, Museums and the Polka Tradition",
+      "slug": "ennis-czech-heritage",
+      "primary_keyword": "ennis texas czech heritage",
+      "volume_note": "n/a \u2014 entity; supports 'ennis czech music festival' (30 TX, Feb 140) and the Polka Festival page. Cluster 5's Polka thought-leadership covers the festival narrative; this covers the year-round heritage story.",
+      "secondary_keywords": [
+        "czech museum ennis tx",
+        "ennis railroad and cultural heritage museum",
+        "czech towns in texas",
+        "ennis texas history"
+      ],
+      "paa_questions": [
+        "Why are there so many Czechs in Ennis, Texas?",
+        "What is Ennis, Texas known for?",
+        "Is there a Czech museum in Ennis?"
+      ],
+      "intent": "informational",
+      "template": "thought-leadership",
+      "word_count": 1800,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/national-polka-festival/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2027-03-15",
+        "latest": "2027-05-01",
+        "ideal": "2027-04-10"
+      },
+      "seasonal_hook": "Polka Festival lead-up; Czech Music Festival interest bump in February",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Argues the Czech story (1870s railroad settlement to today's KJT halls) is the reason Ennis feels different from every other I-45 exit, and turns the museum-plus-heritage-church loop into a drive."
+    },
+    {
+      "id": "ed-015",
+      "title": "Memorial Day Weekend Near Dallas: Polka, Faire Finale and the Lake (Ellis County Plan)",
+      "slug": "memorial-day-weekend-near-dallas",
+      "primary_keyword": "memorial day weekend near dallas",
+      "volume_note": "n/a \u2014 not pulled; bundles Polka Festival (May 3,600 TX) with Scarborough's closing Monday. Distinct from Cluster 5's April roundup by date.",
+      "secondary_keywords": [
+        "things to do memorial day weekend dallas",
+        "ennis polka festival memorial day",
+        "scarborough faire memorial day",
+        "lake bardwell memorial day"
+      ],
+      "paa_questions": [
+        "What is there to do in Dallas on Memorial Day weekend?",
+        "Is Scarborough Faire open on Memorial Day?"
+      ],
+      "intent": "informational",
+      "template": "roundup",
+      "word_count": 1700,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/national-polka-festival/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2027-03-25",
+        "latest": "2027-05-01",
+        "ideal": "2027-04-15"
+      },
+      "seasonal_hook": "Memorial Day weekend 2027 (May 29\u201331)",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Three-day schedule that stacks Polka parade Saturday, Scarborough's last day Monday and a Lake Bardwell Sunday, with an honest 'our April season just ended \u2014 here's how to get on the 2028 list' note."
+    },
+    {
+      "id": "ed-016",
+      "title": "Christmas in Waxahachie: Bethlehem Revisited, Candlelight Homes Tour and Courthouse Lights",
+      "slug": "christmas-in-waxahachie",
+      "primary_keyword": "christmas in waxahachie",
+      "volume_note": "n/a \u2014 not pulled; seasonal long-tail of 'things to do in waxahachie' (1,900 TX).",
+      "secondary_keywords": [
+        "waxahachie christmas events",
+        "bethlehem revisited waxahachie",
+        "waxahachie candlelight tour of homes",
+        "waxahachie christmas lights"
+      ],
+      "paa_questions": [
+        "What is Bethlehem Revisited in Waxahachie?",
+        "When is the Waxahachie Candlelight Tour of Homes?"
+      ],
+      "intent": "informational",
+      "template": "roundup",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/events/",
+      "commercial_link": "/slingshot-rental/gift-cards/",
+      "publish_window": {
+        "earliest": "2026-10-20",
+        "latest": "2026-11-25",
+        "ideal": "2026-11-05"
+      },
+      "seasonal_hook": "Waxahachie December events; experience-gift search peaks in December (480 TX)",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Weekend-by-weekend December calendar for the courthouse square, ending with 'give April' \u2014 a Slingshot gift card as the Ellis County Christmas present that gets opened in bluebonnet season."
+    },
+    {
+      "id": "ed-017",
+      "title": "Christmas in Ennis, TX and Around Ellis County: Parades, Lights and Small-Town Holiday Markets",
+      "slug": "christmas-in-ennis-tx",
+      "primary_keyword": "christmas in ennis tx",
+      "volume_note": "n/a \u2014 not pulled; seasonal long-tail of 'ennis tx events' (40 TX). Verify event names/dates against ennistx.gov before publishing.",
+      "secondary_keywords": [
+        "ennis christmas parade",
+        "ennis tx christmas events",
+        "ellis county christmas events",
+        "midlothian christmas",
+        "downtown ennis christmas"
+      ],
+      "paa_questions": [
+        "Does Ennis, Texas have a Christmas parade?",
+        "What Christmas events are in Ellis County?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1500,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/downtown/",
+      "commercial_link": "/slingshot-rental/gift-cards/",
+      "publish_window": {
+        "earliest": "2026-10-25",
+        "latest": "2026-11-30",
+        "ideal": "2026-11-10"
+      },
+      "seasonal_hook": "Ennis/Ellis County holiday season, late Nov\u2013Dec 2026",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Covers Ennis, Midlothian, Red Oak and Italy in one dated list (Waxahachie gets its own post), positioned as the low-crowd alternative to Dallas light displays."
+    },
+    {
+      "id": "ed-018",
+      "title": "Fall in Ellis County: Pumpkin Patches, Festivals and Race Weekends (Sept\u2013Nov)",
+      "slug": "fall-things-to-do-ellis-county",
+      "primary_keyword": "fall things to do near dallas",
+      "volume_note": "n/a \u2014 not pulled; seasonal companion to 'things to do near dallas' (1,000 TX, Aug 1,300).",
+      "secondary_keywords": [
+        "pumpkin patch ellis county",
+        "fall festivals near dallas",
+        "fall things to do in waxahachie",
+        "ennis fall events"
+      ],
+      "paa_questions": [
+        "What are fun fall activities near Dallas?",
+        "Where is the closest pumpkin patch to Dallas?"
+      ],
+      "intent": "informational",
+      "template": "roundup",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/events/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2026-09-30",
+        "ideal": "2026-09-10"
+      },
+      "seasonal_hook": "Fall 2026 (Motorplex Fall Nationals, pumpkin patches, harvest festivals)",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Month-by-month Ellis County fall calendar aimed at Dallas families who've done Arboretum pumpkins and want a 40-minute drive somewhere with parking; feeds the /ennis/events/ build."
+    },
+    {
+      "id": "ed-019",
+      "title": "Things to Do in Dallas This Weekend (Updated Weekly)",
+      "slug": "things-to-do-in-dallas-this-weekend",
+      "primary_keyword": "things to do in dallas this weekend",
+      "volume_note": "9,900 TX avg, peak 12,100 (DataForSEO); very high ad competition. Defined in SITE-STRUCTURE as a living pillar post \u2014 the dallasslingshotrental.com play done properly.",
+      "secondary_keywords": [
+        "what to do in dallas this weekend",
+        "dallas events this weekend",
+        "fun things to do in dallas",
+        "things to do in dfw this weekend"
+      ],
+      "paa_questions": [
+        "What is there to do in Dallas this weekend?",
+        "What are some fun things for adults to do in Dallas?",
+        "What are some unique experiences I can have in Dallas?"
+      ],
+      "intent": "informational",
+      "template": "pillar-page",
+      "word_count": 3500,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-20",
+        "latest": "2026-10-15",
+        "ideal": "2026-10-01"
+      },
+      "seasonal_hook": "Evergreen living post; refreshed weekly, with an April 'get out of town' block during bluebonnet season",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Dated weekly refresh with a permanent 'within an hour of Dallas' section that always lists Ennis, so the highest-volume DFW query in our set funnels to the day-trip spoke and package pages."
+    },
+    {
+      "id": "ed-020",
+      "title": "12 Small Towns Near Dallas Worth a Day Trip (Ranked by Drive Time)",
+      "slug": "small-towns-near-dallas",
+      "primary_keyword": "small towns near dallas",
+      "volume_note": "n/a \u2014 not pulled; supports 'day trips from dallas' (880 TX, KD 0), which /ennis/day-trip-from-dallas/ owns.",
+      "secondary_keywords": [
+        "cute small towns near dallas",
+        "small towns to visit near dallas",
+        "best small towns in north texas",
+        "day trips from dallas small towns"
+      ],
+      "paa_questions": [
+        "What is the coolest small town in Texas?",
+        "What is the cutest town near Dallas?",
+        "Where can I go for a day trip from Dallas?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1900,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-10-08"
+      },
+      "seasonal_hook": "Evergreen; Ennis entry gets an April callout",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Honest ranking that puts Ennis at #1 for April only and admits when Granbury or McKinney wins the rest of the year \u2014 credibility that earns links from DFW lifestyle blogs."
+    },
+    {
+      "id": "ed-021",
+      "title": "Day Trips From Fort Worth: 10 Destinations Under 90 Minutes",
+      "slug": "day-trips-from-fort-worth",
+      "primary_keyword": "day trips from fort worth",
+      "volume_note": "n/a \u2014 not pulled (Dallas variant is 880 TX, KD 0). Fort Worth\u2192Ennis is ~57 mi / ~59 min.",
+      "secondary_keywords": [
+        "things to do near fort worth",
+        "weekend trips from fort worth",
+        "fort worth to ennis",
+        "day trips from tarrant county"
+      ],
+      "paa_questions": [
+        "What is a good day trip from Fort Worth?",
+        "How far is Ennis from Fort Worth?"
+      ],
+      "intent": "informational",
+      "template": "roundup",
+      "word_count": 1800,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/near-fort-worth/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-10-15"
+      },
+      "seasonal_hook": "Evergreen; Fort Worth area page has no competitor",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "The Fort Worth-side version of the day-trip list, routing via US-287 through Waxahachie so Ennis is a scenic hour instead of an I-45 slog."
+    },
+    {
+      "id": "ed-022",
+      "title": "Day Trips From Dallas With Kids: 15 Ideas Under an Hour Away",
+      "slug": "day-trips-from-dallas-with-kids",
+      "primary_keyword": "day trips from dallas with kids",
+      "volume_note": "n/a \u2014 not pulled; family long-tail of 'day trips from dallas' (880 TX).",
+      "secondary_keywords": [
+        "family day trips from dallas",
+        "kid friendly things to do near dallas",
+        "things to do with kids near dallas",
+        "family things to do in ennis"
+      ],
+      "paa_questions": [
+        "Where can I take my kids for a day trip near Dallas?",
+        "What is there to do with kids in Ennis, Texas?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1800,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-11-18"
+      },
+      "seasonal_hook": "Evergreen; spring break (Mar) and April bluebonnet callouts",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Age-tagged list with the practical truth that a two-seat Slingshot is a parents' turn while kids do the Welcome Center scavenger hunt \u2014 sets expectations instead of pretending it's a family ride."
+    },
+    {
+      "id": "ed-023",
+      "title": "Cheap Weekend Getaways From Dallas: 10 Trips Under $300 for Two",
+      "slug": "cheap-weekend-getaways-from-dallas",
+      "primary_keyword": "cheap weekend getaways from dallas",
+      "volume_note": "n/a \u2014 not pulled; budget long-tail of 'weekend getaways from dallas' (1,600 TX, high ad competition), which /ennis/weekend-itinerary/ owns.",
+      "secondary_keywords": [
+        "affordable weekend trips from dallas",
+        "budget getaways near dallas",
+        "weekend getaways near dallas",
+        "cheap couples getaway texas"
+      ],
+      "paa_questions": [
+        "What is the cheapest weekend getaway from Dallas?",
+        "Where can couples go for a cheap weekend near Dallas?"
+      ],
+      "intent": "informational",
+      "template": "roundup",
+      "word_count": 1800,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/weekend-itinerary/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2027-01-12"
+      },
+      "seasonal_hook": "Evergreen; January planning season for spring trips",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Every trip priced line-by-line (gas, one hotel night, two meals, one activity) \u2014 the Ennis+Waxahachie weekend lands under $300 including a $149 two-person Slingshot experience."
+    },
+    {
+      "id": "ed-024",
+      "title": "Outdoor Things to Do Near Dallas: 20 Ways to Get Out of the City",
+      "slug": "outdoor-things-to-do-near-dallas",
+      "primary_keyword": "outdoor things to do near dallas",
+      "volume_note": "n/a \u2014 not pulled; supports 'things to do near dallas' (1,000 TX, KD 11) owned by /ennis/day-trip-from-dallas/.",
+      "secondary_keywords": [
+        "outdoor activities near dallas",
+        "things to do outside dallas",
+        "nature near dallas",
+        "outdoor adventures dfw"
+      ],
+      "paa_questions": [
+        "What outdoor activities are near Dallas?",
+        "Where can I go in nature near Dallas?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1900,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-09-24"
+      },
+      "seasonal_hook": "Evergreen; fall weather window Sep\u2013Nov",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Grouped by 'how outdoors' (lake, trail, open-air drive, farm) with Lake Bardwell and the Ennis back roads as the under-an-hour picks nobody else lists."
+    },
+    {
+      "id": "ed-025",
+      "title": "Scenic Drives Near Dallas: 9 Roads Worth the Gas (Year-Round)",
+      "slug": "scenic-drives-near-dallas",
+      "primary_keyword": "scenic drives near dallas",
+      "volume_note": "n/a \u2014 not pulled; year-round counterpart to the bluebonnet cluster's 'texas wildflower drives' (30 TX), which stays in /blog/texas-wildflower-drives/.",
+      "secondary_keywords": [
+        "best roads to drive near dallas",
+        "scenic routes north texas",
+        "sunday drive near dallas",
+        "motorcycle rides near dallas"
+      ],
+      "paa_questions": [
+        "Where is a good scenic drive near Dallas?",
+        "What are the best roads to drive in North Texas?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1900,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/drive-and-go/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-10-22"
+      },
+      "seasonal_hook": "Evergreen; written by a motorcyclist, seasonal notes per road",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Rider's-eye descriptions (surface, sweepers, traffic, where to stop) for each road, with the Ennis loops rated as the best open-cockpit roads within 40 miles of downtown."
+    },
+    {
+      "id": "ed-026",
+      "title": "Hidden Gems Near Dallas: 14 Places Most Locals Have Never Been",
+      "slug": "hidden-gems-near-dallas",
+      "primary_keyword": "hidden gems near dallas",
+      "volume_note": "n/a \u2014 not pulled; PAA 'hidden gems in Texas' appears in the Waxahachie SERP.",
+      "secondary_keywords": [
+        "hidden gems in north texas",
+        "underrated places near dallas",
+        "off the beaten path dallas",
+        "secret spots near dallas"
+      ],
+      "paa_questions": [
+        "What are some hidden gems in Texas?",
+        "What is the prettiest place in Texas near Dallas?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1800,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/downtown/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-12-03"
+      },
+      "seasonal_hook": "Evergreen; New Year 'places to go in 2027' timing",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Skips the obvious (no Fort Worth Stockyards) and leads with Ennis's Galaxy Drive-In, Kachina Prairie and the Czech halls \u2014 the kind of list D Magazine and Dallasites101 link to."
+    },
+    {
+      "id": "ed-027",
+      "title": "Dallas Weekend Itinerary for First-Time Visitors: 3 Days, One Day Out of Town",
+      "slug": "dallas-weekend-itinerary",
+      "primary_keyword": "dallas weekend itinerary",
+      "volume_note": "n/a \u2014 not pulled; PAA 'Where to go in Texas for 3 days?' in the regional SERP. Aimed at the out-of-town visitor persona.",
+      "secondary_keywords": [
+        "3 days in dallas",
+        "dallas itinerary 3 days",
+        "what to do in dallas for a weekend",
+        "dallas trip planner"
+      ],
+      "paa_questions": [
+        "Where to go in Texas for 3 days?",
+        "Is 3 days enough for Dallas?",
+        "What should I not miss in Dallas?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2400,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2027-01-20"
+      },
+      "seasonal_hook": "Evergreen; April version swaps Day 3 for bluebonnets",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Two city days plus one 'real Texas' day south on I-45 \u2014 the itinerary hotel concierges don't give because they don't know Ennis exists."
+    },
+    {
+      "id": "ed-028",
+      "title": "Dog-Friendly Things to Do Near Dallas: Patios, Trails, Lakes and a Small Town That Loves Dogs",
+      "slug": "dog-friendly-things-to-do-near-dallas",
+      "primary_keyword": "dog friendly things to do near dallas",
+      "volume_note": "n/a \u2014 not pulled; TripAdvisor reviews show families with dogs are a core Ennis trail audience.",
+      "secondary_keywords": [
+        "dog friendly day trips from dallas",
+        "dog friendly ennis tx",
+        "dog friendly patios waxahachie",
+        "lake bardwell dogs"
+      ],
+      "paa_questions": [
+        "Where can I take my dog near Dallas?",
+        "Are dogs allowed on the Ennis Bluebonnet Trails?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1700,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/where-to-eat/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-11-04"
+      },
+      "seasonal_hook": "Evergreen; fall and spring patio weather",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Practical dog logistics for an Ennis day (where the dog waits during your Slingshot slot, which patios and lake spots allow leashes) instead of a generic patio list."
+    },
+    {
+      "id": "ed-029",
+      "title": "Things to Do in Ennis, TX With Kids: 15 Picks From a Local Parent",
+      "slug": "things-to-do-in-ennis-tx-with-kids",
+      "primary_keyword": "things to do in ennis tx with kids",
+      "volume_note": "n/a \u2014 not pulled; family long-tail of 'things to do in ennis tx' (390 TX, KD 0), which /ennis/ owns.",
+      "secondary_keywords": [
+        "kid friendly ennis texas",
+        "ennis tx family activities",
+        "parks in ennis tx",
+        "ennis tx splash pad"
+      ],
+      "paa_questions": [
+        "What is there to do with kids in Ennis, Texas?",
+        "Does Ennis, TX have a splash pad?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/events/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-12-15"
+      },
+      "seasonal_hook": "Evergreen; spring break March callout",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Sorted by age and by 'free vs paid', including the Motorplex junior-dragster angle and the drive-in, for families who want more than the bluebonnet photo."
+    },
+    {
+      "id": "ed-030",
+      "title": "Free Things to Do in Ennis, TX: 12 Ways to Spend a Day Without Spending Money",
+      "slug": "free-things-to-do-in-ennis-tx",
+      "primary_keyword": "free things to do in ennis tx",
+      "volume_note": "n/a \u2014 not pulled; long-tail of 'things to do in ennis tx' (390 TX) and 'ennis tx attractions' (390).",
+      "secondary_keywords": [
+        "cheap things to do in ennis",
+        "ennis tx parks",
+        "self guided tour ennis texas",
+        "ennis walking tour"
+      ],
+      "paa_questions": [
+        "What is Ennis, Texas famous for?",
+        "Is the Ennis Bluebonnet Trail free?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1500,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/downtown/",
+      "commercial_link": "/slingshot-rental/drive-and-go/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2027-01-06"
+      },
+      "seasonal_hook": "Evergreen; January budget-travel timing",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "A free day in Ennis (trails, murals, Welcome Center, lake, farmers market) with one honest 'worth paying for' upsell \u2014 the $69.99 Drive & Go \u2014 framed as the cheapest Slingshot seat time in Texas."
+    },
+    {
+      "id": "ed-031",
+      "title": "Things to Do in Ennis at Night: Drive-In, Theatre, Dirt Track and Downtown After Dark",
+      "slug": "things-to-do-in-ennis-at-night",
+      "primary_keyword": "things to do in ennis tx at night",
+      "volume_note": "n/a \u2014 not pulled; long-tail of 'things to do in ennis tx' (390 TX).",
+      "secondary_keywords": [
+        "galaxy drive-in ennis",
+        "ennis public theatre",
+        "big o speedway ennis",
+        "nightlife ennis tx",
+        "ennis tx bars"
+      ],
+      "paa_questions": [
+        "Is there a drive-in movie theater in Ennis, Texas?",
+        "What is there to do in Ennis at night?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/downtown/",
+      "commercial_link": "/slingshot-rental/date-night/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-10-29"
+      },
+      "seasonal_hook": "Evergreen; Big O Speedway season Mar\u2013Oct, drive-in year-round",
+      "requires_onsite": true,
+      "conditional": true,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Turns 'nothing to do after dark' into a plan: golden-hour drive, downtown dinner, drive-in double feature \u2014 and tests demand for the proposed sunset/date-night Slingshot package."
+    },
+    {
+      "id": "ed-032",
+      "title": "Lake Bardwell Guide: Boat Ramps, Camping, Fishing and the Best Shoreline Spots",
+      "slug": "lake-bardwell-guide",
+      "primary_keyword": "lake bardwell",
+      "volume_note": "n/a \u2014 not pulled (entity; 150,000+ annual visitors per ennistx.gov). Meadow View Nature Area on the lake is a bluebonnet photo spot covered in /bluebonnets/photo-spots/ \u2014 this post covers the lake year-round.",
+      "secondary_keywords": [
+        "lake bardwell camping",
+        "bardwell lake fishing",
+        "lake bardwell boat ramp",
+        "lake bardwell park ennis tx",
+        "waxahachie creek park"
+      ],
+      "paa_questions": [
+        "Can you swim in Lake Bardwell?",
+        "Is Lake Bardwell good for fishing?",
+        "How much does it cost to camp at Lake Bardwell?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2000,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/where-to-stay/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2027-02-17"
+      },
+      "seasonal_hook": "Evergreen; spring camping reservations open in winter",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Corps-of-Engineers-park-by-park breakdown with a ride-around-the-lake loop that doubles as the southern leg of a Slingshot route."
+    },
+    {
+      "id": "ed-033",
+      "title": "Wineries Near Ennis and Waxahachie: Sugar Ridge and the Ellis County Wine Trail",
+      "slug": "wineries-near-ennis-tx",
+      "primary_keyword": "wineries near ennis tx",
+      "volume_note": "n/a \u2014 not pulled; supports 'things to do in ennis tx' and 'things to do in waxahachie' (1,900 TX).",
+      "secondary_keywords": [
+        "sugar ridge winery bristol tx",
+        "ellis county wineries",
+        "wineries near waxahachie",
+        "wineries south of dallas"
+      ],
+      "paa_questions": [
+        "Are there wineries near Waxahachie?",
+        "What wineries are south of Dallas?"
+      ],
+      "intent": "commercial",
+      "template": "roundup",
+      "word_count": 1500,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/weekend-itinerary/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2027-02-10"
+      },
+      "seasonal_hook": "Evergreen; Valentine's and spring patio season",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Winery roundup with the order of operations spelled out \u2014 Slingshot first, tasting after \u2014 plus a designated-driver plan, because we won't let anyone drive after a tasting."
+    },
+    {
+      "id": "ed-034",
+      "title": "What Is Ennis, Texas Known For? Bluebonnets, Drag Racing, Polka and More",
+      "slug": "what-is-ennis-texas-known-for",
+      "primary_keyword": "what is ennis texas known for",
+      "volume_note": "n/a \u2014 PAA/entity (from serp-intelligence PAA bank); supports 'ennis texas' (6,600 TX / 22,200 US, KD 17) long-tail.",
+      "secondary_keywords": [
+        "ennis texas facts",
+        "ennis tx population",
+        "is ennis texas a good place to visit",
+        "ennis texas history"
+      ],
+      "paa_questions": [
+        "What is Ennis, Texas known for?",
+        "What is Ennis famous for?",
+        "How big is Ennis, Texas?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/downtown/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-11-24"
+      },
+      "seasonal_hook": "Evergreen; AI Overview / knowledge-panel capture",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Answer-first entity page (five things, each with a source and a date) built to be quoted by AI Overviews, with the Slingshot experience listed as one of the newer things Ennis is becoming known for."
+    },
+    {
+      "id": "ed-035",
+      "title": "Is Ennis, TX Worth Visiting? An Honest Case From Someone Who Chose to Build a Business Here",
+      "slug": "is-ennis-tx-worth-visiting",
+      "primary_keyword": "is ennis texas worth visiting",
+      "volume_note": "n/a \u2014 PAA-style; mirrors the 'Is Waxahachie worth visiting?' PAA pattern for the Ennis entity.",
+      "secondary_keywords": [
+        "ennis texas review",
+        "should i visit ennis tx",
+        "ennis tx pros and cons",
+        "ennis texas tourism"
+      ],
+      "paa_questions": [
+        "Is Ennis, Texas worth visiting?",
+        "What is there to do in Ennis, Texas besides bluebonnets?"
+      ],
+      "intent": "informational",
+      "template": "thought-leadership",
+      "word_count": 1700,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-12-09"
+      },
+      "seasonal_hook": "Evergreen; E-E-A-T owner-voice piece",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Owner's first-person argument (the roads, the town, the two big weekends) that concedes the off-season quiet and tells readers exactly which four weekends a year to come."
+    },
+    {
+      "id": "ed-036",
+      "title": "Best Time to Visit Ennis, TX: A Month-by-Month Guide",
+      "slug": "best-time-to-visit-ennis-tx",
+      "primary_keyword": "best time to visit ennis tx",
+      "volume_note": "n/a \u2014 not pulled; bloom-timing intent stays with /bluebonnets/bloom-tracker/ \u2014 this covers all 12 months (Motorplex, Polka, Blues on Main, holidays).",
+      "secondary_keywords": [
+        "ennis texas events by month",
+        "when to visit ennis texas",
+        "ennis tx weather by month",
+        "ennis tx in the fall"
+      ],
+      "paa_questions": [
+        "What is the best month to visit Ennis, Texas?",
+        "What happens in Ennis, Texas in May?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1800,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/events/",
+      "commercial_link": "/slingshot-rental/bluebonnet-trail-experience/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2027-01-27"
+      },
+      "seasonal_hook": "Evergreen; January trip-planning searches",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Twelve short month cards (weather normals, the one event, crowd level) that make April the obvious answer without pretending the other months are dead."
+    },
+    {
+      "id": "ed-037",
+      "title": "What Movies Were Filmed in Ennis and Waxahachie? Ellis County's Hollywood History",
+      "slug": "movies-filmed-in-ennis-waxahachie",
+      "primary_keyword": "what movie was filmed in ennis texas",
+      "volume_note": "n/a \u2014 PAA (serp-intelligence PAA bank, Ennis section). Verify every title against IMDb/Texas Film Commission before publishing.",
+      "secondary_keywords": [
+        "movies filmed in waxahachie",
+        "places in the heart filming location",
+        "tender mercies waxahachie",
+        "ellis county film locations"
+      ],
+      "paa_questions": [
+        "What movie was filmed in Ennis, Texas?",
+        "What movies were filmed in Waxahachie?",
+        "Why is Waxahachie called the Hollywood of Texas?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/downtown/",
+      "commercial_link": "/slingshot-rental/waxahachie-ellis-county/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-11-12"
+      },
+      "seasonal_hook": "Evergreen; awards-season film curiosity Jan\u2013Feb",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Answers the PAA directly, then turns the verified filming locations into a driveable Ennis\u2013Waxahachie loop."
+    },
+    {
+      "id": "ed-038",
+      "title": "Blues on Main in Ennis: The June Festival Guide (Lineup, Parking, Where to Eat)",
+      "slug": "blues-on-main-ennis",
+      "primary_keyword": "blues on main ennis",
+      "volume_note": "n/a \u2014 not pulled; event entity (2nd Saturday in June, downtown Ennis per ennistx.gov).",
+      "secondary_keywords": [
+        "ennis blues festival",
+        "blues on main 2027",
+        "ennis tx june events",
+        "blues festivals near dallas"
+      ],
+      "paa_questions": [
+        "When is Blues on Main in Ennis?",
+        "Is Blues on Main free?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1500,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/events/",
+      "commercial_link": "/slingshot-rental/gift-cards/",
+      "publish_window": {
+        "earliest": "2027-04-10",
+        "latest": "2027-05-01",
+        "ideal": "2027-04-24"
+      },
+      "seasonal_hook": "Blues on Main, 2nd Saturday of June 2027 (6\u20137 weeks prior)",
+      "requires_onsite": false,
+      "conditional": true,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Compact event FAQ that keeps Ennis in readers' calendars after bluebonnet season and quietly tests June demand for a summer Slingshot offering without promising one."
+    },
+    {
+      "id": "ed-039",
+      "title": "25 Things to Do in Waxahachie, TX (Courthouse to Gingerbread Houses)",
+      "slug": "things-to-do-in-waxahachie",
+      "primary_keyword": "things to do in waxahachie",
+      "volume_note": "1,900 TX avg, ~2,400 most months, KD 6 (DataForSEO). keywords.md assigns this to '/ennis/weekend-itinerary/ + blog spoke' \u2014 the site page is an itinerary, this is the listicle format the SERP rewards.",
+      "secondary_keywords": [
+        "things to do in waxahachie tx",
+        "waxahachie attractions",
+        "what to do in waxahachie",
+        "waxahachie downtown",
+        "gingerbread trail waxahachie"
+      ],
+      "paa_questions": [
+        "What are the best things to do in Waxahachie?",
+        "What is Waxahachie known for?",
+        "Is Waxahachie worth visiting?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 2000,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/weekend-itinerary/",
+      "commercial_link": "/slingshot-rental/waxahachie-ellis-county/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2026-11-30",
+        "ideal": "2026-09-29"
+      },
+      "seasonal_hook": "Evergreen (flat volume); April Scarborough and June Gingerbread Trail callouts",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "Numbered listicle that beats Tripadvisor's 'Top 15' on depth (hours, cost, time needed) and adds the 15-minute hop to Ennis as items 23\u201325."
+    },
+    {
+      "id": "ed-040",
+      "title": "Things to Do in Midlothian, TX: 12 Local Picks Plus What's 20 Minutes Away",
+      "slug": "things-to-do-in-midlothian-tx",
+      "primary_keyword": "things to do in midlothian tx",
+      "volume_note": "480 TX avg, Aug 720 (DataForSEO). keywords.md: 'blog spoke', P3.",
+      "secondary_keywords": [
+        "midlothian texas attractions",
+        "midlothian tx parks",
+        "what to do in midlothian",
+        "midlothian to ennis"
+      ],
+      "paa_questions": [
+        "What is there to do in Midlothian, Texas?",
+        "What is Midlothian, TX known for?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/waxahachie-ellis-county/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-10-13"
+      },
+      "seasonal_hook": "Evergreen; August peak suggests back-to-school family searches",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Written for Midlothian residents (the try-before-you-buy persona lives here), so half the list is 'within 20 minutes' \u2014 Ennis, Waxahachie, Lake Bardwell \u2014 with the Slingshot as the closest big-experience item."
+    },
+    {
+      "id": "ed-041",
+      "title": "Things to Do in Corsicana, TX: Fruitcake, Pioneer Village and the I-45 Stop Worth Making",
+      "slug": "things-to-do-in-corsicana-tx",
+      "primary_keyword": "things to do in corsicana tx",
+      "volume_note": "n/a \u2014 not pulled; Corsicana is ~18 mi south of Ennis on I-45 (audience research 4e).",
+      "secondary_keywords": [
+        "collin street bakery corsicana",
+        "corsicana attractions",
+        "pioneer village corsicana",
+        "pearce museum corsicana"
+      ],
+      "paa_questions": [
+        "What is Corsicana, Texas known for?",
+        "Is Collin Street Bakery worth visiting?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/texas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-11-19"
+      },
+      "seasonal_hook": "Evergreen; Collin Street Bakery fruitcake season Nov\u2013Dec",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Frames Corsicana as the second stop on an Ennis day (or the Houston-bound leg) so the post captures I-45 through-traffic in both directions."
+    },
+    {
+      "id": "ed-042",
+      "title": "Where to Eat in Waxahachie: 15 Restaurants Around the Courthouse Square and Beyond",
+      "slug": "waxahachie-restaurants",
+      "primary_keyword": "restaurants in waxahachie tx",
+      "volume_note": "n/a \u2014 not pulled (Ennis variant is 2,900 US). /ennis/where-to-eat/ covers Ennis only.",
+      "secondary_keywords": [
+        "best restaurants waxahachie",
+        "waxahachie downtown restaurants",
+        "brunch waxahachie",
+        "waxahachie bbq"
+      ],
+      "paa_questions": [
+        "What are the best restaurants in Waxahachie?",
+        "Where do locals eat in Waxahachie?"
+      ],
+      "intent": "commercial",
+      "template": "roundup",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/where-to-eat/",
+      "commercial_link": "/slingshot-rental/waxahachie-ellis-county/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-10-06"
+      },
+      "seasonal_hook": "Evergreen; Scarborough-weekend dinner searches in April",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Organized by occasion (post-faire dinner, pre-Slingshot breakfast, date night) with realistic wait times on Scarborough Saturdays."
+    },
+    {
+      "id": "ed-043",
+      "title": "Antique Shopping in Waxahachie and Ennis: A Downtown Square-to-Square Guide",
+      "slug": "antique-shopping-waxahachie-ennis",
+      "primary_keyword": "antique stores waxahachie",
+      "volume_note": "n/a \u2014 not pulled; supports 'ennis tx shopping' (secondary on /ennis/downtown/) and 'things to do in waxahachie'.",
+      "secondary_keywords": [
+        "waxahachie antiques",
+        "antique shops ellis county",
+        "downtown waxahachie shopping",
+        "ennis tx antique stores"
+      ],
+      "paa_questions": [
+        "Does Waxahachie have good antique stores?",
+        "Where is the best antiquing near Dallas?"
+      ],
+      "intent": "commercial",
+      "template": "roundup",
+      "word_count": 1500,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/downtown/",
+      "commercial_link": "/slingshot-rental/waxahachie-ellis-county/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2027-02-03"
+      },
+      "seasonal_hook": "Evergreen; Valentine's weekend and spring shopping",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "The two squares as one loop (with the 15-mile drive between them as the best part), aimed at the couple where one wants antiques and one wants the drive."
+    },
+    {
+      "id": "ed-044",
+      "title": "Is Waxahachie Worth Visiting? What It's Known For and Who Will Love It",
+      "slug": "is-waxahachie-worth-visiting",
+      "primary_keyword": "is waxahachie worth visiting",
+      "volume_note": "n/a \u2014 PAA (serp-intelligence PAA bank, Waxahachie section); 'what is waxahachie known for' folded in as secondary.",
+      "secondary_keywords": [
+        "what is waxahachie known for",
+        "waxahachie texas review",
+        "waxahachie day trip",
+        "waxahachie vs granbury"
+      ],
+      "paa_questions": [
+        "Is Waxahachie worth visiting?",
+        "What is Waxahachie known for?",
+        "What is the #1 tourist attraction in Texas?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1500,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/weekend-itinerary/",
+      "commercial_link": "/slingshot-rental/waxahachie-ellis-county/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-12-01"
+      },
+      "seasonal_hook": "Evergreen; April Scarborough spike lifts all Waxahachie queries",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Direct PAA answer (yes, for these four reasons, on these weekends) with a 'pair it with Ennis' section so the two Ellis County towns are sold as one trip."
+    },
+    {
+      "id": "ed-045",
+      "title": "Ennis vs. Waxahachie: Which Ellis County Day Trip Is Right for You?",
+      "slug": "ennis-vs-waxahachie",
+      "primary_keyword": "ennis vs waxahachie",
+      "volume_note": "n/a \u2014 not pulled; comparison capture for 'day trips from dallas' (880 TX) searchers choosing between the two.",
+      "secondary_keywords": [
+        "waxahachie or ennis",
+        "ellis county day trip",
+        "ennis and waxahachie",
+        "towns south of dallas"
+      ],
+      "paa_questions": [
+        "How far is Ennis from Waxahachie?",
+        "Which is better to visit, Ennis or Waxahachie?"
+      ],
+      "intent": "commercial",
+      "template": "comparison",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/weekend-itinerary/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2027-01-14"
+      },
+      "seasonal_hook": "Evergreen; January planning for spring weekends",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Head-to-head table (drive time, food, shopping, events by month, kid-friendliness, driving roads) that ends with 'do both \u2014 they're 15 miles apart' and the weekend itinerary link."
+    },
+    {
+      "id": "ed-046",
+      "title": "How Far Is Ennis From Dallas? Drive Times From Every DFW Suburb (With Traffic)",
+      "slug": "how-far-is-ennis-from-dallas",
+      "primary_keyword": "how far is ennis from dallas",
+      "volume_note": "n/a \u2014 PAA/entity; audience research 4f lists source drive times (Dallas 35 mi/~37 min, Arlington 52/53, Plano 53/54, Fort Worth 57/59, Frisco 64/62, Waco 74/75) \u2014 verify in Maps before publishing.",
+      "secondary_keywords": [
+        "dallas to ennis tx",
+        "ennis tx to dallas",
+        "how far is ennis texas from fort worth",
+        "ennis tx distance from plano",
+        "closest airport to ennis tx"
+      ],
+      "paa_questions": [
+        "How far is Ennis, Texas from Dallas?",
+        "How long does it take to get from Dallas to Ennis?",
+        "What is the closest airport to Ennis, Texas?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1500,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-09-16"
+      },
+      "seasonal_hook": "Evergreen; core objection-handler for every DFW persona",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "One table, 15 origins, weekday-vs-Saturday-morning times, plus DFW/Love Field, built to be the featured snippet every other post on the site links to."
+    },
+    {
+      "id": "ed-047",
+      "title": "Houston to Dallas on I-45: The 9 Best Stops (and Why Ennis Is the One to Plan Around)",
+      "slug": "houston-to-dallas-i-45-stops",
+      "primary_keyword": "houston to dallas road trip stops",
+      "volume_note": "n/a \u2014 not pulled; 'slingshot rental houston' is 1,300 TX (Mar 1,900) and Ennis sits on the I-45 corridor between the two cities.",
+      "secondary_keywords": [
+        "things to do between houston and dallas",
+        "i-45 road trip",
+        "stops on i-45",
+        "corsicana ennis road trip",
+        "houston to dallas drive"
+      ],
+      "paa_questions": [
+        "What is there to do between Houston and Dallas?",
+        "Where should I stop on I-45 between Houston and Dallas?"
+      ],
+      "intent": "informational",
+      "template": "listicle",
+      "word_count": 1900,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/texas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-10-27"
+      },
+      "seasonal_hook": "Evergreen; Thanksgiving/Christmas I-45 travel, March Houston bluebonnet searches",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 1,
+      "angle": "South-to-north stop list with mile markers and time-cost per stop, positioning Ennis as the place to break a 4-hour drive with a 1-hour open-cockpit detour in April."
+    },
+    {
+      "id": "ed-048",
+      "title": "Visiting Ennis From Austin, San Antonio or Oklahoma: Routes, Timing and a Weekend Plan",
+      "slug": "getting-to-ennis-from-austin-san-antonio-oklahoma",
+      "primary_keyword": "austin to ennis tx",
+      "volume_note": "n/a \u2014 not pulled; supports /slingshot-rental/texas/ ('slingshot rental san antonio' 320 TX, 'austin' 50) and the out-of-town visitor persona.",
+      "secondary_keywords": [
+        "san antonio to ennis texas",
+        "oklahoma city to dallas weekend trip",
+        "waco to ennis",
+        "ennis texas from austin drive time"
+      ],
+      "paa_questions": [
+        "How far is Ennis, Texas from Austin?",
+        "How far is Ennis from Oklahoma City?"
+      ],
+      "intent": "informational",
+      "template": "how-to-guide",
+      "word_count": 2000,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/where-to-stay/",
+      "commercial_link": "/slingshot-rental/texas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2027-02-24"
+      },
+      "seasonal_hook": "Evergreen; March statewide bluebonnet-trip planning",
+      "requires_onsite": false,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Origin-by-origin (I-35/US-77 from the south, I-35 from OKC) with the case for Ennis over the Hill Country for anyone north of Waco, and where to stay so the Slingshot slot is a 10-minute drive from the hotel."
+    },
+    {
+      "id": "ed-049",
+      "title": "Gas, EV Charging and Cell Coverage in Ennis: The Road-Trip Logistics Nobody Publishes",
+      "slug": "ev-charging-gas-ennis-tx",
+      "primary_keyword": "ev charging ennis tx",
+      "volume_note": "n/a \u2014 not pulled; road-trip logistics gap for the trails and race weekends.",
+      "secondary_keywords": [
+        "tesla supercharger ennis tx",
+        "gas stations ennis texas i-45",
+        "cell service ennis bluebonnet trails",
+        "ev charging waxahachie",
+        "ev charging texas motorplex"
+      ],
+      "paa_questions": [
+        "Is there a Tesla Supercharger in Ennis, Texas?",
+        "Where can I charge an EV near Waxahachie?"
+      ],
+      "intent": "informational",
+      "template": "faq-knowledge",
+      "word_count": 1500,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2027-01-08"
+      },
+      "seasonal_hook": "Evergreen; pre-season logistics, refreshed each January",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 3,
+      "angle": "Verified-on-the-ground charger and fuel map (with plug types and whether they work), plus the honest note that the Slingshot's fuel is included so this only matters for the car you arrive in."
+    },
+    {
+      "id": "ed-050",
+      "title": "We Timed the Dallas-to-Ennis Saturday Drive: Real Traffic, Gas Stops and the Route That Won",
+      "slug": "dallas-to-ennis-saturday-drive-test",
+      "primary_keyword": "dallas to ennis drive",
+      "volume_note": "n/a \u2014 entity; supports 'day trips from dallas' (880 TX) and the /ennis/day-trip-from-dallas/ spoke with first-hand data.",
+      "secondary_keywords": [
+        "i-45 vs back roads to ennis",
+        "dallas to ennis traffic saturday",
+        "best route dallas to ennis",
+        "how long is the drive to ennis tx"
+      ],
+      "paa_questions": [
+        "What is the best way to get from Dallas to Ennis?",
+        "Is there traffic on I-45 on Saturday morning?"
+      ],
+      "intent": "informational",
+      "template": "case-study",
+      "word_count": 1600,
+      "hub": "/ennis/",
+      "spoke_link": "/ennis/day-trip-from-dallas/",
+      "commercial_link": "/slingshot-rental/near-dallas/",
+      "publish_window": {
+        "earliest": "2026-09-05",
+        "latest": "2027-02-28",
+        "ideal": "2026-09-22"
+      },
+      "seasonal_hook": "Evergreen; re-run in April 2027 on a festival Saturday",
+      "requires_onsite": true,
+      "conditional": false,
+      "reactive": false,
+      "priority": 2,
+      "angle": "Three real runs (I-45, US-175 to FM-1181, US-287 via Waxahachie) with timestamps and photos \u2014 original data that gives every other day-trip post on the site a source to cite."
+    }
+  ]
+}

@@ -1,0 +1,1043 @@
+{
+  "version": "2.2.5",
+  "seed_keyword": "ennis bluebonnets",
+  "created_at": "2026-09-04",
+  "business": "Ennis Slingshot Experience (https://ennisslingshot.com)",
+  "strategic_goal": "Own everything Ennis + bluebonnets: festival, trails, maps, season/bloom timing, photos, visitor logistics, the town, and adjacent April/May events.",
+  "pillar": {
+    "title": "Ennis Bluebonnet Trails & Festival 2027 Guide",
+    "keyword": "ennis bluebonnet festival",
+    "secondary_keywords": [
+      "ennis bluebonnet trails",
+      "bluebonnet trail ennis",
+      "ennis bluebonnet festival 2027",
+      "ennis bluebonnet festival 2026",
+      "ennis bluebonnet trails an april driving route",
+      "ennis texas bluebonnet",
+      "bluebonnet capital of texas",
+      "texas bluebonnet festival"
+    ],
+    "volume": 14800,
+    "template": "pillar-page",
+    "wordCount": 3500,
+    "url": "/bluebonnets/",
+    "status": "planned",
+    "intent": "Informational (broad, local-event)",
+    "rationale": "Highest combined TX search volume in the set (ennis bluebonnet festival 14,800 Apr + bluebonnet trail ennis 12,100 Apr), broadest SERP overlap with nearly every other keyword in the set, and the only page built to rank for both the festival AND the trail head terms at once -- which SERP data shows share ~6 of top-10 results (bluebonnettrail.org, visitennistexas.com, elliscountytx.gov, facebook.com, tripadvisor.com), justifying one merged hub rather than two competing pages. Also the only page type positioned to capture year-suffixed demand (\"ennis bluebonnet festival 2026\" 3,600 Mar+Apr) via annual refresh once 2027 dates are announced."
+  },
+  "clusters": [
+    {
+      "name": "Trail Map & Getting There",
+      "color": "#4E79A7",
+      "posts": [
+        {
+          "id": "trail-map",
+          "title": "Interactive Ennis Bluebonnet Trail Map: West, North & South Routes",
+          "keyword": "ennis bluebonnet trail map",
+          "secondary_keywords": [
+            "ennis texas bluebonnet trails map",
+            "bluebonnet trail texas map",
+            "ennis bluebonnet trails 2026"
+          ],
+          "volume": 1000,
+          "template": "data-research",
+          "wordCount": 1400,
+          "url": "/bluebonnets/trail-map/",
+          "status": "planned",
+          "intent": "Informational (tool)",
+          "linkable_asset": "Embedded interactive map (West/North/South loop overlays, GPS-friendly, bloom-density pins) -- the hub's primary utility asset and the natural place to plug the Slingshot booking CTA (\"drive this exact map in a Slingshot\")."
+        },
+        {
+          "id": "welcome-center",
+          "title": "Ennis Welcome Center: Hours, Parking & What to Expect (201 NW Main St)",
+          "keyword": "ennis welcome center",
+          "secondary_keywords": [
+            "ennis visitor center",
+            "ennis welcome center hours"
+          ],
+          "volume": 3600,
+          "template": "faq-knowledge",
+          "wordCount": 1300,
+          "url": "/bluebonnets/welcome-center/",
+          "status": "planned",
+          "intent": "Informational-local",
+          "note": "High-value: this is literally the Slingshot deploy point. No competitor content frames the Welcome Center as a rental/experience hub."
+        },
+        {
+          "id": "parking-directions",
+          "title": "Ennis Bluebonnet Festival Parking & Directions Guide",
+          "keyword": "ennis bluebonnet festival parking",
+          "secondary_keywords": [
+            "ennis bluebonnet trail directions",
+            "ennis bluebonnet festival directions"
+          ],
+          "volume": 30,
+          "template": "tutorial",
+          "wordCount": 1200,
+          "url": "/bluebonnets/parking-directions/",
+          "status": "planned",
+          "intent": "Informational (transactional-adjacent logistics)"
+        }
+      ]
+    },
+    {
+      "name": "Ennis Town Guide",
+      "color": "#F28E2B",
+      "posts": [
+        {
+          "id": "things-to-do",
+          "title": "Things to Do in Ennis, TX (Beyond the Bluebonnets)",
+          "keyword": "things to do in ennis tx",
+          "secondary_keywords": [
+            "ennis tx attractions",
+            "what to do in ennis tx",
+            "downtown ennis tx"
+          ],
+          "volume": 390,
+          "template": "listicle",
+          "wordCount": 1800,
+          "url": "/bluebonnets/things-to-do-in-ennis/",
+          "status": "planned",
+          "intent": "Informational-local",
+          "note": "Folds in 'downtown ennis tx' (720 Apr) as a section rather than a standalone page -- SERP overlap with the bluebonnet-trail cluster (~3, visitennistexas.com/tripadvisor.com/facebook.com shared) is an interlink-strength relationship, not a merge."
+        },
+        {
+          "id": "hotels",
+          "title": "Where to Stay: Hotels Near the Ennis Bluebonnet Trail",
+          "keyword": "hotels in ennis tx",
+          "secondary_keywords": [],
+          "volume": 1900,
+          "template": "roundup",
+          "wordCount": 1400,
+          "url": "/bluebonnets/hotels/",
+          "status": "planned",
+          "intent": "Informational-local (commercial-adjacent)"
+        },
+        {
+          "id": "restaurants",
+          "title": "Where to Eat: Best Restaurants in Ennis, TX During Bluebonnet Season",
+          "keyword": "restaurants in ennis tx",
+          "secondary_keywords": [],
+          "volume": 2900,
+          "template": "roundup",
+          "wordCount": 1500,
+          "url": "/bluebonnets/restaurants/",
+          "status": "planned",
+          "intent": "Informational-local (commercial-adjacent)"
+        }
+      ]
+    },
+    {
+      "name": "Bloom Timing & Season Tracker",
+      "color": "#59A14F",
+      "posts": [
+        {
+          "id": "when-do-bloom",
+          "title": "When Do Bluebonnets Bloom in Texas? (Ennis Timing Guide)",
+          "keyword": "when do bluebonnets bloom",
+          "secondary_keywords": [
+            "bluebonnet season texas",
+            "best time of year to see bluebonnets in texas"
+          ],
+          "volume": 1300,
+          "template": "faq-knowledge",
+          "wordCount": 1500,
+          "url": "/bluebonnets/when-do-bluebonnets-bloom/",
+          "status": "planned",
+          "intent": "Informational (broad, PAA-driven)",
+          "note": "SERP overlap between 'when do bluebonnets bloom' and 'bluebonnet season texas' is high (~6: wildflower.org, mickeyshannon.com, shebuystravel.com, thetexaswildflower.com shared) -- merged into one spoke per the 7-10/4-6 threshold guidance rather than split into two competing pages."
+        },
+        {
+          "id": "bloom-tracker",
+          "title": "Ennis Bluebonnet Bloom Tracker: Live 2027 Season Updates",
+          "keyword": "bluebonnet report texas",
+          "secondary_keywords": [
+            "are the bluebonnets blooming in ennis tx now",
+            "will 2027 be a good year for bluebonnets",
+            "bluebonnet forecast"
+          ],
+          "volume": 20,
+          "template": "data-research",
+          "wordCount": 1200,
+          "url": "/bluebonnets/bloom-tracker/",
+          "status": "planned",
+          "intent": "Informational (tool, low volume/high engagement)",
+          "linkable_asset": "The hub's second linkable asset -- a manually-updated (or Google-Sheets-embedded) weekly bloom-density tracker for March-April. Tiny standalone volume today but the natural PR/backlink magnet and repeat-visit driver during the season; doubles as the seasonal 'forecast' page so a separate forecast post isn't needed."
+        },
+        {
+          "id": "festival-weather",
+          "title": "Ennis Bluebonnet Festival Weekend Weather Guide",
+          "keyword": "ennis bluebonnet festival weather",
+          "secondary_keywords": [
+            "ennis tx weather april"
+          ],
+          "volume": 10,
+          "template": "data-research",
+          "wordCount": 1200,
+          "url": "/bluebonnets/festival-weather/",
+          "status": "planned",
+          "intent": "Informational (tool, utility)",
+          "linkable_asset": "Third linkable asset the owner asked for: an embedded rolling forecast widget for festival weekend plus historical April averages (rain odds, temp range) framed around trip planning and the 'rain or shine' rental policy."
+        }
+      ]
+    },
+    {
+      "name": "Bluebonnet Photography & Etiquette",
+      "color": "#E15759",
+      "posts": [
+        {
+          "id": "photo-spots",
+          "title": "Best Spots for Bluebonnet Photos in Ennis, TX",
+          "keyword": "bluebonnet photos",
+          "secondary_keywords": [
+            "bluebonnet family photos",
+            "where to take bluebonnet pictures near ennis"
+          ],
+          "volume": 4400,
+          "template": "listicle",
+          "wordCount": 1600,
+          "url": "/bluebonnets/photo-spots/",
+          "status": "planned",
+          "intent": "Informational (localized from a broad/stock-photo-dominated SERP)",
+          "note": "Confirmed via SERP pull: 'bluebonnet photos' is dominated by stock-photo sites (Getty, iStock, Adobe Stock) with zero Ennis-specific ranking content -- open lane for a first-party, location-specific listicle. 'bluebonnet family photos' folded in as a section."
+        },
+        {
+          "id": "photoshoot-tips",
+          "title": "Bluebonnet Photoshoot Tips: Best Time of Day, What to Wear, Camera Settings",
+          "keyword": "bluebonnet photoshoot",
+          "secondary_keywords": [
+            "what to wear for bluebonnet photos"
+          ],
+          "volume": 720,
+          "template": "how-to-guide",
+          "wordCount": 1500,
+          "url": "/bluebonnets/photoshoot-tips/",
+          "status": "planned",
+          "intent": "Informational (how-to)",
+          "note": "Confirmed zero URL overlap with 'bluebonnet photos' (photography-tip blogs vs. stock-photo sites) -- correctly split into a separate post."
+        },
+        {
+          "id": "bluebonnet-etiquette",
+          "title": "Is It Illegal to Pick Bluebonnets in Texas? Etiquette & Trail Rules",
+          "keyword": "is it illegal to pick a bluebonnet in texas",
+          "secondary_keywords": [
+            "can you scatter bluebonnet seeds",
+            "do bluebonnets come back every year",
+            "is it illegal to mow over bluebonnets"
+          ],
+          "volume": 12100,
+          "template": "faq-knowledge",
+          "wordCount": 1400,
+          "url": "/bluebonnets/bluebonnet-etiquette/",
+          "status": "planned",
+          "intent": "Informational (legal/FAQ, national volume)",
+          "note": "Highest single search volume in the entire keyword set (12,100 US, Mar). Currently owned by news outlets and .gov-adjacent sites, zero rental/experience-business presence -- a strong AI-Overview-citation target if sourced against Texas statute directly."
+        }
+      ]
+    },
+    {
+      "name": "Beyond Ennis: Comparisons & Nearby Events",
+      "color": "#B07AA1",
+      "location": "blog",
+      "posts": [
+        {
+          "id": "ennis-vs-other-trails",
+          "title": "Ennis vs. Other Texas Bluebonnet Trails: Burnet, Willow City Loop & Chappell Hill Compared",
+          "keyword": "best bluebonnet trails in texas",
+          "secondary_keywords": [
+            "burnet bluebonnet festival",
+            "texas bluebonnet trail",
+            "where to see bluebonnets in texas",
+            "what city in texas has the most bluebonnets",
+            "bluebonnet capital of texas"
+          ],
+          "volume": 590,
+          "template": "comparison",
+          "wordCount": 1800,
+          "url": "/blog/ennis-vs-other-texas-bluebonnet-trails/",
+          "status": "planned",
+          "intent": "Commercial (compare)",
+          "note": "SERP for 'burnet bluebonnet festival' is a completely separate, Burnet-only domain set (bluebonnetfestival.org, burnetchamber.org, highlandlakesofburnetcounty.com) with 0 overlap vs. Ennis's SERP -- confirms these need separate target pages, unified here as a comparison rather than letting Burnet/Willow City Loop searchers go entirely uncaptured. Also carries the 'bluebonnet capital of texas' positioning defense (Ennis is the 1997 Texas Legislature-designated title-holder)."
+        },
+        {
+          "id": "whats-happening-near-ennis",
+          "title": "What Else Is Happening Near Ennis in April: Scarborough Renaissance Festival & Texas Motorplex",
+          "keyword": "scarborough renaissance festival",
+          "secondary_keywords": [
+            "texas motorplex",
+            "texas motorplex schedule",
+            "things to do in waxahachie tx"
+          ],
+          "volume": 27100,
+          "template": "roundup",
+          "wordCount": 1600,
+          "url": "/blog/whats-happening-near-ennis-in-april/",
+          "status": "planned",
+          "intent": "Informational (adjacent-event, high volume/low relevance individually)",
+          "note": "'scarborough renaissance festival' (27,100 avg / 135,000 in April TX) and 'texas motorplex' (12,100 avg / 40,500 March TX) share only ~1 URL each with each other and with the Ennis bluebonnet SERPs -- kept as separate topics from the pillar but bundled into one same-weekend/same-drive roundup rather than split into two thin posts, per the owner's 'own everything Ennis + bluebonnets' + adjacent-event brief."
+        },
+        {
+          "id": "national-polka-festival",
+          "title": "National Polka Festival: Ennis's Memorial Day Weekend Encore",
+          "keyword": "ennis polka festival",
+          "secondary_keywords": [
+            "national polka festival",
+            "ennis czech music festival"
+          ],
+          "volume": 480,
+          "template": "thought-leadership",
+          "wordCount": 1500,
+          "url": "/blog/national-polka-festival-ennis-memorial-day/",
+          "status": "planned",
+          "intent": "Informational-local",
+          "note": "0 SERP overlap with Texas Motorplex/Scarborough -- correctly a standalone post. High strategic value: a second, Memorial-Day-weekend Ennis flagship event to 'own,' and a natural test bed for off-season Slingshot demand (May 3,600 TX peak) without committing to a new season."
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "from": "pillar",
+      "to": "cluster-0-post-0",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet trail map"
+    },
+    {
+      "from": "cluster-0-post-0",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-0-post-1",
+      "type": "mandatory",
+      "anchor": "ennis welcome center"
+    },
+    {
+      "from": "cluster-0-post-1",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-0-post-2",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival parking"
+    },
+    {
+      "from": "cluster-0-post-2",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-1-post-0",
+      "type": "mandatory",
+      "anchor": "things to do in ennis tx"
+    },
+    {
+      "from": "cluster-1-post-0",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-1-post-1",
+      "type": "mandatory",
+      "anchor": "hotels in ennis tx"
+    },
+    {
+      "from": "cluster-1-post-1",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-1-post-2",
+      "type": "mandatory",
+      "anchor": "restaurants in ennis tx"
+    },
+    {
+      "from": "cluster-1-post-2",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-2-post-0",
+      "type": "mandatory",
+      "anchor": "when do bluebonnets bloom"
+    },
+    {
+      "from": "cluster-2-post-0",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-2-post-1",
+      "type": "mandatory",
+      "anchor": "bluebonnet report texas"
+    },
+    {
+      "from": "cluster-2-post-1",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-2-post-2",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival weather"
+    },
+    {
+      "from": "cluster-2-post-2",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-3-post-0",
+      "type": "mandatory",
+      "anchor": "bluebonnet photos"
+    },
+    {
+      "from": "cluster-3-post-0",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-3-post-1",
+      "type": "mandatory",
+      "anchor": "bluebonnet photoshoot"
+    },
+    {
+      "from": "cluster-3-post-1",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-3-post-2",
+      "type": "mandatory",
+      "anchor": "is it illegal to pick a bluebonnet in texas"
+    },
+    {
+      "from": "cluster-3-post-2",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-4-post-0",
+      "type": "mandatory",
+      "anchor": "best bluebonnet trails in texas"
+    },
+    {
+      "from": "cluster-4-post-0",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-4-post-1",
+      "type": "mandatory",
+      "anchor": "scarborough renaissance festival"
+    },
+    {
+      "from": "cluster-4-post-1",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "pillar",
+      "to": "cluster-4-post-2",
+      "type": "mandatory",
+      "anchor": "ennis polka festival"
+    },
+    {
+      "from": "cluster-4-post-2",
+      "to": "pillar",
+      "type": "mandatory",
+      "anchor": "ennis bluebonnet festival"
+    },
+    {
+      "from": "cluster-0-post-0",
+      "to": "cluster-0-post-1",
+      "type": "recommended",
+      "anchor": "ennis welcome center"
+    },
+    {
+      "from": "cluster-0-post-0",
+      "to": "cluster-0-post-2",
+      "type": "recommended",
+      "anchor": "ennis bluebonnet festival parking"
+    },
+    {
+      "from": "cluster-0-post-1",
+      "to": "cluster-0-post-0",
+      "type": "recommended",
+      "anchor": "ennis bluebonnet trail map"
+    },
+    {
+      "from": "cluster-0-post-1",
+      "to": "cluster-0-post-2",
+      "type": "recommended",
+      "anchor": "ennis bluebonnet festival parking"
+    },
+    {
+      "from": "cluster-0-post-2",
+      "to": "cluster-0-post-0",
+      "type": "recommended",
+      "anchor": "ennis bluebonnet trail map"
+    },
+    {
+      "from": "cluster-0-post-2",
+      "to": "cluster-0-post-1",
+      "type": "recommended",
+      "anchor": "ennis welcome center"
+    },
+    {
+      "from": "cluster-1-post-0",
+      "to": "cluster-1-post-1",
+      "type": "recommended",
+      "anchor": "hotels in ennis tx"
+    },
+    {
+      "from": "cluster-1-post-0",
+      "to": "cluster-1-post-2",
+      "type": "recommended",
+      "anchor": "restaurants in ennis tx"
+    },
+    {
+      "from": "cluster-1-post-1",
+      "to": "cluster-1-post-0",
+      "type": "recommended",
+      "anchor": "things to do in ennis tx"
+    },
+    {
+      "from": "cluster-1-post-1",
+      "to": "cluster-1-post-2",
+      "type": "recommended",
+      "anchor": "restaurants in ennis tx"
+    },
+    {
+      "from": "cluster-1-post-2",
+      "to": "cluster-1-post-0",
+      "type": "recommended",
+      "anchor": "things to do in ennis tx"
+    },
+    {
+      "from": "cluster-1-post-2",
+      "to": "cluster-1-post-1",
+      "type": "recommended",
+      "anchor": "hotels in ennis tx"
+    },
+    {
+      "from": "cluster-2-post-0",
+      "to": "cluster-2-post-1",
+      "type": "recommended",
+      "anchor": "bluebonnet report texas"
+    },
+    {
+      "from": "cluster-2-post-0",
+      "to": "cluster-2-post-2",
+      "type": "recommended",
+      "anchor": "ennis bluebonnet festival weather"
+    },
+    {
+      "from": "cluster-2-post-1",
+      "to": "cluster-2-post-0",
+      "type": "recommended",
+      "anchor": "when do bluebonnets bloom"
+    },
+    {
+      "from": "cluster-2-post-1",
+      "to": "cluster-2-post-2",
+      "type": "recommended",
+      "anchor": "ennis bluebonnet festival weather"
+    },
+    {
+      "from": "cluster-2-post-2",
+      "to": "cluster-2-post-0",
+      "type": "recommended",
+      "anchor": "when do bluebonnets bloom"
+    },
+    {
+      "from": "cluster-2-post-2",
+      "to": "cluster-2-post-1",
+      "type": "recommended",
+      "anchor": "bluebonnet report texas"
+    },
+    {
+      "from": "cluster-3-post-0",
+      "to": "cluster-3-post-1",
+      "type": "recommended",
+      "anchor": "bluebonnet photoshoot"
+    },
+    {
+      "from": "cluster-3-post-0",
+      "to": "cluster-3-post-2",
+      "type": "recommended",
+      "anchor": "is it illegal to pick a bluebonnet in texas"
+    },
+    {
+      "from": "cluster-3-post-1",
+      "to": "cluster-3-post-0",
+      "type": "recommended",
+      "anchor": "bluebonnet photos"
+    },
+    {
+      "from": "cluster-3-post-1",
+      "to": "cluster-3-post-2",
+      "type": "recommended",
+      "anchor": "is it illegal to pick a bluebonnet in texas"
+    },
+    {
+      "from": "cluster-3-post-2",
+      "to": "cluster-3-post-0",
+      "type": "recommended",
+      "anchor": "bluebonnet photos"
+    },
+    {
+      "from": "cluster-3-post-2",
+      "to": "cluster-3-post-1",
+      "type": "recommended",
+      "anchor": "bluebonnet photoshoot"
+    },
+    {
+      "from": "cluster-4-post-0",
+      "to": "cluster-4-post-1",
+      "type": "recommended",
+      "anchor": "scarborough renaissance festival"
+    },
+    {
+      "from": "cluster-4-post-0",
+      "to": "cluster-4-post-2",
+      "type": "recommended",
+      "anchor": "ennis polka festival"
+    },
+    {
+      "from": "cluster-4-post-1",
+      "to": "cluster-4-post-0",
+      "type": "recommended",
+      "anchor": "best bluebonnet trails in texas"
+    },
+    {
+      "from": "cluster-4-post-1",
+      "to": "cluster-4-post-2",
+      "type": "recommended",
+      "anchor": "ennis polka festival"
+    },
+    {
+      "from": "cluster-4-post-2",
+      "to": "cluster-4-post-0",
+      "type": "recommended",
+      "anchor": "best bluebonnet trails in texas"
+    },
+    {
+      "from": "cluster-4-post-2",
+      "to": "cluster-4-post-1",
+      "type": "recommended",
+      "anchor": "scarborough renaissance festival"
+    },
+    {
+      "from": "cluster-0-post-0",
+      "to": "cluster-2-post-1",
+      "type": "optional",
+      "anchor": "bluebonnet bloom tracker"
+    },
+    {
+      "from": "cluster-2-post-1",
+      "to": "cluster-0-post-0",
+      "type": "optional",
+      "anchor": "ennis bluebonnet trail map"
+    },
+    {
+      "from": "cluster-1-post-0",
+      "to": "cluster-0-post-1",
+      "type": "optional",
+      "anchor": "ennis welcome center"
+    },
+    {
+      "from": "cluster-0-post-1",
+      "to": "cluster-1-post-0",
+      "type": "optional",
+      "anchor": "things to do in ennis tx"
+    },
+    {
+      "from": "cluster-3-post-0",
+      "to": "cluster-0-post-0",
+      "type": "optional",
+      "anchor": "ennis bluebonnet trail map"
+    },
+    {
+      "from": "cluster-3-post-2",
+      "to": "cluster-2-post-0",
+      "type": "optional",
+      "anchor": "when do bluebonnets bloom"
+    },
+    {
+      "from": "cluster-4-post-0",
+      "to": "cluster-0-post-0",
+      "type": "optional",
+      "anchor": "ennis bluebonnet trail map"
+    },
+    {
+      "from": "cluster-4-post-1",
+      "to": "cluster-1-post-0",
+      "type": "optional",
+      "anchor": "things to do in ennis tx"
+    },
+    {
+      "from": "cluster-4-post-2",
+      "to": "cluster-1-post-0",
+      "type": "optional",
+      "anchor": "things to do in ennis tx"
+    },
+    {
+      "from": "cluster-2-post-0",
+      "to": "cluster-4-post-0",
+      "type": "optional",
+      "anchor": "best bluebonnet trails in texas"
+    }
+  ],
+  "serp_matrix": {
+    "keywords": [
+      "ennis bluebonnet festival",
+      "ennis bluebonnet trail map",
+      "ennis welcome center",
+      "ennis bluebonnet festival parking",
+      "things to do in ennis tx",
+      "hotels in ennis tx",
+      "restaurants in ennis tx",
+      "when do bluebonnets bloom",
+      "bluebonnet report texas",
+      "ennis bluebonnet festival weather",
+      "bluebonnet photos",
+      "bluebonnet photoshoot",
+      "is it illegal to pick a bluebonnet in texas",
+      "best bluebonnet trails in texas",
+      "scarborough renaissance festival",
+      "ennis polka festival"
+    ],
+    "scores": [
+      [
+        10,
+        5,
+        3,
+        3,
+        3,
+        1,
+        1,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        4,
+        1,
+        2
+      ],
+      [
+        5,
+        10,
+        1,
+        2,
+        3,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      [
+        3,
+        1,
+        10,
+        2,
+        2,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      [
+        3,
+        2,
+        2,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      [
+        3,
+        3,
+        2,
+        10,
+        10,
+        1,
+        1,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      [
+        1,
+        10,
+        10,
+        10,
+        1,
+        10,
+        1,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      [
+        1,
+        10,
+        10,
+        10,
+        1,
+        1,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      [
+        4,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        4,
+        1,
+        10,
+        10,
+        2,
+        2,
+        10,
+        10
+      ],
+      [
+        3,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        4,
+        10,
+        2,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      [
+        3,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        1,
+        2,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      [
+        3,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        0,
+        0,
+        10,
+        10,
+        10
+      ],
+      [
+        2,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        0,
+        10,
+        1,
+        10,
+        10,
+        10
+      ],
+      [
+        2,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        2,
+        10,
+        10,
+        0,
+        1,
+        10,
+        10,
+        10,
+        10
+      ],
+      [
+        4,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        2,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        0,
+        0
+      ],
+      [
+        1,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        0,
+        10,
+        1
+      ],
+      [
+        2,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        0,
+        1,
+        10
+      ]
+    ]
+  },
+  "scorecard": {
+    "coverage": 0.0,
+    "linkDensity": 4.38,
+    "orphanPages": 0,
+    "cannibalization": 0,
+    "contentGaps": 0,
+    "totalPosts": 16,
+    "totalClusters": 5,
+    "totalLinks": 70,
+    "estimatedWords": 25400
+  },
+  "orphans": [],
+  "cannibalization_duplicates": []
+}
