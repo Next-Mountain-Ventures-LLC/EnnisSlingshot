@@ -4,9 +4,11 @@ description: "Planning your first NHRA Fall Nationals at Texas Motorplex in Enni
 excerpt: "Planning your first NHRA Fall Nationals at Texas Motorplex in Ennis, TX? A local's guide to qualifying, eliminations, parking, and what else to do."
 slug: "nhra-fall-nationals-texas-motorplex-guide"
 pubDate: "2026-09-06T13:00:00+00:00"
-updatedDate: "2026-09-05T17:17:53+00:00"
+updatedDate: "2026-09-07T01:21:57+00:00"
 draft: false
 status: "publish"
+heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_908_final.webp?fit=1600%2C900&ssl=1"
+heroImageAlt: "An orange Polaris Slingshot parked near the Texas Motorplex drag strip at golden hour. Hero image for the Ennis Slingshot article \"NHRA Fall Nationals at Texas Motorplex: A First-Timer's Weekend Guide\""
 tags:
   - "drag racing"
   - "ellis county"

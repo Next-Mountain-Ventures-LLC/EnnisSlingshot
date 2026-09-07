@@ -4,9 +4,11 @@ description: "What is a Polaris Slingshot? Specs, license rules, safety, AutoDri
 excerpt: "What is a Polaris Slingshot? Specs, license rules, safety, AutoDrive, and what it's really like to drive one, from an Ennis, TX operator."
 slug: "polaris-slingshot-101"
 pubDate: "2026-09-05T13:00:00+00:00"
-updatedDate: "2026-09-05T17:32:34+00:00"
+updatedDate: "2026-09-07T01:21:54+00:00"
 draft: false
 status: "publish"
+heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_907_final.webp?fit=1600%2C900&ssl=1"
+heroImageAlt: "A vibrant orange Polaris Slingshot parked on a rural Texas farm road at golden hour, bluebonnet field alongside. Hero image for the Ennis Slingshot article \"Polaris Slingshot 101: The First-Timer's Complete Guide\""
 tags:
   - "autocycle"
   - "first-timer guide"
