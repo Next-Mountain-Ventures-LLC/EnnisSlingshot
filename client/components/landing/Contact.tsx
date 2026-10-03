@@ -1,6 +1,7 @@
 import { Facebook } from "lucide-react";
 import { Link } from "react-router-dom";
 import { business, isTodo } from "@shared/business";
+import { SignupForm } from "@/components/signup/SignupForm";
 
 /** Footer link groups (LINKING-CONVENTIONS.md: hubs + 6 most important spokes). */
 const FOOTER_LINKS = {
@@ -16,8 +17,7 @@ const FOOTER_LINKS = {
     { label: "Bluebonnet Festival", to: "/bluebonnets/festival/" },
     { label: "Date Night", to: "/slingshot-rental/date-night/" },
     { label: "Gift Cards", to: "/slingshot-rental/gift-cards/" },
-    // TODO(2026-09-15): switch to "/blog/texas-slingshot-laws/" once that post has synced from WordPress (it is scheduled for Sep 15) — until then it would 404.
-    { label: "Texas Slingshot Laws", to: "/faq/" },
+    { label: "Texas Slingshot Laws", to: "/blog/texas-slingshot-laws/" },
   ],
   support: [
     { label: "About", to: "/about/" },
@@ -37,31 +37,12 @@ export function Contact() {
   const showEmail = !isTodo(business.email);
   const showStreet = !isTodo(business.address.streetAddress);
 
-  const handleFacebookShare = () => {
-    // Share Facebook page to Facebook
-    const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(facebookUrl)}`;
-    window.open(shareUrl, "_blank", "width=600,height=400");
-  };
-
   return (
     <footer className="bg-ennis-darker border-t border-gray-700">
-      {/* Share Section */}
-      <section className="py-16 md:py-20 border-b border-gray-700">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-black text-white mb-4">
-            Share the <span className="text-ennis-orange">Thrill</span>
-          </h2>
-          <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
-            Invite your friends and family to experience the adrenaline rush of a lifetime. Let them book their Slingshot adventure today.
-          </p>
-
-          <button
-            onClick={handleFacebookShare}
-            className="px-8 py-6 bg-[#1877F2] hover:bg-[#165FE5] text-white font-bold text-lg rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl inline-flex items-center gap-3"
-          >
-            <Facebook className="w-6 h-6" />
-            Share on Facebook
-          </button>
+      {/* Mailing-list signup — on every page (two-step: email, then phone for texts + $10 off) */}
+      <section className="py-14 md:py-20 border-b border-gray-700 bg-gradient-to-br from-ennis-navy/40 via-ennis-darker to-ennis-darker" aria-label="Get festival and trail updates">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <SignupForm variant="band" source="footer" />
         </div>
       </section>
 

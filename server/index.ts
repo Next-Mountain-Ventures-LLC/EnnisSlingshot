@@ -3,6 +3,7 @@ import express, { Express } from "express";
 import cors from "cors";
 import path from "path";
 import { handleDemo } from "./routes/demo";
+import { handleSubscribeEmail, handleSubscribePhone } from "./routes/subscribe";
 
 export function createServer() {
   const app: Express = express();
@@ -23,6 +24,10 @@ export function createServer() {
   });
 
   app.get("/api/demo", handleDemo);
+
+  // Mailing list (Sender) — see server/routes/subscribe.ts for required env vars
+  app.post("/api/subscribe", handleSubscribeEmail);
+  app.post("/api/subscribe/phone", handleSubscribePhone);
 
   return app;
 }

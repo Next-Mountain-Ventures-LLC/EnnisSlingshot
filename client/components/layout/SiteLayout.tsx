@@ -8,6 +8,7 @@ import { Header } from "@/components/landing/Header";
 import { Contact } from "@/components/landing/Contact";
 import { StickyBookBar } from "@/components/layout/StickyBookBar";
 import { ConsentBanner } from "@/components/shared/ConsentBanner";
+import { SignupPopup } from "@/components/signup/SignupPopup";
 import { Seo } from "@/components/seo/Seo";
 import { business } from "@shared/business";
 
@@ -27,6 +28,7 @@ export function SiteLayout({ children }: { children?: React.ReactNode }) {
       <Contact />
       <StickyBookBar />
       <ConsentBanner />
+      <SignupPopup />
     </div>
   );
 }

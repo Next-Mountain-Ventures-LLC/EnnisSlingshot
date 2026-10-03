@@ -45,8 +45,7 @@ export const business = {
 
   /** TODO: owner to supply. Hidden in UI/schema while it starts with "TODO". */
   phone: "TODO-PHONE",
-  /** TODO: owner to supply. Hidden in UI/schema while it starts with "TODO". */
-  email: "TODO-EMAIL",
+  email: "info@ennisslingshot.com",
 
   /**
    * Registered business address. Street is a TODO placeholder until the owner

@@ -31,6 +31,8 @@ import { RelatedPosts } from './RelatedPosts';
 import { PrevNextPost } from './PrevNextPost';
 import NotFound from '@/pages/NotFound';
 import { LCP_IMG_PROPS } from '@/lib/media';
+import { SignupForm } from '@/components/signup/SignupForm';
+import { BookingCta } from '@/components/shared/BookingCta';
 
 export function BlogTemplate() {
   const { slug } = useParams<{ slug: string }>();
@@ -93,7 +95,7 @@ export function BlogTemplate() {
           breadcrumbList(breadcrumbTrail(crumbs)),
         ]}
       />
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-12 max-w-6xl">
         <Breadcrumbs items={crumbs} withSchema={false} className="mb-6" />
         {/* Back Button */}
         <Link
@@ -104,7 +106,9 @@ export function BlogTemplate() {
           {primary ? `Back to ${primary.name}` : 'Back to Blog'}
         </Link>
 
-        <article className="max-w-3xl">
+        {/* Article + sidebar (signup + booking). Sidebar drops below the article on small screens. */}
+        <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-12 xl:gap-16">
+        <article className="min-w-0 max-w-3xl">
           {/* Featured Image — the LCP element on post pages */}
           {hero && (
             <div className="mb-8 rounded-lg overflow-hidden bg-gray-800 aspect-video">
@@ -190,9 +194,15 @@ export function BlogTemplate() {
           <PrevNextPost post={post} />
         </article>
 
-        <div className="max-w-5xl">
-          <RelatedPosts post={post} />
+        <aside aria-label="Updates and booking" className="mt-12 lg:mt-0">
+          <div className="space-y-6 lg:sticky lg:top-24">
+            <SignupForm variant="card" source="blog-sidebar" />
+            <BookingCta variant="card" />
+          </div>
+        </aside>
         </div>
+
+        <RelatedPosts post={post} />
       </div>
     </div>
   );

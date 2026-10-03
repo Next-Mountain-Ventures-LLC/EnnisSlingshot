@@ -45,7 +45,8 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
     fs: {
-      allow: ["./client", "./shared"],
+      // public/blog-images/manifest.json is glob-imported by client/lib/blogImages.ts
+      allow: ["./client", "./shared", "./public/blog-images"],
       deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**", "server/**"],
     },
   },
