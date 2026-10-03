@@ -36,11 +36,13 @@ export const ISLANDS = [
   "BloomTracker",
   "Weather",
   "EventsCalendar",
+  /** /book/ — the Acuity scheduler with a package picker (client/pages/site/BookPage.tsx). */
+  "Booking",
 ] as const;
 export type IslandName = (typeof ISLANDS)[number];
 
 /** Small static widgets a page can opt into (rendered after the body). */
-export const WIDGETS = ["DriveTimes"] as const;
+export const WIDGETS = ["DriveTimes", "PhotoGallery"] as const;
 export type WidgetName = (typeof WIDGETS)[number];
 
 const sitePath = z
@@ -67,6 +69,19 @@ export const packagePriceSchema = z.object({
 });
 export type PackagePrice = z.infer<typeof packagePriceSchema>;
 
+/**
+ * Per-page booking CTA copy (BookingCta strip/banner/card). Every field is
+ * optional; missing fields fall back to the component defaults.
+ * `href` is "/book/" or a package deep link "/book/?package=<id>" (shared/booking.ts).
+ */
+export const ctaSchema = z.object({
+  headline: z.string().min(1).optional(),
+  body: z.string().min(1).optional(),
+  buttonLabel: z.string().min(1).optional(),
+  href: z.string().min(1).optional(),
+});
+export type PageCta = z.infer<typeof ctaSchema>;
+
 export const pageFrontmatterSchema = z.object({
   title: z.string().min(1),
   metaDescription: z.string().min(1),
@@ -82,6 +97,8 @@ export const pageFrontmatterSchema = z.object({
   publishDate: z.coerce.date().optional(),
   ogImage: z.string().optional(),
   breadcrumbLabel: z.string().optional(),
+  /** Booking CTA copy for this page (strip under the H1 + banner after the body). */
+  cta: ctaSchema.optional(),
   /** Set true to keep a page out of the sitemap and add <meta name="robots" content="noindex">. */
   noindex: z.coerce.boolean().default(false),
 });
