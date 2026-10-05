@@ -26,7 +26,7 @@ export function Hero({ onBookingClick }: HeroProps) {
         {/* Logo — hidden on phones (the header already shows it) so the CTA stays above the fold */}
         <div className="mb-8 hidden sm:flex justify-center">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2F700b36c4a653482c8265f6619a61ea23?format=webp&width=300"
+            src="/logo.png"
             alt="Ennis Slingshot Experience Logo"
             width={300}
             height={300}

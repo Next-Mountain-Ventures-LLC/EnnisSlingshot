@@ -38,8 +38,8 @@ export const business = {
   url: SITE_URL,
   description:
     "Self-drive Polaris Slingshot experiences through the Ennis Bluebonnet Trails — 35 miles south of Dallas in the Bluebonnet Capital of Texas. Insurance included, no motorcycle license needed.",
-  logo:
-    "https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2F700b36c4a653482c8265f6619a61ea23?format=webp&width=512",
+  /** Self-hosted brand logo (public/logo.png, 256×256). */
+  logo: `${SITE_URL}/logo.png`,
   image:
     "https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2Fd0be1f7aba0e42088bdc56539f2ad7ba?format=webp&width=1024&height=1024",
 
