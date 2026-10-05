@@ -19,7 +19,7 @@ cta:
   headline: "Worth the drive from Fort Worth"
   body: "About an hour east, the Ennis Bluebonnet Trails are yours to self-drive in a Polaris Slingshot, April 1–30, 2027 — from $69.99, insurance included, no deposit."
   buttonLabel: "Book your ride"
-  href: "/book/?package=solo"
+  href: "/book/"
 updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Near Fort Worth"

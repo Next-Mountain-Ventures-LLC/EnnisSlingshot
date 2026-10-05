@@ -2210,8 +2210,7 @@
         "color": "#2E7D32",
         "distanceMiles": 17.1,
         "approximate": true,
-        "note": "Passes FM 1722, Baldridge St and the Kachina Prairie, Bluebonnet Park, Lakeview Dr near Lake Bardwell and the Meadow View Nature Area. The line follows the official Ennis Garden Club trail map; turns can change from year to year, so pick up the current printed map at the Ennis Welcome Center, 201 NW Main St.",
-        "sourceNote": "Roads traced from the official 2018 Ennis Bluebonnet Trails & Festival map (Ennis Garden Club, bluebonnettrail.org) in waypoint order, then snapped to real roads with OSRM. Turn sequence may differ from the current-year map."
+        "note": "Passes FM 1722, Baldridge St and the Kachina Prairie, Bluebonnet Park, Lakeview Dr near Lake Bardwell and the Meadow View Nature Area. The line follows the official Ennis Garden Club trail map; turns can change from year to year, so pick up the current printed map at the Ennis Welcome Center, 201 NW Main St."
       }
     },
     {
@@ -7075,8 +7074,7 @@
         "color": "#1B5E20",
         "distanceMiles": 37.2,
         "approximate": true,
-        "note": "Follows FM 879 and FM 813 toward Palmer, Sugar Ridge Rd and the winery near Bristol, Union Hill Rd and Alsdorf Rd. The line follows the official Ennis Garden Club trail map; turns can change from year to year, so pick up the current printed map at the Ennis Welcome Center, 201 NW Main St.",
-        "sourceNote": "Roads traced from the official 2018 Ennis Bluebonnet Trails & Festival map (Ennis Garden Club, bluebonnettrail.org) in waypoint order, then snapped to real roads with OSRM. Turn sequence may differ from the current-year map."
+        "note": "Follows FM 879 and FM 813 toward Palmer, Sugar Ridge Rd and the winery near Bristol, Union Hill Rd and Alsdorf Rd. The line follows the official Ennis Garden Club trail map; turns can change from year to year, so pick up the current printed map at the Ennis Welcome Center, 201 NW Main St."
       }
     },
     {
@@ -11616,8 +11614,7 @@
         "color": "#388E3C",
         "distanceMiles": 44.1,
         "approximate": true,
-        "note": "Runs along FM 1181 near Telico, Walker Creek Rd, FM 85, Hornik Rd, Valek Rd, FM 249 and Creechville Rd. The line follows the official Ennis Garden Club trail map; turns can change from year to year, so pick up the current printed map at the Ennis Welcome Center, 201 NW Main St.",
-        "sourceNote": "Roads traced from the official 2018 Ennis Bluebonnet Trails & Festival map (Ennis Garden Club, bluebonnettrail.org) in waypoint order, then snapped to real roads with OSRM. Turn sequence may differ from the current-year map."
+        "note": "Runs along FM 1181 near Telico, Walker Creek Rd, FM 85, Hornik Rd, Valek Rd, FM 249 and Creechville Rd. The line follows the official Ennis Garden Club trail map; turns can change from year to year, so pick up the current printed map at the Ennis Welcome Center, 201 NW Main St."
       }
     },
     {
@@ -16385,8 +16382,7 @@
         "color": "#F5751F",
         "distanceMiles": 37.2,
         "approximate": true,
-        "note": "Our curated scenic route for Slingshot drivers, not an official Bluebonnet Trail loop. It starts and ends at the Ennis Welcome Center and takes in Sugar Ridge Rd and Sugar Ridge Winery near Bristol, Lakeview Dr along Lake Bardwell and the Meadow View Nature Area.",
-        "sourceNote": "Curated for ennisslingshot.com: Welcome Center \u2192 Sugar Ridge Rd/Sugar Ridge Winery \u2192 Lakeview Dr/Lake Bardwell \u2192 Meadow View Nature Area \u2192 Welcome Center, routed on real roads with OSRM. Distance is OSRM's driving estimate."
+        "note": "Our curated scenic route for Slingshot drivers, not an official Bluebonnet Trail loop. It starts and ends at the Ennis Welcome Center and takes in Sugar Ridge Rd and Sugar Ridge Winery near Bristol, Lakeview Dr along Lake Bardwell and the Meadow View Nature Area."
       }
     },
     {
@@ -16401,8 +16397,7 @@
       "properties": {
         "type": "welcome-center",
         "name": "Ennis Welcome Center",
-        "description": "Starting point for the Ennis Bluebonnet Trails; bluebonnet trail maps and current bloom status are available here during the April trail season.",
-        "sourceNote": "Meeting-point coordinate (shared/business.ts geo); https://www.bluebonnettrail.org/trailmap"
+        "description": "Starting point for the Ennis Bluebonnet Trails; bluebonnet trail maps and current bloom status are available here during the April trail season."
       }
     },
     {
@@ -16417,8 +16412,7 @@
       "properties": {
         "type": "photo-spot",
         "name": "Meadow View Nature Area",
-        "description": "39-acre nature area near Bardwell Lake on the West Bluebonnet Trail, best known as an April bluebonnet photo spot. Access is via Hwy 34 only; the pin marks the nearest road (Laneview Dr).",
-        "sourceNote": "Nominatim geocode of Laneview Dr (the nature area itself isn't indexed by name); official 2018 Ennis Bluebonnet Trails map"
+        "description": "39-acre nature area near Bardwell Lake on the West Bluebonnet Trail, best known as an April bluebonnet photo spot. Access is via Hwy 34 only; the pin marks the nearest road (Laneview Dr)."
       }
     },
     {
@@ -16433,8 +16427,7 @@
       "properties": {
         "type": "park",
         "name": "Bluebonnet Park",
-        "description": "47-acre city park at 201 S Highway 287 in Ennis, marked as a trail landmark on the official Bluebonnet Trails map.",
-        "sourceNote": "Nominatim geocode"
+        "description": "47-acre city park at 201 S Highway 287 in Ennis, marked as a trail landmark on the official Bluebonnet Trails map."
       }
     },
     {
@@ -16449,8 +16442,7 @@
       "properties": {
         "type": "winery",
         "name": "Sugar Ridge Winery",
-        "description": "Winery at 353 Sugar Ridge Rd near Bristol, TX, a landmark on the North Bluebonnet Trail. The pin is approximate; use the street address for directions.",
-        "sourceNote": "Sugar Ridge Rd centroid near Bristol (street address didn't geocode in Nominatim); official 2018 Ennis Bluebonnet Trails map"
+        "description": "Winery at 353 Sugar Ridge Rd near Bristol, TX, a landmark on the North Bluebonnet Trail. The pin is approximate; use the street address for directions."
       }
     },
     {
@@ -16465,8 +16457,7 @@
       "properties": {
         "type": "photo-spot",
         "name": "Lakeview Drive / Lake Bardwell Area",
-        "description": "Lakeview Drive along Bardwell Lake, on the West Bluebonnet Trail; a popular scenic and photo area southwest of downtown Ennis.",
-        "sourceNote": "Nominatim geocode"
+        "description": "Lakeview Drive along Bardwell Lake, on the West Bluebonnet Trail; a popular scenic and photo area southwest of downtown Ennis."
       }
     },
     {
@@ -16481,8 +16472,7 @@
       "properties": {
         "type": "parking",
         "name": "Downtown Ennis Parking",
-        "description": "General parking area in downtown Ennis near W Knox St and the historic downtown square, a reasonable staging point close to the Welcome Center for trail visitors.",
-        "sourceNote": "Nominatim geocode"
+        "description": "General parking area in downtown Ennis near W Knox St and the historic downtown square, a reasonable staging point close to the Welcome Center for trail visitors."
       }
     }
   ]

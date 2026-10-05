@@ -18,7 +18,7 @@ cta:
   headline: "Pair Scarborough Faire with the trails"
   body: "About 20 minutes from Waxahachie, self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $69.99, insurance included."
   buttonLabel: "Book your ride"
-  href: "/book/?package=solo"
+  href: "/book/"
 updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Waxahachie & Ellis County"

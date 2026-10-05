@@ -19,7 +19,7 @@ cta:
   headline: "Trade the city lot for the trails"
   body: "About 53 minutes from Arlington, self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $69.99, insurance included, no deposit."
   buttonLabel: "Book your ride"
-  href: "/book/?package=solo"
+  href: "/book/"
 updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Near Arlington"

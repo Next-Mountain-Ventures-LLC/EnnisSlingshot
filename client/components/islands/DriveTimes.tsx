@@ -71,7 +71,7 @@ export function DriveTimePicker({ defaultOriginPath = "/", className }: DriveTim
             <dd className="text-2xl font-black text-white">{formatMiles(selected.miles)}</dd>
           </div>
           <div className="rounded-md bg-black/30 p-3">
-            <dt className="text-gray-400">Drive time (no traffic)</dt>
+            <dt className="text-gray-400">Typical drive time</dt>
             <dd className="text-2xl font-black text-white">{formatMinutes(selected.minutes)}</dd>
           </div>
           <div className="rounded-md bg-black/30 p-3">

@@ -154,15 +154,21 @@ describe("events", () => {
 });
 
 describe("trail map data", () => {
-  it("rendered notes and pin popups are visitor copy (provenance only in sourceNote)", () => {
+  it("rendered notes and pin popups are visitor copy, with no provenance fields shipped", () => {
     const file = path.resolve(__dirname, "../../content/data/trail-map.geojson");
     const geo = JSON.parse(fs.readFileSync(file, "utf8")) as {
       features: { properties: Record<string, unknown> }[];
     };
     const banned = /OSRM|travellatte|interpreted from the map graphic|Nominatim|guaranteed|road-proxy|Task-provided/i;
     for (const f of geo.features) {
-      const { note, description, source } = f.properties as { note?: string; description?: string; source?: string };
+      const { note, description, source, sourceNote } = f.properties as {
+        note?: string;
+        description?: string;
+        source?: string;
+        sourceNote?: string;
+      };
       expect(source).toBeUndefined();
+      expect(sourceNote).toBeUndefined();
       if (note) expect(note).not.toMatch(banned);
       if (description) expect(description).not.toMatch(banned);
     }

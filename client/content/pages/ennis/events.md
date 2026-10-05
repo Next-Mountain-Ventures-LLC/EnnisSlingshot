@@ -20,7 +20,7 @@ cta:
   headline: "In town in April? Add a Slingshot drive"
   body: "Our self-drive Slingshot rides run only while the Bluebonnet Trails are open, April 1–30, 2027 — pair one with festival weekend (expected April 17–19, 2027) or any other April event on this calendar. From $69.99, insurance included."
   buttonLabel: "Book an April ride"
-  href: "/book/?package=solo"
+  href: "/book/"
 ---
 
 ## What's happening in Ennis, TX

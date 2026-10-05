@@ -28,7 +28,7 @@ cta:
   headline: "37 minutes from Dallas to the trails"
   body: "Head south on I-45 and self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $69.99, insurance included, no motorcycle license needed."
   buttonLabel: "Book your ride"
-  href: "/book/?package=solo"
+  href: "/book/"
 updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Near Dallas"

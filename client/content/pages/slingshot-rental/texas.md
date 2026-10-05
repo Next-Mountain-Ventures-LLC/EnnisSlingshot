@@ -21,7 +21,7 @@ cta:
   headline: "Make Ennis your Texas bluebonnet weekend"
   body: "Self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $69.99, insurance included, no motorcycle license needed."
   buttonLabel: "Book your ride"
-  href: "/book/?package=solo"
+  href: "/book/"
 updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Texas"

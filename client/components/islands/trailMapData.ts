@@ -4,7 +4,10 @@
  *
  * The full geometry (client/content/data/trail-map.geojson) is only imported
  * inside the lazily-loaded Leaflet chunk (TrailMapLeaflet.tsx), which also
- * warns in dev if these constants drift from the file's properties.
+ * warns in dev if these constants drift from the file's properties. That chunk
+ * is public (and loaded by third-party embeds), so the GeoJSON holds only
+ * visitor-facing properties; data provenance lives in
+ * seo/research/trail-map-sources.md, which no code imports.
  */
 
 export const LOOP_IDS = ["north", "south", "west", "slingshot-route"] as const;
@@ -52,8 +55,6 @@ export interface LoopFeature {
     approximate?: boolean;
     /** Visitor-facing "About this route" text (rendered). */
     note?: string;
-    /** Data provenance for maintainers — never rendered. */
-    sourceNote?: string;
   };
 }
 
@@ -74,8 +75,6 @@ export interface PointFeature {
     name: string;
     /** Visitor-facing popup text (rendered). */
     description?: string;
-    /** Data provenance for maintainers — never rendered. */
-    sourceNote?: string;
   };
 }
 
