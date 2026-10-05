@@ -4,10 +4,10 @@ description: "Everything the right-seat rider needs to know about riding two-up 
 excerpt: "Everything the right-seat rider needs to know about riding two-up in a Polaris Slingshot in Ennis, TX — no license needed, what to hold, and Bluetooth helmets."
 slug: "slingshot-passenger-guide"
 pubDate: "2026-10-03T13:00:00+00:00"
-updatedDate: "2026-09-07T01:23:21+00:00"
+updatedDate: "2026-10-05T15:31:23+00:00"
 draft: false
 status: "publish"
-heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_949_final.webp?fit=1600%2C900&ssl=1"
+heroImage: "https://blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_949_final.webp"
 heroImageAlt: "A passenger's view from an orange Polaris Slingshot looking out over a Texas country road at golden hour. Hero image for the Ennis Slingshot article \"Riding as a Passenger in a Slingshot: The Two-Up Guide\""
 tags:
   - "bluetooth helmet"
@@ -35,8 +35,8 @@ postId: 949
 permalink: "https://blog.nxtmt.ventures/2026/10/03/slingshot-passenger-guide/"
 guid: "https://blog.nxtmt.ventures/?p=949"
 commentCount: 0
-wordCount: 410
-readingTime: 3
+wordCount: 378
+readingTime: 2
 ---
 
 Half the questions I field before a two-person booking aren't from the driver — they're about the passenger seat. Here's the mechanics, no fluff.
@@ -57,7 +57,7 @@ Genuinely different from driving — no pedals or wheel to manage means more tim
 
 ## Weight & Fit Guidance for the Right Seat
 
-The rental industry generally guides around 275 lb per seat — that's an industry norm, not something I'm quoting as our own published limit, so check directly with us if you're near that figure and want a definitive answer.
+Most Slingshot rental operators use roughly 275 lb per seat as a guideline. If you or your rider are close to that, email us at info@ennisslingshot.com before you book and we'll make sure you're a comfortable fit.
 
 ## What to Hold Onto
 
@@ -91,6 +91,4 @@ Our Bluetooth communication helmet add-on ($25/helmet) is the practical answer �
 
 ## Book Your Two-Person Ride
 
-Curious what it's like from the driver's seat too? Read [what it's actually like to drive one](https://ennisslingshot.com/blog/what-is-it-like-to-drive-a-slingshot/), check the full [license and insurance breakdown](https://ennisslingshot.com/blog/texas-slingshot-laws/), or [book the two-person Bluebonnet Trail Experience](https://ennisslingshot.com/slingshot-rental/bluebonnet-trail-experience/).
-
-*This post is tagged Needs Attention: the ~275 lb per-seat figure is an industry-wide rental norm, not our own confirmed posted limit — verify our actual figure before treating it as an Ennis Slingshot policy.*
+Curious what it's like from the driver's seat too? Read [what it's actually like to drive one](https://ennisslingshot.com/blog/whats-it-like-to-ride-a-polaris-slingshot/), check the full [license and insurance breakdown](https://ennisslingshot.com/blog/texas-slingshot-laws/), or [book the two-person Bluebonnet Trail Experience](https://ennisslingshot.com/slingshot-rental/bluebonnet-trail-experience/).
