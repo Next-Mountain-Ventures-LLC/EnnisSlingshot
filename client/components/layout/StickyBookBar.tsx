@@ -50,7 +50,7 @@ export function StickyBookBar() {
         onClick={scrollToBooking}
         className="btn-primary w-full"
       >
-        Book Your Experience
+        Book your experience
       </Link>
     </div>
   );

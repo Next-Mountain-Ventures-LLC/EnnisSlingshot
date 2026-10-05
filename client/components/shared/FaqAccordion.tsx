@@ -7,7 +7,12 @@
  *
  * Visual treatment matches the original landing FAQ (bordered rows, orange
  * highlight when open); only the chevron icon rotates when an item opens.
+ *
+ * Answers are plain text, except `[label](/path/)` links, which render as
+ * links here and as their label in the JSON-LD.
  */
+import { Fragment } from "react";
+import { Link } from "react-router-dom";
 import type { Faq } from "@shared/content/page-schema";
 import {
   Accordion,
@@ -17,6 +22,7 @@ import {
 } from "@/components/ui/accordion";
 import { JsonLdScript } from "@/components/seo/Seo";
 import { faqPage } from "@/lib/schema";
+import { FAQ_LINK_RE } from "@/lib/schema/faqPage";
 import { cn } from "@/lib/utils";
 
 export interface FaqAccordionProps {
@@ -24,6 +30,39 @@ export interface FaqAccordionProps {
   /** Emit <script type="application/ld+json"> FAQPage for these items. */
   withSchema?: boolean;
   className?: string;
+}
+
+const LINK_CLASS = "font-semibold text-ennis-orange underline underline-offset-4 hover:text-ennis-orange-bright";
+
+/** Answer text with its `[label](href)` links turned into real links. */
+function FaqAnswer({ text }: { text: string }) {
+  const parts: React.ReactNode[] = [];
+  let last = 0;
+  for (const m of text.matchAll(FAQ_LINK_RE)) {
+    const [whole, label, href] = m;
+    const at = m.index ?? 0;
+    parts.push(text.slice(last, at));
+    parts.push(
+      href.startsWith("/") ? (
+        <Link to={href} className={LINK_CLASS}>
+          {label}
+        </Link>
+      ) : (
+        <a href={href} className={LINK_CLASS} {...(/^https?:/i.test(href) && { target: "_blank", rel: "noopener noreferrer" })}>
+          {label}
+        </a>
+      ),
+    );
+    last = at + whole.length;
+  }
+  parts.push(text.slice(last));
+  return (
+    <>
+      {parts.map((p, i) => (
+        <Fragment key={i}>{p}</Fragment>
+      ))}
+    </>
+  );
 }
 
 export function FaqAccordion({
@@ -68,7 +107,7 @@ export function FaqAccordion({
               forceMount
               className="px-4 sm:px-6 pb-4 pt-2 text-gray-300 leading-relaxed border-t border-gray-700 text-base [[data-state=closed]_&]:hidden"
             >
-              {item.answer}
+              <FaqAnswer text={item.answer} />
             </AccordionContent>
           </AccordionItem>
         ))}

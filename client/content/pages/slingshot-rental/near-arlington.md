@@ -71,7 +71,3 @@ If minimizing drive time is genuinely your top priority, an Arlington-based rent
 ## What you'll actually be driving
 
 Every vehicle is a Polaris Slingshot with AutoDrive — an automatic transmission, no clutch, handling like a car — powered by Polaris's ProStar 2.0L four-cylinder engine, up to 204 hp depending on trim. Two people ride side by side in an open cockpit, three wheels on the ground. First-time drivers get a short orientation and a supervised practice loop before heading out on the trail route.
-
-## Book your drive from Arlington
-
-[Reserve your Slingshot experience](/book/) and trade a city lot for the trails.

@@ -22,7 +22,7 @@ breadcrumbLabel: "Near Dallas"
 cta:
   headline: "37 minutes from Dallas to the driver's seat"
   body: "Make the I-45 trip count: trade your sedan for an open-cockpit Polaris Slingshot on our 2-hour self-drive route through the Ennis Bluebonnet Trails, April 1–30, 2027 — insurance included, no motorcycle license needed."
-  buttonLabel: "Book your day-trip ride"
+  buttonLabel: "Book a day-trip ride"
   href: "/book/?package=solo"
 ---
 
@@ -69,8 +69,4 @@ If you're still deciding between Ennis and a closer option, ask yourself what yo
 
 ## Timing your trip
 
-Wherever you go, timing matters more than the specific location. The Ennis trails are open April 1–30, 2027, and the Bluebonnet Festival is expected April 17–19, 2027 (subject to change). Ennis's bloom typically peaks around the third week of April, but that shifts year to year based on fall and winter rainfall — check our [Bloom Tracker](/bluebonnets/bloom-tracker/) for current-week status by loop before you commit to a date, and see our [complete Ennis Bluebonnet Trails guide](/bluebonnets/) for the full trail overview, dates, and what to expect once you arrive.
-
-## See the trails from a Slingshot
-
-If you're making the drive from Dallas, Fort Worth, or Arlington, consider seeing the trails themselves from something more memorable than a sedan — we offer a self-drive 2-hour **Polaris Slingshot** Bluebonnet Trail Experience out of Ennis, April 1–30, 2027, no motorcycle license required. Book a [Solo ride ($79)](/book/?package=solo) or [Driver + Rider ($149)](/book/?package=two-up), or see the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for the full details.
+Wherever you go, timing matters more than the specific location. The Ennis trails are open April 1–30, 2027, and the Bluebonnet Festival is expected April 17–19, 2027 (subject to change). Ennis's bloom typically peaks around the third week of April, but that shifts year to year based on fall and winter rainfall — check our [Bloom Tracker](/bluebonnets/bloom-tracker/) for current-week status by loop before you commit to a date, and see our [complete Ennis Bluebonnet Trails guide](/bluebonnets/) for the full trail overview, dates, and what to expect once you arrive. If you're making the drive from Dallas, Fort Worth, or Arlington, our self-drive 2-hour [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) lets you see the Ennis trails from an open-cockpit **Polaris Slingshot** instead of a sedan.

@@ -67,7 +67,3 @@ Scarborough Renaissance Festival is the biggest draw pulling visitors through El
 ## What you'll actually be driving
 
 Every ride is in a Polaris Slingshot with AutoDrive — an automatic transmission, no clutch, so it handles like a car — powered by Polaris's ProStar 2.0L four-cylinder engine, up to 204 hp depending on trim. Two people ride side by side in an open cockpit. First-time drivers get a short orientation and a supervised practice loop before heading out onto the trail route on their own.
-
-## Book your ride
-
-[Reserve your Slingshot experience](/book/) and build it into your Waxahachie or Ennis day trip.

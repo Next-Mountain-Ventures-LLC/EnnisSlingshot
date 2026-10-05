@@ -186,6 +186,9 @@ export function BlogTemplate() {
             </div>
           </header>
 
+          {/* Phones/tablets: a booking prompt before the article (from lg the sidebar card does this). */}
+          <BookingCta variant="strip" className="mb-8 lg:hidden" />
+
           {/* Post Content */}
           <MarkdownBody>{post.body}</MarkdownBody>
 

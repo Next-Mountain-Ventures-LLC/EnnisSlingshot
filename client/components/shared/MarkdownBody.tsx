@@ -20,7 +20,7 @@
  * synced post bodies) are stripped before rendering: react-markdown v9 has raw
  * HTML disabled and would otherwise print them as escaped literal text.
  */
-import type { ComponentPropsWithoutRef } from "react";
+import { useEffect, useRef, useState, type ComponentPropsWithoutRef } from "react";
 import ReactMarkdown, { type Components, type ExtraProps, type Options } from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Link } from "react-router-dom";
@@ -146,21 +146,41 @@ const REMARK_PLUGINS: NonNullable<Options["remarkPlugins"]> = [remarkGfm];
 /* ----------------------------------------------------------------- tables */
 
 function MarkdownTable({ node: _node, className, ...props }: MdProps<"table">) {
+  // Only known after mount (and on resize): whether the table is wider than its box.
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [overflows, setOverflows] = useState(false);
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el || typeof ResizeObserver === "undefined") return;
+    const check = () => setOverflows(el.scrollWidth > el.clientWidth + 1);
+    check();
+    const ro = new ResizeObserver(check);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
   return (
-    <div
-      className="not-prose my-8 overflow-x-auto overscroll-x-contain rounded-lg border border-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-ennis-orange"
-      role="region"
-      aria-label="Table (scroll sideways on small screens)"
-      tabIndex={0}
-    >
-      <table
-        {...props}
-        className={cn(
-          "w-full border-collapse text-left text-sm sm:text-base text-gray-300 leading-snug",
-          "[&_thead_tr]:border-t-0 [&_a]:text-ennis-orange [&_a]:underline [&_a:hover]:text-ennis-orange-bright [&_strong]:text-white",
-          className,
-        )}
-      />
+    <div className="not-prose my-8">
+      <div
+        ref={scrollRef}
+        className="overflow-x-auto overscroll-x-contain rounded-lg border border-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-ennis-orange"
+        role="region"
+        aria-label="Table (scroll sideways on small screens)"
+        tabIndex={0}
+      >
+        <table
+          {...props}
+          className={cn(
+            "w-full border-collapse text-left text-sm sm:text-base text-gray-300 leading-snug",
+            "[&_thead_tr]:border-t-0 [&_a]:text-ennis-orange [&_a]:underline [&_a:hover]:text-ennis-orange-bright [&_strong]:text-white",
+            className,
+          )}
+        />
+      </div>
+      {overflows && (
+        <p className="mt-2 text-right text-xs text-gray-400" aria-hidden="true">
+          Scroll sideways to see the whole table →
+        </p>
+      )}
     </div>
   );
 }
@@ -177,13 +197,14 @@ function MarkdownTh({ node: _node, className, ...props }: MdProps<"th">) {
   return (
     <th
       {...props}
-      className={cn("px-4 py-3 font-semibold text-white whitespace-nowrap align-bottom", className)}
+      // Headers may wrap on phones so the first columns fit; one line from sm.
+      className={cn("px-3 py-3 font-semibold text-white align-bottom sm:px-4 sm:whitespace-nowrap", className)}
     />
   );
 }
 
 function MarkdownTd({ node: _node, className, ...props }: MdProps<"td">) {
-  return <td {...props} className={cn("px-4 py-3 align-top first:font-semibold first:text-white", className)} />;
+  return <td {...props} className={cn("px-3 py-3 align-top first:font-semibold first:text-white sm:px-4", className)} />;
 }
 
 /* -------------------------------------------------------------- renderer */

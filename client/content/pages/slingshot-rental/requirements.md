@@ -80,8 +80,4 @@ Every vehicle is a Polaris Slingshot with AutoDrive — an automatic transmissio
 
 ## If you're booking for someone else
 
-A gift-card purchaser doesn't need to meet any of these requirements themselves — only the person who actually drives does. If you're buying a [gift card](/slingshot-rental/gift-cards/) for a partner, friend, or family member, make sure they're 21 or older with a valid license before you commit to a specific package, since that's what determines eligibility, not who paid for it.
-
-## Ready to book?
-
-Now that you know what's required, [pick a package and book your Slingshot experience](/book/), or start with the [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) if you're not sure which one fits. If you'd rather read about the trails themselves first — the routes, bloom timing, and festival dates — see the [Ennis Bluebonnet Trails guide](/bluebonnets/).
+A gift-card purchaser doesn't need to meet any of these requirements themselves — only the person who actually drives does. If you're buying a [gift card](/slingshot-rental/gift-cards/) for a partner, friend, or family member, make sure they're 21 or older with a valid license before you commit to a specific package, since that's what determines eligibility, not who paid for it. If you're not sure which package fits, start with the [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/), or read up on the routes, bloom timing, and festival dates in the [Ennis Bluebonnet Trails guide](/bluebonnets/) first.

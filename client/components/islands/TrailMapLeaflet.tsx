@@ -176,7 +176,8 @@ export default function TrailMapLeaflet({ embed = false }: TrailMapLeafletProps)
   }
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_300px]">
+    // Legend under the map: the page column is at most 768px, too narrow for a side legend.
+    <div className="grid gap-6">
       <div>
         {map}
         {touchScrolls && (
@@ -217,13 +218,13 @@ export default function TrailMapLeaflet({ embed = false }: TrailMapLeafletProps)
                     </span>
                   </span>
                 </label>
-                <div className="mt-2 ml-9 flex flex-wrap gap-x-3 gap-y-1 text-xs">
+                <div className="mt-1 ml-9 flex flex-wrap gap-x-4 text-xs">
                   {coords.length > 0 && (
                     <a
                       href={googleMapsDirectionsUrl(coords)}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-ennis-orange hover:text-ennis-orange-bright"
+                      className="inline-flex min-h-[32px] items-center text-ennis-orange hover:text-ennis-orange-bright"
                     >
                       Open in Google Maps ↗
                     </a>
@@ -232,7 +233,7 @@ export default function TrailMapLeaflet({ embed = false }: TrailMapLeafletProps)
                     <button
                       type="button"
                       onClick={() => setOpenNote((n) => (n === meta.loop ? null : meta.loop))}
-                      className="text-gray-400 hover:text-white underline-offset-2 hover:underline"
+                      className="inline-flex min-h-[32px] items-center text-gray-400 hover:text-white underline-offset-2 hover:underline"
                       aria-expanded={openNote === meta.loop}
                     >
                       {openNote === meta.loop ? "Hide route details" : "About this route"}
@@ -314,7 +315,7 @@ function EmbedLegend({
           href={OFFICIAL_TRAILS_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-ennis-orange hover:text-ennis-orange-bright"
+          className="whitespace-nowrap text-ennis-orange hover:text-ennis-orange-bright"
         >
           official trail info ↗
         </a>

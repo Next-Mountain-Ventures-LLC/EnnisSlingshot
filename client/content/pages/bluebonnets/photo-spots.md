@@ -82,4 +82,4 @@ Meadow View Nature Area and Bluebonnet Park are the easiest spots for larger fam
 
 ## See the trails from a Slingshot
 
-If you'd rather see these same spots from behind the wheel of an open-cockpit **Polaris Slingshot** than from your own car — with time to pull over for photos along the way — we offer a self-drive 2-hour Bluebonnet Trail Experience out of Ennis, April 1–30, 2027. Book a [Driver + Rider ride ($149)](/book/?package=two-up) so someone can take the photos, or a [Solo ride ($79)](/book/?package=solo); the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) has the full details.
+If you'd rather see these spots from behind the wheel of an open-cockpit **Polaris Slingshot**, our self-drive 2-hour [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) builds in time to pull over for photos — bring a rider along to take them.

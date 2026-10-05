@@ -69,12 +69,8 @@ During the active season (roughly mid-March through early May) we aim to update 
 
 ## Where to check bloom status when you're actually planning a trip
 
-If you're deciding whether to make the drive this weekend, this page is the one to check — not our [complete Ennis Bluebonnet Trails guide](/bluebonnets/), which covers the trails year-round rather than this week's conditions. Pair it with the [weather page](/bluebonnets/weather/) for forecast conditions, and the [trail map](/bluebonnets/trail-map/) to see exactly where each loop runs so a "peak on the North Loop" status means something concrete to you. If peak bloom lines up with a longer visit, our [things to do in Ennis guide](/ennis/) covers the rest of what to fill a day with.
+If you're deciding whether to make the drive this weekend, this page is the one to check — not our [complete Ennis Bluebonnet Trails guide](/bluebonnets/), which covers the trails year-round rather than this week's conditions. Pair it with the [weather page](/bluebonnets/weather/) for forecast conditions, and the [trail map](/bluebonnets/trail-map/) to see exactly where each loop runs so a "peak on the North Loop" status means something concrete to you. If peak bloom lines up with a longer visit, our [things to do in Ennis guide](/ennis/) covers the rest of what to fill a day with. And if you'd like to drive the trails yourself at peak, our self-drive 2-hour [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) puts you in an open-cockpit Polaris Slingshot, April 1–30, 2027.
 
 ## Add the bloom tracker to your site
 
 Run a local blog, newsroom, or community page? You can embed the live bloom tracker on your site for free — grab the code from the "Embed the bloom tracker" box at the bottom of the tracker, and please keep the credit link back to this page.
-
-## See the trails from a Slingshot
-
-Timing a Slingshot ride to peak bloom is exactly what our guests ask us to help with — we check the same weekly reports before recommending dates. If you'd like to drive the trails yourself in an open-cockpit Polaris Slingshot during peak season, our self-drive 2-hour Bluebonnet Trail Experience runs April 1–30, 2027: book a [Solo ride ($79)](/book/?package=solo) or [Driver + Rider ($149)](/book/?package=two-up), or see the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for the full details.

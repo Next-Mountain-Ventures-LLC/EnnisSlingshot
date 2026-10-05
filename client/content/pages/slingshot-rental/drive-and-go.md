@@ -76,7 +76,3 @@ A Bluetooth communication helmet rents for $25. It's not legally required for mo
 ## Coming from Dallas or Fort Worth
 
 Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute drive — and about 57 miles from Fort Worth. If you're planning the trip, [Near Dallas](/slingshot-rental/near-dallas/) and [Near Fort Worth](/slingshot-rental/near-fort-worth/) cover drive times, parking, and how to make a full day of it. If you're coming from further out, [Slingshot Rental in Texas](/slingshot-rental/texas/) covers travel from Houston, Austin, San Antonio, and Waco.
-
-## Ready for your hour behind the wheel?
-
-[Book your Drive & Go hour](/book/?package=drive-and-go) and we'll see you at the Ennis Welcome Center.

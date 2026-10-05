@@ -75,7 +75,3 @@ From downtown Dallas, it's a straight shot south on I-45 — no turns to track, 
 ## What you'll actually be driving
 
 Every vehicle in our fleet is a Polaris Slingshot with AutoDrive — an automatic transmission with no clutch, so it handles like a car despite looking like nothing you'd see on a Dallas street. It's powered by Polaris's ProStar 2.0L four-cylinder engine, up to 204 hp depending on trim, with two side-by-side seats in an open cockpit. If you've never driven one, a short orientation and supervised practice loop happens before you're ever on your own.
-
-## Book your drive from Dallas
-
-[Reserve your Slingshot experience](/book/) — [$79 solo](/book/?package=solo) or [$149 for two](/book/?package=two-up) — and make the short trip south to Ennis.

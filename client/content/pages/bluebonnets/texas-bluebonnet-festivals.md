@@ -22,7 +22,7 @@ breadcrumbLabel: "Texas Bluebonnet Festivals"
 cta:
   headline: "Pick Ennis, then drive the trails yourself"
   body: "Ennis is the closest of these festival towns to Dallas–Fort Worth, and our 2-hour self-drive Slingshot route lets you see its mapped bluebonnet loops from an open cockpit, April 1–30, 2027 — no motorcycle license needed."
-  buttonLabel: "Book your Ennis trail drive"
+  buttonLabel: "Book your Ennis ride"
   href: "/book/?package=solo"
 ---
 
@@ -64,8 +64,4 @@ Attendance claims for Texas bluebonnet festivals vary widely, and none of these 
 
 ## If you're deciding based on proximity to Dallas
 
-For most DFW-based readers, distance settles the question: Ennis is roughly 35 miles and 37 minutes from downtown Dallas, while Burnet and Chappell Hill are both considerably farther and outside comfortable day-trip range for a single afternoon. See our [where to see bluebonnets near Dallas guide](/bluebonnets/where-to-see-bluebonnets-near-dallas/) for the fuller regional picture and drive-time table, or our [Bluebonnet Capital of Texas page](/bluebonnets/bluebonnet-capital-of-texas/) for the specific Ennis-vs-Burnet designation question.
-
-## See the trails from a Slingshot
-
-Whichever festival you land on, if it's Ennis, consider seeing the trails from something more memorable than a sedan — we offer a self-drive 2-hour **Polaris Slingshot** Bluebonnet Trail Experience, April 1–30, 2027, no motorcycle license required. Book a [Solo ride ($79)](/book/?package=solo) or [Driver + Rider ($149)](/book/?package=two-up), or see the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for the full details.
+For most DFW-based readers, distance settles the question: Ennis is roughly 35 miles and 37 minutes from downtown Dallas, while Burnet and Chappell Hill are both considerably farther and outside comfortable day-trip range for a single afternoon. See our [where to see bluebonnets near Dallas guide](/bluebonnets/where-to-see-bluebonnets-near-dallas/) for the fuller regional picture and drive-time table, or our [Bluebonnet Capital of Texas page](/bluebonnets/bluebonnet-capital-of-texas/) for the specific Ennis-vs-Burnet designation question. And if Ennis wins, you can see its trails from an open-cockpit **Polaris Slingshot** on our self-drive 2-hour [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/), April 1–30, 2027.

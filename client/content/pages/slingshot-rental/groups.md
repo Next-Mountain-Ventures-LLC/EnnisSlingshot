@@ -57,7 +57,7 @@ Each vehicle needs its own driver, 21 or older with a valid driver's license (Te
 
 Both Slingshots leave the Ennis Welcome Center together and drive the Bluebonnet Trail route side by side — not a guided tour with a lead vehicle, but two cars on the same route at the same time, so your group can stop together for photos and stay in sight of each other along the way. Each driver gets the same orientation and supervised practice loop as a solo or two-up booking before the group heads out.
 
-If your group is larger than 4 people, email [info@ennisslingshot.com](mailto:info@ennisslingshot.com) — we can often set up a second 2-hour slot the same day so the rest of your group rides too.
+Rather have us set up the group ride for you? Email [info@ennisslingshot.com](mailto:info@ennisslingshot.com) — and if your group is larger than 4 people, we can often add a second 2-hour slot the same day so the rest of your group rides too.
 
 ## Good for
 
@@ -78,7 +78,3 @@ If your group is also planning a Waxahachie or Ennis weekend around the ride —
 ## Coming from the DFW area
 
 Ennis is about 35 miles south of downtown Dallas on I-45 (roughly 37 minutes), 52 miles from Arlington, and 57 miles from Fort Worth — an easy group day trip. See [Near Dallas](/slingshot-rental/near-dallas/) for itinerary ideas, or the [Ennis Bluebonnet Trails guide](/bluebonnets/) for where the trails run and when the flowers peak.
-
-## Book your group ride
-
-[Book both Slingshots](/book/?package=two-up) for the same time slot for up to 4 riders, or email [info@ennisslingshot.com](mailto:info@ennisslingshot.com) and we'll set it up — including a second slot for a bigger group.

@@ -37,4 +37,4 @@ Every experience starts at the Ennis Welcome Center, 201 NW Main St, Ennis, TX 7
 
 ## What's next
 
-We ran our first full season in 2026, and 2027 keeps what worked: the same orientation and safety-first approach, and honest pricing — the easiest way to try a Slingshot in Texas, not the cheapest way to rent one. The 2027 season runs April 1–30, with the Ennis Bluebonnet Trails Festival expected April 17–19 (dates subject to change). If you want to see it for yourself, [book a Slingshot experience](/book/) or read the [FAQ](/faq/) for everything else you might be wondering about.
+We ran our first full season in 2026, and 2027 keeps what worked: the same orientation and safety-first approach, and honest pricing — the easiest way to try a Slingshot in Texas, not the cheapest way to rent one. The 2027 season runs April 1–30, with the Ennis Bluebonnet Trails Festival expected April 17–19 (dates subject to change). Questions before you ride? The [FAQ](/faq/) covers everything else you might be wondering about.

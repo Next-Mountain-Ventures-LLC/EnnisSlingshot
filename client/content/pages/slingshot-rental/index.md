@@ -122,7 +122,3 @@ Show up 15 minutes before your slot at the Welcome Center. We check your ID and 
 ## What this isn't
 
 To be direct about the limits: this is a 1–2 hour self-drive experience on a curated route, not a multi-day rental you can take home, and we only operate through April, tied to the bluebonnet season. If you're looking for a daily or weekly Slingshot rental with unlimited mileage, that's a different kind of business than ours — several exist in the DFW area at roughly double our hourly rate plus a deposit. We built something narrower on purpose: the easiest, lowest-friction way to spend a couple of hours in a Slingshot on some of the best roads in Texas.
-
-## Ready to drive?
-
-Pick a package and a time slot — [book your Slingshot experience](/book/) and we'll see you at the Welcome Center.

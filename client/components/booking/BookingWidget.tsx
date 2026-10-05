@@ -236,13 +236,12 @@ export function BookingWidget({
             </p>
           </div>
 
-          <button
-            type="button"
-            onClick={handleContinue}
-            className="btn-primary btn-lg mt-6 w-full"
-          >
-            Continue to booking
-          </button>
+          {/* Phones: Continue stays pinned to the bottom of the screen while the package details scroll by. */}
+          <div className="sticky bottom-0 z-10 -mx-4 mt-6 border-t border-gray-700 bg-gray-900/95 px-4 pb-[calc(0.75rem+env(safe-area-inset-bottom))] pt-3 backdrop-blur sm:static sm:mx-0 sm:border-0 sm:bg-transparent sm:p-0 sm:backdrop-blur-none">
+            <button type="button" onClick={handleContinue} className="btn-primary btn-lg w-full">
+              Continue to booking
+            </button>
+          </div>
 
           <p className="mt-6 rounded-lg border border-blue-500/30 bg-blue-900/20 p-4 text-sm leading-relaxed text-blue-200">
             <strong>Good to know:</strong> All drivers must be approved by our insurance company. A verification link

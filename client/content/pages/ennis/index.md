@@ -11,7 +11,7 @@ faqs:
   - question: "What is the best time of year to visit Ennis, TX?"
     answer: "April is Ennis's signature month — the Bluebonnet Trails are open April 1–30, bloom typically peaks around the third week, and the Ennis Bluebonnet Trails Festival is the season's big weekend. October (Texas Motorplex's Fall Nationals) and Memorial Day weekend (National Polka Festival) are the next-best windows if bluebonnets aren't the draw."
   - question: "Is Ennis, TX worth a day trip from Dallas?"
-    answer: "Yes. Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute drive, which makes it an easy half-day or full-day trip. See our hour-by-hour Dallas-to-Ennis itinerary for how to structure the visit."
+    answer: "Yes. Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute drive, which makes it an easy half-day or full-day trip. See our [hour-by-hour Dallas-to-Ennis itinerary](/ennis/day-trip-from-dallas/) for how to structure the visit."
   - question: "What's a fun, slightly different thing to do in Ennis?"
     answer: "Drive yourself along the Bluebonnet Trails in a Polaris Slingshot. Ennis Slingshot Experience runs 1–2 hour self-drive experiences from the Ennis Welcome Center during April, with insurance included and no motorcycle license required."
 updatedDate: "2026-10-03"

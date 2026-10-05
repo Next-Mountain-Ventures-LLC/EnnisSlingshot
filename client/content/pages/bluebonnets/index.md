@@ -24,7 +24,7 @@ breadcrumbLabel: "Bluebonnets"
 cta:
   headline: "See the Bluebonnet Trails from the driver's seat"
   body: "Our 2-hour self-drive Bluebonnet Trail Experience follows a curated route over the same loops in this guide, starting at the Ennis Welcome Center, April 1–30, 2027 — insurance included, no deposit, no motorcycle license needed."
-  buttonLabel: "Book your April 2027 ride"
+  buttonLabel: "Book your April ride"
   href: "/book/?package=solo"
 ---
 
@@ -181,10 +181,6 @@ Ennis isn't the only Texas town built around bluebonnet tourism — Burnet and C
 
 The Ennis Bluebonnet Trails started with the Ennis Garden Club in 1951, and the first mapped trails opened in 1952. A Texas historical marker records that first season drawing roughly 1,000 visitors, growing to about 10,000 within three years — a tenfold increase that established the trails as a regional draw well before the state's 1997 designation made it official. Seventy-plus years later, the same club still drives and maintains the same three loops every April, updates the map, and reports bloom conditions weekly. The full story — including how the trails predate the state designation by nearly half a century — is on our [history page](/bluebonnets/history/).
 
-## See the trails from a Slingshot
-
-Most visitors drive the loops in their own car, and that's the right call for most trips — this guide exists to help you do that well regardless of what you're driving. If you'd rather drive the loops yourself in an open-cockpit **Polaris Slingshot** instead of a sedan, we offer a self-drive 2-hour Bluebonnet Trail Experience out of Ennis — you drive, we hand you a curated route. No motorcycle license required (a valid driver's license, Texas or out-of-state, covers it under the state's autocycle law), insurance included, and the route is built around the same trails covered on this page. Rides run April 1–30, 2027 from the Ennis Welcome Center: book a [Solo ride ($79)](/book/?package=solo) or [Driver + Rider ($149)](/book/?package=two-up), or see the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for the full details.
-
 ## Where to go next on this guide
 
-This page is meant as the starting point for planning an Ennis bluebonnet trip, not the last word on any single topic — each section above links to a dedicated page with more depth. If you're deciding when to go, start with the [Bloom Tracker](/bluebonnets/bloom-tracker/) and [weather page](/bluebonnets/weather/); if you're deciding where to go once you're here, start with the [trail map](/bluebonnets/trail-map/) and [photo spots guide](/bluebonnets/photo-spots/); and if you're still weighing whether Ennis is the right destination at all, the [Bluebonnet Capital of Texas](/bluebonnets/bluebonnet-capital-of-texas/) and [where to see bluebonnets near Dallas](/bluebonnets/where-to-see-bluebonnets-near-dallas/) pages make the fuller case.
+This page is meant as the starting point for planning an Ennis bluebonnet trip, not the last word on any single topic — each section above links to a dedicated page with more depth. If you're deciding when to go, start with the [Bloom Tracker](/bluebonnets/bloom-tracker/) and [weather page](/bluebonnets/weather/); if you're deciding where to go once you're here, start with the [trail map](/bluebonnets/trail-map/) and [photo spots guide](/bluebonnets/photo-spots/); and if you're still weighing whether Ennis is the right destination at all, the [Bluebonnet Capital of Texas](/bluebonnets/bluebonnet-capital-of-texas/) and [where to see bluebonnets near Dallas](/bluebonnets/where-to-see-bluebonnets-near-dallas/) pages make the fuller case. And if you'd rather drive the loops yourself in an open-cockpit **Polaris Slingshot**, our self-drive 2-hour [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) follows a curated route over these same trails, April 1–30, 2027.

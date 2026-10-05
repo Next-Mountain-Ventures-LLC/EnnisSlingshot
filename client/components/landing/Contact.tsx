@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { business, isTodo } from "@shared/business";
 import { SignupForm } from "@/components/signup/SignupForm";
 import { openConsentBanner } from "@/lib/consent";
+import { getPostBySlug } from "@/lib/blog";
 
 /** Year the site was built (vite.config.ts `define`); falls back to the runtime year outside Vite. */
 declare const __BUILD_YEAR__: number | undefined;
@@ -35,12 +36,17 @@ const FOOTER_LINKS = {
   ],
 };
 
-/** Blog posts carry the same signup in their sidebar — don't show the form twice. */
-const BLOG_POST_PATH = /^\/blog\/(?!page\/|category\/)[^/]+\/?$/;
+/**
+ * Blog posts carry the same signup in their sidebar — don't show the form twice.
+ * Only for posts that exist: an unknown /blog/<slug>/ renders the 404 page (prerendered
+ * with the band), so hiding it there would break hydration.
+ */
+const BLOG_POST_PATH = /^\/blog\/(?!page\/|category\/)([^/]+)\/?$/;
 
 export function Contact() {
   const { pathname } = useLocation();
-  const showSignupBand = !BLOG_POST_PATH.test(pathname);
+  const postSlug = pathname.match(BLOG_POST_PATH)?.[1];
+  const showSignupBand = !(postSlug && getPostBySlug(postSlug));
   const facebookUrl = business.facebookUrl;
   const showPhone = !isTodo(business.phone);
   const showEmail = !isTodo(business.email);
@@ -61,7 +67,7 @@ export function Contact() {
 
       {/* NAP + link columns */}
       <section className="py-12 md:py-20">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid grid-cols-2 gap-x-6 gap-y-10 md:grid-cols-4 mb-12">
             {/* NAP block — TODO values (phone / email / street) are hidden, never printed. */}
             <address className="not-italic text-gray-400 text-sm space-y-2 col-span-2 md:col-span-1">

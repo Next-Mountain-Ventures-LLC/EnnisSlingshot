@@ -71,7 +71,3 @@ April weekends fill up fast, especially around peak bloom and festival weekend �
 Add Bluetooth communication helmets ($25 each) so you can talk to each other over the wind. Or if you're planning ahead — surprising a partner for their birthday, an anniversary, or a proposal — a [gift card](/slingshot-rental/gift-cards/) lets them pick their own April date.
 
 If you're planning something with a bigger group instead, see [Groups](/slingshot-rental/groups/).
-
-## Book your date night
-
-[Book your date-night ride for two](/book/?package=two-up) — pick a late-afternoon slot for golden-hour light, and book early, because April dates fill up fast.

@@ -73,7 +73,3 @@ If you're buying for a couple, the two-up [Bluebonnet Trail Experience](/slingsh
 ## A note on timing
 
 Because we only operate in April, a gift card bought in the fall or winter is really a promise of a spring afternoon — which is part of what makes it work as a gift in the first place. It gives the recipient something to look forward to across the winter, not just a coupon to redeem this week. If you're buying close to the season itself, that's fine too; just check availability on [our booking page](/book/), since April dates fill up fast.
-
-## Order a gift card
-
-[Email info@ennisslingshot.com](mailto:info@ennisslingshot.com?subject=Slingshot%20gift%20card) to order a Slingshot experience gift card for Drive & Go, Solo, or Driver + Rider — and let them choose their own April date.

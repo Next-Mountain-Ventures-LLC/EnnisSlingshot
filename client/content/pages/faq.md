@@ -55,7 +55,7 @@ faqs:
   - question: "What's included in the price?"
     answer: "Fuel and comprehensive insurance are included in every package. A Bluetooth communication helmet is a $25 add-on for two-up rides."
   - question: "Where can I learn more about the Bluebonnet Trails themselves?"
-    answer: "See our full Ennis Bluebonnet Trails & Festival guide for loop details, bloom timing, festival dates, and photo spots."
+    answer: "See our full [Ennis Bluebonnet Trails & Festival guide](/bluebonnets/) for loop details, bloom timing, festival dates, and photo spots."
 updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "FAQ"
@@ -78,4 +78,4 @@ Below is every question we get about driving a Slingshot in Ennis — licensing,
 
 ## Still have a question?
 
-Email us at [info@ennisslingshot.com](mailto:info@ennisslingshot.com) and we'll get right back to you, or [book your Slingshot experience](/book/) if you're ready to go.
+Email us at [info@ennisslingshot.com](mailto:info@ennisslingshot.com) and we'll get right back to you.

@@ -75,7 +75,3 @@ Both cities sit south and west of Ennis along I-35, making the trip a genuine ro
 ## What you'll actually be driving
 
 Every ride is in a Polaris Slingshot with AutoDrive — an automatic transmission with no clutch, so it handles like a car — powered by Polaris's ProStar 2.0L four-cylinder engine, up to 204 hp depending on trim. Two people ride side by side in an open cockpit, three wheels on the ground. First-time drivers get a short orientation and a supervised practice loop before heading out on the trail route.
-
-## Book your trip to Ennis
-
-[Reserve your Slingshot experience](/book/) and start planning your Texas bluebonnet weekend.

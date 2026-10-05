@@ -18,7 +18,7 @@ breadcrumbLabel: "Texas Motorplex"
 cta:
   headline: "Love watching speed? Drive the trails in April"
   body: "Texas Motorplex races February through November, but our 1-hour Drive & Go ($69.99) and 2-hour self-drive Slingshot rides run only April 1–30, 2027 — catch a spring race weekend and drive the Bluebonnet Trails the same trip."
-  buttonLabel: "Book a Drive & Go hour"
+  buttonLabel: "Book Drive & Go"
   href: "/book/?package=drive-and-go"
 ---
 

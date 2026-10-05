@@ -1,3 +1,4 @@
+import { Flower2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { HeroVideo } from "@/components/shared/HeroVideo";
 import { HERO_VIDEO } from "@/lib/media";
@@ -55,14 +56,15 @@ export function Hero({ onBookingClick }: HeroProps) {
             onClick={onBookingClick}
             className="h-auto px-8 py-4 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-lg rounded-lg transition-colors shadow-lg hover:shadow-2xl"
           >
-            Book Your Experience
+            Book your experience
           </Button>
         </div>
 
         {/* Season line */}
         <div className="mt-8 md:mt-12">
-          <p className="inline-block rounded-full bg-black/50 px-4 py-2 text-sm md:text-base font-semibold text-white">
-            🔥 2027 season: April 1–30 · Bluebonnet Festival expected April 17–19
+          <p className="inline-flex items-center gap-2 rounded-full bg-black/50 px-4 py-2 text-sm md:text-base font-semibold text-white">
+            <Flower2 className="h-4 w-4 shrink-0 text-ennis-flower" aria-hidden="true" />
+            2027 season: April 1–30 · Bluebonnet Festival expected April 17–19
           </p>
         </div>
       </div>

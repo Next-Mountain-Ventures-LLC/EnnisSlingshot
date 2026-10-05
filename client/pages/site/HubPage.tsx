@@ -13,9 +13,10 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { MarkdownBody } from "@/components/shared/MarkdownBody";
 import { PackagePriceTable } from "@/components/shared/PackagePriceTable";
 import { BookingCta } from "@/components/shared/BookingCta";
-import { pageCtaCopy, pageCtaSlots } from "@/components/booking/pageCta";
+import { pageCtaCopy, pageCtaSlots, showBanner } from "@/components/booking/pageCta";
 import NotFound from "@/pages/NotFound";
 import { BloomBadge } from "@/components/islands/BloomBadge";
+import { cn } from "@/lib/utils";
 import { PageFaq } from "./ContentPage";
 import { pageBreadcrumbs, pageJsonLd } from "./pageSeo";
 
@@ -30,7 +31,7 @@ export function HubPage() {
   const spokes = getPagesUnderHub(page.hub);
   const title = getPageLabel(page);
   const slots = pageCtaSlots(page);
-  const cta = pageCtaCopy(data.cta);
+  const cta = pageCtaCopy(data.cta, page.path);
 
   return (
     <article className="bg-ennis-dark">
@@ -57,6 +58,7 @@ export function HubPage() {
 
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_300px]">
           <div className="min-w-0 max-w-3xl">
+            {/* Hubs keep the strip on desktop too: their sidebar card sits below the spoke list. */}
             {slots.strip && <BookingCta variant="strip" className="mb-10" {...cta} />}
 
             <MarkdownBody>{page.body}</MarkdownBody>
@@ -66,7 +68,10 @@ export function HubPage() {
               <PackagePriceTable packages={data.packagePrice} withSchema={data.schemaType !== "Service"} />
             )}
 
-            {slots.banner && <BookingCta variant="banner" className="my-12" {...cta} />}
+            {/* The sticky card is in view from lg, so the banner would repeat it there. */}
+            {showBanner(slots, data) && (
+              <BookingCta variant="banner" className={cn("my-12", slots.card && "lg:hidden")} {...cta} />
+            )}
 
             <PageFaq page={page} />
           </div>
@@ -111,7 +116,11 @@ export function HubSpokeNav({ title, spokes }: { title: string; spokes: Spokes }
 export function HubSpokeChips({ title, spokes }: { title: string; spokes: Spokes }) {
   if (!spokes.length) return null;
   return (
-    <nav aria-label={`${title} pages`} className="-mx-4 mb-8 overflow-x-auto px-4 pb-2 lg:hidden">
+    // The fade on the right edge hints that the rail scrolls.
+    <nav
+      aria-label={`${title} pages`}
+      className="-mx-4 mb-8 overflow-x-auto px-4 pb-2 [mask-image:linear-gradient(to_right,#000_85%,transparent)] lg:hidden"
+    >
       <ul className="flex w-max gap-2">
         {spokes.map((s) => (
           <li key={s.path}>

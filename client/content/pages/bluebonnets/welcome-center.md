@@ -22,7 +22,7 @@ breadcrumbLabel: "Welcome Center"
 cta:
   headline: "Your Slingshot ride starts right here"
   body: "Check in at the Ennis Welcome Center, 201 NW Main St, for a short orientation, then drive the Bluebonnet Trails yourself in an open-cockpit Polaris Slingshot, April 1–30, 2027 — insurance included, no deposit."
-  buttonLabel: "Book your ride from here"
+  buttonLabel: "Book your ride here"
   href: "/book/?package=solo"
 ---
 
@@ -77,8 +77,4 @@ Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute dr
 
 ## Planning your visit around the Welcome Center
 
-For the full trail overview, dates, and what to expect once you leave the Welcome Center, see our [complete Ennis Bluebonnet Trails guide](/bluebonnets/). For the exact loop routes and pinned photo stops, see the [interactive trail map](/bluebonnets/trail-map/). And if you're timing your trip around peak bloom, check the [Bloom Tracker](/bluebonnets/bloom-tracker/) before you go — it's built on the same weekly Garden Club reports posted at the Welcome Center.
-
-## See the trails from a Slingshot
-
-Our self-drive 2-hour Bluebonnet Trail Experience starts right here at the Welcome Center — no motorcycle license required, insurance included. Rides run April 1–30, 2027: book a [Solo ride ($79)](/book/?package=solo) or [Driver + Rider ($149)](/book/?package=two-up), or see the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for the full details.
+For the full trail overview, dates, and what to expect once you leave the Welcome Center, see our [complete Ennis Bluebonnet Trails guide](/bluebonnets/). For the exact loop routes and pinned photo stops, see the [interactive trail map](/bluebonnets/trail-map/). And if you're timing your trip around peak bloom, check the [Bloom Tracker](/bluebonnets/bloom-tracker/) before you go — it's built on the same weekly Garden Club reports posted at the Welcome Center. And if you'd like to drive the trails in an open-cockpit **Polaris Slingshot**, our self-drive 2-hour [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) starts right here at the Welcome Center.

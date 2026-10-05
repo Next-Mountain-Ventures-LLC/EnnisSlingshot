@@ -2,7 +2,7 @@ import { Download } from "lucide-react";
 
 export function Trails() {
   return (
-    <section className="py-20 md:py-32 bg-ennis-dark relative overflow-hidden">
+    <section className="py-16 md:py-24 bg-ennis-dark relative overflow-hidden">
       {/* Decorative Background */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-ennis-orange rounded-full mix-blend-multiply filter blur-3xl"></div>

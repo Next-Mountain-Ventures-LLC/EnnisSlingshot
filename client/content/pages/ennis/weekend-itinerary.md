@@ -11,7 +11,7 @@ faqs:
   - question: "Is Scarborough Renaissance Festival close to Ennis?"
     answer: "Yes. Scarborough Renaissance Festival is held in Waxahachie, roughly 15 minutes northwest of Ennis, making it easy to combine a bluebonnet-trail morning with a Renaissance-festival afternoon on the same day."
   - question: "Where should I stay for an Ennis and Waxahachie weekend?"
-    answer: "Ennis has a handful of hotel and B&B options close to downtown and the Welcome Center; see our Where to Stay page for specifics. Waxahachie has additional lodging, including bed-and-breakfast properties in its own historic district, if you want to split the weekend between the two towns."
+    answer: "Ennis has a handful of hotel and B&B options close to downtown and the Welcome Center; see our [Where to Stay page](/ennis/where-to-stay/) for specifics. Waxahachie has additional lodging, including bed-and-breakfast properties in its own historic district, if you want to split the weekend between the two towns."
 updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Weekend Itinerary"

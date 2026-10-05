@@ -18,7 +18,7 @@ breadcrumbLabel: "Downtown Ennis"
 cta:
   headline: "Drive the trails, then walk downtown"
   body: "Start at the Ennis Welcome Center, drive the Bluebonnet Trails yourself for two hours in an open-cockpit Polaris Slingshot, then walk to lunch on Dallas Street — rides run April 1–30, 2027, $79 solo or $149 for two."
-  buttonLabel: "Book a downtown-start ride"
+  buttonLabel: "Book your trail ride"
   href: "/book/?package=solo"
 ---
 

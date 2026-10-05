@@ -45,7 +45,7 @@ describe("embed routes", () => {
       expect(anchors.length).toBeGreaterThan(0);
       for (const a of anchors) expect(a).toContain('target="_blank"');
       // No site chrome in an embed.
-      expect(html).not.toMatch(/Book Your Experience|id="mobile-nav"/);
+      expect(html).not.toMatch(/Book your experience|id="mobile-nav"/i);
     }
   });
 

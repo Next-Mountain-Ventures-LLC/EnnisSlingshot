@@ -14,8 +14,9 @@ export function RelatedPosts({ post, count = 3 }: { post: BlogPost; count?: numb
         Keep <span className="text-ennis-orange">reading</span>
       </h2>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {related.map((p) => (
-          <BlogCard key={p.id} post={p} headingLevel="h3" />
+        {related.map((p, i) => (
+          // Two columns between sm and lg: drop the third card rather than leave it alone on a row.
+          <BlogCard key={p.id} post={p} headingLevel="h3" className={i === 2 ? "sm:max-lg:hidden" : ""} />
         ))}
       </div>
     </section>

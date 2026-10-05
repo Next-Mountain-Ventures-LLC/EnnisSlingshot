@@ -19,7 +19,7 @@ breadcrumbLabel: "Day Trip from Dallas"
 cta:
   headline: "Make the drive the day's highlight"
   body: "Slot our 2-hour self-drive Bluebonnet Trail Experience into any itinerary above — it starts at the Ennis Welcome Center, about 37 minutes from downtown Dallas, and runs April 1–30, 2027. $79 solo or $149 for two, insurance included."
-  buttonLabel: "Book your day-trip ride"
+  buttonLabel: "Book a day-trip ride"
   href: "/book/?package=two-up"
 ---
 

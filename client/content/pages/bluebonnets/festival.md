@@ -24,7 +24,7 @@ breadcrumbLabel: "Festival"
 cta:
   headline: "Make festival weekend a Slingshot weekend"
   body: "Drive a loop in an open-cockpit Polaris Slingshot before the downtown crowds build, then walk over to the festival — rides start at the Ennis Welcome Center, and festival weekend is our busiest, so book early."
-  buttonLabel: "Book a festival-weekend ride"
+  buttonLabel: "Book festival weekend"
   href: "/book/?package=two-up"
 ---
 
@@ -45,7 +45,7 @@ The festival has held a mid-April weekend for more than 70 years, and 2027 is ex
 
 This trips up a lot of first-time visitors, so it's worth stating plainly. The **Ennis Bluebonnet Trails** are the 40-plus miles of driving loops open the entire month of April, free, and requiring no ticket — you just show up and drive. The **Ennis Bluebonnet Festival** is a separate, ticketed weekend event held in downtown Ennis with a vendor market, food trucks, live music, and a car show. You can drive the trails any day in April without ever attending the festival, and plenty of visitors do exactly that to avoid festival-weekend crowds. See our [complete Ennis Bluebonnet Trails guide](/bluebonnets/) for the full trails overview, or jump straight to the [trail map](/bluebonnets/trail-map/).
 
-## Festival hours and tickets (what to expect in 2027)
+## Festival hours and tickets (2026 for reference)
 
 The 2026 festival ran **April 17–19, 2026**, with these hours, per [visitennistexas.com](https://www.visitennistexas.com/):
 
@@ -73,7 +73,7 @@ Downtown Ennis street parking fills early on festival mornings, especially Satur
 
 ## What tends to change year to year vs. what stays consistent
 
-Year to year, the festival keeps the same shape: a Friday-through-Sunday weekend in mid-April, evening hours on Friday and Saturday, and an earlier Sunday close. Exact hours and ticket prices can change, so check the official 2027 listing on visitennistexas.com before you go.
+Year to year, the festival keeps the same shape: a three-day weekend in mid-April, with evening hours on the first two days and an earlier close on the last. Exact hours and ticket prices can change, so check the official 2027 listing on visitennistexas.com before you go.
 
 ## Planning around festival weekend
 
@@ -81,8 +81,4 @@ If you're coming from out of town for festival weekend (expected April 17–19, 
 
 ## Should you go to the trails, the festival, or both
 
-If your priority is bluebonnet photos and a quiet drive, go on a non-festival weekend — the trails are just as open and considerably less crowded. If you want the vendor market, music, and car show atmosphere, plan around the festival weekend and expect downtown to be busy. Plenty of visitors do both: drive a loop in the morning before the festival gets crowded, then head downtown for the afternoon. See our [complete Ennis Bluebonnet Trails guide](/bluebonnets/) for a full sample-day itinerary, or the [Bloom Tracker](/bluebonnets/bloom-tracker/) to check whether festival weekend is likely to land during peak bloom this year.
-
-## See the trails from a Slingshot
-
-If you're planning a festival-weekend trip and want to see the trails from something more memorable than a sedan, our self-drive 2-hour **Polaris Slingshot** Bluebonnet Trail Experience puts you behind the wheel on a curated route — no motorcycle license required, insurance included. It pairs naturally with a festival visit: rides start at the Ennis Welcome Center, a short walk from the festival, so you can drive a loop before the downtown crowds build. Book early for festival weekend: [Solo ($79)](/book/?package=solo) or [Driver + Rider ($149)](/book/?package=two-up). Details are on the [Bluebonnet Trail Experience page](/slingshot-rental/bluebonnet-trail-experience/).
+If your priority is bluebonnet photos and a quiet drive, go on a non-festival weekend — the trails are just as open and considerably less crowded. If you want the vendor market, music, and car show atmosphere, plan around the festival weekend and expect downtown to be busy. Plenty of visitors do both: drive a loop in the morning before the festival gets crowded, then head downtown for the afternoon. If you'd like to drive that morning loop in an open-cockpit **Polaris Slingshot**, our self-drive 2-hour [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) starts at the Ennis Welcome Center, a short walk from the festival. See our [complete Ennis Bluebonnet Trails guide](/bluebonnets/) for a full sample-day itinerary, or the [Bloom Tracker](/bluebonnets/bloom-tracker/) to check whether festival weekend is likely to land during peak bloom this year.

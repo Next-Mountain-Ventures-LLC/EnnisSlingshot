@@ -169,3 +169,11 @@
     @apply px-8 py-4 text-lg;
   }
 }
+
+/* Trail map: on the narrowest embeds (300px iframes) let the permanent start label wrap instead of running off the map. */
+@media (max-width: 340px) {
+  .leaflet-tooltip.trail-map-start-tooltip {
+    white-space: normal;
+    width: 8.5rem;
+  }
+}

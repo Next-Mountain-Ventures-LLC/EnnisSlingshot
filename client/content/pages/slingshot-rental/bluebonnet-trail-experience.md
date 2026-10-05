@@ -80,8 +80,4 @@ A Bluetooth communication helmet rents for $25 per helmet, letting a driver and 
 
 ## Coming from Dallas, Fort Worth, or Arlington
 
-Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute drive; Fort Worth is about 57 miles and Arlington about 52 miles. See [Near Dallas](/slingshot-rental/near-dallas/) or [Near Fort Worth](/slingshot-rental/near-fort-worth/) for drive-time details and how to build the ride into a full day trip, including nearby stops in [Waxahachie and Ellis County](/slingshot-rental/waxahachie-ellis-county/). Traveling from further out in Texas? See [Slingshot Rental in Texas](/slingshot-rental/texas/).
-
-## Book your Bluebonnet Trail Experience
-
-Book the 2-hour Bluebonnet Trail Experience: [$79 solo](/book/?package=solo) or [$149 for a driver and rider](/book/?package=two-up) — we'll meet you at the Ennis Welcome Center, 201 NW Main St.
+Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute drive; Fort Worth is about 57 miles and Arlington about 52 miles. See [Near Dallas](/slingshot-rental/near-dallas/) or [Near Fort Worth](/slingshot-rental/near-fort-worth/) for drive-time details and how to build the ride into a full day trip, including nearby stops in [Waxahachie and Ellis County](/slingshot-rental/waxahachie-ellis-county/). Traveling from further out in Texas? See [Slingshot Rental in Texas](/slingshot-rental/texas/). Wherever you're driving in from, we meet you at the Ennis Welcome Center, 201 NW Main St.

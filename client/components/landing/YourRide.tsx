@@ -32,7 +32,7 @@ export function YourRide() {
   ];
 
   return (
-    <section className="py-20 md:py-32 bg-gradient-to-b from-ennis-dark to-ennis-darker">
+    <section className="py-16 md:py-24 bg-gradient-to-b from-ennis-dark to-ennis-darker">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-black text-white mb-4">

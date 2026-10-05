@@ -5,8 +5,10 @@
  *   • 15 s of time on site (counted across page views in the session),
  *   • exit intent on desktop (pointer leaves through the top) after 5 s,
  *   • 50 % scroll depth after 8 s.
- * Never on /book/, while a booking scheduler is open or a field has focus,
- * in ?embed=1 widgets, or on a 404 page. Not again for 7 days after a dismissal; never after someone has
+ * Never on /book/, while a booking scheduler is open or the home booking card
+ * is on screen, while a field has focus, in ?embed=1 widgets, or on a 404 page;
+ * it waits for the cookie banner to be answered (up to a minute) so visitors
+ * don't get two interruptions at once. Not again for 7 days after a dismissal; never after someone has
  * finished. People who gave an email but not a phone get one phone-step
  * reminder after 3 days unless they chose "email is fine".
  *
@@ -19,6 +21,7 @@ import * as DialogPrimitive from "@radix-ui/react-dialog";
 import { Flower2, X } from "lucide-react";
 import { SignupForm } from "./SignupForm";
 import { dismissSignupPopup, readSignup, type SignupState } from "@/lib/signup";
+import { CONSENT_CHANGE_EVENT, readConsent } from "@/lib/consent";
 
 const DAY = 24 * 60 * 60 * 1000;
 const SESSION_START_KEY = "ennis-session-start";
@@ -26,6 +29,10 @@ const SESSION_SHOWN_KEY = "ennis-signup-popup-shown";
 const DELAY_MS = 15_000;
 const EXIT_INTENT_MIN_MS = 5_000;
 const SCROLL_MIN_MS = 8_000;
+/** Stop waiting on an unanswered cookie banner after this much time on site. */
+const CONSENT_WAIT_MAX_MS = 60_000;
+/** After the cookie banner is answered, give people a moment before the popup. */
+const AFTER_CONSENT_MS = 4_000;
 
 /** In-memory fallback for browsers that block sessionStorage (state survives in-app navigation). */
 const memorySession: Record<string, string> = {};
@@ -41,11 +48,22 @@ function session(key: string, value?: string): string | null {
 }
 
 /**
- * Don't interrupt: no popup while a booking scheduler is open, while the
- * visitor is typing in a field, or on a 404 page (NotFound renders data-not-found).
+ * Don't interrupt: no popup while a booking scheduler is open or the booking
+ * card is on screen (picking a package scrolls the page), while the visitor is
+ * typing in a field, on a 404 page (NotFound renders data-not-found), or while
+ * the cookie banner is still waiting for an answer (until `elapsedMs` passes
+ * CONSENT_WAIT_MAX_MS).
  */
-function busyElsewhere(): boolean {
+function busyElsewhere(elapsedMs: number): boolean {
   if (document.querySelector('iframe[src*="acuityscheduling.com"], [data-not-found]')) return true;
+  // No stored choice yet (the banner may not have mounted yet) or the banner reopened via "Cookie settings".
+  const consentPending = readConsent() === null || !!document.querySelector("[data-consent-banner]");
+  if (consentPending && elapsedMs < CONSENT_WAIT_MAX_MS) return true;
+  const card = document.getElementById("acuity-scheduler");
+  if (card) {
+    const r = card.getBoundingClientRect();
+    if (r.bottom > 0 && r.top < window.innerHeight) return true;
+  }
   const active = document.activeElement;
   return !!active && /^(INPUT|TEXTAREA|SELECT|IFRAME)$/.test(active.tagName);
 }
@@ -80,8 +98,8 @@ export function SignupPopup() {
     let timer = 0;
     const show = () => {
       if (done) return;
-      // Busy (checkout open, typing, 404): try again a bit later instead of interrupting.
-      if (busyElsewhere()) {
+      // Busy (checkout open, typing, cookie banner, 404): try again a bit later instead of interrupting.
+      if (busyElsewhere(elapsed())) {
         window.clearTimeout(timer);
         timer = window.setTimeout(show, 20_000);
         return;
@@ -102,13 +120,20 @@ export function SignupPopup() {
       const max = document.documentElement.scrollHeight - window.innerHeight;
       if (max > 0 && window.scrollY / max >= 0.5 && elapsed() >= SCROLL_MIN_MS) show();
     };
+    // Cookie banner answered: don't make them wait for the next 20 s retry.
+    const onConsent = () => {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(show, Math.max(AFTER_CONSENT_MS, DELAY_MS - elapsed()));
+    };
     const finePointer = window.matchMedia?.("(pointer: fine)").matches;
     if (finePointer) document.addEventListener("mouseout", onExit);
     window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener(CONSENT_CHANGE_EVENT, onConsent);
     function cleanup() {
       window.clearTimeout(timer);
       document.removeEventListener("mouseout", onExit);
       window.removeEventListener("scroll", onScroll);
+      window.removeEventListener(CONSENT_CHANGE_EVENT, onConsent);
     }
     return cleanup;
   }, [pathname, search, open]);
@@ -129,6 +154,15 @@ export function SignupPopup() {
         <DialogPrimitive.Overlay className="fixed inset-0 z-[60] bg-black/70 backdrop-blur-sm data-[state=open]:animate-in data-[state=open]:fade-in-0 data-[state=closed]:animate-out data-[state=closed]:fade-out-0" />
         <DialogPrimitive.Content
           aria-describedby={undefined}
+          // Mouse/trackpad: start in the first field. Touch: don't pop the keyboard up
+          // uninvited — focus the dialog itself (Radix would pick the Close button).
+          onOpenAutoFocus={(e) => {
+            e.preventDefault();
+            const el = e.currentTarget as HTMLElement;
+            const first = el.querySelector<HTMLInputElement>("input:not([tabindex='-1'])");
+            if (first && window.matchMedia?.("(pointer: fine)").matches) first.focus();
+            else el.focus();
+          }}
           className={[
             "fixed z-[61] overflow-y-auto overscroll-contain border border-gray-700 bg-ennis-dark text-left shadow-2xl focus:outline-none",
             // mobile: bottom sheet
@@ -139,9 +173,9 @@ export function SignupPopup() {
             "sm:data-[state=open]:slide-in-from-bottom-4 sm:data-[state=open]:zoom-in-95",
           ].join(" ")}
         >
-          <div className="relative h-20 sm:h-28 overflow-hidden rounded-t-2xl bg-gradient-to-br from-ennis-blue via-ennis-navy to-ennis-dark">
-            <Flower2 className="absolute -right-4 -top-6 h-36 w-36 text-ennis-flower/20" aria-hidden="true" />
-            <Flower2 className="absolute right-24 top-8 h-12 w-12 text-ennis-flower/25" aria-hidden="true" />
+          <div className="relative h-12 sm:h-24 overflow-hidden rounded-t-2xl bg-gradient-to-br from-ennis-blue via-ennis-navy to-ennis-dark">
+            <Flower2 className="absolute -right-4 -top-8 h-28 w-28 sm:h-36 sm:w-36 text-ennis-flower/20" aria-hidden="true" />
+            <Flower2 className="absolute right-24 top-2 h-8 w-8 sm:top-8 sm:h-12 sm:w-12 text-ennis-flower/25" aria-hidden="true" />
             <Flower2 className="absolute left-6 top-5 h-10 w-10 text-white/10 hidden sm:block" aria-hidden="true" />
             <span className="mx-auto mt-2 block h-1.5 w-12 rounded-full bg-white/30 sm:hidden" aria-hidden="true" />
           </div>

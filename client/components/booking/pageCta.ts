@@ -6,7 +6,9 @@
  *   - strip (under the page header) + sidebar card: SEO landing pages — every
  *     page in a hub, plus /faq/, /about/ and /gallery/
  *   - banner (after the body / islands, before the FAQ): every page except the
- *     ones below
+ *     ones below, and not where it would repeat a CTA already in view — pages
+ *     with a package price table (its Book buttons are the CTA) and, from lg,
+ *     pages with the sticky sidebar card (templates add lg:hidden)
  *   - nothing: /privacy/, /terms/ and /book/ (the scheduler is the CTA there)
  *
  * Copy comes from the page's frontmatter `cta` (shared/content/page-schema.ts);
@@ -30,14 +32,23 @@ export function pageCtaSlots(page: { path: string; hub: string | null }): PageCt
   return { strip: seo, banner: true, card: seo };
 }
 
-export type PageCtaCopy = Required<Pick<BookingCtaProps, "href">> &
-  Pick<BookingCtaProps, "headline" | "body" | "buttonLabel">;
+/** Banner slot, minus pages whose package price table already carries Book buttons. */
+export function showBanner(slots: PageCtaSlots, data: { packagePrice?: unknown[] }): boolean {
+  return slots.banner && !data.packagePrice?.length;
+}
 
-export function pageCtaCopy(cta: PageCta | undefined): PageCtaCopy {
+export type PageCtaCopy = Required<Pick<BookingCtaProps, "href">> &
+  Pick<BookingCtaProps, "headline" | "body" | "buttonLabel" | "secondary">;
+
+const PRICING_PATH = "/slingshot-rental/pricing/";
+
+export function pageCtaCopy(cta: PageCta | undefined, path?: string): PageCtaCopy {
   return {
     headline: cta?.headline,
     body: cta?.body,
     buttonLabel: cta?.buttonLabel,
     href: cta?.href || "/book/",
+    // The default secondary link is the pricing page — don't point it at itself.
+    ...(path === PRICING_PATH && { secondary: { label: "Questions? Read the FAQ", href: "/faq/" } }),
   };
 }

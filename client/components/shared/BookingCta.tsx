@@ -123,7 +123,7 @@ export function BookingCta({
       >
         <p className="text-sm text-gray-200 md:text-base">
           <span className="font-bold text-white">{headline}</span>
-          <span className="block text-gray-400 sm:inline sm:before:content-['_·_']">{stripNote(href)}</span>
+          <span className="block text-sm text-gray-400">{stripNote(href)}</span>
         </p>
         {/* Phones already have the sticky Book bar, so the strip uses a text link there and a button from md. */}
         <CtaLink

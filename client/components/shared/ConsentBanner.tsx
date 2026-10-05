@@ -41,6 +41,7 @@ export function ConsentBanner() {
   return (
     <section
       role="region"
+      data-consent-banner
       aria-label="Cookie and tracking consent"
       aria-live="polite"
       className={`fixed inset-x-0 ${mobileBottom} md:bottom-4 z-50 px-3 md:px-4 print:hidden`}

@@ -18,7 +18,7 @@ breadcrumbLabel: "National Polka Festival"
 cta:
   headline: "Come for polka, come back for bluebonnets"
   body: "Our self-drive Slingshot rides run only while the Bluebonnet Trails are open, so make it two Ennis trips in 2027: drive the trails yourself April 1–30, then come back for the polka on Memorial Day weekend."
-  buttonLabel: "Book an April 2027 ride"
+  buttonLabel: "Book an April ride"
   href: "/book/?package=two-up"
 ---
 

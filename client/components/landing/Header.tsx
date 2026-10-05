@@ -95,12 +95,15 @@ export function Header() {
         </button>
       </div>
 
-      {/* Mobile nav — kept in the DOM (hidden attribute) so links are crawlable */}
+      {/*
+        Mobile nav — kept in the DOM (hidden attribute) so links are crawlable. It drops down
+        over the page (absolute) so opening it doesn't shift the scroll position.
+      */}
       <nav
         id="mobile-nav"
         aria-label="Primary mobile"
         hidden={!open}
-        className="md:hidden border-t border-gray-700 bg-ennis-dark"
+        className="md:hidden absolute inset-x-0 top-full max-h-[calc(100vh-4rem)] overflow-y-auto border-y border-gray-700 bg-ennis-dark shadow-2xl"
       >
         <ul className="container mx-auto px-4 py-3 flex flex-col gap-1">
           {NAV_ITEMS.map((item) => (

@@ -239,14 +239,14 @@ export function SignupForm({ variant, source, onDone, titleAs: Title = "h2", cla
     );
     title = (
       <>
-        Get festival dates &amp; trail updates <span className="text-ennis-orange">first</span>
+        Get festival dates &amp; bloom alerts <span className="text-ennis-orange">by text</span>
       </>
     );
     body = (
       <>
         The 2027 Ennis Bluebonnet Festival is expected {festivalDays} (subject to change), and the trails are open all
-        April. Get confirmed dates, bloom reports and trail news — plus <strong className="text-white">$10 off your ride</strong>{" "}
-        when you add your phone.
+        April. Start with your name and email, then add your mobile to get confirmed dates and bloom reports by text —
+        plus <strong className="text-white">$10 off your ride</strong>.
       </>
     );
   } else if (view === "phone") {
@@ -296,9 +296,14 @@ export function SignupForm({ variant, source, onDone, titleAs: Title = "h2", cla
         : "We'll email confirmed festival dates, bloom reports and trail news as soon as they drop.";
   }
 
+  // Tell people up front there's a short second step (the phone number is where the $10 is).
+  const step = view === "email" ? 1 : view === "phone" ? 2 : null;
   const intro = (
     <div className={cn(band && "md:pr-8")} aria-live="polite">
-      <p className="mb-2 inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-ennis-flower">{eyebrow}</p>
+      <div className="mb-2 flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
+        <p className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-ennis-flower">{eyebrow}</p>
+        {step && <p className="text-xs font-semibold text-gray-400">Step {step} of 2</p>}
+      </div>
       <Title className={cn(titleClass, "mb-2")}>{title}</Title>
       <p className={bodyClass}>{body}</p>
     </div>
@@ -338,7 +343,7 @@ export function SignupForm({ variant, source, onDone, titleAs: Title = "h2", cla
           Send me updates
         </button>
         {errorText("form")}
-        <p className="text-xs text-gray-500">
+        <p className="text-xs text-gray-400">
           No spam — just dates, bloom reports and trail news. Unsubscribe anytime. {legalLink("/privacy/", "Privacy")}
         </p>
       </form>
@@ -378,7 +383,7 @@ export function SignupForm({ variant, source, onDone, titleAs: Title = "h2", cla
           Text me my $10 code
         </button>
         {errorText("form")}
-        <p id={`${ids}-consent`} className="text-[11px] leading-snug text-gray-500">
+        <p id={`${ids}-consent`} className="text-xs leading-snug text-gray-400">
           {SMS_CONSENT_TEXT} {legalLink("/terms/#sms-terms", "SMS terms")} · {legalLink("/privacy/", "Privacy")}
         </p>
         {!stored?.phoneSkippedAt && (

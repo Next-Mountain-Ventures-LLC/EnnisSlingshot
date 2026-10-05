@@ -65,8 +65,8 @@ export const homeFaqItems: Faq[] = [
  */
 export function FAQ() {
   return (
-    <section className="py-20 md:py-32 bg-gradient-to-b from-ennis-darker to-ennis-dark">
-      <div className="container mx-auto px-4 max-w-3xl">
+    <section className="py-16 md:py-24 bg-gradient-to-b from-ennis-darker to-ennis-dark">
+      <div className="container mx-auto px-4 max-w-[50rem]">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-black text-white mb-4">
             Frequently Asked <span className="text-ennis-orange">Questions</span>

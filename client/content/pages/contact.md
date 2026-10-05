@@ -26,7 +26,7 @@ This is the same building where the official Ennis Bluebonnet Trail maps are han
 
 **Email:** [info@ennisslingshot.com](mailto:info@ennisslingshot.com)
 
-Questions before you book? Email us — groups, gift cards, or anything you want to know before you pick a date — and we'll get right back to you. Already booked? Reply to your confirmation email; it's the fastest way to reach us about a specific booking.
+Questions before you book? Email us — groups, gift cards, or anything you want to know before you pick a date — and we'll get right back to you, or check the [FAQ](/faq/) first. Already booked? Reply to your confirmation email; it's the fastest way to reach us about a specific booking.
 
 ## Hours during trail season
 
@@ -35,7 +35,3 @@ The Ennis Welcome Center — our meeting point — typically keeps these hours d
 ## Directions
 
 Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute drive. See our [day-trip guide](/ennis/day-trip-from-dallas/) for the full route and drive times from other DFW cities.
-
-## Ready to book?
-
-[Book your Slingshot experience](/book/), or check the [FAQ](/faq/) if you have a question before you do.

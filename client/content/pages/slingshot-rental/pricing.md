@@ -45,11 +45,7 @@ Slingshot rental prices from Ennis Slingshot Experience run **$69.99 to $149**, 
 
 ## Full price list
 
-| Package | Duration | Price | Riders |
-|---|---|---|---|
-| Drive & Go | 60 min | $69.99 | 1 driver |
-| Bluebonnet Trail Experience — Solo | 2 hr | $79 | 1 driver |
-| Bluebonnet Trail Experience — Driver + Rider | 2 hr | $149 | Driver + passenger |
+Every package, with its Book button, is in the price table below.
 
 **Add-on:** Bluetooth communication helmet, $25 per helmet.
 
@@ -90,7 +86,3 @@ Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute dr
 ## Paying for a gift, not just a ride
 
 If you're buying for someone else rather than booking your own slot, a [gift card](/slingshot-rental/gift-cards/) covers any package on this page and lets the recipient pick their own April date — email [info@ennisslingshot.com](mailto:info@ennisslingshot.com) to order one. It's priced the same as booking directly — there's no markup for gifting it.
-
-## Book your ride
-
-[Choose a package and book your Slingshot experience](/book/) — no deposit required at checkout.

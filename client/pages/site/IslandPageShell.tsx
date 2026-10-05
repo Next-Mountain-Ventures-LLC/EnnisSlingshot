@@ -1,9 +1,9 @@
 /**
  * Shared layout for the island pages (trail map, bloom tracker, weather,
  * events, /book/). Same frame as ContentPage — Seo, breadcrumbs, H1, booking
- * CTA strip, markdown body, price table, CTA banner, FAQ, and a sticky
- * sidebar (CTA card + sibling nav) from lg (xl with `sidebarFrom="xl"`) —
- * plus three island slots that share the content column's width:
+ * CTA strip, markdown body, price table, CTA banner, FAQ, sibling nav, and a
+ * sidebar with a sticky CTA card from lg (xl with `sidebarFrom="xl"`) — plus
+ * three island slots that share the content column's width:
  *
  *   beforeBody  islands the copy calls "above" (bloom tracker, forecast, scheduler)
  *   afterIntro  after the body's first "## " section (trail map, events list)
@@ -19,7 +19,7 @@ import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { MarkdownBody } from "@/components/shared/MarkdownBody";
 import { PackagePriceTable } from "@/components/shared/PackagePriceTable";
 import { BookingCta } from "@/components/shared/BookingCta";
-import { pageCtaCopy, pageCtaSlots } from "@/components/booking/pageCta";
+import { pageCtaCopy, pageCtaSlots, showBanner } from "@/components/booking/pageCta";
 import { cn } from "@/lib/utils";
 import { PageFaq, SiblingNav } from "./ContentPage";
 import { pageBreadcrumbs, pageJsonLd } from "./pageSeo";
@@ -34,7 +34,7 @@ export interface IslandPageShellProps {
   afterBody?: ReactNode;
   /** Extra JSON-LD appended to the page's default stack (e.g. Event entities). */
   extraJsonLd?: JsonLd[];
-  /** Replaces the default sidebar (CTA card + sibling nav); shown from the sidebar breakpoint only. */
+  /** Replaces the default sidebar (the CTA card); shown from the sidebar breakpoint only. */
   aside?: ReactNode;
   /**
    * Breakpoint where the sidebar appears (default lg, like ContentPage). Use
@@ -45,8 +45,8 @@ export interface IslandPageShellProps {
 }
 
 const SIDEBAR_CLASSES = {
-  lg: { grid: "lg:grid-cols-[minmax(0,1fr)_300px]", show: "hidden lg:block", hide: "lg:hidden", sticky: "lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto" },
-  xl: { grid: "xl:grid-cols-[minmax(0,1fr)_300px]", show: "hidden xl:block", hide: "xl:hidden", sticky: "xl:sticky xl:top-24 xl:max-h-[calc(100vh-7rem)] xl:overflow-y-auto" },
+  lg: { grid: "lg:grid-cols-[minmax(0,1fr)_300px]", show: "hidden lg:block", hide: "lg:hidden", sticky: "lg:sticky lg:top-24" },
+  xl: { grid: "xl:grid-cols-[minmax(0,1fr)_300px]", show: "hidden xl:block", hide: "xl:hidden", sticky: "xl:sticky xl:top-24" },
 } as const;
 
 /**
@@ -76,9 +76,11 @@ export function IslandPageShell({
   const siblings = page.hub ? getPagesUnderHub(page.hub).filter((p) => p.path !== page.path) : [];
   const jsonLd = [...pageJsonLd(page), ...extraJsonLd];
   const slots = pageCtaSlots(page);
-  const cta = pageCtaCopy(data.cta);
+  const cta = pageCtaCopy(data.cta, page.path);
   const showSiblings = hub !== undefined && siblings.length > 0;
-  const hasAside = Boolean(aside) || slots.card || showSiblings;
+  const hasAside = Boolean(aside) || slots.card;
+  // Where the sidebar CTA card is in view, the strip and banner would repeat it.
+  const cardShown = slots.card && !aside;
   const [intro, rest] = afterIntro ? splitAfterFirstSection(page.body) : [page.body, ""];
 
   return (
@@ -93,7 +95,8 @@ export function IslandPageShell({
         jsonLd={jsonLd}
       />
 
-      <div className="container mx-auto max-w-6xl px-4 py-12">
+      {/* Without a sidebar, narrow the frame so breadcrumbs, H1 and the reading column stay centred. */}
+      <div className={cn("container mx-auto px-4 py-12", hasAside ? "max-w-6xl" : "max-w-[50rem]")}>
         <Breadcrumbs items={pageBreadcrumbs(page)} className="mb-4" />
 
         <header className="mb-8 max-w-4xl">
@@ -103,7 +106,7 @@ export function IslandPageShell({
         <div className={cn("grid gap-12", hasAside && sb.grid)}>
           <div className="min-w-0 max-w-3xl">
             {slots.strip && (
-              <BookingCta variant="strip" className={cn("mb-10", slots.card && !aside && sb.hide)} {...cta} />
+              <BookingCta variant="strip" className={cn("mb-10", cardShown && sb.hide)} {...cta} />
             )}
 
             {beforeBody && <div className="mb-12">{beforeBody}</div>}
@@ -120,22 +123,18 @@ export function IslandPageShell({
               <PackagePriceTable packages={data.packagePrice} withSchema={data.schemaType !== "Service"} />
             )}
 
-            {slots.banner && <BookingCta variant="banner" className="my-12" {...cta} />}
+            {showBanner(slots, data) && (
+              <BookingCta variant="banner" className={cn("my-12", cardShown && sb.hide)} {...cta} />
+            )}
 
             <PageFaq page={page} />
+
+            {showSiblings && hub && <SiblingNav hub={hub} siblings={siblings} className="mt-12" />}
           </div>
 
           {hasAside && (
-            // Sidebar from the breakpoint; below it only the sibling nav shows (after the content).
-            <div className={cn("min-w-0", (aside || !showSiblings) && sb.show)}>
-              <div className={cn("space-y-8", sb.sticky)}>
-                {aside ?? (
-                  <>
-                    {slots.card && <BookingCta variant="card" className={sb.show} {...cta} />}
-                    {showSiblings && hub && <SiblingNav hub={hub} siblings={siblings} sidebarFrom={sidebarFrom} />}
-                  </>
-                )}
-              </div>
+            <div className={cn("min-w-0", sb.show)}>
+              <div className={sb.sticky}>{aside ?? <BookingCta variant="card" {...cta} />}</div>
             </div>
           )}
         </div>

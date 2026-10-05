@@ -40,10 +40,11 @@ export function Breadcrumbs({
                     {item.label}
                   </Link>
                 ) : (
-                  // Long post titles: one line on phones (the H1 repeats it in full).
+                  // Long post titles: one line on phones (the H1 repeats it in full). Margin, not
+                  // padding, so the clamp doesn't leave the top of a second line showing.
                   <span
                     aria-current={last ? "page" : undefined}
-                    className={last ? "py-2 text-gray-200 line-clamp-1 sm:line-clamp-none" : "py-2"}
+                    className={last ? "my-2 text-gray-200 line-clamp-1 sm:line-clamp-none" : "py-2"}
                   >
                     {item.label}
                   </span>

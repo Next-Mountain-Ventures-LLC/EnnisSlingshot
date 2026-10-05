@@ -124,7 +124,8 @@ export function TrailMapFallback({ embed = false, loading = false }: { embed?: b
   }
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_300px]">
+    // Same stacked layout as TrailMapLeaflet (legend under the map).
+    <div className="grid gap-6">
       {box}
 
       <aside className="bg-gray-900/60 border border-gray-700 rounded-lg p-4 text-sm text-gray-300 self-start">
