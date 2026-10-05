@@ -4,10 +4,10 @@ description: "What is an autocycle? The legal definition, how it differs from a 
 excerpt: "What is an autocycle? The legal definition, how it differs from a motorcycle, and why a Polaris Slingshot qualifies — with the Texas statute cited."
 slug: "what-is-an-autocycle"
 pubDate: "2026-09-08T13:00:00+00:00"
-updatedDate: "2026-09-07T01:22:02+00:00"
+updatedDate: "2026-10-05T15:37:24+00:00"
 draft: false
 status: "publish"
-heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_910_final.webp?fit=1600%2C900&ssl=1"
+heroImage: "https://blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_910_final.webp"
 heroImageAlt: "A close detail shot of the three-wheel layout and steering wheel of an orange Polaris Slingshot at golden hour. Hero image for the Ennis Slingshot article \"What Is an Autocycle? The Three-Wheel Category the Slingshot Created\""
 tags:
   - "autocycle"
@@ -33,7 +33,7 @@ postId: 910
 permalink: "https://blog.nxtmt.ventures/2026/09/08/what-is-an-autocycle/"
 guid: "https://blog.nxtmt.ventures/?p=910"
 commentCount: 0
-wordCount: 647
+wordCount: 635
 readingTime: 4
 ---
 
@@ -41,7 +41,7 @@ readingTime: 4
 
 ## What Is an Autocycle? The Legal Definition
 
-Under Texas law, an autocycle is a motor vehicle that meets four specific criteria, per Tex. Transp. Code §501.008(a): three wheels in contact with the ground, seat belts for the operator and any passenger, a steering wheel (not handlebars) for directional control, non-straddle seating, and certification to comply with federal motorcycle safety standards. Meet all four, and the vehicle is legally an autocycle — regardless of how car-like it feels to drive.
+Under Texas law, an autocycle is a motor vehicle that meets these specific criteria, per Tex. Transp. Code §501.008(a): three wheels in contact with the ground, seat belts for the operator and any passenger, a steering wheel (not handlebars) for directional control, non-straddle seating, and certification to comply with federal motorcycle safety standards. Meet them all, and the vehicle is legally an autocycle — regardless of how car-like it feels to drive.
 
 ## Autocycle vs. Motorcycle: What's the Difference?
 
@@ -68,7 +68,7 @@ A standard Class C driver's license is sufficient under Tex. Transp. Code §521.
 
 ## How Many States Recognize the Autocycle Category?
 
-As of January 2024, 49 states recognize the autocycle category, with Massachusetts as the lone holdout still requiring a motorcycle license. State laws can and do change, so treat this as a snapshot rather than a permanent guarantee — always check your own state's current rules if you're outside Texas.
+As of January 2024, 49 states recognize the autocycle category, with Massachusetts as the lone holdout still requiring a motorcycle license. State laws can and do change, so check your own state's current rules if you're outside Texas.
 
 ## Frequently Asked Questions
 
@@ -78,7 +78,7 @@ An autocycle has a steering wheel, pedals, seat belts, and side-by-side seating;
 
 ### Is a Polaris Slingshot an autocycle?
 
-Yes — it meets all four criteria in Tex. Transp. Code §501.008(a) and is titled and registered as a motorcycle.
+Yes — it meets every criterion in Tex. Transp. Code §501.008(a) and is titled and registered as a motorcycle.
 
 ### What license do I need for a Polaris Slingshot?
 
