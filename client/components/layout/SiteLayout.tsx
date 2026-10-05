@@ -3,7 +3,7 @@
  * mobile StickyBookBar, the Contact footer (NAP) and the ConsentBanner. Breadcrumbs are rendered
  * by the individual page templates (they know their hub), not here.
  */
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet, ScrollRestoration, useLocation } from "react-router-dom";
 import { Header } from "@/components/landing/Header";
 import { Contact } from "@/components/landing/Contact";
 import { StickyBookBar, isBookPath } from "@/components/layout/StickyBookBar";
@@ -39,6 +39,8 @@ export function SiteLayout({ children }: { children?: React.ReactNode }) {
       <StickyBookBar />
       <ConsentBanner />
       <SignupPopup />
+      {/* New page → top of page (or its #hash target); back/forward → previous position. */}
+      <ScrollRestoration />
     </div>
   );
 }

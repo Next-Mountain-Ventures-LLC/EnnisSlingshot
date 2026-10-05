@@ -20,7 +20,7 @@ export function BlogCard({ post, eager = false, headingLevel = "h2", className =
   const hero = resolveHeroImage(post);
   const category = getPrimaryCategory(post);
   const Heading = headingLevel;
-  const date = post.data.pubDate.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
+  const date = post.data.pubDate.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric", timeZone: "America/Chicago" });
 
   return (
     <article

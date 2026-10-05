@@ -6,8 +6,9 @@
  * organizer hasn't announced yet, and outbound links.
  * Client enhancement (after mount, so hydration matches the server HTML):
  * category filter + "show past events" toggle. "Past" is judged against
- * today's America/Chicago date in the browser — the prerender lists all
- * events because the build date is meaningless for a static site.
+ * the build day (__BUILD_DATE__) in the prerender and first client render
+ * (so they match), then today's America/Chicago date once mounted — crawlers
+ * never see past events listed as upcoming.
  */
 import { useEffect, useMemo, useState } from "react";
 import {
@@ -21,9 +22,13 @@ import {
   type EnnisEvent,
 } from "./eventsData";
 
+/** Build day in Ennis (vite.config.ts `define`); null outside Vite (tests). */
+declare const __BUILD_DATE__: string | undefined;
+const BUILD_DATE = typeof __BUILD_DATE__ === "string" ? __BUILD_DATE__ : null;
+
 export function EventsCalendarIsland({ className }: { className?: string }) {
-  // null until mounted → server + first client render show everything.
-  const [today, setToday] = useState<string | null>(null);
+  // Build day for the server + first client render (identical), real today after mount.
+  const [today, setToday] = useState<string | null>(BUILD_DATE);
   const [category, setCategory] = useState<string>("all");
   const [showPast, setShowPast] = useState(false);
 

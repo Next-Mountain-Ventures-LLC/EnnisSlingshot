@@ -33,6 +33,7 @@ export function BlogCarousel({ limit = 4 }: BlogCarouselProps) {
     year: 'numeric',
     month: 'short',
     day: 'numeric',
+    timeZone: 'America/Chicago',
   });
 
   return (

@@ -53,10 +53,12 @@ export function BlogTemplate() {
     return <NotFound />;
   }
 
+  // Fixed timezone: the prerender runs in UTC and visitors are mostly in Texas — both must print the same day.
   const formattedDate = post.data.pubDate.toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
+    timeZone: 'America/Chicago',
   });
   const updated = post.data.updatedDate && post.data.updatedDate.getTime() - post.data.pubDate.getTime() > 24 * 3600 * 1000
     ? post.data.updatedDate
@@ -171,7 +173,7 @@ export function BlogTemplate() {
                   <span>
                     Updated{' '}
                     <time dateTime={updated.toISOString()}>
-                      {updated.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                      {updated.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'America/Chicago' })}
                     </time>
                   </span>
                 </>
@@ -209,9 +211,12 @@ export function BlogTemplate() {
         </article>
 
         <aside aria-label="Updates and booking" className="mt-12 mx-auto max-w-3xl lg:mt-0 lg:mx-0 lg:max-w-none">
-          <div className="space-y-6 lg:sticky lg:top-24">
+          {/* The aside stretches to the article's height; only the booking card sticks while reading. */}
+          <div className="space-y-6 lg:h-full">
             <SignupForm variant="card" source="blog-sidebar" />
-            <BookingCta variant="card" />
+            <div className="lg:sticky lg:top-24">
+              <BookingCta variant="card" />
+            </div>
           </div>
         </aside>
         </div>

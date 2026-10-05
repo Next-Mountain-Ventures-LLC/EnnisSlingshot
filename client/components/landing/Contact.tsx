@@ -1,5 +1,5 @@
 import { Facebook } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { business, isTodo } from "@shared/business";
 import { SignupForm } from "@/components/signup/SignupForm";
 import { openConsentBanner } from "@/lib/consent";
@@ -35,7 +35,12 @@ const FOOTER_LINKS = {
   ],
 };
 
+/** Blog posts carry the same signup in their sidebar — don't show the form twice. */
+const BLOG_POST_PATH = /^\/blog\/(?!page\/|category\/)[^/]+\/?$/;
+
 export function Contact() {
+  const { pathname } = useLocation();
+  const showSignupBand = !BLOG_POST_PATH.test(pathname);
   const facebookUrl = business.facebookUrl;
   const showPhone = !isTodo(business.phone);
   const showEmail = !isTodo(business.email);
@@ -43,12 +48,16 @@ export function Contact() {
 
   return (
     <footer className="bg-ennis-darker border-t border-gray-700">
+      {showSignupBand && (
+        <>
       {/* Mailing-list signup — on every page (two-step: email, then phone for texts + $10 off) */}
       <section className="py-14 md:py-20 border-b border-gray-700 bg-gradient-to-br from-ennis-navy/40 via-ennis-darker to-ennis-darker" aria-label="Get festival and trail updates">
         <div className="container mx-auto px-4 max-w-6xl">
           <SignupForm variant="band" source="footer" />
         </div>
       </section>
+        </>
+      )}
 
       {/* NAP + link columns */}
       <section className="py-12 md:py-20">

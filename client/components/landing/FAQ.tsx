@@ -5,7 +5,7 @@ export const homeFaqItems: Faq[] = [
   {
     question: "How much does the experience cost?",
     answer:
-      "Our slingshot experience pricing is $79 for a solo experience (one driver) and $149 for the experience with one driver and one additional rider. Both include the 2-hour rental, all fuel, comprehensive insurance coverage, and the official Ennis Bluebonnet Trail map.",
+      "The 2-hour Bluebonnet Trail Experience is $79 solo (one driver) or $149 for one driver plus one rider, and the 1-hour Drive & Go is $69.99 for one driver. Every price includes all fuel and comprehensive insurance with no deposit, and the 2-hour experience comes with the Ennis Bluebonnet Trail map.",
   },
   {
     question: "Do I need a special license to drive a Slingshot?",
@@ -40,7 +40,7 @@ export const homeFaqItems: Faq[] = [
   {
     question: "How long is the experience?",
     answer:
-      "The experience is 2 hours total. This includes vehicle orientation, safety briefing, and the actual ride through the beautiful Bluebonnet trails. We recommend arriving 15 minutes early to complete any final preparations.",
+      "The Bluebonnet Trail Experience is 2 hours total, including vehicle orientation, a safety briefing and the ride through the Bluebonnet Trails; Drive & Go is a 1-hour drive. Either way, arrive 15 minutes early to check in.",
   },
   {
     question: "What happens if there's bad weather?",
@@ -50,12 +50,12 @@ export const homeFaqItems: Faq[] = [
   {
     question: "What trails are on the map?",
     answer:
-      "The Bluebonnet Trail Map features our expert-curated scenic routes throughout Ennis and the surrounding areas. The map includes recommended trails with varying difficulty levels and stunning wildflower viewing locations. It comes in your glove box during your rental.",
+      "The Bluebonnet Trail Map features our expert-curated scenic routes throughout Ennis and the surrounding areas. The map includes recommended trails with varying difficulty levels and stunning wildflower viewing locations. It comes in your glove box with the 2-hour Bluebonnet Trail Experience.",
   },
   {
     question: "Do I need a helmet?",
     answer:
-      "Helmets are not required by law, but we strongly suggest wearing one for your safety and protection. We offer Bluetooth communication helmets available for rent at $25 per helmet. These helmets allow both you and your passenger to hear each other clearly while riding, enhancing communication and safety on the trails.",
+      "Texas applies its motorcycle helmet rules to autocycles: riders under 21 must wear a helmet, and riders 21 and older can ride without one only if they've completed a motorcycle safety course or carry qualifying health insurance (Tex. Transp. Code §661.0015, §661.003). We strongly suggest a helmet for everyone. We offer Bluetooth communication helmets for $25 per helmet. These helmets allow both you and your passenger to hear each other clearly while riding, enhancing communication and safety on the trails.",
   },
 ];
 

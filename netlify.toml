@@ -153,6 +153,9 @@ for = "/terms/*"
   [headers.values]
   X-Frame-Options = "SAMEORIGIN"
 
+# Only a literal /404 request matches this; a 404 served for an unknown path
+# matches just "/*" and so has no X-Frame-Options (low risk: it has no content
+# worth framing). Full coverage would need a separate embed host.
 [[headers]]
 for = "/404*"
   [headers.values]

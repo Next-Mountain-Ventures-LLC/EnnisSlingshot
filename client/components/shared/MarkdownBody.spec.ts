@@ -78,6 +78,14 @@ describe("MarkdownBody rendering", () => {
     expect(html).not.toContain("[object Object]");
   });
 
+  it("renders static files as plain anchors and adds the canonical trailing slash", () => {
+    const files = render("[Feed](/rss.xml)");
+    expect(files).toContain('href="/rss.xml"');
+    const noSlash = render("[FAQ](https://ennisslingshot.com/faq)");
+    expect(noSlash).toContain('href="/faq/"');
+    const withQuery = render("[Book](https://ennisslingshot.com/book?package=solo)");
+    expect(withQuery).toContain('href="/book/?package=solo"');
+  });
   it("renders links to unpublished pages as plain text", () => {
     const warn = vi.spyOn(console, "warn").mockImplementation(() => {});
     const html = render("Read [the hub post](https://ennisslingshot.com/blog/this-post-does-not-exist-yet/) soon.");

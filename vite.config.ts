@@ -59,6 +59,8 @@ export default defineConfig(({ mode }) => ({
   define: {
     // Footer copyright year (client/components/landing/Contact.tsx) — fixed at build time so SSG HTML and hydration agree.
     __BUILD_YEAR__: JSON.stringify(new Date().getFullYear()),
+    // Build day in Ennis (YYYY-MM-DD) — the events calendar hides past events in the prerendered HTML too.
+    __BUILD_DATE__: JSON.stringify(new Date().toLocaleDateString("en-CA", { timeZone: "America/Chicago" })),
   },
   ssgOptions,
   plugins: [stripPrivateBlogFrontmatter(), react(), expressPlugin()],

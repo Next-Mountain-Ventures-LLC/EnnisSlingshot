@@ -28,7 +28,7 @@ export interface BookingCtaProps {
 
 export const CTA_DEFAULTS = {
   headline: "Drive the Bluebonnet Trails in a Slingshot",
-  body: "Self-drive a Polaris Slingshot through the Ennis Bluebonnet Trails this April. Insurance included, no motorcycle license needed — just a valid driver's license.",
+  body: "Self-drive a Polaris Slingshot through the Ennis Bluebonnet Trails in April 2027. Insurance included, no motorcycle license needed — just a valid driver's license.",
   buttonLabel: "Book your experience",
   href: "/book/",
   secondary: { label: "See packages & pricing", href: "/slingshot-rental/pricing/" },
@@ -36,6 +36,40 @@ export const CTA_DEFAULTS = {
 
 const SOLO = getPackage("solo").priceLabel;
 const TWO_UP = getPackage("two-up").priceLabel;
+
+/** Big price line for card/banner: the linked package's price, or the two 2-hour prices for generic CTAs. */
+function PriceLine({ href, size }: { href: string; size: "card" | "banner" }) {
+  const num = size === "card" ? "text-2xl font-black text-white" : "text-3xl font-black text-white";
+  if (/^mailto:/i.test(href)) return null;
+  const query = href.split("?")[1];
+  const pkg = query ? packageFromQuery(new URLSearchParams(query).get("package")) : null;
+  if (pkg === "drive-and-go") {
+    return (
+      <>
+        <span className={num}>{getPackage("drive-and-go").priceLabel}</span> · 1 hour
+      </>
+    );
+  }
+  if (pkg === "solo") {
+    return (
+      <>
+        <span className={num}>{SOLO}</span> solo · 2 hours
+      </>
+    );
+  }
+  if (pkg === "two-up") {
+    return (
+      <>
+        <span className={num}>{TWO_UP}</span> for two · 2 hours
+      </>
+    );
+  }
+  return (
+    <>
+      <span className={num}>{SOLO}</span> solo · <span className={num}>{TWO_UP}</span> for two
+    </>
+  );
+}
 const FROM = PACKAGES.reduce((min, p) => (p.price < min.price ? p : min), PACKAGES[0]).priceLabel;
 
 const TRUST = ["Insurance included", "No motorcycle license", "Meet at the Ennis Welcome Center"];
@@ -45,7 +79,9 @@ function stripNote(href: string): string | null {
   if (/^mailto:/i.test(href)) return "Order by email";
   const query = href.split("?")[1];
   const pkg = query ? packageFromQuery(new URLSearchParams(query).get("package")) : null;
-  return `${pkg ? getPackage(pkg).priceLabel : `From ${FROM}`} · insurance included`;
+  if (!pkg) return `From ${FROM} · insurance included`;
+  const qualifier = pkg === "two-up" ? " for two" : pkg === "solo" ? " solo" : " for 1 hour";
+  return `${getPackage(pkg).priceLabel}${qualifier} · insurance included`;
 }
 
 function CtaLink({ href, className, children }: { href: string; className: string; children: React.ReactNode }) {
@@ -109,9 +145,8 @@ export function BookingCta({
         <p className="text-xs font-bold uppercase tracking-widest text-ennis-orange mb-2">April 2027 season</p>
         <h2 className="text-xl font-black text-white tracking-tight mb-2">{headline}</h2>
         <p className="text-sm text-gray-300 leading-relaxed mb-4">{body}</p>
-        <p className="text-sm text-gray-200 mb-4">
-          <span className="text-2xl font-black text-white">{SOLO}</span> solo ·{" "}
-          <span className="text-2xl font-black text-white">{TWO_UP}</span> for two
+        <p className="text-sm text-gray-200 mb-4 empty:hidden">
+          <PriceLine href={href} size="card" />
         </p>
         <CtaLink href={href} className="btn-primary w-full whitespace-normal text-center">
           {buttonLabel}
@@ -150,9 +185,8 @@ export function BookingCta({
           </ul>
         </div>
         <div className="flex flex-col items-stretch gap-3 md:items-end md:text-right">
-          <p className="text-gray-300">
-            <span className="text-3xl font-black text-white">{SOLO}</span> solo ·{" "}
-            <span className="text-3xl font-black text-white">{TWO_UP}</span> for two
+          <p className="text-gray-300 empty:hidden">
+            <PriceLine href={href} size="banner" />
           </p>
           <CtaLink href={href} className="btn-primary whitespace-normal text-center sm:text-lg">
             {buttonLabel} <ArrowRight className="h-5 w-5" aria-hidden="true" />

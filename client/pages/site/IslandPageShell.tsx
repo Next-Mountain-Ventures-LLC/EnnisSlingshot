@@ -45,8 +45,8 @@ export interface IslandPageShellProps {
 }
 
 const SIDEBAR_CLASSES = {
-  lg: { grid: "lg:grid-cols-[minmax(0,1fr)_300px]", show: "hidden lg:block", hide: "lg:hidden", sticky: "lg:sticky lg:top-24" },
-  xl: { grid: "xl:grid-cols-[minmax(0,1fr)_300px]", show: "hidden xl:block", hide: "xl:hidden", sticky: "xl:sticky xl:top-24" },
+  lg: { grid: "lg:grid-cols-[minmax(0,1fr)_300px]", show: "hidden lg:block", hide: "lg:hidden", sticky: "lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto" },
+  xl: { grid: "xl:grid-cols-[minmax(0,1fr)_300px]", show: "hidden xl:block", hide: "xl:hidden", sticky: "xl:sticky xl:top-24 xl:max-h-[calc(100vh-7rem)] xl:overflow-y-auto" },
 } as const;
 
 /**

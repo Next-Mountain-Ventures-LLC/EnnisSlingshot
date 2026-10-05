@@ -85,7 +85,7 @@ export function ContentPage() {
           {hasAside && (
             // Sidebar from lg; below lg only the sibling nav shows (after the content).
             <div className={cn("min-w-0", !showSiblings && "hidden lg:block")}>
-              <div className="space-y-8 lg:sticky lg:top-24">
+              <div className="space-y-8 lg:sticky lg:top-24 lg:max-h-[calc(100vh-7rem)] lg:overflow-y-auto">
                 {slots.card && <BookingCta variant="card" className="hidden lg:block" {...cta} />}
                 {showSiblings && hub && <SiblingNav hub={hub} siblings={siblings} />}
               </div>

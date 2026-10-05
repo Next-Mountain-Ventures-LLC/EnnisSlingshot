@@ -65,8 +65,18 @@ function MarkdownLink({ node: _node, href, children, ...rest }: MdProps<"a">) {
       }
       return <>{children}</>;
     }
+    // Static files (/rss.xml, PDFs, images) must load from the server, not the client router.
+    if (/\.[a-z0-9]+$/i.test(pathname)) {
+      return (
+        <a href={local} {...rest}>
+          {children}
+        </a>
+      );
+    }
+    // Canonical trailing slash (avoids a Netlify Pretty-URL redirect).
+    const to = pathname.endsWith("/") ? local : `${pathname}/${local.slice(pathname.length)}`;
     return (
-      <Link to={local} {...rest}>
+      <Link to={to} {...rest}>
         {children}
       </Link>
     );

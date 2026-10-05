@@ -156,7 +156,9 @@ function robotsTxt(): string {
   return `${blocks}\n\nUser-agent: *\nAllow: /\nDisallow: /404\n\nSitemap: ${SITE_URL}/sitemap.xml\n`;
 }
 
-function llmsTxt(pages: ReturnType<typeof loadPages>, posts: ReturnType<typeof loadPosts>): string {
+function llmsTxt(allPages: ReturnType<typeof loadPages>, posts: ReturnType<typeof loadPosts>): string {
+  // noindex pages (e.g. /reviews/ until real reviews exist) stay out of llms.txt, like the sitemap.
+  const pages = allPages.filter((p) => !p.noindex);
   const hubs = pages.filter((p) => p.isHub);
   const spokesByHub = (hub: string) =>
     pages.filter((p) => !p.isHub && p.path.startsWith(`/${hub}/`));

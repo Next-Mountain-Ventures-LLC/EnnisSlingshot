@@ -263,8 +263,12 @@ export function buildRouteManifest(input: ManifestInputs): {
 } {
   const now = input.now ?? new Date();
   const routes = new Map<string, RouteEntry>();
+  // WordPress gives scheduled posts an updatedDate (last edit) earlier than
+  // their publish date — a post can't be modified before it exists.
+  const effectiveDate = (p: { pubDate: Date; updatedDate?: Date }) =>
+    p.updatedDate && p.updatedDate > p.pubDate ? p.updatedDate : p.pubDate;
   const latestPost = input.posts.reduce<Date | undefined>((acc, p) => {
-    const d = p.updatedDate ?? p.pubDate;
+    const d = effectiveDate(p);
     return !acc || d > acc ? d : acc;
   }, undefined);
 
@@ -330,7 +334,7 @@ export function buildRouteManifest(input: ManifestInputs): {
     routes.set(blogPostPath(post.slug), {
       path: blogPostPath(post.slug),
       kind: "blog-post",
-      lastmod: iso(post.updatedDate ?? post.pubDate),
+      lastmod: iso(effectiveDate(post)),
       priority: 0.6,
     });
   }
