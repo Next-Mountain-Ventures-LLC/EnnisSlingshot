@@ -4,7 +4,7 @@ description: "Planning your first NHRA Fall Nationals at Texas Motorplex in Enni
 excerpt: "Planning your first NHRA Fall Nationals at Texas Motorplex in Ennis, TX? A local's guide to qualifying, eliminations, parking, and what else to do."
 slug: "nhra-fall-nationals-texas-motorplex-guide"
 pubDate: "2026-09-06T13:00:00+00:00"
-updatedDate: "2026-09-07T01:21:57+00:00"
+updatedDate: "2026-10-05T15:39:49+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_908_final.webp?fit=1600%2C900&ssl=1"
@@ -33,11 +33,11 @@ postId: 908
 permalink: "https://blog.nxtmt.ventures/2026/09/06/nhra-fall-nationals-texas-motorplex-guide/"
 guid: "https://blog.nxtmt.ventures/?p=908"
 commentCount: 0
-wordCount: 800
-readingTime: 4
+wordCount: 839
+readingTime: 5
 ---
 
-**The NHRA Texas Fall Nationals runs October 14–18, 2026 at Texas Motorplex in Ennis, TX**, as the headline event inside the larger "Stampede of Speed" festival (October 9–18, 2026). If you're going for the first time: qualifying runs Wednesday through Saturday, eliminations are Sunday, and — the one honest note we'll get out of the way early — our Slingshots aren't running that weekend. We're an April-only experience. Come back in spring, or grab a gift card now for a future ride.
+**The NHRA Texas Fall Nationals runs October 14–18, 2026 at Texas Motorplex in Ennis, TX**, as the headline event inside the larger "Stampede of Speed" festival (October 9–18, 2026). If you're going for the first time: qualifying runs Wednesday through Saturday, eliminations are Sunday, and — the one honest note we'll get out of the way early — our Slingshots aren't running that weekend. We're an April-only experience. Come back for an April 2027 ride, or email info@ennisslingshot.com to order a gift card for any package — the recipient picks their own April date.
 
 ## What Is the NHRA Fall Nationals / Stampede of Speed?
 
@@ -78,7 +78,7 @@ Sunday is the big crowd day — opening ceremonies, national TV coverage, and pl
 
 ## What Else to Do in Ennis While You're in Town
 
-Ennis is a small town with a real downtown worth a stop between sessions or before you head back — and while we'd love to hand you a set of keys, Ennis Slingshot Experience runs April only, tied to the Ennis Bluebonnet Trails season. If you're here for Fall Nationals in October, the honest move is to plan a return trip in the spring, or grab a gift card now so a Slingshot ride is already booked when the bluebonnets come back.
+Ennis is a small town with a real downtown worth a stop between sessions or before you head back — and while we'd love to hand you a set of keys, Ennis Slingshot Experience runs April only, tied to the Ennis Bluebonnet Trails season. If you're here for Fall Nationals in October, the honest move is to plan a return trip for April 1–30, 2027 and book your Slingshot ride ahead of time — or email info@ennisslingshot.com to order a gift card for any package; the recipient picks their own April date.
 
 ## Frequently Asked Questions
 
@@ -96,6 +96,6 @@ Gate times vary by day and aren't published far in advance — check stampedeofs
 
 ## Planning a Spring Trip Instead?
 
-See everything else Ennis has going on at our [Ennis things-to-do hub](https://ennisslingshot.com/ennis/), or read our full [Texas Motorplex guide](https://ennisslingshot.com/ennis/texas-motorplex/) for the rest of the racing season. And if you're curious what a Polaris Slingshot even is before you book a spring visit, start with our [first-timer's guide](https://ennisslingshot.com/blog/polaris-slingshot-101/). When you're ready, [book your April ride](https://ennisslingshot.com/slingshot-rental/near-dallas/) — or grab a gift card today.
+See everything else Ennis has going on in our [guide to things to do in Ennis](https://ennisslingshot.com/ennis/), or read our full [Texas Motorplex guide](https://ennisslingshot.com/ennis/texas-motorplex/) for the rest of the racing season. And if you're curious what a Polaris Slingshot even is before you book a spring visit, start with our [first-timer's guide](https://ennisslingshot.com/blog/polaris-slingshot-101/). When you're ready, [book your April ride](https://ennisslingshot.com/book/) — or email info@ennisslingshot.com to order a gift card for any package; the recipient picks their own April date.
 
 *Sources: [Texas Motorplex](https://www.texasmotorplex.com/), [Stampede of Speed 2026 schedule](https://www.stampedeofspeed.com/schedule/nhra-texas-fall-nationals-2026), [City of Ennis](https://www.ennistx.gov/Attractions).*
