@@ -25,29 +25,35 @@ export interface SignupState {
   dismissedAt?: number;
   /** Visitor said "email is fine" on step 2 (inline forms still offer the phone step quietly). */
   phoneSkippedAt?: number;
+  /** Signed proof from step 1, sent with step 2 (server/routes/subscribe.ts). */
+  token?: string;
 }
 
 const EMPTY: SignupState = { stage: "new" };
+
+/** Last written state, used when localStorage is blocked so in-app navigation still remembers it. */
+let memory: SignupState | null = null;
 
 export function readSignup(): SignupState {
   if (typeof window === "undefined") return EMPTY;
   try {
     const raw = window.localStorage.getItem(SIGNUP_STORAGE_KEY);
-    if (!raw) return EMPTY;
+    if (!raw) return memory ?? EMPTY;
     const parsed = JSON.parse(raw) as SignupState;
-    return parsed && typeof parsed === "object" && parsed.stage ? parsed : EMPTY;
+    return parsed && typeof parsed === "object" && parsed.stage ? parsed : memory ?? EMPTY;
   } catch {
-    return EMPTY;
+    return memory ?? EMPTY;
   }
 }
 
 export function writeSignup(patch: Partial<SignupState>): SignupState {
   const next = { ...readSignup(), ...patch };
+  memory = next;
   if (typeof window === "undefined") return next;
   try {
     window.localStorage.setItem(SIGNUP_STORAGE_KEY, JSON.stringify(next));
   } catch {
-    /* private mode — state lives for this page view only */
+    /* storage blocked — the in-memory copy covers this visit */
   }
   window.dispatchEvent(new CustomEvent(SIGNUP_CHANGE_EVENT, { detail: next }));
   return next;
@@ -77,7 +83,13 @@ function track(method: "email" | "sms", source: string) {
 export async function submitEmailStep(input: SubscribeEmailInput): Promise<SubscribeResponse> {
   const res = await post("/api/subscribe", input);
   if (res.ok) {
-    writeSignup({ stage: "email", email: input.email.trim().toLowerCase(), firstName: input.firstName.trim(), emailAt: Date.now() });
+    writeSignup({
+      stage: "email",
+      email: input.email.trim().toLowerCase(),
+      firstName: input.firstName.trim(),
+      emailAt: Date.now(),
+      token: res.token,
+    });
     track("email", input.source ?? "unknown");
   }
   return res;
@@ -85,6 +97,10 @@ export async function submitEmailStep(input: SubscribeEmailInput): Promise<Subsc
 
 export async function submitPhoneStep(input: SubscribePhoneInput): Promise<SubscribeResponse> {
   const res = await post("/api/subscribe/phone", input);
+  if (!res.ok && res.fields?.token) {
+    // Step-1 proof missing/expired: send them back to step 1.
+    writeSignup({ stage: "new", token: undefined });
+  }
   if (res.ok) {
     writeSignup({ stage: "complete", completeAt: Date.now() });
     track("sms", input.source ?? "unknown");

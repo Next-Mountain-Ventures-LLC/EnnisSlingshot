@@ -8,7 +8,7 @@ import { Seo } from "@/components/seo/Seo";
  */
 const NotFound = () => {
   return (
-    <div className="min-h-[60vh] flex items-center justify-center bg-ennis-dark">
+    <div data-not-found className="min-h-[60vh] flex items-center justify-center bg-ennis-dark">
       <Seo
         title="Page Not Found | Ennis Slingshot Experience"
         description="That page doesn't exist. Head back to Ennis Slingshot Experience to book a Polaris Slingshot ride through the Ennis Bluebonnet Trails."

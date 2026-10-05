@@ -7,7 +7,7 @@
  * SSR renders step 1; stored progress is applied after mount (no hydration
  * mismatch).
  */
-import { useEffect, useId, useState, type ElementType, type FormEvent } from "react";
+import { useEffect, useId, useRef, useState, type ElementType, type FormEvent } from "react";
 import { Link } from "react-router-dom";
 import { Check, Flower2, Loader2, MessageSquareText } from "lucide-react";
 import { business, isTodo } from "@shared/business";
@@ -29,7 +29,11 @@ import {
 import { cn } from "@/lib/utils";
 
 export type SignupVariant = "popup" | "band" | "card";
-type View = "email" | "phone" | "done-email" | "done-sms";
+/** done-* = finished in this visit; subscribed = finished earlier (restored from storage). */
+type View = "email" | "phone" | "done-email" | "done-sms" | "subscribed";
+
+/** Inputs that render their own error line; anything else is shown as a form-level error. */
+const VISIBLE_FIELDS = new Set(["firstName", "lastName", "email", "phone"]);
 
 export interface SignupFormProps {
   variant: SignupVariant;
@@ -45,7 +49,7 @@ export interface SignupFormProps {
 const festivalDays = FESTIVAL_2027.label.replace(/,\s*\d{4}$/, "");
 
 function viewFor(state: SignupState): View {
-  if (state.stage === "complete") return "done-sms";
+  if (state.stage === "complete") return "subscribed";
   if (state.stage === "email") return "phone";
   return "email";
 }
@@ -68,7 +72,13 @@ export function SignupForm({ variant, source, onDone, titleAs: Title = "h2", cla
   const [view, setView] = useState<View>("email");
   const [busy, setBusy] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const [values, setValues] = useState({ firstName: "", lastName: "", email: "", phone: "", company: "" });
+  // `hp` is the honeypot: real people never see it; it's sent as `company` and the server drops filled ones.
+  const [values, setValues] = useState({ firstName: "", lastName: "", email: "", phone: "", hp: "" });
+  const formRef = useRef<HTMLFormElement>(null);
+  /** Set when the visitor (not another form instance) moved to the next step, so only then we move focus. */
+  const focusNext = useRef(false);
+  /** Set by a failed submit so focus moves to the first invalid field once (not while typing). */
+  const focusError = useRef(false);
 
   // Follow progress made in another instance (e.g. the popup) — but never yank
   // a visitor out of the step they're typing in.
@@ -81,6 +91,20 @@ export function SignupForm({ variant, source, onDone, titleAs: Title = "h2", cla
     });
   }, [stored, busy]);
 
+  // Keyboard/screen-reader users: land on the phone field after step 1, and on
+  // the first invalid field after a failed submit.
+  useEffect(() => {
+    if (view === "phone" && focusNext.current) {
+      focusNext.current = false;
+      formRef.current?.querySelector<HTMLInputElement>('input[name="phone"]')?.focus();
+    }
+  }, [view]);
+  useEffect(() => {
+    if (!focusError.current) return;
+    focusError.current = false;
+    formRef.current?.querySelector<HTMLElement>('[aria-invalid="true"]')?.focus();
+  }, [errors]);
+
   const pagePath = typeof window !== "undefined" ? window.location.pathname : "";
   const sourceTag = `${source}:${pagePath}`.slice(0, 120);
   const contactEmail = isTodo(business.email) ? null : business.email;
@@ -92,8 +116,24 @@ export function SignupForm({ variant, source, onDone, titleAs: Title = "h2", cla
     if (errors[key]) setErrors((s) => ({ ...s, [key]: "" }));
   };
 
+  /** Field errors for visible inputs; anything else (honeypot, token, …) becomes a form-level message. */
+  const showErrors = (fields: Record<string, string>) => {
+    focusError.current = true;
+    const out: Record<string, string> = {};
+    for (const [k, v] of Object.entries(fields)) {
+      if (!v) continue;
+      if (VISIBLE_FIELDS.has(k)) out[k] ||= v;
+      else out.form ||= v;
+    }
+    setErrors(out);
+  };
+
   const failure = (error?: string, fields?: Record<string, string>) => {
-    if (error === "invalid" && fields) return setErrors(fields);
+    if (fields?.token) {
+      setView("email");
+      return setErrors({ form: fields.token });
+    }
+    if (error === "invalid" && fields) return showErrors(fields);
     setErrors({
       form: `Something went wrong on our end. Please try again${contactEmail ? ` or email ${contactEmail}` : ""}.`,
     });
@@ -101,34 +141,41 @@ export function SignupForm({ variant, source, onDone, titleAs: Title = "h2", cla
 
   const onEmail = async (e: FormEvent) => {
     e.preventDefault();
-    const input = { firstName: values.firstName, lastName: values.lastName, email: values.email, source: sourceTag, company: values.company || undefined };
+    const input = { firstName: values.firstName, lastName: values.lastName, email: values.email, source: sourceTag };
     const check = subscribeEmailSchema.safeParse(input);
     if (!check.success) {
       const f: Record<string, string> = {};
       for (const i of check.error.issues) f[String(i.path[0])] ||= i.message;
-      return setErrors(f);
+      return showErrors(f);
     }
     setBusy(true);
     setErrors({});
-    const res = await submitEmailStep(input);
+    const res = await submitEmailStep({ ...input, company: values.hp || undefined });
     setBusy(false);
-    if (res.ok) setView("phone");
-    else failure(res.error, res.fields);
+    if (res.ok) {
+      focusNext.current = true;
+      setView("phone");
+    } else failure(res.error, res.fields);
   };
 
   const onPhone = async (e: FormEvent) => {
     e.preventDefault();
-    const email = stored?.email || values.email;
-    const input = { email, phone: values.phone, smsConsent: true as const, source: sourceTag, company: values.company || undefined };
+    const latest = readSignup();
+    const email = latest.email || stored?.email || values.email;
+    const input = { email, token: latest.token ?? "", phone: values.phone, smsConsent: true as const, source: sourceTag };
     const check = subscribePhoneSchema.safeParse(input);
     if (!check.success) {
       const f: Record<string, string> = {};
       for (const i of check.error.issues) f[String(i.path[0])] ||= i.message;
-      return setErrors(f.email && !f.phone ? { form: "Please enter your email first." } : f);
+      if ((f.email || f.token) && !f.phone) {
+        setView("email");
+        return setErrors({ form: "Please enter your name and email first." });
+      }
+      return showErrors(f);
     }
     setBusy(true);
     setErrors({});
-    const res = await submitPhoneStep(input);
+    const res = await submitPhoneStep({ ...input, company: values.hp || undefined });
     setBusy(false);
     if (res.ok) {
       setView("done-sms");
@@ -156,18 +203,29 @@ export function SignupForm({ variant, source, onDone, titleAs: Title = "h2", cla
     "w-full inline-flex items-center justify-center gap-2 rounded-lg bg-ennis-orange px-5 py-3 text-base font-bold text-ennis-dark transition-colors hover:bg-ennis-orange-bright focus:outline-none focus-visible:ring-2 focus-visible:ring-white disabled:opacity-70";
   const errorText = (key: string) =>
     errors[key] ? (
-      <p id={`${ids}-${key}-err`} className="mt-1 text-sm text-red-300">
+      <p id={`${ids}-${key}-err`} role="alert" className="mt-1 text-sm text-red-300">
         {errors[key]}
       </p>
     ) : null;
   const honeypot = (
     <div aria-hidden="true" className="absolute -left-[9999px] h-px w-px overflow-hidden">
       <label>
-        Company
-        <input type="text" name="company" tabIndex={-1} autoComplete="off" value={values.company} onChange={set("company")} />
+        Leave this field empty
+        <input type="text" name="hp_ref" tabIndex={-1} autoComplete="off" value={values.hp} onChange={set("hp")} />
       </label>
     </div>
   );
+  /** Legal links: from the popup open a new tab so the half-finished signup isn't lost. */
+  const legalLink = (to: string, label: string) =>
+    variant === "popup" ? (
+      <a href={to} target="_blank" rel="noopener" className="underline hover:text-gray-300">
+        {label}
+      </a>
+    ) : (
+      <Link to={to} className="underline hover:text-gray-300">
+        {label}
+      </Link>
+    );
 
   // ---- intro copy per view -------------------------------------------------
   let eyebrow: React.ReactNode;
@@ -208,6 +266,23 @@ export function SignupForm({ variant, source, onDone, titleAs: Title = "h2", cla
         popping — plus a $10-off code for any Slingshot experience.
       </>
     );
+  } else if (view === "subscribed") {
+    eyebrow = (
+      <>
+        <Check className="h-4 w-4" aria-hidden="true" /> You're on the list
+      </>
+    );
+    title = <>Thanks{firstName ? `, ${firstName}` : ""} — you're getting our updates</>;
+    body = (
+      <>
+        We'll send confirmed 2027 festival dates and bloom reports as they're announced. Have your $10 code? Use it when
+        you{" "}
+        <Link to="/book/" className="font-semibold text-ennis-orange underline-offset-4 hover:underline">
+          book your April ride
+        </Link>
+        .
+      </>
+    );
   } else {
     eyebrow = (
       <>
@@ -233,7 +308,7 @@ export function SignupForm({ variant, source, onDone, titleAs: Title = "h2", cla
   let form: React.ReactNode = null;
   if (view === "email") {
     form = (
-      <form onSubmit={onEmail} noValidate className="relative space-y-3" aria-describedby={errors.form ? `${ids}-form-err` : undefined}>
+      <form ref={formRef} method="post" action="/api/subscribe" onSubmit={onEmail} noValidate className="relative space-y-3" aria-describedby={errors.form ? `${ids}-form-err` : undefined}>
         {honeypot}
         <div className={cn("grid gap-3", !card && "sm:grid-cols-2")}>
           <div>
@@ -264,16 +339,13 @@ export function SignupForm({ variant, source, onDone, titleAs: Title = "h2", cla
         </button>
         {errorText("form")}
         <p className="text-xs text-gray-500">
-          No spam — just dates, bloom reports and trail news. Unsubscribe anytime.{" "}
-          <Link to="/privacy/" className="underline hover:text-gray-300">
-            Privacy
-          </Link>
+          No spam — just dates, bloom reports and trail news. Unsubscribe anytime. {legalLink("/privacy/", "Privacy")}
         </p>
       </form>
     );
   } else if (view === "phone") {
     form = (
-      <form onSubmit={onPhone} noValidate className="relative space-y-3">
+      <form ref={formRef} method="post" action="/api/subscribe/phone" onSubmit={onPhone} noValidate className="relative space-y-3">
         {honeypot}
         <div>
           <label htmlFor={`${ids}-phone`} className={labelClass}>
@@ -307,14 +379,7 @@ export function SignupForm({ variant, source, onDone, titleAs: Title = "h2", cla
         </button>
         {errorText("form")}
         <p id={`${ids}-consent`} className="text-[11px] leading-snug text-gray-500">
-          {SMS_CONSENT_TEXT}{" "}
-          <Link to="/terms/#sms-terms" className="underline hover:text-gray-300">
-            SMS terms
-          </Link>{" "}
-          ·{" "}
-          <Link to="/privacy/" className="underline hover:text-gray-300">
-            Privacy
-          </Link>
+          {SMS_CONSENT_TEXT} {legalLink("/terms/#sms-terms", "SMS terms")} · {legalLink("/privacy/", "Privacy")}
         </p>
         {!stored?.phoneSkippedAt && (
           <button type="button" onClick={onSkip} className="w-full text-center text-sm text-gray-400 underline-offset-4 hover:text-white hover:underline">

@@ -1,7 +1,7 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import express from "express";
 import type { AddressInfo } from "node:net";
-import { handleSubscribeEmail, handleSubscribePhone } from "./subscribe";
+import { handleSubscribeEmail, handleSubscribePhone, issueSignupToken, verifySignupToken } from "./subscribe";
 import { formatUsPhoneInput, normalizeUsPhone } from "../../shared/subscribe";
 
 describe("US phone helpers", () => {
@@ -24,7 +24,13 @@ describe("US phone helpers", () => {
     expect(formatUsPhoneInput("2145")).toBe("(214) 5");
     expect(formatUsPhoneInput("2145550123")).toBe("(214) 555-0123");
     expect(formatUsPhoneInput("1-214-555-0123")).toBe("(214) 555-0123");
-    expect(formatUsPhoneInput("21455501239999")).toBe("(214) 555-0123");
+    expect(formatUsPhoneInput("+1 (214) 555-0123")).toBe("(214) 555-0123");
+  });
+  it("never truncates a foreign number into a US-looking one", () => {
+    for (const foreign of ["+61 2 9374 4000", "+44 7911 123456", "+52 55 1234 5678", "21455501239999"]) {
+      expect(formatUsPhoneInput(foreign)).toBe(foreign);
+      expect(normalizeUsPhone(formatUsPhoneInput(foreign))).toBeNull();
+    }
   });
 });
 
@@ -85,7 +91,9 @@ afterEach(() => {
 describe("POST /api/subscribe (step 1)", () => {
   it("creates the subscriber in the email group", async () => {
     const res = await post("/api/subscribe", { firstName: " Ada ", lastName: "Lovelace", email: "ADA@Example.com", source: "popup:/" });
-    expect(res).toEqual({ status: 200, json: { ok: true } });
+    expect(res.status).toBe(200);
+    expect(res.json.ok).toBe(true);
+    expect(verifySignupToken("ada@example.com", res.json.token)).toBe(true);
     expect(calls).toHaveLength(1);
     expect(calls[0]).toMatchObject({
       method: "POST",
@@ -97,7 +105,7 @@ describe("POST /api/subscribe (step 1)", () => {
   it("updates + adds to group when the subscriber already exists", async () => {
     responder = (c) => (c.method === "POST" && c.url.endsWith("/subscribers") ? { status: 422, body: { message: "already exists" } } : { status: 200 });
     const res = await post("/api/subscribe", { firstName: "Ada", lastName: "L", email: "ada@example.com" });
-    expect(res.json).toEqual({ ok: true });
+    expect(res.json.ok).toBe(true);
     expect(calls.map((c) => `${c.method} ${c.url.replace("https://api.sender.net/v2", "")}`)).toEqual([
       "POST /subscribers",
       "PATCH /subscribers/ada%40example.com",
@@ -135,7 +143,8 @@ describe("POST /api/subscribe (step 1)", () => {
 
 describe("POST /api/subscribe/phone (step 2)", () => {
   it("adds the E.164 phone and joins the SMS group", async () => {
-    const res = await post("/api/subscribe/phone", { email: "ada@example.com", phone: "(214) 555-0123", smsConsent: true, source: "popup:/" });
+    const token = issueSignupToken("ada@example.com");
+    const res = await post("/api/subscribe/phone", { email: "ada@example.com", token, phone: "(214) 555-0123", smsConsent: true, source: "popup:/" });
     expect(res).toEqual({ status: 200, json: { ok: true } });
     expect(calls.map((c) => `${c.method} ${c.url.replace("https://api.sender.net/v2", "")}`)).toEqual([
       "PATCH /subscribers/ada%40example.com",
@@ -146,7 +155,7 @@ describe("POST /api/subscribe/phone (step 2)", () => {
 
   it("creates the subscriber if step 1 never reached Sender", async () => {
     responder = (c) => (c.method === "PATCH" ? { status: 404 } : { status: 200 });
-    const res = await post("/api/subscribe/phone", { email: "ada@example.com", phone: "2145550123", smsConsent: true });
+    const res = await post("/api/subscribe/phone", { email: "ada@example.com", token: issueSignupToken("ada@example.com"), phone: "2145550123", smsConsent: true });
     expect(res.json).toEqual({ ok: true });
     expect(calls[1]).toMatchObject({
       method: "POST",
@@ -156,12 +165,37 @@ describe("POST /api/subscribe/phone (step 2)", () => {
   });
 
   it("requires consent and a valid US number", async () => {
-    const noConsent = await post("/api/subscribe/phone", { email: "ada@example.com", phone: "2145550123" });
+    const token = issueSignupToken("ada@example.com");
+    const noConsent = await post("/api/subscribe/phone", { email: "ada@example.com", token, phone: "2145550123" });
     expect(noConsent.status).toBe(400);
     expect(noConsent.json.fields.smsConsent).toBeTruthy();
-    const badPhone = await post("/api/subscribe/phone", { email: "ada@example.com", phone: "+44 20 7946 0958", smsConsent: true });
+    const badPhone = await post("/api/subscribe/phone", { email: "ada@example.com", token, phone: "+44 20 7946 0958", smsConsent: true });
     expect(badPhone.status).toBe(400);
     expect(badPhone.json.fields.phone).toBe("Enter a valid US mobile number");
     expect(calls).toHaveLength(0);
+  });
+});
+
+describe("step-2 token", () => {
+  it("rejects a phone for an email that never went through step 1", async () => {
+    const res = await post("/api/subscribe/phone", { email: "victim@example.com", phone: "2145550123", smsConsent: true });
+    expect(res.status).toBe(400);
+    expect(calls).toHaveLength(0);
+  });
+  it("rejects a token issued for a different email, a forged token, or an expired one", async () => {
+    const other = issueSignupToken("attacker@example.com")!;
+    const forged = `${Date.now()}.not-a-real-signature`;
+    const old = issueSignupToken("ada@example.com", Date.now() - 200 * 24 * 60 * 60 * 1000)!;
+    for (const token of [other, forged, old]) {
+      const res = await post("/api/subscribe/phone", { email: "ada@example.com", token, phone: "2145550123", smsConsent: true });
+      expect(res.status).toBe(400);
+      expect(res.json.fields.token).toBeTruthy();
+    }
+    expect(calls).toHaveLength(0);
+  });
+  it("503s when the SMS group isn't configured (the $10 automation would never fire)", async () => {
+    delete process.env.SENDER_SMS_GROUP_ID;
+    const res = await post("/api/subscribe/phone", { email: "ada@example.com", token: issueSignupToken("ada@example.com"), phone: "2145550123", smsConsent: true });
+    expect(res).toEqual({ status: 503, json: { ok: false, error: "not_configured" } });
   });
 });

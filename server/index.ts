@@ -9,7 +9,17 @@ export function createServer() {
   const app: Express = express();
 
   // Middleware
-  app.use(cors());
+  // Same-origin by default; cross-origin browser calls only from the site itself
+  // (and local dev / Netlify deploy previews) so other sites can't drive /api/*.
+  app.use(
+    cors({
+      origin: [
+        /^https:\/\/(www\.)?ennisslingshot\.com$/,
+        /^https:\/\/[a-z0-9-]+--[a-z0-9-]+\.netlify\.app$/,
+        /^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/,
+      ],
+    }),
+  );
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
 

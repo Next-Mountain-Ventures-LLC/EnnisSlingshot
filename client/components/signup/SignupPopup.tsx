@@ -5,8 +5,8 @@
  *   • 15 s of time on site (counted across page views in the session),
  *   • exit intent on desktop (pointer leaves through the top) after 5 s,
  *   • 50 % scroll depth after 8 s.
- * Never on /book/ (don't interrupt a booking), in ?embed=1 widgets, or the
- * 404 page. Not again for 7 days after a dismissal; never after someone has
+ * Never on /book/, while a booking scheduler is open or a field has focus,
+ * in ?embed=1 widgets, or on a 404 page. Not again for 7 days after a dismissal; never after someone has
  * finished. People who gave an email but not a phone get one phone-step
  * reminder after 3 days unless they chose "email is fine".
  *
@@ -27,13 +27,27 @@ const DELAY_MS = 15_000;
 const EXIT_INTENT_MIN_MS = 5_000;
 const SCROLL_MIN_MS = 8_000;
 
+/** In-memory fallback for browsers that block sessionStorage (state survives in-app navigation). */
+const memorySession: Record<string, string> = {};
+
 function session(key: string, value?: string): string | null {
+  if (value !== undefined) memorySession[key] = value;
   try {
     if (value !== undefined) window.sessionStorage.setItem(key, value);
-    return window.sessionStorage.getItem(key);
+    return window.sessionStorage.getItem(key) ?? memorySession[key] ?? null;
   } catch {
-    return value ?? null;
+    return memorySession[key] ?? null;
   }
+}
+
+/**
+ * Don't interrupt: no popup while a booking scheduler is open, while the
+ * visitor is typing in a field, or on a 404 page (NotFound renders data-not-found).
+ */
+function busyElsewhere(): boolean {
+  if (document.querySelector('iframe[src*="acuityscheduling.com"], [data-not-found]')) return true;
+  const active = document.activeElement;
+  return !!active && /^(INPUT|TEXTAREA|SELECT|IFRAME)$/.test(active.tagName);
 }
 
 export function shouldOfferPopup(state: SignupState, now = Date.now()): boolean {
@@ -63,8 +77,15 @@ export function SignupPopup() {
     const start = Number(session(SESSION_START_KEY)) || Number(session(SESSION_START_KEY, String(Date.now())));
     const elapsed = () => Date.now() - start;
     let done = false;
+    let timer = 0;
     const show = () => {
       if (done) return;
+      // Busy (checkout open, typing, 404): try again a bit later instead of interrupting.
+      if (busyElsewhere()) {
+        window.clearTimeout(timer);
+        timer = window.setTimeout(show, 20_000);
+        return;
+      }
       done = true;
       cleanup();
       // Re-check: another form on the page may have finished meanwhile.
@@ -73,7 +94,7 @@ export function SignupPopup() {
       setOpen(true);
     };
 
-    const timer = window.setTimeout(show, Math.max(0, DELAY_MS - elapsed()));
+    timer = window.setTimeout(show, Math.max(0, DELAY_MS - elapsed()));
     const onExit = (e: MouseEvent) => {
       if (!e.relatedTarget && e.clientY <= 0 && elapsed() >= EXIT_INTENT_MIN_MS) show();
     };
@@ -91,6 +112,11 @@ export function SignupPopup() {
     }
     return cleanup;
   }, [pathname, search, open]);
+
+  // If the page changes underneath (e.g. a link), close quietly — that's not a dismissal.
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
 
   const onOpenChange = (next: boolean) => {
     if (!next && !finished) dismissSignupPopup();
