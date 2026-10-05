@@ -1,17 +1,35 @@
 /**
  * Mobile-only fixed bottom "Book" CTA. On the home page it scrolls to the
- * booking section; elsewhere it links to /book/ (falling back to the home
- * booking section until that page exists).
+ * booking section (#booking-header) and steps aside while the booking card
+ * itself is on screen; elsewhere it links to /book/. Hidden on /book/, where
+ * the scheduler is already on screen.
  */
+import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { getPage } from "@/lib/pages";
 
-const hasBookPage = Boolean(getPage("/book/"));
+export function isBookPath(pathname: string): boolean {
+  return pathname.replace(/\/+$/, "") === "/book";
+}
+
+/** id of the BookingWidget card on the home page (client/components/booking/BookingWidget.tsx). */
+const HOME_BOOKING_CARD_ID = "acuity-scheduler";
 
 export function StickyBookBar() {
   const { pathname } = useLocation();
   const onHome = pathname === "/";
-  const target = hasBookPage ? "/book/" : "/#booking-header";
+  const [bookingInView, setBookingInView] = useState(false);
+
+  useEffect(() => {
+    setBookingInView(false);
+    if (!onHome || typeof IntersectionObserver === "undefined") return;
+    const el = document.getElementById(HOME_BOOKING_CARD_ID);
+    if (!el) return;
+    const observer = new IntersectionObserver(([entry]) => setBookingInView(entry.isIntersecting));
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [onHome]);
+
+  if (isBookPath(pathname) || bookingInView) return null;
 
   const scrollToBooking = (e: React.MouseEvent) => {
     if (!onHome) return;
@@ -28,9 +46,9 @@ export function StickyBookBar() {
       style={{ paddingBottom: "calc(0.75rem + env(safe-area-inset-bottom))" }}
     >
       <Link
-        to={onHome ? "/#booking-header" : target}
+        to={onHome ? "/#booking-header" : "/book/"}
         onClick={scrollToBooking}
-        className="block w-full text-center py-3 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold rounded-lg transition-all"
+        className="btn-primary w-full"
       >
         Book Your Experience
       </Link>

@@ -26,6 +26,9 @@ import { HubPage } from "./pages/site/HubPage";
 import { BlogIndexTemplate } from "./components/blog/BlogIndexTemplate";
 import { BlogTemplate } from "./components/blog/BlogTemplate";
 import { BlogCategoryTemplate } from "./components/blog/BlogCategoryTemplate";
+import { EmbedLayout } from "./pages/embed/EmbedLayout";
+import { BloomTrackerEmbed } from "./pages/embed/BloomTrackerEmbed";
+import { TrailMapEmbed } from "./pages/embed/TrailMapEmbed";
 import { getAllPages } from "./lib/pages";
 import { includedRoutes as manifestIncludedRoutes } from "./lib/routes";
 
@@ -71,6 +74,20 @@ export const routes: RouteRecord[] = [
       { path: "404", element: <NotFound /> },
       /* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */
       { path: "*", element: <NotFound /> },
+    ],
+  },
+  /**
+   * Third-party widgets (/embed/bloom-tracker/, /embed/trail-map/): a sibling
+   * of the site Root, so no header, footer, sticky Book bar, consent banner or
+   * signup popup. Prerendered from the manifest (shared/content/site-routes.ts
+   * EMBED_PATHS), noindex, and the only paths netlify.toml lets other sites frame.
+   */
+  {
+    path: "/embed",
+    element: <EmbedLayout />,
+    children: [
+      { path: "bloom-tracker", element: <BloomTrackerEmbed /> },
+      { path: "trail-map", element: <TrailMapEmbed /> },
     ],
   },
 ];

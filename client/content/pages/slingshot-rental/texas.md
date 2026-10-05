@@ -14,10 +14,15 @@ faqs:
   - question: "How far is Ennis from Austin or San Antonio?"
     answer: "Austin is roughly a 2.5 to 3-hour drive north via I-35, and San Antonio is roughly 4 hours. Both are realistic as part of a longer Texas road trip or a dedicated bluebonnet-season weekend, rather than a rushed same-day visit and drive back."
   - question: "When is the best time to visit Ennis from out of town?"
-    answer: "April, when the Ennis Bluebonnet Trails are open (April 1–30) and the wildflowers are at their best — typically peaking around the third week. If you want festival energy too, plan around the Ennis Bluebonnet Trails Festival, historically the second or third weekend of April."
+    answer: "April, when the Ennis Bluebonnet Trails are open (April 1–30) and the wildflowers are at their best — typically peaking around the third week. If you want festival energy too, plan around the 2027 Ennis Bluebonnet Trails Festival, expected April 17–19, 2027 (dates subject to change)."
   - question: "Do I need a special license to drive a Slingshot as an out-of-state visitor?"
     answer: "If you're a Texas resident, no motorcycle license is required — a standard Class C license covers it under Tex. Transp. Code §521.085(b). Out-of-state visitors should check their home state's rules for autocycles before traveling, since requirements vary; most states allow a standard license, but not all."
-updatedDate: "2026-09-05"
+cta:
+  headline: "Make Ennis your Texas bluebonnet weekend"
+  body: "Self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $79, insurance included, no motorcycle license needed."
+  buttonLabel: "Book your ride"
+  href: "/book/?package=solo"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Texas"
 ---
@@ -53,7 +58,7 @@ For travelers coming from Houston, Austin, San Antonio, or Waco, we recommend bu
 
 ## When to visit
 
-We operate in April, when the Ennis Bluebonnet Trails are open (April 1–30) and the wildflowers are at their best, typically peaking around the third week. The Ennis Bluebonnet Trails Festival caps the season — historically the second or third weekend of April, though 2027 dates haven't been announced yet. If you're traveling a long distance, plan around mid-April for the best odds of full bloom.
+We operate in April, when the Ennis Bluebonnet Trails are open (April 1–30) and the wildflowers are at their best, typically peaking around the third week. The Ennis Bluebonnet Trails Festival caps the season — the 2027 festival is expected April 17–19, 2027 (dates subject to change — confirm on bluebonnettrail.org before you travel). If you're traveling a long distance, plan around mid-April for the best odds of full bloom.
 
 ## What you need to drive
 

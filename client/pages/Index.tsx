@@ -1,26 +1,22 @@
-import { useRef, useState } from "react";
 import { Hero } from "@/components/landing/Hero";
 import { YourRide } from "@/components/landing/YourRide";
 import { Trails } from "@/components/landing/Trails";
 import { Booking } from "@/components/landing/Booking";
-// import { MoreInfo } from "@/components/landing/MoreInfo"; // Hidden for now
 import { FAQ } from "@/components/landing/FAQ";
-import { PromotionalPopup } from "@/components/landing/PromotionalPopup";
 import { Seo } from "@/components/seo/Seo";
 import { localBusiness, organization, webSite, service } from "@/lib/schema";
 import { business } from "@shared/business";
+import { PACKAGES, bookHref } from "@shared/booking";
 
-/** Packages as published on the site today (CLAUDE.md "facts that must never drift"). */
-const HOME_PACKAGES = [
-  { name: "1-Hour Drive & Go", price: 69.99, url: "/slingshot-rental/drive-and-go/" },
-  { name: "2-Hour Bluebonnet Trail Experience — Solo", price: 79, url: "/slingshot-rental/bluebonnet-trail-experience/" },
-  { name: "2-Hour Bluebonnet Trail Experience — Driver + Rider", price: 149, url: "/slingshot-rental/bluebonnet-trail-experience/" },
-];
+/** The bookable packages (shared/booking.ts) for the home Service/OfferCatalog JSON-LD. */
+const HOME_PACKAGES = PACKAGES.map((p) => ({
+  name: p.name,
+  price: p.price,
+  description: p.description,
+  url: bookHref(p.id),
+}));
 
 export default function Index() {
-  const bookingRef = useRef<HTMLDivElement>(null);
-  const [showPopup, setShowPopup] = useState(true);
-
   const scrollToBooking = () => {
     // Scroll to the booking header with title at the top of the viewport
     const bookingHeader = document.getElementById('booking-header');
@@ -50,9 +46,6 @@ export default function Index() {
         ]}
       />
 
-      {/* Promotional Popup - Disabled for now, can be re-enabled later */}
-      {/* {showPopup && <PromotionalPopup onClose={() => setShowPopup(false)} />} */}
-
       {/* Hero Section */}
       <Hero onBookingClick={scrollToBooking} />
 
@@ -62,13 +55,8 @@ export default function Index() {
       {/* Trails Section */}
       <Trails />
 
-      {/* Booking Section */}
-      <div ref={bookingRef}>
-        <Booking />
-      </div>
-
-      {/* More Info Section - Hidden for now */}
-      {/* <MoreInfo /> */}
+      {/* Booking Section (#booking-header) */}
+      <Booking />
 
       {/* FAQ Section */}
       <FAQ />

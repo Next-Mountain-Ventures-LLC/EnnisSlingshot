@@ -6,7 +6,8 @@
  * Sources: static site routes from SITE-STRUCTURE.md that have a content file
  * (client/content/pages/**), the blog index, the five category pages (plus
  * /blog/page/N/ and /blog/category/<slug>/page/N/ when there are more than
- * BLOG_PAGE_SIZE posts), every published post, and /404. See shared/content/site-routes.ts for the pure
+ * BLOG_PAGE_SIZE posts), every published post, the noindex /embed/* widget
+ * pages (EMBED_PATHS — kept out of sitemap.xml), and /404. See shared/content/site-routes.ts for the pure
  * builder and the SITE_STRUCTURE_URLS inventory.
  */
 import {

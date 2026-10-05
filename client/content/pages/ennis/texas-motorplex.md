@@ -11,15 +11,20 @@ faqs:
   - question: "When is the Texas Motorplex season?"
     answer: "The racing season runs roughly February through November, with the biggest crowds in March and October. The NHRA Fall Nationals in October is the marquee weekend."
   - question: "What else is there to do in Ennis on a Texas Motorplex race weekend?"
-    answer: "Downtown Ennis, its restaurants, and the Ennis Railroad & Cultural Heritage Museum are all a short drive from the track. If the trails are open, the Bluebonnet Trails and a Slingshot experience are worth combining with a spring race weekend."
-updatedDate: "2026-09-05"
+    answer: "Downtown Ennis, its restaurants, and the Ennis Railroad & Cultural Heritage Museum are all a short drive from the track. If your race weekend falls in April, when the trails are open (April 1–30, 2027), the Bluebonnet Trails and a Slingshot experience are worth combining with it."
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Texas Motorplex"
+cta:
+  headline: "Love watching speed? Drive the trails in April"
+  body: "Texas Motorplex races February through November, but our 1-hour Drive & Go ($69.99) and 2-hour self-drive Slingshot rides run only April 1–30, 2027 — catch a spring race weekend and drive the Bluebonnet Trails the same trip."
+  buttonLabel: "Book a Drive & Go hour"
+  href: "/book/?package=drive-and-go"
 ---
 
 ## What Texas Motorplex is
 
-Texas Motorplex is an all-concrete NHRA "super track" in Ennis, TX — one of the premier drag-racing venues in the country, drawing more than 500,000 fans a year. The racing season runs roughly February through November, with the NHRA Fall Nationals in October standing out as the marquee weekend on the calendar. If you're planning a trip around a race weekend, this page covers what to expect and what else Ennis has to offer while you're in town. It's part of our [Things to Do in Ennis hub](/ennis/).
+Texas Motorplex is an all-concrete NHRA "super track" in Ennis, TX — one of the premier drag-racing venues in the country, drawing more than 500,000 fans a year. The racing season runs roughly February through November, with the NHRA Fall Nationals in October standing out as the marquee weekend on the calendar. If you're planning a trip around a race weekend, this page covers what to expect and what else Ennis has to offer while you're in town. For more ideas, see our full list of [things to do in Ennis](/ennis/).
 
 ## Season overview
 
@@ -42,22 +47,11 @@ A Texas Motorplex trip doesn't have to be a there-and-back for the race alone. A
 - **Big O Speedway** — a dirt track running roughly March through October, if you want a second dose of racing in a very different format.
 - **The Bluebonnet Trails** — only relevant if your race weekend happens to fall in April, but if it does, it's a genuinely unusual pairing: NHRA drag racing in the morning, wildflower trails in the afternoon.
 
-If you're the kind of visitor who's at Texas Motorplex because you like driving, not just watching, [Drive & Go](/slingshot-rental/drive-and-go/) is a 1-hour self-drive Slingshot experience on the Bluebonnet Trails during April — a different kind of driving than the strip, but for the same audience. See [Slingshot Rental Near Dallas](/slingshot-rental/near-dallas/) for how to combine a DFW trip with both.
+If you're the kind of visitor who's at Texas Motorplex because you like driving, not just watching, [Drive & Go](/slingshot-rental/drive-and-go/) is a 1-hour self-drive Slingshot experience on the Bluebonnet Trails during April — a different kind of driving than the strip, made for the same kind of driver. See [Slingshot Rental Near Dallas](/slingshot-rental/near-dallas/) for how to combine a DFW trip with both.
 
 ## Where to stay for a race weekend
 
 Ennis hotels fill up fast around the Fall Nationals specifically — book well ahead if you're coming from out of town. See [Where to Stay](/ennis/where-to-stay/) for options in Ennis and nearby Waxahachie.
-
-## FAQ
-
-**What is Texas Motorplex known for?**
-Texas Motorplex is an all-concrete NHRA drag strip in Ennis, TX — one of the sport's premier tracks, drawing more than 500,000 fans annually. It hosts an NHRA national event, the Fall Nationals, every October.
-
-**When is the Texas Motorplex season?**
-The racing season runs roughly February through November, with the biggest crowds in March and October. The NHRA Fall Nationals in October is the marquee weekend.
-
-**What else is there to do in Ennis on a Texas Motorplex race weekend?**
-Downtown Ennis, its restaurants, and the Ennis Railroad & Cultural Heritage Museum are all a short drive from the track. If the trails are open, the [Bluebonnet Trails](/bluebonnets/) and a Slingshot experience are worth combining with a spring race weekend.
 
 ## Check the calendar before you go
 

@@ -91,9 +91,9 @@ export function DriveTimePicker({ defaultOriginPath = "/", className }: DriveTim
           </a>
         </p>
 
-        <p className="mt-4 text-xs text-gray-500">
-          Times are no-traffic estimates — expect longer on Friday afternoons and festival weekends, and check Google
-          Maps before you leave. Data note: &ldquo;{DRIVE_TIMES_NOTE}.&rdquo;
+        <p className="mt-4 text-xs text-gray-400">
+          {DRIVE_TIMES_NOTE} — expect longer on Friday afternoons and festival weekends, and check Google Maps before
+          you leave.
         </p>
 
         <details className="mt-4 text-sm">

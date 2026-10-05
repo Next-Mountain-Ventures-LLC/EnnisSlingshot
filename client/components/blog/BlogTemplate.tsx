@@ -26,6 +26,7 @@ import { Seo } from '@/components/seo/Seo';
 import { Breadcrumbs, breadcrumbTrail, type BreadcrumbItem } from '@/components/layout/Breadcrumbs';
 import { MarkdownBody } from '@/components/shared/MarkdownBody';
 import { blogPostingStack, organization, breadcrumbList } from '@/lib/schema';
+import { lastModified } from '@/lib/schema/blogPosting';
 import { AuthorBox } from './AuthorBox';
 import { RelatedPosts } from './RelatedPosts';
 import { PrevNextPost } from './PrevNextPost';
@@ -33,6 +34,16 @@ import NotFound from '@/pages/NotFound';
 import { LCP_IMG_PROPS } from '@/lib/media';
 import { SignupForm } from '@/components/signup/SignupForm';
 import { BookingCta } from '@/components/shared/BookingCta';
+
+/**
+ * Hero alt text as written for screen readers: drops the generator suffix
+ * ('Hero image for the Ennis Slingshot article "…"') the WordPress image
+ * pipeline appends; falls back to the post title.
+ */
+export function heroAltText(alt: string | undefined, title: string): string {
+  const cleaned = (alt ?? "").replace(/\s*Hero image for the Ennis Slingshot article[\s\S]*$/i, "").trim();
+  return cleaned || title;
+}
 
 export function BlogTemplate() {
   const { slug } = useParams<{ slug: string }>();
@@ -58,6 +69,7 @@ export function BlogTemplate() {
   const hero = resolveHeroImage(post);
   const author = resolveAuthor(post.data);
   const readingTime = getReadingTime(post);
+  const modified = lastModified(post.data);
 
   const crumbs: BreadcrumbItem[] = [
     { label: 'Home', path: '/' },
@@ -76,7 +88,7 @@ export function BlogTemplate() {
         ogImage={resolveOgImage(post)}
         article={{
           publishedTime: post.data.pubDate.toISOString(),
-          modifiedTime: (post.data.updatedDate ?? post.data.pubDate).toISOString(),
+          modifiedTime: modified.toISOString(),
           author: author.name,
           tags: post.data.tags,
         }}
@@ -96,25 +108,27 @@ export function BlogTemplate() {
         ]}
       />
       <div className="container mx-auto px-4 py-12 max-w-6xl">
-        <Breadcrumbs items={crumbs} withSchema={false} className="mb-6" />
-        {/* Back Button */}
-        <Link
-          to={primary?.path ?? '/blog/'}
-          className="inline-flex items-center gap-2 text-ennis-orange hover:text-ennis-orange-bright transition-colors mb-8"
-        >
-          <ArrowLeft className="w-4 h-4" aria-hidden="true" />
-          {primary ? `Back to ${primary.name}` : 'Back to Blog'}
-        </Link>
+        <div className="mx-auto max-w-3xl lg:mx-0 lg:max-w-none">
+          <Breadcrumbs items={crumbs} withSchema={false} className="mb-4 sm:mb-6" />
+          {/* Back link — desktop/tablet only; on phones the breadcrumb above does the same job */}
+          <Link
+            to={primary?.path ?? '/blog/'}
+            className="hidden sm:inline-flex items-center gap-2 text-ennis-orange hover:text-ennis-orange-bright transition-colors mb-8"
+          >
+            <ArrowLeft className="w-4 h-4" aria-hidden="true" />
+            {primary ? `Back to ${primary.name}` : 'Back to Blog'}
+          </Link>
+        </div>
 
         {/* Article + sidebar (signup + booking). Sidebar drops below the article on small screens. */}
         <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-12 xl:gap-16">
-        <article className="min-w-0 max-w-3xl">
+        <article className="min-w-0 max-w-3xl mx-auto lg:mx-0">
           {/* Featured Image — the LCP element on post pages */}
           {hero && (
             <div className="mb-8 rounded-lg overflow-hidden bg-gray-800 aspect-video">
               <img
                 src={hero}
-                alt={post.data.heroImageAlt || post.data.title}
+                alt={heroAltText(post.data.heroImageAlt, post.data.title)}
                 width={1200}
                 height={675}
                 decoding="async"
@@ -140,7 +154,7 @@ export function BlogTemplate() {
               </div>
             )}
 
-            <h1 className="text-4xl md:text-5xl font-black text-white mb-4">{post.data.title}</h1>
+            <h1 className="text-3xl sm:text-4xl md:text-5xl leading-tight font-black text-white mb-4">{post.data.title}</h1>
 
             <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-gray-400">
               <span>
@@ -194,7 +208,7 @@ export function BlogTemplate() {
           <PrevNextPost post={post} />
         </article>
 
-        <aside aria-label="Updates and booking" className="mt-12 lg:mt-0">
+        <aside aria-label="Updates and booking" className="mt-12 mx-auto max-w-3xl lg:mt-0 lg:mx-0 lg:max-w-none">
           <div className="space-y-6 lg:sticky lg:top-24">
             <SignupForm variant="card" source="blog-sidebar" />
             <BookingCta variant="card" />

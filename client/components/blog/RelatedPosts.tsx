@@ -13,7 +13,7 @@ export function RelatedPosts({ post, count = 3 }: { post: BlogPost; count?: numb
       <h2 id="related-posts-heading" className="text-2xl md:text-3xl font-black text-white mb-6">
         Keep <span className="text-ennis-orange">reading</span>
       </h2>
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {related.map((p) => (
           <BlogCard key={p.id} post={p} headingLevel="h3" />
         ))}

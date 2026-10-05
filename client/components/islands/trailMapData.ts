@@ -28,7 +28,7 @@ export const TRAIL_LOOPS: readonly LoopMeta[] = [
 ];
 
 export const APPROXIMATE_NOTE =
-  "Routes are approximate — reconstructed from the official Ennis Garden Club map and connected with real roads. Confirm the current-year loops at the Ennis Welcome Center, 201 NW Main St.";
+  "Routes are approximate and follow the official Ennis Garden Club trail map. Pick up the current-year printed map at the Ennis Welcome Center, 201 NW Main St, before you head out.";
 
 export const START_POINT = {
   name: "Ennis Welcome Center",
@@ -50,7 +50,10 @@ export interface LoopFeature {
     color: string;
     distanceMiles: number;
     approximate?: boolean;
+    /** Visitor-facing "About this route" text (rendered). */
     note?: string;
+    /** Data provenance for maintainers — never rendered. */
+    sourceNote?: string;
   };
 }
 
@@ -66,7 +69,14 @@ export type PointKind =
 export interface PointFeature {
   type: "Feature";
   geometry: { type: "Point"; coordinates: Position };
-  properties: { type: PointKind; name: string; description?: string; source?: string };
+  properties: {
+    type: PointKind;
+    name: string;
+    /** Visitor-facing popup text (rendered). */
+    description?: string;
+    /** Data provenance for maintainers — never rendered. */
+    sourceNote?: string;
+  };
 }
 
 export interface TrailMapCollection {

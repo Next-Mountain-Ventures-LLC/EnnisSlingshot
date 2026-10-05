@@ -1,5 +1,5 @@
 {
-  "note": "no-traffic estimate; verify in Google Maps before publishing",
+  "note": "Drive times are typical no-traffic estimates",
   "destinations": [
     { "originCity": "Dallas", "state": "TX", "miles": 34.8, "minutes": 40, "route": "I-45 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },
     { "originCity": "Fort Worth", "state": "TX", "miles": 57.2, "minutes": 70, "route": "I-20 E / US-287 S", "source": "OSRM demo routing API (router.project-osrm.org), driving profile, no live traffic" },

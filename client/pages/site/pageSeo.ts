@@ -1,9 +1,10 @@
 /**
  * Maps a site page's frontmatter (schemaType, faqs, packagePrice…) onto the
- * JSON-LD stack described in SITE-REBUILD-PLAN.md §3. Shared by ContentPage
- * and HubPage. BreadcrumbList, FAQPage and OfferCatalog are emitted by their
- * own components (Breadcrumbs, FaqAccordion, PackagePriceTable), so they are
- * intentionally not duplicated here.
+ * JSON-LD stack described in SITE-REBUILD-PLAN.md §3. Shared by ContentPage,
+ * HubPage and IslandPageShell. BreadcrumbList and FAQPage are emitted by
+ * their own components (Breadcrumbs, FaqAccordion). The OfferCatalog rides
+ * inside the Service entity on Service pages (only bookable packages — see
+ * client/lib/schema/service.ts); PackagePriceTable emits it on other pages.
  */
 import type { SitePage } from "@/lib/pages";
 import { getHubPage, getPageLabel, getPagesUnderHub } from "@/lib/pages";
@@ -19,6 +20,7 @@ import {
   type JsonLd,
 } from "@/lib/schema";
 import { business } from "@shared/business";
+import { RIDE_PHOTOS } from "@/lib/ridePhotos";
 
 export function pageJsonLd(page: SitePage): JsonLd[] {
   const { data } = page;
@@ -96,8 +98,19 @@ export function pageJsonLd(page: SitePage): JsonLd[] {
       // FAQPage itself is emitted by <FaqAccordion withSchema>.
       return [webPage(common)];
     case "ImageGallery":
-    case "CollectionPage":
-      return [webPage({ ...common, type: data.schemaType })];
+    case "CollectionPage": {
+      const base = webPage({ ...common, type: data.schemaType });
+      // /gallery/ (widget: PhotoGallery) — list the fleet photos it shows.
+      if (data.widget === "PhotoGallery") {
+        return [
+          {
+            ...base,
+            associatedMedia: RIDE_PHOTOS.map((p) => ({ "@type": "ImageObject", contentUrl: p.src, name: p.alt })),
+          },
+        ];
+      }
+      return [base];
+    }
     case "WebPage":
     default:
       return [webPage(common)];

@@ -1,7 +1,9 @@
 import { defineConfig, Plugin } from "vite";
 import react from "@vitejs/plugin-react-swc";
+import fs from "node:fs";
 import path from "path";
 import { createServer } from "./server";
+import { isPublicAuthorUrl } from "./shared/author";
 // Type-only import: augments vite's UserConfig with `ssgOptions`.
 import type { ViteReactSSGOptions } from "vite-react-ssg";
 
@@ -46,15 +48,20 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
     fs: {
       // public/blog-images/manifest.json is glob-imported by client/lib/blogImages.ts
-      allow: ["./client", "./shared", "./public/blog-images"],
+      // + node_modules: pnpm's real paths (e.g. leaflet/dist/leaflet.css) live under node_modules/.pnpm
+      allow: ["./client", "./shared", "./public/blog-images", "./node_modules"],
       deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**", "server/**"],
     },
   },
   build: {
     outDir: "dist/spa",
   },
+  define: {
+    // Footer copyright year (client/components/landing/Contact.tsx) — fixed at build time so SSG HTML and hydration agree.
+    __BUILD_YEAR__: JSON.stringify(new Date().getFullYear()),
+  },
   ssgOptions,
-  plugins: [react(), expressPlugin()],
+  plugins: [stripPrivateBlogFrontmatter(), react(), expressPlugin()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./client"),
@@ -62,6 +69,65 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
+/**
+ * Frontmatter keys the WordPress sync writes into client/content/blog/*.md that
+ * must never reach the public JS bundle (client/lib/blog.ts glob-imports the
+ * raw files with `?raw`). Nothing on the site reads them: resolveAuthor() only
+ * uses a *public* authorUrl, and postId (hero-image lookup) is kept.
+ * scripts/lib/posts.ts reads the files from disk and is unaffected.
+ */
+const PRIVATE_BLOG_FRONTMATTER_KEYS = new Set(["authorEmail", "authorId", "permalink", "guid"]);
+
+function unquoteYamlScalar(value: string): string {
+  const v = value.trim();
+  return /^(["']).*\1$/.test(v) ? v.slice(1, -1) : v;
+}
+
+/** Remove private keys (and any indented continuation lines) from a markdown file's YAML frontmatter. */
+export function stripPrivateFrontmatter(raw: string): string {
+  const match = /^(---\r?\n)([\s\S]*?)(\r?\n---(?:\r?\n|$)[\s\S]*)$/.exec(raw);
+  if (!match) return raw;
+  const [, open, yamlBlock, rest] = match;
+  const out: string[] = [];
+  let skipping = false;
+  for (const line of yamlBlock.split(/\r?\n/)) {
+    if (skipping && /^(\s+\S|-\s)/.test(line)) continue;
+    skipping = false;
+    const key = /^([A-Za-z0-9_]+):(.*)$/.exec(line);
+    if (key) {
+      const [, name, value] = key;
+      const isPrivate =
+        PRIVATE_BLOG_FRONTMATTER_KEYS.has(name) || (name === "authorUrl" && !isPublicAuthorUrl(unquoteYamlScalar(value)));
+      if (isPrivate) {
+        skipping = true;
+        continue;
+      }
+    }
+    out.push(line);
+  }
+  return `${open}${out.join("\n")}${rest}`;
+}
+
+/**
+ * Serve `client/content/blog/*.md?raw` with the private frontmatter keys
+ * removed. Runs before Vite's own `?raw` loader (enforce: "pre"), in dev, in
+ * the SSG client/server builds and in vitest.
+ */
+function stripPrivateBlogFrontmatter(): Plugin {
+  return {
+    name: "strip-private-blog-frontmatter",
+    enforce: "pre",
+    async load(id) {
+      const [file, query = ""] = id.split("?", 2);
+      if (!/(^|&)raw(&|$)/.test(query)) return null;
+      if (!/[\\/]client[\\/]content[\\/]blog[\\/][^\\/]+\.md$/.test(file)) return null;
+      this.addWatchFile(file);
+      const raw = await fs.promises.readFile(file, "utf-8");
+      return `export default ${JSON.stringify(stripPrivateFrontmatter(raw))}`;
+    },
+  };
+}
 
 function expressPlugin(): Plugin {
   return {

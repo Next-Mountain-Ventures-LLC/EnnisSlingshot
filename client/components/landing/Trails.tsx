@@ -1,3 +1,5 @@
+import { Download } from "lucide-react";
+
 export function Trails() {
   return (
     <section className="py-20 md:py-32 bg-ennis-dark relative overflow-hidden">
@@ -37,7 +39,7 @@ export function Trails() {
                 <div className="text-ennis-orange text-xl mt-1">📍</div>
                 <div>
                   <h4 className="font-bold text-white mb-1">Expert-Curated Maps</h4>
-                  <p className="text-gray-400">2026 Bluebonnet Trail Maps included in your glove box</p>
+                  <p className="text-gray-400">Official Ennis Bluebonnet Trail map included</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -49,15 +51,17 @@ export function Trails() {
               </div>
             </div>
 
-            <div className="flex justify-center">
+            <div className="flex">
+              {/* Official map PDF from bluebonnettrail.org — swap the href when the 2027 map is posted. */}
               <a
                 href="https://www.bluebonnettrail.org/_files/ugd/5b7b72_6ae57502cb62463dbaebe65e45571eaa.pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-6 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold text-base rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl"
+                className="btn-secondary"
               >
-                ⬇️ Download 2026 Trail Map
+                <Download className="h-4 w-4" aria-hidden="true" />
+                Download the Trail Map (PDF)
               </a>
             </div>
           </div>
@@ -66,7 +70,7 @@ export function Trails() {
           <div className="w-full aspect-square bg-gray-900 rounded-lg border border-gray-700 overflow-hidden">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2Ffbc16199876c45a1a4d9e84a3bb43061?format=webp&width=600"
-              alt="2026 Ennis Bluebonnet Trails Map"
+              alt="Ennis Bluebonnet Trails map"
               width={600}
               height={600}
               loading="lazy"
@@ -77,7 +81,7 @@ export function Trails() {
         </div>
 
         {/* Info Box */}
-        <div className="mt-16 bg-gradient-to-r from-ennis-orange/10 to-ennis-red/10 border border-ennis-orange/30 rounded-lg p-8">
+        <div className="mt-16 max-w-4xl mx-auto bg-gradient-to-r from-ennis-orange/10 to-ennis-red/10 border border-ennis-orange/30 rounded-lg p-6 md:p-8">
           <h3 className="text-xl font-bold text-white mb-3">About Ennis Bluebonnets</h3>
           <p className="text-gray-300 leading-relaxed">
             Every spring, Ennis, Texas bursts into a spectacular display of bluebonnets, transforming the rolling hills and meadows into a sea of deep purple blooms. This natural wonder has earned Ennis the prestigious title of "Bluebonnet Capital of Texas." Combine this breathtaking scenery with the exhilaration of driving a Slingshot, and you have an unforgettable experience.

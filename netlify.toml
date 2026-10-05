@@ -51,12 +51,16 @@ status = 301
 
 # ---------------------------------------------------------------------------
 # Security headers + CSP (SITE-REBUILD-PLAN.md §3)
+#
+# No X-Frame-Options / CSP frame-ancestors here on "/*": Netlify applies every
+# matching [[headers]] rule and a narrower rule can't remove a header set by
+# "/*", so a site-wide frame block would also block the /embed/* widgets that
+# other sites iframe. Clickjacking protection is set per section further down.
 # ---------------------------------------------------------------------------
 [[headers]]
 for = "/*"
   [headers.values]
   X-Content-Type-Options = "nosniff"
-  X-Frame-Options = "SAMEORIGIN"
   Referrer-Policy = "strict-origin-when-cross-origin"
   Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
   Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(self \"https://app.acuityscheduling.com\" \"https://embed.acuityscheduling.com\")"
@@ -64,17 +68,110 @@ for = "/*"
     default-src 'self';
     base-uri 'self';
     object-src 'none';
-    frame-ancestors 'self';
     upgrade-insecure-requests;
-    script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net https://embed.acuityscheduling.com https://app.acuityscheduling.com https://www.youtube.com;
+    script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://*.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net https://embed.acuityscheduling.com https://app.acuityscheduling.com https://www.youtube.com;
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
     font-src 'self' data: https://fonts.gstatic.com;
-    img-src 'self' data: blob: https://cdn.builder.io https://images.pexels.com https://*.tile.openstreetmap.org https://www.facebook.com https://facebook.com https://i0.wp.com https://*.wp.com https://blog.nxtmt.ventures https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://www.google.com https://i.ytimg.com;
+    img-src 'self' data: blob: https://cdn.builder.io https://images.pexels.com https://tile.openstreetmap.org https://*.tile.openstreetmap.org https://www.facebook.com https://facebook.com https://i0.wp.com https://*.wp.com https://blog.nxtmt.ventures https://www.google-analytics.com https://*.google-analytics.com https://www.googletagmanager.com https://*.googletagmanager.com https://*.g.doubleclick.net https://www.google.com https://*.google.com https://i.ytimg.com;
     media-src 'self' blob: https://videos.files.wordpress.com https://*.wordpress.com;
-    frame-src 'self' https://app.acuityscheduling.com https://embed.acuityscheduling.com https://*.acuityscheduling.com https://www.youtube.com https://www.youtube-nocookie.com https://www.facebook.com https://td.doubleclick.net;
-    connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://stats.g.doubleclick.net https://connect.facebook.net https://www.facebook.com https://api.open-meteo.com https://*.acuityscheduling.com https://cdn.builder.io;
+    frame-src 'self' https://app.acuityscheduling.com https://embed.acuityscheduling.com https://*.acuityscheduling.com https://www.youtube.com https://www.youtube-nocookie.com https://www.facebook.com https://td.doubleclick.net https://www.googletagmanager.com;
+    connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://www.googletagmanager.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://*.g.doubleclick.net https://*.google.com https://pagead2.googlesyndication.com https://connect.facebook.net https://www.facebook.com https://api.open-meteo.com https://*.acuityscheduling.com https://cdn.builder.io;
     form-action 'self' https://*.acuityscheduling.com;
     """
+
+# ---------------------------------------------------------------------------
+# Clickjacking protection, per top-level section.
+#
+# Deliberately NOT on "/*" (see the note above the CSP): one rule per section
+# so /embed/* — the bloom-tracker and trail-map widgets other sites iframe —
+# stays frameable, and no header key is duplicated across matching rules.
+# ADD NEW TOP-LEVEL SECTIONS HERE: scripts/assert-prerendered.mjs fails the
+# build if a prerendered top-level directory in dist/spa has no rule.
+# ---------------------------------------------------------------------------
+[[headers]]
+for = "/"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/about/*"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/blog/*"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/bluebonnets/*"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/book/*"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/contact/*"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/ennis/*"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/faq/*"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/gallery/*"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/privacy/*"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/reviews/*"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/slingshot-rental/*"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/terms/*"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
+for = "/404*"
+  [headers.values]
+  X-Frame-Options = "SAMEORIGIN"
+
+# Third-party widgets (client/pages/embed/*): frameable by any site, never indexed.
+[[headers]]
+for = "/embed/*"
+  [headers.values]
+  X-Robots-Tag = "noindex"
+
+# Public bloom-status JSON for the bloom tracker's developer snippet: readable
+# cross-origin, short cache so weekly in-season updates show up quickly.
+[[headers]]
+for = "/bloom-status.json"
+  [headers.values]
+  Access-Control-Allow-Origin = "*"
+  Cache-Control = "public, max-age=300, must-revalidate"
+  Content-Type = "application/json; charset=utf-8"
 
 # Long-lived caching for hashed build assets
 [[headers]]

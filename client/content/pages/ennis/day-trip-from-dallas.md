@@ -13,14 +13,19 @@ faqs:
     answer: "I-45 South, direct, no highway changes. From downtown Dallas it's about 35 miles; expect closer to 40–45 minutes if you're leaving from north Dallas suburbs or hit weekend traffic near I-20."
   - question: "Can you do Ennis as a day trip, or do you need to stay overnight?"
     answer: "A day trip works well — most of what Ennis offers (the trails, downtown, a meal, one or two attractions) fits comfortably into 5–7 hours including drive time. Staying over makes sense mainly around the Bluebonnet Festival weekend or if you're pairing it with Waxahachie."
-updatedDate: "2026-09-05"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Day Trip from Dallas"
+cta:
+  headline: "Make the drive the day's highlight"
+  body: "Slot our 2-hour self-drive Bluebonnet Trail Experience into any itinerary above — it starts at the Ennis Welcome Center, about 37 minutes from downtown Dallas, and runs April 1–30, 2027. $79 solo or $149 for two, insurance included."
+  buttonLabel: "Book your day-trip ride"
+  href: "/book/?package=two-up"
 ---
 
 ## The short version
 
-Ennis is 35 miles south of downtown Dallas on I-45 — about a 37-minute drive door to door, no highway changes. That makes it one of the easiest genuine day trips out of DFW: close enough to leave after breakfast and be home for dinner, far enough to feel like you actually went somewhere. This page is part of our [Things to Do in Ennis hub](/ennis/); below are three hour-by-hour itineraries depending on who's in the car.
+Ennis is 35 miles south of downtown Dallas on I-45 — about a 37-minute drive door to door, no highway changes. That makes it one of the easiest genuine day trips out of DFW: close enough to leave after breakfast and be home for dinner, far enough to feel like you actually went somewhere. Below are three hour-by-hour itineraries depending on who's in the car — and for everything else worth seeing, browse our full list of [things to do in Ennis](/ennis/).
 
 ## Getting there
 
@@ -32,13 +37,15 @@ Take I-45 South from downtown Dallas. It's a direct shot — no highway changes,
 | Arlington | 52 miles | ~53 minutes |
 | Fort Worth | 57 miles | ~59 minutes |
 
+Coming down mainly for the drive? See [Slingshot rental near Dallas](/slingshot-rental/near-dallas/) for how a ride fits into a DFW day trip.
+
 ## Itinerary 1: The date day
 
 For couples wanting a scenic, unhurried day built around the drive itself and a slower afternoon.
 
 - **9:00 am** — Leave Dallas, arrive Ennis by ~9:40.
 - **9:45 am** — Stop at the Ennis Welcome Center, 201 NW Main St, for a current trail map and current bloom status if you're visiting in April.
-- **10:00 am – 12:00 pm** — Drive the Bluebonnet Trails at your own pace, or [book a 2-hour Slingshot experience](/slingshot-rental/bluebonnet-trail-experience/) and let someone else worry about the route — an open-cockpit drive through the wildflowers is a genuinely different kind of date than dinner and a movie.
+- **10:00 am – 12:00 pm** — Drive the Bluebonnet Trails at your own pace, or [book a 2-hour Slingshot ride for two](/book/?package=two-up) and drive our curated [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) route yourself — an open-cockpit drive through the wildflowers is a genuinely different kind of date than dinner and a movie.
 - **12:15 pm** — Lunch downtown. See [Where to Eat](/ennis/where-to-eat/) for options.
 - **1:30 pm** — Walk historic [Downtown Ennis](/ennis/downtown/) — Dallas Street's shops and the Railroad & Cultural Heritage Museum are both an easy stroll from lunch.
 - **3:00 pm** — Sugar Ridge Winery in Bristol (on the north trail loop) for a tasting on the patio, weekends only.
@@ -69,19 +76,4 @@ For visitors whose day in Ennis is really about the driving, the roads, and the 
 
 ## Making it a longer weekend
 
-If a single day doesn't cover everything you want to see — especially during bluebonnet season, when Scarborough Renaissance Festival in Waxahachie runs the same weekends — see our [Ennis + Waxahachie weekend itinerary](/ennis/weekend-itinerary/) for a two-day plan and where to stay overnight.
-
-## FAQ
-
-**How far is Ennis, TX from Dallas?**
-Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute drive with normal traffic. It's one of the closer bluebonnet and day-trip destinations to the DFW metro.
-
-**What's the best route from Dallas to Ennis?**
-I-45 South, direct, no highway changes. From downtown Dallas it's about 35 miles; expect closer to 40–45 minutes if you're leaving from north Dallas suburbs or hit weekend traffic near I-20.
-
-**Can you do Ennis as a day trip, or do you need to stay overnight?**
-A day trip works well — most of what Ennis offers (the trails, downtown, a meal, one or two attractions) fits comfortably into 5–7 hours including drive time. Staying over makes sense mainly around the Bluebonnet Festival weekend or if you're pairing it with Waxahachie. See [Where to Stay](/ennis/where-to-stay/) for options.
-
-## Make the drive part of the day
-
-However you spend the rest of your visit, [book a Slingshot experience](/slingshot-rental/near-dallas/) and drive the Bluebonnet Trails yourself instead of just passing through them.
+If a single day doesn't cover everything you want to see — especially during bluebonnet season, when Scarborough Renaissance Festival in Waxahachie runs the same weekends — see our [Ennis + Waxahachie weekend itinerary](/ennis/weekend-itinerary/) for a two-day plan, and [Where to Stay](/ennis/where-to-stay/) for overnight options.

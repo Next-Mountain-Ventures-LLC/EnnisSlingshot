@@ -5,46 +5,32 @@ canonicalPath: "/book/"
 h1: "Book Your Slingshot Experience"
 hub: null
 schemaType: "WebPage"
-packagePrice:
-  - name: "Drive & Go"
-    price: "$69.99"
-  - name: "Bluebonnet Trail Experience – Solo"
-    price: "$79"
-  - name: "Bluebonnet Trail Experience – Two-Up"
-    price: "$149"
-updatedDate: "2026-09-05"
+island: "Booking"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Book"
 ---
 
 ## How booking works
 
-1. **Pick a package and time slot** in the booking calendar below.
+1. **Pick a package and a time slot** in the booking calendar above: the 1-hour Drive & Go ($69.99), or the 2-hour Bluebonnet Trail Experience — Solo ($79) or Driver + Rider ($149).
 2. **Complete driver verification.** Right after you book, we email a quick verification link; approval usually clears within 24 hours. If you're not approved, you get a full refund.
 3. **Meet us at the Ennis Welcome Center**, 201 NW Main St, 15 minutes before your slot for check-in, orientation, and a safety briefing.
 4. **Drive.** We hand you a curated route through the Ennis Bluebonnet Trails sized to your package length, and you're on your own from there.
 
 No deposit is required — comprehensive insurance is included in every price, with a $500 maximum out-of-pocket. Full policy detail is on [Requirements](/slingshot-rental/requirements/).
 
-## Packages
+## Add-ons and groups
 
-| Package | Duration | Price | Details |
-|---|---|---|---|
-| Drive & Go | 60 min | $69.99 | One driver; a quick, no-dealer test drive |
-| Bluebonnet Trail Experience – Solo | 2 hr | $79 | One driver, full trail route |
-| Bluebonnet Trail Experience – Two-Up | 2 hr | $149 | Driver plus one passenger |
+Add-on: a Bluetooth communication helmet is $25 per helmet, useful for two-up rides so driver and passenger can talk.
 
-Add-on: a Bluetooth communication helmet is $25 per helmet, useful for two-up rides so driver and passenger can talk. See [Pricing](/slingshot-rental/pricing/) for a full comparison against typical Dallas–Fort Worth rental rates, or [Slingshot Rental](/slingshot-rental/) for the full package lineup, including seasonal and group options.
+Riding with a group of up to four? Book both Slingshots for the same time, or email [info@ennisslingshot.com](mailto:info@ennisslingshot.com) and we'll set it up.
+
+See [Pricing](/slingshot-rental/pricing/) for a full comparison against typical Dallas–Fort Worth rental rates, or [Slingshot Rental](/slingshot-rental/) for more on each package.
 
 ## Gift cards
 
-Gift cards are available for any package and make a straightforward gift for a birthday, anniversary, or just-because occasion — the recipient picks their own date once bookings are open. Contact us through this page or [Contact](/contact/) to arrange one.
-
-## Booking calendar
-
-Select your package and available time below to complete your booking.
-
-*(Booking calendar loads here.)*
+Gift cards make a great gift for a birthday, anniversary, or just-because occasion. [Email info@ennisslingshot.com](mailto:info@ennisslingshot.com?subject=Slingshot%20gift%20card) to order a gift card for any package (Drive & Go, Solo or Driver + Rider) — the recipient picks their own April date. Gift cards are good for the 2027 season; more on the [gift cards page](/slingshot-rental/gift-cards/).
 
 ## Before you book
 
@@ -52,4 +38,4 @@ If you're not sure which package fits your plans, [Requirements](/slingshot-rent
 
 ## Ready when you are
 
-Pick a package above, or read more about the [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) before you commit to a date.
+[Pick a package in the booking calendar](#booking) at the top of this page, or read more about the [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) before you commit to a date.

@@ -16,7 +16,12 @@ faqs:
     answer: "Drive & Go is built as a one-driver, one-hour package. If you want to ride two-up, the 2-hour Bluebonnet Trail Experience is designed for a driver and a passenger and covers more of the trail route at a similar per-hour price."
   - question: "How much time do I actually get behind the wheel?"
     answer: "Plan to arrive 15 minutes before your slot for check-in and a quick safety briefing; the 60 minutes on the trail starts after that. It's enough time for a real driving loop and a photo stop, without the commitment of a longer package."
-updatedDate: "2026-09-05"
+cta:
+  headline: "One hour behind the wheel"
+  body: "Self-drive a Polaris Slingshot through the Ennis Bluebonnet Trails for $69.99, April 1–30, 2027 — insurance included, no deposit, no motorcycle license needed."
+  buttonLabel: "Book Drive & Go"
+  href: "/book/?package=drive-and-go"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Drive & Go"
 ---
@@ -62,7 +67,7 @@ Plan to be at the Ennis Welcome Center 15 minutes before your slot. We'll check 
 
 ## What Drive & Go doesn't include
 
-To keep this honest: 60 minutes doesn't cover the entire Bluebonnet Trail system, and it's a one-driver package, so it's not the pick if you want to bring someone along in the passenger seat. It also doesn't include the guided photo stop that comes with [Golden Hour Date Night](/slingshot-rental/date-night/) or the trail map that ships with the 2-hour packages. If any of that matters more to you than speed and price, the [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) is the better starting point.
+To keep this honest: 60 minutes doesn't cover the entire Bluebonnet Trail system, and it's a one-driver package, so it's not the pick if you want to bring someone along in the passenger seat. It also doesn't include the printed trail map that comes with the 2-hour packages. If either of those matters more to you than speed and price, the [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) is the better starting point.
 
 ## Add a helmet
 
@@ -74,4 +79,4 @@ Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute dr
 
 ## Ready for your hour behind the wheel?
 
-[Book your Drive & Go experience](/book/) and we'll see you at the Ennis Welcome Center.
+[Book your Drive & Go hour](/book/?package=drive-and-go) and we'll see you at the Ennis Welcome Center.

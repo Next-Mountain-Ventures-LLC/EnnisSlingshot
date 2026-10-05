@@ -5,13 +5,13 @@ canonicalPath: "/blog/category/date-ideas/"
 h1: "Date Ideas"
 hub: null
 schemaType: "CollectionPage"
-updatedDate: "2026-09-05"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Date Ideas"
 ---
 
 ## Occasions, date nights & experience gifts
 
-This category covers date ideas, anniversary and birthday inspiration, and experience-gift guides for Dallas–Fort Worth couples looking for something more memorable than dinner and a movie. Posts here draw on what actually gets booked for occasions in this category — birthdays, anniversaries, and surprise gifts are consistently the most common reasons people book a Slingshot experience, both here in Ennis and across the category nationally.
+This category covers date ideas, anniversary and birthday inspiration, and experience-gift guides for Dallas–Fort Worth couples looking for something more memorable than dinner and a movie. Birthdays, anniversaries, and surprise gifts are the most common reasons people book a Slingshot ride with us — so that's what you'll find here.
 
-Expect roundups of Dallas date ideas by vibe and budget, gift-giving guides timed to December and February, and honest looks at what makes an "experience gift" land better than a physical one. If you're planning an occasion of your own, see our [Golden Hour Date Night package](/slingshot-rental/date-night/) or [Gift Cards](/slingshot-rental/gift-cards/) for a ready-made way to give the experience rather than just read about it.
+Expect roundups of Dallas date ideas by vibe and budget, holiday and Valentine's gift guides, and honest looks at what makes an "experience gift" land better than a physical one. If you're planning an occasion of your own, the two-person [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) — two hours on the trails for $149, April 1–30, 2027 — is a ready-made date; see [Date Night](/slingshot-rental/date-night/) for how couples plan it, or [Gift Cards](/slingshot-rental/gift-cards/) if you'd rather give it (order any package by email).

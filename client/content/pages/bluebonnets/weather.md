@@ -8,23 +8,28 @@ schemaType: "Article"
 island: "Weather"
 faqs:
   - question: "What's the weather like in Ennis in April?"
-    answer: "Average high around 78°F, average low around 55°F, with roughly a 26% chance of measurable rain on any given day, based on climate-normal data compiled from Wanderlog/WeatherSpark. Most days are comfortable for an outdoor drive."
+    answer: "Average high around 78°F, average low around 55°F, with roughly a 26% chance of measurable rain on any given day, based on long-term climate averages. Most days are comfortable for an outdoor drive."
   - question: "Does rain ruin the bluebonnets?"
     answer: "A single rainy day doesn't hurt the flowers — bluebonnets are a spring wildflower used to April showers. What actually affects bloom quality is rainfall the previous fall and winter, since that's when the seeds germinate."
   - question: "What should I wear on the trails in April?"
     answer: "Layers work best given the 78°F/55°F swing between afternoon and morning. Add sunscreen and sunglasses for open-field sun, and closed-toe shoes since most photo stops are roadside grass or gravel rather than paved paths."
   - question: "Do you cancel Slingshot rides for rain?"
-    answer: "We operate rain or shine unless conditions are genuinely unsafe. If we do need to cancel for weather or a mechanical issue, guests get a full reschedule at no cost rather than a refund — see our ride/no-ride policy below."
+    answer: "We operate rain or shine unless conditions are genuinely unsafe. If we do need to cancel for weather or a mechanical issue, guests get a full reschedule at no cost rather than a refund — see our ride/no-ride policy above."
   - question: "Is there a 10-day forecast for Ennis?"
-    answer: "Yes — the forecast widget on this page pulls a live 10-day outlook. Climate normals below are useful for planning months out; the forecast widget is more accurate once you're inside a 10-day window of your trip."
-updatedDate: "2026-09-05"
+    answer: "Yes — the forecast widget at the top of this page pulls a live 10-day outlook. The April climate normals are useful for planning months out; the forecast is more accurate once you're inside a 10-day window of your trip."
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Weather"
+cta:
+  headline: "Pack a layer, then book your ride"
+  body: "April in Ennis is mostly mild with cool mornings, which suits our 2-hour self-drive Bluebonnet Trail Experience in an open-cockpit Polaris Slingshot — rides run April 1–30, 2027, insurance included, no deposit."
+  buttonLabel: "Book your April ride"
+  href: "/book/?package=solo"
 ---
 
 ## What's the weather like right now
 
-Check the forecast widget above for the current 10-day outlook for Ennis, TX (zip 75119). Below, we cover April climate normals for trip planning further out, plus our ride/no-ride and reschedule policy for anyone booking a Slingshot experience. For the full trail overview and dates, see our [pillar guide](/bluebonnets/); if you're planning a longer trip, our [things to do in Ennis guide](/ennis/) covers the rest of town.
+Check the forecast widget above for the current 10-day outlook for Ennis, TX (zip 75119). Below, we cover April climate normals for trip planning further out, plus our ride/no-ride and reschedule policy for anyone booking a Slingshot experience. For the full trail overview and dates, see our [complete Ennis Bluebonnet Trails guide](/bluebonnets/); if you're planning a longer trip, our [things to do in Ennis guide](/ennis/) covers the rest of town.
 
 ## April climate normals for Ennis
 
@@ -36,7 +41,7 @@ Bluebonnet season falls almost entirely within April, and the climate pattern is
 | Average low | 55°F |
 | Chance of measurable rain on a given day | ~26% |
 
-These figures are climate normals — long-run averages, not a forecast for any specific date — compiled from Wanderlog/WeatherSpark. In practical terms: expect comfortable daytime temperatures most of the month, cool mornings that warrant a light layer, and roughly a one-in-four chance any given day brings some rain. That's not high enough to plan your whole trip around avoiding rain, but high enough that packing for it makes sense.
+These figures are climate normals — long-run averages, not a forecast for any specific date. In practical terms: expect comfortable daytime temperatures most of the month, cool mornings that warrant a light layer, and roughly a one-in-four chance any given day brings some rain. That's not high enough to plan your whole trip around avoiding rain, but high enough that packing for it makes sense.
 
 ## Does rain affect the bluebonnets themselves
 
@@ -74,4 +79,4 @@ We operate **rain or shine** unless conditions are genuinely unsafe for an open-
 
 ## See the trails from a Slingshot
 
-An open-cockpit Polaris Slingshot means weather matters more than it would in a sedan — which is exactly why we built this page and the policy above. See the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for pricing, availability, and full booking terms.
+An open-cockpit Polaris Slingshot means weather matters more than it would in a sedan — which is exactly why we spell out the policy above. Our self-drive 2-hour Bluebonnet Trail Experience runs April 1–30, 2027 from the Ennis Welcome Center: book a [Solo ride ($79)](/book/?package=solo) or [Driver + Rider ($149)](/book/?package=two-up), or see the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for full details and booking terms.

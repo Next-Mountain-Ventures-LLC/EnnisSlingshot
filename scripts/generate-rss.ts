@@ -5,11 +5,13 @@
  *
  * - Newest 20 posts; <link>/<guid> use the canonical site URL, never the
  *   WordPress permalink.
- * - <category> lists only the visible site categories — the routing category
- *   ("EnnisSlingshot.com") is never emitted.
+ * - <category> lists only the five site categories — the routing category
+ *   ("EnnisSlingshot.com") and workflow terms ("Needs Attention") are never emitted.
+ * - <lastBuildDate> is the newest max(updatedDate, pubDate) across posts.
  * - <content:encoded> is the markdown body rendered with the same
  *   react-markdown + remark-gfm stack the site uses, HTML comments stripped,
- *   relative links/images absolutized.
+ *   relative links/images absolutized, and links to not-yet-published pages
+ *   unlinked (same rule as MarkdownBody).
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -46,26 +48,70 @@ function absolutize(url: string): string {
   return url;
 }
 
+/**
+ * Prerendered routes from dist/route-manifest.json (written by
+ * scripts/generate-seo-files.ts earlier in the build chain). null when it is
+ * missing, in which case internal links are left as-is.
+ */
+const KNOWN_ROUTES: Set<string> | null = (() => {
+  try {
+    const { routes } = JSON.parse(fs.readFileSync(path.join(ROOT, "dist", "route-manifest.json"), "utf8")) as {
+      routes: { path: string }[];
+    };
+    return new Set(routes.map((r) => r.path));
+  } catch {
+    return null;
+  }
+})();
+
+const SELF_ORIGIN = /^https?:\/\/(?:www\.)?ennisslingshot\.com(?=[/?#]|$)/i;
+
+/** Same rule as MarkdownBody on the site: internal links to pages that aren't published yet become plain text. */
+function isDeadInternalLink(href: string | undefined): boolean {
+  if (!href || !KNOWN_ROUTES) return false;
+  const local = SELF_ORIGIN.test(href) ? href.replace(SELF_ORIGIN, "") || "/" : href;
+  if (!local.startsWith("/") || local.startsWith("//")) return false;
+  const pathname = local.split(/[?#]/)[0] || "/";
+  if (/\.[a-z0-9]+$/i.test(pathname)) return false;
+  const alt = pathname.endsWith("/") ? pathname.replace(/\/+$/, "") || "/" : `${pathname}/`;
+  return !KNOWN_ROUTES.has(pathname) && !KNOWN_ROUTES.has(alt);
+}
+
+function FeedLink({ node: _node, href, children, ...rest }: React.ComponentPropsWithoutRef<"a"> & { node?: unknown }) {
+  if (isDeadInternalLink(href)) return React.createElement(React.Fragment, null, children);
+  return React.createElement("a", { href, ...rest }, children);
+}
+
 function bodyHtml(post: LoadedPost): string {
   const markdown = post.body.replace(/<!--[\s\S]*?-->/g, "");
   const html = renderToStaticMarkup(
-    React.createElement(ReactMarkdown, { remarkPlugins: [remarkGfm] }, markdown),
+    React.createElement(ReactMarkdown, { remarkPlugins: [remarkGfm], components: { a: FeedLink } }, markdown),
   );
   return html
     .replace(/(href|src)="\/([^"]*)"/g, (_m, attr, rest) => `${attr}="${SITE_URL}/${rest}"`);
 }
 
-/** Visible site-category names for a post (routing category stripped, duplicates collapsed). */
+/**
+ * Visible site-category names for a post: only terms that map onto one of the
+ * five site categories (routing category and WordPress workflow terms like
+ * "Needs Attention" are dropped), duplicates collapsed.
+ */
 function visibleCategories(post: LoadedPost): string[] {
   const out: string[] = [];
   post.data.categories.forEach((name, i) => {
     const slug = post.data.categorySlugs[i];
     if (isRoutingCategory({ name, slug })) return;
     const site = (slug ? resolveBlogCategory(slug) : undefined) ?? resolveBlogCategory(name);
-    const label = site?.name ?? name;
-    if (!out.includes(label)) out.push(label);
+    if (!site) return;
+    if (!out.includes(site.name)) out.push(site.name);
   });
   return out;
+}
+
+/** Later of updatedDate and pubDate (WordPress can sync an updatedDate from before a scheduled publish date). */
+function lastModified(post: LoadedPost): Date {
+  const { pubDate, updatedDate } = post.data;
+  return updatedDate && updatedDate > pubDate ? updatedDate : pubDate;
 }
 
 /** Local prebuilt hero (public/blog-images/<postId>.webp) → remote heroImage → none. */
@@ -105,7 +151,9 @@ function item(post: LoadedPost): string {
 }
 
 export function buildRss(posts: LoadedPost[]): string {
-  const latest = posts[0]?.data.updatedDate ?? posts[0]?.data.pubDate ?? new Date();
+  const latest = posts.length
+    ? new Date(Math.max(...posts.map((p) => lastModified(p).getTime())))
+    : new Date();
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>

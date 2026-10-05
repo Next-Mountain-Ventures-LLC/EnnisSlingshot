@@ -12,14 +12,19 @@ faqs:
     answer: "The festival features 13 or more polka bands, a parade, and Czech food throughout downtown Ennis, drawing tens of thousands of visitors depending on the year."
   - question: "Is the National Polka Festival related to the Bluebonnet Trails?"
     answer: "No — they're separate events on separate calendars. The Bluebonnet Trails and Festival run in April; the National Polka Festival is a later-spring event on Memorial Day weekend, rooted in Ennis's Czech heritage rather than its wildflowers."
-updatedDate: "2026-09-05"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "National Polka Festival"
+cta:
+  headline: "Come for polka, come back for bluebonnets"
+  body: "Our self-drive Slingshot rides run only while the Bluebonnet Trails are open, so make it two Ennis trips in 2027: drive the trails yourself April 1–30, then come back for the polka on Memorial Day weekend."
+  buttonLabel: "Book an April 2027 ride"
+  href: "/book/?package=two-up"
 ---
 
 ## What the National Polka Festival is
 
-The National Polka Festival is Ennis's Memorial Day weekend tradition, celebrating the Czech and Moravian heritage that shaped the town — the same heritage documented year-round at the [Ennis Railroad & Cultural Heritage Museum](/ennis/downtown/) and the Czech Museum at Sokol Hall. The festival features 13 or more polka bands, a parade, and Czech food throughout downtown, with attendance reported in the tens of thousands depending on the year and source. This page is part of our [Things to Do in Ennis hub](/ennis/).
+The National Polka Festival is Ennis's Memorial Day weekend tradition, celebrating the Czech and Moravian heritage that shaped the town — the same heritage documented year-round at the [Ennis Railroad & Cultural Heritage Museum](/ennis/downtown/) and the Czech Museum at Sokol Hall. The festival features 13 or more polka bands, a parade, and Czech food throughout downtown, drawing tens of thousands of visitors every year. For more to do while you're in town, see our full list of [things to do in Ennis](/ennis/).
 
 ## What to expect
 
@@ -36,16 +41,9 @@ It's easy to conflate Ennis's two big festivals, but they're unrelated events on
 
 Memorial Day weekend also happens to be the last weekend of Scarborough Renaissance Festival in nearby Waxahachie, about 15 minutes away — a possible pairing if you want to build a longer trip around the holiday. See our [Ennis + Waxahachie weekend itinerary](/ennis/weekend-itinerary/) for how the two towns fit together, and [Where to Stay](/ennis/where-to-stay/) if you're staying overnight.
 
-## FAQ
+## Make it two Ennis trips
 
-**When is the National Polka Festival in Ennis, TX?**
-The National Polka Festival is held every Memorial Day weekend in downtown Ennis, celebrating the town's Czech and Moravian heritage.
-
-**What happens at the National Polka Festival?**
-The festival features 13 or more polka bands, a parade, and Czech food throughout downtown Ennis, drawing tens of thousands of visitors depending on the year.
-
-**Is the National Polka Festival related to the Bluebonnet Trails?**
-No — they're separate events on separate calendars. The [Bluebonnet Trails and Festival](/bluebonnets/) run in April; the National Polka Festival is a later-spring event on Memorial Day weekend, rooted in Ennis's Czech heritage rather than its wildflowers.
+You won't find our Slingshots out on Polka weekend — we only run during bluebonnet season, while the Ennis Bluebonnet Trails are open (April 1–30, 2027). If you're planning a 2027 visit, come in April to drive the trails yourself in an open-cockpit Polaris Slingshot, then come back on Memorial Day weekend for the polka. See the [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) for details.
 
 ## Plan the rest of your visit
 

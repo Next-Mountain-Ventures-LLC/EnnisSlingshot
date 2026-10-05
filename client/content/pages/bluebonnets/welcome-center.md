@@ -13,27 +13,32 @@ faqs:
   - question: "What should I pick up at the Welcome Center?"
     answer: "A free printed Bluebonnet Trail map, a current bloom-condition read from staff on which loop is looking best, and a stop at the restroom before a rural drive with few facilities. It's also where the free Ennis Y'all app's GPS trail map is worth downloading while you have wifi."
   - question: "Is the Welcome Center where the trails start?"
-    answer: "Yes — it's the standard starting point for all three loops (North, South, and West), and it's also where our guided Slingshot rides stage from."
+    answer: "Yes — it's the standard starting point for all three loops (North, South, and West), and it's also where every Ennis Slingshot Experience self-drive ride starts."
   - question: "Do I need to stop at the Welcome Center before driving the trails?"
     answer: "It's not required, but it's the recommended first stop for nearly every guide, including the Ennis Garden Club's own materials — the map and current bloom read make the rest of your visit noticeably easier."
-updatedDate: "2026-09-05"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Welcome Center"
+cta:
+  headline: "Your Slingshot ride starts right here"
+  body: "Check in at the Ennis Welcome Center, 201 NW Main St, for a short orientation, then drive the Bluebonnet Trails yourself in an open-cockpit Polaris Slingshot, April 1–30, 2027 — insurance included, no deposit."
+  buttonLabel: "Book your ride from here"
+  href: "/book/?package=solo"
 ---
 
 ## Ennis Welcome Center: the basics
 
-| | |
+| Ennis Welcome Center | Details |
 |---|---|
 | Address | 201 NW Main St, Ennis, TX 75119 |
 | Phone | (972) 878-4748 |
 | April hours | Mon–Fri 8am–6pm, Sat 9am–5pm, Sun 11am–4pm |
 
-Source: [bluebonnettrail.org](https://bluebonnettrail.org/). Hours reflect bluebonnet season (April); if you're visiting outside the trail season, call ahead to confirm current hours.
+Hours are the April bluebonnet-season hours listed on [bluebonnettrail.org](https://bluebonnettrail.org/); if you're visiting outside the trail season, call ahead to confirm current hours.
 
 ## Why nearly every guide sends you here first
 
-Every trail guide we've found, including the [Ennis Garden Club's](https://bluebonnettrail.org/) own materials, points first-time visitors to the same starting line: the Ennis Welcome Center. There are three practical reasons for that:
+Every trail guide, including the [Ennis Garden Club's](https://bluebonnettrail.org/) own materials, points first-time visitors to the same starting line: the Ennis Welcome Center. There are three practical reasons for that:
 
 1. **The free printed map.** Digital maps are useful, but the paper version survives a dead phone battery and doesn't depend on cell signal, which thins out on parts of the West and South loops.
 2. **A current bloom read.** Staff drive or hear reports on the trails regularly during the season and can tell you which loop is actually blooming well that week — something no static map can capture, since bloom timing shifts year to year and even week to week.
@@ -56,11 +61,11 @@ If you're passing through Ennis outside the height of bloom season — early Apr
 
 ## What the Welcome Center is not
 
-It's worth being clear about scope: the Welcome Center is a visitor information point, not a trailhead with parking lots, guided tours, or paid attractions of its own. There's no admission fee, no scheduled walking tours, and no vehicle rentals on site — it's a map-and-information stop, plus restrooms, before you head out on your own or with a booked experience like ours. If you're looking for guided access to the trails rather than a self-drive, that's arranged separately (see below), not through the Welcome Center itself.
+It's worth being clear about scope: the Welcome Center is a visitor information point, not a trailhead with parking lots, guided tours, or paid attractions of its own. There's no admission fee, no scheduled walking tours, and no vehicle rentals on site — it's a map-and-information stop, plus restrooms, before you head out on your own or with a booked experience like ours. If you want to drive the trails in a Polaris Slingshot, that's booked with us (see below), not through the Welcome Center itself.
 
 ## Our Slingshots stage here
 
-If you've booked a guided [Polaris Slingshot](/slingshot-rental/bluebonnet-trail-experience/) Bluebonnet Trail Experience with us, the Welcome Center area is also where your ride stages from — the same starting point as everyone driving the loops themselves. Arrive a few minutes early, since orientation and a safety briefing happen before you head out on the trail.
+If you've booked a self-drive [Polaris Slingshot](/slingshot-rental/bluebonnet-trail-experience/) Bluebonnet Trail Experience with us, the Welcome Center area is also where your ride stages from — the same starting point as everyone driving the loops themselves. Arrive a few minutes early, since orientation and a safety briefing happen before you head out on the trail.
 
 ## What's nearby
 
@@ -72,8 +77,8 @@ Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute dr
 
 ## Planning your visit around the Welcome Center
 
-For the full trail overview, dates, and what to expect once you leave the Welcome Center, see our [pillar guide](/bluebonnets/). For the exact loop routes and pinned photo stops, see the [interactive trail map](/bluebonnets/trail-map/). And if you're timing your trip around peak bloom, check the [Bloom Tracker](/bluebonnets/bloom-tracker/) before you go — the Welcome Center's own weekly reports are one of our sources for that page.
+For the full trail overview, dates, and what to expect once you leave the Welcome Center, see our [complete Ennis Bluebonnet Trails guide](/bluebonnets/). For the exact loop routes and pinned photo stops, see the [interactive trail map](/bluebonnets/trail-map/). And if you're timing your trip around peak bloom, check the [Bloom Tracker](/bluebonnets/bloom-tracker/) before you go — it's built on the same weekly Garden Club reports posted at the Welcome Center.
 
 ## See the trails from a Slingshot
 
-Our guided 2-hour Bluebonnet Trail Experience starts right here at the Welcome Center — no motorcycle license required, insurance included. See the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for pricing and availability.
+Our self-drive 2-hour Bluebonnet Trail Experience starts right here at the Welcome Center — no motorcycle license required, insurance included. Rides run April 1–30, 2027: book a [Solo ride ($79)](/book/?package=solo) or [Driver + Rider ($149)](/book/?package=two-up), or see the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for the full details.

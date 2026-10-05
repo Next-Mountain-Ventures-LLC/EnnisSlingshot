@@ -1,6 +1,6 @@
 ---
 title: "Things to Do in Ennis, TX (2026–2027): Bluebonnets, Motorplex, Polka & More"
-metaDescription: "20+ ranked things to do in Ennis, TX — bluebonnet trails, Texas Motorplex, National Polka Festival, historic downtown, day trips, and more. Plan your visit."
+metaDescription: "20 ranked things to do in Ennis, TX — bluebonnet trails, Texas Motorplex, National Polka Festival, historic downtown, day trips, and more. Plan your visit."
 canonicalPath: "/ennis/"
 h1: "Things to Do in Ennis, TX"
 hub: "ennis"
@@ -14,21 +14,26 @@ faqs:
     answer: "Yes. Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute drive, which makes it an easy half-day or full-day trip. See our hour-by-hour Dallas-to-Ennis itinerary for how to structure the visit."
   - question: "What's a fun, slightly different thing to do in Ennis?"
     answer: "Drive yourself along the Bluebonnet Trails in a Polaris Slingshot. Ennis Slingshot Experience runs 1–2 hour self-drive experiences from the Ennis Welcome Center during April, with insurance included and no motorcycle license required."
-updatedDate: "2026-09-05"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Ennis, TX"
+cta:
+  headline: "Put a Slingshot drive on your Ennis list"
+  body: "The Bluebonnet Trails top this list, and from April 1–30, 2027 you can drive them yourself in an open-cockpit Polaris Slingshot — one or two hours from the Ennis Welcome Center downtown, from $69.99, insurance included."
+  buttonLabel: "Book your April ride"
+  href: "/book/"
 ---
 
 ## The best things to do in Ennis, TX, ranked
 
-Ennis, Texas sits in Ellis County about 35 miles south of downtown Dallas on I-45 — close enough for a day trip, distinctive enough to fill a whole weekend. The town is best known as the Official Bluebonnet City of Texas, home to the Ennis Bluebonnet Trails and Festival every April, but it also hosts an NHRA-sanctioned drag strip, a Czech-heritage festival with roots going back decades, a walkable historic downtown, and a lake with room for the whole family. Below are more than 20 things to do in and around Ennis, ranked roughly by how often visitors seek them out, with the best time of year to go.
+Ennis, Texas sits in Ellis County about 35 miles south of downtown Dallas on I-45 — close enough for a day trip, distinctive enough to fill a whole weekend. The town is best known as the Official Bluebonnet City of Texas, home to the Ennis Bluebonnet Trails and Festival every April, but it also hosts an NHRA-sanctioned drag strip, a Czech-heritage festival with roots going back decades, a walkable historic downtown, and a lake with room for the whole family. Below are 20 things to do in and around Ennis, ranked roughly by how often visitors seek them out, with the best time of year to go.
 
-We built this list around what actually shows up in visitor searches, city and tourism sources, and outside coverage of Ennis — not a generic "top things to do" template. That's why the bluebonnet-related entries sit at the top: they're genuinely what most people are looking for when they search for Ennis in the first place. Everything below the fold still holds up the rest of the year, whether or not you're chasing wildflowers.
+The bluebonnet entries sit at the top because they're what put Ennis on the map — but everything further down the list holds up the rest of the year, whether or not you're chasing wildflowers.
 
 | # | Attraction | Best time | Category |
 |---|---|---|---|
 | 1 | Ennis Bluebonnet Trails | April | Nature / scenic drive |
-| 2 | Ennis Bluebonnet Trails Festival | Mid-April | Festival |
+| 2 | Ennis Bluebonnet Trails Festival | Mid-April (expected April 17–19, 2027) | Festival |
 | 3 | Historic Downtown Ennis & Dallas Street | Year-round | Shopping / dining |
 | 4 | Texas Motorplex | Feb–Nov (peak Mar & Oct) | Motorsports |
 | 5 | Drive a Slingshot on the trails | April | Experience |
@@ -54,7 +59,7 @@ The reason most people find Ennis in the first place. The Ennis Garden Club main
 
 ### 2. Ennis Bluebonnet Trails Festival
 
-The trails' companion event, typically held mid-April in downtown Ennis (historically the second or third weekend; 2027 dates hadn't been announced as of this writing). Recent years have run Friday and Saturday 10 am–9 pm and Sunday 10 am–6 pm, with a modest gate admission and free entry for young kids. Expect a parade, live music, arts and crafts vendors, food, and a genuinely packed downtown — this is the busiest weekend of the Ennis year, so plan parking and timing accordingly, and arrive early if you want to avoid the tightest crowds. Details, when announced, will be on the [bluebonnets hub](/bluebonnets/).
+The trails' companion event, held in downtown Ennis in mid-April — the 2027 festival is expected April 17–19, 2027 (dates subject to change — confirm on [bluebonnettrail.org](https://bluebonnettrail.org/) before you travel). Recent years have run Friday and Saturday 10 am–9 pm and Sunday 10 am–6 pm, with a modest gate admission and free entry for young kids. Expect a parade, live music, arts and crafts vendors, food, and a genuinely packed downtown — this is the busiest weekend of the Ennis year, so plan parking and timing accordingly, and arrive early if you want to avoid the tightest crowds. See our [Ennis Bluebonnet Trails Festival guide](/bluebonnets/festival/) for parking, hours, and what to expect.
 
 ### 3. Historic Downtown Ennis & Dallas Street
 
@@ -62,15 +67,15 @@ Ennis's downtown historic district centers on Dallas Street and the surrounding 
 
 ### 4. Texas Motorplex
 
-An all-concrete NHRA "super track" and one of the sport's premier drag strips, drawing more than 500,000 fans a year across a season that runs roughly February through November. The NHRA Fall Nationals in October is the marquee weekend, and search interest in the track itself peaks in both March and October — the two months bracketing its busiest racing. Even on a non-race day, it's worth knowing what else is nearby if you're in town for the track. Full guide: [Texas Motorplex](/ennis/texas-motorplex/).
+An all-concrete NHRA "super track" and one of the sport's premier drag strips, drawing more than 500,000 fans a year across a season that runs roughly February through November. The NHRA Fall Nationals in October is the marquee weekend, and crowds peak in both March and October — the two months bracketing its busiest racing. Even on a non-race day, it's worth knowing what else is nearby if you're in town for the track. Full guide: [Texas Motorplex](/ennis/texas-motorplex/).
 
 ### 5. Drive a Slingshot on the trails
 
-We'll be straightforward about this one since we run it: [Ennis Slingshot Experience](/slingshot-rental/) offers 1–2 hour self-drive experiences on the Bluebonnet Trails in a Polaris Slingshot, an open-cockpit three-wheeler that drives like a car — no motorcycle license needed, insurance included. Packages start at $69.99 for a one-hour Drive & Go and run to $149 for a two-hour, two-person Bluebonnet Trail Experience, with every rental starting at the Ennis Welcome Center. It's a seasonal, April-only experience, and it's one option among many on this list, not the only reason to visit Ennis. If you're already coming for the bluebonnets, it's a way to see the trails from behind the wheel instead of through a windshield. See the [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) for details.
+We'll be straightforward about this one since we run it: [Ennis Slingshot Experience](/slingshot-rental/) offers 1–2 hour self-drive experiences on the Bluebonnet Trails in a Polaris Slingshot, an open-cockpit three-wheeler that drives like a car — no motorcycle license needed, insurance included. Packages start at $69.99 for a one-hour Drive & Go and run to $149 for a two-hour, two-person Bluebonnet Trail Experience, with every rental starting at the Ennis Welcome Center. It runs every April while the trails are open — April 1–30 in 2027. If you're already coming for the bluebonnets, it's a way to see the trails from behind the wheel instead of through a windshield. See the [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) for details.
 
 ### 6. National Polka Festival
 
-A Memorial Day weekend tradition rooted in Ennis's Czech and Moravian heritage, with 13 or more polka bands, a parade, and Czech food throughout downtown. City and festival sources put attendance in the tens of thousands, with the festival now in its sixth decade. It's a completely different flavor of Ennis than April's bluebonnets — later spring, different crowd, and a genuinely distinct piece of Texas cultural history that's easy to miss if you only associate Ennis with wildflowers. Full guide: [National Polka Festival](/ennis/national-polka-festival/).
+A Memorial Day weekend tradition rooted in Ennis's Czech and Moravian heritage, with 13 or more polka bands, a parade, and Czech food throughout downtown. Attendance runs in the tens of thousands, with the festival now in its sixth decade. It's a completely different flavor of Ennis than April's bluebonnets — later spring, different crowd, and a genuinely distinct piece of Texas cultural history that's easy to miss if you only associate Ennis with wildflowers. Full guide: [National Polka Festival](/ennis/national-polka-festival/).
 
 ### 7. Ennis Railroad & Cultural Heritage Museum
 
@@ -94,7 +99,7 @@ A 47-acre city park that doubles as a reliable bluebonnet photo location in Apri
 
 ### 12. Sugar Ridge Winery
 
-A family-run winery in Bristol, just off I-45 on Sugar Ridge Road (part of the north Bluebonnet Trail loop), known for handcrafted, fruit-forward wines and a patio with live music on weekends. It only opens Saturday and Sunday, so plan around that if it's on your list. It's the most frequently mentioned Ennis-area business in outside bluebonnet coverage — worth a stop after, not before, any driving.
+A family-run winery in Bristol, just off I-45 on Sugar Ridge Road (part of the north Bluebonnet Trail loop), known for handcrafted, fruit-forward wines and a patio with live music on weekends. It only opens Saturday and Sunday, so plan around that if it's on your list. It's one of the best-loved stops on the Bluebonnet Trails — worth a stop after, not before, any driving.
 
 ### 13. Galaxy Drive-In
 
@@ -143,21 +148,3 @@ About 18 miles south of Ennis on I-45, Corsicana adds the Collin Street Bakery (
 ## Planning your visit
 
 Most of what's on this list clusters around two seasons: April (bluebonnets, the festival, Scarborough Faire's opening weekends) and race weekends at Texas Motorplex (peak in March and October) or Memorial Day (the National Polka Festival). Outside of those windows, downtown Ennis, its museums, and Lake Bardwell are dependable year-round options. If you're coming from Dallas, our [day-trip itinerary](/ennis/day-trip-from-dallas/) walks through an hour-by-hour plan; if you want a fuller weekend with Waxahachie folded in, see the [weekend itinerary](/ennis/weekend-itinerary/). For logistics — where to eat, where to stay, and what's happening on the day you're visiting — see [Where to Eat](/ennis/where-to-eat/), [Where to Stay](/ennis/where-to-stay/), and the [Events Calendar](/ennis/events/).
-
-## FAQ
-
-**What is Ennis, TX known for?**
-Ennis is the Texas Legislature's designated Official Bluebonnet City of Texas and home to the Ennis Bluebonnet Trails — more than 40 miles of mapped driving loops that peak in April. It's also home to Texas Motorplex, an NHRA drag-racing venue, and the National Polka Festival, a Czech-heritage celebration held every Memorial Day weekend.
-
-**What is the best time of year to visit Ennis, TX?**
-April is Ennis's signature month — the Bluebonnet Trails are open April 1–30, bloom typically peaks around the third week, and the Ennis Bluebonnet Trails Festival caps the season. October (Texas Motorplex's Fall Nationals) and Memorial Day weekend (National Polka Festival) are the next-best windows if bluebonnets aren't the draw.
-
-**Is Ennis, TX worth a day trip from Dallas?**
-Yes. Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute drive, which makes it an easy half-day or full-day trip. See our [hour-by-hour Dallas-to-Ennis itinerary](/ennis/day-trip-from-dallas/) for how to structure the visit.
-
-**What's a fun, slightly different thing to do in Ennis?**
-Drive yourself along the Bluebonnet Trails in a Polaris Slingshot. [Ennis Slingshot Experience](/slingshot-rental/) runs 1–2 hour self-drive experiences from the Ennis Welcome Center during April, with insurance included and no motorcycle license required.
-
-## Plan your Ennis trip
-
-Whether you're here for the bluebonnets, the Motorplex, or a full weekend with Waxahachie, [book a Slingshot experience](/book/) to see the Bluebonnet Trails from the driver's seat, or start with the [Ennis Bluebonnet Trails & Festival guide](/bluebonnets/) for the full seasonal picture.

@@ -5,13 +5,13 @@ canonicalPath: "/blog/category/ennis-dfw/"
 h1: "Ennis & DFW"
 hub: null
 schemaType: "CollectionPage"
-updatedDate: "2026-09-05"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Ennis & DFW"
 ---
 
 ## Day trips, events, and local guides
 
-This category covers Ennis and the surrounding DFW region beyond bluebonnet season — day-trip guides, Texas Motorplex race-weekend coverage, the National Polka Festival, downtown guides, and everything else that makes Ennis and Ellis County worth a visit year-round. Some posts are dated and seasonal (a race-weekend preview, a festival recap); for the always-current, non-dated version of this content, see our [Things to Do in Ennis hub](/ennis/), which is updated as attractions and details change rather than tied to a publish date.
+This category covers Ennis and the surrounding DFW region beyond bluebonnet season — day-trip guides, Texas Motorplex race-weekend coverage, the National Polka Festival, downtown guides, and everything else that makes Ennis and Ellis County worth a visit year-round. For an always-up-to-date overview, start with our guide to [things to do in Ennis](/ennis/).
 
 If you're planning a trip from Dallas, Fort Worth, or Arlington, these posts pair naturally with our [day-trip itinerary](/ennis/day-trip-from-dallas/) and [Slingshot Rental Near Dallas](/slingshot-rental/near-dallas/) pages for logistics and booking, and with the [weekend itinerary](/ennis/weekend-itinerary/) if you're staying overnight and pairing Ennis with Waxahachie.

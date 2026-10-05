@@ -13,12 +13,17 @@ faqs:
   - question: "Who maintains the Ennis Bluebonnet Trails?"
     answer: "The Ennis Garden Club, continuously since 1951 — the same organization that started the trails still drives, maps, and reports on them today."
   - question: "Are the Ennis Bluebonnet Trails the oldest in Texas?"
-    answer: "The Ennis Garden Club describes them as the oldest such trails known in the State of Texas. We haven't independently verified every competing claim, but no earlier-established Texas bluebonnet trail system has surfaced in our research."
+    answer: "The Ennis Garden Club describes them as the oldest such trails known in the State of Texas — the club has sponsored them continuously since 1951."
   - question: "When did Ennis get its official state designation?"
     answer: "1997, when the Texas Legislature designated Ennis home of the Official Texas Bluebonnet Trail and the Official Bluebonnet City of Texas — 46 years after the Garden Club started the trails."
-updatedDate: "2026-09-05"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "History"
+cta:
+  headline: "Drive the roads the Garden Club mapped"
+  body: "Our 2-hour self-drive Bluebonnet Trail Experience follows the same historic loops from the Ennis Welcome Center in an open-cockpit Polaris Slingshot, April 1–30, 2027 — no motorcycle license needed, insurance included."
+  buttonLabel: "Book your April ride"
+  href: "/book/?package=solo"
 ---
 
 ## The short version
@@ -27,7 +32,7 @@ The Ennis Bluebonnet Trails began with the **Ennis Garden Club in 1951**, with t
 
 ## 1951: the Ennis Garden Club begins
 
-The trails trace back to the Ennis Garden Club, a local civic organization that began mapping driving routes through the wildflower fields surrounding Ennis in 1951. The club's own materials describe the resulting network as the **oldest such trails known in the State of Texas** — a claim we haven't found any earlier-established competing Texas bluebonnet trail system to challenge in our research. The following year, 1952, the first mapped trails officially opened to the public.
+The trails trace back to the Ennis Garden Club, a local civic organization that began mapping driving routes through the wildflower fields surrounding Ennis in 1951. The club's own materials describe the resulting network as the **oldest such trails known in the State of Texas**. The following year, 1952, the first mapped trails officially opened to the public.
 
 ## Early growth: 1,000 to 10,000 visitors
 
@@ -51,10 +56,10 @@ The gap between 1951 and 1997 is worth sitting with. For nearly half a century, 
 
 ## The trails today
 
-Seventy-plus years after the Garden Club's first maps, the trail system has grown into **over 40 miles** of mapped driving routes across three loops — North, South, and West — still maintained by the same club. The **Ennis Bluebonnet Festival**, a separate ticketed event held one weekend each April, has run for more than 70 editions of its own, with the most recent confirmed festival (2026) marking its 74th year. Visitor estimates today run considerably higher than the 1950s figures — Visit Ennis and Ellis County describe "tens of thousands of visitors" annually, while a 2021 report from Focus Daily News put festival weekend alone at an estimated 15,000–20,000 — though as with any large, informally counted event, sources don't always agree on an exact number. See our [pillar guide](/bluebonnets/) for the fuller discussion of visitor figures and their sources.
+Seventy-plus years after the Garden Club's first maps, the trail system has grown into **over 40 miles** of mapped driving routes across three loops — North, South, and West — still maintained by the same club. The **Ennis Bluebonnet Festival**, a separate ticketed event held one weekend each April, has run for more than 70 editions of its own, with the 2026 festival marking its 74th year and the 2027 festival (expected April 17–19, 2027, subject to change) set to be the 75th. Visitor estimates today run considerably higher than the 1950s figures — Visit Ennis and Ellis County describe "tens of thousands of visitors" annually, while a 2021 report from Focus Daily News put festival weekend alone at an estimated 15,000–20,000. See our [Ennis Bluebonnet Trails guide](/bluebonnets/) for more on who visits and when.
 
-The trails themselves remain functionally the same idea the Garden Club started in 1951: mapped rural driving loops through Ellis County wildflower fields, free to drive, open every April. What's changed is scale — a GPS-enabled Ennis Y'all app has replaced word-of-mouth directions, the [Welcome Center](/bluebonnets/welcome-center/) now formally stages thousands of visitors a season, and the trails carry a state title the original 1951 organizers never had. For the current-year trail overview, dates, and what to expect on a visit, see our [pillar guide](/bluebonnets/); for everything else Ennis has to offer beyond the trails, see our [things to do in Ennis guide](/ennis/).
+The trails themselves remain functionally the same idea the Garden Club started in 1951: mapped rural driving loops through Ellis County wildflower fields, free to drive, open every April. What's changed is scale — a GPS-enabled Ennis Y'all app has replaced word-of-mouth directions, the [Welcome Center](/bluebonnets/welcome-center/) now formally stages thousands of visitors a season, and the trails carry a state title the original 1951 organizers never had. For the current-year trail overview, dates, and what to expect on a visit, see our [complete Ennis Bluebonnet Trails guide](/bluebonnets/); for everything else Ennis has to offer beyond the trails, see our [things to do in Ennis guide](/ennis/).
 
 ## See the trails from a Slingshot
 
-Seven decades after the Garden Club first mapped these roads, we run guided rides on the same trails in an open-cockpit **Polaris Slingshot** — a different way to experience a genuinely historic Texas driving route. See the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for pricing and availability.
+Seven decades after the Garden Club first mapped these roads, you can drive the same trails yourself in an open-cockpit **Polaris Slingshot** — a different way to experience a genuinely historic Texas driving route. Our self-drive 2-hour Bluebonnet Trail Experience runs April 1–30, 2027: book a [Solo ride ($79)](/book/?package=solo) or [Driver + Rider ($149)](/book/?package=two-up), or see the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for the full details.

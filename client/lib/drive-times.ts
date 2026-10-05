@@ -1,8 +1,9 @@
 /**
  * Drive times to the Ennis Welcome Center (201 NW Main St) from DFW and
  * Texas origin cities. Source of truth: client/content/data/drive-times.json
- * (OSRM no-traffic estimates — the `note` field carries the verification
- * caveat that the DriveTimes widget must print).
+ * (OSRM no-traffic estimates; per-origin provenance in `source`, never
+ * rendered). The `note` field is the visitor-facing caveat the DriveTimes
+ * widget prints ("Drive times are typical no-traffic estimates").
  */
 import driveTimesJson from "@/content/data/drive-times.json";
 
@@ -22,7 +23,7 @@ interface DriveTimesFile {
 
 const file = driveTimesJson as DriveTimesFile;
 
-/** Verification caveat from the data file ("no-traffic estimate; verify…"). */
+/** Visitor-facing caveat from the data file ("Drive times are typical no-traffic estimates"). */
 export const DRIVE_TIMES_NOTE = file.note;
 
 /** All origins, in the order they appear in the data file. */

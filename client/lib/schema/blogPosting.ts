@@ -28,17 +28,30 @@ export function person(input: PersonInput): JsonLd {
   );
 }
 
-/** Site category names for articleSection — the routing category is never emitted. */
-function visibleSections(data: BlogFrontmatter): string[] {
+/**
+ * Site category names for articleSection: only terms that map onto one of the
+ * five site categories. The routing category and WordPress workflow terms
+ * ("Needs Attention", …) are never emitted.
+ */
+export function visibleSections(data: BlogFrontmatter): string[] {
   const out: string[] = [];
   data.categories.forEach((name, i) => {
     const slug = data.categorySlugs[i];
     if (isRoutingCategory({ name, slug })) return;
     const site = (slug ? resolveBlogCategory(slug) : undefined) ?? resolveBlogCategory(name);
-    const label = site?.name ?? name;
-    if (!out.includes(label)) out.push(label);
+    if (!site) return;
+    if (!out.includes(site.name)) out.push(site.name);
   });
   return out;
+}
+
+/**
+ * Last-modified date: the later of updatedDate and pubDate. WordPress often
+ * syncs an updatedDate from before a scheduled post's publish date, and
+ * dateModified must never precede datePublished.
+ */
+export function lastModified(data: Pick<BlogFrontmatter, "pubDate" | "updatedDate">): Date {
+  return data.updatedDate && data.updatedDate > data.pubDate ? data.updatedDate : data.pubDate;
 }
 
 function personId(name: string): string {
@@ -80,7 +93,7 @@ export function blogPosting(input: BlogPostingInput): JsonLd {
       description: data.description ?? data.excerpt,
       image: [image],
       datePublished: isoDate(data.pubDate),
-      dateModified: isoDate(data.updatedDate ?? data.pubDate),
+      dateModified: isoDate(lastModified(data)),
       author: { "@id": personId(author.name) },
       publisher: { "@id": IDS.organization },
       keywords: data.tags.length ? data.tags.join(", ") : undefined,

@@ -30,8 +30,13 @@ export function serializeJsonLd(obj: JsonLd): string {
 export interface SeoProps {
   title: string;
   description: string;
-  /** Site path ("/blog/") — absolutized to https://ennisslingshot.com for the canonical + og:url. */
-  canonicalPath: string;
+  /**
+   * Site path ("/blog/") — absolutized to https://ennisslingshot.com for the
+   * canonical + og:url. Omit it on pages that must not declare one (the 404).
+   * noindex pages get no canonical (it would contradict the noindex), but
+   * keep og:url for sharing.
+   */
+  canonicalPath?: string;
   ogImage?: string;
   ogType?: "website" | "article" | "profile" | "product";
   noindex?: boolean;
@@ -50,7 +55,7 @@ export function Seo({
   jsonLd = [],
   article,
 }: SeoProps) {
-  const canonical = absoluteUrl(canonicalPath);
+  const canonical = canonicalPath ? absoluteUrl(canonicalPath) : undefined;
   const fullTitle = title;
   const image = absoluteUrl(ogImage);
 
@@ -58,7 +63,7 @@ export function Seo({
     <Helmet>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
-      <link rel="canonical" href={canonical} />
+      {canonical && !noindex && <link rel="canonical" href={canonical} />}
       {noindex ? (
         <meta name="robots" content="noindex, nofollow" />
       ) : (
@@ -70,7 +75,7 @@ export function Seo({
       <meta property="og:locale" content="en_US" />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
-      <meta property="og:url" content={canonical} />
+      {canonical && <meta property="og:url" content={canonical} />}
       <meta property="og:image" content={image} />
       {article?.publishedTime && (
         <meta property="article:published_time" content={article.publishedTime} />

@@ -25,7 +25,9 @@ export function BloomBadge({ className, detailed = true }: BloomBadgeProps) {
     <Link
       to="/bluebonnets/bloom-tracker/"
       className={cn(
-        "inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-sm font-semibold ring-1 transition-colors hover:ring-ennis-orange",
+        // Phones: status on line 1, "updated …" on its own line (rounded box);
+        // from sm: one pill-shaped line.
+        "inline-flex max-w-full flex-wrap items-center gap-x-2 gap-y-0.5 rounded-2xl px-3 py-1.5 text-sm font-semibold ring-1 transition-colors hover:ring-ennis-orange sm:rounded-full",
         bloomStatusClasses(status),
         className,
       )}
@@ -33,14 +35,17 @@ export function BloomBadge({ className, detailed = true }: BloomBadgeProps) {
     >
       <span
         aria-hidden="true"
-        className="inline-block h-2.5 w-2.5 rounded-full"
+        className="inline-block h-2.5 w-2.5 shrink-0 rounded-full"
         style={{ background: bloomStatusColor(status), boxShadow: `0 0 0 3px ${bloomStatusColor(status)}33` }}
       />
-      <span>
-        {bloomStatus.season} bluebonnets: {bloomStatusLabel(status)}
+      <span className="min-w-0">
+        {bloomStatus.season} bluebonnets: <span className="whitespace-nowrap">{bloomStatusLabel(status)}</span>
       </span>
       {detailed && (
-        <span className="text-xs font-normal opacity-80">· updated {formatBloomDate(bloomStatus.updatedAt)}</span>
+        <span className="basis-full pl-[18px] text-xs font-normal opacity-80 sm:basis-auto sm:pl-0">
+          <span className="hidden sm:inline">· </span>updated{" "}
+          <span className="whitespace-nowrap">{formatBloomDate(bloomStatus.updatedAt)}</span>
+        </span>
       )}
     </Link>
   );

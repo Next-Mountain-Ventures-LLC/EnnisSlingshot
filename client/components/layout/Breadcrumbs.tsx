@@ -30,17 +30,21 @@ export function Breadcrumbs({
     <>
       {withSchema && <JsonLdScript data={breadcrumbList(trail)} />}
       <nav aria-label="Breadcrumb" className={`text-sm text-gray-400 ${className}`}>
-        <ol className="flex flex-wrap items-center gap-x-2 gap-y-1">
+        <ol className="flex flex-wrap items-center gap-x-2">
           {trail.map((item, i) => {
             const last = i === trail.length - 1;
             return (
-              <li key={`${item.path ?? item.label}-${i}`} className="flex items-center gap-x-2">
+              <li key={`${item.path ?? item.label}-${i}`} className="flex min-w-0 items-center gap-x-2">
                 {item.path && !last ? (
-                  <Link to={item.path} className="hover:text-ennis-orange transition-colors">
+                  <Link to={item.path} className="inline-block py-2 hover:text-ennis-orange transition-colors">
                     {item.label}
                   </Link>
                 ) : (
-                  <span aria-current={last ? "page" : undefined} className={last ? "text-gray-200" : ""}>
+                  // Long post titles: one line on phones (the H1 repeats it in full).
+                  <span
+                    aria-current={last ? "page" : undefined}
+                    className={last ? "py-2 text-gray-200 line-clamp-1 sm:line-clamp-none" : "py-2"}
+                  >
                     {item.label}
                   </span>
                 )}

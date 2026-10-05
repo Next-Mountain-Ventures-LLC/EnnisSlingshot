@@ -100,8 +100,13 @@
     @apply border-border;
   }
 
+  /* Anchor targets (#sms-terms, #booking-header…) land below the sticky header. */
+  html {
+    @apply scroll-pt-20 md:scroll-pt-24;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-ennis-dark text-foreground;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -123,13 +128,18 @@
     font-family: 'Archivo', sans-serif;
   }
 
-  :where(p, span, li, a, button, label, td, th) {
-    overflow-wrap: anywhere;
-    word-break: break-word;
+  /*
+   * Long unbroken strings (URLs, emails) in running text wrap instead of
+   * overflowing on phones. `break-word` only splits a word that cannot fit on a
+   * line by itself and, unlike `anywhere` / `word-break: break-word`, does not
+   * shrink min-content width — so table cells, buttons, nav links and flex
+   * items keep whole words. Deliberately limited to prose-like blocks.
+   */
+  :where(p, li, blockquote, figcaption, dd) {
+    overflow-wrap: break-word;
   }
 
-  pre,
-  code {
+  pre {
     overflow-x: auto;
     white-space: pre;
   }
@@ -138,5 +148,24 @@
   .accent-glow {
     @apply text-primary drop-shadow-lg;
     text-shadow: 0 0 20px rgba(255, 160, 0, 0.5);
+  }
+}
+
+/*
+ * Shared buttons — one size/shape per role so the same action looks the same
+ * everywhere. Colour transitions only (no hover:scale jumps that shift layout
+ * and blur text). Size tweaks: add utilities (e.g. `btn-primary px-4 py-2 text-sm`).
+ */
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-ennis-orange px-6 py-3 font-bold text-ennis-dark shadow-lg transition-colors hover:bg-ennis-orange-bright focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-ennis-dark;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg border border-ennis-orange px-6 py-3 font-bold text-ennis-orange transition-colors hover:bg-ennis-orange hover:text-ennis-dark focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-ennis-dark;
+  }
+
+  .btn-lg {
+    @apply px-8 py-4 text-lg;
   }
 }

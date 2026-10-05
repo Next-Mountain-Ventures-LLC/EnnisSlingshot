@@ -18,14 +18,19 @@ faqs:
     answer: "We operate rain or shine unless conditions are genuinely unsafe. If weather or a mechanical issue forces a cancellation, you won't get a refund, but you'll get a free reschedule to another available date at no extra cost or added fee."
   - question: "Can I reschedule if my plans change?"
     answer: "Yes. Rescheduling is free up to 7 days before your booked date, subject to availability. Inside that 7-day window, reach out and we'll do what we can, but availability isn't guaranteed that close to your slot, especially during festival weekend."
-updatedDate: "2026-09-05"
+cta:
+  headline: "Got your license? You're ready to drive"
+  body: "A standard driver's license and age 21+ is all it takes to self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $79, insurance included."
+  buttonLabel: "Book your ride"
+  href: "/book/"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Requirements"
 ---
 
 ## What you need: a driver's license, no motorcycle license required
 
-To drive with us, you need a valid Texas (or out-of-state) driver's license and to be 21 or older — that's it. No motorcycle license, endorsement, or class is required. Texas law classifies the Polaris Slingshot as an autocycle, and Tex. Transp. Code §521.085(b) specifically allows a standard Class C driver's license to operate one. This is one of the most misunderstood facts in the entire category, and it's worth stating plainly: if you can legally drive a car in Texas, you can legally drive a Slingshot with us.
+To drive with us, you need a valid Texas (or out-of-state) driver's license and to be 21 or older — that's it. No motorcycle license, endorsement, or class is required. Texas law classifies the Polaris Slingshot as an autocycle, and Tex. Transp. Code §521.085(b) specifically allows a standard Class C driver's license to operate one. It's one of the most misunderstood things about Slingshots, so it's worth stating plainly: if you can legally drive a car in Texas, you can legally drive a Slingshot with us.
 
 This page is the full policy reference for our [Slingshot rental lineup](/slingshot-rental/) — age, insurance, approval, helmets, and weather, all in one place.
 
@@ -51,7 +56,7 @@ Even where it's not legally required, we strongly recommend wearing a helmet —
 - **Closed-toe shoes**, since you'll be stepping in and out of an open cockpit and operating pedals.
 - **Sunglasses or eye protection** — there's no windshield to speak of, and Texas sun in April is bright even at 78°F average highs.
 - **Layers**, especially for later slots — evenings cool off as the sun drops.
-- **Sunscreen**, particularly for the 2-hour and longer packages.
+- **Sunscreen**, especially for the 2-hour packages.
 
 ## Rescheduling & cancellation
 
@@ -63,11 +68,11 @@ Even where it's not legally required, we strongly recommend wearing a helmet —
 
 - **Your driver's license** — the physical card, not just a photo of it.
 - **Closed-toe shoes**, sunglasses, and sunscreen (see "what to wear" above).
-- **A phone** if you want your own photos along the route, in addition to the guided stop that comes with some packages.
+- **A phone** if you want your own photos along the route — every route includes recommended photo stops.
 
 ## What we provide
 
-Every package includes the vehicle, fuel, comprehensive insurance, a safety orientation, and a supervised practice loop. The 2-hour Bluebonnet Trail Experience, Date Night, and Group Convoy packages also include a trail map for the glove box. Helmets are available to rent separately for $25 each, and a self-serve photo add-on is available for $39.
+Every package includes the vehicle, fuel, comprehensive insurance, a safety orientation, and a supervised practice loop. The 2-hour Bluebonnet Trail Experience (solo or two-up) also includes a trail map for the glove box. Bluetooth communication helmets are available to rent separately for $25 each.
 
 ## How it drives
 

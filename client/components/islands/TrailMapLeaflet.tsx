@@ -24,6 +24,7 @@ import {
   type Position,
   type TrailMapCollection,
 } from "./trailMapData";
+import { OFFICIAL_TRAILS_URL } from "./embedSnippets";
 
 const collection = JSON.parse(trailMapRaw) as TrailMapCollection;
 const loopFeatures = collection.features.filter(isLoopFeature);
@@ -56,6 +57,17 @@ function FitBounds({ bounds }: { bounds: L.LatLngBounds }) {
   return null;
 }
 
+/** Leaflet's own credit link opens in a new tab (inside an embed it would otherwise navigate the iframe). */
+function NewTabAttributionPrefix() {
+  const map = useMap();
+  useEffect(() => {
+    map.attributionControl?.setPrefix(
+      '<a href="https://leafletjs.com" target="_blank" rel="noopener noreferrer">Leaflet</a>',
+    );
+  }, [map]);
+  return null;
+}
+
 const startIcon = L.divIcon({
   className: "trail-map-start-icon",
   html: '<span style="display:block;width:22px;height:22px;border-radius:50% 50% 50% 0;background:#e85c2e;border:3px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.5);transform:rotate(-45deg)"></span>',
@@ -65,7 +77,19 @@ const startIcon = L.divIcon({
 });
 
 export interface TrailMapLeafletProps {
+  /** /embed/trail-map/: the map fills its container, with a compact legend underneath. */
   embed?: boolean;
+}
+
+/**
+ * Phones/tablets (coarse primary pointer): one-finger swipes scroll the page
+ * instead of panning the map (Leaflet then sets touch-action: pan-x pan-y);
+ * pinch still zooms. Mouse/trackpad users and the embed keep drag-to-pan.
+ */
+function prefersPageScroll(): boolean {
+  return typeof window !== "undefined" && typeof window.matchMedia === "function"
+    ? !window.matchMedia("(pointer: fine)").matches
+    : false;
 }
 
 export default function TrailMapLeaflet({ embed = false }: TrailMapLeafletProps) {
@@ -84,56 +108,86 @@ export default function TrailMapLeaflet({ embed = false }: TrailMapLeafletProps)
   }, []);
 
   const toggle = (loop: LoopId) => setVisible((v) => ({ ...v, [loop]: !v[loop] }));
+  const [touchScrolls] = useState(() => !embed && prefersPageScroll());
+
+  const map = (
+    // `isolate z-0`: Leaflet's panes use z-index 400–1000; keep them inside
+    // this box so routes/pins never draw over the sticky header or mobile menu.
+    <div
+      className={
+        embed
+          ? "relative isolate z-0 min-h-[200px] flex-1 overflow-hidden rounded-md border border-gray-700 bg-gray-900"
+          : "relative isolate z-0 overflow-hidden rounded-lg border border-gray-700 bg-gray-900"
+      }
+      style={embed ? undefined : { height: "min(520px, 60vh)", minHeight: 300 }}
+    >
+      <MapContainer
+        bounds={allBounds}
+        scrollWheelZoom={false}
+        dragging={!touchScrolls}
+        touchZoom
+        style={{ height: "100%", width: "100%", background: "#111" }}
+      >
+        <TileLayer
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'
+          url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        <FitBounds bounds={allBounds} />
+        <NewTabAttributionPrefix />
+
+        {TRAIL_LOOPS.map((meta) => {
+          const f = byLoop.get(meta.loop);
+          if (!f || !visible[meta.loop]) return null;
+          return (
+            <Polyline
+              key={meta.loop}
+              positions={f.geometry.coordinates.map(toLatLng)}
+              pathOptions={{
+                color: f.properties.color,
+                weight: meta.official ? 4 : 5,
+                opacity: 0.9,
+                dashArray: meta.official ? undefined : "10 8",
+              }}
+            >
+              <Popup>
+                <strong>{f.properties.name}</strong>
+                <br />
+                {f.properties.distanceMiles} miles
+                {f.properties.approximate ? " · approximate route" : ""}
+              </Popup>
+            </Polyline>
+          );
+        })}
+
+        {pointFeatures.map((p) => (
+          <PointMarker key={p.properties.name} point={p} />
+        ))}
+      </MapContainer>
+    </div>
+  );
+
+  if (embed) {
+    return (
+      <div className="flex min-h-0 flex-1 flex-col gap-2">
+        {map}
+        <EmbedLegend visible={visible} onToggle={toggle} />
+      </div>
+    );
+  }
 
   return (
-    <div className={embed ? "grid gap-4" : "grid gap-6 lg:grid-cols-[minmax(0,1fr)_300px]"}>
-      <div
-        className="relative rounded-lg overflow-hidden border border-gray-700 bg-gray-900"
-        style={{ height: embed ? "70vh" : 520, minHeight: 360 }}
-      >
-        <MapContainer
-          bounds={allBounds}
-          scrollWheelZoom={!embed}
-          style={{ height: "100%", width: "100%", background: "#111" }}
-        >
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          <FitBounds bounds={allBounds} />
-
-          {TRAIL_LOOPS.map((meta) => {
-            const f = byLoop.get(meta.loop);
-            if (!f || !visible[meta.loop]) return null;
-            return (
-              <Polyline
-                key={meta.loop}
-                positions={f.geometry.coordinates.map(toLatLng)}
-                pathOptions={{
-                  color: f.properties.color,
-                  weight: meta.official ? 4 : 5,
-                  opacity: 0.9,
-                  dashArray: meta.official ? undefined : "10 8",
-                }}
-              >
-                <Popup>
-                  <strong>{f.properties.name}</strong>
-                  <br />
-                  {f.properties.distanceMiles} miles
-                  {f.properties.approximate ? " · approximate route" : ""}
-                </Popup>
-              </Polyline>
-            );
-          })}
-
-          {pointFeatures.map((p) => (
-            <PointMarker key={p.properties.name} point={p} />
-          ))}
-        </MapContainer>
+    <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_300px]">
+      <div>
+        {map}
+        {touchScrolls && (
+          <p className="mt-2 text-xs text-gray-400">
+            Pinch with two fingers to zoom the map · tap a route or pin for details.
+          </p>
+        )}
       </div>
 
       <aside className="bg-gray-900/60 border border-gray-700 rounded-lg p-4 text-sm text-gray-300 self-start">
-        <p className="text-gray-500 uppercase tracking-widest text-xs mb-3">Loops</p>
+        <p className="text-gray-400 uppercase tracking-widest text-xs mb-3">Loops</p>
         <ul className="space-y-3">
           {TRAIL_LOOPS.map((meta) => {
             const f = byLoop.get(meta.loop);
@@ -181,7 +235,7 @@ export default function TrailMapLeaflet({ embed = false }: TrailMapLeafletProps)
                       className="text-gray-400 hover:text-white underline-offset-2 hover:underline"
                       aria-expanded={openNote === meta.loop}
                     >
-                      {openNote === meta.loop ? "Hide source note" : "About this route"}
+                      {openNote === meta.loop ? "Hide route details" : "About this route"}
                     </button>
                   )}
                 </div>
@@ -197,7 +251,7 @@ export default function TrailMapLeaflet({ embed = false }: TrailMapLeafletProps)
           <span className="text-ennis-orange font-semibold">Approximate.</span> {APPROXIMATE_NOTE}
         </p>
 
-        <p className="text-gray-500 uppercase tracking-widest text-xs mt-5 mb-2">Pins</p>
+        <p className="text-gray-400 uppercase tracking-widest text-xs mt-5 mb-2">Pins</p>
         <ul className="space-y-1 text-xs">
           <li className="flex items-center gap-2">
             <span className="inline-block h-3 w-3 rounded-full" style={{ background: pointKindColor("welcome-center") }} />
@@ -213,6 +267,58 @@ export default function TrailMapLeaflet({ embed = false }: TrailMapLeafletProps)
             ))}
         </ul>
       </aside>
+    </div>
+  );
+}
+
+/** One-line (wrapping) legend for the embed: loop toggles + the approximate-route caveat. */
+function EmbedLegend({
+  visible,
+  onToggle,
+}: {
+  visible: Record<LoopId, boolean>;
+  onToggle: (loop: LoopId) => void;
+}) {
+  return (
+    <div className="text-[11px] leading-tight text-gray-300">
+      <ul className="flex flex-wrap gap-x-3 gap-y-1">
+        {TRAIL_LOOPS.map((meta) => (
+          <li key={meta.loop}>
+            <label className="flex cursor-pointer items-center gap-1.5">
+              <input
+                type="checkbox"
+                className="h-3 w-3 accent-ennis-orange"
+                checked={visible[meta.loop]}
+                onChange={() => onToggle(meta.loop)}
+                aria-label={`Show ${meta.name}`}
+              />
+              <span
+                aria-hidden="true"
+                className="inline-block h-2 w-4 shrink-0 rounded-sm"
+                style={{
+                  background: meta.official ? meta.color : "transparent",
+                  border: meta.official ? undefined : `2px dashed ${meta.color}`,
+                }}
+              />
+              <span className="whitespace-nowrap">
+                <span className="font-semibold text-white">{meta.name.replace(" Bluebonnet Trail", "")}</span>{" "}
+                {meta.distanceMiles} mi
+              </span>
+            </label>
+          </li>
+        ))}
+      </ul>
+      <p className="mt-1 text-gray-400">
+        Routes are approximate · start at the {START_POINT.name} ·{" "}
+        <a
+          href={OFFICIAL_TRAILS_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-ennis-orange hover:text-ennis-orange-bright"
+        >
+          official trail info ↗
+        </a>
+      </p>
     </div>
   );
 }

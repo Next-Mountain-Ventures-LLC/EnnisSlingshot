@@ -13,17 +13,22 @@ faqs:
   - question: "Can I see bluebonnets in Dallas parks?"
     answer: "In a strong bloom year, some Dallas-area parks and highway medians show scattered bluebonnets, but coverage is inconsistent year to year and nowhere near the density or acreage of the Ennis trails. Check a current-year source before planning a trip around a specific in-city location."
   - question: "How far is Ennis from Fort Worth and Arlington?"
-    answer: "About 57 miles (~59 minutes) from Fort Worth and about 52 miles (~53 minutes) from Arlington, per Travelmath and drivedistance.com data."
+    answer: "About 57 miles (~59 minutes) from Fort Worth and about 52 miles (~53 minutes) from Arlington."
   - question: "What's the best bluebonnet destination for a DFW day trip?"
     answer: "Ennis, for most DFW-based visitors — it's the closest full bluebonnet destination with mapped trails, a state title, and an annual festival, all reachable in well under an hour from most of the metro."
-updatedDate: "2026-09-05"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Near Dallas"
+cta:
+  headline: "37 minutes from Dallas to the driver's seat"
+  body: "Make the I-45 trip count: trade your sedan for an open-cockpit Polaris Slingshot on our 2-hour self-drive route through the Ennis Bluebonnet Trails, April 1–30, 2027 — insurance included, no motorcycle license needed."
+  buttonLabel: "Book your day-trip ride"
+  href: "/book/?package=solo"
 ---
 
 ## The closest full bluebonnet destination to Dallas
 
-If you're searching for where to see bluebonnets near Dallas, the answer most guides converge on is **Ennis, TX** — about 35 miles south of downtown Dallas on I-45, roughly a **37-minute drive**, per Visit Ennis and Travelmath. It's also the only nearby option that combines a state-designated title (Official Bluebonnet City of Texas, per the 1997 Texas Legislature resolution), over 40 miles of mapped, Garden Club-maintained driving loops, and an annual festival — infrastructure that scattered roadside patches closer to the city simply don't have.
+If you're wondering where to see bluebonnets near Dallas, the answer most guides converge on is **Ennis, TX** — about 35 miles south of downtown Dallas on I-45, roughly a **37-minute drive**, per Visit Ennis and Travelmath. It's also the only nearby option that combines a state-designated title (Official Bluebonnet City of Texas, per the 1997 Texas Legislature resolution), over 40 miles of mapped, Garden Club-maintained driving loops, and an annual festival — infrastructure that scattered roadside patches closer to the city simply don't have.
 
 ## Drive times from around DFW
 
@@ -36,11 +41,11 @@ If you're searching for where to see bluebonnets near Dallas, the answer most gu
 | Frisco | 64 | ~1 hr 2 min |
 | Waco | 74 | ~1 hr 15 min |
 
-Source: Travelmath, drivedistance.com, and mapsof.net; the Ennis Economic Development Corporation notes I-20, I-30, I-35, and I-45 are all within about a 30-minute drive of town, which is part of why Ennis functions as an easy day trip from nearly anywhere in North Texas.
+Drive times are typical estimates without heavy traffic. I-20, I-30, I-35, and I-45 are all within about a 30-minute drive of town, which is part of why Ennis functions as an easy day trip from nearly anywhere in North Texas.
 
-## Why "near Dallas" searches lead to Ennis
+## Why Ennis is the best place to see bluebonnets near Dallas
 
-If you searched something like "bluebonnets near Dallas" or "bluebonnet fields near Dallas," Ennis is the answer nearly every local guide and travel site converges on, and it's worth understanding why rather than just taking that on faith. It comes down to the combination covered below: proximity, infrastructure, and a documented, decades-old track record that a scattered roadside patch simply can't match.
+Ask any local guide where to find bluebonnet fields near Dallas and you'll hear the same answer: Ennis. It comes down to the combination covered below — proximity, infrastructure, and a documented, decades-old track record that a scattered roadside patch simply can't match.
 
 ## Why Ennis over a closer, smaller spot
 
@@ -51,7 +56,7 @@ In a strong bloom year, you can sometimes find scattered bluebonnets in parks or
 Ennis is our recommendation for most DFW-based visitors, but it's not literally the only option in the region. A few honest alternatives worth knowing about:
 
 - **Scattered roadside color throughout North Texas** in a good bloom year — unpredictable and unmapped, but free and sometimes closer than Ennis depending on where you live.
-- **Other named Texas bluebonnet destinations farther afield** — Burnet, Chappell Hill, and Marble Falls each run their own trails and festivals, though all are considerably farther from Dallas–Fort Worth than Ennis. See our [Texas bluebonnet festivals comparison](/bluebonnets/texas-bluebonnet-festivals/) for dates and distances if one of these is genuinely in range for your trip.
+- **Other named Texas bluebonnet destinations farther afield** — Burnet, Chappell Hill, and Marble Falls each run their own trails and festivals, though all are considerably farther from Dallas–Fort Worth than Ennis. See our [Texas bluebonnet festivals comparison](/bluebonnets/texas-bluebonnet-festivals/) for how Ennis, Burnet, and Chappell Hill stack up on timing and distance.
 - **Waxahachie**, about 15 miles northwest of Ennis, doesn't have its own dedicated bluebonnet trail system but is an easy add-on to an Ennis day trip — see our [weekend itinerary](/ennis/weekend-itinerary/), especially if it overlaps with the Scarborough Renaissance Festival.
 
 ## Making the most of the drive itself
@@ -64,8 +69,8 @@ If you're still deciding between Ennis and a closer option, ask yourself what yo
 
 ## Timing your trip
 
-Wherever you go, timing matters more than the specific location. Ennis's bloom typically peaks around the third week of April, but that shifts year to year based on fall and winter rainfall — check our [Bloom Tracker](/bluebonnets/bloom-tracker/) for current-week status by loop before you commit to a date, and see the [pillar guide](/bluebonnets/) for the full trail overview, dates, and what to expect once you arrive.
+Wherever you go, timing matters more than the specific location. The Ennis trails are open April 1–30, 2027, and the Bluebonnet Festival is expected April 17–19, 2027 (subject to change). Ennis's bloom typically peaks around the third week of April, but that shifts year to year based on fall and winter rainfall — check our [Bloom Tracker](/bluebonnets/bloom-tracker/) for current-week status by loop before you commit to a date, and see our [complete Ennis Bluebonnet Trails guide](/bluebonnets/) for the full trail overview, dates, and what to expect once you arrive.
 
 ## See the trails from a Slingshot
 
-If you're making the drive from Dallas, Fort Worth, or Arlington, consider doing it in something more memorable than a sedan — we run a guided 2-hour **Polaris Slingshot** Bluebonnet Trail Experience out of Ennis, no motorcycle license required. See the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for pricing and availability.
+If you're making the drive from Dallas, Fort Worth, or Arlington, consider seeing the trails themselves from something more memorable than a sedan — we offer a self-drive 2-hour **Polaris Slingshot** Bluebonnet Trail Experience out of Ennis, April 1–30, 2027, no motorcycle license required. Book a [Solo ride ($79)](/book/?package=solo) or [Driver + Rider ($149)](/book/?package=two-up), or see the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for the full details.

@@ -5,9 +5,14 @@ canonicalPath: "/about/"
 h1: "About Ennis Slingshot Experience"
 hub: null
 schemaType: "AboutPage"
-updatedDate: "2026-09-05"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "About"
+cta:
+  headline: "Drive the roads that started it"
+  body: "Our 2-hour self-drive Bluebonnet Trail Experience starts at the Ennis Welcome Center and runs April 1–30, 2027 — $79 solo or $149 for two, insurance included, no deposit, no motorcycle license needed."
+  buttonLabel: "Book your April ride"
+  href: "/book/"
 ---
 
 ## How this started
@@ -32,4 +37,4 @@ Every experience starts at the Ennis Welcome Center, 201 NW Main St, Ennis, TX 7
 
 ## What's next
 
-We ran our first full season in 2026, and the plan for 2027 is simple: book out April, keep the orientation and safety approach that got us here, and keep the pricing honest — the easiest way to try a Slingshot in Texas, not the cheapest way to rent one. If you want to see it for yourself, [book a Slingshot experience](/book/) or read the [FAQ](/faq/) for everything else you might be wondering about.
+We ran our first full season in 2026, and 2027 keeps what worked: the same orientation and safety-first approach, and honest pricing — the easiest way to try a Slingshot in Texas, not the cheapest way to rent one. The 2027 season runs April 1–30, with the Ennis Bluebonnet Trails Festival expected April 17–19 (dates subject to change). If you want to see it for yourself, [book a Slingshot experience](/book/) or read the [FAQ](/faq/) for everything else you might be wondering about.

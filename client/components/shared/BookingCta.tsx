@@ -1,16 +1,18 @@
 /**
  * Booking call-to-action used across templates.
  *
- *   variant="banner"  end-of-content block (full width of the content column)
- *   variant="strip"   compact one-line bar near the top of SEO landing pages
- *   variant="card"    stacked card for sidebars (blog posts, hubs)
+ *   variant="banner"  after the page body (before the FAQ), full width of the content column
+ *   variant="strip"   compact bar right under the page header on SEO landing pages
+ *   variant="card"    stacked card for sidebars (content/hub/island asides, blog posts)
  *
- * Copy defaults sell the core April experience; pages can override headline /
- * body / button via frontmatter `cta` (shared/content/page-schema.ts).
- * Prices come from the facts that never drift: $79 solo, $149 driver + rider.
+ * Copy defaults sell the core April experience; pages override headline /
+ * body / buttonLabel / href via frontmatter `cta` (shared/content/page-schema.ts,
+ * see client/components/booking/pageCta.ts). Prices come from the bookable
+ * package list (shared/booking.ts) so they can't drift.
  */
 import { Link } from "react-router-dom";
 import { ArrowRight, Check } from "lucide-react";
+import { PACKAGES, getPackage, packageFromQuery } from "@shared/booking";
 import { cn } from "@/lib/utils";
 
 export interface BookingCtaProps {
@@ -19,7 +21,7 @@ export interface BookingCtaProps {
   body?: string;
   buttonLabel?: string;
   href?: string;
-  /** Secondary text link (defaults to the packages hub). Pass null to hide. */
+  /** Secondary text link (defaults to the pricing page). Pass null to hide. */
   secondary?: { label: string; href: string } | null;
   className?: string;
 }
@@ -32,9 +34,28 @@ export const CTA_DEFAULTS = {
   secondary: { label: "See packages & pricing", href: "/slingshot-rental/pricing/" },
 };
 
+const SOLO = getPackage("solo").priceLabel;
+const TWO_UP = getPackage("two-up").priceLabel;
+const FROM = PACKAGES.reduce((min, p) => (p.price < min.price ? p : min), PACKAGES[0]).priceLabel;
+
 const TRUST = ["Insurance included", "No motorcycle license", "Meet at the Ennis Welcome Center"];
 
+/** Sub-line for the strip: the linked package's price, or the "from" price for generic /book/ links. */
+function stripNote(href: string): string | null {
+  if (/^mailto:/i.test(href)) return "Order by email";
+  const query = href.split("?")[1];
+  const pkg = query ? packageFromQuery(new URLSearchParams(query).get("package")) : null;
+  return `${pkg ? getPackage(pkg).priceLabel : `From ${FROM}`} · insurance included`;
+}
+
 function CtaLink({ href, className, children }: { href: string; className: string; children: React.ReactNode }) {
+  if (/^mailto:/i.test(href)) {
+    return (
+      <a href={href} className={className}>
+        {children}
+      </a>
+    );
+  }
   return /^https?:\/\//i.test(href) ? (
     <a href={href} className={className} target="_blank" rel="noopener noreferrer">
       {children}
@@ -45,9 +66,6 @@ function CtaLink({ href, className, children }: { href: string; className: strin
     </Link>
   );
 }
-
-const primaryClass =
-  "inline-flex items-center justify-center gap-2 rounded-lg bg-ennis-orange px-6 py-3 font-bold text-ennis-dark shadow-lg transition-colors hover:bg-ennis-orange-bright focus:outline-none focus-visible:ring-2 focus-visible:ring-white";
 
 export function BookingCta({
   variant = "banner",
@@ -63,15 +81,19 @@ export function BookingCta({
       <aside
         aria-label="Book a Slingshot experience"
         className={cn(
-          "flex flex-col gap-3 rounded-lg border border-ennis-orange/30 bg-ennis-orange/10 px-4 py-3 sm:flex-row sm:items-center sm:justify-between",
+          "flex flex-col gap-1 rounded-lg border border-ennis-orange/30 bg-ennis-orange/10 px-4 py-3 md:flex-row md:items-center md:justify-between md:gap-4",
           className,
         )}
       >
-        <p className="text-sm text-gray-200 sm:text-base">
+        <p className="text-sm text-gray-200 md:text-base">
           <span className="font-bold text-white">{headline}</span>
-          <span className="block text-gray-400 sm:inline sm:before:content-['_·_']">From $79 · insurance included</span>
+          <span className="block text-gray-400 sm:inline sm:before:content-['_·_']">{stripNote(href)}</span>
         </p>
-        <CtaLink href={href} className={cn(primaryClass, "shrink-0 px-4 py-2 text-sm")}>
+        {/* Phones already have the sticky Book bar, so the strip uses a text link there and a button from md. */}
+        <CtaLink
+          href={href}
+          className="inline-flex min-h-[44px] shrink-0 items-center gap-1.5 self-start rounded-lg text-sm font-bold text-ennis-orange underline underline-offset-4 transition-colors hover:text-ennis-orange-bright focus:outline-none focus-visible:ring-2 focus-visible:ring-white md:min-h-0 md:self-auto md:whitespace-nowrap md:bg-ennis-orange md:px-4 md:py-2 md:text-ennis-dark md:no-underline md:shadow-lg md:hover:bg-ennis-orange-bright md:hover:text-ennis-dark"
+        >
           {buttonLabel} <ArrowRight className="h-4 w-4" aria-hidden="true" />
         </CtaLink>
       </aside>
@@ -88,14 +110,17 @@ export function BookingCta({
         <h2 className="text-xl font-black text-white tracking-tight mb-2">{headline}</h2>
         <p className="text-sm text-gray-300 leading-relaxed mb-4">{body}</p>
         <p className="text-sm text-gray-200 mb-4">
-          <span className="text-2xl font-black text-white">$79</span> solo ·{" "}
-          <span className="text-2xl font-black text-white">$149</span> for two
+          <span className="text-2xl font-black text-white">{SOLO}</span> solo ·{" "}
+          <span className="text-2xl font-black text-white">{TWO_UP}</span> for two
         </p>
-        <CtaLink href={href} className={cn(primaryClass, "w-full")}>
+        <CtaLink href={href} className="btn-primary w-full whitespace-normal text-center">
           {buttonLabel}
         </CtaLink>
         {secondary && (
-          <Link to={secondary.href} className="mt-3 block text-center text-sm text-gray-400 hover:text-ennis-orange">
+          <Link
+            to={secondary.href}
+            className="mt-2 block py-2 text-center text-sm text-gray-400 hover:text-ennis-orange"
+          >
             {secondary.label}
           </Link>
         )}
@@ -126,14 +151,14 @@ export function BookingCta({
         </div>
         <div className="flex flex-col items-stretch gap-3 md:items-end md:text-right">
           <p className="text-gray-300">
-            <span className="text-3xl font-black text-white">$79</span> solo ·{" "}
-            <span className="text-3xl font-black text-white">$149</span> for two
+            <span className="text-3xl font-black text-white">{SOLO}</span> solo ·{" "}
+            <span className="text-3xl font-black text-white">{TWO_UP}</span> for two
           </p>
-          <CtaLink href={href} className={cn(primaryClass, "text-lg")}>
+          <CtaLink href={href} className="btn-primary whitespace-normal text-center sm:text-lg">
             {buttonLabel} <ArrowRight className="h-5 w-5" aria-hidden="true" />
           </CtaLink>
           {secondary && (
-            <Link to={secondary.href} className="text-sm text-gray-400 hover:text-ennis-orange">
+            <Link to={secondary.href} className="py-1 text-center text-sm text-gray-400 hover:text-ennis-orange md:text-right">
               {secondary.label}
             </Link>
           )}

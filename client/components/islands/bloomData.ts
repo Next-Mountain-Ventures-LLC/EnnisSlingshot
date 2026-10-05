@@ -3,7 +3,8 @@
  * a checked-in file edited weekly in season (imported at build time, so the
  * status is plain prerendered HTML). The same file is copied to
  * dist/spa/bloom-status.json by scripts/generate-seo-files.ts as a public
- * JSON endpoint for newsrooms / partner sites.
+ * JSON endpoint for newsrooms / partner sites (CORS-enabled in netlify.toml),
+ * and rendered by the /embed/bloom-tracker/ widget.
  */
 import bloomJson from "@/content/data/bloom-status.json";
 
@@ -59,6 +60,29 @@ export function bloomStatusLabel(status: BloomStatus | null | undefined): string
       return "Season over";
     default:
       return "No report yet";
+  }
+}
+
+/**
+ * Status of one loop for the current report. A loop with no report yet reads
+ * "Not started" while the whole season hasn't started (off-season), rather
+ * than "No report yet".
+ */
+export function loopStatus(key: LoopKey, file: BloomStatusFile = bloomStatus): BloomStatus | null {
+  return file.loops?.[key] ?? (file.status === "not-started" ? "not-started" : null);
+}
+
+/** Readable link text for a source URL: "bluebonnettrail.org trail map", else the bare host. */
+export function sourceLinkLabel(url: string): string {
+  try {
+    const u = new URL(url);
+    const host = u.hostname.replace(/^www\./, "");
+    if (host === "bluebonnettrail.org") {
+      return /trailmap/i.test(u.pathname) ? "Ennis Bluebonnet Trails map (bluebonnettrail.org)" : "Ennis Bluebonnet Trails (bluebonnettrail.org)";
+    }
+    return host;
+  } catch {
+    return url;
   }
 }
 

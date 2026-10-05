@@ -7,7 +7,7 @@ hub: "bluebonnets"
 schemaType: "Article"
 faqs:
   - question: "What are the best bluebonnet photo spots in Ennis?"
-    answer: "The most frequently named locations are Meadow View Nature Area (39 acres, Bardwell Lake backdrop, in bloom during April), Bluebonnet Park (47 acres), the Lakeview Drive/Bardwell Lake area, and Sugar Ridge Road on the West Loop, per TripAdvisor reviews, DFWChild, and visitennistexas.com."
+    answer: "The most frequently named locations are Meadow View Nature Area (39 acres, Bardwell Lake backdrop, in bloom during April), Bluebonnet Park (47 acres), the Lakeview Drive/Bardwell Lake area, and Sugar Ridge Road."
   - question: "Is it illegal to pick bluebonnets in Texas?"
     answer: "There's no blanket state law against picking a bluebonnet on public land or with permission. What's actually illegal is trespassing — most roadside flowers sit on private ranchland behind a fence line, and walking onto that land without permission is trespassing regardless of the flower. Stopping on a highway shoulder also has to follow normal traffic-safety rules. The Lady Bird Johnson Wildflower Center addresses this myth directly."
   - question: "When is the best time of day for bluebonnet photos?"
@@ -15,10 +15,15 @@ faqs:
   - question: "Can I walk into a bluebonnet field for photos?"
     answer: "Only if it's public land or you have the landowner's permission. Most of the roadside color you see on the trails is on private property behind a fence. Meadow View Nature Area and Bluebonnet Park are public and set up for exactly this kind of visit."
   - question: "Are there murals or downtown photo spots in Ennis too?"
-    answer: "Downtown Ennis has a historic brick-street district with photogenic storefronts; check at the Ennis Welcome Center for current mural locations, since public art installations change over time and we'd rather send you to a current source than an outdated one."
-updatedDate: "2026-09-05"
+    answer: "Downtown Ennis has a historic brick-street district with photogenic storefronts; check at the Ennis Welcome Center for current mural locations, since public art installations change over time."
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Photo Spots"
+cta:
+  headline: "Put a Slingshot in your bluebonnet photos"
+  body: "Our 2-hour self-drive route runs along Sugar Ridge Road with time to pull over for photos, so you can shoot the fields with an open-cockpit Polaris Slingshot in the frame — $149 for two or $79 solo, April 1–30, 2027."
+  buttonLabel: "Book a ride for two"
+  href: "/book/?package=two-up"
 ---
 
 ## The best bluebonnet photo spots in Ennis, at a glance
@@ -27,11 +32,11 @@ breadcrumbLabel: "Photo Spots"
 |---|---|
 | Meadow View Nature Area | 39 acres, Bardwell Lake backdrop, in bloom during April |
 | Bluebonnet Park | 47 acres of dedicated public space |
-| Lakeview Drive / Bardwell Lake area | Lake backdrop along the North Loop |
-| Sugar Ridge Road | Dense roadside color on the West Loop |
+| Lakeview Drive / Bardwell Lake area | Lake views behind roadside bluebonnet color |
+| Sugar Ridge Road | Dense roadside color, and part of our Slingshot route |
 | Downtown Ennis | Historic brick-street backdrop; check at the Welcome Center for current mural locations |
 
-These are pulled from recurring mentions across TripAdvisor reviews, [DFWChild](https://dfwchild.com/), and [visitennistexas.com](https://www.visitennistexas.com/) — not a single curated "best of" list, but the spots that keep coming up independently across sources. Before your visit, check our [pillar guide](/bluebonnets/) for the full trail overview and the [trail map](/bluebonnets/trail-map/) to see exactly where each of these sits relative to the North, South, and West loops.
+These are the spots visitors, local photographers, [DFWChild](https://dfwchild.com/), and [Visit Ennis](https://www.visitennistexas.com/) mention again and again. Before your visit, check our [complete Ennis Bluebonnet Trails guide](/bluebonnets/) for the full trail overview and the [trail map](/bluebonnets/trail-map/) to see exactly where each of these sits relative to the North, South, and West loops.
 
 ## Meadow View Nature Area
 
@@ -43,15 +48,15 @@ A 47-acre dedicated public park, giving more open space to work with for family 
 
 ## Lakeview Drive / Bardwell Lake area
 
-Along the North Loop, the roads near Bardwell Lake add water in the background behind roadside bluebonnet color — a combination that shows up often in visitor photos and local guides. Much of the flower color immediately along the road here sits on private property, so plan to shoot from the shoulder unless you're on clearly public land.
+The trail roads near Bardwell Lake add water in the background behind roadside bluebonnet color — a combination that shows up often in visitor photos and local guides. Much of the flower color immediately along the road here sits on private property, so plan to shoot from the shoulder unless you're on clearly public land.
 
 ## Sugar Ridge Road
 
-On the West Loop, Sugar Ridge Road is one of the most frequently named stretches for dense roadside bluebonnet color, and it's built into our own [2-hour Slingshot route](/bluebonnets/trail-map/) for exactly that reason. As with most of the trail roads, the thickest color tends to sit behind private fence lines — stick to the shoulder for photos unless you have explicit permission to enter a field.
+Sugar Ridge Road is one of the most frequently named stretches for dense roadside bluebonnet color, and it's built into our own [2-hour Slingshot route](/bluebonnets/trail-map/) for exactly that reason. As with most of the trail roads, the thickest color tends to sit behind private fence lines — stick to the shoulder for photos unless you have explicit permission to enter a field.
 
 ## Downtown Ennis
 
-Ennis's historic brick-street downtown offers a different kind of photo backdrop entirely — storefronts, brick paving, and small-town Texas architecture rather than open fields. Public art and mural locations change over time, so rather than naming specific murals that may no longer be current, we'd point you to the [Ennis Welcome Center](/bluebonnets/welcome-center/) for what's currently up, or our [downtown Ennis guide](/ennis/downtown/) for the broader shopping and dining strip.
+Ennis's historic brick-street downtown offers a different kind of photo backdrop entirely — storefronts, brick paving, and small-town Texas architecture rather than open fields. Public art and mural locations change over time, so ask at the [Ennis Welcome Center](/bluebonnets/welcome-center/) for what's currently up, or our [downtown Ennis guide](/ennis/downtown/) for the broader shopping and dining strip.
 
 ## Is it illegal to pick bluebonnets in Texas
 
@@ -77,4 +82,4 @@ Meadow View Nature Area and Bluebonnet Park are the easiest spots for larger fam
 
 ## See the trails from a Slingshot
 
-If you'd rather see these same spots from an open-cockpit **Polaris Slingshot** than your own car — and get a built-in photo stop along the way — we run a guided 2-hour Bluebonnet Trail Experience out of Ennis. See the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) for pricing and availability.
+If you'd rather see these same spots from behind the wheel of an open-cockpit **Polaris Slingshot** than from your own car — with time to pull over for photos along the way — we offer a self-drive 2-hour Bluebonnet Trail Experience out of Ennis, April 1–30, 2027. Book a [Driver + Rider ride ($149)](/book/?package=two-up) so someone can take the photos, or a [Solo ride ($79)](/book/?package=solo); the [Bluebonnet Trail Experience package](/slingshot-rental/bluebonnet-trail-experience/) has the full details.

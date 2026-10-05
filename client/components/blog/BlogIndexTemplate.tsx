@@ -3,15 +3,42 @@
  * page, newest first. Every page is prerendered and self-canonical; only
  * page 1 is in sitemap.xml (scripts/generate-seo-files.ts).
  */
+import { Fragment } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { getPublishedPosts, getPostUrl, getPostExcerpt } from '../../lib/blog';
+import { getPublishedPosts, getPostUrl, getPostExcerpt, type BlogPost } from '../../lib/blog';
 import { BLOG_CATEGORIES, BLOG_PAGE_SIZE, blogCategoryPath, blogIndexPath, blogPageCount } from '@shared/content/site-routes';
 import { Seo } from '@/components/seo/Seo';
 import { Breadcrumbs } from '@/components/layout/Breadcrumbs';
 import { webPage, itemList } from '@/lib/schema';
+import { BookingCta } from '@/components/shared/BookingCta';
 import { BlogCard } from './BlogCard';
 import { Pagination } from './Pagination';
 import NotFound from '@/pages/NotFound';
+
+/** Number of cards before the in-grid booking banner (2 rows at lg, 3 at md); shorter lists get it at the end. */
+export const BLOG_CTA_AFTER = 6;
+
+/**
+ * Card grid shared by /blog/ and the category pages: 1 → 2 → 3 columns, with a
+ * full-width BookingCta banner after the first BLOG_CTA_AFTER cards (or after
+ * the grid when there are fewer posts).
+ */
+export function BlogCardGrid({ posts }: { posts: BlogPost[] }) {
+  const inline = posts.length > BLOG_CTA_AFTER;
+  return (
+    <>
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        {posts.map((post, i) => (
+          <Fragment key={post.id}>
+            <BlogCard post={post} eager={i < 2} />
+            {inline && i === BLOG_CTA_AFTER - 1 && <BookingCta variant="banner" className="col-span-full" />}
+          </Fragment>
+        ))}
+      </div>
+      {!inline && posts.length > 0 && <BookingCta variant="banner" className="mt-12" />}
+    </>
+  );
+}
 
 /** Parse the `:page` param: undefined → 1; anything that isn't an integer ≥ 2 → null (404). */
 export function parsePageParam(raw: string | undefined): number | null {
@@ -48,33 +75,33 @@ export function BlogIndexTemplate() {
           ),
         ]}
       />
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-12 max-w-6xl">
         <Breadcrumbs
           items={page > 1 ? [{ label: 'Home', path: '/' }, { label: 'Blog', path: '/blog/' }, { label: `Page ${page}` }] : [{ label: 'Home', path: '/' }, { label: 'Blog' }]}
           className="mb-6"
         />
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-5xl md:text-6xl font-black text-white mb-4">
+        {/* Header — left-aligned with the breadcrumbs and the card grid */}
+        <div className="mb-10 md:mb-12">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black text-white mb-4">
             <span className="text-ennis-orange">Blog</span>
             {page > 1 && <span className="block text-2xl md:text-3xl text-gray-400 font-bold mt-2">Page {page} of {pageCount}</span>}
           </h1>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-400 text-lg max-w-2xl">
             Stories, tips, and adventures from the Slingshot experience
           </p>
-          <nav aria-label="Blog categories" className="mt-8 flex flex-wrap justify-center gap-2">
+          <nav aria-label="Blog categories" className="mt-6 md:mt-8 flex flex-wrap gap-2">
             {BLOG_CATEGORIES.map((cat) => (
               <Link
                 key={cat.slug}
                 to={blogCategoryPath(cat.slug)}
-                className="inline-block px-3 py-1 bg-ennis-orange/20 border border-ennis-orange rounded-full text-ennis-orange text-xs font-semibold tracking-widest uppercase hover:bg-ennis-orange hover:text-ennis-dark transition-colors"
+                className="inline-block px-3 py-2 bg-ennis-orange/20 border border-ennis-orange rounded-full text-ennis-orange text-xs font-semibold tracking-widest uppercase hover:bg-ennis-orange hover:text-ennis-dark transition-colors"
               >
                 {cat.name}
               </Link>
             ))}
           </nav>
-          <p className="mt-4 text-sm text-gray-500">
-            <a href="/rss.xml" type="application/rss+xml" className="hover:text-ennis-orange transition-colors">
+          <p className="mt-4 text-sm text-gray-400">
+            <a href="/rss.xml" type="application/rss+xml" className="inline-block py-1 hover:text-ennis-orange transition-colors">
               Subscribe via RSS
             </a>
           </p>
@@ -82,11 +109,7 @@ export function BlogIndexTemplate() {
 
         {/* Blog Posts Grid */}
         {posts.length > 0 ? (
-          <div className="max-w-4xl mx-auto grid gap-8 md:grid-cols-2">
-            {posts.map((post, i) => (
-              <BlogCard key={post.id} post={post} eager={i < 2} />
-            ))}
-          </div>
+          <BlogCardGrid posts={posts} />
         ) : (
           <div className="text-center py-12">
             <p className="text-gray-400 text-lg">No blog posts yet. Check back soon!</p>

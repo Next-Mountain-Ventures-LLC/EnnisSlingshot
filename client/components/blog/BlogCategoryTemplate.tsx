@@ -14,9 +14,8 @@ import { Seo } from "@/components/seo/Seo";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { MarkdownBody } from "@/components/shared/MarkdownBody";
 import { itemList, webPage } from "@/lib/schema";
-import { BlogCard } from "./BlogCard";
 import { Pagination } from "./Pagination";
-import { parsePageParam } from "./BlogIndexTemplate";
+import { BlogCardGrid, parsePageParam } from "./BlogIndexTemplate";
 import NotFound from "@/pages/NotFound";
 
 export function BlogCategoryTemplate() {
@@ -58,29 +57,24 @@ export function BlogCategoryTemplate() {
           ),
         ]}
       />
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-12 max-w-6xl">
         <Breadcrumbs items={crumbs} className="mb-6" />
-        <div className="text-center mb-12">
+        {/* Header — H1 and intro share one left-aligned column, aligned with the breadcrumbs and grid */}
+        <div className="mb-10 md:mb-12 max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-black text-white mb-4">
             {intro?.data.h1 ?? category.name}
             {page > 1 && <span className="block text-2xl md:text-3xl text-gray-400 font-bold mt-2">Page {page} of {pageCount}</span>}
           </h1>
           {/* Intro copy only on page 1 — paginated pages carry the short description so they aren't near-duplicates. */}
           {intro && page === 1 ? (
-            <div className="max-w-3xl mx-auto text-left">
-              <MarkdownBody>{intro.body}</MarkdownBody>
-            </div>
+            <MarkdownBody>{intro.body}</MarkdownBody>
           ) : (
-            <p className="text-gray-400 text-lg max-w-2xl mx-auto">{category.description}</p>
+            <p className="text-gray-400 text-lg max-w-2xl">{category.description}</p>
           )}
         </div>
 
         {posts.length > 0 ? (
-          <div className="max-w-4xl mx-auto grid gap-8 md:grid-cols-2">
-            {posts.map((post, i) => (
-              <BlogCard key={post.id} post={post} eager={i < 2} />
-            ))}
-          </div>
+          <BlogCardGrid posts={posts} />
         ) : (
           <p className="text-center text-gray-400 text-lg py-12">
             No posts in this category yet. Check back soon, or browse{" "}

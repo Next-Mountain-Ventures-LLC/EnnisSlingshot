@@ -104,10 +104,25 @@ function xmlEscape(s: string): string {
     .replace(/'/g, "&apos;");
 }
 
+/**
+ * Listed in sitemap.xml: indexable, page 1 of paginated indexes only, never
+ * the /embed/* widget pages or /404.
+ */
+function inSitemap(r: RouteEntry): boolean {
+  return (
+    !r.noindex &&
+    !r.paginated &&
+    r.kind !== "embed" &&
+    r.kind !== "not-found" &&
+    r.path !== "/404" &&
+    !/\/page\/\d+\/$/.test(r.path)
+  );
+}
+
 function sitemapXml(routes: RouteEntry[]): string {
   const urls = routes
     // Only page 1 of each paginated index is listed (SITE-REBUILD-PLAN.md §6).
-    .filter((r) => !r.noindex && !r.paginated && r.path !== "/404" && !/\/page\/\d+\/$/.test(r.path))
+    .filter((r) => inSitemap(r))
     .map((r) => {
       const lines = [`    <loc>${xmlEscape(SITE_URL + r.path)}</loc>`];
       if (r.lastmod) lines.push(`    <lastmod>${r.lastmod}</lastmod>`);
@@ -216,7 +231,8 @@ function main() {
   fs.writeFileSync(path.join(OUT, "sitemap.xml"), sitemapXml(routes));
   fs.writeFileSync(path.join(OUT, "robots.txt"), robotsTxt());
   fs.writeFileSync(path.join(OUT, "llms.txt"), llmsTxt(pages, posts));
-  // Public JSON endpoint for the bloom tracker (BloomTrackerIsland "Add this to your site").
+  // Public JSON endpoint for the bloom tracker (BloomTrackerIsland "Embed the bloom tracker" →
+  // developer snippet). netlify.toml serves it with Access-Control-Allow-Origin: * so other sites can fetch it.
   fs.copyFileSync(
     path.join(ROOT, "client", "content", "data", "bloom-status.json"),
     path.join(OUT, "bloom-status.json"),
@@ -227,7 +243,7 @@ function main() {
   );
 
   console.log(
-    `[seo-files] wrote sitemap.xml (${routes.filter((r) => !r.noindex && !r.paginated && r.path !== "/404").length} urls), robots.txt, llms.txt, bloom-status.json, dist/route-manifest.json (${routes.length} routes)`,
+    `[seo-files] wrote sitemap.xml (${routes.filter(inSitemap).length} urls), robots.txt, llms.txt, bloom-status.json, dist/route-manifest.json (${routes.length} routes)`,
   );
   if (missing.length) {
     console.warn(`[seo-files] ${missing.length} SITE-STRUCTURE URL(s) without a content file yet:\n  ${missing.join("\n  ")}`);

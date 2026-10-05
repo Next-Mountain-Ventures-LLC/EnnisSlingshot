@@ -7,21 +7,26 @@ hub: "slingshot-rental"
 schemaType: "Service"
 faqs:
   - question: "How far is Ennis from Waxahachie?"
-    answer: "Ennis and Waxahachie are both in Ellis County, about 15 miles apart — a short, direct drive. It's the closest pairing on this whole page: Waxahachie visitors can add an Ennis Slingshot ride without much of a detour from their existing plans."
+    answer: "Ennis and Waxahachie are both in Ellis County, about 15 miles apart — a short, direct drive. It's the easiest pairing around: Waxahachie visitors can add an Ennis Slingshot ride without much of a detour from their existing plans."
   - question: "Can I combine a Slingshot ride with Scarborough Renaissance Festival?"
     answer: "Yes. Scarborough Renaissance Festival runs weekends from April through late May in Waxahachie, overlapping almost entirely with our April Slingshot season. Many visitors do the trails or a ride in the morning and the festival in the afternoon, or the reverse."
   - question: "Is Waxahachie worth visiting on the same trip?"
     answer: "Waxahachie is known for its historic courthouse square, Victorian architecture, and — every April and May — Scarborough Renaissance Festival, one of the largest events in the region. It's an easy add-on to an Ennis day trip, not a separate trip."
   - question: "Do you operate in Waxahachie itself?"
     answer: "No — we're based in Ennis, in Ellis County, about 15 miles from Waxahachie. The Ennis Bluebonnet Trails are the reason to make the short drive over; Waxahachie is a great pairing for the rest of your day, especially during festival season."
-updatedDate: "2026-09-05"
+cta:
+  headline: "Pair Scarborough Faire with the trails"
+  body: "About 20 minutes from Waxahachie, self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $79, insurance included."
+  buttonLabel: "Book your ride"
+  href: "/book/?package=solo"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Waxahachie & Ellis County"
 ---
 
 ## Our home county, and a natural Scarborough Faire pairing
 
-Ennis Slingshot Experience is based in Ellis County — the same county as Waxahachie, about 15 miles away. If you're already planning a Waxahachie trip, especially during Scarborough Renaissance Festival season, adding an Ennis Slingshot ride is a short drive, not a separate outing. This page is part of our [Slingshot rental lineup](/slingshot-rental/).
+Ennis Slingshot Experience is based in Ellis County — the same county as Waxahachie, about 15 miles away. If you're already planning a Waxahachie trip, especially during Scarborough Renaissance Festival season, adding an Ennis Slingshot ride is a short drive, not a separate outing. See everything we offer in our [Slingshot rental lineup](/slingshot-rental/).
 
 ## Getting here from Waxahachie
 
@@ -41,7 +46,7 @@ Scarborough Renaissance Festival runs weekends from April through late May in Wa
 - **Morning trail ride.** Book the [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) or, if you're short on time, the 1-hour [Drive & Go](/slingshot-rental/drive-and-go/).
 - **Afternoon at Scarborough Faire.** About 20 minutes from the Welcome Center, running weekends April through late May.
 - **Explore Ennis itself.** Historic downtown, local restaurants, and more are covered on [Things to Do in Ennis, TX](/ennis/).
-- **See the bluebonnets.** Ellis County — Ennis specifically — is the Texas Legislature's designated Bluebonnet Capital of Texas. The full trail map and bloom timing are on the [Ennis Bluebonnet Trails guide](/bluebonnets/).
+- **See the bluebonnets.** Ennis is the Texas Legislature's designated Bluebonnet Capital of Texas. The full trail map and bloom timing are on the [Ennis Bluebonnet Trails guide](/bluebonnets/).
 
 ## Planning your visit
 
@@ -49,7 +54,7 @@ If you're timing a trip around Scarborough Renaissance Festival, book your Sling
 
 ## What it costs and what you need
 
-Packages run $69.99 to $169, all insurance-included with no security deposit. Drivers must be 21 or older with a standard Texas driver's license — no motorcycle license required, since the Slingshot is classified as an autocycle under Tex. Transp. Code §521.085(b). Full policy detail is on [Requirements](/slingshot-rental/requirements/), and the full price breakdown is on [Pricing](/slingshot-rental/pricing/).
+Packages run $69.99 to $149, all insurance-included with no security deposit. Drivers must be 21 or older with a standard Texas driver's license — no motorcycle license required, since the Slingshot is classified as an autocycle under Tex. Transp. Code §521.085(b). Full policy detail is on [Requirements](/slingshot-rental/requirements/), and the full price breakdown is on [Pricing](/slingshot-rental/pricing/).
 
 ## When to come
 

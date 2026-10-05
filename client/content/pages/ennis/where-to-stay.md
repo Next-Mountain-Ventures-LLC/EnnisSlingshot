@@ -12,14 +12,19 @@ faqs:
     answer: "Ennis itself has limited B&B inventory; nearby Waxahachie, about 15 minutes away, has additional bed-and-breakfast properties including The English Merchant's Inn."
   - question: "Should I book lodging early for the Bluebonnet Trails Festival?"
     answer: "Yes. Ennis hotel rooms fill up well in advance of the Bluebonnet Trails Festival weekend and the Texas Motorplex Fall Nationals — book as early as you can if your visit lines up with either."
-updatedDate: "2026-09-05"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Where to Stay"
+cta:
+  headline: "Stay the night, ride in the morning"
+  body: "Staying over for bluebonnet season? Book a morning slot at the Ennis Welcome Center and drive the trails yourself in an open-cockpit Polaris Slingshot before the day gets busy — April 1–30, 2027, $79 solo or $149 for two."
+  buttonLabel: "Book a morning ride"
+  href: "/book/?package=two-up"
 ---
 
 ## The short version
 
-Ennis has a small set of chain hotels near I-45 and downtown, plus RV park options just off the highway. If you want a bed-and-breakfast, the closest options are a short drive away in Waxahachie. This page is part of our [Things to Do in Ennis hub](/ennis/); pair it with the [Ennis + Waxahachie weekend itinerary](/ennis/weekend-itinerary/) if you're staying two nights.
+Ennis has a small set of chain hotels near I-45 and downtown, plus RV park options just off the highway. If you want a bed-and-breakfast, the closest options are a short drive away in Waxahachie. Staying two nights? Pair it with the [Ennis + Waxahachie weekend itinerary](/ennis/weekend-itinerary/), or browse more [things to do in Ennis](/ennis/).
 
 ## Hotels in Ennis
 
@@ -39,19 +44,4 @@ Ennis itself has limited bed-and-breakfast inventory. The closest option most vi
 
 ## Booking around peak weekends
 
-Ennis hotel rooms sell out well ahead of the Bluebonnet Trails Festival (mid-April) and the Texas Motorplex Fall Nationals (October) — the two busiest weekends on the calendar. If your trip lines up with either, book lodging as early as you can; see the [Events Calendar](/ennis/events/) to check current dates.
-
-## FAQ
-
-**What hotels are in Ennis, TX?**
-Ennis has a Holiday Inn Express & Suites, a La Quinta Inn & Suites, and a Quality Inn, all within a few minutes of downtown and I-45.
-
-**Are there bed-and-breakfast options near Ennis, TX?**
-Ennis itself has limited B&B inventory; nearby Waxahachie, about 15 minutes away, has additional bed-and-breakfast properties including The English Merchant's Inn.
-
-**Should I book lodging early for the Bluebonnet Trails Festival?**
-Yes. Ennis hotel rooms fill up well in advance of the Bluebonnet Trails Festival weekend and the Texas Motorplex Fall Nationals — book as early as you can if your visit lines up with either.
-
-## Plan your stay around a Slingshot ride
-
-If you're staying overnight for bluebonnet season, [book a Slingshot experience](/slingshot-rental/bluebonnet-trail-experience/) for the morning after you arrive, while the trails are freshest.
+Ennis hotel rooms sell out well ahead of the Bluebonnet Trails Festival (expected April 17–19, 2027 — dates subject to change) and the Texas Motorplex Fall Nationals (October) — the two busiest weekends on the calendar. If your trip lines up with either, book lodging as early as you can; see the [Events Calendar](/ennis/events/) to check current dates. Staying over in April? The morning after you arrive is a great time for a [Slingshot ride on the trails](/slingshot-rental/bluebonnet-trail-experience/).

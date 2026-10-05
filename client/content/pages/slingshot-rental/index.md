@@ -9,27 +9,34 @@ faqs:
   - question: "Do you need a motorcycle license to rent a Slingshot in Texas?"
     answer: "No. Texas classifies the Polaris Slingshot as an autocycle, and Tex. Transp. Code §521.085(b) allows a standard Class C driver's license to operate one — the same license you use for a car. No motorcycle endorsement, class, or test is required. You do need to be 21 or older to drive with us."
   - question: "How much does it cost to rent a Slingshot in Ennis?"
-    answer: "Our packages run from $69.99 for a 1-hour Drive & Go up to $169 for a 90-minute two-person Golden Hour Date Night. The 2-hour Bluebonnet Trail Experience is $79 solo or $149 for two. Every price includes comprehensive insurance and fuel — no deposit, no hidden fees."
+    answer: "Our packages run from $69.99 for a 1-hour Drive & Go to $149 for the 2-hour Bluebonnet Trail Experience for two ($79 solo). Every price includes comprehensive insurance and fuel — no deposit, no hidden fees."
   - question: "Do I need my own insurance to rent a Slingshot?"
     answer: "No. Comprehensive insurance is included in every package, with a maximum of $500 out-of-pocket if something goes wrong. After booking, we email a quick driver-verification link that usually clears within 24 hours; if you're not approved, you get a full refund."
   - question: "Is it hard to drive a Slingshot?"
     answer: "Not for most people. It has a steering wheel, brake and gas pedals, and AutoDrive — an automatic transmission with no clutch, so it drives like a car. We walk every driver through a short orientation and a supervised test loop before you head out on the trails."
   - question: "When is the best time to book a Slingshot experience near Ennis?"
-    answer: "We operate in April, when the Ennis Bluebonnet Trails are open (April 1–30) and the wildflowers are at their best. The Ennis Bluebonnet Trails Festival typically lands mid-April, historically the second or third weekend, though 2027 dates haven't been announced yet."
+    answer: "We operate in April, when the Ennis Bluebonnet Trails are open (April 1–30, 2027) and the wildflowers are at their best. The 2027 Ennis Bluebonnet Trails Festival is expected April 17–19, 2027 (dates subject to change — confirm on bluebonnettrail.org before you travel). Festival weekend is our busiest stretch, so book early if you want to ride then."
   - question: "Where do we meet you?"
     answer: "Every rental starts at the Ennis Welcome Center, 201 NW Main St, Ennis, TX — the same building where the official Bluebonnet Trail maps are handed out. Arrive 15 minutes early for a quick check-in, safety briefing, and orientation before you drive."
 packagePrice:
   - name: "Drive & Go"
     price: "$69.99"
-  - name: "Bluebonnet Trail Experience – Solo"
+    description: "1 hour · 1 driver · a quick, budget-friendly taste of the drive"
+    url: "/book/?package=drive-and-go"
+  - name: "Bluebonnet Trail Experience — Solo"
     price: "$79"
-  - name: "Bluebonnet Trail Experience – Two-Up"
+    description: "2 hours · 1 driver · the full curated trail route"
+    url: "/book/?package=solo"
+  - name: "Bluebonnet Trail Experience — Driver + Rider"
     price: "$149"
-  - name: "Golden Hour Date Night"
-    price: "$169 for two"
-  - name: "Group Convoy (per vehicle)"
-    price: "$139"
-updatedDate: "2026-09-05"
+    description: "2 hours · driver + 1 passenger · dates, anniversaries, birthdays"
+    url: "/book/?package=two-up"
+cta:
+  headline: "Book your April 2027 Slingshot ride"
+  body: "Self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — 1-hour Drive & Go for $69.99, or the 2-hour trail ride for $79 solo or $149 for two, insurance included."
+  buttonLabel: "Book your ride"
+  href: "/book/"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Slingshot Rental"
 ---
@@ -38,7 +45,7 @@ breadcrumbLabel: "Slingshot Rental"
 
 Ennis Slingshot Experience is a 1–2 hour self-drive experience from Ennis, TX, 35 miles south of Dallas — not a daily rental fleet and not a guided passenger tour. You show up, get a short safety briefing and a supervised practice loop, then drive a Polaris Slingshot yourself along the Ennis Bluebonnet Trails. At the end of your window, you hand the keys back. There's no overnight pickup logistics, no towing it home, and nobody riding in the back seat narrating — it's you, behind the wheel, on some of the best driving roads in North Texas.
 
-That distinction matters because most people searching for a "Slingshot rental near Dallas" don't actually want a multi-day rental with a security deposit and mileage caps. They want to know what it feels like to drive one, for an occasion, a bucket-list afternoon, or a test before they consider buying. This page — and the rest of this hub — is built around that experience, honestly described.
+That distinction matters because most people looking for a Slingshot rental near Dallas don't actually want a multi-day rental with a security deposit and mileage caps. They want to know what it feels like to drive one — for an occasion, a bucket-list afternoon, or a test before they consider buying. That's exactly the experience we built.
 
 ## The friction we remove
 
@@ -52,22 +59,15 @@ Every competitor rental in the DFW area charges a deposit and requires paperwork
 
 ## How it works
 
-1. **Book online** for a package and time slot at [/book/](/book/). A driver-verification link is emailed right after booking and usually clears within 24 hours; if you're not approved, it's a full refund.
+1. **Book online** — pick a package and time slot on [our booking page](/book/). A driver-verification link is emailed right after booking and usually clears within 24 hours; if you're not approved, it's a full refund.
 2. **Meet us at the Welcome Center**, 201 NW Main St, 15 minutes before your slot for check-in and a quick safety briefing.
 3. **Drive the trails.** We hand you a curated route through the Ennis Bluebonnet Trails, sized to your package length, and you're on your own from there — helmets available, Bluetooth comm optional.
 
 ## Packages & pricing
 
-| Package | Duration | Price | Who it's for |
-|---|---|---|---|
-| [Drive & Go](/slingshot-rental/drive-and-go/) | 60 min | $69.99 | A no-dealer test drive; quick and budget-friendly |
-| [Bluebonnet Trail Experience – Solo](/slingshot-rental/bluebonnet-trail-experience/) | 2 hr | $79 | One driver who wants the full trail route |
-| [Bluebonnet Trail Experience – Two-Up](/slingshot-rental/bluebonnet-trail-experience/) | 2 hr | $149 | Driver plus one passenger |
-| [Golden Hour Date Night](/slingshot-rental/date-night/) *(new for 2027)* | 90 min | $169 for two | Couples, anniversaries, proposals |
-| [Group Convoy](/slingshot-rental/groups/) *(new for 2027)* | 2 hr | $139 per vehicle | Birthdays, bachelorette parties, small groups |
-| Festival Weekend Ride | 2 hr | Pricing TBD | Bluebonnet Festival weekend visitors |
+Pick the length of drive that fits your day. [Drive & Go](/slingshot-rental/drive-and-go/) is a 1-hour solo drive for $69.99 — a no-dealer test drive that's quick and budget-friendly. The 2-hour [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) covers the full trail route for $79 solo or $149 for a driver and rider — the ride couples book for a [date night](/slingshot-rental/date-night/). Bringing four? Book both Slingshots for the same time slot — see [Groups](/slingshot-rental/groups/).
 
-Add-ons: a Bluetooth communication helmet is $25 per helmet, and a self-serve photo add-on *(new for 2027)* is $39. See the full breakdown, what's included, and how it compares to a typical DFW rental on [Pricing](/slingshot-rental/pricing/).
+Add-on: a Bluetooth communication helmet is $25 per helmet. See the full breakdown, what's included, and how it compares to a typical DFW rental on [Pricing](/slingshot-rental/pricing/).
 
 For every package, comprehensive insurance and fuel are included and there's no security deposit. Full policy detail — driver approval, age minimums, cancellation and weather rules — lives on [Requirements](/slingshot-rental/requirements/).
 
@@ -79,7 +79,7 @@ If you want the full picture before you book — the loops, bloom timing, festiv
 
 ## Coming from Dallas, Fort Worth, Arlington, or beyond
 
-Ennis sits about 35 miles south of downtown Dallas on I-45 — roughly a 37-minute drive. We're a day-trip destination, not a downtown Dallas business, and every one of the pages below is built around getting you here and making the most of the visit:
+Ennis sits about 35 miles south of downtown Dallas on I-45 — roughly a 37-minute drive. We're a day-trip destination, not a downtown Dallas business, and each of these guides covers getting here and making the most of the visit:
 
 - **[Near Dallas](/slingshot-rental/near-dallas/)** — drive time (35 miles, ~37 minutes via I-45 South), route, and pairing your ride with a day in Ennis.
 - **[Near Fort Worth](/slingshot-rental/near-fort-worth/)** — about 57 miles and 59 minutes; the scenic route south, worth the extra miles.
@@ -87,17 +87,17 @@ Ennis sits about 35 miles south of downtown Dallas on I-45 — roughly a 37-minu
 - **[Waxahachie & Ellis County](/slingshot-rental/waxahachie-ellis-county/)** — our home county, about 15 miles away, and a natural pairing with Scarborough Renaissance Festival.
 - **[Slingshot Rental in Texas](/slingshot-rental/texas/)** — planning a trip from Houston, Austin, San Antonio, or Waco, with drive times and a suggested weekend itinerary.
 
-We say "near," not "in," on purpose. Nobody drives to a Slingshot rental expecting a downtown parking garage — they're driving for the road itself, and the road is 35 minutes outside Dallas, not inside it.
+Nobody drives out for a Slingshot ride hoping for a downtown parking garage — you're driving for the road itself, and the best road is 35 minutes outside Dallas, not inside it.
 
 ## Who books a Slingshot experience
 
-Based on what we've seen so far and what the category looks like statewide, most of our riders aren't gearheads — they're couples celebrating a birthday or anniversary, small groups planning a memorable afternoon, and out-of-town visitors adding something distinctive to a DFW trip. If you're weighing a specific occasion, [Date Night](/slingshot-rental/date-night/) and [Groups](/slingshot-rental/groups/) walk through how each package fits.
+Most of our riders aren't gearheads — they're couples celebrating a birthday or anniversary, small groups planning a memorable afternoon, and out-of-town visitors adding something distinctive to a DFW trip. If you're planning around an occasion, [Date Night](/slingshot-rental/date-night/) and [Groups](/slingshot-rental/groups/) walk through how to plan each one, and a [gift card](/slingshot-rental/gift-cards/) lets someone else pick their own April date instead of you guessing at their schedule.
 
-A smaller group books us as a try-before-you-buy test drive — an hour or two of real seat time before deciding whether to shop for one of their own, which is exactly what [Drive & Go](/slingshot-rental/drive-and-go/) is built for. Whichever category you fall into, the requirements are the same: a valid driver's license, no motorcycle endorsement needed, and a willingness to drive with the top down, literally — there's no roof.
+A smaller group books us as a try-before-you-buy test drive — an hour or two of real seat time before deciding whether to shop for one of their own, which is exactly what [Drive & Go](/slingshot-rental/drive-and-go/) is built for. Whichever group you fall into, the requirements are the same: a valid driver's license, no motorcycle endorsement needed, and a willingness to drive with the top down, literally — there's no roof.
 
 ## Season & dates
 
-We operate in April, when the Ennis Bluebonnet Trails are open (April 1–30) and the wildflowers are at their best. The Ennis Bluebonnet Trails Festival caps the season — dates for 2027 haven't been announced yet, but historically it lands the second or third weekend of April. Book early: April slots, especially festival weekend, sell out.
+We operate in April, when the Ennis Bluebonnet Trails are open (April 1–30, 2027) and the wildflowers are at their best. The Ennis Bluebonnet Trails Festival caps the season — the 2027 festival is expected April 17–19, 2027 (dates subject to change — confirm on bluebonnettrail.org before you travel). Same packages, same prices all month; just book early, because April weekends — especially festival weekend — fill up fast.
 
 ## Booking, rescheduling & weather
 
@@ -109,7 +109,7 @@ A Slingshot ride pairs naturally with the rest of what Ennis and Ellis County ha
 
 ## Why Ennis is the drive worth taking
 
-Most Slingshot rentals in Texas hand you a set of keys and a city parking lot. Ennis is different because of what's already here: in 1997, the Texas Legislature named Ennis the Official Bluebonnet City of Texas and the home of the Official Texas Bluebonnet Trail. The Ennis Garden Club has mapped and maintained the trails since the 1950s, and by most accounts they're the oldest bluebonnet trails in the state — more than 40 miles of rural loops through farmland, ranches, and creek bottoms that turn blue every April. That's not marketing copy; it's the actual reason a Slingshot ride here feels different from one in a city rental lot. You're not driving to see something — the drive itself is the thing you came for.
+Most Slingshot rentals in Texas hand you a set of keys and a city parking lot. Ennis is different because of what's already here: in 1997, the Texas Legislature named Ennis the Official Bluebonnet City of Texas and the home of the Official Texas Bluebonnet Trail. The Ennis Garden Club has mapped and maintained the trails since the 1950s, and by most accounts they're the oldest bluebonnet trails in the state — more than 40 miles of rural loops through farmland, ranches, and creek bottoms that turn blue every April. It's the reason a Slingshot ride here feels different from one in a city rental lot. You're not driving to see something — the drive itself is the thing you came for.
 
 ## The vehicle you'll drive
 
@@ -119,13 +119,9 @@ Every ride is in a Polaris Slingshot with AutoDrive — an automatic transmissio
 
 Show up 15 minutes before your slot at the Welcome Center. We check your ID and confirm your driver approval, then walk through the controls — steering, throttle, braking feel, and how AutoDrive behaves differently from a normal automatic (it can downshift on its own to slow you down, which surprises first-timers more than anything else). You'll do a short supervised loop before we send you out on the actual trail route, so nobody's first turn behind the wheel happens unsupervised on a public road. Helmets are available to rent if you want one; we strongly recommend it even though it isn't always legally required for riders 21 and older.
 
-## Real occasions, not just gearheads
-
-We've already hosted a birthday and an anniversary ride in our first season, and that lines up with what the category looks like statewide: most Slingshot renters aren't lifelong powersports enthusiasts, they're couples and small groups marking an occasion — a birthday, an anniversary, a bucket-list afternoon, a surprise gift. That's who [Date Night](/slingshot-rental/date-night/) and [Groups](/slingshot-rental/groups/) are built for, and it's why [gift cards](/slingshot-rental/gift-cards/) let someone else pick their own date instead of guessing at a schedule.
-
 ## What this isn't
 
-To be direct about the limits: this is a 1–2 hour guided-route experience, not a multi-day rental you can take home, and we only operate through April, tied to the bluebonnet season. If you're looking for a daily or weekly Slingshot rental with unlimited mileage, that's a different kind of business than ours — several exist in the DFW area at roughly double our hourly rate plus a deposit. We built something narrower on purpose: the easiest, lowest-friction way to spend a couple of hours in a Slingshot on some of the best roads in Texas.
+To be direct about the limits: this is a 1–2 hour self-drive experience on a curated route, not a multi-day rental you can take home, and we only operate through April, tied to the bluebonnet season. If you're looking for a daily or weekly Slingshot rental with unlimited mileage, that's a different kind of business than ours — several exist in the DFW area at roughly double our hourly rate plus a deposit. We built something narrower on purpose: the easiest, lowest-friction way to spend a couple of hours in a Slingshot on some of the best roads in Texas.
 
 ## Ready to drive?
 

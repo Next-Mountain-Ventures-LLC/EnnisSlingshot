@@ -113,7 +113,7 @@ export const business = {
     "Dallas–Fort Worth Metroplex",
   ],
 
-  /** Acuity Scheduling owner id + appointment types (from Booking.tsx / PromotionalPopup.tsx). */
+  /** Acuity Scheduling owner id + appointment types (used by shared/booking.ts). */
   booking: {
     acuityOwner: "13113355",
     soloAppointmentType: "91042979",

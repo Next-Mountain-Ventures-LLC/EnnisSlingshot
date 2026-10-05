@@ -2210,7 +2210,8 @@
         "color": "#2E7D32",
         "distanceMiles": 17.1,
         "approximate": true,
-        "note": "Roads sourced from the official 2018 Ennis Bluebonnet Trails & Festival map (Ennis Garden Club, mirrored via travellatte.net; bluebonnettrail.org/trailmap and visitennistexas.com had no turn-by-turn text). Waypoint order along the West Trail (green on the source map) was interpreted from the map graphic \u2014 FM 1722, Baldridge St/Kachina Prairie, Bluebonnet Park, Lakeview Dr near Lake Bardwell, and the Meadow View Nature Area vicinity \u2014 then connected with real roads via OSRM. Exact turn sequence may not perfectly match the current official trail; confirm with a current-year map at the Welcome Center."
+        "note": "Passes FM 1722, Baldridge St and the Kachina Prairie, Bluebonnet Park, Lakeview Dr near Lake Bardwell and the Meadow View Nature Area. The line follows the official Ennis Garden Club trail map; turns can change from year to year, so pick up the current printed map at the Ennis Welcome Center, 201 NW Main St.",
+        "sourceNote": "Roads traced from the official 2018 Ennis Bluebonnet Trails & Festival map (Ennis Garden Club, bluebonnettrail.org) in waypoint order, then snapped to real roads with OSRM. Turn sequence may differ from the current-year map."
       }
     },
     {
@@ -7074,7 +7075,8 @@
         "color": "#1B5E20",
         "distanceMiles": 37.2,
         "approximate": true,
-        "note": "Roads sourced from the official 2018 Ennis Bluebonnet Trails & Festival map (Ennis Garden Club, mirrored via travellatte.net). Waypoint order along the North Trail (gold on the source map) was interpreted from the map graphic \u2014 FM 879, FM 813 near Palmer, Sugar Ridge Rd/the winery near Bristol, Union Hill Rd, and Alsdorf Rd \u2014 then connected with real roads via OSRM. Exact turn sequence may not perfectly match the current official trail; confirm with a current-year map at the Welcome Center."
+        "note": "Follows FM 879 and FM 813 toward Palmer, Sugar Ridge Rd and the winery near Bristol, Union Hill Rd and Alsdorf Rd. The line follows the official Ennis Garden Club trail map; turns can change from year to year, so pick up the current printed map at the Ennis Welcome Center, 201 NW Main St.",
+        "sourceNote": "Roads traced from the official 2018 Ennis Bluebonnet Trails & Festival map (Ennis Garden Club, bluebonnettrail.org) in waypoint order, then snapped to real roads with OSRM. Turn sequence may differ from the current-year map."
       }
     },
     {
@@ -11614,7 +11616,8 @@
         "color": "#388E3C",
         "distanceMiles": 44.1,
         "approximate": true,
-        "note": "Roads sourced from the official 2018 Ennis Bluebonnet Trails & Festival map (Ennis Garden Club, mirrored via travellatte.net). Waypoint order along the South Trail (purple on the source map) was interpreted from the map graphic \u2014 FM 1181 near Telico, Walker Creek Rd, FM 85, Hornik Rd, Valek Rd, FM 249, and Creechville Rd \u2014 then connected with real roads via OSRM. Exact turn sequence may not perfectly match the current official trail; confirm with a current-year map at the Welcome Center."
+        "note": "Runs along FM 1181 near Telico, Walker Creek Rd, FM 85, Hornik Rd, Valek Rd, FM 249 and Creechville Rd. The line follows the official Ennis Garden Club trail map; turns can change from year to year, so pick up the current printed map at the Ennis Welcome Center, 201 NW Main St.",
+        "sourceNote": "Roads traced from the official 2018 Ennis Bluebonnet Trails & Festival map (Ennis Garden Club, bluebonnettrail.org) in waypoint order, then snapped to real roads with OSRM. Turn sequence may differ from the current-year map."
       }
     },
     {
@@ -16382,7 +16385,8 @@
         "color": "#F5751F",
         "distanceMiles": 37.2,
         "approximate": true,
-        "note": "Curated scenic suggestion, not an official Bluebonnet Trail. Built for the Ennis Slingshot site: starts/ends at the Ennis Welcome Center and routes via OSRM through Sugar Ridge Rd/Sugar Ridge Winery near Bristol, the Lakeview Dr/Lake Bardwell area, and the Meadow View Nature Area vicinity. Distance and duration are OSRM's real driving estimate, not a guaranteed ~2 hour target."
+        "note": "Our curated scenic route for Slingshot drivers, not an official Bluebonnet Trail loop. It starts and ends at the Ennis Welcome Center and takes in Sugar Ridge Rd and Sugar Ridge Winery near Bristol, Lakeview Dr along Lake Bardwell and the Meadow View Nature Area.",
+        "sourceNote": "Curated for ennisslingshot.com: Welcome Center \u2192 Sugar Ridge Rd/Sugar Ridge Winery \u2192 Lakeview Dr/Lake Bardwell \u2192 Meadow View Nature Area \u2192 Welcome Center, routed on real roads with OSRM. Distance is OSRM's driving estimate."
       }
     },
     {
@@ -16398,7 +16402,7 @@
         "type": "welcome-center",
         "name": "Ennis Welcome Center",
         "description": "Starting point for the Ennis Bluebonnet Trails; bluebonnet trail maps and current bloom status are available here during the April trail season.",
-        "source": "Task-provided coordinate; https://www.bluebonnettrail.org/trailmap"
+        "sourceNote": "Meeting-point coordinate (shared/business.ts geo); https://www.bluebonnettrail.org/trailmap"
       }
     },
     {
@@ -16413,8 +16417,8 @@
       "properties": {
         "type": "photo-spot",
         "name": "Meadow View Nature Area",
-        "description": "39-acre nature area near Bardwell Lake on the West Bluebonnet Trail; per the official trail map, access is via Hwy 34 only, and it is best known as an April bluebonnet photo location. Coordinate is a road-proxy (Laneview Dr) since the nature area itself is not indexed by name in OpenStreetMap/Nominatim.",
-        "source": "Nominatim geocoding (Laneview Dr proxy); official 2018 Ennis Bluebonnet Trails map"
+        "description": "39-acre nature area near Bardwell Lake on the West Bluebonnet Trail, best known as an April bluebonnet photo spot. Access is via Hwy 34 only; the pin marks the nearest road (Laneview Dr).",
+        "sourceNote": "Nominatim geocode of Laneview Dr (the nature area itself isn't indexed by name); official 2018 Ennis Bluebonnet Trails map"
       }
     },
     {
@@ -16430,7 +16434,7 @@
         "type": "park",
         "name": "Bluebonnet Park",
         "description": "47-acre city park at 201 S Highway 287 in Ennis, marked as a trail landmark on the official Bluebonnet Trails map.",
-        "source": "Nominatim geocoding"
+        "sourceNote": "Nominatim geocode"
       }
     },
     {
@@ -16445,8 +16449,8 @@
       "properties": {
         "type": "winery",
         "name": "Sugar Ridge Winery",
-        "description": "Winery at 353 Sugar Ridge Rd near Bristol, TX, marked with a winery icon on the official North Bluebonnet Trail map. The exact street address did not resolve in Nominatim, so this coordinate is the Sugar Ridge Rd centroid near Bristol shown on the source map.",
-        "source": "Nominatim geocoding (Sugar Ridge Rd centroid, address unresolved); official 2018 Ennis Bluebonnet Trails map"
+        "description": "Winery at 353 Sugar Ridge Rd near Bristol, TX, a landmark on the North Bluebonnet Trail. The pin is approximate; use the street address for directions.",
+        "sourceNote": "Sugar Ridge Rd centroid near Bristol (street address didn't geocode in Nominatim); official 2018 Ennis Bluebonnet Trails map"
       }
     },
     {
@@ -16462,7 +16466,7 @@
         "type": "photo-spot",
         "name": "Lakeview Drive / Lake Bardwell Area",
         "description": "Lakeview Drive along Bardwell Lake, on the West Bluebonnet Trail; a popular scenic and photo area southwest of downtown Ennis.",
-        "source": "Nominatim geocoding"
+        "sourceNote": "Nominatim geocode"
       }
     },
     {
@@ -16478,7 +16482,7 @@
         "type": "parking",
         "name": "Downtown Ennis Parking",
         "description": "General parking area in downtown Ennis near W Knox St and the historic downtown square, a reasonable staging point close to the Welcome Center for trail visitors.",
-        "source": "Nominatim geocoding"
+        "sourceNote": "Nominatim geocode"
       }
     }
   ]

@@ -1,7 +1,7 @@
 /**
  * Events data contract + helpers. Source: client/content/data/events.json
  * (imported at build time → the list prerenders and the Event JSON-LD is
- * emitted from the same array).
+ * emitted from the same array, confirmed upcoming events only).
  */
 import eventsJson from "@/content/data/events.json";
 import { event as eventJsonLd, type JsonLd } from "@/lib/schema";
@@ -19,8 +19,12 @@ export interface EnnisEvent {
   url?: string;
   source?: string;
   category?: string;
-  /** Dates are historical/estimated, not yet confirmed by the organizer. */
-  tbd?: boolean;
+  /**
+   * Expected dates (the organizer's usual schedule / our best information),
+   * not yet officially announced — shown as "Expected dates" and left out of
+   * the Event JSON-LD.
+   */
+  expected?: boolean;
 }
 
 export const EVENTS: readonly EnnisEvent[] = (eventsJson as EnnisEvent[])
@@ -114,13 +118,26 @@ function parseLocation(e: EnnisEvent): { name: string; locality?: string; street
   return { name: streetAddress ? e.location : name, locality: e.city, streetAddress };
 }
 
-/** schema.org Event for every event that has a startDate (all of them, by construction). */
-export function eventsJsonLd(pagePath: string, events: readonly EnnisEvent[] = EVENTS): JsonLd[] {
-  return events.map((e) => {
+/**
+ * Events that get schema.org Event markup: confirmed dates only (no
+ * `expected` entries — Google wants real dates) and not already over on
+ * `today` (the build date for the prerendered page, America/Chicago).
+ */
+export function jsonLdEvents(events: readonly EnnisEvent[] = EVENTS, today: string = todayChicago()): EnnisEvent[] {
+  return events.filter((e) => !e.expected && !isPastEvent(e, today));
+}
+
+/** schema.org Event for every confirmed, upcoming event (see jsonLdEvents). */
+export function eventsJsonLd(
+  pagePath: string,
+  events: readonly EnnisEvent[] = EVENTS,
+  today: string = todayChicago(),
+): JsonLd[] {
+  return jsonLdEvents(events, today).map((e) => {
     const loc = parseLocation(e);
     return eventJsonLd({
       name: e.name,
-      description: e.tbd ? `${e.description} (Dates shown are expected and not yet confirmed by the organizer.)` : e.description,
+      description: e.description,
       startDate: e.startDate,
       endDate: e.endDate,
       location: {

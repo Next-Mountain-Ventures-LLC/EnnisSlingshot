@@ -161,6 +161,18 @@ export function blogPostPath(slug: string): string {
   return `/blog/${slug}/`;
 }
 
+/**
+ * Chrome-less widget pages for third-party sites (client/pages/embed/*,
+ * rendered outside SiteLayout). Prerendered like every other route, but
+ * always noindex — kept out of sitemap.xml and llms.txt — and the only paths
+ * netlify.toml lets other sites frame.
+ */
+export const EMBED_PATHS = ["/embed/bloom-tracker/", "/embed/trail-map/"] as const;
+
+export function isEmbedPath(pathname: string): boolean {
+  return pathname === "/embed" || pathname.startsWith("/embed/");
+}
+
 export type RouteKind =
   | "home"
   | "hub"
@@ -170,6 +182,7 @@ export type RouteKind =
   | "blog-category"
   | "blog-category-page"
   | "blog-post"
+  | "embed"
   | "not-found";
 
 export interface RouteEntry {
@@ -180,7 +193,7 @@ export interface RouteEntry {
   lastmod?: string;
   /** Sitemap priority hint (0–1). */
   priority?: number;
-  /** Excluded from sitemap.xml (noindex pages, /404). */
+  /** Excluded from sitemap.xml (noindex pages, /embed/*, /404). */
   noindex?: boolean;
   /** Page ≥ 2 of a paginated index: prerendered and indexable, but not listed in sitemap.xml. */
   paginated?: boolean;
@@ -237,8 +250,9 @@ function iso(d?: Date): string | undefined {
 /**
  * Build the ordered, de-duplicated route manifest.
  *
- * Component-backed routes ("/", "/blog/", the 5 category pages, "/404") are
- * always present. Markdown pages are present when a file exists. URLs from
+ * Component-backed routes ("/", "/blog/", the 5 category pages, the
+ * /embed/ widgets, "/404") are always present. Markdown pages are present
+ * when a file exists. URLs from
  * SITE_STRUCTURE_URLS with no content file yet are reported via `missing` so
  * the build can warn — they are NOT prerendered (that would ship a 404 page
  * at a real URL and put it in the sitemap).
@@ -320,6 +334,9 @@ export function buildRouteManifest(input: ManifestInputs): {
       priority: 0.6,
     });
   }
+
+  // Third-party widget pages: prerendered (assert-prerendered checks them) but never indexed.
+  for (const p of EMBED_PATHS) routes.set(p, { path: p, kind: "embed", noindex: true });
 
   routes.set("/404", { path: "/404", kind: "not-found", noindex: true });
 

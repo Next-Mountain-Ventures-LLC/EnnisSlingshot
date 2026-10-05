@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
 /** Global nav per LINKING-CONVENTIONS.md: Experiences · Bluebonnets · Ennis · Blog · FAQ · Book (CTA). */
@@ -13,34 +13,61 @@ export const NAV_ITEMS = [
 
 export const BOOK_ITEM = { label: "Book", to: "/book/" } as const;
 
+const LOGO_SRC =
+  "https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2F700b36c4a653482c8265f6619a61ea23?format=webp&width=112";
+
 export function Header() {
   const [open, setOpen] = useState(false);
+  const toggleRef = useRef<HTMLButtonElement>(null);
+  const { pathname } = useLocation();
+
+  // Close the mobile menu whenever the route changes.
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
+
+  // Escape closes the mobile menu and returns focus to the toggle.
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "Escape") return;
+      setOpen(false);
+      toggleRef.current?.focus();
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [open]);
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>
-    `text-sm font-semibold uppercase tracking-wider transition-colors ${
+    `whitespace-nowrap text-sm font-semibold uppercase tracking-wider transition-colors ${
       isActive ? "text-ennis-orange" : "text-gray-300 hover:text-white"
     }`;
 
   return (
     <header className="sticky top-0 z-50 w-full bg-ennis-dark/95 backdrop-blur-sm border-b border-gray-700">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between gap-6">
-        {/* Logo */}
-        <Link to="/" className="flex items-center gap-3 hover:opacity-90 transition-opacity" aria-label="Ennis Slingshot Experience — home">
+      <div className="container mx-auto px-4 py-3 md:py-4 flex items-center justify-between gap-4 lg:gap-6">
+        {/* Logo — fixed box so a slow/failed image can't squash the alt text or shift the nav */}
+        <Link
+          to="/"
+          className="flex min-w-0 shrink-0 items-center gap-3 hover:opacity-90 transition-opacity"
+          aria-label="Ennis Slingshot Experience — home"
+        >
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F5193f7a05d654f0c98a0a70f48ef2387%2F700b36c4a653482c8265f6619a61ea23?format=webp&width=80"
+            src={LOGO_SRC}
             alt="Ennis Slingshot Experience"
             width={56}
             height={56}
-            className="h-12 md:h-14 w-auto"
+            className="h-10 w-10 md:h-14 md:w-14 shrink-0 object-contain"
           />
-          <span className="hidden sm:block">
+          {/* Wordmark: phones + desktop. Hidden 768–1023px so the full nav fits on one line. */}
+          <span className="hidden sm:block md:hidden lg:block whitespace-nowrap">
             <span className="block text-white font-black text-lg leading-tight">ENNIS</span>
             <span className="block text-ennis-orange text-xs font-semibold">Slingshot Experience</span>
           </span>
         </Link>
 
         {/* Desktop nav */}
-        <nav aria-label="Primary" className="hidden md:flex items-center gap-6">
+        <nav aria-label="Primary" className="hidden md:flex items-center gap-4 lg:gap-6">
           {NAV_ITEMS.map((item) => (
             <NavLink key={item.to} to={item.to} className={linkClass}>
               {item.label}
@@ -48,7 +75,7 @@ export function Header() {
           ))}
           <Link
             to={BOOK_ITEM.to}
-            className="px-5 py-2 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold rounded-lg transition-all text-sm uppercase tracking-wider"
+            className="whitespace-nowrap px-4 lg:px-5 py-2 bg-ennis-orange hover:bg-ennis-orange-bright text-ennis-dark font-bold rounded-lg transition-colors text-sm uppercase tracking-wider"
           >
             {BOOK_ITEM.label}
           </Link>
@@ -56,8 +83,9 @@ export function Header() {
 
         {/* Mobile toggle */}
         <button
+          ref={toggleRef}
           type="button"
-          className="md:hidden p-2 text-gray-300 hover:text-white"
+          className="md:hidden -mr-2 p-2 text-gray-300 hover:text-white"
           aria-label={open ? "Close menu" : "Open menu"}
           aria-expanded={open}
           aria-controls="mobile-nav"
@@ -81,7 +109,7 @@ export function Header() {
                 to={item.to}
                 onClick={() => setOpen(false)}
                 className={({ isActive }) =>
-                  `block py-2 text-base font-semibold ${isActive ? "text-ennis-orange" : "text-gray-200"}`
+                  `block py-2.5 text-base font-semibold ${isActive ? "text-ennis-orange" : "text-gray-200"}`
                 }
               >
                 {item.label}

@@ -12,22 +12,31 @@ faqs:
   - question: "Is there a Slingshot rental in Dallas itself?"
     answer: "We're not located in Dallas — we operate from Ennis, about 35 miles south, where the roads and the Bluebonnet Trails make for a genuinely different driving experience than a city rental lot. It's a short, scenic drive from Dallas, not a downtown pickup."
   - question: "What's the best time to come from Dallas for the bluebonnets?"
-    answer: "The Ennis Bluebonnet Trails run April 1–30, with peak bloom typically around the third week of April. A weekday visit avoids the festival-weekend crowds; if you want the festival atmosphere too, plan around the second or third weekend of the month."
+    answer: "The Ennis Bluebonnet Trails run April 1–30, with peak bloom typically around the third week of April. A weekday visit avoids the festival-weekend crowds; if you want the festival atmosphere too, plan around the 2027 Ennis Bluebonnet Trails Festival, expected April 17–19, 2027 (dates subject to change)."
   - question: "Can I make a full day trip out of it from Dallas?"
     answer: "Yes — most Dallas visitors pair their ride with lunch or shopping in historic downtown Ennis, and some extend the day into Waxahachie, about 15 minutes further, for Scarborough Renaissance Festival in April, before heading back north to Dallas that evening."
 packagePrice:
-  - name: "Bluebonnet Trail Experience – Solo"
+  - name: "Bluebonnet Trail Experience — Solo"
     price: "$79"
-  - name: "Bluebonnet Trail Experience – Two-Up"
+    description: "2 hours · 1 driver"
+    url: "/book/?package=solo"
+  - name: "Bluebonnet Trail Experience — Driver + Rider"
     price: "$149"
-updatedDate: "2026-09-05"
+    description: "2 hours · driver + 1 passenger"
+    url: "/book/?package=two-up"
+cta:
+  headline: "37 minutes from Dallas to the trails"
+  body: "Head south on I-45 and self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $79, insurance included, no motorcycle license needed."
+  buttonLabel: "Book your ride"
+  href: "/book/?package=solo"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Near Dallas"
 ---
 
 ## 35 miles south of Dallas, about a 37-minute drive
 
-If you're searching for a Slingshot rental near Dallas, here's the honest answer: we're not in Dallas. Ennis Slingshot Experience is a 1–2 hour self-drive experience from Ennis, TX, 35 miles south of downtown Dallas on I-45 — about a 37-minute drive door to door. It's part of our [Slingshot rental lineup](/slingshot-rental/), and the short drive south is worth it: instead of a city rental lot, you're driving real open roads through the Ennis Bluebonnet Trails.
+Looking for a Slingshot rental near Dallas? Here's the honest answer: we're not in Dallas. Ennis Slingshot Experience is a 1–2 hour self-drive experience from Ennis, TX, 35 miles south of downtown Dallas on I-45 — about a 37-minute drive door to door. It's part of our [Slingshot rental lineup](/slingshot-rental/), and the short drive south is worth it: instead of a city rental lot, you're driving real open roads through the Ennis Bluebonnet Trails.
 
 ## Getting here from Dallas
 
@@ -38,7 +47,7 @@ If you're searching for a Slingshot rental near Dallas, here's the honest answer
 | Route | I-45 South, direct |
 | Meeting point | Ennis Welcome Center, 201 NW Main St, Ennis, TX 75119 |
 
-No highway changes, no downtown congestion once you're heading south on I-45 — it's a straightforward drive, and most Dallas visitors treat it as a half-day or full-day trip rather than a quick errand.
+Plan on a half-day or full-day trip rather than a quick errand.
 
 ## Why drive south instead of renting in the city
 
@@ -53,11 +62,11 @@ Slingshot rentals based inside Dallas and its close suburbs typically run around
 
 ## When to come
 
-We operate in April, when the Ennis Bluebonnet Trails are open (April 1–30). Peak bloom typically lands around the third week of the month, and the Ennis Bluebonnet Trails Festival caps the season — historically the second or third weekend of April, though 2027 dates haven't been announced. For the full trail and festival picture, see the [Ennis Bluebonnet Trails guide](/bluebonnets/).
+We operate in April, when the Ennis Bluebonnet Trails are open (April 1–30). Peak bloom typically lands around the third week of the month, and the Ennis Bluebonnet Trails Festival caps the season — the 2027 festival is expected April 17–19, 2027 (dates subject to change — confirm on bluebonnettrail.org before you travel). For the full trail and festival picture, see the [Ennis Bluebonnet Trails guide](/bluebonnets/).
 
 ## What it costs and what you need
 
-Packages run $69.99 to $169, all insurance-included with no deposit. Drivers need to be 21 or older with a standard Texas driver's license — no motorcycle license required, since the Slingshot is legally an autocycle under Tex. Transp. Code §521.085(b). Full requirements are on [Requirements](/slingshot-rental/requirements/).
+Packages run $69.99 to $149, all insurance-included with no deposit. Drivers need to be 21 or older with a standard Texas driver's license — no motorcycle license required, since the Slingshot is legally an autocycle under Tex. Transp. Code §521.085(b). Full requirements are on [Requirements](/slingshot-rental/requirements/).
 
 ## What the drive actually looks like
 
@@ -69,4 +78,4 @@ Every vehicle in our fleet is a Polaris Slingshot with AutoDrive — an automati
 
 ## Book your drive from Dallas
 
-[Reserve your Slingshot experience](/book/) and make the short trip south to Ennis.
+[Reserve your Slingshot experience](/book/) — [$79 solo](/book/?package=solo) or [$149 for two](/book/?package=two-up) — and make the short trip south to Ennis.

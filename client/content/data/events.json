@@ -6,24 +6,23 @@
     "endDate": "2027-04-30",
     "location": "Multiple driving trail routes, Ennis, TX",
     "city": "Ennis",
-    "description": "Self-guided driving trails through Ellis County backroads showcasing peak bluebonnet wildflower blooms. Trails have opened April 1-30 in recent years, including 2026; official 2027 dates had not yet been posted by the Ennis Bluebonnet Trails organization as of this research.",
+    "description": "Self-guided driving trails through Ellis County backroads showcasing peak bluebonnet wildflower blooms. The trails are open April 1–30, 2027 — pick up a trail map at the Ennis Welcome Center, 201 NW Main St.",
     "url": "https://www.bluebonnettrail.org/",
     "source": "https://www.bluebonnettrail.org/",
-    "category": "bluebonnets",
-    "tbd": true
+    "category": "bluebonnets"
   },
   {
     "id": "ennis-bluebonnet-trails-festival-2027",
     "name": "Ennis Bluebonnet Trails Festival",
-    "startDate": "2027-04-16",
-    "endDate": "2027-04-18",
+    "startDate": "2027-04-17",
+    "endDate": "2027-04-19",
     "location": "Downtown Ennis, TX",
     "city": "Ennis",
-    "description": "Annual festival with vendors, live music, and family activities in downtown Ennis timed to peak bluebonnet season. Historically the 2nd or 3rd weekend of April (2026 dates were April 17-19); 2027 dates are not yet published. Confirm at bluebonnettrail.org.",
+    "description": "Annual festival with vendors, live music, and family activities in downtown Ennis, timed to peak bluebonnet season. The 2027 festival is expected April 17–19, 2027 (dates subject to change — confirm on bluebonnettrail.org before you travel).",
     "url": "https://www.bluebonnettrail.org/",
     "source": "https://www.bluebonnettrail.org/",
     "category": "festival",
-    "tbd": true
+    "expected": true
   },
   {
     "id": "national-polka-festival-2027",
@@ -32,11 +31,11 @@
     "endDate": "2027-05-30",
     "location": "Downtown Ennis, TX",
     "city": "Ennis",
-    "description": "Annual Czech-heritage festival in Ennis held every Memorial Day weekend, featuring polka bands, dancing, food, and a parade. 2026 dates were May 22-24; 2027 dates are not yet officially posted. Memorial Day 2027 falls on Monday, May 31.",
+    "description": "Annual Czech-heritage festival in Ennis held every Memorial Day weekend, featuring polka bands, dancing, food, and a parade. Check nationalpolkafestival.com for the 2027 schedule.",
     "url": "https://www.nationalpolkafestival.com/",
     "source": "https://www.nationalpolkafestival.com/",
     "category": "festival",
-    "tbd": true
+    "expected": true
   },
   {
     "id": "texas-motorplex-stars-of-texas-music-festival-2026",
@@ -80,11 +79,11 @@
     "endDate": "2027-03-21",
     "location": "Texas Motorplex, Ennis, TX",
     "city": "Ennis",
-    "description": "Multi-day street car festival at Texas Motorplex featuring drag racing and roll racing, billed as one of the largest street car events in the country. Dates reported by the event's own site as March 16-21, 2027; not yet listed on Texas Motorplex's official schedule, so unconfirmed.",
+    "description": "Multi-day street car festival at Texas Motorplex featuring drag racing and roll racing, billed as one of the largest street car events in the country.",
     "url": "https://tx2k.com/",
     "source": "https://tx2k.com/schedule/",
     "category": "motorsports",
-    "tbd": true
+    "expected": true
   },
   {
     "id": "scarborough-renaissance-festival-2027",
@@ -93,11 +92,11 @@
     "endDate": "2027-05-31",
     "location": "Scarborough Faire, Waxahachie, TX",
     "city": "Waxahachie",
-    "description": "Renaissance-themed festival with jousting, entertainment, food, and shopping, historically held weekends (Saturday-Sunday) April through May plus Memorial Day Monday. 2027 dates reported as April 10 - May 31 but could not be independently confirmed on srfestival.com, which blocked automated verification.",
+    "description": "Renaissance-themed festival with jousting, entertainment, food, and shopping, held weekends (Saturday–Sunday) April through May plus Memorial Day Monday. Check srfestival.com for the 2027 schedule and tickets.",
     "url": "https://www.srfestival.com/",
     "source": "https://www.srfestival.com/",
     "category": "festival",
-    "tbd": true
+    "expected": true
   },
   {
     "id": "waxahachie-gingerbread-trail-home-tour-2027",
@@ -106,11 +105,11 @@
     "endDate": "2027-06-06",
     "location": "Downtown Waxahachie, TX",
     "city": "Waxahachie",
-    "description": "Self-guided historic home tour in Waxahachie, typically held the first weekend of June. The 2026 tour ran June 6-7; 2027 dates are not yet officially published by the Waxahachie CVB or Ellis County Museum.",
+    "description": "Self-guided historic home tour in Waxahachie, typically held the first weekend of June. Check the Waxahachie CVB for the 2027 schedule.",
     "url": "https://www.waxahachiecvb.com/events/holidayseasonal",
     "source": "https://www.waxahachiecvb.com/events/2026/gingerbread-trail22",
     "category": "festival",
-    "tbd": true
+    "expected": true
   },
   {
     "id": "ennis-blues-on-main-2026",
@@ -119,7 +118,7 @@
     "endDate": "2026-09-06",
     "location": "Downtown Ennis, TX",
     "city": "Ennis",
-    "description": "Music festival in downtown Ennis benefiting Unity in the Community, with live blues music, a car/truck/motorcycle show, a health fair, and Gospel Sunday. Note: in recent years the event has shifted from its older 'second Saturday of June' pattern to late August/early September.",
+    "description": "Music festival in downtown Ennis benefiting Unity in the Community, with live blues music, a car/truck/motorcycle show, a health fair, and Gospel Sunday.",
     "url": "https://www.visitennistexas.com/bluesonmain",
     "source": "https://www.visitennistexas.com/bluesonmain",
     "category": "music"
@@ -142,11 +141,11 @@
     "startDate": "2026-12-03",
     "location": "Historic Downtown Ennis, TX",
     "city": "Ennis",
-    "description": "Lighted Christmas parade and block party in historic downtown Ennis, hosted by the Ennis Chamber of Commerce, with Santa appearances and a Christmas market. Historically held the first Thursday of December; the specific 2026 date has not been officially confirmed by the Chamber's site.",
+    "description": "Lighted Christmas parade and block party in historic downtown Ennis, hosted by the Ennis Chamber of Commerce, with Santa appearances and a Christmas market. Traditionally held the first Thursday of December — check the Chamber's site for the final schedule.",
     "url": "https://ennis-chamber.com/christmas-parade/",
     "source": "https://ennis-chamber.com/christmas-parade/",
     "category": "holiday",
-    "tbd": true
+    "expected": true
   },
   {
     "id": "waxahachie-christmas-parade-tree-lighting-2026",

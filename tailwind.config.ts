@@ -101,6 +101,20 @@ export default {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      /*
+       * @tailwindcss/typography wraps blockquotes in decorative curly quotes and
+       * italics. Our markdown uses `>` for callouts (TL;DR, tips), not
+       * quotations, so drop both; MarkdownBody adds the callout styling.
+       */
+      typography: {
+        DEFAULT: {
+          css: {
+            blockquote: { fontStyle: "normal", quotes: "none" },
+            "blockquote p:first-of-type::before": { content: "none" },
+            "blockquote p:last-of-type::after": { content: "none" },
+          },
+        },
+      },
     },
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],

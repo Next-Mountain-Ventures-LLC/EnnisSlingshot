@@ -15,7 +15,12 @@ faqs:
     answer: "If proximity is your top priority, an Arlington-based rental will be closer. If you want to actually drive somewhere scenic — the Ennis Bluebonnet Trails, especially in April — the extra 50 minutes buys you real open-road driving instead of city streets."
   - question: "What does an Ennis Slingshot experience cost compared to Arlington rentals?"
     answer: "Arlington-based operators typically charge around $150 for one hour and $200 for two hours, plus a $150–$500 deposit. Our packages start at $69.99 with insurance included and no deposit — often less than half the cost for a comparable time window."
-updatedDate: "2026-09-05"
+cta:
+  headline: "Trade the city lot for the trails"
+  body: "About 53 minutes from Arlington, self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $79, insurance included, no deposit."
+  buttonLabel: "Book your ride"
+  href: "/book/?package=solo"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Near Arlington"
 ---
@@ -53,15 +58,11 @@ An hour's drive from Arlington is a natural day-trip window. Pair your ride with
 
 ## When to come
 
-The Ennis Bluebonnet Trails run April 1–30 each year, with peak bloom typically around the third week of April. Details on trail loops and the Ennis Bluebonnet Trails Festival — historically the second or third weekend of April — are on the [Ennis Bluebonnet Trails guide](/bluebonnets/).
-
-## When to make the trip
-
-The best return on the drive from Arlington comes during April, when the Ennis Bluebonnet Trails are in bloom and the route itself becomes part of the experience rather than just a means of getting somewhere. Outside of bloom season, the roads are still there, but the reason to drive an extra hour is much stronger when the fields alongside them are blue.
+The Ennis Bluebonnet Trails run April 1–30 each year, with peak bloom typically around the third week of April — when the route itself becomes part of the experience rather than just a means of getting somewhere. The 2027 Ennis Bluebonnet Trails Festival is expected April 17–19, 2027 (dates subject to change), and details on the trail loops and festival are on the [Ennis Bluebonnet Trails guide](/bluebonnets/).
 
 ## What it costs and what you need
 
-Packages run $69.99 to $169, all insurance-included with no deposit. Drivers must be 21 or older with a standard Texas driver's license — no motorcycle license required, since Texas classifies the Slingshot as an autocycle under Tex. Transp. Code §521.085(b). Full requirements are on [Requirements](/slingshot-rental/requirements/).
+Packages run $69.99 to $149, all insurance-included with no deposit. Drivers must be 21 or older with a standard Texas driver's license — no motorcycle license required, since Texas classifies the Slingshot as an autocycle under Tex. Transp. Code §521.085(b). Full requirements are on [Requirements](/slingshot-rental/requirements/).
 
 ## Being direct about the trade-off
 

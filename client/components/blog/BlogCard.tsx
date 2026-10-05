@@ -39,27 +39,33 @@ export function BlogCard({ post, eager = false, headingLevel = "h2", className =
           />
         </Link>
       )}
-      <div className="p-6 flex flex-col flex-1">
-        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-gray-400 text-sm mb-3">
-          <time dateTime={post.data.pubDate.toISOString()}>{date}</time>
-          <span aria-hidden="true">·</span>
-          <span>{getReadingTime(post)} min read</span>
-          {category && (
-            <>
-              <span aria-hidden="true">·</span>
-              <Link to={category.path} className="text-ennis-orange hover:text-ennis-orange-bright uppercase tracking-wider text-xs font-semibold">
-                {category.name}
-              </Link>
-            </>
-          )}
-        </div>
-        <Heading className="text-2xl font-bold text-white mb-3 group-hover:text-ennis-orange transition-colors">
+      <div className="p-5 lg:p-6 flex flex-col flex-1">
+        {/* Category eyebrow (own line, so the meta row never ends in a dangling "·") */}
+        {category && (
+          <Link
+            to={category.path}
+            className="mb-2 self-start py-1 text-ennis-orange hover:text-ennis-orange-bright uppercase tracking-wider text-xs font-semibold"
+          >
+            {category.name}
+          </Link>
+        )}
+        <Heading className="text-xl lg:text-2xl font-bold text-white mb-3 group-hover:text-ennis-orange transition-colors">
           <Link to={getPostUrl(post)} className="focus:outline-none focus-visible:ring-2 focus-visible:ring-ennis-orange rounded">
             {post.data.title}
           </Link>
         </Heading>
-        <p className="text-gray-300 line-clamp-3 mb-4 flex-1">{getPostExcerpt(post)}</p>
-        <Link to={getPostUrl(post)} className="inline-flex items-center gap-2 text-ennis-orange group-hover:gap-4 transition-all" aria-label={`Read: ${post.data.title}`}>
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-gray-400 text-sm mb-3">
+          <time dateTime={post.data.pubDate.toISOString()}>{date}</time>
+          <span aria-hidden="true">·</span>
+          <span>{getReadingTime(post)} min read</span>
+        </div>
+        {/* No flex-1 here: a stretched box would show a 4th, half-cut line under the clamp. */}
+        <p className="text-gray-300 line-clamp-3 mb-4">{getPostExcerpt(post)}</p>
+        <Link
+          to={getPostUrl(post)}
+          className="mt-auto self-start inline-flex items-center gap-2 py-1 text-ennis-orange group-hover:gap-4 transition-all"
+          aria-label={`Read: ${post.data.title}`}
+        >
           Read the post
           <span aria-hidden="true" className="text-lg">→</span>
         </Link>

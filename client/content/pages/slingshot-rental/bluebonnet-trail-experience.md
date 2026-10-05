@@ -1,27 +1,36 @@
 ---
 title: "2-Hour Bluebonnet Trail Experience | Ennis Slingshot Experience"
-metaDescription: "Drive a Polaris Slingshot through the Ennis Bluebonnet Trails on a guided 2-hour route. Solo $79, two-up $149. Insurance included, no motorcycle license needed."
+metaDescription: "Drive a Polaris Slingshot yourself on a curated 2-hour route through the Ennis Bluebonnet Trails. Solo $79, driver + rider $149. Insurance included, no motorcycle license needed."
 canonicalPath: "/slingshot-rental/bluebonnet-trail-experience/"
 h1: "The 2-Hour Bluebonnet Trail Experience"
 hub: "slingshot-rental"
 schemaType: "Service"
 faqs:
   - question: "What's included in the Bluebonnet Trail Experience?"
-    answer: "Two hours total, including a check-in, safety briefing, and supervised practice loop, followed by a curated driving route through the Ennis Bluebonnet Trails. Comprehensive insurance, fuel, and a trail map are included in both the solo and two-up price — no deposit."
+    answer: "Two hours total, including a check-in, safety briefing, and supervised practice loop, followed by a curated driving route through the Ennis Bluebonnet Trails. Comprehensive insurance, fuel, and a trail map are included in both the Solo and Driver + Rider price — no deposit."
   - question: "What's the difference between the solo and two-up price?"
-    answer: "Solo ($79) is one driver, no passenger. Two-up ($149) adds a seat for one passenger — only the driver needs to go through driver approval, so a partner, friend, or family member can ride along without any extra paperwork or approval on their end."
+    answer: "Solo ($79) is one driver, no passenger. Driver + Rider ($149) adds a seat for one passenger — only the driver needs to go through driver approval, so a partner, friend, or family member can ride along without any extra paperwork or approval on their end."
   - question: "When should I book to see the bluebonnets at their best?"
     answer: "The Ennis Bluebonnet Trails run April 1–30, with peak bloom typically landing around the third week of April, though it shifts year to year with the weather. Earlier and later in the month, flowers are present but less dense — book mid-April for the best odds."
   - question: "Is the Bluebonnet Trail Experience a guided tour?"
     answer: "No — you drive it yourself. We give you a curated route with recommended stops and a trail map for the glove box, then you're on your own behind the wheel. It's a self-drive experience, not a passenger tour with a guide riding along."
   - question: "Can I stop for photos along the route?"
-    answer: "Yes. The route includes recommended stops at scenic points along the trails, and most riders pull off for photos at least once. If you want a dedicated guided photo stop with a tripod, add the photo add-on when you book."
+    answer: "Yes. The route includes recommended stops at scenic points along the trails, and most riders pull off for photos at least once. Bring your phone — there's plenty of room to step out for a shot in the bluebonnets."
 packagePrice:
-  - name: "Bluebonnet Trail Experience – Solo"
+  - name: "Bluebonnet Trail Experience — Solo"
     price: "$79"
-  - name: "Bluebonnet Trail Experience – Two-Up"
+    description: "2 hours · 1 driver"
+    url: "/book/?package=solo"
+  - name: "Bluebonnet Trail Experience — Driver + Rider"
     price: "$149"
-updatedDate: "2026-09-05"
+    description: "2 hours · driver + 1 passenger"
+    url: "/book/?package=two-up"
+cta:
+  headline: "Two hours on the Bluebonnet Trails"
+  body: "Self-drive our curated route through the Ennis Bluebonnet Trails, April 1–30, 2027 — $79 solo or $149 for a driver and rider, insurance included, no motorcycle license needed."
+  buttonLabel: "Book this ride"
+  href: "/book/?package=solo"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Bluebonnet Trail Experience"
 ---
@@ -34,12 +43,12 @@ Ennis is the Texas Legislature's designated Bluebonnet Capital of Texas, with mo
 
 ## What's included
 
-| | Solo | Two-Up |
+| | Solo | Driver + Rider |
 |---|---|---|
 | Price | $79 | $149 |
-| Duration | 2 hours (arrive 15 minutes early) |
+| Duration | 2 hours (arrive 15 minutes early) | 2 hours (arrive 15 minutes early) |
 | Riders | 1 driver | 1 driver + 1 passenger |
-| Insurance | Comprehensive, included, $500 max out-of-pocket |
+| Insurance | Comprehensive, included, $500 max out-of-pocket | Comprehensive, included, $500 max out-of-pocket |
 | Deposit | None | None |
 | Trail map | Included | Included |
 
@@ -51,7 +60,7 @@ Your route runs through the official Bluebonnet Trail loops, with stops planned 
 
 ## Solo or two-up?
 
-Choose solo if you want the vehicle to yourself, or if you're the try-before-you-buy type who wants to focus entirely on the drive. Choose two-up if you're celebrating with a partner, friend, or family member — at $149 for two people, it works out to less than $75 a person for two hours, insurance included, with no deposit. If you're planning something more romantic, the [Golden Hour Date Night](/slingshot-rental/date-night/) package builds in a guided sunset photo stop. If you're coming with a bigger group, see [Groups](/slingshot-rental/groups/) for how convoy bookings work.
+Choose solo if you want the vehicle to yourself, or if you're the try-before-you-buy type who wants to focus entirely on the drive. Choose two-up if you're celebrating with a partner, friend, or family member — at $149 for two people, it works out to less than $75 a person for two hours, insurance included, with no deposit. Planning something romantic? See [Date Night](/slingshot-rental/date-night/) for how couples plan it. Coming with four? See [Groups](/slingshot-rental/groups/) to book both Slingshots for the same time slot.
 
 ## How it drives
 
@@ -63,11 +72,11 @@ Two hours breaks down roughly like this: 15 minutes of check-in and orientation 
 
 ## What's not included
 
-This is a self-drive experience with a curated route, not a guided tour with someone riding along, and it doesn't include the golden-hour photo stop built into [Date Night](/slingshot-rental/date-night/) or the multi-vehicle convoy setup of [Groups](/slingshot-rental/groups/). If either of those fits your occasion better, they're worth a look before you book.
+This is a self-drive experience with a curated route, not a guided tour with someone riding along. It's also a 2-hour ride, not an all-day or overnight rental — you start and finish at the Ennis Welcome Center.
 
-## Add-ons
+## Add a Bluetooth helmet
 
-A Bluetooth communication helmet rents for $25 per helmet, letting a driver and passenger talk over engine and wind noise. The photo add-on *(new for 2027, $39)* adds a tripod and additional guided stops beyond the one built into the standard route. Neither is required — plenty of riders book the base package and bring their own phone for photos.
+A Bluetooth communication helmet rents for $25 per helmet, letting a driver and passenger talk over engine and wind noise. It's optional — plenty of riders book the base package and bring their own phone for photos.
 
 ## Coming from Dallas, Fort Worth, or Arlington
 
@@ -75,4 +84,4 @@ Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute dr
 
 ## Book your Bluebonnet Trail Experience
 
-[Reserve your solo or two-up ride](/book/) and we'll meet you at the Ennis Welcome Center, 201 NW Main St.
+Book the 2-hour Bluebonnet Trail Experience: [$79 solo](/book/?package=solo) or [$149 for a driver and rider](/book/?package=two-up) — we'll meet you at the Ennis Welcome Center, 201 NW Main St.

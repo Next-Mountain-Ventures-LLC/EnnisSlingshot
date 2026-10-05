@@ -12,18 +12,23 @@ faqs:
     answer: "Yes. Scarborough Renaissance Festival is held in Waxahachie, roughly 15 minutes northwest of Ennis, making it easy to combine a bluebonnet-trail morning with a Renaissance-festival afternoon on the same day."
   - question: "Where should I stay for an Ennis and Waxahachie weekend?"
     answer: "Ennis has a handful of hotel and B&B options close to downtown and the Welcome Center; see our Where to Stay page for specifics. Waxahachie has additional lodging, including bed-and-breakfast properties in its own historic district, if you want to split the weekend between the two towns."
-updatedDate: "2026-09-05"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Weekend Itinerary"
+cta:
+  headline: "Start Day 1 behind the wheel"
+  body: "Book a morning 2-hour self-drive Slingshot ride from the Ennis Welcome Center for Day 1, then head to Waxahachie for Scarborough on Day 2 — the 2027 bluebonnet season runs April 1–30. $79 solo or $149 for two."
+  buttonLabel: "Book your Day 1 ride"
+  href: "/book/?package=two-up"
 ---
 
 ## The short version
 
-Ennis and Waxahachie sit about 15 minutes apart in Ellis County, and their best seasons line up almost perfectly: the Ennis Bluebonnet Trails run April 1–30, and Scarborough Renaissance Festival in Waxahachie runs weekends from mid-April through May (plus Memorial Day Monday). That overlap makes a single spring weekend enough to cover both — wildflowers and open roads on one side, a 35-acre Renaissance village on the other. This itinerary is part of our [Things to Do in Ennis hub](/ennis/); pair it with our [Dallas day-trip guide](/ennis/day-trip-from-dallas/) if you're deciding between a single day and a full weekend.
+Ennis and Waxahachie sit about 15 minutes apart in Ellis County, and their best seasons line up almost perfectly: the Ennis Bluebonnet Trails run April 1–30, and Scarborough Renaissance Festival in Waxahachie runs weekends from mid-April through May (plus Memorial Day Monday). That overlap makes a single spring weekend enough to cover both — wildflowers and open roads on one side, a 35-acre Renaissance village on the other. Deciding between a single day and a full weekend? Compare it with our [Dallas day-trip guide](/ennis/day-trip-from-dallas/), or browse the full list of [things to do in Ennis](/ennis/).
 
 ## Day 1: Ennis
 
-- **Morning** — Start at the Ennis Welcome Center, 201 NW Main St, for a current trail map and bloom status, then spend a couple of hours on the Bluebonnet Trails. If you'd rather drive an open-cockpit vehicle through the wildflowers than sit behind a windshield, [book a 2-hour Slingshot experience](/slingshot-rental/bluebonnet-trail-experience/) — it starts right at the Welcome Center.
+- **Morning** — Start at the Ennis Welcome Center, 201 NW Main St, for a current trail map and bloom status, then spend a couple of hours on the Bluebonnet Trails. If you'd rather drive an open-cockpit vehicle through the wildflowers than sit behind a windshield, [book a 2-hour Slingshot ride](/book/?package=two-up) — our [Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/) starts right at the Welcome Center.
 - **Midday** — Lunch downtown; see [Where to Eat](/ennis/where-to-eat/).
 - **Afternoon** — Walk [Downtown Ennis](/ennis/downtown/) along Dallas Street, then the Ennis Railroad & Cultural Heritage Museum a few blocks over. If it's a weekend, Sugar Ridge Winery in Bristol makes a good late-afternoon stop.
 - **Evening** — Check in to your Ennis hotel or B&B (see [Where to Stay](/ennis/where-to-stay/)) and have dinner downtown.
@@ -41,18 +46,3 @@ The tightest overlap is any April weekend once both the Bluebonnet Trails (open 
 ## Where to stay
 
 Ennis has a small set of hotel and bed-and-breakfast options close to downtown and the Welcome Center — full details on [Where to Stay](/ennis/where-to-stay/). If you'd rather anchor the weekend in Waxahachie, its historic district has additional lodging, including bed-and-breakfast properties within a few minutes of the Scarborough Faire grounds.
-
-## FAQ
-
-**Can you visit Ennis and Waxahachie in the same weekend?**
-Yes — they're about 15 minutes apart, and their peak seasons overlap almost exactly. The Ennis Bluebonnet Trails run April 1–30, and Scarborough Renaissance Festival in Waxahachie runs weekends from mid-April through May, so a single spring weekend can cover both.
-
-**Is Scarborough Renaissance Festival close to Ennis?**
-Yes. Scarborough Renaissance Festival is held in Waxahachie, roughly 15 minutes northwest of Ennis, making it easy to combine a bluebonnet-trail morning with a Renaissance-festival afternoon on the same day.
-
-**Where should I stay for an Ennis and Waxahachie weekend?**
-Ennis has a handful of hotel and B&B options close to downtown and the Welcome Center; see our [Where to Stay](/ennis/where-to-stay/) page for specifics. Waxahachie has additional lodging, including bed-and-breakfast properties in its own historic district, if you want to split the weekend between the two towns.
-
-## Start the weekend in Ennis
-
-[Book a Slingshot experience](/slingshot-rental/bluebonnet-trail-experience/) for Day 1 and drive the Bluebonnet Trails before heading to Waxahachie for Day 2.

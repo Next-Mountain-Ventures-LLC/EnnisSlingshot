@@ -2,7 +2,8 @@
  * EventsCalendarIsland (SITE-REBUILD-PLAN.md §5, T16).
  *
  * Prerendered: every event from events.json grouped by month in date order
- * (upcoming first), with a "dates TBD" badge + note and outbound links.
+ * (upcoming first), with an "Expected dates" badge + note for dates the
+ * organizer hasn't announced yet, and outbound links.
  * Client enhancement (after mount, so hydration matches the server HTML):
  * category filter + "show past events" toggle. "Past" is judged against
  * today's America/Chicago date in the browser — the prerender lists all
@@ -95,9 +96,9 @@ export function EventsCalendarIsland({ className }: { className?: string }) {
         </div>
       )}
 
-      <p className="mt-8 text-xs text-gray-500">
-        Dates marked <span className="text-amber-200">TBD</span> are expected windows based on prior years and have
-        not been confirmed by the organizer — always check the linked official site before booking travel.
+      <p className="mt-8 text-xs text-gray-400">
+        Dates marked <span className="text-amber-200">Expected dates</span> follow the organizer&apos;s usual schedule
+        and haven&apos;t been officially announced yet — confirm on the linked official site before you book travel.
       </p>
     </section>
   );
@@ -129,12 +130,12 @@ function EventCard({ event, past }: { event: EnnisEvent; past: boolean }) {
               {categoryLabel(event.category)}
             </span>
           )}
-          {event.tbd && (
+          {event.expected && (
             <span
               className="inline-flex rounded-full bg-amber-500/15 text-amber-200 ring-1 ring-amber-400/40 px-2.5 py-0.5 text-xs font-semibold"
-              title="Expected dates — not yet confirmed by the organizer"
+              title="Expected dates — confirm with the organizer"
             >
-              Dates TBD
+              Expected dates
             </span>
           )}
           {past && (
@@ -143,10 +144,8 @@ function EventCard({ event, past }: { event: EnnisEvent; past: boolean }) {
         </div>
       </div>
       <p className="text-sm text-gray-400 mt-3 leading-relaxed">{event.description}</p>
-      {event.tbd && (
-        <p className="text-xs text-amber-200/80 mt-2">
-          Expected dates based on prior years; confirm with the organizer before you book.
-        </p>
+      {event.expected && (
+        <p className="text-xs text-amber-200/80 mt-2">Expected dates — confirm with the organizer.</p>
       )}
       {event.url && (
         <p className="mt-3 text-sm">

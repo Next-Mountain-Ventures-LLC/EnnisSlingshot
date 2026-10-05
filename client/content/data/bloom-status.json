@@ -5,9 +5,9 @@
   "statusLabel": "Season starts April 1, 2027 — bloom reports begin mid-March",
   "weeklyEntries": [],
   "loops": {
-    "north": null,
-    "south": null,
-    "west": null
+    "north": "not-started",
+    "south": "not-started",
+    "west": "not-started"
   },
   "sources": [
     "https://www.bluebonnettrail.org/trailmap"

@@ -1,39 +1,23 @@
 ---
 title: "Photo & Video Gallery | Ennis Slingshot Experience"
-metaDescription: "Photos and video of Slingshot rides through the Ennis Bluebonnet Trails — the vehicle, the roads, and the wildflowers. Gallery updating each season."
+metaDescription: "Photos of the Polaris Slingshots you'll drive on the Ennis Bluebonnet Trails, plus video of a Slingshot in action — open cockpit, three wheels, no motorcycle license needed."
 canonicalPath: "/gallery/"
 h1: "Photo & Video Gallery"
 hub: null
 schemaType: "ImageGallery"
-updatedDate: "2026-09-05"
+widget: "PhotoGallery"
+updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "Gallery"
+cta:
+  headline: "See it from the driver's seat"
+  body: "Photos are one thing; driving it is another. Take a Polaris Slingshot out on the Ennis Bluebonnet Trails yourself, April 1–30, 2027 — from $69.99, insurance included, no motorcycle license needed."
+  buttonLabel: "Book your ride"
+  href: "/book/"
 ---
 
-## What's in the gallery
+## Meet the Slingshots
 
-This page collects photos and video from Ennis Slingshot Experience — the vehicle, the Bluebonnet Trails in bloom, and the Welcome Center where every ride starts. It's organized into a few sections that will fill in as we shoot and collect more through the season.
+These are the Polaris Slingshots you'll drive on the Ennis Bluebonnet Trails — open cockpit, three wheels, and a steering wheel and pedals instead of handlebars, with an automatic transmission, so there's no clutch to think about. Scroll through photos of the fleet below, along with a short video of a Slingshot in action, to get a feel for the sound and the open-air ride.
 
-## The vehicle
-
-Close-up and in-motion shots of the Polaris Slingshot itself — the open cockpit, the dashboard, and what the driver's view looks like from behind the wheel.
-
-## The trails in bloom
-
-Photos of the Ennis Bluebonnet Trails during April, taken along the route we drive — fields, roadside wildflowers, and the kind of scenery that's hard to capture from inside a regular car.
-
-## Riders on the road
-
-Photos of riders on their experience (with permission), showing what an actual ride looks like from orientation at the Welcome Center to the drive itself.
-
-## Ride-along video
-
-Short video clips from the driver's seat, giving a sense of the sound, the speed, and the feel of driving an open-cockpit three-wheeler through the trails.
-
-## Have photos from your ride?
-
-If you rode with us and have photos or video you'd like featured here, [contact us](/contact/) — we'd love to include them, with credit.
-
-## See it for yourself
-
-Photos are one thing; driving it is another. [Book a Slingshot experience](/book/) and see the Bluebonnet Trails from the driver's seat.
+Every experience starts at the [Ennis Welcome Center](/bluebonnets/welcome-center/), 201 NW Main St, and the 2027 season runs April 1–30. Rode with us and got a great shot? Email it to [info@ennisslingshot.com](mailto:info@ennisslingshot.com) — we'd love to feature it here, with credit.
