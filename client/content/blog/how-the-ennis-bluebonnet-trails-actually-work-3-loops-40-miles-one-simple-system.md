@@ -4,7 +4,7 @@ description: "The Ennis Bluebonnet Trails are three signed loops covering 40+ mi
 excerpt: "The Ennis Bluebonnet Trails are three signed loops covering 40+ miles. Here's how the North, South and West loops actually work, and where to start."
 slug: "how-the-ennis-bluebonnet-trails-actually-work-3-loops-40-miles-one-simple-system"
 pubDate: "2026-09-14T13:00:00+00:00"
-updatedDate: "2026-09-07T01:22:17+00:00"
+updatedDate: "2026-10-05T15:42:40+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_919_final.webp?fit=1600%2C900&ssl=1"
@@ -33,7 +33,7 @@ postId: 919
 permalink: "https://blog.nxtmt.ventures/2026/09/14/how-the-ennis-bluebonnet-trails-actually-work-3-loops-40-miles-one-simple-system/"
 guid: "https://blog.nxtmt.ventures/?p=919"
 commentCount: 0
-wordCount: 629
+wordCount: 624
 readingTime: 4
 ---
 
@@ -47,7 +47,7 @@ readingTime: 4
 | South Loop | Quieter rural stretches | Fewer crowds, good for unhurried drives |
 | West Loop | Mixed terrain | Popular photo pull-offs |
 
-General character based on published trail descriptions — exact turn-by-turn routing is on the official map handed out at the Welcome Center.
+Exact turn-by-turn routing is on the official map handed out at the Welcome Center.
 
 ## Who Maintains the Trails
 
@@ -63,7 +63,7 @@ Two options: the official paper map from the Welcome Center, or the free "Ennis 
 
 ## Our 2-Hour Slingshot Route, in Context of the Official Loops
 
-Our guided Bluebonnet Trail Experience threads through stretches of the official loop system that we've found work best from an open cockpit — prioritizing the roads with the best sightlines and the most reliable bloom density over the years, with a couple of built-in stops for photos. These are rural back roads, not highway — our routes never touch I-45; see our [highway-driving guide](https://ennisslingshot.com/blog/can-you-drive-a-slingshot-on-the-highway/) for why. We don't publish a mile-by-mile route here; that level of detail is coming with our interactive trail map tool.
+Our self-drive Bluebonnet Trail Experience follows a curated route through stretches of the official loop system that we've found work best from an open cockpit — prioritizing the roads with the best sightlines and the most reliable bloom density over the years, with a couple of built-in stops for photos. These are rural back roads, not highway — our routes never touch I-45; see our [highway-driving guide](https://ennisslingshot.com/blog/can-you-drive-a-slingshot-on-the-highway/) for why. Want to see where it runs? Our [interactive trail map](https://ennisslingshot.com/bluebonnets/trail-map/) shows the official loops alongside our 2-hour route.
 
 ## When to Go
 
@@ -81,7 +81,7 @@ Three — North, South, and West — covering more than 40 miles combined.
 
 ### How long does it take to drive all three loops?
 
-It depends on how many stops you make — our guided route covers a curated section in about 2 hours; driving all three loops in full with photo stops is realistically a half-day.
+It depends on how many stops you make — our self-drive route covers a curated section in about 2 hours; driving all three loops in full with photo stops is realistically a half-day.
 
 ### Do I need a car, or can I walk parts of the trail?
 
