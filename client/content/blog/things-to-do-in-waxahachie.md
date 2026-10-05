@@ -4,7 +4,7 @@ description: "From the 1897 courthouse to Scarborough Faire and the Gingerbread 
 excerpt: "From the 1897 courthouse to Scarborough Faire and the Gingerbread Trail — things to do in Waxahachie, TX, organized by season and occasion."
 slug: "things-to-do-in-waxahachie"
 pubDate: "2026-10-02T13:00:00+00:00"
-updatedDate: "2026-09-07T01:23:18+00:00"
+updatedDate: "2026-10-05T15:32:00+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_948_final.webp?fit=1600%2C900&ssl=1"
@@ -33,8 +33,8 @@ postId: 948
 permalink: "https://blog.nxtmt.ventures/2026/10/02/things-to-do-in-waxahachie/"
 guid: "https://blog.nxtmt.ventures/?p=948"
 commentCount: 0
-wordCount: 421
-readingTime: 3
+wordCount: 387
+readingTime: 2
 ---
 
 Waxahachie sits close enough to Ennis that I end up there more than most people would guess for a Slingshot operator. Here's what's actually worth the drive, organized by what's open year-round versus what only happens on a specific weekend.
@@ -53,7 +53,7 @@ Waxahachie's Victorian homes are a genuinely different draw than anything Ennis 
 
 ## Scarborough Renaissance Festival
 
-This is the single highest-volume search term anywhere near this region — a 35-acre festival grounds with roughly 200 shoppes, running weekends from April through May plus Memorial Day. If you're near Waxahachie during that window, it's worth building a day around.
+Scarborough Renaissance Festival is one of the best-known events in the region — a 35-acre festival grounds with roughly 200 shoppes, running weekends from April through May plus Memorial Day. If you're near Waxahachie during that window, it's worth building a day around.
 
 ## Food & Shopping Downtown
 
@@ -84,5 +84,3 @@ Yes, especially paired with a stop in Ennis — the two towns are close enough t
 ## Make It a Full Weekend
 
 See [everything to do in Ennis](https://ennisslingshot.com/ennis/), or check [more Ellis County fall picks](https://ennisslingshot.com/blog/fall-things-to-do-ellis-county/).
-
-*This post is tagged Needs Attention: specific downtown restaurant/shop names, current hours, and 2027 Gingerbread Trail/Scarborough dates all need reconfirming before publishing, since retail turnover and annual scheduling both make named specifics go stale.*
