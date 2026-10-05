@@ -4,7 +4,7 @@ description: "The safety tips I actually cover before every Ennis Slingshot ride
 excerpt: "The safety tips I actually cover before every Ennis Slingshot ride — belts, following distance, sun protection, and what to ask staff before you go."
 slug: "slingshot-safety-tips"
 pubDate: "2026-09-24T13:00:00+00:00"
-updatedDate: "2026-09-07T01:23:00+00:00"
+updatedDate: "2026-10-05T15:34:25+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_940_final.webp?fit=1600%2C900&ssl=1"
@@ -35,8 +35,8 @@ postId: 940
 permalink: "https://blog.nxtmt.ventures/2026/09/24/slingshot-safety-tips/"
 guid: "https://blog.nxtmt.ventures/?p=940"
 commentCount: 0
-wordCount: 418
-readingTime: 3
+wordCount: 358
+readingTime: 2
 ---
 
 These are the things I actually want you thinking about before you touch the pedals — not a generic "drive safe" list assembled from other sites, but the stuff that matters specifically in a Slingshot.
@@ -69,5 +69,3 @@ Belt on, extra following distance, sun protection, and don't skip the test loop.
 ## See the Full Picture
 
 Read our [first-timer's guide](https://ennisslingshot.com/blog/polaris-slingshot-101/), the full [safety-equipment breakdown](https://ennisslingshot.com/blog/polaris-slingshot-safety-features/), or the [Texas Slingshot laws guide](https://ennisslingshot.com/blog/texas-slingshot-laws/). When you're ready, [book the 2-Hour Bluebonnet Trail Experience](https://ennisslingshot.com/slingshot-rental/bluebonnet-trail-experience/).
-
-*This post is tagged Needs Attention: the 10 tips reflect real, sourced practices (braking feel, AutoDrive behavior, trail map location, general orientation structure) but the exact order and wording of my own pre-ride checklist hasn't been confirmed against what I actually say at the Welcome Center — I'll true this up against the real script rather than treat this draft as verbatim.*

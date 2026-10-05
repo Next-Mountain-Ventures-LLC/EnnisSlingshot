@@ -4,7 +4,7 @@ description: "Outdoor date ideas near Dallas, organized by season — from Septe
 excerpt: "Outdoor date ideas near Dallas, organized by season — from September patios to the April bluebonnet drive through Ennis in an open-cockpit Slingshot."
 slug: "outdoor-date-ideas-dallas"
 pubDate: "2026-09-11T13:00:00+00:00"
-updatedDate: "2026-09-07T01:22:09+00:00"
+updatedDate: "2026-10-05T15:34:35+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_915_final.webp?fit=1600%2C900&ssl=1"
@@ -33,7 +33,7 @@ postId: 915
 permalink: "https://blog.nxtmt.ventures/2026/09/11/outdoor-date-ideas-dallas/"
 guid: "https://blog.nxtmt.ventures/?p=915"
 commentCount: 0
-wordCount: 576
+wordCount: 600
 readingTime: 3
 ---
 
@@ -67,7 +67,7 @@ March is the bridge month — early wildflowers start appearing, parks fill back
 
 ## April: The Bluebonnet Season Headline Date
 
-This is the entry the rest of the list builds toward: an open-cockpit Polaris Slingshot drive through the Ennis Bluebonnet Trails, about 35 minutes south of Dallas. It's April-only — we don't run this outside bluebonnet season — so if you're reading this any other month, the move is to save this post and book ahead, or grab a gift card so it's already planned.
+This is the entry the rest of the list builds toward: an open-cockpit Polaris Slingshot drive through the Ennis Bluebonnet Trails, about 35 minutes south of Dallas. It's April-only — we don't run this outside bluebonnet season — so if you're reading this any other month, the move is to save this post and book ahead for April — or, if it's a gift, email info@ennisslingshot.com to order a gift card for any package; the recipient picks their own April date.
 
 If you'd rather walk than drive, Meadow View Nature Area (39 acres, set against the Bardwell Lake backdrop) is one of the best bluebonnet photo spots in the area during the same window — see our full [bluebonnet photo spots guide](https://ennisslingshot.com/bluebonnets/photo-spots/) for more.
 
@@ -98,6 +98,6 @@ DFW-area parks and trails year-round, plus a genuine day-trip option: the Ennis 
 
 ## Save This for April
 
-New to Polaris Slingshots and wondering what one even is? Start with our [first-timer's guide](https://ennisslingshot.com/blog/polaris-slingshot-101/). When bluebonnet season rolls around, [book the 2-Hour Bluebonnet Trail Experience](https://ennisslingshot.com/slingshot-rental/bluebonnet-trail-experience/) — or grab a gift card today so it's already on the calendar.
+New to Polaris Slingshots and wondering what one even is? Start with our [first-timer's guide](https://ennisslingshot.com/blog/polaris-slingshot-101/). When bluebonnet season rolls around, [book the 2-Hour Bluebonnet Trail Experience](https://ennisslingshot.com/slingshot-rental/bluebonnet-trail-experience/) — or email info@ennisslingshot.com to order a gift card for any package; the recipient picks their own April date.
 
-This post is part of our full [Dallas Date Ideas guide](https://ennisslingshot.com/blog/dallas-date-ideas/), ranked by vibe and drive time.
+For more ideas, see our full [Dallas Date Ideas guide](https://ennisslingshot.com/blog/dallas-date-ideas/), ranked by vibe and drive time.
