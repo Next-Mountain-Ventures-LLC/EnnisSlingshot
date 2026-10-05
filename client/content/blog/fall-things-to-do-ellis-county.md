@@ -4,7 +4,7 @@ description: "A month-by-month guide to fall in Ellis County, Texas — pumpkin 
 excerpt: "A month-by-month guide to fall in Ellis County, Texas — pumpkin patches, the NHRA Fall Nationals, and Waxahachie, all within 40 minutes of Dallas."
 slug: "fall-things-to-do-ellis-county"
 pubDate: "2026-09-07T13:00:00+00:00"
-updatedDate: "2026-09-07T01:22:00+00:00"
+updatedDate: "2026-10-05T15:38:37+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_909_final.webp?fit=1600%2C900&ssl=1"
@@ -33,7 +33,7 @@ postId: 909
 permalink: "https://blog.nxtmt.ventures/2026/09/07/fall-things-to-do-ellis-county/"
 guid: "https://blog.nxtmt.ventures/?p=909"
 commentCount: 0
-wordCount: 571
+wordCount: 577
 readingTime: 3
 ---
 
@@ -61,11 +61,11 @@ October is also when Texas Motorplex hosts the NHRA Fall Nationals (2026: Octobe
 
 ## Fall in Downtown Waxahachie
 
-Waxahachie's historic courthouse square is a destination on its own — it draws real search demand as a day trip (1,900 searches a month for "things to do in Waxahachie") independent of any single fall event. Expect a walkable square with local shops and restaurants; check the city's current events calendar for anything seasonal happening the week you visit, since specific fall programming varies year to year.
+Waxahachie's historic courthouse square is a destination on its own — a popular day trip independent of any single fall event (see our [things to do in Waxahachie guide](https://ennisslingshot.com/blog/things-to-do-in-waxahachie/)). Expect a walkable square with local shops and restaurants; check the city's current events calendar for anything seasonal happening the week you visit, since specific fall programming varies year to year.
 
 ## November — Early Holiday Season Begins
 
-By November, pumpkin patches are winding down and the area starts easing into the holiday season — downtown Waxahachie and Ennis both lean into small-town holiday programming as the month goes on. We'll cover that in more depth as the season gets closer.
+By November, pumpkin patches are winding down and the area starts easing into the holiday season — downtown Waxahachie and Ennis both lean into small-town holiday programming as the month goes on. See our [Ennis events guide](https://ennisslingshot.com/ennis/events/) for what's coming up.
 
 ## Planning Your Trip from Dallas
 
@@ -73,7 +73,7 @@ Ennis is about 35 minutes and Waxahachie about 40–45 minutes from downtown Dal
 
 ## Save Ellis County for April Too
 
-Fall isn't Ellis County's only season worth the drive — April brings the Ennis Bluebonnet Trails and, with them, Ennis Slingshot Experience's open-cockpit Slingshot rides through the wildflowers. If you're already planning a fall trip, it's worth grabbing a gift card now so a spring visit is already on the calendar.
+Fall isn't Ellis County's only season worth the drive — April brings the Ennis Bluebonnet Trails and, with them, Ennis Slingshot Experience's open-cockpit Slingshot rides through the wildflowers. If you're already planning a fall trip, put April 1–30, 2027 on the calendar and [book your spring ride](https://ennisslingshot.com/book/) — or email info@ennisslingshot.com to order a gift card for any package; the recipient picks their own April date.
 
 See [everything else to do in Ennis and Ellis County](https://ennisslingshot.com/ennis/), or [plan your April Slingshot trip now](https://ennisslingshot.com/slingshot-rental/near-dallas/).
 
