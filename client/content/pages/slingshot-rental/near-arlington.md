@@ -17,7 +17,7 @@ faqs:
     answer: "Arlington-based operators typically charge around $150 for one hour and $200 for two hours, plus a $150–$500 deposit. Our packages start at $69.99 with insurance included and no deposit — often less than half the cost for a comparable time window."
 cta:
   headline: "Trade the city lot for the trails"
-  body: "About 53 minutes from Arlington, self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $79, insurance included, no deposit."
+  body: "About 53 minutes from Arlington, self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $69.99, insurance included, no deposit."
   buttonLabel: "Book your ride"
   href: "/book/?package=solo"
 updatedDate: "2026-10-03"
@@ -62,7 +62,7 @@ The Ennis Bluebonnet Trails run April 1–30 each year, with peak bloom typicall
 
 ## What it costs and what you need
 
-Packages run $69.99 to $149, all insurance-included with no deposit. Drivers must be 21 or older with a standard Texas driver's license — no motorcycle license required, since Texas classifies the Slingshot as an autocycle under Tex. Transp. Code §521.085(b). Full requirements are on [Requirements](/slingshot-rental/requirements/).
+Packages run $69.99 to $149, all insurance-included with no deposit. Drivers must be 21 or older with a valid driver's license (Texas or out-of-state) — no motorcycle license required, since Texas classifies the Slingshot as an autocycle under Tex. Transp. Code §521.085(b). Full requirements are on [Requirements](/slingshot-rental/requirements/).
 
 ## Being direct about the trade-off
 

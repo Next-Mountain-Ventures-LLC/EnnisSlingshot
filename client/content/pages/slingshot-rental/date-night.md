@@ -48,7 +48,7 @@ An open cockpit, a warm April day, and fields of wildflowers on both sides of th
 | Insurance | Comprehensive, included, $500 max out-of-pocket |
 | Deposit | None |
 
-Only the driver needs to go through driver approval — a verification link emailed right after booking, usually cleared within 24 hours; a full refund if you're not approved. Drivers must be 21 or older with a standard Texas driver's license — no motorcycle license required, since Texas classifies the Slingshot as an autocycle under Tex. Transp. Code §521.085(b). Full policy detail is on [Requirements](/slingshot-rental/requirements/).
+Only the driver needs to go through driver approval — a verification link emailed right after booking, usually cleared within 24 hours; a full refund if you're not approved. Drivers must be 21 or older with a valid driver's license (Texas or out-of-state) — no motorcycle license required, since Texas classifies the Slingshot as an autocycle under Tex. Transp. Code §521.085(b). Full policy detail is on [Requirements](/slingshot-rental/requirements/).
 
 ## Why couples love it
 

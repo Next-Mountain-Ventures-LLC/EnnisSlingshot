@@ -60,7 +60,7 @@ updatedDate: "2026-10-03"
 publishDate: "2026-09-05"
 breadcrumbLabel: "FAQ"
 cta:
-  headline: "Got your answer? Pick your April date"
+  headline: "Ready to drive? Pick your April date"
   body: "Drive the Ennis Bluebonnet Trails yourself in a Polaris Slingshot, April 1–30, 2027 — $69.99 for a 1-hour Drive & Go, or $79 solo and $149 for two on the 2-hour Bluebonnet Trail Experience. Insurance included, no deposit."
   buttonLabel: "Book your ride"
   href: "/book/"

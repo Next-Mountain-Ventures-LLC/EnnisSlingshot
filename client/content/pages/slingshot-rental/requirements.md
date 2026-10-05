@@ -20,7 +20,7 @@ faqs:
     answer: "Yes. Rescheduling is free up to 7 days before your booked date, subject to availability. Inside that 7-day window, reach out and we'll do what we can, but availability isn't guaranteed that close to your slot, especially during festival weekend."
 cta:
   headline: "Got your license? You're ready to drive"
-  body: "A standard driver's license and age 21+ is all it takes to self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $79, insurance included."
+  body: "A standard driver's license and age 21+ is all it takes to self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $69.99, insurance included."
   buttonLabel: "Book your ride"
   href: "/book/"
 updatedDate: "2026-10-03"

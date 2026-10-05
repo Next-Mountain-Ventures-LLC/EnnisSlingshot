@@ -17,7 +17,7 @@ faqs:
     answer: "Most drivers take I-20 East to I-45 South, or I-30 East around Dallas to I-45 South, depending on traffic. Either way, plan for about an hour, and build in a little extra time if you're traveling during Dallas rush hour."
 cta:
   headline: "Worth the drive from Fort Worth"
-  body: "About an hour east, the Ennis Bluebonnet Trails are yours to self-drive in a Polaris Slingshot, April 1–30, 2027 — from $79, insurance included, no deposit."
+  body: "About an hour east, the Ennis Bluebonnet Trails are yours to self-drive in a Polaris Slingshot, April 1–30, 2027 — from $69.99, insurance included, no deposit."
   buttonLabel: "Book your ride"
   href: "/book/?package=solo"
 updatedDate: "2026-10-03"
@@ -52,11 +52,11 @@ A typical Slingshot rental hour in the DFW area runs around $150 with a deposit;
 
 ## When to come
 
-The Ennis Bluebonnet Trails are open April 1–30, with peak bloom typically around the third week of the month. The 2027 Ennis Bluebonnet Trails Festival — expected April 17–19, 2027 (dates subject to change) — caps the season. Full trail and bloom-timing detail is on the [Ennis Bluebonnet Trails guide](/bluebonnets/).
+The Ennis Bluebonnet Trails are open April 1–30, with peak bloom typically around the third week of the month. The 2027 Ennis Bluebonnet Trails Festival — expected April 17–19, 2027 (dates subject to change) — is the season's big weekend. Full trail and bloom-timing detail is on the [Ennis Bluebonnet Trails guide](/bluebonnets/).
 
 ## What it costs and what you need
 
-Packages run $69.99 to $149, insurance included, no deposit. Drivers must be 21 or older with a standard Texas driver's license — no motorcycle license required under Tex. Transp. Code §521.085(b), since the Slingshot is classified as an autocycle. Full detail is on [Requirements](/slingshot-rental/requirements/).
+Packages run $69.99 to $149, insurance included, no deposit. Drivers must be 21 or older with a valid driver's license (Texas or out-of-state) — no motorcycle license required under Tex. Transp. Code §521.085(b), since the Slingshot is classified as an autocycle. Full detail is on [Requirements](/slingshot-rental/requirements/).
 
 ## Comparing the drive to what you'd get closer to home
 

@@ -85,7 +85,7 @@ During the Ennis Bluebonnet Trails Festival — expected April 17–19, 2027 (da
 
 ## Coming from outside Ennis
 
-Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute drive. If you're weighing the trip, [Near Dallas](/slingshot-rental/near-dallas/) and [Near Fort Worth](/slingshot-rental/near-fort-worth/) cover drive times and how to build a full day around your ride, including a stop through the [Ennis Bluebonnet Trails](/bluebonnets/).
+Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute drive. If you're weighing the trip, [Near Dallas](/slingshot-rental/near-dallas/) and [Near Fort Worth](/slingshot-rental/near-fort-worth/) cover drive times and how to build a full day around your ride on the [Ennis Bluebonnet Trails](/bluebonnets/).
 
 ## Paying for a gift, not just a ride
 

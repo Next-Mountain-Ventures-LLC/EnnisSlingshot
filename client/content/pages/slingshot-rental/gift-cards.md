@@ -17,7 +17,7 @@ faqs:
   - question: "Does the gift recipient still need to go through driver approval?"
     answer: "Yes. Whoever ends up driving still needs to be 21 or older and complete the same quick driver-verification process as any other booking — the gift card covers the cost, not the approval step, which happens separately once they book their date."
 cta:
-  headline: "Give a Slingshot ride this April"
+  headline: "Give a Slingshot ride for April 2027"
   body: "Email info@ennisslingshot.com to order a gift card for Drive & Go, Solo or Driver + Rider — the recipient picks their own date, April 1–30, 2027."
   buttonLabel: "Email us to order"
   href: "mailto:info@ennisslingshot.com?subject=Slingshot%20gift%20card"

@@ -43,7 +43,7 @@ breadcrumbLabel: "Slingshot Rental"
 
 ## What a Slingshot "experience rental" actually is
 
-Ennis Slingshot Experience is a 1–2 hour self-drive experience from Ennis, TX, 35 miles south of Dallas — not a daily rental fleet and not a guided passenger tour. You show up, get a short safety briefing and a supervised practice loop, then drive a Polaris Slingshot yourself along the Ennis Bluebonnet Trails. At the end of your window, you hand the keys back. There's no overnight pickup logistics, no towing it home, and nobody riding in the back seat narrating — it's you, behind the wheel, on some of the best driving roads in North Texas.
+Ennis Slingshot Experience is a 1–2 hour self-drive experience from Ennis, TX, 35 miles south of Dallas — not a daily rental fleet and not a guided passenger tour. You show up, get a short safety briefing and a supervised practice loop, then drive a Polaris Slingshot yourself along the Ennis Bluebonnet Trails. At the end of your window, you hand the keys back. There's no overnight pickup logistics, no towing it home, and nobody in the passenger seat narrating — it's you, behind the wheel, on some of the best driving roads in North Texas.
 
 That distinction matters because most people looking for a Slingshot rental near Dallas don't actually want a multi-day rental with a security deposit and mileage caps. They want to know what it feels like to drive one — for an occasion, a bucket-list afternoon, or a test before they consider buying. That's exactly the experience we built.
 
@@ -97,7 +97,7 @@ A smaller group books us as a try-before-you-buy test drive — an hour or two o
 
 ## Season & dates
 
-We operate in April, when the Ennis Bluebonnet Trails are open (April 1–30, 2027) and the wildflowers are at their best. The Ennis Bluebonnet Trails Festival caps the season — the 2027 festival is expected April 17–19, 2027 (dates subject to change — confirm on bluebonnettrail.org before you travel). Same packages, same prices all month; just book early, because April weekends — especially festival weekend — fill up fast.
+We operate in April, when the Ennis Bluebonnet Trails are open (April 1–30, 2027) and the wildflowers are at their best. The Ennis Bluebonnet Trails Festival is the season's big weekend — the 2027 festival is expected April 17–19, 2027 (dates subject to change — confirm on bluebonnettrail.org before you travel). Same packages, same prices all month; just book early, because April weekends — especially festival weekend — fill up fast.
 
 ## Booking, rescheduling & weather
 

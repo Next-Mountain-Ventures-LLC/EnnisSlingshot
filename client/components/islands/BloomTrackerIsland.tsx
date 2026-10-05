@@ -103,7 +103,7 @@ export function BloomTrackerIsland({ className }: { className?: string }) {
                   {s === "early" && "first fields showing; patchy"}
                   {s === "peak" && "densest color; best week for photos"}
                   {s === "fading" && "past peak; seed pods forming"}
-                  {s === "past" && "season over for that loop"}
+                  {s === "past" && "blooms are done for the year on that loop"}
                 </span>
               </li>
             ))}

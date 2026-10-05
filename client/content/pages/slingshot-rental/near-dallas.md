@@ -26,7 +26,7 @@ packagePrice:
     url: "/book/?package=two-up"
 cta:
   headline: "37 minutes from Dallas to the trails"
-  body: "Head south on I-45 and self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $79, insurance included, no motorcycle license needed."
+  body: "Head south on I-45 and self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $69.99, insurance included, no motorcycle license needed."
   buttonLabel: "Book your ride"
   href: "/book/?package=solo"
 updatedDate: "2026-10-03"
@@ -62,11 +62,11 @@ Slingshot rentals based inside Dallas and its close suburbs typically run around
 
 ## When to come
 
-We operate in April, when the Ennis Bluebonnet Trails are open (April 1–30). Peak bloom typically lands around the third week of the month, and the Ennis Bluebonnet Trails Festival caps the season — the 2027 festival is expected April 17–19, 2027 (dates subject to change — confirm on bluebonnettrail.org before you travel). For the full trail and festival picture, see the [Ennis Bluebonnet Trails guide](/bluebonnets/).
+We operate in April, when the Ennis Bluebonnet Trails are open (April 1–30). Peak bloom typically lands around the third week of the month, and the Ennis Bluebonnet Trails Festival is the season's big weekend — the 2027 festival is expected April 17–19, 2027 (dates subject to change — confirm on bluebonnettrail.org before you travel). For the full trail and festival picture, see the [Ennis Bluebonnet Trails guide](/bluebonnets/).
 
 ## What it costs and what you need
 
-Packages run $69.99 to $149, all insurance-included with no deposit. Drivers need to be 21 or older with a standard Texas driver's license — no motorcycle license required, since the Slingshot is legally an autocycle under Tex. Transp. Code §521.085(b). Full requirements are on [Requirements](/slingshot-rental/requirements/).
+Packages run $69.99 to $149, all insurance-included with no deposit. Drivers need to be 21 or older with a valid driver's license (Texas or out-of-state) — no motorcycle license required, since the Slingshot is legally an autocycle under Tex. Transp. Code §521.085(b). Full requirements are on [Requirements](/slingshot-rental/requirements/).
 
 ## What the drive actually looks like
 

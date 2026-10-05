@@ -9,7 +9,7 @@ faqs:
   - question: "What is Ennis, TX known for?"
     answer: "Ennis is the Texas Legislature's designated Official Bluebonnet City of Texas and home to the Ennis Bluebonnet Trails — more than 40 miles of mapped driving loops that peak in April. It's also home to Texas Motorplex, an NHRA drag-racing venue, and the National Polka Festival, a Czech-heritage celebration held every Memorial Day weekend."
   - question: "What is the best time of year to visit Ennis, TX?"
-    answer: "April is Ennis's signature month — the Bluebonnet Trails are open April 1–30, bloom typically peaks around the third week, and the Ennis Bluebonnet Trails Festival caps the season. October (Texas Motorplex's Fall Nationals) and Memorial Day weekend (National Polka Festival) are the next-best windows if bluebonnets aren't the draw."
+    answer: "April is Ennis's signature month — the Bluebonnet Trails are open April 1–30, bloom typically peaks around the third week, and the Ennis Bluebonnet Trails Festival is the season's big weekend. October (Texas Motorplex's Fall Nationals) and Memorial Day weekend (National Polka Festival) are the next-best windows if bluebonnets aren't the draw."
   - question: "Is Ennis, TX worth a day trip from Dallas?"
     answer: "Yes. Ennis is about 35 miles south of downtown Dallas on I-45, roughly a 37-minute drive, which makes it an easy half-day or full-day trip. See our hour-by-hour Dallas-to-Ennis itinerary for how to structure the visit."
   - question: "What's a fun, slightly different thing to do in Ennis?"

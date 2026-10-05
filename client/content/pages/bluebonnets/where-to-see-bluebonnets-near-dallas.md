@@ -28,7 +28,7 @@ cta:
 
 ## The closest full bluebonnet destination to Dallas
 
-If you're wondering where to see bluebonnets near Dallas, the answer most guides converge on is **Ennis, TX** — about 35 miles south of downtown Dallas on I-45, roughly a **37-minute drive**, per Visit Ennis and Travelmath. It's also the only nearby option that combines a state-designated title (Official Bluebonnet City of Texas, per the 1997 Texas Legislature resolution), over 40 miles of mapped, Garden Club-maintained driving loops, and an annual festival — infrastructure that scattered roadside patches closer to the city simply don't have.
+If you're wondering where to see bluebonnets near Dallas, the answer most guides converge on is **Ennis, TX** — about 35 miles south of downtown Dallas on I-45, roughly a **37-minute drive**. It's also the only nearby option that combines a state-designated title (Official Bluebonnet City of Texas, per the 1997 Texas Legislature resolution), over 40 miles of mapped, Garden Club-maintained driving loops, and an annual festival — infrastructure that scattered roadside patches closer to the city simply don't have.
 
 ## Drive times from around DFW
 

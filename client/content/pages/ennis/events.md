@@ -18,7 +18,7 @@ publishDate: "2026-09-05"
 breadcrumbLabel: "Events Calendar"
 cta:
   headline: "In town in April? Add a Slingshot drive"
-  body: "Our self-drive Slingshot rides run only while the Bluebonnet Trails are open, April 1–30, 2027 — pair one with festival weekend (expected April 17–19, 2027) or any other April event on this calendar. From $79, insurance included."
+  body: "Our self-drive Slingshot rides run only while the Bluebonnet Trails are open, April 1–30, 2027 — pair one with festival weekend (expected April 17–19, 2027) or any other April event on this calendar. From $69.99, insurance included."
   buttonLabel: "Book an April ride"
   href: "/book/?package=solo"
 ---
@@ -29,7 +29,7 @@ Ennis has a handful of anchor events that shape its calendar year: the Bluebonne
 
 ## How to use this calendar
 
-The calendar below is updated as new dates are confirmed. If you're planning a trip around a specific event, double-check the organizer's site closer to your travel dates, since dates can shift from year to year.
+This calendar is updated as new dates are confirmed. If you're planning a trip around a specific event, double-check the organizer's site closer to your travel dates, since dates can shift from year to year.
 
 ## The recurring anchors
 

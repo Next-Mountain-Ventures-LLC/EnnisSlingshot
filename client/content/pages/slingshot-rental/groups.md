@@ -51,7 +51,7 @@ It's part of our [Slingshot rental lineup](/slingshot-rental/), built for the oc
 | Insurance | Comprehensive, included per vehicle, $500 max out-of-pocket |
 | Deposit | None |
 
-Each vehicle needs its own driver, 21 or older with a valid Texas driver's license — no motorcycle license required, since the Slingshot is classified as an autocycle under Tex. Transp. Code §521.085(b). Only drivers go through approval; passengers just show up. Full detail on age, approval, and policies is on [Requirements](/slingshot-rental/requirements/).
+Each vehicle needs its own driver, 21 or older with a valid driver's license (Texas or out-of-state) — no motorcycle license required, since the Slingshot is classified as an autocycle under Tex. Transp. Code §521.085(b). Only drivers go through approval; passengers just show up. Full detail on age, approval, and policies is on [Requirements](/slingshot-rental/requirements/).
 
 ## How a group ride actually works
 

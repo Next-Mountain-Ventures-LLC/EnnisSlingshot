@@ -16,7 +16,7 @@ faqs:
     answer: "No — we're based in Ennis, in Ellis County, about 15 miles from Waxahachie. The Ennis Bluebonnet Trails are the reason to make the short drive over; Waxahachie is a great pairing for the rest of your day, especially during festival season."
 cta:
   headline: "Pair Scarborough Faire with the trails"
-  body: "About 20 minutes from Waxahachie, self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $79, insurance included."
+  body: "About 20 minutes from Waxahachie, self-drive a Polaris Slingshot on the Ennis Bluebonnet Trails, April 1–30, 2027 — from $69.99, insurance included."
   buttonLabel: "Book your ride"
   href: "/book/?package=solo"
 updatedDate: "2026-10-03"
@@ -54,7 +54,7 @@ If you're timing a trip around Scarborough Renaissance Festival, book your Sling
 
 ## What it costs and what you need
 
-Packages run $69.99 to $149, all insurance-included with no security deposit. Drivers must be 21 or older with a standard Texas driver's license — no motorcycle license required, since the Slingshot is classified as an autocycle under Tex. Transp. Code §521.085(b). Full policy detail is on [Requirements](/slingshot-rental/requirements/), and the full price breakdown is on [Pricing](/slingshot-rental/pricing/).
+Packages run $69.99 to $149, all insurance-included with no security deposit. Drivers must be 21 or older with a valid driver's license (Texas or out-of-state) — no motorcycle license required, since the Slingshot is classified as an autocycle under Tex. Transp. Code §521.085(b). Full policy detail is on [Requirements](/slingshot-rental/requirements/), and the full price breakdown is on [Pricing](/slingshot-rental/pricing/).
 
 ## When to come
 

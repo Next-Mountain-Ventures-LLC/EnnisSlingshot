@@ -51,7 +51,7 @@ No motorcycle license is required — Texas treats the Slingshot as an autocycle
 - **The curious first-timer with limited time.** Maybe you're in Ennis for the bluebonnets and want a taste of the drive without the full 2-hour commitment.
 - **The budget-conscious solo rider.** At $69.99, it's the lowest-cost way to experience a Polaris Slingshot in Texas — well under the hourly rates charged by daily-rental operators in Dallas and Fort Worth, which routinely start above $150 an hour plus a deposit.
 
-If you want more time on the trails and the option to bring a passenger, step up to the [2-hour Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/), which covers more of the route at a comparable per-hour price.
+If you want more time on the trails and the option to bring a passenger, step up to the [2-hour Bluebonnet Trail Experience](/slingshot-rental/bluebonnet-trail-experience/), which covers more of the route at a lower per-hour price.
 
 ## How it drives
 

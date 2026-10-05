@@ -17,7 +17,7 @@ publishDate: "2026-09-05"
 breadcrumbLabel: "Where to Eat"
 cta:
   headline: "Earn your brisket on the Bluebonnet Trails"
-  body: "Every ride starts and ends at the Ennis Welcome Center, a short walk or drive from the restaurants on this page, so a morning on our 2-hour self-drive Slingshot route sets up an easy lunch — April 1–30, 2027, from $79."
+  body: "Every ride starts and ends at the Ennis Welcome Center, a short walk or drive from the restaurants on this page, so a morning on our 2-hour self-drive Slingshot route sets up an easy lunch — April 1–30, 2027, $79 solo or $149 for two."
   buttonLabel: "Book a morning ride"
   href: "/book/?package=solo"
 ---

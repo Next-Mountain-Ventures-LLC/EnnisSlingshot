@@ -49,7 +49,7 @@ We use a simple status scale for each loop:
 | Early bloom | Scattered blooms appearing, not yet dense |
 | Peak bloom | Dense, widespread color — the best window for photos |
 | Fading | Blooms thinning out, still visible but past their best |
-| Season over | Season effectively over for that loop |
+| Season over | Blooms are done for the year on that loop |
 
 ## Why bloom timing varies loop by loop
 
