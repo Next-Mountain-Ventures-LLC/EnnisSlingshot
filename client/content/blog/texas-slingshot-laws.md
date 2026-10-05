@@ -4,10 +4,10 @@ description: "No motorcycle license needed for a Polaris Slingshot in Texas — 
 excerpt: "No motorcycle license needed for a Polaris Slingshot in Texas — here's every statute, cited directly, plus the helmet, age and insurance rules."
 slug: "texas-slingshot-laws"
 pubDate: "2026-09-15T13:00:00+00:00"
-updatedDate: "2026-09-07T01:22:20+00:00"
+updatedDate: "2026-10-05T15:41:53+00:00"
 draft: false
 status: "publish"
-heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_920_final.webp?fit=1600%2C900&ssl=1"
+heroImage: "https://blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_920_final.webp"
 heroImageAlt: "The rear of an orange Polaris Slingshot on a Texas farm road at golden hour, license plate visible. Hero image for the Ennis Slingshot article \"Texas Slingshot (Autocycle) Laws: License, Helmet, Age, Insurance and Passengers\""
 tags:
   - "autocycle"
@@ -33,7 +33,7 @@ postId: 920
 permalink: "https://blog.nxtmt.ventures/2026/09/15/texas-slingshot-laws/"
 guid: "https://blog.nxtmt.ventures/?p=920"
 commentCount: 0
-wordCount: 858
+wordCount: 853
 readingTime: 5
 ---
 
@@ -41,11 +41,11 @@ readingTime: 5
 
 ## Do You Need a Motorcycle License? The Short Answer
 
-No. Under Tex. Transp. Code §521.085(b), a license holder may operate "an autocycle as defined by Section 501.008" with a standard driver's license — no motorcycle endorsement, no separate test. This is the single most important fact on this page, and it's directly sourced to statute text, not paraphrased secondhand.
+No. Under Tex. Transp. Code §521.085(b), a license holder may operate "an autocycle as defined by Section 501.008" with a standard driver's license — no motorcycle endorsement, no separate test. This is the single most important fact on this page, straight from the statute.
 
 ## What Is an "Autocycle" Under Texas Law?
 
-Tex. Transp. Code §501.008(a) defines an autocycle as a motor vehicle with three wheels in contact with the ground, seat belts, a steering wheel (not handlebars), non-straddle seating, and certification to comply with federal motorcycle safety standards. A Polaris Slingshot meets all four criteria — see our [full autocycle explainer](https://ennisslingshot.com/blog/what-is-an-autocycle/) for the deeper history and disambiguation table.
+Tex. Transp. Code §501.008(a) defines an autocycle as a motor vehicle with three wheels in contact with the ground, seat belts, a steering wheel (not handlebars), non-straddle seating, and certification to comply with federal motorcycle safety standards. A Polaris Slingshot meets all of these criteria — see our [full autocycle explainer](https://ennisslingshot.com/blog/what-is-an-autocycle/) for the deeper history and disambiguation table.
 
 ## Do You Need a Helmet?
 

@@ -4,10 +4,10 @@ description: "What actually happens at check-in — the walkaround, controls, su
 excerpt: "What actually happens at check-in — the walkaround, controls, supervised test loop, and Texas helmet rules — before every Ennis Slingshot Experience ride."
 slug: "orientation-safety-briefing"
 pubDate: "2026-09-27T13:00:00+00:00"
-updatedDate: "2026-09-07T01:23:07+00:00"
+updatedDate: "2026-10-05T15:33:56+00:00"
 draft: false
 status: "publish"
-heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_943_final.webp?fit=1600%2C900&ssl=1"
+heroImage: "https://blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_943_final.webp"
 heroImageAlt: "An orange Polaris Slingshot parked outside the Ennis Welcome Center at golden hour. Hero image for the Ennis Slingshot article \"Your First 15 Minutes: How Our Orientation and Safety Briefing Works\""
 tags:
   - "ennis slingshot first time"
@@ -35,8 +35,8 @@ postId: 943
 permalink: "https://blog.nxtmt.ventures/2026/09/27/orientation-safety-briefing/"
 guid: "https://blog.nxtmt.ventures/?p=943"
 commentCount: 0
-wordCount: 426
-readingTime: 3
+wordCount: 400
+readingTime: 2
 ---
 
 Nobody gets handed keys cold. Every booking includes about 15 minutes of orientation before the actual ride starts, and here's roughly how it breaks down.
@@ -77,7 +77,7 @@ No — that's exactly what orientation and the supervised test loop are for.
 
 ### Is a Slingshot safe?
 
-See our full [safety equipment breakdown](https://ennisslingshot.com/blog/polaris-slingshot-safety-features/) for the complete answer.
+Every Slingshot has seat belts, a roll hoop, and ABS, and every ride starts with this orientation and a supervised test loop. See our full [safety equipment breakdown](https://ennisslingshot.com/blog/polaris-slingshot-safety-features/) for the complete answer.
 
 ### Do you have to wear a helmet in a Slingshot in Texas?
 
@@ -86,5 +86,3 @@ Only under 21, or 21+ without a training course or qualifying insurance — see 
 ## Book Your Orientation
 
 See [everything you need before you arrive](https://ennisslingshot.com/slingshot-rental/requirements/), or go ahead and [book the 1-Hour Drive & Go](https://ennisslingshot.com/slingshot-rental/drive-and-go/).
-
-*This post is tagged Needs Attention: the sequence and staging described are accurate to how orientation actually runs, but the specific minute-by-minute timing hasn't been confirmed against my own real script — treat the stage order as reliable and the exact timing as approximate until I true it up.*

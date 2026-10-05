@@ -4,7 +4,7 @@ description: "The 1997 Texas Legislature designated Ennis the Official Bluebonne
 excerpt: "The 1997 Texas Legislature designated Ennis the Official Bluebonnet City of Texas — here's the story behind it and exactly what earned the state's recognition."
 slug: "how-ennis-became-the-official-bluebonnet-city-of-texas-the-1997-legislature-story"
 pubDate: "2026-09-30T13:00:00+00:00"
-updatedDate: "2026-09-07T01:23:15+00:00"
+updatedDate: "2026-10-05T15:32:20+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_946_final.webp?fit=1600%2C900&ssl=1"
@@ -33,7 +33,7 @@ postId: 946
 permalink: "https://blog.nxtmt.ventures/2026/09/30/how-ennis-became-the-official-bluebonnet-city-of-texas-the-1997-legislature-story/"
 guid: "https://blog.nxtmt.ventures/?p=946"
 commentCount: 0
-wordCount: 308
+wordCount: 287
 readingTime: 2
 ---
 
@@ -49,7 +49,7 @@ The state didn't hand Ennis this designation out of nowhere. By 1997, the Ennis 
 
 ## Is Ennis the Only "Bluebonnet Capital"?
 
-Honest answer: no, not in casual usage. Burnet, TX also gets called a bluebonnet capital in some regional coverage. Here's the distinction that actually matters: Ennis's designation came from a specific act of the Texas Legislature. Other towns' "bluebonnet capital" branding tends to be informal or chamber-level. I'm not going to relitigate the full Ennis-vs-Burnet comparison here — that's a separate piece — but I'm also not going to pretend the question is uncontested when it isn't.
+Honest answer: no, not in casual usage. Burnet, TX also gets called a bluebonnet capital in some regional coverage. Here's the distinction that actually matters: Ennis's designation came from a specific act of the Texas Legislature. Other towns' "bluebonnet capital" branding tends to be informal or chamber-level. For the full Ennis-vs-Burnet comparison, see our [Bluebonnet Capital of Texas guide](https://ennisslingshot.com/bluebonnets/bluebonnet-capital-of-texas/).
 
 ## What the Designation Means Today
 
@@ -57,7 +57,7 @@ Practically, it shows up in the town's signage, its marketing, and the continued
 
 ## The Trails and Festival Today
 
-The trails themselves run April 1–30 every year. The festival lands mid-April, historically the second or third weekend, though 2027's exact dates haven't been announced yet. For full current logistics, see our [complete Ennis Bluebonnet Trails guide](https://ennisslingshot.com/bluebonnets/).
+The trails themselves run April 1–30 every year. The festival lands mid-April — the 2027 festival is expected April 17–19, 2027 (dates subject to change). For full current logistics, see our [complete Ennis Bluebonnet Trails guide](https://ennisslingshot.com/bluebonnets/).
 
 Want to see what earned the state's recognition, from the driver's seat? [Drive the trails in a Slingshot](https://ennisslingshot.com/slingshot-rental/bluebonnet-trail-experience/).
 

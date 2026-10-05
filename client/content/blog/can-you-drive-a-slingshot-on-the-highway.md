@@ -1,10 +1,10 @@
 ---
 title: "Can You Drive a Polaris Slingshot on the Highway? Interstate Speeds, Wind and Comfort"
-description: "Yes, it's fully street-legal — but here's what highway speeds actually feel like, and why our guided routes stick to back roads instead."
-excerpt: "Yes, it's fully street-legal — but here's what highway speeds actually feel like, and why our guided routes stick to back roads instead."
+description: "Yes, it's fully street-legal — but here's what highway speeds actually feel like, and why our curated routes stick to back roads instead."
+excerpt: "Yes, it's fully street-legal — but here's what highway speeds actually feel like, and why our curated routes stick to back roads instead."
 slug: "can-you-drive-a-slingshot-on-the-highway"
 pubDate: "2026-09-18T13:00:00+00:00"
-updatedDate: "2026-09-07T01:22:28+00:00"
+updatedDate: "2026-10-05T15:39:17+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_929_final.webp?fit=1600%2C900&ssl=1"
@@ -33,7 +33,7 @@ postId: 929
 permalink: "https://blog.nxtmt.ventures/2026/09/18/can-you-drive-a-slingshot-on-the-highway/"
 guid: "https://blog.nxtmt.ventures/?p=929"
 commentCount: 0
-wordCount: 481
+wordCount: 476
 readingTime: 3
 ---
 
@@ -55,13 +55,13 @@ A rental-review thread on BobIsTheOilGuy describes Slingshot braking as behaving
 
 Low seating height and an open cockpit make a Slingshot more affected by semi-truck wake and crosswinds than a car. Practical advice: avoid lingering directly beside a semi longer than necessary, and give yourself extra lane-position margin on windy days.
 
-## Why Our Guided Routes Skip I-45
+## Why Our Curated Routes Skip I-45
 
-Our guided rides never use I-45 — we route entirely on the Bluebonnet Trail back roads instead. It's not a safety workaround; it's simply the better ride. None of the highway downsides above, and the scenery is dramatically better than a Dallas-area interstate.
+Our self-drive rides never use I-45 — we route entirely on the Bluebonnet Trail back roads instead. It's not a safety workaround; it's simply the better ride. None of the highway downsides above, and the scenery is dramatically better than a Dallas-area interstate.
 
 ## If You Do Take One on the Highway
 
-Eye protection is non-negotiable at highway speed — sunglasses or goggles, not just squinting. Layers help with wind chill even on a warm day. Curious about performance figures like 0–60 times by trim? That's covered on our vehicle specs content, not here — this page is about how the drive feels, not the numbers.
+Eye protection is non-negotiable at highway speed — sunglasses or goggles, not just squinting. Layers help with wind chill even on a warm day. Curious about performance figures like 0–60 times by trim? Our [first-timer's Slingshot guide](https://ennisslingshot.com/blog/polaris-slingshot-101/) covers the numbers — this page is about how the drive feels.
 
 ## Frequently Asked Questions
 

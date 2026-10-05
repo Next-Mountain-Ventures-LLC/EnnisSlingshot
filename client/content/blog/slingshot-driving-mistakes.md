@@ -4,7 +4,7 @@ description: "The 7 most common mistakes first-time Slingshot drivers make on th
 excerpt: "The 7 most common mistakes first-time Slingshot drivers make on the road in Ennis, and the simple fix for each one, from a Texas Slingshot operator."
 slug: "slingshot-driving-mistakes"
 pubDate: "2026-09-28T13:00:00+00:00"
-updatedDate: "2026-09-07T01:23:10+00:00"
+updatedDate: "2026-10-05T15:33:31+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_944_final.webp?fit=1600%2C900&ssl=1"
@@ -33,7 +33,7 @@ postId: 944
 permalink: "https://blog.nxtmt.ventures/2026/09/28/slingshot-driving-mistakes/"
 guid: "https://blog.nxtmt.ventures/?p=944"
 commentCount: 0
-wordCount: 414
+wordCount: 411
 readingTime: 3
 ---
 
@@ -49,7 +49,7 @@ Is it difficult to drive a Slingshot? Not mechanically — if you can drive a ca
 
 ## Mistake 3 — Braking Like It's a Car
 
-**Why it happens:** braking feel is closer to a motorcycle's than a car's, per rental-reviewer testimony. **The fix:** leave more following distance, brake earlier than you would in your daily driver.
+**Why it happens:** braking feel is closer to a motorcycle's than a car's. **The fix:** leave more following distance, brake earlier than you would in your daily driver.
 
 ## Mistake 4 — Skipping Sunscreen and Sunglasses
 

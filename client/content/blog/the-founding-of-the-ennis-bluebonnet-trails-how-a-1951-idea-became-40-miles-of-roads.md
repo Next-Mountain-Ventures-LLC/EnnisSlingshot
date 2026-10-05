@@ -4,7 +4,7 @@ description: "How a 1951 Ennis Garden Club idea became 40+ miles of mapped blueb
 excerpt: "How a 1951 Ennis Garden Club idea became 40+ miles of mapped bluebonnet driving routes — the oldest such trails documented anywhere in Texas."
 slug: "the-founding-of-the-ennis-bluebonnet-trails-how-a-1951-idea-became-40-miles-of-roads"
 pubDate: "2026-09-26T13:00:00+00:00"
-updatedDate: "2026-09-07T01:23:05+00:00"
+updatedDate: "2026-10-05T15:34:26+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_942_final.webp?fit=1600%2C900&ssl=1"
@@ -33,7 +33,7 @@ postId: 942
 permalink: "https://blog.nxtmt.ventures/2026/09/26/the-founding-of-the-ennis-bluebonnet-trails-how-a-1951-idea-became-40-miles-of-roads/"
 guid: "https://blog.nxtmt.ventures/?p=942"
 commentCount: 0
-wordCount: 354
+wordCount: 362
 readingTime: 2
 ---
 
@@ -61,7 +61,7 @@ Decades of incremental expansion turned that first mapped route into the three-l
 
 ## 1997 — The State Recognizes What Ennis Already Knew
 
-Forty-five years after that first trail, the Texas Legislature made it official: Ennis became the designated home of the Official Texas Bluebonnet Trail and Official Bluebonnet City of Texas. I go into that specific legislative story separately — the short version here is that the state didn't create something new in 1997, it recognized something the Garden Club had already built.
+Forty-five years after that first trail, the Texas Legislature made it official: Ennis became the designated home of the Official Texas Bluebonnet Trail and Official Bluebonnet City of Texas. I go into that legislative story in [how Ennis became the Official Bluebonnet City of Texas](https://ennisslingshot.com/blog/how-ennis-became-the-official-bluebonnet-city-of-texas-the-1997-legislature-story/) — the short version here is that the state didn't create something new in 1997, it recognized something the Garden Club had already built.
 
 Want to see what all that history actually looks like from behind the wheel? [Explore the full Ennis Bluebonnet Trails guide](https://ennisslingshot.com/bluebonnets/), or come [drive the trails yourself in a Slingshot](https://ennisslingshot.com/slingshot-rental/bluebonnet-trail-experience/).
 

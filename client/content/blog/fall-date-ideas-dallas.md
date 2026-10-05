@@ -4,10 +4,10 @@ description: "State Fair dates, pumpkin patches, Fall Nationals at Texas Motorpl
 excerpt: "State Fair dates, pumpkin patches, Fall Nationals at Texas Motorplex, and scenic drives — dated fall date ideas for Dallas couples this October."
 slug: "fall-date-ideas-dallas"
 pubDate: "2026-09-22T13:00:00+00:00"
-updatedDate: "2026-09-07T01:22:54+00:00"
+updatedDate: "2026-10-05T15:36:10+00:00"
 draft: false
 status: "publish"
-heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_935_final.webp?fit=1600%2C900&ssl=1"
+heroImage: "https://blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_935_final.webp"
 heroImageAlt: "A couple in an orange Polaris Slingshot on an autumn rural road at golden hour. Hero image for the Ennis Slingshot article \"Fall Date Ideas in Dallas: Dated Picks for the Best Weather of the Year\""
 tags:
   - "dallas arboretum autumn"
@@ -33,7 +33,7 @@ postId: 935
 permalink: "https://blog.nxtmt.ventures/2026/09/22/fall-date-ideas-dallas/"
 guid: "https://blog.nxtmt.ventures/?p=935"
 commentCount: 0
-wordCount: 501
+wordCount: 471
 readingTime: 3
 ---
 
@@ -71,8 +71,8 @@ Yes, if you go at the right time — a weekday afternoon beats a Saturday night 
 
 ## Save the Open-Air Date for Spring
 
-See our [season-by-season outdoor date guide](https://ennisslingshot.com/blog/outdoor-date-ideas-dallas/) for the full year, or go ahead and [put a Slingshot ride on your spring calendar](https://ennisslingshot.com/slingshot-rental/) while it's on your mind.
+See our [season-by-season outdoor date guide](https://ennisslingshot.com/blog/outdoor-date-ideas-dallas/) for the full year, or go ahead and [book an April 2027 Slingshot ride](https://ennisslingshot.com/book/) while it's on your mind.
 
-This post is part of our full [Dallas Date Ideas guide](https://ennisslingshot.com/blog/dallas-date-ideas/), ranked by vibe and drive time.
+For more, see our full [Dallas Date Ideas guide](https://ennisslingshot.com/blog/dallas-date-ideas/), ranked by vibe and drive time.
 
-*Sources: [Big Tex 2026 FAQ](https://bigtex.com/faqs/when-is-the-2026-state-fair-of-texas/), [Stampede of Speed 2026 schedule](https://www.stampedeofspeed.com/schedule/nhra-texas-fall-nationals-2026). Dallas Arboretum's Autumn at the Arboretum dates should be confirmed at dallasarboretum.org before publishing/visiting, as they weren't independently verified for 2026 at write time.*
+*Sources: [Big Tex 2026 FAQ](https://bigtex.com/faqs/when-is-the-2026-state-fair-of-texas/), [Stampede of Speed 2026 schedule](https://www.stampedeofspeed.com/schedule/nhra-texas-fall-nationals-2026).*

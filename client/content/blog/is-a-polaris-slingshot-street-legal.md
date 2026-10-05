@@ -4,7 +4,7 @@ description: "Is a Polaris Slingshot street legal? Yes — here's how it's title
 excerpt: "Is a Polaris Slingshot street legal? Yes — here's how it's titled, registered, and licensed in Texas, plus what renters never have to worry about."
 slug: "is-a-polaris-slingshot-street-legal"
 pubDate: "2026-09-09T13:00:00+00:00"
-updatedDate: "2026-09-07T01:22:05+00:00"
+updatedDate: "2026-10-05T15:36:27+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_911_final.webp?fit=1600%2C900&ssl=1"
@@ -33,7 +33,7 @@ postId: 911
 permalink: "https://blog.nxtmt.ventures/2026/09/09/is-a-polaris-slingshot-street-legal/"
 guid: "https://blog.nxtmt.ventures/?p=911"
 commentCount: 0
-wordCount: 582
+wordCount: 540
 readingTime: 3
 ---
 
@@ -53,11 +53,11 @@ This is the detail that generates confused forum posts: a Slingshot is titled an
 
 ## Can You Drive It on the Highway?
 
-Yes. There's no speed or road-type restriction tied to the autocycle classification itself — a Slingshot can legally be driven on any highway a car can. (If you're curious about manufacturer-stated performance figures, that's a separate topic we cover in our vehicle specs content, not a legal question.)
+Yes. There's no speed or road-type restriction tied to the autocycle classification itself — a Slingshot can legally be driven on any highway a car can. (Curious about performance figures? Our [first-timer's Slingshot guide](https://ennisslingshot.com/blog/polaris-slingshot-101/) covers those.)
 
 ## What About HOV Lanes, Tolls and Inspection?
 
-Because a Slingshot is registered as a motorcycle, it generally follows motorcycle-class rules wherever registration class matters — but we don't have a sourced, confirmed answer on every specific toll-tag or inspection procedure for every Texas county. If you own one and need a definitive answer on a specific edge case like this, check directly with TxDMV or your local tag office rather than relying on a forum thread's guess — including ours.
+Because a Slingshot is registered as a motorcycle, it generally follows motorcycle-class rules wherever registration class matters. Toll-tag and inspection procedures can vary by county, so if you own one, check with TxDMV or your local tag office for the specifics.
 
 ## If You're Renting, None of This Is Your Problem
 

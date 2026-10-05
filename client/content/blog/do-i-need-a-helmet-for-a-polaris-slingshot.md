@@ -4,7 +4,7 @@ description: "Texas law doesn't require a helmet for most 21+ Slingshot drivers 
 excerpt: "Texas law doesn't require a helmet for most 21+ Slingshot drivers — but the exemption has conditions. Here's the exact rule, and why we hand you one anyway."
 slug: "do-i-need-a-helmet-for-a-polaris-slingshot"
 pubDate: "2026-09-12T13:00:00+00:00"
-updatedDate: "2026-09-07T01:22:12+00:00"
+updatedDate: "2026-10-05T15:33:13+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_917_final.webp?fit=1600%2C900&ssl=1"
@@ -35,7 +35,7 @@ postId: 917
 permalink: "https://blog.nxtmt.ventures/2026/09/12/do-i-need-a-helmet-for-a-polaris-slingshot/"
 guid: "https://blog.nxtmt.ventures/?p=917"
 commentCount: 0
-wordCount: 537
+wordCount: 503
 readingTime: 3
 ---
 
@@ -89,5 +89,3 @@ Yes — we provide one, but you're welcome to bring your own if you prefer.
 ## Book Your Ride
 
 Read the [complete first-timer's Slingshot guide](https://ennisslingshot.com/blog/polaris-slingshot-101/), see [everything you need to book](https://ennisslingshot.com/slingshot-rental/requirements/), learn [how Texas classifies the Slingshot as an autocycle](https://ennisslingshot.com/blog/what-is-an-autocycle/), or go ahead and [book the 2-hour Bluebonnet Trail Experience](https://ennisslingshot.com/slingshot-rental/bluebonnet-trail-experience/) — helmet included.
-
-*Editor's note: this post is tagged Needs Attention because it assumes the $25 Bluetooth helmet add-on is still priced and available as described in our records — confirm current pricing/inventory before treating this as final.*

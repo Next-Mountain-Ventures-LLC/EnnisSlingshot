@@ -4,10 +4,10 @@ description: "Meet the motorcyclist who found the Ennis Bluebonnet Trails and bu
 excerpt: "Meet the motorcyclist who found the Ennis Bluebonnet Trails and built an experience rental with no deposits, insurance included, and a real safety orientation."
 slug: "our-story-why-experience-not-rental"
 pubDate: "2026-09-21T13:00:00+00:00"
-updatedDate: "2026-09-07T01:22:51+00:00"
+updatedDate: "2026-10-05T15:36:58+00:00"
 draft: false
 status: "publish"
-heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_934_final.webp?fit=1600%2C900&ssl=1"
+heroImage: "https://blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_934_final.webp"
 heroImageAlt: "An orange Polaris Slingshot on a quiet Texas back road at golden hour. Hero image for the Ennis Slingshot article \"The Motorcyclist Who Found These Roads: Our Story, and Why It's an Experience, Not a Rental\""
 tags:
   - "ennis texas business"
@@ -33,7 +33,7 @@ postId: 934
 permalink: "https://blog.nxtmt.ventures/2026/09/21/our-story-why-experience-not-rental/"
 guid: "https://blog.nxtmt.ventures/?p=934"
 commentCount: 0
-wordCount: 795
+wordCount: 760
 readingTime: 4
 ---
 
@@ -76,10 +76,10 @@ I've built a handful of businesses at this point, mostly national or online — 
 
 ## The Safety-First Approach
 
-Every renter gets a real orientation and safety briefing before they touch the trails — not a waiver you skim and sign, an actual walkthrough. I've written up the full minute-by-minute version of what that looks like in a separate post once it's live. I run it personally because it's the one part of this business I don't trust to a script.
+Every renter gets a real orientation and safety briefing before they touch the trails — not a waiver you skim and sign, an actual walkthrough. I've written up the full minute-by-minute version of what that looks like in [a separate post](https://ennisslingshot.com/blog/orientation-safety-briefing/). I run it personally because it's the one part of this business I don't trust to a script.
 
 ## What's Next
 
-The goal for 2027 is straightforward: book out every available April day. Beyond that, I'm testing ideas — a golden-hour date-night package, gift cards, group convoy bookings — and I'm calling them tests, not promises, because I'd rather under-promise here than announce something before it's real.
+The goal for 2027 is straightforward: book out every available April day.
 
 Want to see the roads for yourself? [Book the 2-Hour Bluebonnet Trail Experience](https://ennisslingshot.com/slingshot-rental/bluebonnet-trail-experience/), or start with our [first-timer's guide](https://ennisslingshot.com/blog/polaris-slingshot-101/) if you're not sure what a Slingshot even is yet. Curious how the experience compares to a daily rental? [Read the full breakdown](https://ennisslingshot.com/blog/what-is-a-slingshot-experience/).
