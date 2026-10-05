@@ -4,7 +4,7 @@ description: "A living guide to things to do in Dallas this weekend — standing
 excerpt: "A living guide to things to do in Dallas this weekend — standing attractions, weekly picks, free ideas, and what's worth the drive to Ennis and beyond."
 slug: "things-to-do-in-dallas-this-weekend"
 pubDate: "2026-09-23T13:00:00+00:00"
-updatedDate: "2026-09-07T01:22:57+00:00"
+updatedDate: "2026-10-05T15:35:18+00:00"
 draft: false
 status: "publish"
 heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_939_final.webp?fit=1600%2C900&ssl=1"
@@ -35,8 +35,8 @@ postId: 939
 permalink: "https://blog.nxtmt.ventures/2026/09/23/things-to-do-in-dallas-this-weekend/"
 guid: "https://blog.nxtmt.ventures/?p=939"
 commentCount: 0
-wordCount: 602
-readingTime: 4
+wordCount: 548
+readingTime: 3
 ---
 
 *Last updated: September 23, 2026.* Most "things to do in Dallas" posts get written once and left to rot with a stale year in the title. This one's built to actually update — standing sections that don't go out of date, plus a weekly-picks block up top that I'll refresh. Bookmark it.
@@ -55,7 +55,7 @@ Klyde Warren Park doesn't charge admission. Most museums run a free day at least
 
 ## Best for Couples
 
-I've got a dedicated running list of Dallas date ideas — [outdoor picks by season](https://ennisslingshot.com/blog/outdoor-date-ideas-dallas/) and [adrenaline-forward ones](https://ennisslingshot.com/blog/adventurous-date-ideas/) if that's more your speed — rather than duplicating that list here.
+I've got a dedicated running list of Dallas date ideas — [outdoor picks by season](https://ennisslingshot.com/blog/outdoor-date-ideas-dallas/) and [adrenaline-forward ones](https://ennisslingshot.com/blog/adventurous-date-ideas/) if that's more your speed.
 
 ## Best for Families
 
@@ -94,6 +94,4 @@ See our full [unique things to do in Dallas guide](https://ennisslingshot.com/bl
 
 ## Worth the Drive to Ennis
 
-See everything at [our Ennis hub](https://ennisslingshot.com/ennis/), plan a [day trip](https://ennisslingshot.com/ennis/day-trip-from-dallas/), or [drive a Slingshot 35 minutes from Dallas](https://ennisslingshot.com/slingshot-rental/near-dallas/) come April.
-
-*This post is tagged Needs Attention as a content-ops matter, not a factual one: it's a living post that needs a real owner to refresh "This Week's Picks" every Monday. Without that refresh cadence it drifts stale fast — flagging so whoever inherits the blog calendar assigns that explicitly.*
+See [everything to do in Ennis](https://ennisslingshot.com/ennis/), plan a [day trip](https://ennisslingshot.com/ennis/day-trip-from-dallas/), or [drive a Slingshot 35 minutes from Dallas](https://ennisslingshot.com/slingshot-rental/near-dallas/) come April.
