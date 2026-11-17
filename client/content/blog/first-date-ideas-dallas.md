@@ -28,10 +28,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 968
-permalink: "https://blog.nxtmt.ventures/2026/10/18/first-date-ideas-dallas/"
+permalink: "http://localhost:8882/2026/10/18/first-date-ideas-dallas/"
 guid: "https://blog.nxtmt.ventures/?p=968"
 commentCount: 0
-wordCount: 326
+wordCount: 336
 readingTime: 2
 ---
 

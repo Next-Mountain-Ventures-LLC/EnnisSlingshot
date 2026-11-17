@@ -24,10 +24,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 991
-permalink: "https://blog.nxtmt.ventures/2026/11/02/experience-gift-statistics/"
+permalink: "http://localhost:8882/2026/11/02/experience-gift-statistics/"
 guid: "https://blog.nxtmt.ventures/?p=991"
 commentCount: 0
-wordCount: 326
+wordCount: 331
 readingTime: 2
 ---
 

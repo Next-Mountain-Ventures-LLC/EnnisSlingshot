@@ -22,10 +22,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 993
-permalink: "https://blog.nxtmt.ventures/2026/11/04/slingshot-vs-motorcycle/"
+permalink: "http://localhost:8882/2026/11/04/slingshot-vs-motorcycle/"
 guid: "https://blog.nxtmt.ventures/?p=993"
 commentCount: 0
-wordCount: 329
+wordCount: 337
 readingTime: 2
 ---
 

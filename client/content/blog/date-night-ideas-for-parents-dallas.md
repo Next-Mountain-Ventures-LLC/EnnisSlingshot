@@ -22,10 +22,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 985
-permalink: "https://blog.nxtmt.ventures/2026/10/26/date-night-ideas-for-parents-dallas/"
+permalink: "http://localhost:8882/2026/10/26/date-night-ideas-for-parents-dallas/"
 guid: "https://blog.nxtmt.ventures/?p=985"
 commentCount: 0
-wordCount: 296
+wordCount: 302
 readingTime: 2
 ---
 

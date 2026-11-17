@@ -7,7 +7,7 @@ pubDate: "2026-10-14T13:00:00+00:00"
 updatedDate: "2026-10-05T15:34:20+00:00"
 draft: false
 status: "publish"
-heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_961_final.webp?fit=1600%2C900&ssl=1"
+heroImage: "http://localhost:8882/wp-content/uploads/2026/09/ennis_961_final.webp"
 heroImageAlt: "A helmeted driver at the steering wheel of an orange Polaris Slingshot at golden hour. Hero image for the Ennis Slingshot article \"How to Drive a Polaris Slingshot: A First-Timer's Step-by-Step\""
 tags:
   - "how to drive a polaris slingshot"
@@ -32,10 +32,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 961
-permalink: "https://blog.nxtmt.ventures/2026/10/14/how-to-drive-a-polaris-slingshot/"
+permalink: "http://localhost:8882/2026/10/14/how-to-drive-a-polaris-slingshot/"
 guid: "https://blog.nxtmt.ventures/?p=961"
 commentCount: 0
-wordCount: 467
+wordCount: 483
 readingTime: 3
 ---
 

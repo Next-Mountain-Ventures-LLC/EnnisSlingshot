@@ -26,10 +26,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 982
-permalink: "https://blog.nxtmt.ventures/2026/10/23/slingshot-rental-insurance-explained/"
+permalink: "http://localhost:8882/2026/10/23/slingshot-rental-insurance-explained/"
 guid: "https://blog.nxtmt.ventures/?p=982"
 commentCount: 0
-wordCount: 256
+wordCount: 266
 readingTime: 2
 ---
 

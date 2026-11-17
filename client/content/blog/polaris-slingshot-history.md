@@ -22,10 +22,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 988
-permalink: "https://blog.nxtmt.ventures/2026/10/29/polaris-slingshot-history/"
+permalink: "http://localhost:8882/2026/10/29/polaris-slingshot-history/"
 guid: "https://blog.nxtmt.ventures/?p=988"
 commentCount: 0
-wordCount: 360
+wordCount: 377
 readingTime: 2
 ---
 

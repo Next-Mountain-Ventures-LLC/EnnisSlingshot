@@ -24,10 +24,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 986
-permalink: "https://blog.nxtmt.ventures/2026/10/27/christmas-in-ennis-tx/"
+permalink: "http://localhost:8882/2026/10/27/christmas-in-ennis-tx/"
 guid: "https://blog.nxtmt.ventures/?p=986"
 commentCount: 0
-wordCount: 376
+wordCount: 384
 readingTime: 2
 ---
 

@@ -28,10 +28,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 970
-permalink: "https://blog.nxtmt.ventures/2026/10/20/christmas-in-waxahachie/"
+permalink: "http://localhost:8882/2026/10/20/christmas-in-waxahachie/"
 guid: "https://blog.nxtmt.ventures/?p=970"
 commentCount: 0
-wordCount: 346
+wordCount: 359
 readingTime: 2
 ---
 

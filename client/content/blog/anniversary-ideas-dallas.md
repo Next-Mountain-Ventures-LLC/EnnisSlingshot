@@ -7,7 +7,7 @@ pubDate: "2026-10-09T13:00:00+00:00"
 updatedDate: "2026-10-05T15:32:47+00:00"
 draft: false
 status: "publish"
-heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_955_final.webp?fit=1600%2C900&ssl=1"
+heroImage: "http://localhost:8882/wp-content/uploads/2026/09/ennis_955_final.webp"
 heroImageAlt: "A couple in an orange Polaris Slingshot at a scenic pull-off at sunset. Hero image for the Ennis Slingshot article \"Anniversary Ideas in Dallas: Dates Worth Remembering\""
 tags:
   - "anniversary"
@@ -30,10 +30,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 955
-permalink: "https://blog.nxtmt.ventures/2026/10/09/anniversary-ideas-dallas/"
+permalink: "http://localhost:8882/2026/10/09/anniversary-ideas-dallas/"
 guid: "https://blog.nxtmt.ventures/?p=955"
 commentCount: 0
-wordCount: 350
+wordCount: 365
 readingTime: 2
 ---
 

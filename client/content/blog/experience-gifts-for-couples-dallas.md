@@ -22,10 +22,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 1005
-permalink: "https://blog.nxtmt.ventures/2026/11/17/experience-gifts-for-couples-dallas/"
+permalink: "http://localhost:8882/2026/11/17/experience-gifts-for-couples-dallas/"
 guid: "https://blog.nxtmt.ventures/?p=1005"
 commentCount: 0
-wordCount: 302
+wordCount: 309
 readingTime: 2
 ---
 

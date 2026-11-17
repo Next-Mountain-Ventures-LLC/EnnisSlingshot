@@ -28,10 +28,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 969
-permalink: "https://blog.nxtmt.ventures/2026/10/19/polaris-slingshot-autodrive-explained/"
+permalink: "http://localhost:8882/2026/10/19/polaris-slingshot-autodrive-explained/"
 guid: "https://blog.nxtmt.ventures/?p=969"
 commentCount: 0
-wordCount: 406
+wordCount: 417
 readingTime: 3
 ---
 

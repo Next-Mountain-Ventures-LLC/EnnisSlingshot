@@ -24,10 +24,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 997
-permalink: "https://blog.nxtmt.ventures/2026/11/08/polaris-slingshot-in-the-rain/"
+permalink: "http://localhost:8882/2026/11/08/polaris-slingshot-in-the-rain/"
 guid: "https://blog.nxtmt.ventures/?p=997"
 commentCount: 0
-wordCount: 441
+wordCount: 453
 readingTime: 3
 ---
 

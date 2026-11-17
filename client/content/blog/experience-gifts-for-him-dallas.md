@@ -22,10 +22,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 994
-permalink: "https://blog.nxtmt.ventures/2026/11/05/experience-gifts-for-him-dallas/"
+permalink: "http://localhost:8882/2026/11/05/experience-gifts-for-him-dallas/"
 guid: "https://blog.nxtmt.ventures/?p=994"
 commentCount: 0
-wordCount: 370
+wordCount: 378
 readingTime: 2
 ---
 

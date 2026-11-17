@@ -7,7 +7,7 @@ pubDate: "2026-10-11T13:00:00+00:00"
 updatedDate: "2026-10-05T15:33:40+00:00"
 draft: false
 status: "publish"
-heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_958_final.webp?fit=1600%2C900&ssl=1"
+heroImage: "http://localhost:8882/wp-content/uploads/2026/09/ennis_958_final.webp"
 heroImageAlt: "A close detail of the side-by-side bucket seats of an orange Polaris Slingshot at golden hour. Hero image for the Ennis Slingshot article \"Polaris Slingshot Weight Limit, Seating and Who Fits\""
 tags:
   - "autocycle"
@@ -30,10 +30,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 958
-permalink: "https://blog.nxtmt.ventures/2026/10/11/polaris-slingshot-weight-limit/"
+permalink: "http://localhost:8882/2026/10/11/polaris-slingshot-weight-limit/"
 guid: "https://blog.nxtmt.ventures/?p=958"
 commentCount: 0
-wordCount: 314
+wordCount: 320
 readingTime: 2
 ---
 

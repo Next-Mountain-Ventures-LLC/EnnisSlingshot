@@ -24,11 +24,11 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 987
-permalink: "https://blog.nxtmt.ventures/2026/10/28/ennis-vs-chappell-hill-which-texas-bluebonnet-trail-should-you-drive/"
+permalink: "http://localhost:8882/2026/10/28/ennis-vs-chappell-hill-which-texas-bluebonnet-trail-should-you-drive/"
 guid: "https://blog.nxtmt.ventures/?p=987"
 commentCount: 0
-wordCount: 388
-readingTime: 2
+wordCount: 402
+readingTime: 3
 ---
 
 Ennis is the closer trail if you're DFW-based; Chappell Hill is closer if you're near Houston or Austin. Both are worth the drive — here's an honest, non-disparaging comparison to help you pick.

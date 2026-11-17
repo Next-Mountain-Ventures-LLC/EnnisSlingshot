@@ -30,10 +30,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 967
-permalink: "https://blog.nxtmt.ventures/2026/10/17/houston-to-dallas-i-45-stops/"
+permalink: "http://localhost:8882/2026/10/17/houston-to-dallas-i-45-stops/"
 guid: "https://blog.nxtmt.ventures/?p=967"
 commentCount: 0
-wordCount: 339
+wordCount: 349
 readingTime: 2
 ---
 

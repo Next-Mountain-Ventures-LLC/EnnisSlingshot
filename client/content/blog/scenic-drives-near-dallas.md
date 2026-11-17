@@ -7,7 +7,7 @@ pubDate: "2026-10-13T13:00:00+00:00"
 updatedDate: "2026-09-07T01:23:46+00:00"
 draft: false
 status: "publish"
-heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_960_final.webp?fit=1600%2C900&ssl=1"
+heroImage: "http://localhost:8882/wp-content/uploads/2026/09/ennis_960_final.webp"
 heroImageAlt: "An orange Polaris Slingshot on a scenic lakeside drive at golden hour. Hero image for the Ennis Slingshot article \"Scenic Drives Near Dallas: Roads Worth the Gas (Year-Round)\""
 tags:
   - "best roads north texas"
@@ -30,10 +30,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 960
-permalink: "https://blog.nxtmt.ventures/2026/10/13/scenic-drives-near-dallas/"
+permalink: "http://localhost:8882/2026/10/13/scenic-drives-near-dallas/"
 guid: "https://blog.nxtmt.ventures/?p=960"
 commentCount: 0
-wordCount: 341
+wordCount: 350
 readingTime: 2
 ---
 

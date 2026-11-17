@@ -24,10 +24,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 998
-permalink: "https://blog.nxtmt.ventures/2026/11/09/slingshot-vs-convertible/"
+permalink: "http://localhost:8882/2026/11/09/slingshot-vs-convertible/"
 guid: "https://blog.nxtmt.ventures/?p=998"
 commentCount: 0
-wordCount: 389
+wordCount: 398
 readingTime: 2
 ---
 

@@ -7,7 +7,7 @@ pubDate: "2026-10-12T13:00:00+00:00"
 updatedDate: "2026-09-07T01:23:44+00:00"
 draft: false
 status: "publish"
-heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_959_final.webp?fit=1600%2C900&ssl=1"
+heroImage: "http://localhost:8882/wp-content/uploads/2026/09/ennis_959_final.webp"
 heroImageAlt: "Two orange Polaris Slingshots driving in convoy on a Texas road at golden hour. Hero image for the Ennis Slingshot article \"Fun Things to Do With Friends in Dallas: Ideas for a Group of 3 or 4\""
 tags:
   - "dfw"
@@ -26,10 +26,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 959
-permalink: "https://blog.nxtmt.ventures/2026/10/12/things-to-do-with-friends-dallas/"
+permalink: "http://localhost:8882/2026/10/12/things-to-do-with-friends-dallas/"
 guid: "https://blog.nxtmt.ventures/?p=959"
 commentCount: 0
-wordCount: 314
+wordCount: 322
 readingTime: 2
 ---
 

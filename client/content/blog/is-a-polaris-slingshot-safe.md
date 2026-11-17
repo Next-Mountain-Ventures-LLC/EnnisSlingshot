@@ -26,10 +26,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 983
-permalink: "https://blog.nxtmt.ventures/2026/10/24/is-a-polaris-slingshot-safe/"
+permalink: "http://localhost:8882/2026/10/24/is-a-polaris-slingshot-safe/"
 guid: "https://blog.nxtmt.ventures/?p=983"
 commentCount: 0
-wordCount: 434
+wordCount: 443
 readingTime: 3
 ---
 

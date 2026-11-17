@@ -7,7 +7,7 @@ pubDate: "2026-10-16T13:00:00+00:00"
 updatedDate: "2026-10-05T15:35:38+00:00"
 draft: false
 status: "publish"
-heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_966_final.webp?fit=1600%2C900&ssl=1"
+heroImage: "http://localhost:8882/wp-content/uploads/2026/09/ennis_966_final.webp"
 heroImageAlt: "A couple's orange Polaris Slingshot parked at a scenic pull-off at golden hour. Hero image for the Ennis Slingshot article \"Our 2027 Packages, Explained: Drive & Go, Bluebonnet Trail Experience, Golden Hour Date Night and Group Convoys\""
 tags:
   - "2027 season"
@@ -32,10 +32,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 966
-permalink: "https://blog.nxtmt.ventures/2026/10/16/2027-packages-explained/"
+permalink: "http://localhost:8882/2026/10/16/2027-packages-explained/"
 guid: "https://blog.nxtmt.ventures/?p=966"
 commentCount: 0
-wordCount: 312
+wordCount: 323
 readingTime: 2
 ---
 

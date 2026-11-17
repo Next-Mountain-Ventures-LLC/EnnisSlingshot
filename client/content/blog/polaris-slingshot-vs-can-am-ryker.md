@@ -22,10 +22,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 1004
-permalink: "https://blog.nxtmt.ventures/2026/11/16/polaris-slingshot-vs-can-am-ryker/"
+permalink: "http://localhost:8882/2026/11/16/polaris-slingshot-vs-can-am-ryker/"
 guid: "https://blog.nxtmt.ventures/?p=1004"
 commentCount: 0
-wordCount: 387
+wordCount: 396
 readingTime: 2
 ---
 

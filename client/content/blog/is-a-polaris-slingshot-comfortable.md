@@ -7,7 +7,7 @@ pubDate: "2026-10-10T13:00:00+00:00"
 updatedDate: "2026-10-05T15:33:14+00:00"
 draft: false
 status: "publish"
-heroImage: "https://i0.wp.com/blog.nxtmt.ventures/wp-content/uploads/2026/09/ennis_957_final.webp?fit=1600%2C900&ssl=1"
+heroImage: "http://localhost:8882/wp-content/uploads/2026/09/ennis_957_final.webp"
 heroImageAlt: "A close interior detail of the bucket seats and cockpit of an orange Polaris Slingshot at golden hour. Hero image for the Ennis Slingshot article \"Is a Polaris Slingshot Comfortable? Seats, Legroom, Ride Quality and Getting In and Out\""
 tags:
   - "accessibility"
@@ -32,10 +32,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 957
-permalink: "https://blog.nxtmt.ventures/2026/10/10/is-a-polaris-slingshot-comfortable/"
+permalink: "http://localhost:8882/2026/10/10/is-a-polaris-slingshot-comfortable/"
 guid: "https://blog.nxtmt.ventures/?p=957"
 commentCount: 0
-wordCount: 402
+wordCount: 412
 readingTime: 3
 ---
 

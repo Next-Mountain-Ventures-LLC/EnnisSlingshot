@@ -22,10 +22,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 1000
-permalink: "https://blog.nxtmt.ventures/2026/11/11/what-to-wear-for-bluebonnet-photos-outfit-ideas-that-wont-fight-the-flowers/"
+permalink: "http://localhost:8882/2026/11/11/what-to-wear-for-bluebonnet-photos-outfit-ideas-that-wont-fight-the-flowers/"
 guid: "https://blog.nxtmt.ventures/?p=1000"
 commentCount: 0
-wordCount: 415
+wordCount: 426
 readingTime: 3
 ---
 

@@ -22,10 +22,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 992
-permalink: "https://blog.nxtmt.ventures/2026/11/03/double-date-ideas-dallas/"
+permalink: "http://localhost:8882/2026/11/03/double-date-ideas-dallas/"
 guid: "https://blog.nxtmt.ventures/?p=992"
 commentCount: 0
-wordCount: 309
+wordCount: 312
 readingTime: 2
 ---
 

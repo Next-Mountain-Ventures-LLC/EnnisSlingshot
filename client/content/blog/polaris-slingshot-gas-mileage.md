@@ -24,10 +24,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 995
-permalink: "https://blog.nxtmt.ventures/2026/11/06/polaris-slingshot-gas-mileage/"
+permalink: "http://localhost:8882/2026/11/06/polaris-slingshot-gas-mileage/"
 guid: "https://blog.nxtmt.ventures/?p=995"
 commentCount: 0
-wordCount: 285
+wordCount: 296
 readingTime: 2
 ---
 

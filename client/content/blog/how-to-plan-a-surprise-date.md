@@ -22,10 +22,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 1003
-permalink: "https://blog.nxtmt.ventures/2026/11/15/how-to-plan-a-surprise-date/"
+permalink: "http://localhost:8882/2026/11/15/how-to-plan-a-surprise-date/"
 guid: "https://blog.nxtmt.ventures/?p=1003"
 commentCount: 0
-wordCount: 523
+wordCount: 529
 readingTime: 3
 ---
 

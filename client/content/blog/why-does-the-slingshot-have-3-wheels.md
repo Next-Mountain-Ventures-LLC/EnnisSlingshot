@@ -28,10 +28,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 971
-permalink: "https://blog.nxtmt.ventures/2026/10/21/why-does-the-slingshot-have-3-wheels/"
+permalink: "http://localhost:8882/2026/10/21/why-does-the-slingshot-have-3-wheels/"
 guid: "https://blog.nxtmt.ventures/?p=971"
 commentCount: 0
-wordCount: 437
+wordCount: 448
 readingTime: 3
 ---
 

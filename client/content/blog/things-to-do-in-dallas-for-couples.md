@@ -22,10 +22,10 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 989
-permalink: "https://blog.nxtmt.ventures/2026/10/30/things-to-do-in-dallas-for-couples/"
+permalink: "http://localhost:8882/2026/10/30/things-to-do-in-dallas-for-couples/"
 guid: "https://blog.nxtmt.ventures/?p=989"
 commentCount: 0
-wordCount: 268
+wordCount: 272
 readingTime: 2
 ---
 
