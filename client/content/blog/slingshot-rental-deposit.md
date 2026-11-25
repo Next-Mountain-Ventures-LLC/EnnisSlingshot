@@ -22,11 +22,11 @@ authorEmail: "josh@nextmountain.dev"
 authorUrl: "https://blog-nxtmt.mystagingwebsite.com"
 authorId: 1
 postId: 1006
-permalink: "https://blog.nxtmt.ventures/2026/11/18/slingshot-rental-deposit/"
+permalink: "http://localhost:8882/2026/11/18/slingshot-rental-deposit/"
 guid: "https://blog.nxtmt.ventures/?p=1006"
 commentCount: 0
-wordCount: 396
-readingTime: 2
+wordCount: 402
+readingTime: 3
 ---
 
 Deposits across the category range from $75 to $1,500 depending on the operator. Ours is $0. Here's what the terms actually mean and how to read any operator's fine print.
